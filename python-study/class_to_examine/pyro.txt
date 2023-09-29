@@ -1,0 +1,495 @@
+-------case--------pyro.poutine.runtime._EnumAllocator.next_available_dim
+{'missing', 'builtins.int'}
+ /home/user/pyro/pyro/poutine/runtime.py-allocate-121
+ /home/user/pyro/pyro/poutine/runtime.py-allocate-128
+
+
+-------case--------pyro.poutine.runtime._EnumAllocator.next_available_id
+{'missing', 'builtins.int'}
+ /home/user/pyro/pyro/poutine/runtime.py-allocate-119
+ /home/user/pyro/pyro/poutine/runtime.py-allocate-118
+
+
+-------case--------pyro.poutine.infer_config_messenger.InferConfigMessenger.config_fn
+{'builtins.function', 'functools.functools.partial'}
+
+
+-------case--------pyro.poutine.block_messenger.BlockMessenger.hide_fn
+{'builtins.function', 'functools.functools.partial'}
+
+
+-------case--------pyro.distributions.conjugate.DirichletMultinomial._batch_shape
+{'builtins.tuple', 'torch.torch.Size'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/distribution.py-_validate_sample-285
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/distribution.py-batch_shape-97
+
+
+-------case--------pyro.distributions.transforms.cholesky.CholeskyTransform._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.transforms.cholesky.CorrMatrixCholeskyTransform._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.transforms.softplus.SoftplusLowerCholeskyTransform._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.transforms.unit_cholesky.UnitLowerCholeskyTransform._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.torch.Poisson._validate_args
+{'builtins.NoneType', 'builtins.bool'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/poisson.py-log_prob-66
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/poisson.py-expand-57
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/distribution.py-__init__-46
+
+
+-------case--------pyro.distributions.transforms.ordered.OrderedTransform._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.transforms.cholesky.CorrLCholeskyTransform._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.torch.Uniform._unbroadcasted_low
+{'torch.Tensor', 'builtins.int'}
+ /home/user/pyro/pyro/distributions/torch.py-support-334
+ /home/user/pyro/pyro/distributions/torch.py-expand-328
+
+
+-------case--------pyro.distributions.torch.Uniform._unbroadcasted_high
+{'torch.Tensor', 'builtins.int'}
+ /home/user/pyro/pyro/distributions/torch.py-support-334
+ /home/user/pyro/pyro/distributions/torch.py-expand-329
+
+
+-------case--------pyro.distributions.torch.Independent._batch_shape
+{'builtins.tuple', 'torch.torch.Size'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/distribution.py-batch_shape-97
+
+
+-------case--------pyro.distributions.torch.Independent._event_shape
+{'builtins.tuple', 'torch.torch.Size'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/distribution.py-event_shape-104
+
+
+-------case--------pyro.distributions.torch.NegativeBinomial._validate_args
+{'builtins.bool', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/negative_binomial.py-log_prob-96
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/negative_binomial.py-expand-53
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/distribution.py-__init__-46
+
+
+-------case--------pyro.distributions.torch_distribution.ExpandedDistribution._batch_shape
+{'builtins.tuple', 'torch.torch.Size'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/distribution.py-batch_shape-97
+
+
+-------case--------pyro.distributions.hmm.DiscreteHMM._duration
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/pyro/pyro/distributions/hmm.py-duration-222
+
+
+-------case--------pyro.poutine.trace_struct.Trace.plate_to_symbol
+{'builtins.dict', 'missing'}
+ /home/user/pyro/pyro/infer/traceenum_elbo.py-_get_trace-363
+
+
+-------case--------pyro.poutine.trace_struct.Trace.symbol_to_dim
+{'builtins.dict', 'missing'}
+
+
+-------case--------pyro.poutine.trace_struct.Trace._sharing_cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------pyro.poutine.trace_messenger.TraceHandler.fn
+{'pyro.poutine.messenger._bound_partial', 'builtins.function', 'pyro.infer.autoguide.guides.AutoNormal'}
+ /home/user/pyro/pyro/poutine/trace_messenger.py-__call__-174
+
+
+-------case--------pyro.poutine.trace_messenger.TraceHandler.__name__
+{'builtins.str', 'missing'}
+
+
+-------case--------pyro.poutine.trace_messenger.TraceHandler.__qualname__
+{'builtins.str', 'missing'}
+
+
+-------case--------pyro.poutine.trace_messenger.TraceHandler.__doc__
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------pyro.poutine.trace_messenger.TraceHandler.__annotations__
+{'builtins.dict', 'missing'}
+
+
+-------case--------pyro.poutine.trace_messenger.TraceHandler.__wrapped__
+{'builtins.function', 'pyro.poutine.messenger._bound_partial', 'missing', 'pyro.infer.autoguide.guides.AutoNormal'}
+
+
+-------case--------pyro.poutine.enum_messenger.EnumMessenger.first_available_dim
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/pyro/pyro/poutine/enum_messenger.py-__enter__-143
+ /home/user/pyro/pyro/poutine/enum_messenger.py-__enter__-142
+
+
+-------case--------pyro.poutine.enum_messenger.EnumMessenger._markov_depths
+{'builtins.dict', 'missing'}
+
+
+-------case--------pyro.distributions.hmm.GaussianHMM._event_shape
+{'builtins.tuple', 'torch.torch.Size'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/distribution.py-_validate_sample-280
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/distribution.py-_validate_sample-285
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/distribution.py-event_shape-104
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/distribution.py-_validate_sample-279
+
+
+-------case--------pyro.ops.gaussian.AffineNormal._gaussian
+{'builtins.NoneType', 'pyro.ops.gaussian.Gaussian'}
+ /home/user/pyro/pyro/ops/gaussian.py-to_gaussian-373
+ /home/user/pyro/pyro/ops/gaussian.py-to_gaussian-379
+
+
+-------case--------pyro.distributions.hmm.GammaGaussianHMM._duration
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/pyro/pyro/distributions/hmm.py-duration-222
+
+
+-------case--------pyro.distributions.hmm.LinearHMM._event_shape
+{'builtins.tuple', 'torch.torch.Size'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/distribution.py-event_shape-104
+
+
+-------case--------pyro.distributions.improper_uniform.ImproperUniform._support
+{'torch.distributions.constraints._GreaterThan', 'torch.distributions.constraints._Real', 'torch.distributions.constraints._Interval'}
+
+
+-------case--------pyro.distributions.torch.TransformedDistribution.base_dist
+{'pyro.distributions.torch.Independent', 'pyro.distributions.torch.Normal', 'torch.distributions.independent.Independent'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transformed_distribution.py-expand-91
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transformed_distribution.py-log_prob-154
+ /home/user/pyro/tests/distributions/test_util.py-test_detach_transformed-200
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transformed_distribution.py-log_prob-153
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/kl.py-_kl_transformed_transformed-442
+ /home/user/pyro/tests/distributions/test_util.py-test_detach_transformed-201
+ /home/user/pyro/tests/distributions/test_util.py-test_deep_to_transformed-300
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transformed_distribution.py-rsample-131
+ /home/user/pyro/tests/distributions/test_util.py-test_detach_transformed-198
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transformed_distribution.py-expand-92
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transformed_distribution.py-sample-119
+ /home/user/pyro/tests/distributions/test_util.py-test_deep_to_transformed-303
+ /home/user/pyro/tests/distributions/test_util.py-test_deep_to_transformed-302
+
+
+-------case--------pyro.distributions.torch_distribution.MaskedDistribution._mask
+{'builtins.bool', 'torch.Tensor'}
+ /home/user/pyro/pyro/distributions/torch_distribution.py-_kl_masked_masked-516
+ /home/user/pyro/pyro/distributions/torch_distribution.py-_kl_masked_masked-514
+ /home/user/pyro/pyro/distributions/torch_distribution.py-log_prob-345
+ /home/user/pyro/pyro/distributions/torch_distribution.py-log_prob-352
+ /home/user/pyro/pyro/distributions/torch_distribution.py-_kl_masked_masked-518
+ /home/user/pyro/pyro/distributions/torch_distribution.py-_kl_masked_masked-521
+ /home/user/pyro/pyro/distributions/torch_distribution.py-log_prob-350
+ /home/user/pyro/pyro/distributions/torch_distribution.py-_kl_masked_masked-523
+ /home/user/pyro/pyro/distributions/torch_distribution.py-score_parts-357
+ /home/user/pyro/pyro/distributions/torch_distribution.py-score_parts-355
+ /home/user/pyro/pyro/distributions/torch_distribution.py-_kl_masked_masked-517
+ /home/user/pyro/pyro/distributions/torch_distribution.py-_kl_masked_masked-520
+ /home/user/pyro/pyro/distributions/torch_distribution.py-expand-317
+ /home/user/pyro/pyro/distributions/torch_distribution.py-_kl_masked_masked-519
+
+
+-------case--------pyro.infer.autoguide.guides.AutoNormal.plates
+{'builtins.dict', 'missing'}
+ /home/user/pyro/pyro/infer/autoguide/guides.py-_create_plates-150
+
+
+-------case--------pyro.infer.svi.SVI.guide
+{'builtins.function', 'pyro.infer.autoguide.guides.AutoNormal'}
+ /home/user/pyro/pyro/infer/svi.py-step-145
+
+
+-------case--------pyro.primitives.plate._vectorized
+{'builtins.NoneType', 'builtins.bool'}
+ /home/user/pyro/pyro/poutine/indep_messenger.py-__enter__-88
+ /home/user/pyro/pyro/poutine/indep_messenger.py-__exit__-94
+ /home/user/pyro/pyro/poutine/indep_messenger.py-__enter__-85
+ /home/user/pyro/pyro/poutine/plate_messenger.py-__enter__-23
+
+
+-------case--------pyro.primitives.plate._indices
+{'builtins.NoneType', 'torch.Tensor'}
+ /home/user/pyro/pyro/poutine/indep_messenger.py-indices-123
+ /home/user/pyro/pyro/poutine/indep_messenger.py-indices-121
+ /home/user/pyro/pyro/poutine/subsample_messenger.py-__init__-92
+ /home/user/pyro/pyro/poutine/plate_messenger.py-__enter__-23
+
+
+-------case--------pyro.primitives.plate.dim
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/pyro/pyro/poutine/subsample_messenger.py-_process_message-152
+ /home/user/pyro/pyro/poutine/indep_messenger.py-__enter__-89
+ /home/user/pyro/pyro/poutine/indep_messenger.py-__exit__-95
+
+
+-------case--------pyro.distributions.transforms.softplus.SoftplusTransform._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.transforms.softplus.SoftplusTransform._cached_x_y
+{'missing', 'builtins.tuple'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-_inv_call-166
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-__call__-153
+
+
+-------case--------pyro.distributions.one_one_matching.OneOneMatching.bp_iters
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/pyro/pyro/distributions/one_one_matching.py-log_partition_function-101
+ /home/user/pyro/pyro/distributions/one_one_matching.py-sample-143
+ /home/user/pyro/pyro/distributions/one_one_matching.py-log_partition_function-116
+
+
+-------case--------pyro.distributions.one_two_matching.OneTwoMatching.bp_iters
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/pyro/pyro/distributions/one_two_matching.py-sample-152
+ /home/user/pyro/pyro/distributions/one_two_matching.py-log_partition_function-117
+ /home/user/pyro/pyro/distributions/one_two_matching.py-log_partition_function-102
+
+
+-------case--------pyro.distributions.polya_gamma.TruncatedPolyaGamma.prototype
+{'torch.Tensor', 'builtins.int'}
+ /home/user/pyro/pyro/distributions/polya_gamma.py-expand-53
+
+
+-------case--------pyro.distributions.transforms.affine_autoregressive.AffineAutoregressive._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.transforms.affine_autoregressive.AffineAutoregressive._cached_log_scale
+{'builtins.NoneType', 'torch.Tensor'}
+ /home/user/pyro/pyro/distributions/transforms/affine_autoregressive.py-log_abs_det_jacobian-184
+ /home/user/pyro/pyro/distributions/transforms/affine_autoregressive.py-log_abs_det_jacobian-185
+
+
+-------case--------pyro.distributions.transforms.affine_coupling.AffineCoupling._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.transforms.affine_coupling.AffineCoupling._cached_log_scale
+{'builtins.NoneType', 'torch.Tensor'}
+ /home/user/pyro/pyro/distributions/transforms/affine_coupling.py-log_abs_det_jacobian-177
+ /home/user/pyro/pyro/distributions/transforms/affine_coupling.py-log_abs_det_jacobian-178
+
+
+-------case--------pyro.distributions.transforms.affine_coupling.AffineCoupling.nn
+{'functools.functools.partial', 'missing'}
+
+
+-------case--------pyro.distributions.transforms.batchnorm.BatchNorm._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.transforms.block_autoregressive.BlockAutoregressive._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.transforms.block_autoregressive.BlockAutoregressive.residual
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/pyro/pyro/distributions/transforms/block_autoregressive.py-_call-160
+ /home/user/pyro/pyro/distributions/transforms/block_autoregressive.py-_call-163
+
+
+-------case--------pyro.distributions.transforms.basic.ELUTransform._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.transforms.basic.LeakyReLUTransform._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.transforms.householder.ConditionedHouseholder.parameters
+{'builtins.function', 'missing'}
+
+
+-------case--------pyro.distributions.transforms.matrix_exponential.ConditionedMatrixExponential.parameters
+{'builtins.function', 'missing'}
+
+
+-------case--------pyro.distributions.transforms.neural_autoregressive.NeuralAutoregressive._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.transforms.neural_autoregressive.NeuralAutoregressive.T
+{'pyro.distributions.transforms.basic.LeakyReLUTransform', 'torch.distributions.transforms.SigmoidTransform', 'torch.distributions.transforms.TanhTransform', 'pyro.distributions.transforms.basic.ELUTransform'}
+ /home/user/pyro/pyro/distributions/transforms/neural_autoregressive.py-_call-102
+ /home/user/pyro/pyro/distributions/transforms/neural_autoregressive.py-log_abs_det_jacobian-130
+
+
+-------case--------pyro.distributions.transforms.neural_autoregressive.NeuralAutoregressive._cached_log_df_inv_dx
+{'builtins.NoneType', 'torch.Tensor'}
+ /home/user/pyro/pyro/distributions/transforms/neural_autoregressive.py-log_abs_det_jacobian-132
+
+
+-------case--------pyro.distributions.transforms.neural_autoregressive.NeuralAutoregressive._cached_A
+{'builtins.NoneType', 'torch.Tensor'}
+ /home/user/pyro/pyro/distributions/transforms/neural_autoregressive.py-log_abs_det_jacobian-126
+
+
+-------case--------pyro.distributions.transforms.neural_autoregressive.NeuralAutoregressive._cached_W_pre
+{'builtins.NoneType', 'torch.Tensor'}
+ /home/user/pyro/pyro/distributions/transforms/neural_autoregressive.py-log_abs_det_jacobian-127
+
+
+-------case--------pyro.distributions.transforms.neural_autoregressive.NeuralAutoregressive._cached_C
+{'builtins.NoneType', 'torch.Tensor'}
+ /home/user/pyro/pyro/distributions/transforms/neural_autoregressive.py-log_abs_det_jacobian-128
+
+
+-------case--------pyro.distributions.transforms.neural_autoregressive.NeuralAutoregressive._cached_T_C
+{'builtins.NoneType', 'torch.Tensor'}
+ /home/user/pyro/pyro/distributions/transforms/neural_autoregressive.py-log_abs_det_jacobian-129
+
+
+-------case--------pyro.distributions.transforms.planar.ConditionedPlanar._cached_logDetJ
+{'builtins.NoneType', 'torch.Tensor'}
+ /home/user/pyro/pyro/distributions/transforms/planar.py-log_abs_det_jacobian-91
+
+
+-------case--------pyro.distributions.transforms.planar.ConditionedPlanar.parameters
+{'builtins.function', 'missing'}
+
+
+-------case--------pyro.distributions.transforms.radial.ConditionedRadial._cached_logDetJ
+{'builtins.NoneType', 'torch.Tensor'}
+ /home/user/pyro/pyro/distributions/transforms/radial.py-log_abs_det_jacobian-90
+
+
+-------case--------pyro.distributions.transforms.radial.ConditionedRadial.parameters
+{'builtins.function', 'missing'}
+
+
+-------case--------pyro.distributions.transforms.spline.ConditionedSpline._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.transforms.spline.ConditionedSpline._cache_log_detJ
+{'builtins.NoneType', 'torch.Tensor'}
+ /home/user/pyro/pyro/distributions/transforms/spline_coupling.py-_call-121
+ /home/user/pyro/pyro/distributions/transforms/spline.py-log_abs_det_jacobian-348
+ /home/user/pyro/pyro/distributions/transforms/spline_autoregressive.py-_inverse-117
+ /home/user/pyro/pyro/distributions/transforms/spline_autoregressive.py-_call-98
+ /home/user/pyro/pyro/distributions/transforms/spline_coupling.py-_inverse-147
+
+
+-------case--------pyro.distributions.transforms.spline.ConditionedSpline.parameters
+{'builtins.function', 'missing'}
+
+
+-------case--------pyro.distributions.transforms.spline_autoregressive.SplineAutoregressive._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.transforms.discrete_cosine.DiscreteCosineTransform._weight_cache
+{'builtins.NoneType', 'torch.Tensor'}
+ /home/user/pyro/pyro/distributions/transforms/discrete_cosine.py-_weight-58
+ /home/user/pyro/pyro/distributions/transforms/discrete_cosine.py-_weight-64
+
+
+-------case--------pyro.distributions.transforms.householder.Householder._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.transforms.matrix_exponential.MatrixExponential._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.transforms.planar.Planar._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.transforms.planar.Planar._cached_logDetJ
+{'builtins.NoneType', 'torch.Tensor'}
+ /home/user/pyro/pyro/distributions/transforms/planar.py-log_abs_det_jacobian-91
+
+
+-------case--------pyro.distributions.transforms.polynomial.Polynomial._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.transforms.polynomial.Polynomial._cached_logDetJ
+{'builtins.NoneType', 'torch.Tensor'}
+ /home/user/pyro/pyro/distributions/transforms/polynomial.py-log_abs_det_jacobian-167
+
+
+-------case--------pyro.distributions.transforms.radial.Radial._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.transforms.radial.Radial._cached_logDetJ
+{'builtins.NoneType', 'torch.Tensor'}
+ /home/user/pyro/pyro/distributions/transforms/radial.py-log_abs_det_jacobian-90
+
+
+-------case--------pyro.distributions.transforms.spline.Spline._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.transforms.spline.Spline._cache_log_detJ
+{'builtins.NoneType', 'torch.Tensor'}
+ /home/user/pyro/pyro/distributions/transforms/spline.py-log_abs_det_jacobian-348
+ /home/user/pyro/pyro/distributions/transforms/spline_coupling.py-_call-115
+ /home/user/pyro/pyro/distributions/transforms/spline_coupling.py-_inverse-141
+
+
+-------case--------pyro.distributions.transforms.spline_coupling.SplineCoupling._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.transforms.sylvester.Sylvester._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118
+
+
+-------case--------pyro.distributions.transforms.sylvester.Sylvester._cached_logDetJ
+{'builtins.NoneType', 'torch.Tensor'}
+ /home/user/pyro/pyro/distributions/transforms/sylvester.py-log_abs_det_jacobian-157
+
+
+-------case--------pyro.distributions.torch_transform.ComposeTransformModule._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-335
+
+
+-------case--------pyro.distributions.torch_transform.ComposeTransformModule._cached_x_y
+{'missing', 'builtins.tuple'}
+
+

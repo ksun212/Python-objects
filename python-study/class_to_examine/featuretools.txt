@@ -1,0 +1,171 @@
+-------case--------featuretools.entityset.entityset.EntitySet.id
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/featuretools/featuretools/tests/entityset_tests/test_es.py-dd_normalize_es-1617
+ /home/user/featuretools/featuretools/tests/conftest.py-dask_home_games_es-412
+ /home/user/featuretools/featuretools/entityset/entityset.py-_add_references_to_metadata-1821
+ /home/user/featuretools/featuretools/entityset/serialize.py-entityset_to_description-41
+ /home/user/featuretools/featuretools/tests/entityset_tests/test_ww_es.py-test_init_es_with_dataframe-57
+ /home/user/featuretools/featuretools/entityset/entityset.py-_add_references_to_metadata-1817
+ /home/user/featuretools/featuretools/entityset/entityset.py-__repr__-297
+ /home/user/featuretools/featuretools/tests/entityset_tests/test_ww_es.py-test_init_es_with_woodwork_table_same_name-70
+ /home/user/featuretools/featuretools/entityset/entityset.py-_add_references_to_metadata-1822
+ /home/user/featuretools/featuretools/entityset/entityset.py-__eq__-127
+ /home/user/featuretools/featuretools/tests/entityset_tests/test_ww_es.py-test_init_es_with_dataframe_and_params-98
+ /home/user/featuretools/featuretools/tests/conftest.py-dask_diamond_es-263
+ /home/user/featuretools/featuretools/tests/entityset_tests/test_ww_es.py-test_empty_es-26
+ /home/user/featuretools/featuretools/tests/entityset_tests/test_es.py-dask_es_to_copy-2382
+ /home/user/featuretools/featuretools/entityset/entityset.py-__getitem__-160
+ /home/user/featuretools/featuretools/tests/entityset_tests/test_es.py-test_construct_without_id-1816
+ /home/user/featuretools/featuretools/tests/entityset_tests/test_es.py-test_metadata_without_id-1832
+ /home/user/featuretools/featuretools/entityset/entityset.py-__init__-118
+ /home/user/featuretools/featuretools/tests/conftest.py-divide_by_zero_es_dask-717
+
+
+-------case--------featuretools.entityset.entityset.EntitySet.time_type
+{'woodwork.logical_types.LogicalTypeMetaClass', 'builtins.NoneType', 'builtins.str'}
+ /home/user/featuretools/featuretools/tests/entityset_tests/test_es.py-test_sets_time_when_adding_dataframe-1367
+ /home/user/featuretools/featuretools/tests/entityset_tests/test_ww_es.py-test_datetime_es_last_time_index_logical_type-474
+ /home/user/featuretools/featuretools/tests/entityset_tests/test_es.py-test_checks_time_type_setting_secondary_time_index-1465
+ /home/user/featuretools/featuretools/tests/entityset_tests/test_es.py-test_checks_time_type_setting_secondary_time_index-1412
+ /home/user/featuretools/featuretools/tests/entityset_tests/test_es.py-test_checks_time_type_setting_secondary_time_index-1419
+ /home/user/featuretools/featuretools/entityset/entityset.py-__eq__-129
+ /home/user/featuretools/featuretools/computational_backends/calculate_feature_matrix.py-calculate_feature_matrix-203
+ /home/user/featuretools/featuretools/tests/entityset_tests/test_es.py-test_checks_time_type_setting_secondary_time_index-1461
+ /home/user/featuretools/featuretools/entityset/entityset.py-_check_uniform_time_index-1794
+ /home/user/featuretools/featuretools/tests/entityset_tests/test_ww_es.py-test_add_time_index_through_woodwork_different_type-286
+ /home/user/featuretools/featuretools/tests/entityset_tests/test_ww_es.py-test_init_with_mismatched_time_types-306
+ /home/user/featuretools/featuretools/entityset/entityset.py-_check_uniform_time_index-1796
+ /home/user/featuretools/featuretools/entityset/entityset.py-add_last_time_indexes-1300
+ /home/user/featuretools/featuretools/computational_backends/calculate_feature_matrix.py-calculate_feature_matrix-230
+ /home/user/featuretools/featuretools/computational_backends/calculate_feature_matrix.py-calculate_chunk-413
+ /home/user/featuretools/featuretools/tests/entityset_tests/test_ww_es.py-test_numeric_es_last_time_index_logical_type-464
+ /home/user/featuretools/featuretools/tests/entityset_tests/test_es.py-test_sets_time_when_adding_dataframe-1363
+ /home/user/featuretools/featuretools/tests/entityset_tests/test_es.py-test_set_time_type_on_init-1317
+ /home/user/featuretools/featuretools/tests/entityset_tests/test_ww_es.py-test_empty_es-29
+
+
+-------case--------featuretools.entityset.entityset.EntitySet._data_description
+{'builtins.NoneType', 'featuretools.entityset.entityset.EntitySet'}
+ /home/user/featuretools/featuretools/entityset/entityset.py-metadata-208
+ /home/user/featuretools/featuretools/entityset/entityset.py-metadata-204
+ /home/user/featuretools/featuretools/tests/entityset_tests/test_es.py-test_concat_inplace-1088
+
+
+-------case--------featuretools.feature_base.feature_base.IdentityFeature._name
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/featuretools/featuretools/feature_base/feature_base.py-get_name-100
+ /home/user/featuretools/featuretools/feature_base/feature_base.py-get_name-98
+
+
+-------case--------featuretools.feature_base.feature_base.IdentityFeature._names
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/featuretools/featuretools/feature_base/feature_base.py-get_feature_names-103
+ /home/user/featuretools/featuretools/feature_base/feature_base.py-get_feature_names-113
+
+
+-------case--------featuretools.feature_base.feature_base.TransformFeature._name
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/featuretools/featuretools/feature_base/feature_base.py-get_name-100
+ /home/user/featuretools/featuretools/feature_base/feature_base.py-get_name-98
+
+
+-------case--------featuretools.feature_base.feature_base.TransformFeature._names
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/featuretools/featuretools/feature_base/feature_base.py-get_feature_names-103
+ /home/user/featuretools/featuretools/feature_base/feature_base.py-get_feature_names-113
+
+
+-------case--------featuretools.computational_backends.feature_set.FeatureSet._feature_trie
+{'builtins.NoneType', 'featuretools.utils.trie.Trie'}
+ /home/user/featuretools/featuretools/computational_backends/feature_set.py-feature_trie-86
+ /home/user/featuretools/featuretools/computational_backends/feature_set.py-feature_trie-83
+
+
+-------case--------featuretools.utils.trie.Trie.value
+{'dask.dataframe.core.DataFrame', 'builtins.tuple', 'builtins.set', 'builtins.list', 'builtins.NoneType', 'pandas.core.frame.DataFrame'}
+ /home/user/featuretools/featuretools/computational_backends/feature_set_calculator.py-_calculate_direct_features-622
+ /home/user/featuretools/featuretools/tests/computational_backend/test_feature_set.py-test_feature_trie_with_needs_full_dataframe-110
+ /home/user/featuretools/featuretools/tests/computational_backend/test_feature_set.py-test_feature_trie_without_needs_full_dataframe-74
+ /home/user/featuretools/featuretools/tests/computational_backend/test_feature_set.py-test_feature_trie_with_needs_full_dataframe_direct-156
+ /home/user/featuretools/featuretools/tests/computational_backend/test_feature_set.py-test_feature_trie_with_needs_full_dataframe_direct-153
+ /home/user/featuretools/featuretools/tests/computational_backend/test_feature_set_calculator.py-test_precalculated_features-1265
+ /home/user/featuretools/featuretools/computational_backends/feature_set.py-_add_feature_to_trie-137
+ /home/user/featuretools/featuretools/tests/computational_backend/test_feature_set.py-test_feature_trie_with_needs_full_dataframe-115
+ /home/user/featuretools/featuretools/computational_backends/feature_set.py-_add_feature_to_trie-121
+ /home/user/featuretools/featuretools/computational_backends/feature_set.py-_add_feature_to_trie-113
+ /home/user/featuretools/featuretools/tests/computational_backend/test_feature_set.py-test_feature_trie_with_needs_full_dataframe_direct-140
+ /home/user/featuretools/featuretools/tests/computational_backend/test_feature_set.py-test_feature_trie_without_needs_full_dataframe-62
+ /home/user/featuretools/featuretools/tests/computational_backend/test_feature_set.py-test_feature_trie_ignores_approximate_features-186
+ /home/user/featuretools/featuretools/tests/computational_backend/test_feature_set.py-test_feature_trie_with_needs_full_dataframe-126
+ /home/user/featuretools/featuretools/tests/computational_backend/test_feature_set.py-test_feature_trie_without_needs_full_dataframe-56
+ /home/user/featuretools/featuretools/tests/computational_backend/test_feature_set.py-test_feature_trie_with_needs_full_dataframe-121
+ /home/user/featuretools/featuretools/computational_backends/feature_set_calculator.py-run-135
+ /home/user/featuretools/featuretools/tests/computational_backend/test_feature_set.py-test_feature_trie_without_needs_full_dataframe-69
+ /home/user/featuretools/featuretools/tests/computational_backend/test_feature_set.py-test_feature_trie_with_needs_full_dataframe-120
+ /home/user/featuretools/featuretools/tests/computational_backend/test_feature_set.py-test_feature_trie_with_needs_full_dataframe_direct-146
+ /home/user/featuretools/featuretools/tests/computational_backend/test_feature_set.py-test_feature_trie_ignores_approximate_features-187
+ /home/user/featuretools/featuretools/computational_backends/feature_set_calculator.py-_calculate_features_for_dataframe-332
+ /home/user/featuretools/featuretools/utils/trie.py-__iter__-99
+ /home/user/featuretools/featuretools/tests/computational_backend/test_feature_set.py-test_feature_trie_with_needs_full_dataframe_direct-158
+ /home/user/featuretools/featuretools/computational_backends/feature_set_calculator.py-_calculate_agg_features-680
+ /home/user/featuretools/featuretools/computational_backends/utils.py-gather_approximate_features-113
+ /home/user/featuretools/featuretools/computational_backends/feature_set_calculator.py-_calculate_features_for_dataframe-234
+ /home/user/featuretools/featuretools/tests/computational_backend/test_feature_set.py-test_feature_trie_without_needs_full_dataframe-68
+ /home/user/featuretools/featuretools/tests/computational_backend/test_feature_set.py-test_feature_trie_without_needs_full_dataframe-57
+
+
+-------case--------featuretools.utils.trie.Trie._default
+{'builtins.function', 'builtins.type'}
+ /home/user/featuretools/featuretools/utils/trie.py-get_node-84
+
+
+-------case--------featuretools.computational_backends.feature_set_calculator.FeatureSetCalculator.time_last
+{'datetime.datetime.datetime', 'pandas._libs.tslibs.timestamps.Timestamp'}
+ /home/user/featuretools/featuretools/computational_backends/feature_set_calculator.py-_calculate_agg_features-724
+ /home/user/featuretools/featuretools/computational_backends/feature_set_calculator.py-_calculate_agg_features-792
+ /home/user/featuretools/featuretools/computational_backends/feature_set_calculator.py-_calculate_features_for_dataframe-252
+
+
+-------case--------featuretools.feature_base.feature_base.AggregationFeature._name
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/featuretools/featuretools/feature_base/feature_base.py-get_name-100
+ /home/user/featuretools/featuretools/feature_base/feature_base.py-get_name-98
+
+
+-------case--------featuretools.feature_base.feature_base.AggregationFeature._names
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/featuretools/featuretools/feature_base/feature_base.py-get_feature_names-103
+ /home/user/featuretools/featuretools/feature_base/feature_base.py-get_feature_names-113
+
+
+-------case--------featuretools.feature_base.feature_base.DirectFeature._name
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/featuretools/featuretools/feature_base/feature_base.py-get_name-100
+ /home/user/featuretools/featuretools/feature_base/feature_base.py-get_name-98
+
+
+-------case--------featuretools.feature_base.feature_base.DirectFeature._names
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/featuretools/featuretools/feature_base/feature_base.py-get_feature_names-103
+ /home/user/featuretools/featuretools/feature_base/feature_base.py-get_feature_names-113
+
+
+-------case--------featuretools.primitives.standard.transform.binary.equal_scalar.EqualScalar.value
+{'builtins.int', 'builtins.str', 'builtins.float'}
+ /home/user/featuretools/featuretools/primitives/standard/transform/binary/equal_scalar.py-__init__-28
+ /home/user/featuretools/featuretools/primitives/standard/transform/binary/equal_scalar.py-equal_scalar-32
+ /home/user/featuretools/featuretools/primitives/standard/transform/binary/equal_scalar.py-generate_name-37
+
+
+-------case--------featuretools.feature_base.feature_base.GroupByTransformFeature._name
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/featuretools/featuretools/feature_base/feature_base.py-get_name-100
+ /home/user/featuretools/featuretools/feature_base/feature_base.py-get_name-98
+
+
+-------case--------featuretools.feature_base.feature_base.GroupByTransformFeature._names
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/featuretools/featuretools/feature_base/feature_base.py-get_feature_names-103
+ /home/user/featuretools/featuretools/feature_base/feature_base.py-get_feature_names-113
+
+

@@ -1,0 +1,7 @@
+pyro.distributions.hmm.GammaGaussianHMM._event_shape
+{'torch.torch.Size', 'builtins.tuple'}
+ /home/user/pyro/pyro/distributions/hmm.py-_validate_sample-235
+        new = torch.Size((duration,)) + self._event_shape[1:]
+
+check: 1
+safe: 1

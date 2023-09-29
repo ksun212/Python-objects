@@ -1,0 +1,6 @@
+torch.jit._script.OrderedDictWrapper._c
+{'torch.torch._C.ParameterDict', 'torch.torch._C.BufferDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/jit/_script.py-__contains__-207
+        return self._c.contains(k)
+check: 1
+safe: 1

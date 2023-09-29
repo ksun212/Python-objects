@@ -1,0 +1,286 @@
+-------case--------click.core.Option.callback
+{'builtins.function', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-process_value-2321
+
+
+-------case--------click.core.Option.envvar
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-to_info_dict-2156
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-resolve_envvar_value-2327
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-resolve_envvar_value-2330
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-get_help_record-2718
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-resolve_envvar_value-2331
+
+
+-------case--------click.core.Option.prompt
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-__init__-2515
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-prompt_for_value-2840
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-__init__-2565
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-consume_value-2915
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-prompt_for_value-2832
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-to_info_dict-2590
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-consume_value-2896
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-prompt_for_value-2843
+
+
+-------case--------click.core.Option.confirmation_prompt
+{'builtins.str', 'builtins.bool'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-prompt_for_value-2848
+
+
+-------case--------click.core.Option.flag_value
+{'builtins.int', 'builtins.str', 'builtins.bool'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-to_info_dict-2592
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-add_to_parser-2679
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-<listcomp>-2908
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-consume_value-2900
+
+
+-------case--------click.core.Option.help
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-to_info_dict-2589
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-get_help_record-2714
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-<genexpr>-1433
+
+
+-------case--------click.core.Option.show_default
+{'builtins.str', 'builtins.bool', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-get_help_record-2751
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-get_help_record-2760
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-get_help_record-2750
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-get_help_record-2754
+
+
+-------case--------click.types.Path.type
+{'builtins.type', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-coerce_path_result-831
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-coerce_path_result-833
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-coerce_path_result-830
+
+
+-------case--------click.core.Command.callback
+{'builtins.function', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-invoke-1404
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-invoke-737
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-invoke-742
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-invoke-1403
+
+
+-------case--------click.core.Command.help
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-format_help_text-1336
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-get_short_help_str-1308
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-get_short_help_str-1307
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-to_info_dict-1211
+
+
+-------case--------click.core.Command.short_help
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-get_short_help_str-1305
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-to_info_dict-1213
+
+
+-------case--------click.core.Command.__doc__
+{'builtins.NoneType', 'builtins.str'}
+
+
+-------case--------click.core.Argument.default
+{'builtins.str', 'builtins.tuple', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-__init__-2953
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-to_info_dict-2155
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-get_default-2226
+
+
+-------case--------click.core.Argument.metavar
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-make_metavar-2964
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-make_metavar-2963
+
+
+-------case--------click.core.Argument.envvar
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-to_info_dict-2156
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-resolve_envvar_value-2327
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-resolve_envvar_value-2331
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-resolve_envvar_value-2330
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/parser.py-process-236
+
+
+-------case--------click.core.Argument._custom_shell_complete
+{'builtins.function', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-shell_complete-2396
+
+
+-------case--------click.core.Group.name
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-_check_multicommand-87
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-_make_sub_context-707
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-__repr__-876
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/testing.py-get_default_prog_name-195
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-add_command-1806
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-<dictcomp>-1797
+ /home/user/click/tests/test_shell_completion.py-_get_completions-15
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-_check_multicommand-83
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-to_info_dict-873
+
+
+-------case--------click.core.Group.callback
+{'builtins.function', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-invoke-1404
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-invoke-1403
+
+
+-------case--------click.core.Group.help
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-format_help_text-1336
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-get_short_help_str-1307
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-to_info_dict-1211
+
+
+-------case--------click.core.Group._result_callback
+{'builtins.function', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-_process_result-1625
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-_process_result-1626
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-decorator-1565
+
+
+-------case--------click.core.Group.__doc__
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------click.types.IntRange.min
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-convert-458
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-convert-449
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-_describe_range-492
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-to_info_dict-435
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-get_help_record-2782
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-_describe_range-496
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-_describe_range-486
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-convert-451
+
+
+-------case--------click.types.IntRange.max
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-to_info_dict-436
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-_describe_range-488
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-convert-452
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-get_help_record-2782
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-_describe_range-496
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-convert-454
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-_describe_range-490
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-convert-461
+
+
+-------case--------click.types.FloatRange.min
+{'builtins.float', 'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-convert-449
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-_describe_range-492
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-convert-458
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-to_info_dict-435
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-_describe_range-486
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-convert-451
+
+
+-------case--------click.types.FloatRange.max
+{'builtins.int', 'builtins.float', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-to_info_dict-436
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-_describe_range-488
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-convert-452
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-convert-454
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-_describe_range-490
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-convert-461
+
+
+-------case--------click.types.File.lazy
+{'builtins.bool', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-resolve_lazy_flag-688
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-resolve_lazy_flag-687
+
+
+-------case--------click.core.Context.invoked_subcommand
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/click/tests/test_commands.py-cli-273
+
+
+-------case--------click.core.Context.terminal_width
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-__init__-329
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-make_formatter-541
+
+
+-------case--------click.core.Context.token_normalize_func
+{'builtins.function', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-resolve_command-1702
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/types.py-convert-277
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-__init__-382
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/parser.py-normalize_opt-119
+
+
+-------case--------click.core.Context.auto_envvar_prefix
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-__init__-405
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-resolve_envvar_value-2863
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-get_help_record-2723
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-to_info_dict-450
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-__init__-401
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-get_help_record-2726
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-resolve_envvar_value-2860
+
+
+-------case--------click.core.Context.show_default
+{'builtins.bool', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-get_help_record-2756
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-get_help_record-2755
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-__init__-422
+
+
+-------case--------click.parser.Option.dest
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/parser.py-process-207
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/parser.py-process-201
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/parser.py-process-203
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/parser.py-process-199
+
+
+-------case--------click.parser.Option.const
+{'builtins.str', 'builtins.bool', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/parser.py-process-201
+
+
+-------case--------click.testing.Result.return_value
+{'builtins.tuple', 'click.core.ParameterSource', 'builtins.NoneType', 'builtins.str', 'builtins.dict', 'pathlib.PosixPath', 'builtins.bool', 'builtins.bytes'}
+ /home/user/click/tests/test_options.py-test_multiple_option_with_optional_value-876
+ /home/user/click/tests/test_types.py-test_cast_multi_default-84
+ /home/user/click/tests/test_commands.py-test_other_command_invoke_with_defaults-266
+ /home/user/click/tests/test_termui.py-test_confirmation_prompt-445
+ /home/user/click/tests/test_context.py-test_parameter_source-367
+ /home/user/click/tests/test_types.py-test_path_type-104
+ /home/user/click/tests/test_arguments.py-test_nargs_envvar_only_if_values_empty-207
+ /home/user/click/tests/test_options.py-test_option_with_optional_value-857
+ /home/user/click/tests/test_termui.py-test_prompt_required_false-419
+ /home/user/click/tests/test_basic.py-test_boolean_flag-234
+ /home/user/click/tests/test_arguments.py-test_nargs_envvar_only_if_values_empty-204
+ /home/user/click/tests/test_context.py-test_make_pass_meta_decorator-167
+ /home/user/click/tests/test_basic.py-test_boolean_switch-219
+ /home/user/click/tests/test_testing.py-test_command_standalone_mode_returns_value-381
+ /home/user/click/tests/test_arguments.py-test_nargs_envvar-194
+
+
+-------case--------click.shell_completion.ShellComplete.cli
+{'click.core.Group', 'click.core.Command'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/shell_completion.py-get_completions-271
+
+
+-------case--------click.shell_completion.BashComplete.cli
+{'click.core.Group', 'click.core.Command'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/shell_completion.py-get_completions-271
+
+
+-------case--------click.utils.KeepOpenFile._file
+{'_io._io.TextIOWrapper', 'click._compat._NonClosingTextIOWrapper', 'click.testing._NamedTextIOWrapper'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/utils.py-__getattr__-190
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/utils.py-__iter__-202
+
+

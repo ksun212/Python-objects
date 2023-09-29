@@ -1,0 +1,451 @@
+-------case--------stanza.models.tokenization.trainer.Trainer.lexicon
+{'builtins.NoneType', 'builtins.set'}
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_dictionary-162
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_dictionary-157
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_dictionary-160
+ /home/user/stanza/stanza/models/tokenization/trainer.py-load-96
+ /home/user/stanza/stanza/models/tokenization/trainer.py-load-97
+
+
+-------case--------stanza.models.tokenization.trainer.Trainer.dictionary
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_dictionary-170
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_convert_units_raw_text-87
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_dictionary-158
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_convert_units_file-135
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_convert_units_file-126
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_convert_units_raw_text-91
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_dictionary_feats-177
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_dictionary-164
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_dictionary-166
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_convert_units_raw_text-96
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_utils.py-test_long_paragraph-89
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_dictionary-168
+ /home/user/stanza/stanza/pipeline/tokenize_processor.py-process-88
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_utils.py-test_long_paragraph-81
+ /home/user/stanza/stanza/models/mwt/utils.py-resplit_mwt-35
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_convert_units_file-145
+
+
+-------case--------stanza.models.tokenization.vocab.Vocab.data
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/stanza/stanza/models/tokenization/vocab.py-build_vocab-15
+
+
+-------case--------stanza.models.tokenization.vocab.Vocab._id2unit
+{'builtins.list', 'missing'}
+ /home/user/stanza/stanza/models/tokenization/vocab.py-build_vocab-23
+
+
+-------case--------stanza.models.common.seq2seq_model.Seq2SeqModel.pos_dropout
+{'builtins.int', 'builtins.float'}
+ /home/user/stanza/stanza/models/common/seq2seq_model.py-__init__-61
+
+
+-------case--------stanza.models.common.pretrain.Pretrain.filename
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/stanza/stanza/models/common/pretrain.py-load-57
+ /home/user/stanza/stanza/models/common/pretrain.py-load-54
+ /home/user/stanza/stanza/models/common/pretrain.py-load-56
+ /home/user/stanza/stanza/models/common/pretrain.py-load-73
+ /home/user/stanza/stanza/models/common/pretrain.py-load-81
+ /home/user/stanza/stanza/models/common/pretrain.py-load-82
+ /home/user/stanza/stanza/models/common/pretrain.py-load-72
+ /home/user/stanza/stanza/models/common/pretrain.py-load-71
+
+
+-------case--------stanza.models.common.pretrain.Pretrain._vec_filename
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/models/common/pretrain.py-load-70
+ /home/user/stanza/stanza/models/common/pretrain.py-read_pretrain-114
+ /home/user/stanza/stanza/models/common/pretrain.py-read_pretrain-115
+
+
+-------case--------stanza.models.common.pretrain.Pretrain._csv_filename
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/models/common/pretrain.py-load-70
+ /home/user/stanza/stanza/models/common/pretrain.py-read_pretrain-116
+ /home/user/stanza/stanza/models/common/pretrain.py-read_pretrain-117
+
+
+-------case--------stanza.models.common.pretrain.Pretrain._vocab
+{'stanza.models.common.pretrain.PretrainedWordVocab', 'missing'}
+ /home/user/stanza/stanza/models/common/pretrain.py-vocab-45
+
+
+-------case--------stanza.models.common.pretrain.Pretrain._emb
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/stanza/stanza/models/common/pretrain.py-emb-51
+
+
+-------case--------stanza.models.classifiers.data.SentimentDatum.sentiment
+{'builtins.str', 'builtins.int'}
+ /home/user/stanza/stanza/models/classifier.py-confusion_dataset-342
+ /home/user/stanza/stanza/models/classifiers/data.py-__eq__-28
+ /home/user/stanza/stanza/models/classifier.py-<listcomp>-510
+ /home/user/stanza/stanza/models/classifiers/data.py-_asdict-35
+ /home/user/stanza/stanza/models/classifiers/data.py-<listcomp>-95
+
+
+-------case--------stanza.models.classifiers.data.SentimentDatum.constituency
+{'builtins.NoneType', 'stanza.models.constituency.parse_tree.Tree'}
+ /home/user/stanza/stanza/models/classifiers/constituency_classifier.py-<listcomp>-58
+ /home/user/stanza/stanza/models/classifiers/data.py-__eq__-28
+ /home/user/stanza/stanza/tests/classifiers/test_data.py-test_read_data_with_trees-88
+ /home/user/stanza/stanza/models/classifiers/data.py-_asdict-34
+ /home/user/stanza/stanza/tests/classifiers/test_data.py-test_read_data_with_trees-89
+
+
+-------case--------stanza.models.classifiers.trainer.Trainer.optimizer
+{'builtins.NoneType', 'torch.optim.adadelta.Adadelta'}
+ /home/user/stanza/stanza/models/classifier.py-train_model-441
+ /home/user/stanza/stanza/models/classifiers/trainer.py-save-55
+ /home/user/stanza/stanza/models/classifiers/trainer.py-save-56
+
+
+-------case--------stanza.models.classifiers.trainer.Trainer.best_score
+{'builtins.NoneType', 'builtins.float'}
+ /home/user/stanza/stanza/models/classifiers/trainer.py-save-53
+ /home/user/stanza/stanza/models/classifier.py-train_model-552
+
+
+-------case--------stanza.models.constituency.tree_reader.TextTokenIterator.mark
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/stanza/stanza/models/constituency/tree_reader.py-get_mark-139
+ /home/user/stanza/stanza/models/constituency/tree_reader.py-get_mark-141
+
+
+-------case--------stanza.models.constituency.parse_tree.Tree.label
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/tests/constituency/test_parse_transitions.py-test_unary-111
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-remap_constituent_labels-451
+ /home/user/stanza/stanza/tests/constituency/test_parse_transitions.py-test_close-352
+ /home/user/stanza/stanza/tests/constituency/test_tree_reader.py-test_one_word-75
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-__format__-238
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-<lambda>-350
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-prune_none-507
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-<lambda>-381
+ /home/user/stanza/stanza/tests/constituency/test_parse_transitions.py-test_shift-78
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-remap_words-466
+ /home/user/stanza/stanza/tests/constituency/test_tree_reader.py-test_one_word-78
+ /home/user/stanza/stanza/tests/constituency/test_parse_transitions.py-test_compound_open-205
+ /home/user/stanza/stanza/models/constituency/lstm_model.py-<listcomp>-708
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-pretty_print-146
+ /home/user/stanza/stanza/models/constituency/transition_sequence.py-yield_in_order_sequence-73
+ /home/user/stanza/stanza/tests/constituency/test_parse_transitions.py-test_shift-76
+ /home/user/stanza/stanza/models/constituency/transition_sequence.py-yield_in_order_compound_sequence-125
+ /home/user/stanza/stanza/tests/constituency/test_parse_transitions.py-test_unary-114
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-__format__-244
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-remap_words-462
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-__format__-245
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-reverse-435
+ /home/user/stanza/stanza/tests/constituency/test_tree_reader.py-test_complicated-59
+ /home/user/stanza/stanza/tests/constituency/test_parse_transitions.py-test_compound_open-206
+ /home/user/stanza/stanza/tests/constituency/test_parse_transitions.py-test_unary-117
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-<lambda>-324
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-reverse-438
+ /home/user/stanza/stanza/models/constituency/transition_sequence.py-yield_top_down_sequence-47
+ /home/user/stanza/stanza/models/constituency/transition_sequence.py-yield_top_down_sequence-39
+ /home/user/stanza/stanza/models/constituency/base_model.py-<listcomp>-216
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-<listcomp>-87
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-prune_none-499
+ /home/user/stanza/stanza/tests/constituency/test_parse_transitions.py-test_shift-80
+ /home/user/stanza/stanza/models/constituency/lstm_model.py-<listcomp>-685
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-simplify_labels-420
+ /home/user/stanza/stanza/tests/constituency/test_parse_transitions.py-test_close-360
+ /home/user/stanza/stanza/tests/constituency/test_parse_transitions.py-test_in_order_compound_finalize-406
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-__format__-249
+ /home/user/stanza/stanza/models/constituency/transition_sequence.py-helper-90
+ /home/user/stanza/stanza/tests/constituency/test_parse_transitions.py-test_close-355
+ /home/user/stanza/stanza/tests/constituency/test_tree_reader.py-test_complicated-57
+ /home/user/stanza/stanza/tests/constituency/test_tree_reader.py-test_simple-18
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-__eq__-268
+ /home/user/stanza/stanza/models/constituency/utils.py-<listcomp>-107
+ /home/user/stanza/stanza/tests/constituency/test_tree_reader.py-<listcomp>-61
+ /home/user/stanza/stanza/tests/constituency/test_parse_transitions.py-test_compound_open-200
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-<genexpr>-387
+ /home/user/stanza/stanza/models/constituency/lstm_model.py-<listcomp>-706
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-recursive_replace_words-481
+ /home/user/stanza/stanza/tests/constituency/test_vietnamese.py-test_read_vi_tree-45
+ /home/user/stanza/stanza/tests/constituency/test_tree_reader.py-test_simple-21
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-remap_words-465
+ /home/user/stanza/stanza/tests/constituency/test_tree_reader.py-test_simple-20
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-<lambda>-366
+ /home/user/stanza/stanza/tests/constituency/test_tree_reader.py-test_simple-17
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-__format__-248
+ /home/user/stanza/stanza/models/constituency/parse_transitions.py-finished-110
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-__format__-239
+ /home/user/stanza/stanza/tests/constituency/test_parse_transitions.py-test_close-359
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-pretty_print-154
+ /home/user/stanza/stanza/tests/constituency/test_parse_transitions.py-test_compound_open-207
+ /home/user/stanza/stanza/models/constituency/transition_sequence.py-helper-103
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-<lambda>-337
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-pretty_print-148
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-prune_none-501
+ /home/user/stanza/stanza/models/constituency/transition_sequence.py-yield_top_down_sequence-53
+ /home/user/stanza/stanza/tests/constituency/test_tree_reader.py-test_parens-39
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-get_compound_constituents-407
+ /home/user/stanza/stanza/tests/constituency/test_tree_reader.py-test_parens-44
+ /home/user/stanza/stanza/models/constituency/transition_sequence.py-helper-105
+ /home/user/stanza/stanza/tests/constituency/test_tree_reader.py-test_parens-43
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-get_compound_constituents-404
+ /home/user/stanza/stanza/tests/constituency/test_parse_transitions.py-test_compound_open-203
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-remap_constituent_labels-450
+ /home/user/stanza/stanza/models/constituency/lstm_model.py-<listcomp>-690
+ /home/user/stanza/stanza/tests/constituency/test_tree_reader.py-test_parens-40
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-pretty_print-141
+ /home/user/stanza/stanza/models/constituency/transition_sequence.py-yield_top_down_sequence-50
+
+
+-------case--------stanza.models.constituency.parse_tree.Tree.tree_id
+{'builtins.int', 'missing'}
+ /home/user/stanza/stanza/models/constituency/parse_tree.py-__format__-221
+
+
+-------case--------stanza.models.constituency.trainer.Trainer.optimizer
+{'builtins.NoneType', 'torch.optim.adadelta.Adadelta'}
+
+
+-------case--------stanza.models.constituency.trainer.Trainer.scheduler
+{'builtins.NoneType', 'torch.optim.lr_scheduler.LambdaLR'}
+
+
+-------case--------stanza.models.common.vocab.CharVocab.data
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-build_vocab-240
+ /home/user/stanza/stanza/models/common/vocab.py-build_vocab-239
+ /home/user/stanza/stanza/models/common/vocab.py-build_vocab-245
+
+
+-------case--------stanza.models.pos.vocab.WordVocab.data
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/stanza/stanza/models/pos/vocab.py-build_vocab-28
+ /home/user/stanza/stanza/models/pos/vocab.py-build_vocab-26
+
+
+-------case--------stanza.models.pos.vocab.FeatureVocab.data
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-build_vocab-153
+
+
+-------case--------stanza.models.pos.vocab.FeatureVocab._unit2id
+{'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-<listcomp>-192
+ /home/user/stanza/stanza/pipeline/pos_processor.py-get_known_feats-64
+ /home/user/stanza/stanza/models/common/vocab.py-lens-192
+ /home/user/stanza/stanza/models/common/vocab.py-unit2id-135
+ /home/user/stanza/stanza/models/common/vocab.py-<listcomp>-135
+
+
+-------case--------stanza.models.common.doc.Document._lang
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/models/common/doc.py-lang-66
+
+
+-------case--------stanza.models.common.doc.Document._text
+{'builtins.NoneType', 'builtins.list', 'builtins.str'}
+ /home/user/stanza/stanza/models/common/doc.py-__init__-60
+ /home/user/stanza/stanza/models/common/doc.py-text-76
+
+
+-------case--------stanza.models.common.doc.Sentence._text
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/models/common/doc.py-text-519
+
+
+-------case--------stanza.models.common.doc.Sentence._constituency
+{'builtins.str', 'stanza.models.constituency.parse_tree.Tree', 'builtins.NoneType'}
+ /home/user/stanza/stanza/models/common/doc.py-constituency-610
+
+
+-------case--------stanza.models.common.doc.Sentence._sentiment
+{'builtins.str', 'builtins.NoneType', 'builtins.int'}
+ /home/user/stanza/stanza/models/common/doc.py-sentiment-593
+
+
+-------case--------stanza.models.common.doc.Sentence._index
+{'builtins.int', 'missing'}
+ /home/user/stanza/stanza/models/common/doc.py-index-465
+
+
+-------case--------stanza.models.common.doc.Sentence._sent_id
+{'builtins.str', 'missing'}
+ /home/user/stanza/stanza/models/common/doc.py-sent_id-492
+
+
+-------case--------stanza.models.common.doc.Sentence._classname
+{'builtins.int', 'missing'}
+ /home/user/stanza/stanza/tests/common/test_data_objects.py-test_setter_getter-49
+ /home/user/stanza/stanza/tests/common/test_data_objects.py-<lambda>-44
+
+
+-------case--------stanza.models.common.doc.Word._lemma
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/models/common/doc.py-lemma-1001
+
+
+-------case--------stanza.models.common.doc.Word._upos
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/models/common/doc.py-upos-1011
+
+
+-------case--------stanza.models.common.doc.Word._xpos
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/models/common/doc.py-xpos-1021
+
+
+-------case--------stanza.models.common.doc.Word._feats
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/models/common/doc.py-feats-1031
+
+
+-------case--------stanza.models.common.doc.Word._head
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/stanza/stanza/models/common/doc.py-head-1041
+
+
+-------case--------stanza.models.common.doc.Word._deprel
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/models/common/doc.py-deprel-1051
+
+
+-------case--------stanza.models.common.doc.Word._deps
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/models/common/doc.py-deps-1061
+
+
+-------case--------stanza.models.common.doc.Word._start_char
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/stanza/stanza/pipeline/tokenize_processor.py-bulk_process-142
+ /home/user/stanza/stanza/models/common/doc.py-start_char-1081
+
+
+-------case--------stanza.models.common.doc.Word._end_char
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/stanza/stanza/models/common/doc.py-end_char-1086
+ /home/user/stanza/stanza/pipeline/tokenize_processor.py-bulk_process-143
+
+
+-------case--------stanza.models.common.doc.Word._parent
+{'stanza.models.common.doc.Token', 'builtins.NoneType'}
+ /home/user/stanza/stanza/models/common/doc.py-parent-1093
+
+
+-------case--------stanza.models.common.doc.Word._sent
+{'builtins.NoneType', 'stanza.models.common.doc.Sentence'}
+ /home/user/stanza/stanza/models/common/doc.py-sent-1115
+
+
+-------case--------stanza.models.common.doc.Token._ner
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/models/common/doc.py-ner-879
+
+
+-------case--------stanza.models.common.doc.Token._multi_ner
+{'builtins.NoneType', 'builtins.tuple'}
+ /home/user/stanza/stanza/models/common/doc.py-multi_ner-889
+
+
+-------case--------stanza.models.common.doc.Token._start_char
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-324
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-248
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-261
+ /home/user/stanza/stanza/pipeline/tokenize_processor.py-bulk_process-138
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-264
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-282
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-296
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-356
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-315
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-271
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-274
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-370
+ /home/user/stanza/stanza/models/common/doc.py-start_char-869
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-289
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-348
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-254
+
+
+-------case--------stanza.models.common.doc.Token._end_char
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-324
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-248
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-264
+ /home/user/stanza/stanza/models/common/doc.py-end_char-874
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-261
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-315
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-274
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-356
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-296
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-271
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-282
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-370
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-289
+ /home/user/stanza/stanza/pipeline/tokenize_processor.py-bulk_process-139
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-348
+ /home/user/stanza/stanza/tests/pipeline/test_tokenizer.py-<listcomp>-254
+
+
+-------case--------stanza.models.common.doc.Token._sent
+{'builtins.NoneType', 'stanza.models.common.doc.Sentence'}
+ /home/user/stanza/stanza/models/common/doc.py-sent-899
+
+
+-------case--------stanza.models.pos.data.DataLoader.pretrain_vocab
+{'builtins.NoneType', 'stanza.models.common.pretrain.PretrainedWordVocab'}
+ /home/user/stanza/stanza/models/pos/data.py-__init__-41
+
+
+-------case--------stanza.models.lemma.data.DataLoader.vocab
+{'missing', 'stanza.models.lemma.vocab.MultiVocab'}
+ /home/user/stanza/stanza/models/lemma/data.py-__init__-47
+
+
+-------case--------stanza.models.lemma.data.DataLoader.num_examples
+{'builtins.int', 'missing'}
+
+
+-------case--------stanza.models.depparse.data.DataLoader.pretrain_vocab
+{'builtins.NoneType', 'stanza.models.common.pretrain.PretrainedWordVocab'}
+ /home/user/stanza/stanza/models/depparse/data.py-__init__-92
+
+
+-------case--------stanza.models.common.doc.Span._text
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/models/common/doc.py-text-1217
+
+
+-------case--------stanza.models.common.doc.Span._type
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/models/common/doc.py-type-1247
+
+
+-------case--------stanza.models.common.doc.Span._start_char
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/stanza/stanza/models/common/doc.py-start_char-1257
+
+
+-------case--------stanza.models.common.doc.Span._end_char
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/stanza/stanza/models/common/doc.py-end_char-1267
+
+
+-------case--------stanza.models.constituency.transformer_tree_stack.TransformerTreeStack.length_limit
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/stanza/stanza/models/constituency/transformer_tree_stack.py-push_states-186
+
+
+-------case--------stanza.models.langid.model.LangIDBiLSTM.lang_subset
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/stanza/stanza/models/langid/model.py-prediction_scores-90
+ /home/user/stanza/stanza/tests/langid/test_langid.py-test_lang_subset-596
+ /home/user/stanza/stanza/tests/langid/test_langid.py-test_lang_subset-592
+ /home/user/stanza/stanza/models/langid/model.py-build_lang_mask-64
+ /home/user/stanza/stanza/models/langid/model.py-<listcomp>-65
+
+
+-------case--------stanza.models.langid.model.LangIDBiLSTM.lang_mask
+{'torch.Tensor', 'missing'}
+ /home/user/stanza/stanza/models/langid/model.py-<listcomp>-92
+
+

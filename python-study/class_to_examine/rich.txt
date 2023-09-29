@@ -1,0 +1,347 @@
+-------case--------rich.console.Console._height
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/rich/rich-master/rich/console.py-size-1028
+ /home/user/rich/rich-master/rich/console.py-size-994
+ /home/user/rich/rich-master/rich/console.py-size-993
+
+
+-------case--------rich.console.Console._force_terminal
+{'builtins.NoneType', 'builtins.bool'}
+ /home/user/rich/rich-master/rich/console.py-is_terminal-943
+ /home/user/rich/rich-master/rich/console.py-is_terminal-942
+
+
+-------case--------rich.console.Console._file
+{'builtins.NoneType', '_io._io.StringIO', '_io._io.TextIOWrapper'}
+ /home/user/rich/rich-master/rich/console.py-file-765
+
+
+-------case--------rich.console.Console._color_system
+{'builtins.NoneType', 'rich.color.ColorSystem'}
+ /home/user/rich/rich-master/tests/test_console.py-test_init-122
+ /home/user/rich/rich-master/rich/console.py-_render_buffer-2050
+ /home/user/rich/rich-master/rich/console.py-__repr__-760
+ /home/user/rich/rich-master/rich/console.py-color_system-921
+ /home/user/rich/rich-master/rich/console.py-color_system-920
+ /home/user/rich/rich-master/tests/test_console.py-test_init-124
+
+
+-------case--------rich.console.Console.get_datetime
+{'builtins.function', 'builtins.builtin_function_or_method'}
+ /home/user/rich/rich-master/tests/test_console.py-test_get_time-696
+
+
+-------case--------rich.console.Console.get_time
+{'builtins.function', 'builtins.builtin_function_or_method'}
+ /home/user/rich/rich-master/rich/progress.py-__init__-1098
+ /home/user/rich/rich-master/tests/test_console.py-test_get_time-695
+
+
+-------case--------rich.console.Console.style
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/rich/rich-master/rich/console.py-_collect_renderables-1548
+ /home/user/rich/rich-master/rich/console.py-_collect_renderables-1549
+
+
+-------case--------rich.console.Console._live
+{'builtins.NoneType', 'rich.live.Live'}
+ /home/user/rich/rich-master/rich/console.py-set_live-838
+
+
+-------case--------rich._log_render.LogRender.time_format
+{'builtins.str', 'builtins.function'}
+ /home/user/rich/rich-master/rich/_log_render.py-__call__-58
+
+
+-------case--------rich._log_render.LogRender.level_width
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/rich/rich-master/rich/_log_render.py-__call__-51
+
+
+-------case--------rich._log_render.LogRender._last_time
+{'builtins.NoneType', 'rich.text.Text'}
+ /home/user/rich/rich-master/rich/_log_render.py-__call__-63
+
+
+-------case--------rich.logging.RichHandler.formatter
+{'builtins.NoneType', 'logging.Formatter'}
+ /home/user/rich/rich-master/rich/logging.py-render-218
+ /home/user/rich/rich-master/rich/logging.py-emit-152
+ /home/user/purepython/cpython-3.9/Lib/logging/__init__.py-format-923
+ /home/user/purepython/cpython-3.9/Lib/logging/__init__.py-format-924
+ /home/user/rich/rich-master/rich/logging.py-emit-154
+
+
+-------case--------rich.logging.RichHandler.keywords
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/rich/rich-master/rich/logging.py-render_message-194
+ /home/user/rich/rich-master/rich/logging.py-render_message-195
+ /home/user/rich/rich-master/rich/logging.py-render_message-191
+
+
+-------case--------rich.console.ConsoleOptions.justify
+{'builtins.NoneType'}
+ <string>-__eq__-4
+ /home/user/rich/rich-master/rich/text.py-__rich_console__-655
+
+
+-------case--------rich.console.ConsoleOptions.overflow
+{'builtins.NoneType'}
+ /home/user/rich/rich-master/rich/text.py-__rich_console__-657
+ <string>-__eq__-4
+
+
+-------case--------rich.console.ConsoleOptions.no_wrap
+{'builtins.bool'}
+ <string>-__eq__-4
+ /home/user/rich/rich-master/rich/text.py-__rich_console__-665
+
+
+-------case--------rich.console.ConsoleOptions.highlight
+{'builtins.NoneType'}
+ <string>-__eq__-4
+ /home/user/rich/rich-master/rich/console.py-render-1308
+
+
+-------case--------rich.console.Capture._result
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/rich/rich-master/rich/console.py-get-351
+ /home/user/rich/rich-master/rich/console.py-get-347
+
+
+-------case--------rich.table.Column.footer
+{'builtins.str', 'rich.text.Text'}
+ /home/user/rich/rich-master/rich/table.py-_get_cells-677
+ <string>-__eq__-4
+
+
+-------case--------rich.table.Column.width
+{'builtins.NoneType', 'builtins.int'}
+ <string>-__eq__-4
+ /home/user/rich/rich-master/rich/table.py-<listcomp>-554
+ /home/user/rich/rich-master/rich/table.py-_measure_column-720
+ /home/user/rich/rich-master/rich/table.py-_measure_column-717
+ /home/user/rich/rich-master/rich/table.py-<listcomp>-539
+
+
+-------case--------rich.table.Column.ratio
+{'builtins.NoneType', 'builtins.int'}
+ <string>-__eq__-4
+ /home/user/rich/rich-master/rich/table.py-<listcomp>-532
+ /home/user/rich/rich-master/rich/table.py-flexible-126
+
+
+-------case--------rich.table.Row.style
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/rich/rich-master/rich/table.py-get_row_style-314
+
+
+-------case--------rich.console.Group._render
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/rich/rich-master/rich/console.py-renderables-476
+ /home/user/rich/rich-master/rich/console.py-renderables-478
+
+
+-------case--------rich.pretty.Node.key_repr
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/rich/rich-master/rich/pretty.py-iter_tokens-441
+ /home/user/rich/rich-master/rich/pretty.py-expand-542
+ /home/user/rich/rich-master/rich/pretty.py-iter_tokens-442
+ /home/user/rich/rich-master/rich/pretty.py-expand-540
+
+
+-------case--------rich.markdown.Heading.text
+{'rich.text.Text', 'missing'}
+ /home/user/rich/rich-master/rich/markdown.py-__rich_console__-143
+ /home/user/rich/rich-master/rich/markdown.py-on_text-98
+
+
+-------case--------rich.markdown.Paragraph.style
+{'rich.style.Style', 'missing'}
+
+
+-------case--------rich.markdown.ListElement.list_start
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/rich/rich-master/rich/markdown.py-__rich_console__-251
+
+
+-------case--------rich.markdown.ListItem.style
+{'rich.style.Style', 'missing'}
+ /home/user/rich/rich-master/rich/markdown.py-render_number-290
+ /home/user/rich/rich-master/rich/markdown.py-render_bullet-274
+
+
+-------case--------rich.markdown.ListItem.text
+{'rich.text.Text', 'missing'}
+
+
+-------case--------rich.styled.Styled.renderable
+{'builtins.str', 'rich.text.Text', 'rich.table.Table'}
+ /home/user/rich/rich-master/rich/styled.py-__rich_measure__-34
+ /home/user/rich/rich-master/rich/styled.py-__rich_console__-27
+
+
+-------case--------rich.styled.Styled.style
+{'builtins.str', 'rich.style.Style'}
+ /home/user/rich/rich-master/rich/styled.py-__rich_console__-26
+
+
+-------case--------rich.spinner.Spinner.text
+{'rich.text.Text', 'rich.rule.Rule'}
+ /home/user/rich/rich-master/tests/test_spinner.py-test_spinner_markup-71
+ /home/user/rich/rich-master/tests/test_spinner.py-test_spinner_markup-72
+ /home/user/rich/rich-master/rich/spinner.py-render-86
+ /home/user/rich/rich-master/rich/spinner.py-render-84
+ /home/user/rich/rich-master/rich/spinner.py-render-90
+ /home/user/rich/rich-master/rich/spinner.py-render-87
+
+
+-------case--------rich.spinner.Spinner.style
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/rich/rich-master/rich/spinner.py-render-75
+
+
+-------case--------rich.live_render.LiveRender.renderable
+{'builtins.str', 'rich.console.Group', 'rich.screen.Screen', 'rich.text.Text', 'rich.spinner.Spinner'}
+ /home/user/rich/rich-master/tests/test_live_render.py-test_renderable-14
+ /home/user/rich/rich-master/rich/live_render.py-__rich_console__-86
+ /home/user/rich/rich-master/tests/test_live_render.py-test_renderable-16
+
+
+-------case--------rich.live_render.LiveRender._shape
+{'builtins.NoneType', 'builtins.tuple'}
+ /home/user/rich/rich-master/rich/live_render.py-position_cursor-54
+ /home/user/rich/rich-master/rich/live_render.py-restore_cursor-74
+ /home/user/rich/rich-master/rich/live_render.py-restore_cursor-75
+ /home/user/rich/rich-master/rich/live_render.py-position_cursor-53
+
+
+-------case--------rich.live._RefreshThread._ident
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/Lib/threading.py-_bootstrap_inner-971
+
+
+-------case--------rich.live._RefreshThread._native_id
+{'builtins.NoneType', 'builtins.int'}
+
+
+-------case--------rich.live._RefreshThread._tstate_lock
+{'builtins.NoneType', '_thread._thread.lock'}
+ /home/user/purepython/cpython-3.9/Lib/threading.py-_set_tstate_lock-956
+
+
+-------case--------rich.live._RefreshThread._stderr
+{'rich.file_proxy.FileProxy', '_pytest.capture.EncodedFile'}
+
+
+-------case--------rich.screen.Screen.renderable
+{'rich.console.Group', 'builtins.str'}
+ /home/user/rich/rich-master/rich/screen.py-__rich_console__-47
+
+
+-------case--------rich.screen.Screen.style
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/rich/rich-master/rich/screen.py-__rich_console__-44
+
+
+-------case--------rich.layout.Layout._renderable
+{'builtins.str', 'rich.layout._Placeholder', 'rich.panel.Panel'}
+ /home/user/rich/rich-master/rich/layout.py-renderable-186
+ /home/user/rich/rich-master/tests/test_layout.py-test_render-43
+
+
+-------case--------rich.layout.Layout.size
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/rich/rich-master/rich/layout.py-__rich_repr__-179
+ /home/user/rich/rich-master/rich/_ratio.py-<listcomp>-37
+
+
+-------case--------rich.layout.Layout.name
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/rich/rich-master/tests/test_layout.py-test_render-48
+ /home/user/rich/rich-master/rich/layout.py-__rich_console__-67
+ /home/user/rich/rich-master/rich/layout.py-__rich_console__-68
+ /home/user/rich/rich-master/rich/layout.py-__rich_repr__-178
+ /home/user/rich/rich-master/rich/layout.py-get-207
+ /home/user/rich/rich-master/tests/test_layout.py-test_add_split-22
+ /home/user/rich/rich-master/tests/test_layout.py-test_render-47
+
+
+-------case--------rich.traceback.Frame.locals
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/rich/rich-master/rich/traceback.py-render_locals-557
+ /home/user/rich/rich-master/rich/traceback.py-_render_stack-638
+ /home/user/rich/rich-master/rich/traceback.py-render_locals-555
+
+
+-------case--------rich.traceback.Traceback.width
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/rich/rich-master/rich/traceback.py-__rich_console__-454
+ /home/user/rich/rich-master/rich/traceback.py-__rich_console__-466
+ /home/user/rich/rich-master/rich/traceback.py-__rich_console__-468
+
+
+-------case--------rich.markdown.BlockQuote.style
+{'rich.style.Style', 'missing'}
+ /home/user/rich/rich-master/rich/markdown.py-__rich_console__-203
+ /home/user/rich/rich-master/rich/markdown.py-__rich_console__-202
+
+
+-------case--------rich.markdown.BlockQuote.text
+{'rich.text.Text', 'missing'}
+
+
+-------case--------rich.markdown.ImageItem.text
+{'rich.text.Text', 'missing'}
+ /home/user/rich/rich-master/rich/markdown.py-__rich_console__-335
+ /home/user/rich/rich-master/rich/markdown.py-on_text-98
+
+
+-------case--------rich.markdown.ImageItem.style
+{'rich.style.Style', 'missing'}
+
+
+-------case--------rich.markdown.CodeBlock.style
+{'rich.style.Style', 'missing'}
+
+
+-------case--------rich.markdown.CodeBlock.text
+{'rich.text.Text', 'missing'}
+ /home/user/rich/rich-master/rich/markdown.py-__rich_console__-177
+ /home/user/rich/rich-master/rich/markdown.py-on_text-98
+
+
+-------case--------rich.progress.Task._get_time
+{'builtins.builtin_function_or_method', 'builtins.function', 'tests.test_progress.MockClock'}
+
+
+-------case--------rich.progress.Task.finished_time
+{'builtins.NoneType', 'builtins.float'}
+ /home/user/rich/rich-master/rich/progress.py-advance-1531
+ /home/user/rich/rich-master/rich/progress.py-render-681
+ /home/user/rich/rich-master/rich/progress.py-finished-1000
+ /home/user/rich/rich-master/rich/progress.py-update-1460
+
+
+-------case--------rich.progress.Task.finished_speed
+{'builtins.NoneType', 'builtins.float'}
+ /home/user/rich/rich-master/rich/progress.py-render-908
+
+
+-------case--------rich.progress._TrackThread._ident
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/Lib/threading.py-_bootstrap_inner-971
+
+
+-------case--------rich.progress._TrackThread._native_id
+{'builtins.NoneType', 'builtins.int'}
+
+
+-------case--------rich.progress._TrackThread._tstate_lock
+{'builtins.NoneType', '_thread._thread.lock'}
+ /home/user/purepython/cpython-3.9/Lib/threading.py-_stop-1009
+ /home/user/purepython/cpython-3.9/Lib/threading.py-_set_tstate_lock-961
+ /home/user/purepython/cpython-3.9/Lib/threading.py-_wait_for_tstate_lock-1073
+ /home/user/purepython/cpython-3.9/Lib/threading.py-_set_tstate_lock-956
+
+

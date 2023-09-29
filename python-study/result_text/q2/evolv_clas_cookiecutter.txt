@@ -1,0 +1,1 @@
+["cookiecutter.environment.StrictEnvironment", "cookiecutter.main._patch_import_path_for_repo"]

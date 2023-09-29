@@ -1,0 +1,43 @@
+bandit.core.issue.Issue.linerange
+{'builtins.str', 'builtins.list'}
+ /home/user/bandit/bandit/core/issue.py-get_code-177
+        lmax = lmin + len(self.linerange) + max_lines - 1
+bandit.core.node_visitor.BanditNodeVisitor.context
+{'builtins.dict'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-204
+            self.context["col_offset"] = node.col_offset
+bandit.core.node_visitor.BanditNodeVisitor.context
+{'builtins.dict'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-194
+        self.context["import_aliases"] = self.import_aliases
+bandit.core.node_visitor.BanditNodeVisitor.context
+{'builtins.dict'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-210
+        self.context["filename"] = self.fname
+bandit.core.node_visitor.BanditNodeVisitor.context
+{'builtins.dict'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-201
+            self.context["lineno"] = node.lineno
+bandit.core.node_visitor.BanditNodeVisitor.context
+{'builtins.dict'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-211
+        self.context["file_data"] = self.fdata
+bandit.core.node_visitor.BanditNodeVisitor.context
+{'builtins.dict'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-209
+        self.context["linerange"] = b_utils.linerange(node)
+bandit.core.node_visitor.BanditNodeVisitor.context
+{'builtins.dict'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-208
+        self.context["node"] = node
+bandit.core.node_visitor.BanditNodeVisitor.context
+{'builtins.dict'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-193
+        self.context["imports"] = self.imports
+bandit.core.node_visitor.BanditNodeVisitor.context
+{'builtins.dict'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-206
+            self.context["end_col_offset"] = node.end_col_offset
+
+check: 2
+safe: 2

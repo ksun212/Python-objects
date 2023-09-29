@@ -1,0 +1,132 @@
+-------case--------mypy.options.Options._per_module_cache
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/options.py-clone_for_module-442
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/options.py-clone_for_module-439
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/options.py-clone_for_module-455
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/options.py-clone_for_module-437
+
+
+-------case--------mypy.options.Options.python_executable
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/build.py-log_configuration-2829
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/modulefinder.py-compute_search_paths-826
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/main.py-infer_python_executable-297
+
+
+-------case--------mypy.errors.Errors.target_module
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/errors.py-current_target-345
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/errors.py-current_module-348
+
+
+-------case--------mypy.plugins.default.DefaultPlugin._modules
+{'builtins.NoneType', 'builtins.dict'}
+
+
+-------case--------mypy.build.BuildManager.old_plugins_snapshot
+{'builtins.NoneType', 'builtins.dict'}
+
+
+-------case--------mypy.tvar_scope.TypeVarLikeScope.prohibited
+{'builtins.NoneType', 'mypy.tvar_scope.TypeVarLikeScope'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/tvar_scope.py-allow_binding-64
+
+
+-------case--------mypy.scope.Scope.module
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/scope.py-current_target-37
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/scope.py-module_scope-63
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/scope.py-current_target-33
+
+
+-------case--------mypy.modulefinder.FindModuleCache.source_set
+{'builtins.NoneType', 'mypy.modulefinder.BuildSourceSet'}
+
+
+-------case--------mypy.build.State.caller_state
+{'builtins.NoneType', 'mypy.build.State'}
+
+
+-------case--------mypy.build.State.source
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/build.py-parse_file-2147
+
+
+-------case--------mypy.fastparse.TypeConverter.errors
+{'builtins.NoneType', 'mypy.errors.Errors'}
+
+
+-------case--------mypy.subtypes.SubtypeContext.options
+{'builtins.NoneType', 'mypy.options.Options'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/subtypes.py-__init__-372
+
+
+-------case--------mypy.checkmember.MemberContext.original_type
+{'mypy.types.AnyType', 'mypy.types.CallableType', 'mypy.types.Overloaded', 'mypy.types.Instance'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_var-739
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_descriptor_access-613
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_member_var_access-592
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_var-737
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_instance_member_access-328
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_class_attribute_access-977
+
+
+-------case--------mypy.checkmember.MemberContext.self_type
+{'mypy.types.AnyType', 'mypy.types.CallableType', 'mypy.types.Overloaded', 'mypy.types.Instance'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_class_attribute_access-998
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_instance_member_access-332
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_class_attribute_access-996
+
+
+-------case--------mypy.checkmember.MemberContext.context
+{'mypy.nodes.StrExpr', 'mypy.nodes.OpExpr', 'mypy.nodes.ComparisonExpr', 'mypy.nodes.NameExpr', 'mypy.nodes.FuncDef', 'mypy.nodes.CallExpr', 'mypy.nodes.IntExpr', 'mypy.nodes.ListExpr', 'mypy.nodes.MemberExpr'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_var-787
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_class_attribute_access-1005
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_class_attribute_access-911
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_instance_member_access-317
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-report_missing_attribute-274
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_instance_member_access-330
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_instance_member_access-290
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_member_var_access-513
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_class_attribute_access-929
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_class_attribute_access-982
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_class_attribute_access-996
+
+
+-------case--------mypy.errors.ErrorInfo.module
+{'builtins.NoneType', 'builtins.str'}
+
+
+-------case--------mypy.errors.ErrorInfo.type
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/errors.py-render_messages-988
+
+
+-------case--------mypy.errors.ErrorInfo.function_or_member
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/errors.py-render_messages-987
+
+
+-------case--------mypy.errors.ErrorInfo.code
+{'builtins.NoneType', 'mypy.errorcodes.ErrorCode'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/errors.py-_add_error_info-453
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/errors.py-render_messages-982
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/errors.py-is_ignored_error-581
+
+
+-------case--------mypy.errors.ErrorInfo.target
+{'builtins.NoneType', 'builtins.str'}
+
+
+-------case--------mypy.constraints.Constraint.target
+{'mypy.types.TypeVarType', 'mypy.types.AnyType', 'mypy.types.Instance', 'mypy.types.CallableType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/solve.py-solve_constraints-55
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/solve.py-solve_constraints-62
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/solve.py-solve_constraints-65
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/solve.py-solve_constraints-67
+
+
+-------case--------mypy.main.CapturableVersionAction.container
+{'missing', 'argparse._ArgumentGroup'}
+
+

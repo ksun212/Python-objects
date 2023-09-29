@@ -1,0 +1,6 @@
+t1stru2	26
+ln	55
+rn	7
+others	15
+t1simt2	4
+t1st2	3

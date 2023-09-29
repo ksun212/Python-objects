@@ -1,0 +1,4 @@
+others	2
+rn	6
+ln	8
+t1stru2	2

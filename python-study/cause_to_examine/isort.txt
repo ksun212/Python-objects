@@ -1,0 +1,8 @@
+isort.settings.Config._known_patterns
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py-known_patterns-670
+                self._known_patterns.append((re.compile(regexp), placement))
+isort.deprecated.finders.RequirementsFinder.mapping
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/isort-main/tests/unit/test_deprecated_finders.py-test_requirements_finder-136
+        assert len(finder.mapping) > 100  # type: ignore

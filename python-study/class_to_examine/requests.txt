@@ -1,0 +1,319 @@
+-------case--------requests.sessions.Session.auth
+{'builtins.tuple', 'requests.auth.HTTPDigestAuth', 'builtins.NoneType', 'tests.test_requests.DummyAuth'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-prepare_request-494
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-prepare_request-480
+
+
+-------case--------requests.models.Request.method
+{'builtins.bytes', 'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-prepare_request-485
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare-300
+
+
+-------case--------requests.models.Request.url
+{'builtins.NoneType', 'builtins.str', 'builtins.bytes'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/utils.py-resolve_proxies-869
+ /home/user/requests_tests/tests/test_requests.py-test_basic_building-115
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-prepare_request-481
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare-301
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-prepare_request-486
+
+
+-------case--------requests.models.Request.headers
+{'builtins.dict', 'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare-302
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-prepare_request-491
+
+
+-------case--------requests.models.Request.files
+{'builtins.dict', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-prepare_request-487
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare-303
+
+
+-------case--------requests.models.Request.data
+{'builtins.list_iterator', 'tests.test_requests.BadFileObj', 'builtins.generator', 'builtins.dict', '_io._io.BytesIO', 'builtins.str', 'builtins.bytes', 'tests.test_requests.CustomMapping', 'builtins.list', 'tests.test_requests.TestStream'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-prepare_request-488
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare-304
+
+
+-------case--------requests.models.Request.json
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare-305
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-prepare_request-489
+
+
+-------case--------requests.models.Request.params
+{'builtins.dict', 'builtins.bytes', 'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-prepare_request-493
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare-306
+
+
+-------case--------requests.models.Request.auth
+{'builtins.tuple', 'requests.auth.HTTPDigestAuth', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare-307
+ /home/user/requests_tests/tests/test_requests.py-test_prepared_from_session-1166
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-prepare_request-479
+
+
+-------case--------requests.models.Request.cookies
+{'builtins.dict', 'http.cookiejar.CookieJar', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare-308
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-prepare_request-467
+
+
+-------case--------requests.models.PreparedRequest.method
+{'builtins.NoneType', 'builtins.str', 'builtins.bytes'}
+ /home/user/requests_tests/tests/test_requests.py-test_requests_are_updated_each_time-2516
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/adapters.py-send-490
+ /home/user/requests_tests/tests/test_requests.py-test_http_302_doesnt_change_head_to_get-288
+ /home/user/requests_tests/tests/test_requests.py-test_http_301_doesnt_change_head_to_get-274
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/adapters.py-send-512
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/auth.py-handle_401-275
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/auth.py-__call__-291
+ /home/user/requests_tests/tests/test_requests.py-test_http_301_changes_post_to_get-266
+ /home/user/requests_tests/tests/test_requests.py-test_unicode_method_name_with_request_object-1083
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare_content_length-582
+ /home/user/requests_tests/tests/test_requests.py-test_requests_are_updated_each_time-2504
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare_method-397
+ /home/user/requests_tests/tests/test_requests.py-test_http_302_changes_post_to_get-281
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-copy-385
+ /home/user/requests_tests/tests/test_requests.py-test_http_303_changes_post_to_get-295
+ /home/user/requests_tests/tests/test_requests.py-test_http_303_doesnt_change_head_to_get-302
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-rebuild_method-336
+ /home/user/requests_tests/tests/test_requests.py-test_unicode_method_name_with_request_object-1082
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare_method-398
+
+
+-------case--------requests.models.PreparedRequest.url
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/cookies.py-get_full_url-56
+ /home/user/requests_tests/tests/test_requests.py-<listcomp>-471
+ /home/user/requests_tests/tests/test_requests.py-test_basic_building-115
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/cookies.py-__init__-38
+ /home/user/requests_tests/tests/test_lowlevel.py-test_fragment_update_on_redirect-400
+ /home/user/requests_tests/tests/test_requests.py-test_prepare_request_with_bytestring_url-1180
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-resolve_redirects-176
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/adapters.py-send-460
+ /home/user/requests_tests/tests/test_requests.py-test_parameters_for_nonstandard_schemes-2743
+ /home/user/requests_tests/tests/test_requests.py-test_nonhttp_schemes_dont_check_URLs-1785
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/adapters.py-request_url-387
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/adapters.py-request_url-386
+ /home/user/requests_tests/tests/test_requests.py-test_preparing_url-2653
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/adapters.py-request_url-397
+ /home/user/requests_tests/tests/test_requests.py-test_HTTP_302_TOO_MANY_REDIRECTS_WITH_PARAMS-255
+ /home/user/requests_tests/tests/test_requests.py-test_request_and_response_are_pickleable-1477
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/auth.py-handle_401-275
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-copy-386
+ /home/user/requests_tests/tests/test_requests.py-test_prepared_request_is_pickleable-1485
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/auth.py-__call__-291
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-rebuild_auth-292
+ /home/user/requests_tests/tests/test_requests.py-test_whitespaces_are_removed_from_url-187
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-request-578
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/adapters.py-send-456
+ /home/user/requests_tests/tests/test_requests.py-test_fragment_maintained_on_redirect-351
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-rebuild_auth-289
+ /home/user/requests_tests/tests/test_requests.py-test_url_mutation-2709
+ /home/user/requests_tests/tests/test_requests.py-test_long_authinfo_in_url-1673
+ /home/user/requests_tests/tests/test_requests.py-test_prepared_request_with_file_is_pickleable-1501
+ /home/user/requests_tests/tests/test_requests.py-test_HTTP_302_TOO_MANY_REDIRECTS-242
+ /home/user/requests_tests/tests/test_lowlevel.py-test_fragment_update_on_redirect-397
+ /home/user/requests_tests/tests/test_requests.py-test_params_are_added_before_fragment-159
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-send-695
+ /home/user/requests_tests/tests/test_requests.py-test_prepared_request_with_hook_is_pickleable-1516
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/utils.py-resolve_proxies-869
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-path_url-91
+ /home/user/requests_tests/tests/test_requests.py-test_params_bytes_are_encoded-176
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/adapters.py-build_response-319
+ /home/user/requests_tests/tests/test_requests.py-test_params_original_order_is_preserved_by_default-170
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-rebuild_proxies-316
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/adapters.py-build_response-322
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare_auth-594
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/cookies.py-get_full_url-53
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/cookies.py-get_host-44
+
+
+-------case--------requests.models.PreparedRequest._cookies
+{'http.cookiejar.CookieJar', 'builtins.NoneType', 'requests.cookies.RequestsCookieJar'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/auth.py-handle_401-271
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/auth.py-handle_401-272
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-resolve_redirects-240
+ /home/user/requests_tests/tests/test_requests.py-test_cookielib_cookiejar_on_redirect-460
+ /home/user/requests_tests/tests/test_requests.py-test_cookielib_cookiejar_on_redirect-459
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-resolve_redirects-242
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-resolve_redirects-241
+ /home/user/requests_tests/tests/test_requests.py-test_cookielib_cookiejar_on_redirect-458
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-copy-388
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare_cookies-627
+ /home/user/requests_tests/tests/test_requests.py-test_cookielib_cookiejar_on_redirect-463
+
+
+-------case--------requests.models.PreparedRequest._body_position
+{'builtins.object', 'builtins.NoneType', 'builtins.int'}
+ /home/user/requests_tests/tests/test_requests.py-test_rewind_partially_read_body-1895
+ /home/user/requests_tests/tests/test_requests.py-test_rewind_body_no_seek-1918
+ /home/user/requests_tests/tests/test_requests.py-test_rewind_body_failed_seek-1941
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-resolve_redirects-251
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-copy-391
+ /home/user/requests_tests/tests/test_requests.py-test_rewind_body-1881
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/utils.py-rewind_body-1080
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/utils.py-rewind_body-1077
+ /home/user/requests_tests/tests/test_requests.py-test_prepare_body_position_non_stream-1876
+ /home/user/requests_tests/tests/test_requests.py-test_rewind_body_failed_tell-1961
+
+
+-------case--------requests.models.Response._content
+{'builtins.NoneType', 'builtins.bytes', 'builtins.bool'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-iter_content-835
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-content-891
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-content-904
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-iter_content-842
+
+
+-------case--------requests.models.Response._next
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+
+
+-------case--------requests.models.Response.status_code
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/requests_tests/tests/test_lowlevel.py-test_digestauth_only_on_4xx-270
+ /home/user/requests_tests/tests/test_requests.py-test_http_301_changes_post_to_get-267
+ /home/user/requests_tests/tests/test_requests.py-test_DIGEST_HTTP_200_OK_GET-691
+ /home/user/requests_tests/tests/test_requests.py-test_DIGEST_AUTH_RETURNS_COOKIE-711
+ /home/user/requests_tests/tests/test_requests.py-test_custom_content_type-1105
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-is_redirect-775
+ /home/user/requests_tests/tests/test_requests.py-test_none_timeout-2418
+ /home/user/requests_tests/tests/test_requests.py-test_basicauth_with_netrc-680
+ /home/user/requests_tests/tests/test_requests.py-test_DIGESTAUTH_WRONG_HTTP_401_GET-741
+ /home/user/requests_tests/tests/test_requests.py-test_custom_redirect_mixin-2177
+ /home/user/requests_tests/tests/test_testserver.py-test_basic_response-59
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-raise_for_status-1017
+ /home/user/requests_tests/tests/test_requests.py-test_json_param_post_content_type_works-2014
+ /home/user/requests_tests/tests/test_requests.py-test_urlencoded_get_query_multivalued_param-1014
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-rebuild_method-339
+ /home/user/requests_tests/tests/test_requests.py-test_session_pickling-1549
+ /home/user/requests_tests/tests/test_requests.py-test_BASICAUTH_TUPLE_HTTP_200_OK_GET-539
+ /home/user/requests_tests/tests/test_requests.py-test_POSTBIN_GET_POST_FILES-773
+ /home/user/requests_tests/tests/test_requests.py-test_different_encodings_dont_break_post-1032
+ /home/user/requests_tests/tests/test_requests.py-test_http_301_doesnt_change_head_to_get-275
+ /home/user/requests_tests/tests/test_requests.py-test_POSTBIN_SEEKED_OBJECT_WITH_NO_ITER-823
+ /home/user/requests_tests/tests/test_requests.py-test_basicauth_with_netrc-665
+ /home/user/requests_tests/tests/test_requests.py-test_http_301_doesnt_change_head_to_get-273
+ /home/user/requests_tests/tests/test_requests.py-test_response_iter_lines-2030
+ /home/user/requests_tests/tests/test_requests.py-test_POSTBIN_GET_POST_FILES_WITH_DATA-836
+ /home/user/requests_tests/tests/test_requests.py-test_HTTP_307_ALLOW_REDIRECT_POST-221
+ /home/user/requests_tests/tests/test_requests.py-test_HTTP_302_ALLOW_REDIRECT_GET-210
+ /home/user/requests_tests/tests/test_lowlevel.py-test_fragment_not_sent_with_request-352
+ /home/user/requests_tests/tests/test_requests.py-test_HTTP_200_OK_GET_WITH_PARAMS-360
+ /home/user/requests_tests/tests/test_requests.py-test_POSTBIN_GET_POST_FILES_WITH_DATA-832
+ /home/user/requests_tests/tests/test_requests.py-test_http_302_doesnt_change_head_to_get-289
+ /home/user/requests_tests/tests/test_requests.py-test_HTTP_200_OK_GET_ALTERNATIVE-206
+ /home/user/requests_tests/tests/test_requests.py-test_HTTP_307_ALLOW_REDIRECT_POST-220
+ /home/user/requests_tests/tests/test_requests.py-test_unicode_multipart_post-1050
+ /home/user/requests_tests/tests/test_requests.py-test_response_iter_lines_reentrant-2055
+ /home/user/requests_tests/tests/test_requests.py-test_DIGEST_HTTP_200_OK_GET-694
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-rebuild_method-344
+ /home/user/requests_tests/tests/test_requests.py-test_basicauth_with_netrc-675
+ /home/user/requests_tests/tests/test_requests.py-test_basicauth_with_netrc-669
+ /home/user/requests_tests/tests/test_requests.py-test_http_301_changes_post_to_get-265
+ /home/user/requests_tests/tests/test_lowlevel.py-test_digestauth_401_only_sent_once-234
+ /home/user/requests_tests/tests/test_requests.py-test_http_303_doesnt_change_head_to_get-301
+ /home/user/requests_tests/tests/test_requests.py-test_uppercase_scheme_redirect-1566
+ /home/user/requests_tests/tests/test_requests.py-test_DIGEST_HTTP_200_OK_GET-700
+ /home/user/requests_tests/tests/test_requests.py-test_mixed_case_scheme_acceptable-197
+ /home/user/requests_tests/tests/test_requests.py-test_HTTP_200_OK_GET_WITH_MIXED_PARAMS-368
+ /home/user/requests_tests/tests/test_lowlevel.py-test_chunked_upload-35
+ /home/user/requests_tests/tests/test_requests.py-test_prepared_request_is_pickleable-1492
+ /home/user/requests_tests/tests/test_requests.py-test_prepared_request_with_file_is_pickleable-1508
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/auth.py-handle_401-250
+ /home/user/requests_tests/tests/test_requests.py-test_POSTBIN_GET_POST_FILES_WITH_DATA-839
+ /home/user/requests_tests/tests/test_requests.py-test_POSTBIN_GET_POST_FILES-766
+ /home/user/requests_tests/tests/test_requests.py-test_prepared_request_with_hook_is_pickleable-1524
+ /home/user/requests_tests/tests/test_requests.py-test_DIGESTAUTH_WRONG_HTTP_401_GET-744
+ /home/user/requests_tests/tests/test_requests.py-test_http_with_certificate-975
+ /home/user/requests_tests/tests/test_testserver.py-test_text_response-51
+ /home/user/requests_tests/tests/test_requests.py-test_HTTP_307_ALLOW_REDIRECT_POST_WITH_SEEKABLE-233
+ /home/user/requests_tests/tests/test_requests.py-test_HTTP_200_OK_PUT-524
+ /home/user/requests_tests/tests/test_requests.py-test_BASICAUTH_TUPLE_HTTP_200_OK_GET-534
+ /home/user/requests_tests/tests/test_testserver.py-test_multiple_requests-88
+ /home/user/requests_tests/tests/test_lowlevel.py-test_digestauth_401_only_sent_once-233
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-rebuild_method-349
+ /home/user/requests_tests/tests/test_requests.py-test_http_303_doesnt_change_head_to_get-303
+ /home/user/requests_tests/tests/test_requests.py-test_unicode_method_name_with_request_object-1086
+ /home/user/requests_tests/tests/test_requests.py-test_DIGESTAUTH_WRONG_HTTP_401_GET-749
+ /home/user/requests_tests/tests/test_requests.py-test_HTTP_200_OK_HEAD-520
+ /home/user/requests_tests/tests/test_requests.py-test_http_302_changes_post_to_get-280
+ /home/user/requests_tests/tests/test_requests.py-test_custom_redirect_mixin-2174
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-raise_for_status-1012
+ /home/user/requests_tests/tests/test_lowlevel.py-test_redirect_rfc1808_to_non_ascii_location-333
+ /home/user/requests_tests/tests/test_requests.py-test_BASICAUTH_TUPLE_HTTP_200_OK_GET-531
+ /home/user/requests_tests/tests/test_requests.py-test_http_303_changes_post_to_get-296
+ /home/user/requests_tests/tests/test_lowlevel.py-test_digestauth_401_count_reset_on_redirect-183
+ /home/user/requests_tests/tests/test_requests.py-test_HTTP_302_ALLOW_REDIRECT_GET-211
+ /home/user/requests_tests/tests/test_requests.py-test_unicode_method_name-1074
+ /home/user/requests_tests/tests/test_lowlevel.py-test_digestauth_401_count_reset_on_redirect-188
+ /home/user/requests_tests/tests/test_requests.py-test_http_303_changes_post_to_get-294
+ /home/user/requests_tests/tests/test_lowlevel.py-test_fragment_update_on_redirect-395
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-resolve_redirects-224
+ /home/user/requests_tests/tests/test_requests.py-test_http_302_doesnt_change_head_to_get-287
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-raise_for_status-1015
+ /home/user/requests_tests/tests/test_lowlevel.py-test_redirect_rfc1808_to_non_ascii_location-335
+ /home/user/requests_tests/tests/test_requests.py-test_HTTP_307_ALLOW_REDIRECT_POST_WITH_SEEKABLE-232
+ /home/user/requests_tests/tests/test_requests.py-test_POSTBIN_GET_POST_FILES-770
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-content-896
+ /home/user/requests_tests/tests/test_requests.py-test_http_302_changes_post_to_get-282
+ /home/user/requests_tests/tests/test_requests.py-test_POSTBIN_SEEKED_OBJECT_WITH_NO_ITER-817
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-raise_for_status-1010
+ /home/user/requests_tests/tests/test_requests.py-test_custom_redirect_mixin-2175
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-__repr__-729
+
+
+-------case--------requests.models.Response.url
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/requests_tests/tests/test_requests.py-test_HTTP_302_TOO_MANY_REDIRECTS_WITH_PARAMS-256
+ /home/user/requests_tests/tests/test_requests.py-test_HTTP_302_TOO_MANY_REDIRECTS-243
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-raise_for_status-1012
+ /home/user/requests_tests/tests/test_requests.py-test_fragment_maintained_on_redirect-352
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-resolve_redirects-200
+ /home/user/requests_tests/tests/test_requests.py-get_redirect_target-2167
+ /home/user/requests_tests/tests/test_lowlevel.py-test_fragment_update_on_redirect-402
+ /home/user/requests_tests/tests/test_requests.py-<listcomp>-470
+ /home/user/requests_tests/tests/test_requests.py-test_custom_redirect_mixin-2179
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-raise_for_status-1017
+ /home/user/requests_tests/tests/test_lowlevel.py-test_redirect_rfc1808_to_non_ascii_location-337
+ /home/user/requests_tests/tests/test_requests.py-test_uppercase_scheme_redirect-1567
+ /home/user/requests_tests/tests/test_requests.py-test_urlencoded_get_query_multivalued_param-1015
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-resolve_redirects-215
+
+
+-------case--------requests.models.Response.encoding
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-text-921
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/utils.py-stream_decode_response_unicode-561
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-text-927
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-json-952
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/utils.py-stream_decode_response_unicode-565
+
+
+-------case--------requests.models.Response.reason
+{'builtins.NoneType', 'builtins.str', 'builtins.bytes'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-raise_for_status-1008
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-raise_for_status-1006
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-raise_for_status-998
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-raise_for_status-1004
+
+
+-------case--------requests.models.Response.hook_working
+{'missing', 'builtins.bool'}
+
+
+-------case--------requests.auth.HTTPBasicAuth.username
+{'builtins.bytes', 'builtins.int', 'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/auth.py-__call__-95
+
+
+-------case--------requests.auth.HTTPBasicAuth.password
+{'builtins.bytes', 'builtins.int', 'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/auth.py-__call__-95
+
+

@@ -1,0 +1,4 @@
+icecream.icecream.IceCreamDebugger.prefix
+{'builtins.str', 'builtins.function'}
+ /home/user/icecream/tests/test_icecream.py-stripPrefix-110
+        line = line.strip()[len(ic.prefix):]

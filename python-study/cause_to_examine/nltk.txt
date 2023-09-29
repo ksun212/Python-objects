@@ -1,0 +1,232 @@
+nltk.corpus.reader.bnc.BNCWordView._stream
+{'builtins.NoneType', 'nltk.data.SeekableUnicodeStreamReader'}
+ /home/user/nltk/nltk/corpus/reader/util.py-iterate_from-303
+            self._stream.seek(filepos)
+nltk.corpus.reader.bnc.BNCWordView._stream
+{'builtins.NoneType', 'nltk.data.SeekableUnicodeStreamReader'}
+ /home/user/nltk/nltk/corpus/reader/util.py-iterate_from-312
+            new_filepos = self._stream.tell()
+nltk.classify.decisiontree.DecisionTreeClassifier._decisions
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/nltk/nltk/classify/decisiontree.py-pretty_format-86
+                self._decisions.items(),
+nltk.classify.decisiontree.DecisionTreeClassifier._decisions
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/nltk/nltk/classify/decisiontree.py-classify-59
+            return self._decisions[fval].classify(featureset)
+nltk.classify.decisiontree.DecisionTreeClassifier._decisions
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/nltk/nltk/classify/decisiontree.py-refine-231
+                self._decisions[fval] = DecisionTreeClassifier.train(
+nltk.classify.maxent.BinaryMaxentFeatureEncoding._alwayson
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/nltk/nltk/classify/maxent.py-__init__-559
+            self._length += len(self._alwayson)
+nltk.classify.maxent.TypedMaxentFeatureEncoding._alwayson
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/nltk/nltk/classify/maxent.py-__init__-895
+            self._length += len(self._alwayson)
+nltk.corpus.reader.util.StreamBackedCorpusView._stream
+{'builtins.NoneType', 'nltk.data.SeekableUnicodeStreamReader'}
+ /home/user/nltk/nltk/corpus/reader/util.py-iterate_from-303
+            self._stream.seek(filepos)
+nltk.corpus.reader.util.StreamBackedCorpusView._stream
+{'builtins.NoneType', 'nltk.data.SeekableUnicodeStreamReader'}
+ /home/user/nltk/nltk/corpus/reader/util.py-iterate_from-312
+            new_filepos = self._stream.tell()
+nltk.corpus.reader.tagged.TaggedCorpusView._stream
+{'builtins.NoneType', 'nltk.data.SeekableUnicodeStreamReader'}
+ /home/user/nltk/nltk/corpus/reader/util.py-iterate_from-303
+            self._stream.seek(filepos)
+nltk.corpus.reader.tagged.TaggedCorpusView._stream
+{'builtins.NoneType', 'nltk.data.SeekableUnicodeStreamReader'}
+ /home/user/nltk/nltk/corpus/reader/util.py-iterate_from-312
+            new_filepos = self._stream.tell()
+nltk.sem.logic.NegatedExpression.term
+{'nltk.sem.logic.EqualityExpression', 'nltk.sem.logic.ApplicationExpression', 'nltk.sem.logic.ImpExpression', 'nltk.sem.logic.ExistsExpression', 'nltk.sem.logic.AndExpression', 'nltk.sem.logic.AllExpression', 'nltk.sem.logic.FunctionVariableExpression', 'nltk.sem.logic.NegatedExpression', 'nltk.sem.logic.OrExpression', 'nltk.sem.logic.IffExpression'}
+ /home/user/nltk/nltk/inference/tableau.py-_attempt_proof_n_and-298
+        agenda.put(-current.term.first, context)
+nltk.sem.logic.NegatedExpression.term
+{'nltk.sem.logic.EqualityExpression', 'nltk.sem.logic.ApplicationExpression', 'nltk.sem.logic.ImpExpression', 'nltk.sem.logic.ExistsExpression', 'nltk.sem.logic.AndExpression', 'nltk.sem.logic.AllExpression', 'nltk.sem.logic.FunctionVariableExpression', 'nltk.sem.logic.NegatedExpression', 'nltk.sem.logic.OrExpression', 'nltk.sem.logic.IffExpression'}
+ /home/user/nltk/nltk/inference/tableau.py-_attempt_proof_n_iff-321
+        agenda.put(-current.term.second, context)
+nltk.sem.logic.NegatedExpression.term
+{'nltk.sem.logic.EqualityExpression', 'nltk.sem.logic.ApplicationExpression', 'nltk.sem.logic.ImpExpression', 'nltk.sem.logic.ExistsExpression', 'nltk.sem.logic.AndExpression', 'nltk.sem.logic.AllExpression', 'nltk.sem.logic.FunctionVariableExpression', 'nltk.sem.logic.NegatedExpression', 'nltk.sem.logic.OrExpression', 'nltk.sem.logic.IffExpression'}
+ /home/user/nltk/nltk/inference/tableau.py-_attempt_proof_n_iff-320
+        agenda.put(current.term.first, context)
+nltk.sem.logic.NegatedExpression.term
+{'nltk.sem.logic.EqualityExpression', 'nltk.sem.logic.ApplicationExpression', 'nltk.sem.logic.ImpExpression', 'nltk.sem.logic.ExistsExpression', 'nltk.sem.logic.AndExpression', 'nltk.sem.logic.AllExpression', 'nltk.sem.logic.FunctionVariableExpression', 'nltk.sem.logic.NegatedExpression', 'nltk.sem.logic.OrExpression', 'nltk.sem.logic.IffExpression'}
+ /home/user/nltk/nltk/inference/tableau.py-_attempt_proof_n_iff-323
+        new_agenda.put(current.term.second, context)
+nltk.sem.logic.NegatedExpression.term
+{'nltk.sem.logic.EqualityExpression', 'nltk.sem.logic.ApplicationExpression', 'nltk.sem.logic.ImpExpression', 'nltk.sem.logic.ExistsExpression', 'nltk.sem.logic.AndExpression', 'nltk.sem.logic.AllExpression', 'nltk.sem.logic.FunctionVariableExpression', 'nltk.sem.logic.NegatedExpression', 'nltk.sem.logic.OrExpression', 'nltk.sem.logic.IffExpression'}
+ /home/user/nltk/nltk/inference/tableau.py-_attempt_proof_n_and-299
+        new_agenda.put(-current.term.second, context)
+nltk.sem.logic.NegatedExpression.term
+{'nltk.sem.logic.EqualityExpression', 'nltk.sem.logic.ApplicationExpression', 'nltk.sem.logic.ImpExpression', 'nltk.sem.logic.ExistsExpression', 'nltk.sem.logic.AndExpression', 'nltk.sem.logic.AllExpression', 'nltk.sem.logic.FunctionVariableExpression', 'nltk.sem.logic.NegatedExpression', 'nltk.sem.logic.OrExpression', 'nltk.sem.logic.IffExpression'}
+ /home/user/nltk/nltk/inference/tableau.py-_attempt_proof_n_iff-322
+        new_agenda.put(-current.term.first, context)
+nltk.sem.linearlogic.ImpExpression.antecedent
+{'nltk.sem.linearlogic.ImpExpression', 'nltk.sem.linearlogic.VariableExpression', 'nltk.sem.linearlogic.ConstantExpression'}
+ /home/user/nltk/nltk/sem/linearlogic.py-__init__-320
+            if not set(function_simp.antecedent.dependencies) < argument_indices:
+nltk.sem.linearlogic.ImpExpression.antecedent
+{'nltk.sem.linearlogic.ImpExpression', 'nltk.sem.linearlogic.VariableExpression', 'nltk.sem.linearlogic.ConstantExpression'}
+ /home/user/nltk/nltk/sem/linearlogic.py-__init__-325
+            if set(function_simp.antecedent.dependencies) == argument_indices:
+nltk.sem.linearlogic.ImpExpression.consequent
+{'nltk.sem.linearlogic.ImpExpression', 'nltk.sem.linearlogic.VariableExpression', 'nltk.sem.linearlogic.ApplicationExpression', 'nltk.sem.linearlogic.ConstantExpression'}
+ /home/user/nltk/nltk/sem/linearlogic.py-compile_pos-245
+        (c, c_new) = self.consequent.compile_pos(index_counter, glueFormulaFactory)
+nltk.sem.linearlogic.ImpExpression.consequent
+{'nltk.sem.linearlogic.ImpExpression', 'nltk.sem.linearlogic.VariableExpression', 'nltk.sem.linearlogic.ApplicationExpression', 'nltk.sem.linearlogic.ConstantExpression'}
+ /home/user/nltk/nltk/sem/linearlogic.py-compile_neg-257
+        (c, c_new) = self.consequent.compile_neg(index_counter, glueFormulaFactory)
+nltk.sem.logic.EqualityExpression.first
+{'nltk.sem.logic.FunctionVariableExpression', 'nltk.sem.logic.IndividualVariableExpression', 'nltk.sem.logic.ApplicationExpression', 'nltk.sem.logic.ConstantExpression'}
+ /home/user/nltk/nltk/inference/resolution.py-_unify_terms-459
+        newbindings = BindingDict([(b.first.variable, b.second)])
+nltk.parse.chart.SteppingChartParser._chart
+{'builtins.NoneType', 'nltk.parse.chart.Chart'}
+ /home/user/nltk/nltk/parse/chart.py-parses-1637
+        return self._chart.parses(self._grammar.start(), tree_class)
+nltk.toolbox.StandardFormat._file
+{'_io._io.StringIO', '_io._io.TextIOWrapper', 'missing'}
+ /home/user/nltk/nltk/toolbox.py-close-134
+        self._file.close()
+nltk.translate.ibm_model.AlignmentInfo.src_sentence
+{'builtins.list', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/nltk/nltk/translate/ibm4.py-distortion_term-415
+                    previous_s = alignment_info.src_sentence[previous_cept]
+nltk.translate.ibm_model.AlignmentInfo.src_sentence
+{'builtins.list', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/nltk/nltk/translate/ibm2.py-prob_t_a_given_s-245
+            src_word = alignment_info.src_sentence[i]
+nltk.translate.ibm_model.AlignmentInfo.src_sentence
+{'builtins.list', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/nltk/nltk/translate/ibm2.py-prob_t_a_given_s-238
+        l = len(alignment_info.src_sentence) - 1
+nltk.translate.ibm_model.AlignmentInfo.src_sentence
+{'builtins.list', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/nltk/nltk/translate/ibm1.py-prob_t_a_given_s-214
+            src_word = alignment_info.src_sentence[i]
+nltk.translate.ibm_model.AlignmentInfo.src_sentence
+{'builtins.list', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/nltk/nltk/translate/ibm5.py-prob_t_a_given_s-546
+        for i in range(1, len(alignment_info.src_sentence)):
+nltk.translate.ibm_model.AlignmentInfo.src_sentence
+{'builtins.list', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/nltk/nltk/translate/ibm_model.py-neighboring-287
+        l = len(alignment_info.src_sentence) - 1  # exclude NULL
+nltk.translate.ibm_model.AlignmentInfo.src_sentence
+{'builtins.list', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/nltk/nltk/translate/ibm5.py-lexical_translation_term-487
+            s = alignment_info.src_sentence[i]
+nltk.translate.ibm_model.AlignmentInfo.src_sentence
+{'builtins.list', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/nltk/nltk/translate/ibm4.py-lexical_translation_term-401
+            s = alignment_info.src_sentence[i]
+nltk.translate.ibm_model.AlignmentInfo.trg_sentence
+{'builtins.list', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/nltk/nltk/translate/ibm5.py-prob_t_a_given_s-453
+        slots = Slots(len(alignment_info.trg_sentence) - 1)
+nltk.translate.ibm_model.AlignmentInfo.trg_sentence
+{'builtins.list', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/nltk/nltk/translate/ibm5.py-lexical_translation_term-485
+            t = alignment_info.trg_sentence[j]
+nltk.translate.ibm_model.AlignmentInfo.trg_sentence
+{'builtins.list', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/nltk/nltk/translate/ibm4.py-lexical_translation_term-399
+            t = alignment_info.trg_sentence[j]
+nltk.translate.ibm_model.AlignmentInfo.trg_sentence
+{'builtins.list', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/nltk/nltk/translate/ibm1.py-prob_t_a_given_s-213
+            trg_word = alignment_info.trg_sentence[j]
+nltk.translate.ibm_model.AlignmentInfo.trg_sentence
+{'builtins.list', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/nltk/nltk/translate/ibm_model.py-neighboring-288
+        m = len(alignment_info.trg_sentence) - 1
+nltk.translate.ibm_model.AlignmentInfo.trg_sentence
+{'builtins.list', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/nltk/nltk/translate/ibm2.py-prob_t_a_given_s-244
+            trg_word = alignment_info.trg_sentence[j]
+nltk.translate.ibm_model.AlignmentInfo.trg_sentence
+{'builtins.list', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/nltk/nltk/translate/ibm2.py-prob_t_a_given_s-239
+        m = len(alignment_info.trg_sentence) - 1
+nltk.translate.ibm_model.AlignmentInfo.trg_sentence
+{'builtins.list', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/nltk/nltk/translate/ibm5.py-prob_t_a_given_s-541
+        for j in range(1, len(alignment_info.trg_sentence)):
+nltk.translate.ibm_model.AlignmentInfo.trg_sentence
+{'builtins.list', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/nltk/nltk/translate/ibm5.py-vacancy_term-506
+            trg_class = self.trg_classes[alignment_info.trg_sentence[j]]
+nltk.translate.ibm_model.AlignmentInfo.trg_sentence
+{'builtins.list', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/nltk/nltk/translate/ibm4.py-distortion_term-405
+            t = alignment_info.trg_sentence[j]
+nltk.translate.ibm_model.AlignmentInfo.trg_sentence
+{'builtins.list', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/nltk/nltk/translate/ibm5.py-null_generation_term-461
+            m = len(alignment_info.trg_sentence) - 1
+nltk.translate.ibm_model.AlignmentInfo.trg_sentence
+{'builtins.list', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/nltk/nltk/translate/ibm4.py-null_generation_term-375
+            m = len(alignment_info.trg_sentence) - 1
+nltk.translate.ibm_model.AlignmentInfo.trg_sentence
+{'builtins.list', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/nltk/nltk/translate/ibm4.py-model4_prob_t_a_given_s-439
+        for j in range(1, len(alignment_info.trg_sentence)):
+nltk.translate.ibm_model.AlignmentInfo.trg_sentence
+{'builtins.list', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/nltk/nltk/translate/ibm5.py-vacancy_term-520
+                trg_class = self.trg_classes[alignment_info.trg_sentence[j]]
+nltk.translate.ibm_model.AlignmentInfo.cepts
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/nltk/nltk/translate/ibm_model.py-is_head_word-450
+        return self.cepts[i][0] == j
+nltk.translate.ibm_model.AlignmentInfo.cepts
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/nltk/nltk/translate/ibm_model.py-previous_in_tablet-492
+        return self.cepts[i][tablet_position - 1]
+nltk.translate.ibm_model.AlignmentInfo.cepts
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/nltk/nltk/translate/ibm_model.py-previous_in_tablet-489
+        tablet_position = self.cepts[i].index(j)
+nltk.translate.ibm_model.AlignmentInfo.cepts
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/nltk/nltk/translate/ibm_model.py-fertility_of_i-442
+        return len(self.cepts[i])
+nltk.translate.ibm_model.AlignmentInfo.cepts
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/nltk/nltk/translate/ibm5.py-vacancy_term-492
+            tablet = alignment_info.cepts[i]
+nltk.translate.ibm4.IBMModel4.src_classes
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/nltk/nltk/translate/ibm4.py-distortion_term-416
+                    src_class = ibm_model.src_classes[previous_s]
+nltk.translate.ibm4.IBMModel4.trg_classes
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/nltk/nltk/translate/ibm4.py-distortion_term-417
+                trg_class = ibm_model.trg_classes[t]
+nltk.translate.ibm4.IBMModel4.trg_classes
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/nltk/nltk/translate/ibm4.py-distortion_term-423
+            trg_class = ibm_model.trg_classes[t]
+nltk.translate.ibm5.IBMModel5.trg_classes
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/nltk/nltk/translate/ibm5.py-vacancy_term-506
+            trg_class = self.trg_classes[alignment_info.trg_sentence[j]]
+nltk.translate.ibm5.IBMModel5.trg_classes
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/nltk/nltk/translate/ibm5.py-vacancy_term-520
+                trg_class = self.trg_classes[alignment_info.trg_sentence[j]]
+nltk.translate.stack_decoder.StackDecoder.phrase_table
+{'builtins.NoneType', 'nltk.translate.api.PhraseTable'}
+ /home/user/nltk/nltk/translate/stack_decoder.py-compute_future_scores-246
+                    score = self.phrase_table.translations_for(phrase)[
+nltk.translate.stack_decoder.StackDecoder.language_model
+{'builtins.NoneType', 'nltk.test.unit.translate.test_stack_decoder.'}
+ /home/user/nltk/nltk/translate/stack_decoder.py-compute_future_scores-250
+                    score += self.language_model.probability(phrase)

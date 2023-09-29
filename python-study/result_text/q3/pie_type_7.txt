@@ -1,0 +1,7 @@
+t1stru2	84
+ln	250
+rn	20
+others	33
+t1simt2	5
+t1st2	4
+coercion	6

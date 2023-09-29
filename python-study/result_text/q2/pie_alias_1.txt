@@ -1,0 +1,5 @@
+method	45
+explicit	12
+local	9
+non_local	5
+complex	1

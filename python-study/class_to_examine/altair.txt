@@ -1,0 +1,65 @@
+-------case--------altair.utils.schemapi._PropertySetter.obj
+{'altair.vegalite.v5.schema.channels.Theta', 'altair.vegalite.v5.schema.channels.RadiusDatum', 'altair.vegalite.v5.schema.channels.ThetaDatum', 'missing', 'altair.vegalite.v5.schema.channels.Color', 'altair.vegalite.v5.schema.channels.Facet', 'altair.vegalite.v5.schema.channels.Fill', 'altair.vegalite.v5.schema.channels.Opacity', 'altair.vegalite.v5.schema.channels.Angle', 'altair.vegalite.v5.schema.channels.X', 'altair.vegalite.v5.schema.channels.Column', 'altair.vegalite.v5.schema.channels.Radius', 'altair.vegalite.v5.schema.channels.Row', 'altair.vegalite.v5.schema.channels.Shape', 'altair.vegalite.v5.schema.channels.Y', 'altair.vegalite.v5.schema.channels.Size', 'altair.vegalite.v5.schema.channels.Order'}
+ /home/user/altair/altair/utils/schemapi.py-__call__-856
+
+
+-------case--------altair.utils.schemapi._PropertySetter.cls
+{'builtins.type', 'missing'}
+
+
+-------case--------altair.utils.schemapi._PropertySetter.__signature__
+{'missing', 'inspect.Signature'}
+
+
+-------case--------altair.utils.schemapi._PropertySetter.__wrapped__
+{'inspect.FullArgSpec', 'missing'}
+
+
+-------case--------altair.utils.schemapi._PropertySetter.__name__
+{'builtins.str', 'missing'}
+
+
+-------case--------altair.utils.execeval._CatchDisplay.output
+{'builtins.NoneType', 'altair.vegalite.v5.api.FacetChart', 'altair.vegalite.v5.api.HConcatChart', 'altair.vegalite.v5.api.VConcatChart', 'altair.vegalite.v5.api.RepeatChart', 'builtins.int', 'altair.vegalite.v5.api.Chart', 'altair.vegalite.v5.api.ConcatChart', 'altair.vegalite.v5.api.LayerChart'}
+ /home/user/altair/altair/utils/execeval.py-eval_block-61
+
+
+-------case--------altair.utils.execeval._CatchDisplay.old_hook
+{'missing', 'builtins.builtin_function_or_method'}
+ /home/user/altair/altair/utils/execeval.py-__exit__-25
+
+
+-------case--------altair.vegalite.v5.api.Parameter.empty
+{'missing', 'builtins.bool'}
+ /home/user/altair/altair/vegalite/v5/api.py-condition-757
+ /home/user/altair/altair/vegalite/v5/api.py-param-360
+ /home/user/altair/altair/vegalite/v5/api.py-param-354
+ /home/user/altair/altair/vegalite/v5/api.py-param-366
+ /home/user/altair/altair/vegalite/v5/api.py-transform_filter-1585
+ /home/user/altair/altair/vegalite/v5/api.py-transform_filter-1586
+ /home/user/altair/altair/vegalite/v5/api.py-condition-758
+
+
+-------case--------altair.vegalite.v5.api.Parameter.param_type
+{'builtins.str', 'missing'}
+ /home/user/altair/altair/vegalite/v5/api.py-to_dict-197
+ /home/user/altair/altair/vegalite/v5/api.py-to_dict-195
+ /home/user/altair/altair/vegalite/v5/api.py-condition-753
+ /home/user/altair/altair/vegalite/v5/api.py-__or__-219
+ /home/user/altair/altair/vegalite/v5/api.py-__invert__-205
+ /home/user/altair/altair/vegalite/v5/api.py-__and__-211
+
+
+-------case--------altair.utils.server.MyHandler.command
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/Lib/http/server.py-handle_one_request-413
+
+
+-------case--------altair.vegalite.v5.api.SelectionExpression.expr
+{'altair.expr.core.GetAttrExpression', 'altair.expr.core.BinaryExpression'}
+ /home/user/altair/tests/vegalite/v5/test_params.py-test_selection_expression-126
+ /home/user/altair/tests/vegalite/v5/test_params.py-test_selection_expression-140
+ /home/user/altair/altair/vegalite/v5/api.py-to_dict-282
+ /home/user/altair/altair/vegalite/v5/api.py-_to_expr-285
+
+

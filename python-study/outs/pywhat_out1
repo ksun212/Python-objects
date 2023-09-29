@@ -1,0 +1,9 @@
+pywhat
+Traceback (most recent call last):
+  File "/home/isika/python-study/pre_run_biend.py", line 3736, in <module>
+    process_repo()
+  File "/home/isika/python-study/pre_run_biend.py", line 3571, in process_repo
+    cls_elv = load_cls_elv()
+  File "/home/isika/python-study/pre_run_biend.py", line 1281, in load_cls_elv
+    with open(f"/home/user/purepython/cpython-3.9/pydyna/store_attr_flow_err_{repo}.txt") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/user/purepython/cpython-3.9/pydyna/store_attr_flow_err_pywhat.txt'

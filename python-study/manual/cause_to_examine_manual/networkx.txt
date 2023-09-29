@@ -1,0 +1,327 @@
+networkx.classes.graph.Graph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/graph.py-__len__-487
+        return len(self._node)
+networkx.classes.graph.Graph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/graph.py-add_edge-949
+            self._node[u] = self.node_attr_dict_factory()
+networkx.classes.graph.Graph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/graph.py-add_node-561
+            self._node[node_for_adding].update(attr)
+networkx.classes.graph.Graph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/graph.py-add_edges_from-1034
+                self._node[v] = self.node_attr_dict_factory()
+networkx.classes.graph.Graph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/graph.py-order-865
+        return len(self._node)
+networkx.classes.graph.Graph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/graph.py-add_node-558
+            attr_dict = self._node[node_for_adding] = self.node_attr_dict_factory()
+networkx.classes.graph.Graph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/graph.py-number_of_nodes-844
+        return len(self._node)
+networkx.classes.graph.Graph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/tests/test_convert.py-test_custom_node_attr_dict_safekeeping-275
+        assert isinstance(g._node[1], dict)
+networkx.classes.graph.Graph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/graph.py-add_edges_from-1029
+                self._node[u] = self.node_attr_dict_factory()
+networkx.classes.graph.Graph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/graph.py-add_edge-954
+            self._node[v] = self.node_attr_dict_factory()
+networkx.classes.graph.Graph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/graph.py-add_nodes_from-638
+            self._node[n].update(newdict)
+networkx.classes.graph.Graph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/graph.py-add_nodes_from-637
+                self._node[n] = self.node_attr_dict_factory()
+networkx.classes.graph.Graph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-add_edge-956
+        datadict = self._adj[u].get(v, self.edge_attr_dict_factory())
+networkx.classes.graph.Graph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-copy-1645
+            for u, nbrs in self._adj.items()
+networkx.classes.graph.Graph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-add_edges_from-1028
+                self._adj[u] = self.adjlist_inner_dict_factory()
+networkx.classes.graph.Graph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-add_edges_from-1033
+                self._adj[v] = self.adjlist_inner_dict_factory()
+networkx.classes.graph.Graph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-number_of_edges-1958
+        if v in self._adj[u]:
+networkx.classes.graph.Graph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-add_edges_from-1039
+            self._adj[v][u] = datadict
+networkx.classes.graph.Graph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-add_edge-958
+        self._adj[u][v] = datadict
+networkx.classes.graph.Graph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-add_edge-953
+            self._adj[v] = self.adjlist_inner_dict_factory()
+networkx.classes.graph.Graph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-add_edge-959
+        self._adj[v][u] = datadict
+networkx.classes.graph.Graph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-add_node-557
+            self._adj[node_for_adding] = self.adjlist_inner_dict_factory()
+networkx.classes.graph.Graph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-add_edge-948
+            self._adj[u] = self.adjlist_inner_dict_factory()
+networkx.classes.graph.Graph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-add_edges_from-1035
+            datadict = self._adj[u].get(v, self.edge_attr_dict_factory())
+networkx.classes.graph.Graph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-add_edges_from-1038
+            self._adj[u][v] = datadict
+networkx.classes.graph.Graph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-adjacency-1479
+        return iter(self._adj.items())
+networkx.classes.graph.Graph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-add_nodes_from-636
+                self._adj[n] = self.adjlist_inner_dict_factory()
+networkx.classes.digraph.DiGraph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/digraph.py-add_edges_from-788
+                self._node[v] = self.node_attr_dict_factory()
+networkx.classes.digraph.DiGraph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/graph.py-order-865
+        return len(self._node)
+networkx.classes.digraph.DiGraph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/digraph.py-add_edge-700
+            self._node[u] = self.node_attr_dict_factory()
+networkx.classes.digraph.DiGraph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/digraph.py-add_edge-706
+            self._node[v] = self.node_attr_dict_factory()
+networkx.classes.digraph.DiGraph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/graph.py-__len__-487
+        return len(self._node)
+networkx.classes.digraph.DiGraph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/digraph.py-add_nodes_from-544
+                self._node[n] = self.node_attr_dict_factory()
+networkx.classes.digraph.DiGraph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/digraph.py-add_nodes_from-545
+            self._node[n].update(newdict)
+networkx.classes.digraph.DiGraph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/digraph.py-add_node-464
+            attr_dict = self._node[node_for_adding] = self.node_attr_dict_factory()
+networkx.classes.digraph.DiGraph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/digraph.py-add_edges_from-782
+                self._node[u] = self.node_attr_dict_factory()
+networkx.classes.digraph.DiGraph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-number_of_edges-1958
+        if v in self._adj[u]:
+networkx.classes.digraph.DiGraph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-add_edges_from-789
+            datadict = self._adj[u].get(v, self.edge_attr_dict_factory())
+networkx.classes.digraph.DiGraph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-to_undirected-1299
+                for u, nbrs in self._adj.items()
+networkx.classes.digraph.DiGraph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-add_edge-708
+        datadict = self._adj[u].get(v, self.edge_attr_dict_factory())
+networkx.classes.digraph.DiGraph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-adjacency-1479
+        return iter(self._adj.items())
+networkx.classes.digraph.DiGraph._succ
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-remove_node-584
+        del self._succ[n]  # remove node from succ
+networkx.classes.digraph.DiGraph._succ
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-add_edge-710
+        self._succ[u][v] = datadict
+networkx.classes.digraph.DiGraph._succ
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-add_nodes_from-542
+                self._succ[n] = self.adjlist_inner_dict_factory()
+networkx.classes.digraph.DiGraph._succ
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-add_node-462
+            self._succ[node_for_adding] = self.adjlist_inner_dict_factory()
+networkx.classes.digraph.DiGraph._succ
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-remove_node-586
+            del self._succ[u][n]  # remove all edges n-u in digraph
+networkx.classes.digraph.DiGraph._succ
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-remove_edges_from-857
+                del self._succ[u][v]
+networkx.classes.digraph.DiGraph._succ
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-add_edges_from-780
+                self._succ[u] = self.adjlist_inner_dict_factory()
+networkx.classes.digraph.DiGraph._succ
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-add_edges_from-786
+                self._succ[v] = self.adjlist_inner_dict_factory()
+networkx.classes.digraph.DiGraph._succ
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-add_edge-704
+            self._succ[v] = self.adjlist_inner_dict_factory()
+networkx.classes.digraph.DiGraph._succ
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-add_edge-698
+            self._succ[u] = self.adjlist_inner_dict_factory()
+networkx.classes.digraph.DiGraph._succ
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-add_edges_from-792
+            self._succ[u][v] = datadict
+networkx.classes.digraph.DiGraph._pred
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-add_edge-705
+            self._pred[v] = self.adjlist_inner_dict_factory()
+networkx.classes.digraph.DiGraph._pred
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-add_node-463
+            self._pred[node_for_adding] = self.adjlist_inner_dict_factory()
+networkx.classes.digraph.DiGraph._pred
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-add_edges_from-793
+            self._pred[v][u] = datadict
+networkx.classes.digraph.DiGraph._pred
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-remove_node-583
+            del self._pred[u][n]  # remove all edges n-u in digraph
+networkx.classes.digraph.DiGraph._pred
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-remove_node-585
+        for u in self._pred[n]:
+networkx.classes.digraph.DiGraph._pred
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-add_edges_from-787
+                self._pred[v] = self.adjlist_inner_dict_factory()
+networkx.classes.digraph.DiGraph._pred
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-add_edge-711
+        self._pred[v][u] = datadict
+networkx.classes.digraph.DiGraph._pred
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-add_edges_from-781
+                self._pred[u] = self.adjlist_inner_dict_factory()
+networkx.classes.digraph.DiGraph._pred
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-remove_node-587
+        del self._pred[n]  # remove node from pred
+networkx.classes.digraph.DiGraph._pred
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-add_edge-699
+            self._pred[u] = self.adjlist_inner_dict_factory()
+networkx.classes.digraph.DiGraph._pred
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-remove_edges_from-858
+                del self._pred[v][u]
+networkx.classes.digraph.DiGraph._pred
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-add_nodes_from-543
+                self._pred[n] = self.adjlist_inner_dict_factory()
+networkx.classes.multigraph.MultiGraph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/graph.py-__len__-487
+        return len(self._node)
+networkx.classes.multigraph.MultiGraph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/graph.py-add_node-561
+            self._node[node_for_adding].update(attr)
+networkx.classes.multigraph.MultiGraph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/multigraph.py-add_edge-503
+            self._node[u] = self.node_attr_dict_factory()
+networkx.classes.multigraph.MultiGraph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/graph.py-add_node-558
+            attr_dict = self._node[node_for_adding] = self.node_attr_dict_factory()
+networkx.classes.multigraph.MultiGraph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/graph.py-add_nodes_from-638
+            self._node[n].update(newdict)
+networkx.classes.multigraph.MultiGraph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/graph.py-add_nodes_from-637
+                self._node[n] = self.node_attr_dict_factory()
+networkx.classes.multigraph.MultiGraph._node
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/multigraph.py-add_edge-508
+            self._node[v] = self.node_attr_dict_factory()
+networkx.classes.multigraph.MultiGraph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterMultiAdjacency'}
+ /home/user/networkx/networkx/classes/multigraph.py-add_edge-523
+            self._adj[v][u] = keydict
+networkx.classes.multigraph.MultiGraph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterMultiAdjacency'}
+ /home/user/networkx/networkx/classes/multigraph.py-add_edge-502
+            self._adj[u] = self.adjlist_inner_dict_factory()
+networkx.classes.multigraph.MultiGraph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterMultiAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-add_nodes_from-636
+                self._adj[n] = self.adjlist_inner_dict_factory()
+networkx.classes.multigraph.MultiGraph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterMultiAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-add_node-557
+            self._adj[node_for_adding] = self.adjlist_inner_dict_factory()
+networkx.classes.multigraph.MultiGraph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterMultiAdjacency'}
+ /home/user/networkx/networkx/classes/multigraph.py-add_edge-511
+        if v in self._adj[u]:
+networkx.classes.multigraph.MultiGraph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterMultiAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-adjacency-1479
+        return iter(self._adj.items())
+networkx.classes.multigraph.MultiGraph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterMultiAdjacency'}
+ /home/user/networkx/networkx/classes/multigraph.py-add_edge-507
+            self._adj[v] = self.adjlist_inner_dict_factory()
+networkx.classes.multigraph.MultiGraph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterMultiAdjacency'}
+ /home/user/networkx/networkx/classes/multigraph.py-add_edge-512
+            keydict = self._adj[u][v]
+networkx.classes.multigraph.MultiGraph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterMultiAdjacency'}
+ /home/user/networkx/networkx/classes/multigraph.py-add_edge-522
+            self._adj[u][v] = keydict
+networkx.classes.multigraph.MultiGraph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterMultiAdjacency'}
+ /home/user/networkx/networkx/classes/multigraph.py-copy-1103
+            for u, nbrs in self._adj.items()
+
+check: 8
+safe: 8

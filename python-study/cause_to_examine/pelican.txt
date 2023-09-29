@@ -1,0 +1,28 @@
+pelican.readers.MarkdownReader._md
+{'markdown.core.Markdown', 'missing'}
+ /home/user/pelican/pelican/readers.py-_parse_metadata-320
+                self._md.reset()
+pelican.readers.MarkdownReader._md
+{'markdown.core.Markdown', 'missing'}
+ /home/user/pelican/pelican/readers.py-_parse_metadata-321
+                formatted = self._md.convert(formatted_values)
+pelican.readers.MarkdownReader._md
+{'markdown.core.Markdown', 'missing'}
+ /home/user/pelican/pelican/readers.py-_parse_metadata-311
+        self._md.preprocessors.deregister('meta')
+pelican.contents.Article.category
+{'pelican.urlwrappers.Category', 'builtins.str', 'missing'}
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-195
+        return [[article.title, article.status, article.category.name,
+pelican.contents.Article.date
+{'datetime.datetime.datetime', 'pelican.utils.SafeDatetime', 'missing'}
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-428
+        articles = [d for d in generator.articles if d.date.year == 1970]
+pelican.contents.Page.authors
+{'builtins.list', 'missing'}
+ /home/user/pelican/pelican/tests/test_contents.py-test_multiple_authors-669
+        assert content.author == content.authors[0]
+pelican.writers.Writer.site_url
+{'builtins.str', 'missing'}
+ /home/user/pelican/pelican/writers.py-_create_new_feed-42
+            link=(self.site_url + '/'),

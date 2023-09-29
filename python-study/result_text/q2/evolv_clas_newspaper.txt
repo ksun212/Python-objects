@@ -1,0 +1,1 @@
+["newspaper.outputformatters.OutputFormatter", "newspaper.article.Article"]

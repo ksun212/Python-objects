@@ -1,0 +1,26 @@
+-------case--------pendulum.testing.traveller.Traveller._coordinates
+{'builtins.NoneType', 'time_machine.Coordinates'}
+ /home/user/pendulum/pendulum/testing/traveller.py-freeze-53
+ /home/user/pendulum/pendulum/testing/traveller.py-travel_to-105
+ /home/user/pendulum/pendulum/testing/traveller.py-travel-87
+
+
+-------case--------pendulum.parsing._Interval.start
+{'builtins.NoneType', 'datetime.datetime.datetime'}
+ /home/user/pendulum/pendulum/parser.py-_parse-69
+ /home/user/pendulum/pendulum/parser.py-_parse-68
+ /home/user/pendulum/pendulum/parser.py-_parse-105
+
+
+-------case--------pendulum.parsing._Interval.end
+{'builtins.NoneType', 'datetime.datetime.datetime'}
+ /home/user/pendulum/pendulum/parser.py-_parse-108
+ /home/user/pendulum/pendulum/parser.py-_parse-86
+
+
+-------case--------pendulum.parsing._Interval.duration
+{'builtins.Duration', 'builtins.NoneType'}
+ /home/user/pendulum/pendulum/parser.py-_parse-66
+ /home/user/pendulum/pendulum/parser.py-_parse-65
+
+

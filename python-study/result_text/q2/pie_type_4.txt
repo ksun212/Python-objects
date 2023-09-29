@@ -1,0 +1,5 @@
+t1stru2	2
+ln	18
+rn	4
+others	6
+t1simt2	3

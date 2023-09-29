@@ -1,0 +1,1 @@
+["isort.setuptools_commands.ISortCommand", "isort.deprecated.finders.RequirementsFinder", "isort.settings.Config"]

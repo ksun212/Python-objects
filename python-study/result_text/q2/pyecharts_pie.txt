@@ -1,0 +1,2 @@
+{"non_local": 4, "method": 3, "function": 2}
+{"ln": 1}

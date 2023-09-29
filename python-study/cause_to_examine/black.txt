@@ -1,0 +1,44 @@
+black_blib2to3.pgen2.parse.Parser.stack
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py-_addtoken-290
+            dfa, state, node = self.stack[-1]
+black_blib2to3.pgen2.parse.Parser.stack
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py-push-378
+            self.stack.append((newdfa, 0, newnode))
+black_blib2to3.pgen2.parse.Parser.stack
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py-shift-361
+            dfa, state, node = self.stack[-1]
+black_blib2to3.pgen2.parse.Parser.stack
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py-shift-366
+            self.stack[-1] = (dfa, newstate, node)
+black_blib2to3.pgen2.parse.Parser.stack
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py-push-375
+            dfa, state, node = self.stack[-1]
+black_blib2to3.pgen2.parse.Parser.stack
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py-pop-385
+            popdfa, popstate, popnode = self.stack.pop()
+black_blib2to3.pgen2.parse.Parser.stack
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py-_addtoken-316
+                        dfa, state, node = self.stack[-1]
+black_blib2to3.pgen2.parse.Parser.stack
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py-pop-388
+                dfa, state, node = self.stack[-1]
+black_blib2to3.pgen2.parse.Parser.stack
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py-push-377
+            self.stack[-1] = (dfa, newstate, node)
+black_blib2to3.pgen2.parse.Parser.used_names
+{'missing', 'builtins.set'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py-classify-339
+            self.used_names.add(value)
+black_blib2to3.pytree.Leaf.bracket_depth
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/nodes.py-is_one_sequence_between-576
+    depth = closing.bracket_depth + 1

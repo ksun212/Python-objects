@@ -1,0 +1,42 @@
+ /home/user/nltk/nltk/ccg/api.py-__hash__-79
+nltk.ccg.api.PrimitiveCategory._hash
+ /home/user/nltk/nltk/ccg/api.py-__hash__-233
+nltk.ccg.api.Direction._hash
+ /home/user/nltk/nltk/ccg/api.py-__hash__-79
+nltk.ccg.api.FunctionalCategory._hash
+ /home/user/nltk/nltk/parse/chart.py-__hash__-221
+nltk.ccg.chart.CCGLeafEdge._hash
+ /home/user/nltk/nltk/parse/chart.py-__hash__-221
+nltk.ccg.chart.CCGEdge._hash
+ /home/user/nltk/nltk/ccg/api.py-__hash__-79
+nltk.ccg.api.CCGVar._hash
+ /home/user/nltk/nltk/classify/naivebayes.py-most_informative_features-186
+nltk.classify.naivebayes.NaiveBayesClassifier._most_informative_features
+ /home/user/nltk/nltk/probability.py-max-754
+nltk.probability.DictionaryProbDist._max
+ /home/user/nltk/nltk/text.py-concordance_list-403
+nltk.text.Text._concordance_index
+ /home/user/nltk/nltk/parse/projectivedependencyparser.py-parse-187
+nltk.parse.projectivedependencyparser.ProjectiveDependencyParser._tokens
+ /home/user/nltk/nltk/parse/nonprojectivedependencyparser.py-parse-596
+nltk.parse.nonprojectivedependencyparser.NonprojectiveDependencyParser._graph
+ /home/user/nltk/nltk/parse/chart.py-__hash__-221
+nltk.parse.chart.LeafEdge._hash
+ /home/user/nltk/nltk/parse/chart.py-__hash__-221
+nltk.parse.featurechart.FeatureTreeEdge._hash
+ /home/user/nltk/nltk/parse/chart.py-__hash__-221
+nltk.parse.chart.TreeEdge._hash
+ /home/user/nltk/nltk/parse/chart.py-__hash__-221
+nltk.parse.pchart.ProbabilisticLeafEdge._hash
+ /home/user/nltk/nltk/parse/chart.py-__hash__-221
+nltk.parse.pchart.ProbabilisticTreeEdge._hash
+ /home/user/nltk/nltk/stem/arlstem2.py-stem1-118
+nltk.stem.arlstem2.ARLSTem2.is_verb
+ /home/user/nltk/nltk/toolbox.py-open-41
+nltk.toolbox.StandardFormat._file
+ /home/user/nltk/nltk/toolbox.py-raw_fields-77
+nltk.toolbox.StandardFormat.line_num
+ /home/user/nltk/nltk/toolbox.py-open_string-50
+nltk.toolbox.ToolboxData._file
+ /home/user/nltk/nltk/toolbox.py-raw_fields-77
+nltk.toolbox.ToolboxData.line_num

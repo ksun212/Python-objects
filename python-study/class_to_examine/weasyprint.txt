@@ -1,0 +1,1317 @@
+-------case--------weasyprint.HTML.base_url
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/pages.py-set_page_type_computed_styles-682
+ /home/user/WeasyPrint-52.5/weasyprint/document.py-_render-402
+ /home/user/WeasyPrint-52.5/weasyprint/css/__init__.py-__init__-115
+ /home/user/WeasyPrint-52.5/weasyprint/css/__init__.py-__init__-99
+ /home/user/WeasyPrint-52.5/weasyprint/css/__init__.py-get_all_computed_styles-1039
+ /home/user/WeasyPrint-52.5/weasyprint/layout/pages.py-set_page_type_computed_styles-691
+ /home/user/WeasyPrint-52.5/weasyprint/__init__.py-_get_metadata-134
+ /home/user/WeasyPrint-52.5/weasyprint/tools/navigator.py-render_template-56
+ /home/user/WeasyPrint-52.5/weasyprint/css/__init__.py-__init__-66
+
+
+-------case--------weasyprint.css.targets.TargetLookupItem.target_box
+{'weasyprint.formatting_structure.boxes.BlockBox', 'builtins.NoneType', 'weasyprint.formatting_structure.boxes.InlineBox'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-compute_content_list-438
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-compute_content_list-488
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-compute_content_list-464
+
+
+-------case--------weasyprint.css.targets.TargetLookupItem.page_maker_index
+{'builtins.int', 'builtins.NoneType'}
+
+
+-------case--------weasyprint.layout.LayoutContext.excluded_shapes
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/__init__.py-create_block_formatting_context-236
+ /home/user/WeasyPrint-52.5/weasyprint/layout/float.py-get_clearance-120
+ /home/user/WeasyPrint-52.5/weasyprint/layout/columns.py-columns_layout-157
+ /home/user/WeasyPrint-52.5/weasyprint/layout/inlines.py-get_next_linebox-88
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_container_layout-671
+ /home/user/WeasyPrint-52.5/weasyprint/layout/__init__.py-finish_block_formatting_context-240
+ /home/user/WeasyPrint-52.5/weasyprint/layout/inlines.py-get_next_linebox-75
+ /home/user/WeasyPrint-52.5/weasyprint/layout/float.py-float_layout-82
+ /home/user/WeasyPrint-52.5/weasyprint/layout/float.py-find_float_position-95
+ /home/user/WeasyPrint-52.5/weasyprint/layout/inlines.py-get_next_linebox-144
+ /home/user/WeasyPrint-52.5/weasyprint/layout/float.py-find_float_position-96
+ /home/user/WeasyPrint-52.5/weasyprint/layout/float.py-avoid_collisions-130
+ /home/user/WeasyPrint-52.5/weasyprint/layout/columns.py-columns_layout-134
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_container_layout-674
+ /home/user/WeasyPrint-52.5/weasyprint/layout/__init__.py-finish_block_formatting_context-244
+
+
+-------case--------weasyprint.layout.LayoutContext.forced_break
+{'builtins.str', 'builtins.bool'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_level_layout-47
+
+
+-------case--------weasyprint.layout.LayoutContext.margin_clearance
+{'builtins.bool', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.cached_counter_values
+{'builtins.dict', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-parse_again-554
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-parse_again-629
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-compute_content_list-464
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-compute_content_list-438
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.viewport_overflow
+{'builtins.str', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/pages.py-make_page-518
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.min_height
+{'builtins.int', 'missing', 'builtins.float', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_container_layout-637
+ /home/user/WeasyPrint-52.5/weasyprint/layout/percentages.py-resolve_percentages-136
+ /home/user/WeasyPrint-52.5/weasyprint/layout/percentages.py-resolve_percentages-137
+ /home/user/WeasyPrint-52.5/weasyprint/layout/flex.py-flex_layout-143
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.max_height
+{'builtins.float', 'missing', 'builtins.int'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/percentages.py-resolve_percentages-135
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.index
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.left
+{'builtins.int', 'missing', 'builtins.float', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/absolute.py-absolute_width-64
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.right
+{'builtins.int', 'builtins.float', 'missing', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/absolute.py-absolute_width-65
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.top
+{'builtins.int', 'missing', 'builtins.float', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/absolute.py-absolute_height-135
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.bottom
+{'builtins.float', 'missing', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/absolute.py-absolute_height-136
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.border_top_left_radius
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.border_top_right_radius
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.border_bottom_right_radius
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.border_bottom_left_radius
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.background
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.is_attachment
+{'builtins.bool', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.attachment_download
+{'missing', 'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.missing_link
+{'weasyprint.formatting_structure.boxes.BlockBox', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.flex_basis
+{'builtins.str', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/flex.py-flex_layout-167
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.flex_factor
+{'builtins.int', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/flex.py-flex_layout-319
+ /home/user/WeasyPrint-52.5/weasyprint/layout/flex.py-flex_layout-348
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.frozen
+{'builtins.bool', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/flex.py-flex_layout-408
+ /home/user/WeasyPrint-52.5/weasyprint/layout/flex.py-flex_layout-372
+ /home/user/WeasyPrint-52.5/weasyprint/layout/flex.py-flex_layout-344
+ /home/user/WeasyPrint-52.5/weasyprint/layout/flex.py-flex_layout-332
+ /home/user/WeasyPrint-52.5/weasyprint/layout/flex.py-flex_layout-385
+ /home/user/WeasyPrint-52.5/weasyprint/layout/flex.py-flex_layout-378
+ /home/user/WeasyPrint-52.5/weasyprint/layout/flex.py-<genexpr>-338
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.adjustment
+{'builtins.int', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/flex.py-<genexpr>-413
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.baseline
+{'builtins.int', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/flex.py-flex_layout-699
+ /home/user/WeasyPrint-52.5/weasyprint/layout/flex.py-flex_layout-764
+
+
+-------case--------weasyprint.formatting_structure.boxes.TextBox.element_tag
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-<genexpr>-1543
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-<genexpr>-1544
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-<genexpr>-1572
+ /home/user/WeasyPrint-52.5/weasyprint/tests/test_boxes.py-<listcomp>-41
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-<genexpr>-1545
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-anonymous_from-102
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-<genexpr>-1582
+
+
+-------case--------weasyprint.formatting_structure.boxes.TextBox.element
+{'builtins.NoneType', 'xml.etree.ElementTree.xml.etree.ElementTree.Element'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-anonymous_from-102
+
+
+-------case--------weasyprint.formatting_structure.boxes.TextBox.position_y
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TextBox.margin_left
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TextBox.margin_right
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TextBox.margin_top
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TextBox.margin_bottom
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TextBox.padding_left
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TextBox.padding_right
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TextBox.padding_top
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TextBox.padding_bottom
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TextBox.width
+{'builtins.str', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TextBox.min_width
+{'builtins.int', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TextBox.max_width
+{'builtins.float', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TextBox.height
+{'builtins.str', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TextBox.min_height
+{'builtins.int', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TextBox.max_height
+{'builtins.float', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TextBox.border_top_width
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TextBox.border_right_width
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TextBox.border_bottom_width
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TextBox.border_left_width
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TextBox.position_x
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBox.cached_counter_values
+{'builtins.dict', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-parse_again-554
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBox.is_attachment
+{'builtins.bool', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBox.attachment_download
+{'missing', 'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBox.position_y
+{'builtins.float', 'missing', 'builtins.int'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/inlines.py-split_inline_box-692
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBox.margin_top
+{'builtins.int', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBox.margin_bottom
+{'builtins.int', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBox.padding_top
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBox.padding_bottom
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBox.width
+{'builtins.float', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBox.min_width
+{'builtins.int', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBox.max_width
+{'builtins.float', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBox.height
+{'builtins.float', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBox.min_height
+{'builtins.int', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBox.max_height
+{'builtins.float', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBox.border_top_width
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBox.border_bottom_width
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBox.missing_link
+{'weasyprint.formatting_structure.boxes.InlineBox', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableBox.children
+{'builtins.tuple', 'builtins.list'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-anonymous_table_boxes-762
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-deepcopy-333
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-process_whitespace-1236
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableBox.cached_counter_values
+{'builtins.dict', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableBox.position_x
+{'builtins.float', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableBox.position_y
+{'builtins.float', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_container_layout-328
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowGroupBox.cached_counter_values
+{'builtins.dict', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowGroupBox.index
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowGroupBox.margin_left
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowGroupBox.margin_right
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowGroupBox.margin_top
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowGroupBox.margin_bottom
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowGroupBox.padding_left
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowGroupBox.padding_right
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowGroupBox.padding_top
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowGroupBox.padding_bottom
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowGroupBox.width
+{'builtins.int', 'builtins.float', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowGroupBox.min_width
+{'builtins.int', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowGroupBox.max_width
+{'builtins.float', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowGroupBox.height
+{'builtins.str', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowGroupBox.min_height
+{'builtins.int', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowGroupBox.max_height
+{'builtins.float', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowGroupBox.border_top_width
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowGroupBox.border_right_width
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowGroupBox.border_bottom_width
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowGroupBox.border_left_width
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowGroupBox.position_x
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowGroupBox.position_y
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowBox.cached_counter_values
+{'builtins.dict', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowBox.index
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowBox.margin_left
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowBox.margin_right
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowBox.margin_top
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowBox.margin_bottom
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowBox.padding_left
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowBox.padding_right
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowBox.padding_top
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowBox.padding_bottom
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowBox.width
+{'builtins.int', 'missing', 'builtins.float', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowBox.min_width
+{'builtins.int', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowBox.max_width
+{'builtins.float', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowBox.height
+{'builtins.float', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowBox.min_height
+{'builtins.int', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowBox.max_height
+{'builtins.float', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowBox.border_top_width
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowBox.border_right_width
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowBox.border_bottom_width
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowBox.border_left_width
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowBox.position_x
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableRowBox.position_y
+{'builtins.float', 'missing', 'builtins.int'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/tables.py-group_layout-129
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableCellBox.cached_counter_values
+{'builtins.dict', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableCellBox.margin_right
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableCellBox.margin_bottom
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableCellBox.min_width
+{'builtins.int', 'missing', 'builtins.float', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableCellBox.max_width
+{'builtins.float', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableCellBox.height
+{'builtins.float', 'missing', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_box_layout-122
+ /home/user/WeasyPrint-52.5/weasyprint/layout/inlines.py-atomic_box-504
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_container_layout-634
+ /home/user/WeasyPrint-52.5/weasyprint/layout/percentages.py-resolve_percentages-60
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_container_layout-645
+ /home/user/WeasyPrint-52.5/weasyprint/layout/tables.py-group_layout-142
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableCellBox.min_height
+{'builtins.int', 'missing', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_container_layout-637
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableCellBox.max_height
+{'builtins.float', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableCellBox.computed_height
+{'builtins.float', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.element_tag
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-anonymous_from-102
+ /home/user/WeasyPrint-52.5/weasyprint/tests/test_boxes.py-<listcomp>-41
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.element
+{'builtins.NoneType', 'xml.etree.ElementTree.xml.etree.ElementTree.Element'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-anonymous_from-102
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.replacement
+{'weasyprint.images.RasterImage', 'weasyprint.images.SVGImage'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/preferred.py-replaced_max_content_width-673
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.position_y
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.margin_left
+{'builtins.int', 'missing', 'builtins.float', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.margin_right
+{'builtins.int', 'missing', 'builtins.float', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.margin_top
+{'builtins.int', 'missing', 'builtins.float', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.margin_bottom
+{'builtins.int', 'missing', 'builtins.float', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.padding_left
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.padding_right
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.padding_top
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.padding_bottom
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.width
+{'builtins.int', 'builtins.float', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.min_width
+{'builtins.int', 'missing', 'builtins.float', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.max_width
+{'builtins.float', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.height
+{'builtins.int', 'builtins.float', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.min_height
+{'builtins.int', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.max_height
+{'builtins.float', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.border_top_width
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.border_right_width
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.border_bottom_width
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.border_left_width
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.baseline
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.position_x
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.border_top_left_radius
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.border_top_right_radius
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.border_bottom_right_radius
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.border_bottom_left_radius
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.left
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.right
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.top
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineReplacedBox.bottom
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.LineBox.element_tag
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/WeasyPrint-52.5/weasyprint/tests/test_boxes.py-<listcomp>-41
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-set_viewport_overflow-1528
+
+
+-------case--------weasyprint.formatting_structure.boxes.LineBox.element
+{'builtins.NoneType', 'xml.etree.ElementTree.xml.etree.ElementTree.Element'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.LineBox.position_x
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.LineBox.margin_bottom
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.LineBox.min_width
+{'builtins.int', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.LineBox.max_width
+{'builtins.float', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.LineBox.min_height
+{'builtins.int', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.LineBox.max_height
+{'builtins.float', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.LineBox.text_indent
+{'builtins.float', 'missing', 'builtins.int'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/inlines.py-get_next_linebox-95
+
+
+-------case--------weasyprint.formatting_structure.boxes.PageBox.fixed_boxes
+{'builtins.list', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/__init__.py-layout_fixed_boxes-82
+
+
+-------case--------weasyprint.formatting_structure.boxes.PageBox.border_top_left_radius
+{'builtins.tuple', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-rounded_box-204
+
+
+-------case--------weasyprint.formatting_structure.boxes.PageBox.border_top_right_radius
+{'builtins.tuple', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-rounded_box-205
+
+
+-------case--------weasyprint.formatting_structure.boxes.PageBox.border_bottom_right_radius
+{'builtins.tuple', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-rounded_box-206
+
+
+-------case--------weasyprint.formatting_structure.boxes.PageBox.border_bottom_left_radius
+{'builtins.tuple', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-rounded_box-207
+
+
+-------case--------weasyprint.formatting_structure.boxes.PageBox.canvas_background
+{'missing', 'builtins.NoneType', 'weasyprint.layout.backgrounds.Background'}
+ /home/user/WeasyPrint-52.5/weasyprint/draw.py-draw_page-159
+
+
+-------case--------weasyprint.layout.pages.HorizontalBox.box
+{'weasyprint.formatting_structure.boxes.MarginBox', 'weasyprint.formatting_structure.boxes.PageBox'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/pages.py-min_content_size-97
+ /home/user/WeasyPrint-52.5/weasyprint/layout/pages.py-compute_variable_dimension-206
+ /home/user/WeasyPrint-52.5/weasyprint/layout/pages.py-restore_box_attributes-88
+ /home/user/WeasyPrint-52.5/weasyprint/layout/pages.py-max_content_size-104
+
+
+-------case--------weasyprint.layout.pages.HorizontalBox._min_content_size
+{'builtins.float', 'builtins.int', 'builtins.NoneType'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/pages.py-min_content_size-95
+ /home/user/WeasyPrint-52.5/weasyprint/layout/pages.py-min_content_size-98
+
+
+-------case--------weasyprint.layout.pages.HorizontalBox._max_content_size
+{'builtins.float', 'builtins.int', 'builtins.NoneType'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/pages.py-max_content_size-102
+ /home/user/WeasyPrint-52.5/weasyprint/layout/pages.py-max_content_size-105
+
+
+-------case--------weasyprint.layout.pages.VerticalBox.box
+{'weasyprint.formatting_structure.boxes.MarginBox', 'weasyprint.formatting_structure.boxes.PageBox'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/pages.py-compute_variable_dimension-206
+ /home/user/WeasyPrint-52.5/weasyprint/layout/pages.py-restore_box_attributes-59
+
+
+-------case--------weasyprint.text.Layout.justification_spacing
+{'builtins.int', 'builtins.float'}
+ /home/user/WeasyPrint-52.5/weasyprint/text.py-set_tabs-807
+ /home/user/WeasyPrint-52.5/weasyprint/text.py-set_text-762
+
+
+-------case--------weasyprint.text.Layout.context
+{'weasyprint.layout.LayoutContext', 'builtins.NoneType'}
+ /home/user/WeasyPrint-52.5/weasyprint/text.py-set_tabs-806
+ /home/user/WeasyPrint-52.5/weasyprint/text.py-reactivate-825
+
+
+-------case--------weasyprint.formatting_structure.boxes.MarginBox.is_generated
+{'builtins.bool', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/pages.py-make_margin_boxes-420
+ /home/user/WeasyPrint-52.5/weasyprint/layout/pages.py-make_margin_boxes-395
+ /home/user/WeasyPrint-52.5/weasyprint/layout/pages.py-make_box-333
+ /home/user/WeasyPrint-52.5/weasyprint/layout/pages.py-compute_variable_dimension-206
+ /home/user/WeasyPrint-52.5/weasyprint/layout/pages.py-<genexpr>-389
+ /home/user/WeasyPrint-52.5/weasyprint/layout/pages.py-make_box-350
+
+
+-------case--------weasyprint.formatting_structure.boxes.MarginBox.min_width
+{'builtins.int', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.MarginBox.max_width
+{'builtins.float', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.MarginBox.min_height
+{'builtins.int', 'missing', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_container_layout-637
+
+
+-------case--------weasyprint.formatting_structure.boxes.MarginBox.max_height
+{'builtins.float', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.MarginBox.cached_counter_values
+{'builtins.dict', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.MarginBox.border_top_left_radius
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.MarginBox.border_top_right_radius
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.MarginBox.border_bottom_right_radius
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.MarginBox.border_bottom_left_radius
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.MarginBox.background
+set()
+
+
+-------case--------weasyprint.document.DocumentMetadata.title
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------weasyprint.document.DocumentMetadata.description
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------weasyprint.document.DocumentMetadata.generator
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------weasyprint.document.DocumentMetadata.created
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------weasyprint.document.DocumentMetadata.modified
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------weasyprint.__main__.PrintInfo.container
+{'argparse._ArgumentGroup', 'missing'}
+
+
+-------case--------weasyprint.pdf.PDFDictionary.object_number
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/WeasyPrint-52.5/weasyprint/pdf.py-finish-285
+ /home/user/WeasyPrint-52.5/weasyprint/pdf.py-finish-284
+ /home/user/WeasyPrint-52.5/weasyprint/pdf.py-extend_dict-234
+
+
+-------case--------weasyprint.Attachment.description
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/WeasyPrint-52.5/weasyprint/pdf.py-_write_pdf_attachment-447
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockReplacedBox.bottom
+{'builtins.float', 'missing', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/absolute.py-absolute_replaced-362
+ /home/user/WeasyPrint-52.5/weasyprint/layout/absolute.py-absolute_replaced-354
+ /home/user/WeasyPrint-52.5/weasyprint/layout/absolute.py-absolute_replaced-352
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockReplacedBox.border_top_left_radius
+{'builtins.tuple', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-rounded_box-204
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockReplacedBox.border_top_right_radius
+{'builtins.tuple', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-rounded_box-205
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockReplacedBox.border_bottom_right_radius
+{'builtins.tuple', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-rounded_box-206
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockReplacedBox.border_bottom_left_radius
+{'builtins.tuple', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-rounded_box-207
+
+
+-------case--------weasyprint.formatting_structure.boxes.BlockReplacedBox.index
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBlockBox.cached_counter_values
+{'builtins.dict', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBlockBox.margin_right
+{'builtins.float', 'missing', 'builtins.int'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/tables.py-auto_table_layout-636
+ /home/user/WeasyPrint-52.5/weasyprint/layout/inlines.py-inline_block_box_layout-523
+ /home/user/WeasyPrint-52.5/weasyprint/layout/tables.py-auto_table_layout-637
+ /home/user/WeasyPrint-52.5/weasyprint/layout/min_max.py-wrapper-16
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBlockBox.margin_bottom
+{'builtins.float', 'missing', 'builtins.int'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/inlines.py-inline_block_box_layout-528
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBlockBox.padding_right
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBlockBox.width
+{'builtins.int', 'missing', 'builtins.float', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/min_max.py-wrapper-22
+ /home/user/WeasyPrint-52.5/weasyprint/layout/inlines.py-inline_block_width-567
+ /home/user/WeasyPrint-52.5/weasyprint/layout/inlines.py-inline_block_width-568
+ /home/user/WeasyPrint-52.5/weasyprint/layout/percentages.py-resolve_percentages-59
+ /home/user/WeasyPrint-52.5/weasyprint/layout/min_max.py-wrapper-18
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_level_width-169
+ /home/user/WeasyPrint-52.5/weasyprint/layout/float.py-avoid_collisions-165
+ /home/user/WeasyPrint-52.5/weasyprint/layout/inlines.py-iter_line_boxes-44
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBlockBox.height
+{'builtins.float', 'missing', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/percentages.py-resolve_percentages-60
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_container_layout-645
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_container_layout-634
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBlockBox.min_height
+{'builtins.int', 'missing', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_container_layout-637
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBlockBox.max_height
+{'builtins.float', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBlockBox.border_right_width
+{'builtins.int', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBlockBox.baseline
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBlockBox.border_top_left_radius
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBlockBox.border_top_right_radius
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBlockBox.border_bottom_right_radius
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBlockBox.border_bottom_left_radius
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBlockBox.background
+set()
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableCaptionBox.cached_counter_values
+{'builtins.dict', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableCaptionBox.position_y
+{'builtins.float', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_container_layout-506
+ /home/user/WeasyPrint-52.5/weasyprint/layout/float.py-get_clearance-118
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_container_layout-298
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_container_layout-621
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableCaptionBox.margin_right
+{'builtins.float', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/min_max.py-wrapper-16
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_level_width-180
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableCaptionBox.margin_bottom
+{'builtins.float', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_level_layout-37
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableCaptionBox.padding_right
+{'builtins.int', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_level_width-182
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableCaptionBox.padding_top
+{'builtins.int', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_container_layout-293
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableCaptionBox.padding_bottom
+{'builtins.int', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_container_layout-650
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableCaptionBox.width
+{'builtins.int', 'missing', 'builtins.float', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_level_width-193
+ /home/user/WeasyPrint-52.5/weasyprint/layout/min_max.py-wrapper-22
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_level_width-185
+ /home/user/WeasyPrint-52.5/weasyprint/layout/min_max.py-wrapper-18
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableCaptionBox.height
+{'builtins.float', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_container_layout-634
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableCaptionBox.min_height
+{'builtins.int', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableCaptionBox.max_height
+{'builtins.float', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableCaptionBox.border_top_width
+{'builtins.int', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_container_layout-293
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableCaptionBox.border_right_width
+{'builtins.int', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_level_width-184
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableCaptionBox.border_bottom_width
+{'builtins.int', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_container_layout-649
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnBox.children
+{'builtins.tuple', 'builtins.list'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/preferred.py-_block_content_width-99
+ /home/user/WeasyPrint-52.5/weasyprint/tests/test_boxes.py-<listcomp>-47
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-all_children-303
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-anonymous_table_boxes-762
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-process_whitespace-1236
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnBox.cached_counter_values
+{'builtins.dict', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnBox.min_width
+{'builtins.int', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnBox.max_width
+{'builtins.float', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnBox.min_height
+{'builtins.int', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnBox.max_height
+{'builtins.float', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnBox.position_x
+{'builtins.float', 'missing', 'builtins.int'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/tables.py-table_layout-507
+ /home/user/WeasyPrint-52.5/weasyprint/layout/tables.py-table_layout-509
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnBox.border_top_left_radius
+{'builtins.tuple', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnBox.border_top_right_radius
+{'builtins.tuple', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnBox.border_bottom_right_radius
+{'builtins.tuple', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnBox.border_bottom_left_radius
+{'builtins.tuple', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnBox.background
+{'missing', 'builtins.NoneType', 'weasyprint.layout.backgrounds.Background'}
+ /home/user/WeasyPrint-52.5/weasyprint/draw.py-draw_table_backgrounds-418
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnGroupBox.grid_x
+{'builtins.int', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-collapse_table_borders-1078
+ /home/user/WeasyPrint-52.5/weasyprint/tests/test_boxes.py-<listcomp>-692
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnGroupBox.span
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/WeasyPrint-52.5/weasyprint/html.py-handle_colgroup-217
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-table_boxes_children-781
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-collapse_table_borders-1079
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnGroupBox.cached_counter_values
+{'builtins.dict', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnGroupBox.min_width
+{'builtins.int', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnGroupBox.max_width
+{'builtins.float', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnGroupBox.min_height
+{'builtins.int', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnGroupBox.max_height
+{'builtins.float', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnGroupBox.position_x
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnGroupBox.border_top_left_radius
+{'builtins.tuple', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnGroupBox.border_top_right_radius
+{'builtins.tuple', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnGroupBox.border_bottom_right_radius
+{'builtins.tuple', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnGroupBox.border_bottom_left_radius
+{'builtins.tuple', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnGroupBox.background
+{'missing', 'builtins.NoneType', 'weasyprint.layout.backgrounds.Background'}
+ /home/user/WeasyPrint-52.5/weasyprint/draw.py-draw_table_backgrounds-416
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineTableBox.children
+{'builtins.tuple', 'builtins.list'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-anonymous_table_boxes-762
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-process_whitespace-1236
+
+
+-------case--------weasyprint.formatting_structure.boxes.InlineTableBox.cached_counter_values
+{'builtins.dict', 'missing'}
+
+
+-------case--------weasyprint.images.LinearGradient.stop_positions
+{'builtins.tuple', 'builtins.list'}
+ /home/user/WeasyPrint-52.5/weasyprint/images.py-layout-412
+ /home/user/WeasyPrint-52.5/weasyprint/css/computed_values.py-background_image-291
+ /home/user/WeasyPrint-52.5/weasyprint/tests/test_css_validation.py-gradient-812
+
+
+-------case--------weasyprint.images.LinearGradient.direction
+{'builtins.str', 'builtins.int', 'builtins.float'}
+ /home/user/WeasyPrint-52.5/weasyprint/tests/test_css_validation.py-gradient-810
+ /home/user/WeasyPrint-52.5/weasyprint/tests/test_css_validation.py-gradient-808
+ /home/user/WeasyPrint-52.5/weasyprint/images.py-layout-399
+ /home/user/WeasyPrint-52.5/weasyprint/images.py-layout-406
+ /home/user/WeasyPrint-52.5/weasyprint/tests/test_css_validation.py-gradient-807
+
+
+-------case--------weasyprint.images.RadialGradient.stop_positions
+{'builtins.tuple', 'builtins.list'}
+ /home/user/WeasyPrint-52.5/weasyprint/tests/test_css_validation.py-gradient-901
+ /home/user/WeasyPrint-52.5/weasyprint/css/computed_values.py-background_image-291
+ /home/user/WeasyPrint-52.5/weasyprint/images.py-layout-471
+
+
+-------case--------weasyprint.images.SVGImage._base_url
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/WeasyPrint-52.5/weasyprint/images.py-draw-166
+
+
+-------case--------weasyprint.images.SVGImage._intrinsic_width
+{'builtins.float', 'missing', 'builtins.NoneType'}
+ /home/user/WeasyPrint-52.5/weasyprint/images.py-get_intrinsic_size-157
+
+
+-------case--------weasyprint.images.SVGImage._intrinsic_height
+{'builtins.float', 'missing', 'builtins.NoneType'}
+ /home/user/WeasyPrint-52.5/weasyprint/images.py-get_intrinsic_size-157
+
+
+-------case--------weasyprint.images.SVGImage.intrinsic_ratio
+{'missing', 'builtins.float', 'builtins.NoneType'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/replaced.py-replacedbox_layout-95
+ /home/user/WeasyPrint-52.5/weasyprint/layout/inlines.py-replaced_box_height-397
+ /home/user/WeasyPrint-52.5/weasyprint/layout/inlines.py-replaced_box_width-377
+ /home/user/WeasyPrint-52.5/weasyprint/layout/preferred.py-replaced_max_content_width-677
+ /home/user/WeasyPrint-52.5/weasyprint/layout/preferred.py-replaced_min_content_width-652
+ /home/user/WeasyPrint-52.5/weasyprint/layout/inlines.py-replaced_box_width-379
+ /home/user/WeasyPrint-52.5/weasyprint/layout/inlines.py-replaced_box_width-368
+
+
+-------case--------weasyprint.images.ScaledSVGSurface.cairo
+{'builtins.NoneType', 'cairocffi.surfaces.SVGSurface'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/cairosvg/surface.py-__init__-210
+ /home/user/WeasyPrint-52.5/weasyprint/images.py-draw-173
+
+
+-------case--------weasyprint.images.ScaledSVGSurface.context_width
+{'builtins.NoneType', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/cairosvg/surface.py-draw-299
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/cairosvg/helpers.py-size-367
+
+
+-------case--------weasyprint.images.ScaledSVGSurface.context_height
+{'builtins.NoneType', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/cairosvg/surface.py-draw-299
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/cairosvg/helpers.py-size-369
+
+
+-------case--------weasyprint.images.ScaledSVGSurface.parent_node
+{'cairosvg.parser.Tree', 'cairosvg.parser.Node', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/cairosvg/surface.py-draw-297
+
+
+-------case--------weasyprint.formatting_structure.boxes.FlexBox.cached_counter_values
+{'builtins.dict', 'missing'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.FlexBox.margin_right
+{'builtins.int', 'missing', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/min_max.py-wrapper-16
+ /home/user/WeasyPrint-52.5/weasyprint/layout/flex.py-flex_layout-39
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_level_width-180
+
+
+-------case--------weasyprint.formatting_structure.boxes.FlexBox.margin_bottom
+{'builtins.int', 'missing', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/flex.py-flex_layout-41
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_level_layout-37
+
+
+-------case--------weasyprint.formatting_structure.boxes.FlexBox.width
+{'builtins.int', 'builtins.float', 'missing', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_level_width-193
+ /home/user/WeasyPrint-52.5/weasyprint/layout/min_max.py-wrapper-22
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_level_width-185
+ /home/user/WeasyPrint-52.5/weasyprint/layout/min_max.py-wrapper-18
+ /home/user/WeasyPrint-52.5/weasyprint/layout/flex.py-flex_layout-609
+
+
+-------case--------weasyprint.formatting_structure.boxes.FlexBox.height
+{'builtins.int', 'builtins.float', 'missing', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/flex.py-flex_layout-267
+ /home/user/WeasyPrint-52.5/weasyprint/layout/flex.py-flex_layout-617
+
+
+-------case--------weasyprint.formatting_structure.boxes.FlexBox.min_height
+{'builtins.int', 'missing', 'builtins.str'}
+
+
+-------case--------weasyprint.formatting_structure.boxes.FlexBox.max_height
+{'builtins.float', 'missing'}
+
+

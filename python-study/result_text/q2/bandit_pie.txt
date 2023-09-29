@@ -1,0 +1,2 @@
+{"method": 5, "local": 5, "non_local": 4}
+{"ln": 11, "t1stru2": 5}

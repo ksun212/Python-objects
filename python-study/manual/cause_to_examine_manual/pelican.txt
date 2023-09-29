@@ -1,0 +1,44 @@
+pelican.generators.ArticlesGenerator.dates
+{'builtins.list'}
+ /home/user/pelican/pelican/generators.py-generate_context-680
+        self.dates.sort(key=attrgetter('date'),
+pelican.generators.ArticlesGenerator.categories
+{'builtins.list'}
+ /home/user/pelican/pelican/generators.py-generate_context-687
+        self.categories.sort(
+pelican.generators.ArticlesGenerator.categories
+{'builtins.list'}
+ /home/user/pelican/pelican/generators.py-generate_context-672
+            self.categories[article.category].append(article)
+pelican.generators.ArticlesGenerator.authors
+{'builtins.list'}
+ /home/user/pelican/pelican/generators.py-generate_context-691
+        self.authors.sort()
+pelican.generators.ArticlesGenerator.authors
+{'builtins.list'}
+ /home/user/pelican/pelican/generators.py-generate_context-677
+                self.authors[author].append(article)
+pelican.readers.MarkdownReader._md
+{'markdown.core.Markdown'}
+ /home/user/pelican/pelican/readers.py-read-344
+            content = self._md.convert(text)
+pelican.readers.MarkdownReader._md
+{'markdown.core.Markdown'}
+ /home/user/pelican/pelican/readers.py-read-347
+            metadata = self._parse_metadata(self._md.Meta)
+pelican.contents.Article.authors
+{'builtins.list'}
+ /home/user/pelican/pelican/contents.py-__init__-71
+                self.author = self.authors[0]
+pelican.contents.Page.authors
+{'builtins.list'}
+ /home/user/pelican/pelican/contents.py-__init__-71
+                self.author = self.authors[0]
+pelican.generators.StaticGenerator.staticfiles
+{'builtins.list'}
+ /home/user/pelican/pelican/generators.py-generate_context-837
+            self.staticfiles.append(static)
+
+
+check: 4
+safe: 4

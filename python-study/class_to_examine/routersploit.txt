@@ -1,0 +1,60 @@
+-------case--------routersploit.core.exploit.option.OptBool.label
+{'builtins.str', 'missing'}
+
+
+-------case--------routersploit.core.exploit.option.OptIP.label
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------routersploit.core.exploit.option.OptPort.label
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------routersploit.core.exploit.option.OptString.label
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------routersploit.core.exploit.option.OptInteger.label
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------routersploit.core.exploit.option.OptInteger.value
+{'builtins.str', 'builtins.int'}
+ /home/user/routersploit/tests/core/test_option.py-test_opt_integer-118
+ /home/user/routersploit/tests/core/test_option.py-test_opt_integer-112
+ /home/user/routersploit/tests/core/test_option.py-test_opt_integer-106
+ /home/user/routersploit/tests/core/test_option.py-test_opt_integer-130
+ /home/user/routersploit/routersploit/core/exploit/option.py-__get__-30
+ /home/user/routersploit/tests/core/test_option.py-test_opt_integer-124
+
+
+-------case--------routersploit.core.exploit.option.OptWordlist.label
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------routersploit.core.exploit.option.OptEncoder.display_value
+{'routersploit.modules.encoders.php.base64.Encoder', 'routersploit.modules.encoders.perl.base64.Encoder', 'routersploit.modules.encoders.python.base64.Encoder', 'routersploit.modules.encoders.php.hex.Encoder'}
+ /home/user/routersploit/routersploit/core/exploit/exploit.py-__new__-48
+ /home/user/routersploit/tests/core/test_option.py-test_opt_encoder-226
+ /home/user/routersploit/tests/core/test_option.py-test_opt_encoder-225
+
+
+-------case--------routersploit.core.exploit.option.OptEncoder.value
+{'routersploit.modules.encoders.php.base64.Encoder', 'routersploit.modules.encoders.perl.base64.Encoder', 'routersploit.modules.encoders.python.base64.Encoder', 'routersploit.modules.encoders.php.hex.Encoder'}
+ /home/user/routersploit/routersploit/core/exploit/option.py-__get__-30
+
+
+-------case--------routersploit.core.exploit.option.OptEncoder.label
+{'builtins.str', 'missing'}
+
+
+-------case--------routersploit.core.telnet.telnet_client.TelnetCli.telnet_client
+{'builtins.NoneType', 'telnetlib.Telnet'}
+ /home/user/routersploit/routersploit/core/telnet/telnet_client.py-read_until-113
+
+
+-------case--------routersploit.modules.exploits.routers.dlink.dgs_1510_add_user.Exploit.response_content
+{'builtins.NoneType', 'builtins.bytes'}
+ /home/user/routersploit/routersploit/modules/exploits/routers/dlink/dgs_1510_add_user.py-check-135
+
+

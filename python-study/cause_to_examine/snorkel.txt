@@ -1,0 +1,116 @@
+snorkel.classification.training.trainer.Trainer.n_batches_per_epoch
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_set_lr_scheduler-349
+            total_steps = self.n_batches_per_epoch * self.config.n_epochs
+snorkel.classification.training.trainer.Trainer.n_batches_per_epoch
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_set_warmup_scheduler-378
+                self.warmup_steps = int(warmup_steps * self.n_batches_per_epoch)
+snorkel.classification.training.trainer.Trainer.n_batches_per_epoch
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_set_warmup_scheduler-393
+                warmup_percentage * self.config.n_epochs * self.n_batches_per_epoch
+snorkel.classification.training.trainer.Trainer.log_writer
+{'snorkel.classification.training.loggers.tensorboard_writer.TensorBoardWriter', 'snorkel.classification.training.loggers.log_writer.LogWriter', 'builtins.NoneType', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_log_metrics-471
+                self.log_writer.add_scalar(
+snorkel.classification.training.trainer.Trainer.log_writer
+{'snorkel.classification.training.loggers.tensorboard_writer.TensorBoardWriter', 'snorkel.classification.training.loggers.log_writer.LogWriter', 'builtins.NoneType', 'missing'}
+ /home/user/snorkel/test/classification/training/test_trainer.py-test_log_writer_json-161
+            log_path = os.path.join(trainer.log_writer.log_dir, run_name)
+snorkel.classification.training.trainer.Trainer.checkpointer
+{'missing', 'builtins.NoneType', 'snorkel.classification.training.loggers.checkpointer.Checkpointer'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_checkpoint_model-480
+            self.checkpointer.checkpoint(
+snorkel.classification.training.trainer.Trainer.log_manager
+{'missing', 'snorkel.classification.training.loggers.log_manager.LogManager'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_logging-460
+        if self.log_manager.trigger_checkpointing():
+snorkel.classification.training.trainer.Trainer.log_manager
+{'missing', 'snorkel.classification.training.loggers.log_manager.LogManager'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_logging-443
+        self.log_manager.update(batch_size)
+snorkel.classification.training.trainer.Trainer.log_manager
+{'missing', 'snorkel.classification.training.loggers.log_manager.LogManager'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-fit-248
+        model = self.log_manager.cleanup(model)
+snorkel.classification.training.trainer.Trainer.log_manager
+{'missing', 'snorkel.classification.training.loggers.log_manager.LogManager'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_logging-450
+        if self.log_manager.trigger_evaluation():
+snorkel.classification.training.trainer.Trainer.log_manager
+{'missing', 'snorkel.classification.training.loggers.log_manager.LogManager'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_checkpoint_model-481
+                self.log_manager.unit_total, model, metric_dict
+snorkel.classification.training.trainer.Trainer.log_manager
+{'missing', 'snorkel.classification.training.loggers.log_manager.LogManager'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_log_metrics-472
+                    metric_name, metric_value, self.log_manager.point_total
+snorkel.classification.training.trainer.Trainer.optimizer
+{'missing', 'torch.optim.adamax.Adamax', 'torch.optim.sgd.SGD', 'torch.optim.adam.Adam'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_aggregate_losses-505
+        metric_dict["model/all/train/lr"] = self.optimizer.param_groups[0]["lr"]
+snorkel.classification.training.trainer.Trainer.optimizer
+{'missing', 'torch.optim.adamax.Adamax', 'torch.optim.sgd.SGD', 'torch.optim.adam.Adam'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-fit-201
+                self.optimizer.zero_grad()
+snorkel.classification.training.trainer.Trainer.optimizer
+{'missing', 'torch.optim.adamax.Adamax', 'torch.optim.sgd.SGD', 'torch.optim.adam.Adam'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-fit-238
+                self.optimizer.step()
+snorkel.classification.training.trainer.Trainer.warmup_steps
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-<lambda>-395
+            linear_warmup_func = lambda x: x / self.warmup_steps
+snorkel.classification.training.trainer.Trainer.warmup_steps
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-<lambda>-385
+            linear_warmup_func = lambda x: x / self.warmup_steps
+snorkel.classification.training.trainer.Trainer.warmup_steps
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_update_lr_scheduler-407
+        if self.warmup_scheduler and step < self.warmup_steps:
+snorkel.classification.training.trainer.Trainer.warmup_steps
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-<lambda>-350
+            linear_decay_func = lambda x: (total_steps - self.warmup_steps - x) / (
+snorkel.classification.training.trainer.Trainer.warmup_steps
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-<lambda>-351
+                total_steps - self.warmup_steps
+snorkel.classification.training.trainer.Trainer.warmup_scheduler
+{'missing', 'builtins.NoneType', 'torch.optim.lr_scheduler.LambdaLR'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_update_lr_scheduler-408
+            self.warmup_scheduler.step()  # type: ignore
+snorkel.classification.training.trainer.Trainer.lr_scheduler
+{'torch.optim.lr_scheduler.StepLR', 'torch.optim.lr_scheduler.LambdaLR', 'torch.optim.lr_scheduler.ExponentialLR', 'missing', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_update_lr_scheduler-410
+            self.lr_scheduler.step()  # type: ignore
+snorkel.classification.training.trainer.Trainer.batch_scheduler
+{'snorkel.classification.training.schedulers.shuffled_scheduler.ShuffledScheduler', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-fit-189
+                enumerate(self.batch_scheduler.get_batches(train_dataloaders)),
+snorkel.classification.training.trainer.Trainer.running_losses
+{'missing', 'collections.collections.defaultdict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_aggregate_losses-499
+        total_loss = sum(self.running_losses.values())
+snorkel.classification.training.trainer.Trainer.running_losses
+{'missing', 'collections.collections.defaultdict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_aggregate_losses-492
+        for identifier in self.running_losses.keys():
+snorkel.classification.training.trainer.Trainer.running_losses
+{'missing', 'collections.collections.defaultdict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-fit-216
+                    self.running_losses[identifier] += (
+snorkel.classification.training.trainer.Trainer.running_counts
+{'missing', 'collections.collections.defaultdict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_aggregate_losses-500
+        total_count = sum(self.running_counts.values())
+snorkel.classification.training.trainer.Trainer.running_counts
+{'missing', 'collections.collections.defaultdict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-fit-219
+                    self.running_counts[task_name] += count_dict[task_name]
+snorkel.classification.training.trainer.Trainer.running_counts
+{'missing', 'collections.collections.defaultdict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_aggregate_losses-493
+            if self.running_counts[identifier] > 0:

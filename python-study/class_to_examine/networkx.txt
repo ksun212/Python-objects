@@ -1,0 +1,64 @@
+-------case--------networkx.classes.graph.Graph.frozen
+{'missing', 'builtins.bool'}
+
+
+-------case--------networkx.classes.graph.Graph._NODE_OK
+{'networkx.classes.filters.show_nodes', 'missing'}
+
+
+-------case--------networkx.classes.graph.Graph._EDGE_OK
+{'builtins.function', 'missing'}
+
+
+-------case--------networkx.classes.graph.Graph._graph
+{'missing', 'networkx.classes.graph.Graph'}
+
+
+-------case--------networkx.classes.digraph.DiGraph.frozen
+{'missing', 'builtins.bool'}
+
+
+-------case--------networkx.classes.digraph.DiGraph._NODE_OK
+{'networkx.classes.filters.show_nodes', 'missing'}
+
+
+-------case--------networkx.classes.digraph.DiGraph._EDGE_OK
+{'builtins.function', 'missing'}
+
+
+-------case--------networkx.classes.digraph.DiGraph._graph
+{'missing', 'networkx.classes.digraph.DiGraph'}
+
+
+-------case--------networkx.classes.multigraph.MultiGraph.frozen
+{'missing', 'builtins.bool'}
+
+
+-------case--------networkx.classes.multigraph.MultiGraph._NODE_OK
+{'networkx.classes.filters.show_nodes', 'missing'}
+
+
+-------case--------networkx.classes.multigraph.MultiGraph._EDGE_OK
+{'builtins.function', 'missing'}
+
+
+-------case--------networkx.classes.multigraph.MultiGraph._graph
+{'missing', 'networkx.classes.multigraph.MultiGraph'}
+
+
+-------case--------networkx.algorithms.isomorphism.isomorphvf2.GMState.G1_node
+{'numpy.numpy.int32', 'builtins.NoneType', 'builtins.int'}
+
+
+-------case--------networkx.algorithms.isomorphism.isomorphvf2.GMState.G2_node
+{'numpy.numpy.int32', 'builtins.int', 'builtins.NoneType'}
+
+
+-------case--------networkx.algorithms.isomorphism.isomorphvf2.DiGMState.G1_node
+{'builtins.int', 'builtins.NoneType'}
+
+
+-------case--------networkx.algorithms.isomorphism.isomorphvf2.DiGMState.G2_node
+{'numpy.numpy.int32', 'builtins.int', 'builtins.NoneType'}
+
+

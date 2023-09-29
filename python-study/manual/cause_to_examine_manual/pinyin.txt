@@ -1,0 +1,8 @@
+pypinyin.core.Pinyin._converter
+{'pypinyin.converter.UltimateConverter', 'tests.contrib.test_tone_sandhi.MyConverter', 'tests.contrib.test_neutral_tone.TheyConverter', 'pypinyin.converter.DefaultConverter', 'tests.contrib.test_neutral_tone.HerConverter', 'tests.contrib.test_neutral_tone.MyConverter', 'tests.contrib.test_uv.MyConverter'}
+ /home/user/python-pinyin/pypinyin/core.py-pinyin-105
+                self._converter.convert(
+
+
+check: 1
+safe: 1

@@ -1,0 +1,372 @@
+-------case--------pyecharts.charts.basic_charts.bar.Bar._xaxis_data
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.bar.Bar.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.bar.Bar.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.bar.Bar.tab_name
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.three_axis_charts.bar3D.Bar3D._3d_chart_type
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/chart.py-add-241
+
+
+-------case--------pyecharts.charts.three_axis_charts.bar3D.Bar3D.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.three_axis_charts.bar3D.Bar3D.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.bmap.BMap._chart_type
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/chart.py-set_global_opts-113
+
+
+-------case--------pyecharts.charts.basic_charts.bmap.BMap._coordinate_system
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/basic_charts/geo.py-add-73
+ /home/user/pyecharts/pyecharts/charts/basic_charts/geo.py-add-119
+
+
+-------case--------pyecharts.charts.basic_charts.bmap.BMap.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.bmap.BMap.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.boxplot.Boxplot._xaxis_data
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.boxplot.Boxplot.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.boxplot.Boxplot.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.calendar.Calendar.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.calendar.Calendar.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.effectscatter.EffectScatter._xaxis_data
+{'missing', 'builtins.list'}
+ /home/user/pyecharts/pyecharts/charts/basic_charts/effectscatter.py-add_yaxis-37
+
+
+-------case--------pyecharts.charts.basic_charts.effectscatter.EffectScatter.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.effectscatter.EffectScatter.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.geo.Geo._chart_type
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/chart.py-set_global_opts-113
+
+
+-------case--------pyecharts.charts.basic_charts.geo.Geo._coordinate_system
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/basic_charts/geo.py-add-73
+
+
+-------case--------pyecharts.charts.basic_charts.geo.Geo.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.geo.Geo.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.funnel.Funnel.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.funnel.Funnel.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.gauge.Gauge.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.gauge.Gauge.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.graph.Graph.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.graph.Graph.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.line.Line._xaxis_data
+{'missing', 'builtins.list'}
+ /home/user/pyecharts/pyecharts/charts/basic_charts/line.py-add_yaxis-51
+
+
+-------case--------pyecharts.charts.basic_charts.line.Line.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.line.Line.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.line.Line.tab_name
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.composite_charts.grid.Grid.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.composite_charts.grid.Grid.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.heatmap.HeatMap._xaxis_data
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.heatmap.HeatMap.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.heatmap.HeatMap.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.components.image.Image.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.kline.Kline._xaxis_data
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.kline.Kline.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.kline.Kline.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.three_axis_charts.line3D.Line3D._3d_chart_type
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/chart.py-add-241
+
+
+-------case--------pyecharts.charts.three_axis_charts.line3D.Line3D.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.three_axis_charts.line3D.Line3D.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.liquid.Liquid.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.liquid.Liquid.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.map.Map.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.map.Map.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.three_axis_charts.map3D.Map3D._3d_chart_type
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------pyecharts.charts.three_axis_charts.map3D.Map3D.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.three_axis_charts.map3D.Map3D.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.three_axis_charts.map_globe.MapGlobe.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.three_axis_charts.map_globe.MapGlobe.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.composite_charts.page.Page.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.composite_charts.page.Page.css_libs
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.components.table.Table.tab_name
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.components.table.Table.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.parallel.Parallel.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.parallel.Parallel.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.pictorialbar.PictorialBar._xaxis_data
+{'missing', 'builtins.list'}
+ /home/user/pyecharts/pyecharts/charts/chart.py-reversal_axis-189
+
+
+-------case--------pyecharts.charts.basic_charts.pictorialbar.PictorialBar.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.pictorialbar.PictorialBar.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.pie.Pie.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.pie.Pie.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.polar.Polar.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.polar.Polar.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.radar.Radar.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.radar.Radar.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.sankey.Sankey.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.sankey.Sankey.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.scatter.Scatter.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.scatter.Scatter.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.three_axis_charts.scatter3D.Scatter3D._3d_chart_type
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/chart.py-add-241
+
+
+-------case--------pyecharts.charts.three_axis_charts.scatter3D.Scatter3D.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.three_axis_charts.scatter3D.Scatter3D.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.sunburst.Sunburst.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.sunburst.Sunburst.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.three_axis_charts.surface3D.Surface3D._3d_chart_type
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/chart.py-add-241
+
+
+-------case--------pyecharts.charts.three_axis_charts.surface3D.Surface3D.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.three_axis_charts.surface3D.Surface3D.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.composite_charts.tab.Tab.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.themeriver.ThemeRiver.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.themeriver.ThemeRiver.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.tree.Tree.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.tree.Tree.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.treemap.TreeMap.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.treemap.TreeMap.dependencies
+{'missing', 'builtins.list'}
+
+
+-------case--------pyecharts.charts.basic_charts.wordcloud.WordCloud.json_contents
+{'missing', 'builtins.str'}
+
+
+-------case--------pyecharts.charts.basic_charts.wordcloud.WordCloud.dependencies
+{'missing', 'builtins.list'}
+
+

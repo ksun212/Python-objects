@@ -1,0 +1,83 @@
+-------case--------newspaper.article.Article.imgs
+{'builtins.list', 'builtins.set'}
+ /home/user/newspaper/tests/unit_tests.py-test_parse_html-242
+ /home/user/newspaper/tests/../newspaper/images.py-__init__-174
+
+
+-------case--------newspaper.article.Article.images
+{'builtins.list', 'builtins.set'}
+
+
+-------case--------newspaper.article.Article.publish_date
+{'builtins.str', 'datetime.datetime.datetime', 'builtins.NoneType'}
+ /home/user/newspaper/tests/unit_tests.py-test_parse_html-245
+
+
+-------case--------newspaper.article.Article.download_exception_msg
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/newspaper/tests/unit_tests.py-test_download_file_success-337
+ /home/user/newspaper/tests/unit_tests.py-test_download_file_failure-347
+ /home/user/newspaper/tests/unit_tests.py-test_download_html-182
+ /home/user/newspaper/tests/../newspaper/article.py-download-197
+
+
+-------case--------newspaper.article.Article.meta_data
+{'collections.collections.defaultdict', 'builtins.dict'}
+
+
+-------case--------newspaper.article.Article.top_node
+{'builtins.NoneType', 'lxml.html.HtmlElement'}
+ /home/user/newspaper/tests/../newspaper/article.py-parse-275
+ /home/user/newspaper/tests/../newspaper/article.py-parse-274
+ /home/user/newspaper/tests/../newspaper/article.py-parse-279
+ /home/user/newspaper/tests/../newspaper/article.py-parse-278
+ /home/user/newspaper/tests/../newspaper/article.py-parse-282
+
+
+-------case--------newspaper.article.Article.clean_top_node
+{'builtins.NoneType', 'lxml.html.HtmlElement'}
+ /home/user/newspaper/tests/../newspaper/article.py-fetch_images-302
+ /home/user/newspaper/tests/../newspaper/article.py-fetch_images-304
+
+
+-------case--------newspaper.article.Article.doc
+{'builtins.NoneType', 'lxml.html.HtmlElement'}
+ /home/user/newspaper/tests/../newspaper/article.py-parse-216
+ /home/user/newspaper/tests/../newspaper/article.py-parse-218
+ /home/user/newspaper/tests/../newspaper/article.py-parse-273
+ /home/user/newspaper/tests/../newspaper/article.py-parse-271
+
+
+-------case--------newspaper.article.Article.clean_doc
+{'builtins.NoneType', 'lxml.html.HtmlElement'}
+ /home/user/newspaper/tests/../newspaper/article.py-parse-249
+ /home/user/newspaper/tests/../newspaper/article.py-parse-245
+ /home/user/newspaper/tests/../newspaper/article.py-fetch_images-292
+ /home/user/newspaper/tests/../newspaper/article.py-parse-256
+ /home/user/newspaper/tests/../newspaper/article.py-parse-232
+ /home/user/newspaper/tests/../newspaper/article.py-parse-263
+ /home/user/newspaper/tests/../newspaper/article.py-parse-242
+ /home/user/newspaper/tests/../newspaper/article.py-fetch_images-297
+ /home/user/newspaper/tests/../newspaper/article.py-fetch_images-294
+ /home/user/newspaper/tests/unit_tests.py-test_meta_type_extraction-251
+ /home/user/newspaper/tests/unit_tests.py-test_meta_extraction-257
+ /home/user/newspaper/tests/../newspaper/article.py-parse-268
+ /home/user/newspaper/tests/../newspaper/article.py-parse-235
+ /home/user/newspaper/tests/../newspaper/article.py-parse-260
+ /home/user/newspaper/tests/../newspaper/article.py-parse-253
+ /home/user/newspaper/tests/../newspaper/article.py-parse-229
+
+
+-------case--------newspaper.article.Article.link_hash
+{'builtins.str', 'missing'}
+ /home/user/newspaper/tests/../newspaper/article.py-get_resource_path-413
+
+
+-------case--------newspaper.outputformatters.OutputFormatter.top_node
+{'builtins.NoneType', 'lxml.html.HtmlElement'}
+ /home/user/newspaper/tests/../newspaper/outputformatters.py-add_newline_to_br-84
+ /home/user/newspaper/tests/../newspaper/outputformatters.py-remove_negativescores_nodes-106
+ /home/user/newspaper/tests/../newspaper/outputformatters.py-add_newline_to_li-88
+ /home/user/newspaper/tests/../newspaper/outputformatters.py-get_top_node-39
+
+

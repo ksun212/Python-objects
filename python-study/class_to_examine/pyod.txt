@@ -1,0 +1,174 @@
+-------case--------pyod.models.vae.VAE.encoder_neurons
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/pyod/pyod/models/vae.py-__init__-209
+ /home/user/pyod/pyod/models/vae.py-fit-333
+ /home/user/pyod/pyod/models/vae.py-__init__-203
+ /home/user/pyod/pyod/models/vae.py-_build_model-261
+
+
+-------case--------pyod.models.vae.VAE.decoder_neurons
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/pyod/pyod/models/vae.py-_build_model-282
+ /home/user/pyod/pyod/models/vae.py-__init__-206
+ /home/user/pyod/pyod/models/vae.py-__init__-210
+
+
+-------case--------pyod.models.vae.VAE._classes
+{'builtins.int', 'missing'}
+ /home/user/pyod/pyod/models/base.py-predict_proba-221
+
+
+-------case--------pyod.models.vae.VAE.n_samples_
+{'builtins.int', 'missing'}
+
+
+-------case--------pyod.models.vae.VAE.history_
+{'missing', 'builtins.dict'}
+
+
+-------case--------pyod.models.vae.VAE.labels_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/pyod/pyod/models/base.py-fit_predict-144
+ /home/user/pyod/pyod/test/test_vae.py-test_parameters-41
+
+
+-------case--------pyod.models.kpca.KPCA.copy_x
+{'builtins.bool', 'builtins.NoneType'}
+ /home/user/pyod/pyod/models/kpca.py-fit-286
+
+
+-------case--------pyod.models.kpca.KPCA.n_selected_components_
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/pyod/pyod/models/kpca.py-fit-315
+ /home/user/pyod/pyod/models/kpca.py-decision_function-393
+ /home/user/pyod/pyod/models/kpca.py-fit-335
+
+
+-------case--------pyod.models.kpca.KPCA._classes
+{'builtins.int', 'missing'}
+ /home/user/pyod/pyod/models/base.py-predict_proba-221
+
+
+-------case--------pyod.models.kpca.KPCA.labels_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/pyod/pyod/models/base.py-fit_predict-144
+ /home/user/pyod/pyod/test/test_kpca.py-test_parameters-44
+
+
+-------case--------pyod.models.kpca.PyODKernelPCA.kernel
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-_get_kernel-299
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-_get_kernel-304
+
+
+-------case--------pyod.models.kpca.PyODKernelPCA.degree
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-_get_kernel-302
+
+
+-------case--------pyod.models.kpca.PyODKernelPCA.coef0
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-_get_kernel-302
+
+
+-------case--------pyod.models.kpca.PyODKernelPCA.alpha
+{'builtins.NoneType', 'builtins.float'}
+
+
+-------case--------pyod.models.kpca.PyODKernelPCA.eigen_solver
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-_fit_transform-320
+
+
+-------case--------pyod.models.kpca.PyODKernelPCA.tol
+{'builtins.int', 'builtins.NoneType'}
+
+
+-------case--------pyod.models.kpca.PyODKernelPCA.remove_zero_eig
+{'builtins.bool', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-_fit_transform-365
+
+
+-------case--------pyod.models.kpca.PyODKernelPCA.copy_X
+{'builtins.bool', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-fit-421
+
+
+-------case--------pyod.models.kpca.PyODKernelPCA.n_features_in_
+{'builtins.int', 'missing'}
+
+
+-------case--------pyod.models.kpca.PyODKernelPCA._centerer
+{'sklearn.preprocessing._data.KernelCenterer', 'missing'}
+ /home/user/pyod/pyod/models/kpca.py-get_centerer-58
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-_fit_transform-310
+
+
+-------case--------pyod.models.kpca.PyODKernelPCA.eigenvalues_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-_fit_transform-367
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-_fit_transform-360
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-_fit_transform-361
+ /home/user/pyod/pyod/models/kpca.py-decision_function-381
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-_fit_transform-351
+ /home/user/pyod/pyod/models/kpca.py-fit-331
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-_fit_transform-366
+
+
+-------case--------pyod.models.kpca.PyODKernelPCA.eigenvectors_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/pyod/pyod/models/kpca.py-fit-332
+ /home/user/pyod/pyod/models/kpca.py-decision_function-382
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-_fit_transform-356
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-_fit_transform-362
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-_fit_transform-366
+
+
+-------case--------pyod.models.kpca.PyODKernelPCA.X_fit_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/pyod/pyod/models/kpca.py-decision_function-374
+
+
+-------case--------pyod.models.knn.KNN._classes
+{'builtins.int', 'missing'}
+ /home/user/pyod/pyod/models/base.py-predict_proba-221
+
+
+-------case--------pyod.models.knn.KNN.labels_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/pyod/pyod/models/base.py-fit_predict-144
+ /home/user/pyod/pyod/test/test_knn.py-test_parameters-44
+
+
+-------case--------pyod.models.auto_encoder.AutoEncoder.hidden_neurons
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/pyod/pyod/models/auto_encoder.py-__init__-158
+ /home/user/pyod/pyod/models/auto_encoder.py-fit-234
+ /home/user/pyod/pyod/models/auto_encoder.py-__init__-166
+ /home/user/pyod/pyod/models/auto_encoder.py-fit-240
+ /home/user/pyod/pyod/models/auto_encoder.py-__init__-162
+
+
+-------case--------pyod.models.auto_encoder.AutoEncoder._classes
+{'builtins.int', 'missing'}
+ /home/user/pyod/pyod/models/base.py-predict_proba-221
+
+
+-------case--------pyod.models.auto_encoder.AutoEncoder.n_samples_
+{'builtins.int', 'missing'}
+
+
+-------case--------pyod.models.auto_encoder.AutoEncoder.compression_rate_
+{'numpy.numpy.float64', 'missing'}
+
+
+-------case--------pyod.models.auto_encoder.AutoEncoder.history_
+{'missing', 'builtins.dict'}
+
+
+-------case--------pyod.models.auto_encoder.AutoEncoder.labels_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/pyod/pyod/models/base.py-fit_predict-144
+ /home/user/pyod/pyod/test/test_auto_encoder.py-test_parameters-42
+
+

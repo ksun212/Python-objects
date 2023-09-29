@@ -1,0 +1,12 @@
+-------case--------cookiecutter.environment.StrictEnvironment.loader
+{'builtins.NoneType', 'jinja2.loaders.FileSystemLoader'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/environment.py-_load_template-969
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/environment.py-_load_template-954
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/environment.py-_load_template-956
+
+
+-------case--------cookiecutter.main._patch_import_path_for_repo._path
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/cookiecutter/cookiecutter/main.py-__exit__-149
+
+

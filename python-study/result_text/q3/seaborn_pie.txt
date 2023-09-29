@@ -1,0 +1,1 @@
+{"coercion": 5, "ln": 17, "others": 10, "t1stru2": 6, "rn": 1}

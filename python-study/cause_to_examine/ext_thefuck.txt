@@ -1,0 +1,2 @@
+ /home/user/thefuck-master/thefuck/types.py-script_parts-40
+thefuck.types.Command._script_parts

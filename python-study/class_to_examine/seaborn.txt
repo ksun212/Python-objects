@@ -1,0 +1,1106 @@
+-------case--------seaborn._marks.base.Mappable._val
+{'builtins.int', 'builtins.NoneType', 'builtins.bool', 'builtins.str', 'builtins.float'}
+ /home/user/seaborn/seaborn/_marks/base.py-default-89
+ /home/user/seaborn/seaborn/_marks/base.py-default-90
+ /home/user/seaborn/seaborn/_marks/base.py-__repr__-66
+ /home/user/seaborn/seaborn/_marks/base.py-__repr__-65
+
+
+-------case--------seaborn._marks.base.Mappable._rc
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/seaborn/seaborn/_marks/base.py-__repr__-69
+ /home/user/seaborn/seaborn/_marks/base.py-default-91
+ /home/user/seaborn/seaborn/_marks/base.py-__repr__-70
+
+
+-------case--------seaborn._marks.base.Mappable._depend
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/seaborn/seaborn/_marks/base.py-__repr__-67
+ /home/user/seaborn/seaborn/_marks/base.py-depend-80
+ /home/user/seaborn/seaborn/_marks/base.py-__repr__-68
+
+
+-------case--------seaborn.categorical._CategoricalFacetPlotter._redundant_hue
+{'missing', 'builtins.bool', 'numpy.numpy.bool_'}
+ /home/user/seaborn/seaborn/categorical.py-_configure_legend-335
+
+
+-------case--------seaborn.categorical._CategoricalFacetPlotter._comp_data
+{'missing', 'pandas.core.frame.DataFrame'}
+ /home/user/seaborn/seaborn/_oldcore.py-comp_data-1137
+
+
+-------case--------seaborn.categorical._CategoricalFacetPlotter.legend_title
+{'missing', 'builtins.str'}
+ /home/user/seaborn/seaborn/categorical.py-_configure_legend-343
+
+
+-------case--------seaborn.categorical._CategoricalFacetPlotter.legend_data
+{'missing', 'builtins.dict'}
+
+
+-------case--------seaborn.categorical._CategoricalFacetPlotter.legend_order
+{'missing', 'builtins.list'}
+
+
+-------case--------seaborn._oldcore.HueMapping.plotter
+{'seaborn.categorical._CategoricalPlotterNew', 'seaborn._oldcore.VectorPlotter', 'seaborn.categorical._CategoricalAggFacetPlotter', 'seaborn.categorical._CategoricalFacetPlotter', 'seaborn.categorical._CategoricalAggPlotter'}
+
+
+-------case--------seaborn._oldcore.HueMapping.map_type
+{'seaborn._oldcore.VariableType', 'builtins.str'}
+ /home/user/seaborn/tests/test_core.py-test_style_map_null-525
+ /home/user/seaborn/tests/test_core.py-test_hue_map_null-112
+ /home/user/seaborn/seaborn/relational.py-_update_legend_data-279
+ /home/user/seaborn/tests/test_core.py-test_hue_map_categorical-203
+ /home/user/seaborn/tests/test_core.py-test_hue_map_numeric-252
+ /home/user/seaborn/tests/test_core.py-test_hue_map_categorical-209
+ /home/user/seaborn/tests/test_core.py-test_plotter_default_init-92
+ /home/user/seaborn/tests/test_core.py-test_hue_map_categorical-238
+ /home/user/seaborn/tests/test_core.py-test_size_map_null-378
+ /home/user/seaborn/tests/test_core.py-test_hue_map_categorical-167
+ /home/user/seaborn/tests/test_core.py-test_hue_map_categorical-224
+ /home/user/seaborn/tests/test_core.py-test_hue_map_categorical-123
+ /home/user/seaborn/tests/test_core.py-test_hue_map_categorical-215
+ /home/user/seaborn/tests/test_core.py-test_hue_map_categorical-194
+ /home/user/seaborn/tests/test_core.py-test_plotter_default_init-85
+
+
+-------case--------seaborn._oldcore.HueMapping.palette
+{'seaborn.palettes._ColorPalette', 'builtins.NoneType', 'builtins.dict', 'builtins.str', 'matplotlib.colors.LinearSegmentedColormap', 'builtins.list'}
+ /home/user/seaborn/tests/test_core.py-test_hue_map_null-113
+ /home/user/seaborn/tests/test_core.py-test_hue_map_categorical-131
+ /home/user/seaborn/tests/test_core.py-test_hue_map_categorical-138
+ /home/user/seaborn/tests/test_core.py-test_hue_map_categorical-145
+ /home/user/seaborn/tests/test_core.py-test_init_from_map-76
+ /home/user/seaborn/tests/test_core.py-test_plotter_reinit-104
+
+
+-------case--------seaborn._oldcore.HueMapping.norm
+{'builtins.NoneType', 'matplotlib.colors.PowerNorm', 'matplotlib.colors.Normalize'}
+ /home/user/seaborn/seaborn/relational.py-_update_legend_data-284
+ /home/user/seaborn/tests/test_core.py-test_hue_map_numeric-274
+ /home/user/seaborn/tests/test_core.py-test_hue_map_numeric-273
+ /home/user/seaborn/tests/test_core.py-test_size_map_null-379
+ /home/user/seaborn/tests/test_core.py-test_hue_map_null-115
+ /home/user/seaborn/tests/test_core.py-test_hue_map_numeric-275
+ /home/user/seaborn/tests/test_core.py-test_hue_map_numeric-280
+ /home/user/seaborn/seaborn/_oldcore.py-_lookup_single-176
+
+
+-------case--------seaborn._oldcore.SizeMapping.map_type
+{'seaborn._oldcore.VariableType', 'builtins.str'}
+ /home/user/seaborn/tests/test_core.py-test_plotter_default_init-351
+ /home/user/seaborn/tests/test_core.py-test_plotter_default_init-358
+ /home/user/seaborn/seaborn/relational.py-_update_legend_data-279
+ /home/user/seaborn/tests/test_core.py-test_map_size_categorical-462
+
+
+-------case--------seaborn._oldcore.SizeMapping.sizes
+{'missing', 'builtins.tuple', 'builtins.NoneType', 'builtins.dict', 'builtins.list'}
+
+
+-------case--------seaborn._oldcore.SizeMapping.size_range
+{'missing', 'builtins.tuple', 'builtins.NoneType'}
+
+
+-------case--------seaborn._oldcore.StyleMapping.plotter
+{'seaborn.categorical._CategoricalPlotterNew', 'seaborn._oldcore.VectorPlotter', 'seaborn.categorical._CategoricalAggFacetPlotter', 'seaborn.categorical._CategoricalFacetPlotter', 'seaborn.categorical._CategoricalAggPlotter'}
+
+
+-------case--------seaborn.axisgrid.FacetGrid._col_wrap
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/axisgrid.py-_not_bottom_axes-1157
+ /home/user/seaborn/seaborn/axisgrid.py-facet_axis-862
+ /home/user/seaborn/seaborn/axisgrid.py-_left_axes-1116
+ /home/user/seaborn/seaborn/axisgrid.py-_not_left_axes-1128
+ /home/user/seaborn/seaborn/axisgrid.py-_bottom_axes-1140
+
+
+-------case--------seaborn.axisgrid.FacetGrid._legend
+{'builtins.NoneType', 'matplotlib.legend.Legend'}
+ /home/user/seaborn/tests/test_regression.py-test_lmplot_hue_col_nolegend-597
+
+
+-------case--------seaborn.axisgrid.FacetGrid._row_var
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/seaborn/seaborn/axisgrid.py-set_titles-961
+ /home/user/seaborn/seaborn/axisgrid.py-<listcomp>-654
+ /home/user/seaborn/seaborn/axisgrid.py-set_titles-970
+ /home/user/seaborn/seaborn/axisgrid.py-set_titles-1011
+
+
+-------case--------seaborn.axisgrid.FacetGrid._col_var
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/seaborn/seaborn/axisgrid.py-set_titles-961
+ /home/user/seaborn/seaborn/axisgrid.py-set_titles-972
+ /home/user/seaborn/seaborn/axisgrid.py-set_titles-1011
+ /home/user/seaborn/seaborn/axisgrid.py-<listcomp>-660
+
+
+-------case--------seaborn.axisgrid.FacetGrid._hue_var
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/seaborn/seaborn/axisgrid.py-map_dataframe-810
+ /home/user/seaborn/seaborn/axisgrid.py-<listcomp>-666
+ /home/user/seaborn/seaborn/axisgrid.py-add_legend-160
+
+
+-------case--------seaborn.axisgrid.FacetGrid._x_var
+{'builtins.NoneType', 'builtins.str'}
+
+
+-------case--------seaborn.axisgrid.FacetGrid._y_var
+{'builtins.NoneType', 'builtins.str'}
+
+
+-------case--------seaborn.axisgrid.FacetGrid._sharex
+{'builtins.bool', 'builtins.str'}
+
+
+-------case--------seaborn.axisgrid.FacetGrid._sharey
+{'builtins.bool', 'builtins.str'}
+
+
+-------case--------seaborn.categorical._CategoricalAggPlotter.legend
+{'builtins.bool', 'builtins.str'}
+ /home/user/seaborn/seaborn/categorical.py-_configure_legend-334
+ /home/user/seaborn/seaborn/relational.py-add_legend_data-195
+ /home/user/seaborn/seaborn/categorical.py-_configure_legend-337
+
+
+-------case--------seaborn.categorical._CategoricalAggPlotter.ax
+{'missing', 'matplotlib.axes._subplots.AxesSubplot'}
+ /home/user/seaborn/seaborn/_oldcore.py-_log_scaled-1302
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1149
+ /home/user/seaborn/seaborn/categorical.py-plot_points-706
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1152
+ /home/user/seaborn/seaborn/_oldcore.py-_log_scaled-1305
+ /home/user/seaborn/seaborn/categorical.py-plot_bars-762
+
+
+-------case--------seaborn.categorical._CategoricalAggPlotter._redundant_hue
+{'missing', 'builtins.bool', 'numpy.numpy.bool_'}
+ /home/user/seaborn/seaborn/categorical.py-_configure_legend-335
+
+
+-------case--------seaborn.categorical._CategoricalAggPlotter._comp_data
+{'missing', 'pandas.core.frame.DataFrame'}
+ /home/user/seaborn/seaborn/_oldcore.py-comp_data-1137
+
+
+-------case--------seaborn.categorical._CategoricalAggPlotter.legend_title
+{'missing', 'builtins.str'}
+ /home/user/seaborn/seaborn/categorical.py-_configure_legend-343
+
+
+-------case--------seaborn.categorical._CategoricalAggPlotter.legend_data
+{'missing', 'builtins.dict'}
+
+
+-------case--------seaborn.categorical._CategoricalAggPlotter.legend_order
+{'missing', 'builtins.list'}
+
+
+-------case--------seaborn._statistics.EstimateAggregator.estimator
+{'builtins.function', 'builtins.str'}
+ /home/user/seaborn/seaborn/_statistics.py-__call__-483
+ /home/user/seaborn/seaborn/_statistics.py-__call__-488
+ /home/user/seaborn/seaborn/_statistics.py-__call__-513
+
+
+-------case--------seaborn._statistics.EstimateAggregator.error_method
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/seaborn/seaborn/categorical.py-plot_bars-822
+ /home/user/seaborn/seaborn/_statistics.py-__call__-491
+ /home/user/seaborn/seaborn/_statistics.py-__call__-504
+ /home/user/seaborn/seaborn/categorical.py-plot_points-741
+ /home/user/seaborn/seaborn/_statistics.py-__call__-497
+ /home/user/seaborn/seaborn/_statistics.py-__call__-511
+ /home/user/seaborn/seaborn/_statistics.py-__call__-501
+ /home/user/seaborn/seaborn/_statistics.py-__call__-509
+
+
+-------case--------seaborn.categorical._CategoricalPlotterNew.legend
+{'builtins.bool', 'builtins.str'}
+ /home/user/seaborn/seaborn/categorical.py-_configure_legend-334
+ /home/user/seaborn/seaborn/relational.py-add_legend_data-195
+ /home/user/seaborn/seaborn/categorical.py-_configure_legend-337
+
+
+-------case--------seaborn.categorical._CategoricalPlotterNew.ax
+{'missing', 'matplotlib.axes._subplots.AxesSubplot'}
+ /home/user/seaborn/seaborn/categorical.py-plot_strips-399
+ /home/user/seaborn/seaborn/_oldcore.py-_log_scaled-1302
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1149
+ /home/user/seaborn/seaborn/categorical.py-plot_swarms-444
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1152
+ /home/user/seaborn/seaborn/_oldcore.py-_log_scaled-1305
+ /home/user/seaborn/seaborn/categorical.py-plot_boxes-551
+
+
+-------case--------seaborn.categorical._CategoricalPlotterNew._redundant_hue
+{'missing', 'builtins.bool', 'numpy.numpy.bool_'}
+ /home/user/seaborn/seaborn/categorical.py-_configure_legend-335
+
+
+-------case--------seaborn.categorical._CategoricalPlotterNew._comp_data
+{'missing', 'pandas.core.frame.DataFrame'}
+ /home/user/seaborn/seaborn/_oldcore.py-comp_data-1137
+
+
+-------case--------seaborn.categorical._CategoricalPlotterNew.legend_title
+{'missing', 'builtins.str'}
+ /home/user/seaborn/seaborn/categorical.py-_configure_legend-343
+
+
+-------case--------seaborn.categorical._CategoricalPlotterNew.legend_data
+{'missing', 'builtins.dict'}
+
+
+-------case--------seaborn.categorical._CategoricalPlotterNew.legend_order
+{'missing', 'builtins.list'}
+
+
+-------case--------seaborn.categorical.BoxPlotContainer._label
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/seaborn/seaborn/categorical.py-get_label-3984
+
+
+-------case--------seaborn.categorical.BoxPlotContainer._remove_method
+{'missing', 'builtins.builtin_function_or_method'}
+
+
+-------case--------seaborn.categorical.Beeswarm.width
+{'builtins.int', 'builtins.float', 'numpy.numpy.float64'}
+ /home/user/seaborn/seaborn/categorical.py-add_gutters-3915
+
+
+-------case--------seaborn.categorical._CategoricalPlotter.orient
+{'missing', 'builtins.str'}
+ /home/user/seaborn/tests/test_categorical.py-test_single_long_direct_inputs-254
+ /home/user/seaborn/tests/test_categorical.py-test_wide_df_data-154
+ /home/user/seaborn/tests/test_categorical.py-test_wide_df_data-147
+ /home/user/seaborn/tests/test_categorical.py-test_single_long_direct_inputs-261
+ /home/user/seaborn/tests/test_categorical.py-test_single_long_indirect_inputs-292
+ /home/user/seaborn/tests/test_categorical.py-test_longform_groupby-304
+ /home/user/seaborn/tests/test_categorical.py-test_longform_groupby-337
+ /home/user/seaborn/seaborn/categorical.py-catplot-3649
+ /home/user/seaborn/tests/test_categorical.py-test_single_long_indirect_inputs-285
+ /home/user/seaborn/tests/test_categorical.py-test_single_long_direct_inputs-268
+ /home/user/seaborn/seaborn/categorical.py-catplot-3598
+
+
+-------case--------seaborn.categorical._CategoricalPlotter.group_label
+{'missing', 'builtins.NoneType', 'builtins.str'}
+ /home/user/seaborn/tests/test_categorical.py-test_longform_groupby-339
+ /home/user/seaborn/tests/test_categorical.py-test_single_long_direct_inputs-256
+ /home/user/seaborn/tests/test_categorical.py-test_single_long_direct_inputs-263
+ /home/user/seaborn/tests/test_categorical.py-test_1d_input_data-188
+ /home/user/seaborn/seaborn/categorical.py-catplot-3652
+ /home/user/seaborn/tests/test_categorical.py-test_wide_array_input_data-244
+ /home/user/seaborn/tests/test_categorical.py-test_single_long_indirect_inputs-287
+ /home/user/seaborn/tests/test_categorical.py-test_longform_groupby-306
+ /home/user/seaborn/tests/test_categorical.py-test_2d_input_data-208
+ /home/user/seaborn/tests/test_categorical.py-test_1d_input_data-169
+ /home/user/seaborn/tests/test_categorical.py-test_2d_input_data-201
+ /home/user/seaborn/tests/test_categorical.py-test_single_long_direct_inputs-269
+ /home/user/seaborn/tests/test_categorical.py-test_1d_input_data-177
+ /home/user/seaborn/tests/test_categorical.py-test_longform_groupby-318
+ /home/user/seaborn/tests/test_categorical.py-test_wide_df_data-149
+ /home/user/seaborn/tests/test_categorical.py-test_single_long_indirect_inputs-294
+ /home/user/seaborn/tests/test_categorical.py-test_list_of_array_input_data-232
+
+
+-------case--------seaborn.categorical._CategoricalPlotter.value_label
+{'missing', 'builtins.NoneType', 'builtins.str'}
+ /home/user/seaborn/tests/test_categorical.py-test_1d_input_data-189
+ /home/user/seaborn/tests/test_categorical.py-test_single_long_indirect_inputs-286
+ /home/user/seaborn/tests/test_categorical.py-test_single_long_indirect_inputs-293
+ /home/user/seaborn/tests/test_categorical.py-test_list_of_array_input_data-233
+ /home/user/seaborn/tests/test_categorical.py-test_single_long_direct_inputs-262
+ /home/user/seaborn/tests/test_categorical.py-test_1d_input_data-170
+ /home/user/seaborn/seaborn/categorical.py-catplot-3652
+ /home/user/seaborn/tests/test_categorical.py-test_longform_groupby-305
+ /home/user/seaborn/tests/test_categorical.py-test_1d_input_data-178
+ /home/user/seaborn/tests/test_categorical.py-test_2d_input_data-202
+ /home/user/seaborn/tests/test_categorical.py-test_wide_array_input_data-245
+ /home/user/seaborn/tests/test_categorical.py-test_2d_input_data-209
+ /home/user/seaborn/tests/test_categorical.py-test_longform_groupby-338
+ /home/user/seaborn/tests/test_categorical.py-test_single_long_direct_inputs-255
+ /home/user/seaborn/tests/test_categorical.py-test_longform_groupby-317
+ /home/user/seaborn/tests/test_categorical.py-test_single_long_direct_inputs-270
+ /home/user/seaborn/tests/test_categorical.py-test_wide_df_data-150
+
+
+-------case--------seaborn.categorical._CategoricalPlotter.group_names
+{'missing', 'builtins.list'}
+ /home/user/seaborn/tests/test_categorical.py-test_order-387
+ /home/user/seaborn/seaborn/categorical.py-catplot-3602
+ /home/user/seaborn/tests/test_categorical.py-test_order-373
+ /home/user/seaborn/tests/test_categorical.py-test_order-377
+ /home/user/seaborn/tests/test_categorical.py-test_order-409
+ /home/user/seaborn/tests/test_categorical.py-test_order-401
+ /home/user/seaborn/tests/test_categorical.py-test_order-391
+
+
+-------case--------seaborn.categorical._CategoricalPlotter.hue_title
+{'missing', 'builtins.NoneType', 'builtins.str'}
+ /home/user/seaborn/tests/test_categorical.py-test_longform_groupby-307
+ /home/user/seaborn/tests/test_categorical.py-test_longform_groupby-340
+
+
+-------case--------seaborn.categorical._CategoricalPlotter.plot_units
+{'missing', 'builtins.NoneType', 'builtins.list'}
+ /home/user/seaborn/tests/test_categorical.py-test_plot_units-443
+ /home/user/seaborn/tests/test_categorical.py-test_plot_units-440
+
+
+-------case--------seaborn.categorical._CategoricalPlotter.colors
+{'missing', 'seaborn.palettes._ColorPalette'}
+ /home/user/seaborn/tests/test_categorical.py-test_palette_desaturation-522
+ /home/user/seaborn/tests/test_categorical.py-test_specific_palette-498
+ /home/user/seaborn/tests/test_categorical.py-test_specific_palette-493
+ /home/user/seaborn/tests/test_categorical.py-test_default_palette_with_many_levels-466
+ /home/user/seaborn/tests/test_categorical.py-test_palette_desaturation-519
+ /home/user/seaborn/tests/test_categorical.py-test_default_palettes-453
+ /home/user/seaborn/tests/test_categorical.py-test_specific_color-477
+ /home/user/seaborn/tests/test_categorical.py-test_specific_palette-504
+ /home/user/seaborn/seaborn/categorical.py-catplot-3621
+ /home/user/seaborn/tests/test_categorical.py-test_default_palettes-458
+ /home/user/seaborn/tests/test_categorical.py-test_dict_as_palette-512
+ /home/user/seaborn/tests/test_categorical.py-test_specific_color-483
+
+
+-------case--------seaborn.categorical._CategoricalPlotter.gray
+{'missing', 'builtins.str'}
+
+
+-------case--------seaborn.categorical._ViolinPlotter.group_label
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/seaborn/seaborn/categorical.py-annotate_axes-1192
+ /home/user/seaborn/seaborn/categorical.py-annotate_axes-1190
+
+
+-------case--------seaborn.categorical._ViolinPlotter.value_label
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/seaborn/seaborn/categorical.py-annotate_axes-1192
+ /home/user/seaborn/seaborn/categorical.py-annotate_axes-1190
+
+
+-------case--------seaborn.categorical._ViolinPlotter.hue_title
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/seaborn/seaborn/categorical.py-annotate_axes-1218
+
+
+-------case--------seaborn.categorical._CategoricalAggFacetPlotter._redundant_hue
+{'missing', 'builtins.bool', 'numpy.numpy.bool_'}
+ /home/user/seaborn/seaborn/categorical.py-_configure_legend-335
+
+
+-------case--------seaborn.categorical._CategoricalAggFacetPlotter._comp_data
+{'missing', 'pandas.core.frame.DataFrame'}
+ /home/user/seaborn/seaborn/_oldcore.py-comp_data-1137
+
+
+-------case--------seaborn.categorical._CategoricalAggFacetPlotter.legend_title
+{'missing', 'builtins.str'}
+ /home/user/seaborn/seaborn/categorical.py-_configure_legend-343
+
+
+-------case--------seaborn.categorical._CategoricalAggFacetPlotter.legend_data
+{'missing', 'builtins.dict'}
+
+
+-------case--------seaborn.categorical._CategoricalAggFacetPlotter.legend_order
+{'missing', 'builtins.list'}
+
+
+-------case--------seaborn.categorical._LVPlotter.saturation
+{'builtins.int', 'builtins.float'}
+
+
+-------case--------seaborn.categorical._LVPlotter.k_depth
+{'builtins.int', 'builtins.str'}
+ /home/user/seaborn/seaborn/categorical.py-_lv_box_ends-1819
+ /home/user/seaborn/seaborn/categorical.py-_lv_box_ends-1824
+ /home/user/seaborn/seaborn/categorical.py-_lv_box_ends-1816
+ /home/user/seaborn/seaborn/categorical.py-_lv_box_ends-1822
+ /home/user/seaborn/seaborn/categorical.py-_lv_box_ends-1828
+
+
+-------case--------seaborn.categorical._LVPlotter.group_label
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/seaborn/seaborn/categorical.py-annotate_axes-1192
+ /home/user/seaborn/seaborn/categorical.py-annotate_axes-1190
+
+
+-------case--------seaborn.categorical._LVPlotter.value_label
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/seaborn/seaborn/categorical.py-annotate_axes-1192
+ /home/user/seaborn/seaborn/categorical.py-annotate_axes-1190
+
+
+-------case--------seaborn.categorical._LVPlotter.hue_title
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/seaborn/seaborn/categorical.py-annotate_axes-1218
+
+
+-------case--------seaborn._oldcore.VectorPlotter.sort
+{'missing', 'builtins.bool'}
+
+
+-------case--------seaborn._oldcore.VectorPlotter.ax
+{'missing', 'builtins.NoneType', 'matplotlib.axes._subplots.AxesSubplot'}
+ /home/user/seaborn/tests/test_core.py-test_attach_basics-1062
+ /home/user/seaborn/seaborn/_oldcore.py-_log_scaled-1302
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1149
+ /home/user/seaborn/tests/test_core.py-test_attach_facets-1156
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1152
+ /home/user/seaborn/seaborn/_oldcore.py-_log_scaled-1305
+
+
+-------case--------seaborn._oldcore.VectorPlotter._comp_data
+{'missing', 'pandas.core.frame.DataFrame'}
+ /home/user/seaborn/seaborn/_oldcore.py-comp_data-1137
+
+
+-------case--------seaborn.regression._LinearPlotter.data
+{'missing', 'builtins.NoneType', 'pandas.core.frame.DataFrame'}
+ /home/user/seaborn/tests/test_regression.py-test_establish_variables_from_mix-78
+ /home/user/seaborn/tests/test_regression.py-test_establish_variables_from_frame-42
+ /home/user/seaborn/tests/test_regression.py-test_establish_variables_from_lists-70
+ /home/user/seaborn/tests/test_regression.py-test_establish_variables_from_series-50
+ /home/user/seaborn/tests/test_regression.py-test_establish_variables_from_array-60
+
+
+-------case--------seaborn.regression._LinearPlotter.x
+{'missing', 'numpy.numpy.ndarray', 'pandas.core.series.Series'}
+ /home/user/seaborn/tests/test_regression.py-test_establish_variables_from_mix-76
+ /home/user/seaborn/tests/test_regression.py-test_establish_variables_from_series-48
+ /home/user/seaborn/tests/test_regression.py-test_establish_variables_from_frame-40
+ /home/user/seaborn/tests/test_regression.py-test_establish_variables_from_array-58
+ /home/user/seaborn/tests/test_regression.py-test_dropna-95
+ /home/user/seaborn/tests/test_regression.py-test_dropna-90
+ /home/user/seaborn/tests/test_regression.py-test_establish_variables_from_lists-68
+
+
+-------case--------seaborn.regression._LinearPlotter.y
+{'missing', 'numpy.numpy.ndarray', 'pandas.core.series.Series'}
+ /home/user/seaborn/tests/test_regression.py-test_establish_variables_from_mix-77
+ /home/user/seaborn/tests/test_regression.py-test_establish_variables_from_lists-69
+ /home/user/seaborn/tests/test_regression.py-test_establish_variables_from_frame-41
+ /home/user/seaborn/tests/test_regression.py-test_establish_variables_from_array-59
+ /home/user/seaborn/tests/test_regression.py-test_establish_variables_from_series-49
+
+
+-------case--------seaborn.regression._LinearPlotter.y_na
+{'missing', 'pandas.core.series.Series'}
+ /home/user/seaborn/tests/test_regression.py-test_dropna-96
+ /home/user/seaborn/tests/test_regression.py-test_dropna-91
+
+
+-------case--------seaborn.regression._RegressionPlotter.x_estimator
+{'builtins.function', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/regression.py-scatterplot-384
+ /home/user/seaborn/seaborn/regression.py-estimate_data-179
+
+
+-------case--------seaborn.regression._RegressionPlotter.ci
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/regression.py-fit_logx-306
+ /home/user/seaborn/tests/test_regression.py-test_ci-180
+ /home/user/seaborn/tests/test_regression.py-test_ci-184
+ /home/user/seaborn/tests/test_regression.py-test_ci-176
+ /home/user/seaborn/seaborn/regression.py-fit_fast-237
+ /home/user/seaborn/seaborn/regression.py-fit_regression-200
+ /home/user/seaborn/seaborn/regression.py-fit_poly-255
+ /home/user/seaborn/seaborn/regression.py-fit_statsmodels-280
+
+
+-------case--------seaborn.regression._RegressionPlotter.x_ci
+{'builtins.int', 'builtins.str', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/regression.py-estimate_data-168
+ /home/user/seaborn/seaborn/regression.py-estimate_data-172
+ /home/user/seaborn/tests/test_regression.py-test_ci-177
+ /home/user/seaborn/tests/test_regression.py-test_ci-185
+ /home/user/seaborn/seaborn/regression.py-estimate_data-183
+ /home/user/seaborn/tests/test_regression.py-test_ci-181
+
+
+-------case--------seaborn.regression._RegressionPlotter.seed
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/regression.py-fit_statsmodels-287
+ /home/user/seaborn/seaborn/regression.py-fit_logx-313
+ /home/user/seaborn/seaborn/regression.py-fit_poly-262
+ /home/user/seaborn/seaborn/regression.py-estimate_data-182
+ /home/user/seaborn/seaborn/regression.py-fit_fast-244
+
+
+-------case--------seaborn.regression._RegressionPlotter.x_jitter
+{'builtins.NoneType', 'builtins.float'}
+ /home/user/seaborn/seaborn/regression.py-scatter_data-139
+
+
+-------case--------seaborn.regression._RegressionPlotter.y_jitter
+{'builtins.NoneType', 'builtins.float'}
+ /home/user/seaborn/seaborn/regression.py-scatter_data-145
+
+
+-------case--------seaborn.regression._RegressionPlotter.color
+{'builtins.tuple', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/regression.py-plot-349
+ /home/user/seaborn/seaborn/regression.py-plot-354
+
+
+-------case--------seaborn.regression._RegressionPlotter.label
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/seaborn/seaborn/regression.py-plot-346
+ /home/user/seaborn/seaborn/regression.py-plot-344
+
+
+-------case--------seaborn.regression._RegressionPlotter.data
+{'pandas.core.frame.DataFrame', 'builtins.NoneType'}
+ /home/user/seaborn/tests/test_regression.py-test_variables_from_series-138
+ /home/user/seaborn/tests/test_regression.py-test_variables_from_mix-146
+ /home/user/seaborn/tests/test_regression.py-test_variables_from_frame-129
+
+
+-------case--------seaborn.regression._RegressionPlotter.y
+{'pandas.core.series.Series', 'numpy.numpy.ndarray'}
+ /home/user/seaborn/seaborn/regression.py-plot-373
+ /home/user/seaborn/seaborn/regression.py-residplot-909
+ /home/user/seaborn/seaborn/regression.py-fit_poly-253
+ /home/user/seaborn/tests/test_regression.py-test_variables_from_series-136
+ /home/user/seaborn/seaborn/regression.py-fit_fast-234
+ /home/user/seaborn/seaborn/regression.py-fit_logx-298
+ /home/user/seaborn/seaborn/regression.py-fit_statsmodels-268
+ /home/user/seaborn/tests/test_regression.py-test_variables_from_mix-145
+ /home/user/seaborn/tests/test_regression.py-test_variables_from_frame-127
+ /home/user/seaborn/seaborn/regression.py-fit_lowess-293
+ /home/user/seaborn/tests/test_regression.py-test_partial-371
+ /home/user/seaborn/seaborn/regression.py-__init__-118
+ /home/user/seaborn/seaborn/regression.py-estimate_data-156
+ /home/user/seaborn/seaborn/regression.py-scatter_data-147
+ /home/user/seaborn/tests/test_regression.py-test_partial-378
+ /home/user/seaborn/tests/test_regression.py-test_partial-384
+ /home/user/seaborn/tests/test_regression.py-test_partial-374
+ /home/user/seaborn/seaborn/regression.py-scatter_data-149
+ /home/user/seaborn/seaborn/regression.py-plot-374
+
+
+-------case--------seaborn.regression._RegressionPlotter.units
+{'pandas.core.series.Series', 'builtins.NoneType'}
+ /home/user/seaborn/tests/test_regression.py-test_variables_from_series-137
+ /home/user/seaborn/seaborn/regression.py-estimate_data-176
+ /home/user/seaborn/seaborn/regression.py-fit_poly-261
+ /home/user/seaborn/tests/test_regression.py-test_variables_from_frame-128
+ /home/user/seaborn/seaborn/regression.py-fit_fast-243
+ /home/user/seaborn/seaborn/regression.py-fit_statsmodels-286
+ /home/user/seaborn/seaborn/regression.py-fit_logx-312
+ /home/user/seaborn/seaborn/regression.py-estimate_data-177
+
+
+-------case--------seaborn.regression._RegressionPlotter.x_partial
+{'pandas.core.series.Series', 'numpy.numpy.ndarray', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/regression.py-__init__-115
+ /home/user/seaborn/seaborn/regression.py-__init__-116
+
+
+-------case--------seaborn.regression._RegressionPlotter.y_partial
+{'pandas.core.series.Series', 'numpy.numpy.ndarray', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/regression.py-__init__-117
+ /home/user/seaborn/seaborn/regression.py-__init__-118
+
+
+-------case--------seaborn.regression._RegressionPlotter.x_discrete
+{'pandas.core.series.Series', 'numpy.numpy.ndarray'}
+ /home/user/seaborn/seaborn/regression.py-estimate_data-156
+
+
+-------case--------seaborn.regression._RegressionPlotter.x_range
+{'missing', 'builtins.tuple'}
+ /home/user/seaborn/seaborn/regression.py-fit_regression-193
+
+
+-------case--------seaborn._core.data.PlotData.source_data
+{'numpy.numpy.ndarray', 'builtins.NoneType', 'builtins.dict', 'pandas.core.frame.DataFrame', 'builtins.list'}
+ /home/user/seaborn/seaborn/_core/data.py-join-114
+ /home/user/seaborn/tests/_core/test_plot.py-test_data_only-87
+ /home/user/seaborn/tests/_core/test_plot.py-test_df_and_named_variables-96
+ /home/user/seaborn/tests/_core/test_plot.py-test_vector_variables_no_index-127
+ /home/user/seaborn/tests/_core/test_plot.py-test_positional_data_x_y-152
+ /home/user/seaborn/tests/_core/test_plot.py-test_positional_data_x-164
+ /home/user/seaborn/tests/_core/test_plot.py-test_data_only_named-133
+ /home/user/seaborn/tests/_core/test_plot.py-test_vector_variables_only-117
+ /home/user/seaborn/tests/_core/test_data.py-test_named_vectors-25
+ /home/user/seaborn/tests/_core/test_data.py-test_dict_as_data-102
+ /home/user/seaborn/tests/_core/test_plot.py-test_positional_x_y-158
+ /home/user/seaborn/tests/_core/test_plot.py-test_df_and_mixed_variables-108
+ /home/user/seaborn/tests/_core/test_plot.py-test_empty-81
+ /home/user/seaborn/seaborn/_core/data.py-join-80
+ /home/user/seaborn/tests/_core/test_plot.py-test_positional_x-170
+
+
+-------case--------seaborn._core.moves.Jitter.width
+{'builtins.float', 'seaborn._core.typing.Default'}
+ /home/user/seaborn/seaborn/_core/moves.py-__call__-68
+ /home/user/seaborn/seaborn/_core/moves.py-__call__-65
+ /home/user/seaborn/seaborn/_core/moves.py-__call__-70
+
+
+-------case--------seaborn._core.moves.Jitter.x
+{'builtins.int', 'builtins.float'}
+ /home/user/seaborn/seaborn/_core/moves.py-__call__-66
+ /home/user/seaborn/seaborn/_core/moves.py-__call__-72
+ /home/user/seaborn/seaborn/_core/moves.py-__call__-73
+
+
+-------case--------seaborn._core.moves.Jitter.y
+{'builtins.int', 'builtins.float'}
+ /home/user/seaborn/seaborn/_core/moves.py-__call__-75
+ /home/user/seaborn/seaborn/_core/moves.py-__call__-66
+ /home/user/seaborn/seaborn/_core/moves.py-__call__-74
+
+
+-------case--------seaborn._core.moves.Jitter.seed
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/_core/moves.py-__call__-58
+
+
+-------case--------seaborn._core.moves.Shift.x
+{'builtins.int', 'builtins.float'}
+ /home/user/seaborn/seaborn/_core/moves.py-__call__-216
+
+
+-------case--------seaborn._core.moves.Shift.y
+{'builtins.int', 'builtins.float'}
+ /home/user/seaborn/seaborn/_core/moves.py-__call__-217
+
+
+-------case--------seaborn._core.moves.Norm.where
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/seaborn/seaborn/_core/moves.py-_norm-255
+ /home/user/seaborn/seaborn/_core/moves.py-_norm-252
+
+
+-------case--------seaborn._core.plot.Plot._target
+{'builtins.NoneType', 'matplotlib.axes._subplots.AxesSubplot', 'matplotlib.figure.Figure', 'matplotlib.figure.SubFigure'}
+ /home/user/seaborn/seaborn/_core/plot.py-_finalize_figure-1769
+ /home/user/seaborn/seaborn/_core/plot.py-_setup_figure-1109
+ /home/user/seaborn/seaborn/_core/plot.py-_clone-416
+
+
+-------case--------seaborn._core.plot.Plotter._layers
+{'missing', 'builtins.list'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_with_new_data_definition-223
+ /home/user/seaborn/tests/_core/test_plot.py-test_without_data-191
+ /home/user/seaborn/tests/_core/test_plot.py-test_with_late_data_definition-213
+ /home/user/seaborn/tests/_core/test_plot.py-test_drop_variable-233
+ /home/user/seaborn/tests/_core/test_plot.py-test_with_new_variable_by_name-197
+ /home/user/seaborn/tests/_core/test_plot.py-test_with_new_variable_by_vector-205
+
+
+-------case--------seaborn._core.subplots.Subplots.wrap
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/_core/subplots.py-_determine_axis_sharing-132
+ /home/user/seaborn/seaborn/_core/subplots.py-init_figure-226
+ /home/user/seaborn/seaborn/_core/subplots.py-init_figure-199
+
+
+-------case--------seaborn._core.subplots.Subplots._figure
+{'missing', 'matplotlib.figure.Figure'}
+ /home/user/seaborn/seaborn/_core/subplots.py-init_figure-180
+
+
+-------case--------seaborn._core.subplots.Subplots.wrap_dim
+{'missing', 'builtins.str'}
+ /home/user/seaborn/seaborn/_core/subplots.py-init_figure-205
+ /home/user/seaborn/seaborn/_core/subplots.py-init_figure-236
+ /home/user/seaborn/seaborn/_core/subplots.py-init_figure-201
+ /home/user/seaborn/seaborn/_core/subplots.py-init_figure-231
+
+
+-------case--------seaborn._core.scales.Continuous.norm
+{'builtins.tuple', 'builtins.NoneType'}
+
+
+-------case--------seaborn._core.scales.Continuous.trans
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/seaborn/seaborn/_core/scales.py-tick-582
+
+
+-------case--------seaborn._core.scales.PseudoAxis.units
+{'builtins.NoneType', 'matplotlib.category.UnitData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/matplotlib/category.py-default_units-119
+ /home/user/seaborn/seaborn/_core/scales.py-update_units-965
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/matplotlib/category.py-default_units-115
+ /home/user/seaborn/seaborn/_core/scales.py-convert_units-983
+
+
+-------case--------seaborn._core.scales.PseudoAxis.scale
+{'seaborn._core.scales.CatScale', 'seaborn._core.scales.InternalScale'}
+ /home/user/seaborn/seaborn/_core/scales.py-get_scale-991
+
+
+-------case--------seaborn._core.scales.PseudoAxis._view_interval
+{'missing', 'builtins.tuple'}
+ /home/user/seaborn/seaborn/_core/scales.py-get_view_interval-922
+
+
+-------case--------seaborn._core.scales.Nominal.values
+{'seaborn.palettes._ColorPalette', 'matplotlib.colors.ListedColormap', 'builtins.NoneType', 'builtins.tuple', 'builtins.dict', 'builtins.str', 'builtins.list'}
+ /home/user/seaborn/seaborn/_core/properties.py-_get_values-391
+ /home/user/seaborn/seaborn/_core/properties.py-_get_values-260
+ /home/user/seaborn/seaborn/_core/properties.py-_get_values-786
+ /home/user/seaborn/seaborn/_core/properties.py-_get_values-384
+ /home/user/seaborn/seaborn/_core/properties.py-<listcomp>-788
+ /home/user/seaborn/seaborn/_core/properties.py-_get_values-705
+ /home/user/seaborn/seaborn/_core/properties.py-_get_values-785
+ /home/user/seaborn/seaborn/_core/properties.py-_get_values-254
+ /home/user/seaborn/tests/_core/test_properties.py-test_inference_dict-287
+ /home/user/seaborn/seaborn/_core/properties.py-_get_values-381
+ /home/user/seaborn/tests/_core/test_properties.py-test_inference_list-278
+ /home/user/seaborn/seaborn/_core/properties.py-_get_values-794
+ /home/user/seaborn/seaborn/_core/properties.py-<listcomp>-383
+ /home/user/seaborn/seaborn/_core/properties.py-_get_values-386
+ /home/user/seaborn/seaborn/_core/properties.py-_get_values-259
+ /home/user/seaborn/tests/_core/test_properties.py-test_inference-511
+ /home/user/seaborn/seaborn/_core/properties.py-_get_values-725
+ /home/user/seaborn/tests/_core/test_properties.py-test_inference-239
+ /home/user/seaborn/tests/_core/test_properties.py-test_inference_dict-438
+ /home/user/seaborn/tests/_core/test_properties.py-test_inference_list-429
+ /home/user/seaborn/seaborn/_core/properties.py-_get_values-382
+ /home/user/seaborn/seaborn/_core/properties.py-_get_values-257
+ /home/user/seaborn/seaborn/_core/properties.py-_get_values-789
+ /home/user/seaborn/seaborn/_core/properties.py-_get_values-251
+ /home/user/seaborn/seaborn/_core/properties.py-_get_values-265
+ /home/user/seaborn/seaborn/_core/properties.py-_get_values-787
+ /home/user/seaborn/seaborn/_core/properties.py-_get_values-385
+
+
+-------case--------seaborn._core.scales.Nominal.order
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/seaborn/seaborn/_core/properties.py-_get_nominal_mapping-675
+ /home/user/seaborn/seaborn/_core/properties.py-_get_nominal_mapping-225
+
+
+-------case--------seaborn._core.scales.Temporal.values
+{'builtins.tuple', 'builtins.NoneType', 'builtins.str'}
+
+
+-------case--------seaborn._core.scales.Temporal.norm
+{'builtins.tuple', 'builtins.NoneType'}
+
+
+-------case--------seaborn._stats.aggregation.Agg.func
+{'builtins.function', 'builtins.str'}
+ /home/user/seaborn/seaborn/_stats/aggregation.py-__call__-45
+
+
+-------case--------seaborn._marks.dot.Dot.stroke
+{'builtins.int', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_dot.py-test_filled_unfilled_mix-63
+
+
+-------case--------seaborn._marks.dot.Dot.edgecolor
+{'builtins.str', 'seaborn._marks.base.Mappable'}
+
+
+-------case--------seaborn._marks.dot.Dot.edgewidth
+{'builtins.int', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_dot.py-test_filled_unfilled_mix-63
+
+
+-------case--------seaborn._core.scales.Boolean.values
+{'seaborn.palettes._ColorPalette', 'builtins.tuple', 'builtins.NoneType', 'builtins.dict', 'builtins.str', 'builtins.list'}
+ /home/user/seaborn/tests/_core/test_properties.py-test_inference_dict-287
+ /home/user/seaborn/tests/_core/test_properties.py-test_inference-511
+ /home/user/seaborn/tests/_core/test_properties.py-test_inference_list-278
+ /home/user/seaborn/tests/_core/test_properties.py-test_inference-239
+ /home/user/seaborn/tests/_core/test_properties.py-test_inference_dict-438
+ /home/user/seaborn/tests/_core/test_properties.py-test_inference_list-429
+
+
+-------case--------seaborn._marks.area.Area.color
+{'builtins.str', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_area.py-test_set_properties-53
+
+
+-------case--------seaborn._marks.area.Area.alpha
+{'builtins.float', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_area.py-test_set_properties-53
+
+
+-------case--------seaborn._marks.area.Area.fill
+{'builtins.bool', 'seaborn._marks.base.Mappable'}
+
+
+-------case--------seaborn._marks.area.Area.edgecolor
+{'builtins.str', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_area.py-test_set_properties-56
+
+
+-------case--------seaborn._marks.area.Area.edgealpha
+{'builtins.float', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_area.py-test_set_properties-56
+
+
+-------case--------seaborn._marks.bar.Bar.color
+{'builtins.str', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_bar.py-test_set_properties-81
+
+
+-------case--------seaborn._marks.bar.Bar.alpha
+{'builtins.float', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_bar.py-test_mapped_properties-97
+ /home/user/seaborn/tests/_marks/test_bar.py-test_set_properties-81
+
+
+-------case--------seaborn._marks.bar.Bar.edgecolor
+{'builtins.str', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_bar.py-test_set_properties-82
+
+
+-------case--------seaborn._marks.bar.Bar.edgealpha
+{'builtins.float', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_bar.py-test_set_properties-82
+
+
+-------case--------seaborn._marks.bar.Bar.edgestyle
+{'builtins.tuple', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_bar.py-test_set_properties-85
+
+
+-------case--------seaborn._marks.bar.Bars.alpha
+{'builtins.float', 'seaborn._marks.base.Mappable'}
+
+
+-------case--------seaborn._marks.bar.Bars.fill
+{'builtins.bool', 'seaborn._marks.base.Mappable'}
+
+
+-------case--------seaborn._marks.bar.Bars.edgecolor
+{'builtins.str', 'seaborn._marks.base.Mappable'}
+
+
+-------case--------seaborn._marks.bar.Bars.width
+{'builtins.float', 'seaborn._marks.base.Mappable'}
+
+
+-------case--------seaborn._marks.dot.Dots.pointsize
+{'builtins.int', 'seaborn._marks.base.Mappable'}
+
+
+-------case--------seaborn._marks.dot.Dots.stroke
+{'builtins.int', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_dot.py-test_filled_unfilled_mix-178
+
+
+-------case--------seaborn._marks.dot.Dots.color
+{'builtins.str', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_dot.py-test_set_color-113
+ /home/user/seaborn/tests/_marks/test_dot.py-test_set_color-112
+
+
+-------case--------seaborn._marks.dot.Dots.fill
+{'builtins.bool', 'seaborn._marks.base.Mappable'}
+
+
+-------case--------seaborn._marks.line.Path.color
+{'builtins.tuple', 'builtins.str', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_color_and_alpha-93
+ /home/user/seaborn/tests/_marks/test_line.py-test_color_with_alpha-83
+ /home/user/seaborn/tests/_marks/test_line.py-test_color_and_alpha-94
+ /home/user/seaborn/tests/_marks/test_line.py-test_separate_colors_direct-46
+ /home/user/seaborn/tests/_marks/test_line.py-test_color_with_alpha-84
+
+
+-------case--------seaborn._marks.line.Path.alpha
+{'builtins.float', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_color_and_alpha-93
+ /home/user/seaborn/tests/_marks/test_line.py-test_color_and_alpha-95
+ /home/user/seaborn/tests/_marks/test_line.py-test_color_and_alpha-94
+
+
+-------case--------seaborn._marks.line.Path.linewidth
+{'builtins.int', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_other_props_direct-105
+
+
+-------case--------seaborn._marks.line.Path.linestyle
+{'builtins.str', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_other_props_direct-104
+
+
+-------case--------seaborn._marks.line.Path.marker
+{'builtins.str', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_other_props_direct-103
+
+
+-------case--------seaborn._marks.line.Path.pointsize
+{'builtins.int', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_other_props_direct-106
+
+
+-------case--------seaborn._marks.line.Path.fillcolor
+{'builtins.tuple', 'builtins.str', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_color_and_alpha-95
+ /home/user/seaborn/tests/_marks/test_line.py-test_color_with_alpha-85
+ /home/user/seaborn/tests/_marks/test_line.py-test_separate_colors_direct-48
+
+
+-------case--------seaborn._marks.line.Path.edgecolor
+{'builtins.str', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_separate_colors_direct-47
+
+
+-------case--------seaborn._marks.line.Path.edgewidth
+{'builtins.int', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_other_props_direct-107
+
+
+-------case--------seaborn._marks.line.Paths.color
+{'builtins.tuple', 'builtins.str', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_color_with_alpha-203
+ /home/user/seaborn/tests/_marks/test_line.py-test_color_and_alpha-211
+ /home/user/seaborn/tests/_marks/test_line.py-test_set_properties-182
+
+
+-------case--------seaborn._marks.line.Paths.alpha
+{'builtins.float', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_color_and_alpha-211
+
+
+-------case--------seaborn._marks.line.Paths.linewidth
+{'builtins.int', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_set_properties-183
+
+
+-------case--------seaborn._marks.line.Paths.linestyle
+{'builtins.tuple', 'builtins.str', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_set_properties-184
+
+
+-------case--------seaborn._marks.line.Range.color
+{'builtins.str', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_direct_properties-316
+
+
+-------case--------seaborn._marks.line.Range.linewidth
+{'builtins.int', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_direct_properties-317
+
+
+-------case--------seaborn._marks.line.Dash.color
+{'builtins.str', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_set_properties-360
+
+
+-------case--------seaborn._marks.line.Dash.linewidth
+{'builtins.int', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_set_properties-362
+
+
+-------case--------seaborn._marks.line.Dash.width
+{'builtins.float', 'seaborn._marks.base.Mappable'}
+
+
+-------case--------seaborn._marks.text.Text.color
+{'builtins.str', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_text.py-test_set_properties-50
+
+
+-------case--------seaborn._marks.text.Text.alpha
+{'builtins.float', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_text.py-test_set_properties-50
+
+
+-------case--------seaborn._marks.text.Text.fontsize
+{'builtins.int', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_text.py-test_set_properties-51
+
+
+-------case--------seaborn._marks.text.Text.halign
+{'builtins.str', 'seaborn._marks.base.Mappable'}
+
+
+-------case--------seaborn._marks.text.Text.valign
+{'builtins.str', 'seaborn._marks.base.Mappable'}
+ /home/user/seaborn/tests/_marks/test_text.py-test_set_properties-52
+
+
+-------case--------seaborn._stats.aggregation.Est.func
+{'builtins.function', 'builtins.str'}
+ /home/user/seaborn/seaborn/_stats/aggregation.py-__call__-98
+
+
+-------case--------seaborn._stats.aggregation.Est.errorbar
+{'builtins.tuple', 'builtins.str'}
+ /home/user/seaborn/seaborn/_stats/aggregation.py-__call__-98
+
+
+-------case--------seaborn._stats.aggregation.Est.seed
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/_stats/aggregation.py-__call__-97
+
+
+-------case--------seaborn._stats.counting.Hist.bins
+{'builtins.int', 'builtins.list', 'builtins.str'}
+ /home/user/seaborn/seaborn/_stats/counting.py-_define_bin_params-153
+ /home/user/seaborn/seaborn/_stats/counting.py-_define_bin_params-156
+
+
+-------case--------seaborn._stats.counting.Hist.binwidth
+{'builtins.NoneType', 'builtins.float'}
+ /home/user/seaborn/seaborn/_stats/counting.py-_define_bin_params-153
+
+
+-------case--------seaborn._stats.counting.Hist.binrange
+{'builtins.tuple', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/_stats/counting.py-_define_bin_params-153
+
+
+-------case--------seaborn._stats.counting.Hist.common_norm
+{'builtins.list', 'builtins.bool'}
+ /home/user/seaborn/seaborn/_stats/counting.py-__call__-224
+ /home/user/seaborn/seaborn/_stats/counting.py-__call__-221
+ /home/user/seaborn/seaborn/_stats/counting.py-__call__-227
+
+
+-------case--------seaborn._stats.counting.Hist.common_bins
+{'builtins.list', 'builtins.bool'}
+ /home/user/seaborn/seaborn/_stats/counting.py-__call__-214
+ /home/user/seaborn/seaborn/_stats/counting.py-__call__-207
+ /home/user/seaborn/seaborn/_stats/counting.py-__call__-211
+
+
+-------case--------seaborn._stats.density.KDE.bw_method
+{'builtins.int', 'builtins.float', 'builtins.str'}
+ /home/user/seaborn/seaborn/_stats/density.py-_fit-114
+
+
+-------case--------seaborn._stats.density.KDE.common_norm
+{'builtins.list', 'builtins.bool', 'builtins.str'}
+ /home/user/seaborn/seaborn/_stats/density.py-__call__-204
+ /home/user/seaborn/seaborn/_stats/density.py-__call__-197
+ /home/user/seaborn/seaborn/_stats/density.py-__call__-200
+
+
+-------case--------seaborn._stats.density.KDE.common_grid
+{'builtins.list', 'builtins.bool', 'builtins.str'}
+ /home/user/seaborn/seaborn/_stats/density.py-__call__-189
+ /home/user/seaborn/seaborn/_stats/density.py-__call__-182
+ /home/user/seaborn/seaborn/_stats/density.py-__call__-185
+
+
+-------case--------seaborn._stats.density.KDE.gridsize
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/_stats/density.py-_get_support-124
+ /home/user/seaborn/seaborn/_stats/density.py-_get_support-131
+
+
+-------case--------seaborn._stats.order.Perc.k
+{'builtins.int', 'builtins.list'}
+ /home/user/seaborn/seaborn/_stats/order.py-_percentile-64
+
+

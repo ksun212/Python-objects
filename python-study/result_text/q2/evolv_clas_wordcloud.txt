@@ -1,0 +1,1 @@
+["wordcloud.wordcloud_cli.RegExpAction", "wordcloud.wordcloud.WordCloud"]

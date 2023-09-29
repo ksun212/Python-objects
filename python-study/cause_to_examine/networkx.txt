@@ -1,0 +1,36 @@
+networkx.classes.graph.Graph._node
+{'networkx.classes.coreviews.FilterAtlas', 'builtins.dict'}
+ /home/user/networkx/networkx/relabel.py-_relabel_copy-193
+    H._node.update((mapping.get(n, n), d.copy()) for n, d in G.nodes.items())
+networkx.classes.graph.Graph._node
+{'networkx.classes.coreviews.FilterAtlas', 'builtins.dict'}
+ /home/user/networkx/networkx/classes/graph.py-clear-1535
+        self._node.clear()
+networkx.classes.graph.Graph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-clear-1534
+        self._adj.clear()
+networkx.classes.digraph.DiGraph._node
+{'networkx.classes.coreviews.FilterAtlas', 'builtins.dict'}
+ /home/user/networkx/networkx/classes/digraph.py-clear-1196
+        self._node.clear()
+networkx.classes.digraph.DiGraph._succ
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-clear-1194
+        self._succ.clear()
+networkx.classes.digraph.DiGraph._pred
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-clear-1195
+        self._pred.clear()
+networkx.classes.multigraph.MultiGraph._node
+{'networkx.classes.coreviews.FilterAtlas', 'builtins.dict'}
+ /home/user/networkx/networkx/relabel.py-_relabel_copy-193
+    H._node.update((mapping.get(n, n), d.copy()) for n, d in G.nodes.items())
+networkx.classes.multigraph.MultiGraph._node
+{'networkx.classes.coreviews.FilterAtlas', 'builtins.dict'}
+ /home/user/networkx/networkx/classes/graph.py-clear-1535
+        self._node.clear()
+networkx.classes.multigraph.MultiGraph._adj
+{'builtins.dict', 'networkx.classes.coreviews.FilterMultiAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-clear-1534
+        self._adj.clear()

@@ -1,0 +1,39 @@
+-------case--------isort.settings.Config._section_comments
+{'builtins.NoneType', 'builtins.tuple'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py-section_comments-680
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py-section_comments-677
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py-section_comments-676
+
+
+-------case--------isort.settings.Config._section_comments_end
+{'builtins.NoneType', 'builtins.tuple'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py-section_comments_end-688
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py-section_comments_end-685
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py-section_comments_end-684
+
+
+-------case--------isort.settings.Config._skips
+{'builtins.NoneType', 'builtins.frozenset'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py-skips-696
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py-skips-693
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py-skips-692
+
+
+-------case--------isort.settings.Config._skip_globs
+{'builtins.NoneType', 'builtins.frozenset'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py-skip_globs-701
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py-skip_globs-704
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py-skip_globs-700
+
+
+-------case--------isort.settings.Config._sorting_function
+{'builtins.NoneType', 'builtins.builtin_function_or_method', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py-sorting_function-708
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py-sorting_function-709
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py-sorting_function-727
+
+
+-------case--------isort.setuptools_commands.ISortCommand.verbose
+{'builtins.bool', 'builtins.int'}
+
+

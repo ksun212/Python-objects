@@ -1,0 +1,46 @@
+-------case--------wordcloud.wordcloud.WordCloud.colormap
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------wordcloud.wordcloud.WordCloud.color_func
+{'builtins.function', 'wordcloud.color_from_image.ImageColorGenerator', 'wordcloud.wordcloud.colormap_color_func'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py-generate_from_frequencies-536
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py-recolor-700
+
+
+-------case--------wordcloud.wordcloud.WordCloud.stopwords
+{'builtins.set', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py-process_text-593
+
+
+-------case--------wordcloud.wordcloud.WordCloud.regexp
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py-process_text-580
+
+
+-------case--------wordcloud.wordcloud.WordCloud.random_state
+{'random.Random', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py-generate_from_frequencies-420
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py-generate_from_frequencies-421
+
+
+-------case--------wordcloud.wordcloud.WordCloud.relative_scaling
+{'builtins.int', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py-generate_from_frequencies-492
+ /home/user/word_cloud/test/test_wordcloud.py-test_repeat-442
+
+
+-------case--------wordcloud.wordcloud.colormap_color_func.colormap
+{'matplotlib.colors.LinearSegmentedColormap', 'matplotlib.colors.ListedColormap'}
+
+
+-------case--------wordcloud.color_from_image.ImageColorGenerator.default_color
+{'builtins.tuple', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/color_from_image.py-__call__-54
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/color_from_image.py-__call__-56
+
+
+-------case--------wordcloud.wordcloud_cli.RegExpAction.container
+{'missing', 'argparse._ArgumentGroup'}
+
+

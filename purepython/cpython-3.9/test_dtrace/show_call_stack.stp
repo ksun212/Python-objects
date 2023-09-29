@@ -1,0 +1,17 @@
+probe process("python").mark("function__entry") {
+     filename = user_string($arg1);
+     funcname = user_string($arg2);
+     lineno = $arg3;
+
+     printf("%s => %s in %s:%d\\n",
+            thread_indent(1), funcname, filename, lineno);
+}
+
+probe process("python").mark("function__return") {
+    filename = user_string($arg1);
+    funcname = user_string($arg2);
+    lineno = $arg3;
+
+    printf("%s <= %s in %s:%d\\n",
+           thread_indent(-1), funcname, filename, lineno);
+}

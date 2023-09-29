@@ -1,0 +1,12 @@
+pypdf._reader.PdfReader.flattened_pages
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/pypdf/pypdf/_reader.py-_get_num_pages-453
+            return len(self.flattened_pages)  # type: ignore
+pypdf._reader.PdfReader.stream
+{'_io._io.BytesIO', '_io._io.FileIO', '_io._io.BufferedReader'}
+ /home/user/pypdf/pypdf/_reader.py-get_object-1367
+                buf = bytes(self.stream.getbuffer())  # type: ignore
+pypdf._reader.PdfReader._encryption
+{'builtins.NoneType', 'pypdf._encryption.Encryption'}
+ /home/user/pypdf/pypdf/_reader.py-__init__-342
+                self._encryption.verify(pwd) == PasswordType.NOT_DECRYPTED

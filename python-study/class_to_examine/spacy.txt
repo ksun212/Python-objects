@@ -1,0 +1,46 @@
+-------case--------spacy.language.FactoryMeta.default_config
+{'builtins.dict', 'spacy.util.SimpleFrozenDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/spacy/language.py-create_pipe-665
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/spacy/language.py-create_pipe-664
+
+
+-------case--------spacy.language.FactoryMeta.assigns
+{'builtins.list', 'spacy.util.SimpleFrozenList'}
+
+
+-------case--------spacy.language.FactoryMeta.requires
+{'builtins.list', 'spacy.util.SimpleFrozenList'}
+
+
+-------case--------spacy.language.FactoryMeta.default_score_weights
+{'builtins.dict', 'spacy.util.SimpleFrozenDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/spacy/language.py-config-266
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/spacy/language.py-config-265
+
+
+-------case--------spacy.lang.en.English._path
+{'builtins.NoneType', 'pathlib.PosixPath'}
+
+
+-------case--------spacy.lang.en.English._optimizer
+{'builtins.NoneType', 'thinc.optimizers.Optimizer'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/spacy/language.py-initialize-1322
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/spacy/language.py-update-1143
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/spacy/language.py-initialize-1317
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/spacy/language.py-update-1141
+
+
+-------case--------spacy.language.Language._optimizer
+{'builtins.NoneType', 'thinc.optimizers.Optimizer'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/spacy/language.py-initialize-1322
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/spacy/language.py-update-1143
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/spacy/language.py-initialize-1317
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/spacy/language.py-update-1141
+
+
+-------case--------spacy.lang.it.Italian._optimizer
+{'builtins.NoneType', 'thinc.optimizers.Optimizer'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/spacy/language.py-initialize-1322
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/spacy/language.py-initialize-1317
+
+

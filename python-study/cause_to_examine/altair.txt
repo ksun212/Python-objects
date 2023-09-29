@@ -1,0 +1,16 @@
+altair.vegalite.v5.api.Parameter.param
+{'altair.vegalite.v5.schema.core.SelectionParameter', 'missing', 'altair.vegalite.v5.schema.core.VariableParameter'}
+ /home/user/altair/tests/vegalite/v5/test_api.py-test_selection-478
+    assert multi.param.select.type == "point"
+altair.vegalite.v5.api.Parameter.param
+{'altair.vegalite.v5.schema.core.SelectionParameter', 'missing', 'altair.vegalite.v5.schema.core.VariableParameter'}
+ /home/user/altair/tests/vegalite/v5/test_params.py-test_parameter_naming-105
+    assert prm.param.name == "some_name"
+altair.vegalite.v5.api.Parameter.param
+{'altair.vegalite.v5.schema.core.SelectionParameter', 'missing', 'altair.vegalite.v5.schema.core.VariableParameter'}
+ /home/user/altair/tests/vegalite/v5/test_api.py-test_selection-470
+    assert interval.param.select.type == "interval"
+altair.vegalite.v5.api.Parameter.param
+{'altair.vegalite.v5.schema.core.SelectionParameter', 'missing', 'altair.vegalite.v5.schema.core.VariableParameter'}
+ /home/user/altair/tests/vegalite/v5/test_api.py-test_selection-474
+    assert single.param.select.type == "point"

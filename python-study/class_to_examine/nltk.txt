@@ -1,0 +1,1205 @@
+-------case--------nltk.lazyimport.LazyModule.__package__
+{'builtins.str', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.__loader__
+{'_frozen_importlib_external.SourceFileLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.__spec__
+{'_frozen_importlib.ModuleSpec', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.__path__
+{'builtins.list', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.__file__
+{'builtins.str', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.__cached__
+{'builtins.str', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.__builtins__
+{'builtins.dict', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.__annotations__
+{'builtins.dict', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.re
+{'builtins.module', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.reader
+{'builtins.module', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.CorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.CategorizedCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.PlaintextCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.find_corpus_fileids
+{'builtins.function', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.TaggedCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.CMUDictCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.ConllChunkCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.WordListCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.PPAttachmentCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.SensevalCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.IEERCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.ChunkedCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.SinicaTreebankCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.BracketParseCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.IndianCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.ToolboxCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.TimitCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.YCOECorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.MacMorphoCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.SyntaxCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.AlpinoCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.RTECorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.StringCategoryCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.EuroparlCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.CategorizedBracketParseCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.CategorizedTaggedCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.CategorizedPlaintextCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.PortugueseCategorizedPlaintextCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.tagged_treebank_para_block_reader
+{'builtins.function', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.PropbankCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.VerbnetCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.BNCCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.ConllCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.XMLCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.NPSChatCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.SwadeshCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.WordNetCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.WordNetICCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.SwitchboardCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.DependencyCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.NombankCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.IPIPANCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.Pl196xCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.TEICorpusView
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.KNBCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.ChasenCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.CHILDESCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.AlignedCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.TimitTaggedCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.LinThesaurusCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.SemcorCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.FramenetCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.UdhrCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.SentiWordNetCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.SentiSynset
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.TwitterCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.NKJPCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.CrubadanCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.MTECorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.ReviewsCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.OpinionLexiconCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.ProsConsCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.CategorizedSentencesCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.ComparativeSentencesCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.PanLexLiteCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.NonbreakingPrefixesCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.UnicharsCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.MWAPPDBCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.PanlexSwadeshCorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.BCP47CorpusReader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.util
+{'builtins.module', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.LazyCorpusLoader
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.RegexpTokenizer
+{'missing', 'abc.ABCMeta'}
+
+
+-------case--------nltk.lazyimport.LazyModule.abc
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.alpino
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.bcp47
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.brown
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.cess_cat
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.cess_esp
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.cmudict
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.comtrans
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.comparative_sentences
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.conll2000
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.conll2002
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.conll2007
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.crubadan
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.dependency_treebank
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.extended_omw
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.floresta
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.framenet15
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.framenet
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.gazetteers
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.genesis
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+ <doctest collocations.doctest[5]>-<module>-2
+
+
+-------case--------nltk.lazyimport.LazyModule.gutenberg
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.ieer
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.inaugural
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.indian
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.jeita
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.knbc
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.lin_thesaurus
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.mac_morpho
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.machado
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.masc_tagged
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.movie_reviews
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.multext_east
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.names
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.nps_chat
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.opinion_lexicon
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.ppattach
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.product_reviews_1
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.product_reviews_2
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.pros_cons
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.ptb
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.qc
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.reuters
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.rte
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.senseval
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.sentence_polarity
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.sentiwordnet
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.shakespeare
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.sinica_treebank
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.state_union
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.stopwords
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.subjectivity
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.swadesh
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.swadesh110
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.swadesh207
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.switchboard
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.timit
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.timit_tagged
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.toolbox
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.treebank
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.treebank_chunk
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.treebank_raw
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.twitter_samples
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.udhr
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.udhr2
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.universal_treebanks
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.verbnet
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.webtext
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.wordnet
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.wordnet31
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.wordnet2021
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.wordnet2022
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.wordnet_ic
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.words
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.propbank
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.nombank
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.propbank_ptb
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.nombank_ptb
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.semcor
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.nonbreaking_prefixes
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.perluniprops
+{'nltk.corpus.util.LazyCorpusLoader', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.demo
+{'builtins.function', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.__lazymodule_loaded
+{'builtins.int', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.codecs
+{'builtins.module', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.StringIO
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.Element
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.ElementTree
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.SubElement
+{'builtins.builtin_function_or_method', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.TreeBuilder
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.PathPointer
+{'missing', 'abc.ABCMeta'}
+
+
+-------case--------nltk.lazyimport.LazyModule.find
+{'builtins.function', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.StandardFormat
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.ToolboxData
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule._is_value
+{'re.re.Pattern', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.to_sfm_string
+{'builtins.function', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.ToolboxSettings
+{'builtins.type', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.to_settings_string
+{'builtins.function', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule._to_settings_string
+{'builtins.function', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.remove_blanks
+{'builtins.function', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.add_default_fields
+{'builtins.function', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.sort_fields
+{'builtins.function', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule._sort_fields
+{'builtins.function', 'missing'}
+
+
+-------case--------nltk.lazyimport.LazyModule.add_blank_lines
+{'builtins.function', 'missing'}
+
+
+-------case--------nltk.downloader.Downloader._download_dir
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/nltk/nltk/downloader.py-status-879
+ /home/user/nltk/nltk/downloader.py-__init__-514
+
+
+-------case--------nltk.downloader.Downloader._index_timestamp
+{'builtins.NoneType', 'builtins.float'}
+ /home/user/nltk/nltk/downloader.py-_update_index-943
+
+
+-------case--------nltk.ccg.api.PrimitiveCategory._hash
+{'builtins.int', 'missing'}
+ /home/user/nltk/nltk/ccg/api.py-__hash__-80
+ /home/user/nltk/nltk/ccg/api.py-__hash__-77
+
+
+-------case--------nltk.ccg.api.Direction._hash
+{'builtins.int', 'missing'}
+ /home/user/nltk/nltk/ccg/api.py-__hash__-234
+ /home/user/nltk/nltk/ccg/api.py-__hash__-231
+
+
+-------case--------nltk.ccg.api.FunctionalCategory._hash
+{'builtins.int', 'missing'}
+ /home/user/nltk/nltk/ccg/api.py-__hash__-80
+ /home/user/nltk/nltk/ccg/api.py-__hash__-77
+
+
+-------case--------nltk.ccg.lexicon.Token._token
+{'builtins.str', 'builtins.tuple'}
+
+
+-------case--------nltk.ccg.lexicon.Token._categ
+{'nltk.ccg.api.FunctionalCategory', 'nltk.ccg.api.PrimitiveCategory'}
+ /home/user/nltk/nltk/ccg/lexicon.py-categ-63
+ /home/user/nltk/nltk/ccg/lexicon.py-__str__-72
+
+
+-------case--------nltk.ccg.lexicon.Token._semantics
+{'nltk.sem.logic.ExistsExpression', 'nltk.sem.logic.FunctionVariableExpression', 'builtins.NoneType', 'nltk.sem.logic.ApplicationExpression', 'nltk.sem.logic.LambdaExpression', 'nltk.sem.logic.ConstantExpression', 'nltk.sem.logic.AndExpression'}
+ /home/user/nltk/nltk/ccg/lexicon.py-__str__-71
+ /home/user/nltk/nltk/ccg/lexicon.py-semantics-66
+ /home/user/nltk/nltk/ccg/lexicon.py-__str__-70
+
+
+-------case--------nltk.ccg.api.CCGVar._hash
+{'builtins.int', 'missing'}
+ /home/user/nltk/nltk/ccg/api.py-__hash__-80
+ /home/user/nltk/nltk/ccg/api.py-__hash__-77
+
+
+-------case--------nltk.corpus.reader.bnc.BNCWordView._tag
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/nltk/nltk/corpus/reader/bnc.py-handle_word-252
+ /home/user/nltk/nltk/corpus/reader/bnc.py-handle_word-250
+
+
+-------case--------nltk.corpus.reader.bnc.BNCWordView._len
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/nltk/nltk/corpus/reader/util.py-__len__-237
+ /home/user/nltk/nltk/corpus/reader/util.py-__len__-242
+ /home/user/nltk/nltk/corpus/reader/util.py-iterate_from-357
+
+
+-------case--------nltk.corpus.reader.bnc.BNCWordView._current_toknum
+{'builtins.NoneType', 'builtins.int'}
+
+
+-------case--------nltk.corpus.reader.bnc.BNCWordView._current_blocknum
+{'builtins.NoneType', 'builtins.int'}
+
+
+-------case--------nltk.data.SeekableUnicodeStreamReader.decode
+{'builtins.function', 'builtins.builtin_function_or_method', 'builtins.method'}
+
+
+-------case--------nltk.data.SeekableUnicodeStreamReader._rewind_numchars
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/nltk/nltk/data.py-tell-1302
+ /home/user/nltk/nltk/data.py-tell-1298
+ /home/user/nltk/nltk/data.py-readline-1087
+
+
+-------case--------nltk.data.SeekableUnicodeStreamReader._bom
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/nltk/nltk/data.py-_read-1334
+ /home/user/nltk/nltk/data.py-_read-1333
+
+
+-------case--------nltk.ccg.chart.CCGLeafEdge._hash
+{'builtins.int', 'missing'}
+ /home/user/nltk/nltk/parse/chart.py-__hash__-219
+ /home/user/nltk/nltk/parse/chart.py-__hash__-222
+
+
+-------case--------nltk.ccg.chart.CCGEdge._categ
+{'nltk.ccg.api.FunctionalCategory', 'nltk.ccg.api.PrimitiveCategory'}
+ /home/user/nltk/nltk/ccg/chart.py-lhs-67
+ /home/user/nltk/nltk/ccg/chart.py-categ-97
+
+
+-------case--------nltk.ccg.chart.CCGEdge._rule
+{'nltk.ccg.combinator.BackwardCombinator', 'nltk.ccg.combinator.ForwardCombinator'}
+ /home/user/nltk/nltk/ccg/chart.py-rule-100
+
+
+-------case--------nltk.ccg.chart.CCGEdge._hash
+{'builtins.int', 'missing'}
+ /home/user/nltk/nltk/parse/chart.py-__hash__-219
+ /home/user/nltk/nltk/parse/chart.py-__hash__-222
+
+
+-------case--------nltk.probability.DictionaryProbDist._max
+{'builtins.str', 'missing'}
+ /home/user/nltk/nltk/probability.py-max-755
+
+
+-------case--------nltk.classify.decisiontree.DecisionTreeClassifier._fname
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/nltk/nltk/classify/decisiontree.py-pretty_format-90
+ /home/user/nltk/nltk/classify/decisiontree.py-classify-53
+ /home/user/nltk/nltk/classify/decisiontree.py-pretty_format-80
+ /home/user/nltk/nltk/classify/decisiontree.py-<listcomp>-226
+ /home/user/nltk/nltk/classify/decisiontree.py-classify-57
+ /home/user/nltk/nltk/classify/decisiontree.py-pretty_format-93
+ /home/user/nltk/nltk/classify/decisiontree.py-refine-218
+
+
+-------case--------nltk.collections.LazyIteratorList._len
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/nltk/nltk/collections.py-__len__-584
+ /home/user/nltk/nltk/collections.py-__len__-580
+ /home/user/nltk/nltk/collections.py-__len__-579
+
+
+-------case--------nltk.corpus.reader.util.StreamBackedCorpusView._len
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/nltk/nltk/corpus/reader/util.py-__len__-237
+ /home/user/nltk/nltk/corpus/reader/util.py-__len__-242
+ /home/user/nltk/nltk/corpus/reader/util.py-iterate_from-357
+
+
+-------case--------nltk.corpus.reader.util.StreamBackedCorpusView._current_toknum
+{'builtins.NoneType', 'builtins.int'}
+
+
+-------case--------nltk.corpus.reader.util.StreamBackedCorpusView._current_blocknum
+{'builtins.NoneType', 'builtins.int'}
+
+
+-------case--------nltk.corpus.reader.tagged.TaggedCorpusView._len
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/nltk/nltk/corpus/reader/util.py-__len__-237
+ /home/user/nltk/nltk/corpus/reader/util.py-__len__-242
+ /home/user/nltk/nltk/corpus/reader/util.py-iterate_from-357
+
+
+-------case--------nltk.corpus.reader.tagged.TaggedCorpusView._current_toknum
+{'builtins.NoneType', 'builtins.int'}
+
+
+-------case--------nltk.corpus.reader.tagged.TaggedCorpusView._current_blocknum
+{'builtins.NoneType', 'builtins.int'}
+
+
+-------case--------nltk.grammar.Production._lhs
+{'nltk.grammar.FeatStructNonterminal', 'builtins.str', 'nltk.grammar.Nonterminal'}
+ /home/user/nltk/nltk/grammar.py-__str__-337
+ /home/user/nltk/nltk/grammar.py-__hash__-375
+ /home/user/nltk/nltk/grammar.py-__eq__-357
+ /home/user/nltk/nltk/grammar.py-lhs-297
+ /home/user/nltk/nltk/grammar.py-_calculate_indexes-894
+ /home/user/nltk/nltk/grammar.py-_calculate_indexes-490
+
+
+-------case--------nltk.parse.dependencygraph.DependencyGraph.root
+{'builtins.NoneType', 'builtins.dict'}
+ <doctest dependency.doctest[32]>-<module>-1
+ /home/user/nltk/nltk/sem/lfg.py-read_depgraph-95
+ /home/user/nltk/nltk/parse/dependencygraph.py-triples-420
+ <doctest dependency.doctest[26]>-<module>-1
+ /home/user/nltk/nltk/parse/dependencygraph.py-tree-407
+
+
+-------case--------nltk.parse.dependencygraph.DependencyGraph.top_relation_label
+{'builtins.str', 'missing'}
+
+
+-------case--------nltk.sem.logic.ImpExpression.first
+{'nltk.sem.logic.FunctionVariableExpression', 'nltk.sem.logic.NegatedExpression', 'nltk.sem.logic.ApplicationExpression', 'nltk.sem.logic.AndExpression'}
+ /home/user/nltk/nltk/sem/logic.py-__eq__-1841
+ /home/user/nltk/nltk/sem/logic.py-visit-1836
+ /home/user/nltk/nltk/sem/evaluate.py-satisfy-471
+ /home/user/nltk/nltk/sem/skolemize.py-skolemize-91
+ /home/user/nltk/nltk/sem/skolemize.py-skolemize-55
+ /home/user/nltk/nltk/sem/logic.py-__str__-1851
+
+
+-------case--------nltk.sem.logic.ImpExpression.second
+{'nltk.sem.logic.FunctionVariableExpression', 'nltk.sem.logic.NegatedExpression', 'nltk.sem.logic.ApplicationExpression', 'nltk.sem.logic.EqualityExpression', 'nltk.sem.logic.ExistsExpression', 'nltk.sem.logic.AndExpression'}
+ /home/user/nltk/nltk/sem/logic.py-visit-1836
+ /home/user/nltk/nltk/sem/skolemize.py-skolemize-92
+ /home/user/nltk/nltk/sem/logic.py-__str__-1852
+ /home/user/nltk/nltk/sem/logic.py-__eq__-1842
+ /home/user/nltk/nltk/sem/skolemize.py-skolemize-56
+ /home/user/nltk/nltk/sem/evaluate.py-satisfy-471
+
+
+-------case--------nltk.sem.logic.AllExpression._exhausted
+{'builtins.bool', 'missing'}
+ /home/user/nltk/nltk/inference/tableau.py-pop_first-487
+
+
+-------case--------nltk.featstruct.FeatStructReader._prefix_feature
+{'builtins.NoneType', 'nltk.featstruct.Feature'}
+ /home/user/nltk/nltk/featstruct.py-_read_partial_featdict-2326
+ /home/user/nltk/nltk/featstruct.py-__init__-2166
+ /home/user/nltk/nltk/featstruct.py-_read_partial_featdict-2321
+
+
+-------case--------nltk.featstruct.FeatStructReader._slash_feature
+{'builtins.NoneType', 'nltk.featstruct.SlashFeature'}
+ /home/user/nltk/nltk/featstruct.py-_finalize-2419
+ /home/user/nltk/nltk/featstruct.py-__init__-2162
+
+
+-------case--------nltk.sem.logic.OrExpression.first
+{'nltk.sem.logic.FunctionVariableExpression', 'nltk.sem.logic.NegatedExpression', 'nltk.sem.logic.ApplicationExpression', 'nltk.sem.logic.AndExpression'}
+ /home/user/nltk/nltk/inference/resolution.py-_clausify-512
+ /home/user/nltk/nltk/sem/logic.py-visit-1836
+ /home/user/nltk/nltk/sem/evaluate.py-satisfy-469
+ /home/user/nltk/nltk/sem/logic.py-__str__-1851
+ /home/user/nltk/nltk/sem/skolemize.py-skolemize-87
+
+
+-------case--------nltk.sem.logic.OrExpression.second
+{'nltk.sem.logic.FunctionVariableExpression', 'nltk.sem.logic.NegatedExpression', 'nltk.sem.logic.ApplicationExpression', 'nltk.sem.logic.AndExpression'}
+ /home/user/nltk/nltk/sem/logic.py-visit-1836
+ /home/user/nltk/nltk/sem/evaluate.py-satisfy-469
+ /home/user/nltk/nltk/sem/logic.py-__str__-1852
+ /home/user/nltk/nltk/inference/resolution.py-_clausify-513
+ /home/user/nltk/nltk/sem/skolemize.py-skolemize-88
+
+
+-------case--------nltk.parse.chart.LeafEdge._hash
+{'builtins.int', 'missing'}
+ /home/user/nltk/nltk/parse/chart.py-__hash__-219
+ /home/user/nltk/nltk/parse/chart.py-__hash__-222
+
+
+-------case--------nltk.parse.featurechart.FeatureTreeEdge._hash
+{'builtins.int', 'missing'}
+ /home/user/nltk/nltk/parse/chart.py-__hash__-219
+ /home/user/nltk/nltk/parse/chart.py-__hash__-222
+
+
+-------case--------nltk.sem.linearlogic.ApplicationExpression.argument
+{'nltk.sem.linearlogic.ImpExpression', 'nltk.sem.linearlogic.ConstantExpression', 'nltk.sem.linearlogic.ApplicationExpression'}
+ /home/user/nltk/nltk/sem/linearlogic.py-__str__-360
+
+
+-------case--------nltk.metrics.paice.Paice.gumt
+{'builtins.NoneType', 'builtins.float'}
+ /home/user/nltk/nltk/metrics/paice.py-update-339
+ <doctest paice.doctest[4]>-<module>-1
+
+
+-------case--------nltk.metrics.paice.Paice.gdmt
+{'builtins.NoneType', 'builtins.float'}
+ /home/user/nltk/nltk/metrics/paice.py-update-339
+ <doctest paice.doctest[4]>-<module>-1
+
+
+-------case--------nltk.metrics.paice.Paice.gwmt
+{'builtins.NoneType', 'builtins.float'}
+ /home/user/nltk/nltk/metrics/paice.py-update-339
+ <doctest paice.doctest[4]>-<module>-1
+
+
+-------case--------nltk.metrics.paice.Paice.gdnt
+{'builtins.NoneType', 'builtins.float'}
+ /home/user/nltk/nltk/metrics/paice.py-update-339
+ <doctest paice.doctest[4]>-<module>-1
+
+
+-------case--------nltk.metrics.paice.Paice.ui
+{'builtins.NoneType', 'builtins.float'}
+ /home/user/nltk/nltk/metrics/paice.py-_errt-320
+ <doctest paice.doctest[5]>-<module>-1
+ /home/user/nltk/nltk/metrics/paice.py-_errt-330
+ /home/user/nltk/nltk/metrics/paice.py-_errt-327
+
+
+-------case--------nltk.metrics.paice.Paice.oi
+{'builtins.NoneType', 'builtins.float'}
+ /home/user/nltk/nltk/metrics/paice.py-_errt-320
+ <doctest paice.doctest[5]>-<module>-1
+ /home/user/nltk/nltk/metrics/paice.py-_errt-330
+ /home/user/nltk/nltk/metrics/paice.py-_errt-327
+
+
+-------case--------nltk.metrics.paice.Paice.sw
+{'builtins.NoneType', 'builtins.float'}
+ <doctest paice.doctest[5]>-<module>-1
+ /home/user/nltk/nltk/metrics/paice.py-_get_truncation_coordinates-299
+
+
+-------case--------nltk.metrics.paice.Paice.errt
+{'builtins.NoneType', 'builtins.float'}
+ <doctest paice.doctest[6]>-<module>-1
+
+
+-------case--------nltk.parse.chart.TreeEdge._hash
+{'builtins.int', 'missing'}
+ /home/user/nltk/nltk/parse/chart.py-__hash__-219
+ /home/user/nltk/nltk/parse/chart.py-__hash__-222
+
+
+-------case--------nltk.parse.chart.SteppingChartParser._current_chartrule
+{'nltk.parse.chart.CachedTopDownPredictRule', 'nltk.parse.chart.BottomUpPredictRule', 'nltk.parse.chart.SingleEdgeFundamentalRule', 'nltk.parse.chart.EmptyPredictRule', 'builtins.NoneType', 'nltk.parse.chart.LeafInitRule', 'nltk.parse.chart.TopDownInitRule'}
+
+
+-------case--------nltk.parse.pchart.ProbabilisticLeafEdge._hash
+{'builtins.int', 'missing'}
+ /home/user/nltk/nltk/parse/chart.py-__hash__-219
+ /home/user/nltk/nltk/parse/chart.py-__hash__-222
+
+
+-------case--------nltk.parse.pchart.ProbabilisticTreeEdge._hash
+{'builtins.int', 'missing'}
+ /home/user/nltk/nltk/parse/chart.py-__hash__-219
+ /home/user/nltk/nltk/parse/chart.py-__hash__-222
+
+
+-------case--------nltk.inference.resolution.ResolutionProverCommand._goal
+{'nltk.sem.logic.ApplicationExpression', 'nltk.sem.logic.ImpExpression', 'nltk.sem.logic.ExistsExpression', 'nltk.sem.logic.NegatedExpression', 'nltk.sem.logic.AllExpression', 'nltk.sem.logic.AndExpression', 'builtins.NoneType', 'nltk.sem.logic.OrExpression', 'nltk.sem.logic.IffExpression'}
+ /home/user/nltk/nltk/inference/api.py-goal-250
+
+
+-------case--------nltk.inference.resolution.ResolutionProverCommand._result
+{'builtins.bool', 'builtins.NoneType'}
+ /home/user/nltk/nltk/inference/api.py-proof-296
+ /home/user/nltk/nltk/inference/resolution.py-prove-130
+ /home/user/nltk/nltk/inference/resolution.py-prove-136
+
+
+-------case--------nltk.inference.resolution.ResolutionProverCommand._proof
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/nltk/nltk/inference/api.py-proof-299
+
+
+-------case--------nltk.inference.resolution.ResolutionProverCommand._clauses
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/nltk/nltk/inference/resolution.py-find_answers-143
+
+
+-------case--------nltk.stem.arlstem2.ARLSTem2.is_verb
+{'builtins.bool', 'missing'}
+
+
+-------case--------nltk.tag.brill.Pos.positions
+{'builtins.NoneType', 'builtins.tuple'}
+
+
+-------case--------nltk.tag.brill.Word.positions
+{'builtins.NoneType', 'builtins.tuple'}
+
+
+-------case--------nltk.toolbox.StandardFormat.line_num
+{'builtins.int', 'missing'}
+ <doctest toolbox.doctest[28]>-<module>-2
+ <doctest toolbox.doctest[23]>-<module>-2
+ <doctest toolbox.doctest[34]>-<module>-2
+ /home/user/nltk/nltk/toolbox.py-raw_fields-79
+ /home/user/nltk/nltk/toolbox.py-raw_fields-88
+
+
+-------case--------nltk.toolbox.ToolboxData._file
+{'_io._io.StringIO', 'missing'}
+ /home/user/nltk/nltk/toolbox.py-raw_fields-67
+
+
+-------case--------nltk.toolbox.ToolboxData.line_num
+{'builtins.int', 'missing'}
+ /home/user/nltk/nltk/toolbox.py-raw_fields-79
+ /home/user/nltk/nltk/toolbox.py-raw_fields-88
+
+
+-------case--------nltk.downloader.Package.webpage
+{'builtins.str', 'missing'}
+
+
+-------case--------nltk.downloader.Package.languages
+{'builtins.str', 'missing'}
+
+
+-------case--------nltk.downloader.Package.licenseurl
+{'builtins.str', 'missing'}
+
+
+-------case--------nltk.downloader.Package.note
+{'builtins.str', 'missing'}
+
+
+-------case--------nltk.downloader.Package.version
+{'builtins.str', 'missing'}
+
+
+-------case--------nltk.downloader.Package.sample
+{'builtins.str', 'missing'}
+
+
+-------case--------nltk.downloader.Package.available
+{'builtins.str', 'missing'}
+
+
+-------case--------nltk.downloader.Collection.packages
+{'builtins.NoneType', 'builtins.dict_values'}
+
+
+-------case--------nltk.downloader.ProgressMessage.progress
+{'builtins.int', 'builtins.float'}
+
+
+-------case--------nltk.translate.ibm_model.AlignmentInfo.score
+{'builtins.NoneType', 'builtins.float'}
+ /home/user/nltk/nltk/translate/ibm_model.py-sample-178
+
+
+-------case--------nltk.translate.ibm3.IBMModel3.alignment_table
+{'collections.collections.defaultdict', 'builtins.NoneType'}
+ /home/user/nltk/nltk/translate/ibm4.py-__init__-219
+
+
+-------case--------nltk.translate.ibm4.IBMModel4.alignment_table
+{'collections.collections.defaultdict', 'builtins.NoneType'}
+ /home/user/nltk/nltk/translate/ibm5.py-__init__-234
+
+
+-------case--------nltk.translate.ibm5.IBMModel5.alignment_table
+{'collections.collections.defaultdict', 'builtins.NoneType'}
+
+
+-------case--------nltk.translate.ibm5.IBMModel5.src_classes
+{'builtins.NoneType', 'builtins.dict'}
+
+
+-------case--------nltk.translate.ibm5.IBMModel5.head_distortion_table
+{'collections.collections.defaultdict', 'builtins.NoneType'}
+
+
+-------case--------nltk.translate.ibm5.IBMModel5.non_head_distortion_table
+{'collections.collections.defaultdict', 'builtins.NoneType'}
+
+
+-------case--------nltk.translate.stack_decoder._Hypothesis.previous
+{'builtins.NoneType', 'nltk.translate.stack_decoder._Hypothesis'}
+ /home/user/nltk/nltk/translate/stack_decoder.py-__build_translation-446
+ /home/user/nltk/nltk/translate/stack_decoder.py-translated_positions-431
+ /home/user/nltk/nltk/translate/stack_decoder.py-__build_translation-448
+ /home/user/nltk/nltk/translate/stack_decoder.py-translated_positions-434
+
+

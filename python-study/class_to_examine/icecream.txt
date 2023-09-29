@@ -1,0 +1,29 @@
+-------case--------test_icecream.TestIceCream._outcome
+{'builtins.NoneType', 'unittest.case._Outcome'}
+ /home/user/purepython/cpython-3.9/Lib/unittest/case.py-doCleanups-628
+
+
+-------case--------test_icecream.TestIceCream._testMethodDoc
+{'builtins.NoneType', 'builtins.str'}
+
+
+-------case--------icecream.icecream.Source.tree
+{'builtins.NoneType', 'ast.Module'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/executing/executing.py-__init__-261
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/executing/executing.py-executing-360
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/executing/executing.py-asttext-428
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/executing/executing.py-__init__-268
+
+
+-------case--------icecream.icecream.Source._asttokens
+{'builtins.NoneType', 'asttokens.asttokens.ASTTokens'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/executing/executing.py-asttokens-446
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/executing/executing.py-asttokens-441
+
+
+-------case--------icecream.icecream.Source._asttext
+{'asttokens.asttokens.ASTText', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/executing/executing.py-asttext-430
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/executing/executing.py-asttext-427
+
+

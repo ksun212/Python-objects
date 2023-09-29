@@ -1,0 +1,13 @@
+-------case--------yapf.yapflib.reformatter._StateNode.previous
+{'builtins.NoneType', 'yapf.yapflib.reformatter._StateNode'}
+ /home/user/yapf/yapf/yapflib/reformatter.py-_ReconstructPath-555
+ /home/user/yapf/yapf/yapflib/reformatter.py-_ReconstructPath-553
+
+
+-------case--------yapf.yapflib.object_state.ComprehensionState.for_token
+{'yapf.yapflib.format_token.FormatToken', 'builtins.NoneType'}
+ /home/user/yapf/yapf/yapflib/object_state.py-Clone-67
+ /home/user/yapf/yapf/yapflib/object_state.py-__hash__-85
+ /home/user/yapf/yapf/yapflib/format_decision_state.py-_CalculateComprehensionState-786
+
+

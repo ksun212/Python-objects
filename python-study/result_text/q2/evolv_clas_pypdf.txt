@@ -1,0 +1,1 @@
+["pypdf._merger._MergedPage", "pypdf._writer.PdfWriter", "pypdf._merger.PdfMerger", "pypdf._encryption.Encryption", "pypdf._reader.PdfReader"]

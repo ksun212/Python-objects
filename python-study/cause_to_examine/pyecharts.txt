@@ -1,0 +1,20 @@
+pyecharts.charts.composite_charts.grid.Grid.options
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/pyecharts/tests/test_grid.py-test_grid_do_not_control_axis_index-61
+    for idx, series in enumerate(gc.options.get("series")):
+pyecharts.charts.composite_charts.grid.Grid.options
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/base.py-__init__-41
+        self.options.update(_opts.get("animationOpts", AnimationOpts()).opts)
+pyecharts.charts.composite_charts.grid.Grid.options
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/base.py-__init__-40
+        self.options.update(backgroundColor=_opts.get("bg_color"))
+pyecharts.charts.composite_charts.grid.Grid.options
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/pyecharts/tests/test_grid.py-test_grid_control_axis_index-53
+    for idx, series in enumerate(gc.options.get("series")):
+pyecharts.charts.basic_charts.scatter.Scatter._xaxis_data
+{'missing', 'builtins.list'}
+ /home/user/pyecharts/pyecharts/charts/basic_charts/scatter.py-_parse_data-24
+        elif len(self._xaxis_data) == 0:

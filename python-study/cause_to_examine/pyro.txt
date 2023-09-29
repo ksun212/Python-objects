@@ -1,0 +1,68 @@
+pyro.poutine.runtime._EnumAllocator.dim_to_id
+{'builtins.dict', 'missing'}
+ /home/user/pyro/pyro/poutine/enum_messenger.py-_pyro_sample-160
+        param_dims = _ENUM_ALLOCATOR.dim_to_id.copy()  # enum dim -> unique id
+pyro.poutine.runtime._EnumAllocator.dim_to_id
+{'builtins.dict', 'missing'}
+ /home/user/pyro/pyro/poutine/runtime.py-allocate-129
+            self.dim_to_id[dim] = id_
+pyro.poutine.enum_messenger.EnumMessenger._param_dims
+{'builtins.dict', 'missing'}
+ /home/user/pyro/pyro/poutine/enum_messenger.py-_pyro_post_sample-224
+        dim_to_id.update(self._param_dims.get(msg["name"], {}))
+pyro.poutine.enum_messenger.EnumMessenger._param_dims
+{'builtins.dict', 'missing'}
+ /home/user/pyro/pyro/poutine/enum_messenger.py-_pyro_sample-168
+        self._param_dims[msg["name"]] = param_dims
+pyro.poutine.enum_messenger.EnumMessenger._value_dims
+{'builtins.dict', 'missing'}
+ /home/user/pyro/pyro/poutine/enum_messenger.py-_pyro_post_sample-226
+            self._value_dims[msg["name"]] = {
+pyro.infer.autoguide.guides.AutoNormal.prototype_trace
+{'builtins.NoneType', 'pyro.poutine.trace_struct.Trace'}
+ /home/user/pyro/pyro/infer/autoguide/guides.py-_setup_prototype-164
+        for name, site in self.prototype_trace.iter_stochastic_nodes():
+pyro.infer.autoguide.guides.AutoNormal.prototype_trace
+{'builtins.NoneType', 'pyro.poutine.trace_struct.Trace'}
+ /home/user/pyro/pyro/infer/autoguide/guides.py-_setup_prototype-467
+        for name, site in self.prototype_trace.iter_stochastic_nodes():
+pyro.infer.autoguide.guides.AutoNormal.prototype_trace
+{'builtins.NoneType', 'pyro.poutine.trace_struct.Trace'}
+ /home/user/pyro/pyro/infer/autoguide/guides.py-forward-514
+        for name, site in self.prototype_trace.iter_stochastic_nodes():
+pyro.infer.autoguide.guides.AutoNormal._event_dims
+{'builtins.dict', 'missing'}
+ /home/user/pyro/pyro/infer/autoguide/guides.py-forward-528
+                    ).to_event(self._event_dims[name]),
+pyro.infer.autoguide.guides.AutoNormal._event_dims
+{'builtins.dict', 'missing'}
+ /home/user/pyro/pyro/infer/autoguide/guides.py-_setup_prototype-474
+            self._event_dims[name] = event_dim
+pyro.primitives.plate.subsample_size
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/pyro/pyro/poutine/subsample_messenger.py-_process_message-162
+        msg["scale"] = msg["scale"] * self.size / self.subsample_size
+pyro.distributions.transforms.affine_autoregressive.AffineAutoregressive.arn
+{'functools.functools.partial', 'missing'}
+ /home/user/pyro/pyro/distributions/transforms/affine_autoregressive.py-_inverse_stable-222
+        perm = self.arn.permutation
+pyro.distributions.transforms.affine_autoregressive.AffineAutoregressive.arn
+{'functools.functools.partial', 'missing'}
+ /home/user/pyro/pyro/distributions/transforms/affine_autoregressive.py-_inverse-150
+        perm = self.arn.permutation
+pyro.distributions.transforms.block_autoregressive.BlockAutoregressive._cached_logDetJ
+{'builtins.NoneType', 'torch.Tensor'}
+ /home/user/pyro/pyro/distributions/transforms/block_autoregressive.py-_call-168
+            term2 = F.softplus(log1p_gate - log_gate + self._cached_logDetJ)
+pyro.distributions.transforms.block_autoregressive.BlockAutoregressive._cached_logDetJ
+{'builtins.NoneType', 'torch.Tensor'}
+ /home/user/pyro/pyro/distributions/transforms/block_autoregressive.py-log_abs_det_jacobian-198
+        return self._cached_logDetJ.sum(-1)
+pyro.distributions.transforms.spline_autoregressive.SplineAutoregressive._cache_log_detJ
+{'missing', 'torch.Tensor'}
+ /home/user/pyro/pyro/distributions/transforms/spline_autoregressive.py-log_abs_det_jacobian-130
+        return self._cache_log_detJ.sum(-1)
+pyro.distributions.transforms.spline_coupling.SplineCoupling._cache_log_detJ
+{'missing', 'torch.Tensor'}
+ /home/user/pyro/pyro/distributions/transforms/spline_coupling.py-log_abs_det_jacobian-165
+        return self._cache_log_detJ.sum(-1)

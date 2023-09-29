@@ -1,0 +1,1845 @@
+-------case--------kornia.augmentation._2d.geometric.affine.RandomAffine._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+
+-------case--------kornia.augmentation.random_generator._2d.affine.AffineGenerator.degrees
+{'builtins.list', 'builtins.tuple', 'missing', 'builtins.float', 'builtins.int', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-forward-141
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-make_samplers-66
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-198
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-193
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-188
+
+
+-------case--------kornia.augmentation.random_generator._2d.affine.AffineGenerator.translate
+{'builtins.list', 'builtins.tuple', 'missing', 'builtins.NoneType', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-make_samplers-68
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-make_samplers-69
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-205
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-forward-141
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-make_samplers-70
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-200
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-210
+
+
+-------case--------kornia.augmentation.random_generator._2d.affine.AffineGenerator.shear
+{'builtins.list', 'builtins.tuple', 'missing', 'builtins.float', 'builtins.NoneType', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-make_samplers-90
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-forward-141
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-make_samplers-91
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-234
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-224
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-229
+
+
+-------case--------kornia.augmentation.random_generator._2d.affine.AffineGenerator.degree_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-forward-146
+
+
+-------case--------kornia.augmentation.random_generator._2d.affine.AffineGenerator.translate_x_sampler
+{'missing', 'builtins.NoneType', 'torch.distributions.uniform.Uniform'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-forward-157
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-forward-160
+
+
+-------case--------kornia.augmentation.random_generator._2d.affine.AffineGenerator.translate_y_sampler
+{'missing', 'builtins.NoneType', 'torch.distributions.uniform.Uniform'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-forward-157
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-forward-161
+
+
+-------case--------kornia.augmentation.random_generator._2d.affine.AffineGenerator.scale_2_sampler
+{'missing', 'builtins.NoneType', 'torch.distributions.uniform.Uniform'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-forward-149
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-forward-150
+
+
+-------case--------kornia.augmentation.random_generator._2d.affine.AffineGenerator.scale_4_sampler
+{'missing', 'builtins.NoneType', 'torch.distributions.uniform.Uniform'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-forward-151
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-forward-152
+
+
+-------case--------kornia.augmentation.random_generator._2d.affine.AffineGenerator.shear_x_sampler
+{'missing', 'builtins.NoneType', 'torch.distributions.uniform.Uniform'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-forward-172
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-forward-173
+
+
+-------case--------kornia.augmentation.random_generator._2d.affine.AffineGenerator.shear_y_sampler
+{'missing', 'builtins.NoneType', 'torch.distributions.uniform.Uniform'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-forward-172
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-forward-174
+
+
+-------case--------kornia.augmentation.random_generator._2d.affine.AffineGenerator.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation._2d.geometric.center_crop.CenterCrop._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+
+-------case--------kornia.augmentation._2d.intensity.color_jiggle.ColorJiggle.brightness
+{'builtins.tuple', 'missing', 'builtins.float'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-58
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-56
+
+
+-------case--------kornia.augmentation._2d.intensity.color_jiggle.ColorJiggle.contrast
+{'builtins.list', 'missing', 'builtins.float'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-60
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-62
+
+
+-------case--------kornia.augmentation._2d.intensity.color_jiggle.ColorJiggle.saturation
+{'builtins.list', 'builtins.tuple', 'missing', 'builtins.float', 'torch.Tensor'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-66
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-64
+
+
+-------case--------kornia.augmentation._2d.intensity.color_jiggle.ColorJiggle.hue
+{'builtins.list', 'missing', 'builtins.float'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-68
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-70
+
+
+-------case--------kornia.augmentation._2d.intensity.color_jiggle.ColorJiggle._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+
+-------case--------kornia.augmentation.random_generator._2d.color_jiggle.ColorJiggleGenerator.brightness
+{'builtins.tuple', 'torch.Tensor', 'missing', 'builtins.float'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jiggle.py-forward-79
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jiggle.py-__repr__-55
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jiggle.py-make_samplers-60
+
+
+-------case--------kornia.augmentation.random_generator._2d.color_jiggle.ColorJiggleGenerator.contrast
+{'builtins.list', 'torch.Tensor', 'missing', 'builtins.float'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jiggle.py-__repr__-55
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jiggle.py-forward-79
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jiggle.py-make_samplers-61
+
+
+-------case--------kornia.augmentation.random_generator._2d.color_jiggle.ColorJiggleGenerator.saturation
+{'builtins.list', 'builtins.tuple', 'missing', 'builtins.float', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jiggle.py-forward-79
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jiggle.py-__repr__-55
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jiggle.py-make_samplers-62
+
+
+-------case--------kornia.augmentation.random_generator._2d.color_jiggle.ColorJiggleGenerator.hue
+{'builtins.list', 'torch.Tensor', 'missing', 'builtins.float'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jiggle.py-forward-79
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jiggle.py-__repr__-55
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jiggle.py-make_samplers-63
+
+
+-------case--------kornia.augmentation.random_generator._2d.color_jiggle.ColorJiggleGenerator.brightness_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jiggle.py-forward-80
+
+
+-------case--------kornia.augmentation.random_generator._2d.color_jiggle.ColorJiggleGenerator.contrast_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jiggle.py-forward-81
+
+
+-------case--------kornia.augmentation.random_generator._2d.color_jiggle.ColorJiggleGenerator.hue_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jiggle.py-forward-82
+
+
+-------case--------kornia.augmentation.random_generator._2d.color_jiggle.ColorJiggleGenerator.saturation_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jiggle.py-forward-83
+
+
+-------case--------kornia.augmentation.random_generator._2d.color_jiggle.ColorJiggleGenerator.randperm
+{'functools.functools.partial', 'missing'}
+
+
+-------case--------kornia.augmentation.random_generator._2d.color_jiggle.ColorJiggleGenerator.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation._2d.geometric.crop.RandomCrop._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+
+-------case--------kornia.augmentation.random_generator._2d.crop.CropGenerator.size
+{'builtins.tuple', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-62
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-__repr__-40
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-60
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-59
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-51
+
+
+-------case--------kornia.augmentation.random_generator._2d.crop.CropGenerator.rand_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-85
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-82
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-89
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-88
+
+
+-------case--------kornia.augmentation.random_generator._2d.crop.CropGenerator.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation._2d.intensity.erasing.RandomErasing._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+
+-------case--------kornia.augmentation.random_generator._2d.rectangle_earase.RectangleEraseGenerator.scale
+{'builtins.tuple', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/rectangle_earase.py-forward-82
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/rectangle_earase.py-make_samplers-52
+
+
+-------case--------kornia.augmentation.random_generator._2d.rectangle_earase.RectangleEraseGenerator.ratio
+{'builtins.tuple', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/rectangle_earase.py-forward-82
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/rectangle_earase.py-make_samplers-53
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/rectangle_earase.py-forward-89
+
+
+-------case--------kornia.augmentation.random_generator._2d.rectangle_earase.RectangleEraseGenerator.value
+{'torch.Tensor', 'builtins.int', 'builtins.float'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/rectangle_earase.py-make_samplers-56
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/rectangle_earase.py-forward-134
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/rectangle_earase.py-make_samplers-55
+
+
+-------case--------kornia.augmentation.random_generator._2d.rectangle_earase.RectangleEraseGenerator.scale_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/rectangle_earase.py-forward-85
+
+
+-------case--------kornia.augmentation.random_generator._2d.rectangle_earase.RectangleEraseGenerator.ratio_sampler1
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/rectangle_earase.py-forward-90
+
+
+-------case--------kornia.augmentation.random_generator._2d.rectangle_earase.RectangleEraseGenerator.ratio_sampler2
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/rectangle_earase.py-forward-91
+
+
+-------case--------kornia.augmentation.random_generator._2d.rectangle_earase.RectangleEraseGenerator.index_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/rectangle_earase.py-forward-97
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/rectangle_earase.py-forward-94
+
+
+-------case--------kornia.augmentation.random_generator._2d.rectangle_earase.RectangleEraseGenerator.uniform_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/rectangle_earase.py-forward-122
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/rectangle_earase.py-forward-119
+
+
+-------case--------kornia.augmentation.random_generator._2d.rectangle_earase.RectangleEraseGenerator.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation.random_generator._2d.rectangle_earase.RectangleEraseGenerator.ratio_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/rectangle_earase.py-forward-100
+
+
+-------case--------kornia.augmentation._2d.intensity.grayscale.RandomGrayscale._p_gen
+{'torch.distributions.bernoulli.Bernoulli', 'torch.distributions.relaxed_bernoulli.RelaxedBernoulli'}
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-140
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-143
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-141
+
+
+-------case--------kornia.augmentation._2d.intensity.grayscale.RandomGrayscale._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+
+-------case--------kornia.augmentation._2d.geometric.horizontal_flip.RandomHorizontalFlip._p_gen
+{'torch.distributions.bernoulli.Bernoulli', 'torch.distributions.relaxed_bernoulli.RelaxedBernoulli'}
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-140
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-143
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-141
+
+
+-------case--------kornia.augmentation._2d.geometric.horizontal_flip.RandomHorizontalFlip._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+
+-------case--------kornia.augmentation._2d.geometric.vertical_flip.RandomVerticalFlip._p_gen
+{'torch.distributions.bernoulli.Bernoulli', 'torch.distributions.relaxed_bernoulli.RelaxedBernoulli'}
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-140
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-143
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-141
+
+
+-------case--------kornia.augmentation._2d.geometric.vertical_flip.RandomVerticalFlip._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+
+-------case--------kornia.augmentation._2d.geometric.perspective.RandomPerspective._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+
+-------case--------kornia.augmentation.random_generator._2d.perspective.PerspectiveGenerator.distortion_scale
+{'builtins.float', 'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/perspective.py-forward-59
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-304
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-309
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-316
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/perspective.py-make_samplers-47
+
+
+-------case--------kornia.augmentation.random_generator._2d.perspective.PerspectiveGenerator.rand_val_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/perspective.py-forward-75
+
+
+-------case--------kornia.augmentation.random_generator._2d.perspective.PerspectiveGenerator.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation._2d.geometric.resized_crop.RandomResizedCrop._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation.random_generator._2d.crop.ResizedCropGenerator.size
+{'builtins.tuple', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-59
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-62
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-51
+
+
+-------case--------kornia.augmentation.random_generator._2d.crop.ResizedCropGenerator.scale
+{'builtins.tuple', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-212
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-__repr__-188
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-202
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-make_samplers-192
+
+
+-------case--------kornia.augmentation.random_generator._2d.crop.ResizedCropGenerator.ratio
+{'builtins.tuple', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-__repr__-188
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-232
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-make_samplers-193
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-202
+
+
+-------case--------kornia.augmentation.random_generator._2d.crop.ResizedCropGenerator.rand_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-211
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-89
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-85
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-82
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-88
+
+
+-------case--------kornia.augmentation.random_generator._2d.crop.ResizedCropGenerator.log_ratio_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-213
+
+
+-------case--------kornia.augmentation.random_generator._2d.crop.ResizedCropGenerator.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation._2d.geometric.rotation.RandomRotation._p_gen
+{'torch.distributions.bernoulli.Bernoulli', 'torch.distributions.relaxed_bernoulli.RelaxedBernoulli'}
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-140
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-143
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-141
+
+
+-------case--------kornia.augmentation._2d.geometric.rotation.RandomRotation._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+
+-------case--------kornia.augmentation.random_generator._2d.plain_uniform.PlainUniformGenerator.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation._2d.intensity.solarize.RandomSolarize._p_gen
+{'torch.distributions.bernoulli.Bernoulli', 'torch.distributions.relaxed_bernoulli.RelaxedBernoulli'}
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-140
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-143
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-141
+
+
+-------case--------kornia.augmentation._2d.intensity.solarize.RandomSolarize._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation._2d.intensity.posterize.RandomPosterize._p_gen
+{'torch.distributions.bernoulli.Bernoulli', 'torch.distributions.relaxed_bernoulli.RelaxedBernoulli'}
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-140
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-141
+
+
+-------case--------kornia.augmentation._2d.intensity.posterize.RandomPosterize._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation.random_generator._2d.posterize.PosterizeGenerator.bits_factor
+{'builtins.tuple', 'builtins.int', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/posterize.py-make_samplers-41
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/posterize.py-forward-53
+
+
+-------case--------kornia.augmentation.random_generator._2d.posterize.PosterizeGenerator.bit_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/posterize.py-forward-54
+
+
+-------case--------kornia.augmentation.random_generator._2d.posterize.PosterizeGenerator.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation._2d.intensity.sharpness.RandomSharpness._p_gen
+{'torch.distributions.bernoulli.Bernoulli', 'torch.distributions.relaxed_bernoulli.RelaxedBernoulli'}
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-140
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-143
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-141
+
+
+-------case--------kornia.augmentation._2d.intensity.sharpness.RandomSharpness._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation._2d.intensity.equalize.RandomEqualize._p_gen
+{'torch.distributions.bernoulli.Bernoulli', 'torch.distributions.relaxed_bernoulli.RelaxedBernoulli'}
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-140
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-143
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-141
+
+
+-------case--------kornia.augmentation._2d.intensity.equalize.RandomEqualize._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+
+-------case--------kornia.augmentation._2d.intensity.motion_blur.RandomMotionBlur._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation.random_generator._2d.motion_blur.MotionBlurGenerator.angle
+{'builtins.tuple', 'builtins.float', 'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/motion_blur.py-__repr__-54
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-363
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/motion_blur.py-make_samplers-58
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-353
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/motion_blur.py-forward-79
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-357
+
+
+-------case--------kornia.augmentation.random_generator._2d.motion_blur.MotionBlurGenerator.direction
+{'builtins.list', 'builtins.tuple', 'missing', 'builtins.float', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/motion_blur.py-__repr__-54
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-365
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-372
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/motion_blur.py-make_samplers-59
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/motion_blur.py-forward-79
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-366
+
+
+-------case--------kornia.augmentation.random_generator._2d.motion_blur.MotionBlurGenerator.ksize_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/motion_blur.py-forward-82
+
+
+-------case--------kornia.augmentation.random_generator._2d.motion_blur.MotionBlurGenerator.angle_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/motion_blur.py-forward-80
+
+
+-------case--------kornia.augmentation.random_generator._2d.motion_blur.MotionBlurGenerator.direction_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/motion_blur.py-forward-81
+
+
+-------case--------kornia.augmentation.random_generator._2d.motion_blur.MotionBlurGenerator.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation._2d.intensity.normalize.Normalize.p
+{'builtins.int', 'builtins.float'}
+ /home/user/kornia/kornia/augmentation/base.py-__init__-67
+ /home/user/kornia/kornia/augmentation/base.py-__repr__-77
+ /home/user/kornia/kornia/augmentation/base.py-forward_parameters-171
+
+
+-------case--------kornia.augmentation._2d.intensity.normalize.Normalize._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+
+-------case--------kornia.augmentation._2d.intensity.denormalize.Denormalize._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+
+-------case--------kornia.augmentation._2d.intensity.auto_contrast.RandomAutoContrast._p_gen
+{'torch.distributions.bernoulli.Bernoulli', 'torch.distributions.relaxed_bernoulli.RelaxedBernoulli'}
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-140
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-143
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-141
+
+
+-------case--------kornia.augmentation._2d.intensity.auto_contrast.RandomAutoContrast._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation._2d.geometric.shear.RandomShear._p_gen
+{'torch.distributions.bernoulli.Bernoulli', 'torch.distributions.relaxed_bernoulli.RelaxedBernoulli'}
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-140
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-143
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-141
+
+
+-------case--------kornia.augmentation._2d.geometric.shear.RandomShear._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+ /home/user/kornia/kornia/augmentation/auto/operations/policy.py-get_transformation_matrix-68
+ /home/user/kornia/kornia/augmentation/auto/operations/policy.py-get_transformation_matrix-67
+
+
+-------case--------kornia.augmentation.random_generator._2d.shear.ShearGenerator.shear_x
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation.random_generator._2d.shear.ShearGenerator.shear_y
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation.random_generator._2d.shear.ShearGenerator.shear_x_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/shear.py-forward-83
+
+
+-------case--------kornia.augmentation.random_generator._2d.shear.ShearGenerator.shear_y_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/shear.py-forward-84
+
+
+-------case--------kornia.augmentation.random_generator._2d.shear.ShearGenerator.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation._2d.geometric.translate.RandomTranslate._p_gen
+{'torch.distributions.bernoulli.Bernoulli', 'torch.distributions.relaxed_bernoulli.RelaxedBernoulli'}
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-140
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-143
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-141
+
+
+-------case--------kornia.augmentation._2d.geometric.translate.RandomTranslate._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation.random_generator._2d.translate.TranslateGenerator.translate_x
+{'builtins.tuple', 'builtins.NoneType'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/translate.py-make_samplers-51
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/translate.py-make_samplers-50
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/translate.py-forward-69
+
+
+-------case--------kornia.augmentation.random_generator._2d.translate.TranslateGenerator.translate_y
+{'builtins.tuple', 'builtins.NoneType'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/translate.py-make_samplers-58
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/translate.py-forward-69
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/translate.py-make_samplers-57
+
+
+-------case--------kornia.augmentation.random_generator._2d.translate.TranslateGenerator.translate_x_sampler
+{'missing', 'builtins.NoneType', 'torch.distributions.uniform.Uniform'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/translate.py-forward-76
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/translate.py-forward-74
+
+
+-------case--------kornia.augmentation.random_generator._2d.translate.TranslateGenerator.translate_y_sampler
+{'missing', 'builtins.NoneType', 'torch.distributions.uniform.Uniform'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/translate.py-forward-86
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/translate.py-forward-84
+
+
+-------case--------kornia.augmentation.random_generator._2d.translate.TranslateGenerator.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation.container.image.ImageSequential._params
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/kornia/kornia/augmentation/container/base.py-inverse-257
+ /home/user/kornia/test/augmentation/test_container.py-reproducibility_test-35
+ /home/user/kornia/kornia/augmentation/container/base.py-inverse-252
+ /home/user/kornia/test/augmentation/test_container.py-reproducibility_test-22
+
+
+-------case--------kornia.augmentation.container.image.ImageSequential._same_on_batch
+{'builtins.bool', 'builtins.NoneType'}
+
+
+-------case--------kornia.augmentation.container.image.ImageSequential._keepdim
+{'builtins.bool', 'builtins.NoneType'}
+
+
+-------case--------kornia.augmentation.container.image.ImageSequential.random_apply
+{'builtins.bool', 'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/container/image.py-get_random_forward_sequence-139
+ /home/user/kornia/kornia/augmentation/container/image.py-get_forward_sequence-179
+ /home/user/kornia/kornia/augmentation/container/image.py-get_random_forward_sequence-140
+
+
+-------case--------kornia.augmentation._2d.geometric.resize.Resize._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+
+-------case--------kornia.augmentation.random_generator._2d.resize.ResizeGenerator.output_size
+{'builtins.tuple', 'builtins.int'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/resize.py-forward-73
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/resize.py-forward-71
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/resize.py-forward-69
+
+
+-------case--------kornia.augmentation.random_generator._2d.resize.ResizeGenerator.dtype
+{'missing', 'torch.torch.dtype'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/resize.py-forward-52
+
+
+-------case--------kornia.augmentation._2d.intensity.brightness.RandomBrightness._p_gen
+{'torch.distributions.bernoulli.Bernoulli', 'torch.distributions.relaxed_bernoulli.RelaxedBernoulli'}
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-140
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-141
+
+
+-------case--------kornia.augmentation._2d.intensity.brightness.RandomBrightness._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+
+-------case--------kornia.augmentation._2d.intensity.contrast.RandomContrast._p_gen
+{'torch.distributions.bernoulli.Bernoulli', 'torch.distributions.relaxed_bernoulli.RelaxedBernoulli'}
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-140
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-141
+
+
+-------case--------kornia.augmentation._2d.intensity.contrast.RandomContrast._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+
+-------case--------kornia.augmentation._2d.intensity.hue.RandomHue._p_gen
+{'torch.distributions.bernoulli.Bernoulli', 'torch.distributions.relaxed_bernoulli.RelaxedBernoulli'}
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-140
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-141
+
+
+-------case--------kornia.augmentation._2d.intensity.hue.RandomHue._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+
+-------case--------kornia.augmentation._2d.intensity.invert.RandomInvert._p_gen
+{'torch.distributions.bernoulli.Bernoulli', 'torch.distributions.relaxed_bernoulli.RelaxedBernoulli'}
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-140
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-143
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-141
+
+
+-------case--------kornia.augmentation._2d.intensity.invert.RandomInvert._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation._2d.intensity.saturation.RandomSaturation._p_gen
+{'torch.distributions.bernoulli.Bernoulli', 'torch.distributions.relaxed_bernoulli.RelaxedBernoulli'}
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-140
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-143
+ /home/user/kornia/kornia/augmentation/base.py-__batch_prob_generator__-141
+
+
+-------case--------kornia.augmentation._2d.intensity.saturation.RandomSaturation._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+
+-------case--------kornia.contrib.vit.PatchEmbedding.backbone
+{'missing', 'builtins.function'}
+
+
+-------case--------kornia.contrib.lambda_module.Lambda.func
+{'builtins.method', 'builtins.function'}
+ /home/user/kornia/kornia/contrib/lambda_module.py-forward-31
+
+
+-------case--------kornia.feature.loftr.loftr.LoFTR.pretrained
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------kornia.feature.loftr.utils.fine_matching.FineMatching.M
+{'builtins.int', 'missing'}
+
+
+-------case--------kornia.feature.loftr.utils.fine_matching.FineMatching.W
+{'builtins.int', 'missing'}
+
+
+-------case--------kornia.feature.loftr.utils.fine_matching.FineMatching.WW
+{'builtins.int', 'missing'}
+
+
+-------case--------kornia.feature.loftr.utils.fine_matching.FineMatching.C
+{'builtins.int', 'missing'}
+
+
+-------case--------kornia.feature.loftr.utils.fine_matching.FineMatching.scale
+{'missing', 'builtins.float'}
+
+
+-------case--------kornia.contrib.face_detection.FaceDetector.nms
+{'builtins.bool', 'builtins.float', 'builtins.int', 'builtins.function', 'builtins.list', 'builtins.NoneType', 'builtins.dict', 'builtins.set', 'collections.collections.OrderedDict'}
+
+
+-------case--------kornia.contrib.face_detection.FaceDetector.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.contrib.face_detection.YuFaceDetectNet.num_classes
+{'builtins.bool', 'builtins.NoneType', 'builtins.str', 'builtins.int', 'builtins.set', 'collections.collections.OrderedDict'}
+
+
+-------case--------kornia.contrib.face_detection.YuFaceDetectNet.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.contrib.face_detection.Conv_head._modules
+{'builtins.bool', 'builtins.NoneType', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/container.py-__len__-139
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-load-2011
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-add_module-611
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/container.py-__iter__-209
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/jit/_recursive.py-infer_concrete_type_builder-218
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-named_children-2192
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-_load_from_state_dict-1966
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-__dir__-2404
+
+
+-------case--------kornia.contrib.face_detection.Conv_head.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.contrib.face_detection.ConvDPUnit._modules
+{'builtins.bool', 'builtins.NoneType', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-load-2011
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-named_children-2192
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/container.py-__len__-139
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/container.py-__iter__-209
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/jit/_recursive.py-infer_concrete_type_builder-218
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-add_module-611
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-_load_from_state_dict-1966
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-__dir__-2404
+
+
+-------case--------kornia.contrib.face_detection.ConvDPUnit.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.contrib.face_detection.Conv4layerBlock._modules
+{'builtins.bool', 'builtins.NoneType', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-load-2011
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-named_children-2192
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/container.py-__len__-139
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/container.py-__iter__-209
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/jit/_recursive.py-infer_concrete_type_builder-218
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-add_module-611
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-_load_from_state_dict-1966
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-__dir__-2404
+
+
+-------case--------kornia.contrib.face_detection.Conv4layerBlock.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.contrib.edge_detection.EdgeDetector._modules
+{'builtins.bool', 'builtins.NoneType', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/jit/_recursive.py-infer_concrete_type_builder-218
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-named_children-2192
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-__dir__-2404
+
+
+-------case--------kornia.contrib.edge_detection.EdgeDetector.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.filters.dexined.DexiNed._modules
+{'builtins.bool', 'builtins.NoneType', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-load-2011
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/jit/_recursive.py-infer_concrete_type_builder-218
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-named_children-2192
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-_load_from_state_dict-1966
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-__dir__-2404
+
+
+-------case--------kornia.filters.dexined.DexiNed.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.filters.dexined.DoubleConvBlock._modules
+{'builtins.bool', 'builtins.NoneType', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-load-2011
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/container.py-__len__-139
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-named_children-2192
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/container.py-__iter__-209
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/jit/_recursive.py-infer_concrete_type_builder-218
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-add_module-611
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-_load_from_state_dict-1966
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-__dir__-2404
+
+
+-------case--------kornia.filters.dexined.DoubleConvBlock.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.filters.dexined._DenseBlock._modules
+{'builtins.bool', 'builtins.NoneType', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/container.py-__len__-139
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-load-2011
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-add_module-611
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/container.py-__iter__-209
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/jit/_recursive.py-infer_concrete_type_builder-218
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-named_children-2192
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-_load_from_state_dict-1966
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-__dir__-2404
+
+
+-------case--------kornia.filters.dexined._DenseBlock.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.filters.dexined._DenseLayer._modules
+{'builtins.bool', 'builtins.NoneType', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/container.py-__len__-139
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-load-2011
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-add_module-611
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/container.py-__iter__-209
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/jit/_recursive.py-infer_concrete_type_builder-218
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-named_children-2192
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-_load_from_state_dict-1966
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-__dir__-2404
+
+
+-------case--------kornia.filters.dexined._DenseLayer.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.filters.dexined.SingleConvBlock.use_bn
+{'builtins.bool', 'builtins.NoneType', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/kornia/kornia/filters/dexined.py-forward-141
+
+
+-------case--------kornia.filters.dexined.SingleConvBlock.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.filters.dexined.UpConvBlock.constant_features
+{'builtins.bool', 'builtins.NoneType', 'builtins.int', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/kornia/kornia/filters/dexined.py-compute_out_features-123
+
+
+-------case--------kornia.filters.dexined.UpConvBlock.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.augmentation.container.augment.AugmentationSequential._same_on_batch
+{'builtins.bool', 'builtins.NoneType'}
+
+
+-------case--------kornia.augmentation.container.augment.AugmentationSequential.random_apply
+{'builtins.bool', 'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/container/image.py-get_random_forward_sequence-139
+ /home/user/kornia/kornia/augmentation/container/image.py-get_forward_sequence-179
+ /home/user/kornia/kornia/augmentation/container/image.py-get_random_forward_sequence-140
+
+
+-------case--------kornia.augmentation.container.augment.AugmentationSequential._transform_matrix
+{'builtins.NoneType', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/container/augment.py-transform_matrix-216
+ /home/user/kornia/kornia/augmentation/container/augment.py-_update_transform_matrix-236
+ /home/user/kornia/kornia/augmentation/container/augment.py-transform_matrix-212
+ /home/user/kornia/kornia/augmentation/container/augment.py-_update_transform_matrix-233
+
+
+-------case--------kornia.augmentation._2d.intensity.color_jitter.ColorJitter.brightness
+{'builtins.tuple', 'missing', 'builtins.float'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-111
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-113
+
+
+-------case--------kornia.augmentation._2d.intensity.color_jitter.ColorJitter.contrast
+{'builtins.list', 'missing', 'builtins.float'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-117
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-115
+
+
+-------case--------kornia.augmentation._2d.intensity.color_jitter.ColorJitter.saturation
+{'builtins.list', 'builtins.tuple', 'missing', 'builtins.float', 'torch.Tensor'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-119
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-121
+
+
+-------case--------kornia.augmentation._2d.intensity.color_jitter.ColorJitter.hue
+{'missing', 'builtins.float'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-123
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-125
+
+
+-------case--------kornia.augmentation._2d.intensity.color_jitter.ColorJitter._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+
+-------case--------kornia.augmentation.random_generator._2d.color_jitter.ColorJitterGenerator.brightness
+{'builtins.tuple', 'torch.Tensor', 'missing', 'builtins.float'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jitter.py-make_samplers-64
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jitter.py-forward-83
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jitter.py-__repr__-59
+
+
+-------case--------kornia.augmentation.random_generator._2d.color_jitter.ColorJitterGenerator.contrast
+{'builtins.list', 'torch.Tensor', 'missing', 'builtins.float'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jitter.py-make_samplers-65
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jitter.py-forward-83
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jitter.py-__repr__-59
+
+
+-------case--------kornia.augmentation.random_generator._2d.color_jitter.ColorJitterGenerator.saturation
+{'builtins.list', 'builtins.tuple', 'missing', 'builtins.float', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jitter.py-forward-83
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jitter.py-__repr__-59
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jitter.py-make_samplers-66
+
+
+-------case--------kornia.augmentation.random_generator._2d.color_jitter.ColorJitterGenerator.hue
+{'torch.Tensor', 'missing', 'builtins.float'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jitter.py-make_samplers-67
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jitter.py-forward-83
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jitter.py-__repr__-59
+
+
+-------case--------kornia.augmentation.random_generator._2d.color_jitter.ColorJitterGenerator.brightness_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jitter.py-forward-84
+
+
+-------case--------kornia.augmentation.random_generator._2d.color_jitter.ColorJitterGenerator.contrast_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jitter.py-forward-85
+
+
+-------case--------kornia.augmentation.random_generator._2d.color_jitter.ColorJitterGenerator.hue_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jitter.py-forward-86
+
+
+-------case--------kornia.augmentation.random_generator._2d.color_jitter.ColorJitterGenerator.saturation_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jitter.py-forward-87
+
+
+-------case--------kornia.augmentation.random_generator._2d.color_jitter.ColorJitterGenerator.randperm
+{'functools.functools.partial', 'missing'}
+
+
+-------case--------kornia.augmentation.random_generator._2d.color_jitter.ColorJitterGenerator.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation._2d.intensity.gamma.RandomGamma._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+
+-------case--------kornia.augmentation._2d.intensity.gaussian_blur.RandomGaussianBlur.p
+{'builtins.int', 'builtins.float'}
+ /home/user/kornia/kornia/augmentation/base.py-__init__-67
+ /home/user/kornia/kornia/augmentation/base.py-__repr__-77
+ /home/user/kornia/kornia/augmentation/base.py-forward_parameters-171
+
+
+-------case--------kornia.augmentation._2d.intensity.gaussian_blur.RandomGaussianBlur._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+
+-------case--------kornia.augmentation.random_generator._2d.gaussian_blur.RandomGaussianBlurGenerator.sigma
+{'builtins.tuple', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/gaussian_blur.py-make_samplers-42
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/gaussian_blur.py-make_samplers-43
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/gaussian_blur.py-make_samplers-45
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/gaussian_blur.py-forward-54
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/gaussian_blur.py-__repr__-38
+
+
+-------case--------kornia.augmentation.random_generator._2d.gaussian_blur.RandomGaussianBlurGenerator.sigma_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/gaussian_blur.py-forward-55
+
+
+-------case--------kornia.augmentation.random_generator._2d.gaussian_blur.RandomGaussianBlurGenerator.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation._2d.intensity.channel_shuffle.RandomChannelShuffle._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation._2d.intensity.gaussian_noise.RandomGaussianNoise._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation._2d.intensity.box_blur.RandomBoxBlur._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation._2d.geometric.pad.PadTo._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation._2d.geometric.resize.SmallestMaxSize._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation._2d.geometric.resize.LongestMaxSize._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation._2d.intensity.plasma.RandomPlasmaShadow._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation._2d.intensity.plasma.RandomPlasmaBrightness._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation._2d.intensity.plasma.RandomPlasmaContrast._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation._2d.intensity.planckian_jitter.RandomPlanckianJitter._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation.random_generator._2d.planckian_jitter.PlanckianJitterGenerator.pl_idx_dist
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/planckian_jitter.py-forward-28
+
+
+-------case--------kornia.augmentation.random_generator._2d.planckian_jitter.PlanckianJitterGenerator.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation._2d.intensity.random_rgb_shift.RandomRGBShift._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation._2d.intensity.random_snow.RandomSnow._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation._2d.intensity.median_blur.RandomMedianBlur._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation._2d.intensity.random_rain.RandomRain._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation.random_generator._2d.random_rain.RainGenerator.number_of_drops_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/random_rain.py-forward-58
+
+
+-------case--------kornia.augmentation.random_generator._2d.random_rain.RainGenerator.drop_height_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/random_rain.py-forward-61
+
+
+-------case--------kornia.augmentation.random_generator._2d.random_rain.RainGenerator.drop_width_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/random_rain.py-forward-64
+
+
+-------case--------kornia.augmentation.random_generator._2d.random_rain.RainGenerator.coordinates_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/random_rain.py-forward-69
+
+
+-------case--------kornia.augmentation.random_generator._2d.random_rain.RainGenerator.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation._3d.geometric.horizontal_flip.RandomHorizontalFlip3D.same_on_batch
+{'builtins.bool', 'builtins.float'}
+ /home/user/kornia/kornia/augmentation/base.py-__repr__-77
+ /home/user/kornia/kornia/augmentation/base.py-forward_parameters-171
+
+
+-------case--------kornia.augmentation._3d.geometric.horizontal_flip.RandomHorizontalFlip3D._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_3d/base.py-transform_matrix-60
+
+
+-------case--------kornia.augmentation._3d.geometric.vertical_flip.RandomVerticalFlip3D.same_on_batch
+{'builtins.bool', 'builtins.float'}
+ /home/user/kornia/kornia/augmentation/base.py-__repr__-77
+ /home/user/kornia/kornia/augmentation/base.py-forward_parameters-171
+
+
+-------case--------kornia.augmentation._3d.geometric.vertical_flip.RandomVerticalFlip3D._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_3d/base.py-transform_matrix-60
+
+
+-------case--------kornia.augmentation._3d.geometric.depthical_flip.RandomDepthicalFlip3D.same_on_batch
+{'builtins.bool', 'builtins.float'}
+ /home/user/kornia/kornia/augmentation/base.py-__repr__-77
+ /home/user/kornia/kornia/augmentation/base.py-forward_parameters-171
+
+
+-------case--------kornia.augmentation._3d.geometric.depthical_flip.RandomDepthicalFlip3D._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_3d/base.py-transform_matrix-60
+
+
+-------case--------kornia.augmentation._3d.geometric.rotation.RandomRotation3D._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_3d/base.py-transform_matrix-60
+
+
+-------case--------kornia.augmentation.random_generator._3d.rotation.RotationGenerator3D.degrees
+{'builtins.list', 'builtins.tuple', 'missing', 'builtins.float', 'builtins.int', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/rotation.py-forward-62
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/rotation.py-make_samplers-54
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-180
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-190
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/rotation.py-__repr__-50
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-185
+
+
+-------case--------kornia.augmentation.random_generator._3d.rotation.RotationGenerator3D.yaw_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/rotation.py-forward-65
+
+
+-------case--------kornia.augmentation.random_generator._3d.rotation.RotationGenerator3D.pitch_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/rotation.py-forward-66
+
+
+-------case--------kornia.augmentation.random_generator._3d.rotation.RotationGenerator3D.roll_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/rotation.py-forward-67
+
+
+-------case--------kornia.augmentation.random_generator._3d.rotation.RotationGenerator3D.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation._3d.geometric.crop.RandomCrop3D._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation.random_generator._3d.crop.CropGenerator3D.size
+{'builtins.tuple', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/crop.py-__repr__-40
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/crop.py-forward-53
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/crop.py-forward-51
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/crop.py-forward-54
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/crop.py-forward-56
+
+
+-------case--------kornia.augmentation.random_generator._3d.crop.CropGenerator3D.rand_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/crop.py-forward-87
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/crop.py-forward-86
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/crop.py-forward-88
+
+
+-------case--------kornia.augmentation.random_generator._3d.crop.CropGenerator3D.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation._3d.geometric.center_crop.CenterCrop3D._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_3d/base.py-transform_matrix-60
+
+
+-------case--------kornia.augmentation._3d.intensity.equalize.RandomEqualize3D._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_3d/base.py-transform_matrix-60
+
+
+-------case--------kornia.augmentation._3d.geometric.affine.RandomAffine3D.p
+{'builtins.int', 'builtins.float'}
+ /home/user/kornia/kornia/augmentation/base.py-__init__-67
+ /home/user/kornia/kornia/augmentation/base.py-forward_parameters-171
+
+
+-------case--------kornia.augmentation._3d.geometric.affine.RandomAffine3D._transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_3d/base.py-transform_matrix-60
+
+
+-------case--------kornia.augmentation.random_generator._3d.affine.AffineGenerator3D.degrees
+{'builtins.list', 'builtins.tuple', 'missing', 'builtins.float', 'builtins.int', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-157
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-make_samplers-102
+
+
+-------case--------kornia.augmentation.random_generator._3d.affine.AffineGenerator3D.shears
+{'builtins.list', 'missing', 'builtins.float', 'builtins.NoneType', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-make_samplers-104
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-157
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-198
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-make_samplers-105
+
+
+-------case--------kornia.augmentation.random_generator._3d.affine.AffineGenerator3D.translate
+{'builtins.list', 'builtins.NoneType', 'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-157
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-make_samplers-115
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-make_samplers-116
+
+
+-------case--------kornia.augmentation.random_generator._3d.affine.AffineGenerator3D.scale
+{'builtins.list', 'builtins.NoneType', 'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-157
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-make_samplers-126
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-make_samplers-122
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-make_samplers-121
+
+
+-------case--------kornia.augmentation.random_generator._3d.affine.AffineGenerator3D.yaw_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-160
+
+
+-------case--------kornia.augmentation.random_generator._3d.affine.AffineGenerator3D.pitch_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-161
+
+
+-------case--------kornia.augmentation.random_generator._3d.affine.AffineGenerator3D.roll_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-162
+
+
+-------case--------kornia.augmentation.random_generator._3d.affine.AffineGenerator3D.uniform_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-187
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-186
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-185
+
+
+-------case--------kornia.augmentation.random_generator._3d.affine.AffineGenerator3D.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation.random_generator._3d.affine.AffineGenerator3D.sxy_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-199
+
+
+-------case--------kornia.augmentation.random_generator._3d.affine.AffineGenerator3D.sxz_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-200
+
+
+-------case--------kornia.augmentation.random_generator._3d.affine.AffineGenerator3D.syx_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-201
+
+
+-------case--------kornia.augmentation.random_generator._3d.affine.AffineGenerator3D.syz_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-202
+
+
+-------case--------kornia.augmentation.random_generator._3d.affine.AffineGenerator3D.szx_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-203
+
+
+-------case--------kornia.augmentation.random_generator._3d.affine.AffineGenerator3D.szy_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-204
+
+
+-------case--------kornia.augmentation.random_generator._3d.affine.AffineGenerator3D.scale_1_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-169
+
+
+-------case--------kornia.augmentation.random_generator._3d.affine.AffineGenerator3D.scale_2_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-170
+
+
+-------case--------kornia.augmentation.random_generator._3d.affine.AffineGenerator3D.scale_3_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-171
+
+
+-------case--------kornia.augmentation.random_generator._2d.mixup.MixupGenerator.lambda_val
+{'builtins.tuple', 'builtins.NoneType', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/mixup.py-make_samplers-44
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/mixup.py-make_samplers-41
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/mixup.py-__repr__-37
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/mixup.py-forward-54
+
+
+-------case--------kornia.augmentation.random_generator._2d.mixup.MixupGenerator.lambda_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/mixup.py-forward-59
+
+
+-------case--------kornia.augmentation.random_generator._2d.mixup.MixupGenerator.prob_sampler
+{'torch.distributions.bernoulli.Bernoulli', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/mixup.py-forward-57
+
+
+-------case--------kornia.augmentation.random_generator._2d.mixup.MixupGenerator.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation.random_generator._2d.cutmix.CutmixGenerator.cut_size
+{'builtins.NoneType', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/cutmix.py-make_samplers-65
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/cutmix.py-make_samplers-62
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/cutmix.py-__repr__-54
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/cutmix.py-forward-85
+
+
+-------case--------kornia.augmentation.random_generator._2d.cutmix.CutmixGenerator.beta
+{'builtins.NoneType', 'torch.Tensor', 'builtins.float'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/cutmix.py-make_samplers-61
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/cutmix.py-__repr__-54
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/cutmix.py-make_samplers-58
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/cutmix.py-forward-85
+
+
+-------case--------kornia.augmentation.random_generator._2d.cutmix.CutmixGenerator.p
+{'builtins.int', 'builtins.float'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/cutmix.py-make_samplers-70
+
+
+-------case--------kornia.augmentation.random_generator._2d.cutmix.CutmixGenerator._beta
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/cutmix.py-make_samplers-69
+
+
+-------case--------kornia.augmentation.random_generator._2d.cutmix.CutmixGenerator._cut_size
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/cutmix.py-make_samplers-67
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/cutmix.py-forward-108
+
+
+-------case--------kornia.augmentation.random_generator._2d.cutmix.CutmixGenerator.beta_sampler
+{'missing', 'torch.distributions.beta.Beta'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/cutmix.py-forward-104
+
+
+-------case--------kornia.augmentation.random_generator._2d.cutmix.CutmixGenerator.prob_sampler
+{'torch.distributions.bernoulli.Bernoulli', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/cutmix.py-forward-96
+
+
+-------case--------kornia.augmentation.random_generator._2d.cutmix.CutmixGenerator.rand_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/cutmix.py-forward-124
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/cutmix.py-forward-121
+
+
+-------case--------kornia.augmentation.random_generator._2d.cutmix.CutmixGenerator.pair_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/cutmix.py-forward-99
+
+
+-------case--------kornia.augmentation.random_generator._2d.cutmix.CutmixGenerator.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation.random_generator._2d.mosaic.MosaicGenerator.output_size
+{'builtins.tuple', 'builtins.NoneType'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/mosaic.py-__repr__-50
+
+
+-------case--------kornia.augmentation.random_generator._2d.mosaic.MosaicGenerator.start_ratio_range_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/mosaic.py-forward-80
+
+
+-------case--------kornia.augmentation.random_generator._2d.mosaic.MosaicGenerator.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.geometry.boxes.Boxes._N
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/kornia/kornia/geometry/boxes.py-clone-651
+ /home/user/kornia/kornia/geometry/boxes.py-to_tensor-513
+ /home/user/kornia/kornia/geometry/boxes.py-to_tensor-515
+
+
+-------case--------kornia.augmentation.random_generator._2d.jigsaw.JigsawGenerator._device
+{'torch.torch.device', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/jigsaw.py-forward-51
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/jigsaw.py-<listcomp>-55
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/jigsaw.py-forward-49
+
+
+-------case--------kornia.augmentation.random_generator._2d.jigsaw.JigsawGenerator._dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation.random_generator._2d.jigsaw.JigsawGenerator.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation.auto.autoaugment.autoaugment.AutoAugment._params
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/kornia/test/augmentation/test_auto_operation.py-test_reproduce-94
+ /home/user/kornia/test/augmentation/test_auto_operation.py-test_transform_mat-88
+
+
+-------case--------kornia.augmentation.auto.rand_augment.rand_augment.RandAugment._params
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/kornia/test/augmentation/test_auto_operation.py-test_reproduce-116
+
+
+-------case--------kornia.augmentation.auto.trivial_augment.trivial_augment.TrivialAugment._params
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/kornia/test/augmentation/test_auto_operation.py-test_reproduce-134
+
+
+-------case--------kornia.augmentation._3d.geometric.perspective.RandomPerspective3D._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation.random_generator._3d.perspective.PerspectiveGenerator3D.distortion_scale
+{'builtins.float', 'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/perspective.py-forward-52
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/perspective.py-make_samplers-38
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-221
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-233
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-226
+
+
+-------case--------kornia.augmentation.random_generator._3d.perspective.PerspectiveGenerator3D.rand_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/perspective.py-forward-78
+
+
+-------case--------kornia.augmentation.random_generator._3d.perspective.PerspectiveGenerator3D.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation._3d.intensity.motion_blur.RandomMotionBlur3D.p
+{'builtins.int', 'builtins.float'}
+ /home/user/kornia/kornia/augmentation/base.py-__init__-67
+ /home/user/kornia/kornia/augmentation/base.py-__repr__-77
+ /home/user/kornia/kornia/augmentation/base.py-forward_parameters-171
+
+
+-------case--------kornia.augmentation._3d.intensity.motion_blur.RandomMotionBlur3D._transform_matrix
+{'missing', 'torch.Tensor'}
+
+
+-------case--------kornia.augmentation.random_generator._3d.motion_blur.MotionBlurGenerator3D.angle
+{'builtins.tuple', 'builtins.float', 'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/motion_blur.py-make_samplers-61
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/motion_blur.py-__repr__-57
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-271
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/motion_blur.py-forward-84
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-281
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-275
+
+
+-------case--------kornia.augmentation.random_generator._3d.motion_blur.MotionBlurGenerator3D.direction
+{'builtins.tuple', 'builtins.list', 'missing', 'builtins.float', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/motion_blur.py-__repr__-57
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-290
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/motion_blur.py-make_samplers-62
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/motion_blur.py-forward-84
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-284
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-283
+
+
+-------case--------kornia.augmentation.random_generator._3d.motion_blur.MotionBlurGenerator3D.ksize_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/motion_blur.py-forward-91
+
+
+-------case--------kornia.augmentation.random_generator._3d.motion_blur.MotionBlurGenerator3D.yaw_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/motion_blur.py-forward-85
+
+
+-------case--------kornia.augmentation.random_generator._3d.motion_blur.MotionBlurGenerator3D.pitch_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/motion_blur.py-forward-86
+
+
+-------case--------kornia.augmentation.random_generator._3d.motion_blur.MotionBlurGenerator3D.roll_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/motion_blur.py-forward-87
+
+
+-------case--------kornia.augmentation.random_generator._3d.motion_blur.MotionBlurGenerator3D.direction_sampler
+{'torch.distributions.uniform.Uniform', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/motion_blur.py-forward-90
+
+
+-------case--------kornia.augmentation.random_generator._3d.motion_blur.MotionBlurGenerator3D.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.augmentation.base._BasicAugmentationBase.p_batch
+{'builtins.int', 'builtins.float'}
+ /home/user/kornia/kornia/augmentation/base.py-__repr__-77
+ /home/user/kornia/kornia/augmentation/base.py-__init__-69
+ /home/user/kornia/kornia/augmentation/base.py-forward_parameters-171
+
+
+-------case--------kornia.augmentation.container.video.VideoSequential._params
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/kornia/kornia/augmentation/container/video.py-forward-336
+ /home/user/kornia/test/augmentation/test_container.py-reproducibility_test-35
+ /home/user/kornia/kornia/augmentation/container/video.py-forward-334
+ /home/user/kornia/test/augmentation/test_container.py-reproducibility_test-22
+
+
+-------case--------kornia.augmentation.container.video.VideoSequential.random_apply
+{'builtins.bool', 'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/container/image.py-get_random_forward_sequence-139
+ /home/user/kornia/kornia/augmentation/container/image.py-get_forward_sequence-179
+ /home/user/kornia/kornia/augmentation/container/image.py-get_random_forward_sequence-140
+
+
+-------case--------kornia.geometry.boxes.VideoBoxes.temporal_channel_size
+{'builtins.int', 'missing'}
+ /home/user/kornia/kornia/geometry/boxes.py-clone-693
+ /home/user/kornia/kornia/geometry/boxes.py-to_tensor-684
+
+
+-------case--------kornia.geometry.keypoints.VideoKeypoints.temporal_channel_size
+{'builtins.int', 'missing'}
+ /home/user/kornia/kornia/geometry/keypoints.py-clone-196
+ /home/user/kornia/kornia/geometry/keypoints.py-to_tensor-184
+
+
+-------case--------kornia.augmentation.container.patch.PatchSequential._params
+{'builtins.list', 'builtins.NoneType'}
+
+
+-------case--------kornia.augmentation.container.patch.PatchSequential.random_apply
+{'builtins.bool', 'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/container/patch.py-generate_parameters-265
+ /home/user/kornia/kornia/augmentation/container/image.py-get_random_forward_sequence-139
+ /home/user/kornia/kornia/augmentation/container/image.py-get_random_forward_sequence-140
+
+
+-------case--------kornia.augmentation.random_generator._2d.probability.ProbabilityGenerator.sampler
+{'torch.distributions.bernoulli.Bernoulli', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/probability.py-forward-43
+
+
+-------case--------kornia.augmentation.random_generator._2d.probability.ProbabilityGenerator.dtype
+{'missing', 'torch.torch.dtype'}
+
+
+-------case--------kornia.enhance.adjust.AdjustSaturation.saturation_factor
+{'torch.Tensor', 'builtins.float'}
+ /home/user/kornia/kornia/enhance/adjust.py-forward-1049
+
+
+-------case--------kornia.enhance.adjust.AdjustSaturationWithGraySubtraction.saturation_factor
+{'torch.Tensor', 'builtins.float'}
+ /home/user/kornia/kornia/enhance/adjust.py-forward-1096
+
+
+-------case--------kornia.enhance.adjust.AdjustHue.hue_factor
+{'builtins.float', 'torch.Tensor'}
+ /home/user/kornia/kornia/enhance/adjust.py-forward-1143
+
+
+-------case--------kornia.enhance.adjust.AdjustGamma.gamma
+{'torch.Tensor', 'builtins.float'}
+ /home/user/kornia/kornia/enhance/adjust.py-forward-1181
+
+
+-------case--------kornia.enhance.adjust.AdjustGamma.gain
+{'torch.Tensor', 'builtins.float'}
+ /home/user/kornia/kornia/enhance/adjust.py-forward-1181
+
+
+-------case--------kornia.enhance.adjust.AdjustContrast.contrast_factor
+{'builtins.float', 'torch.Tensor'}
+ /home/user/kornia/kornia/enhance/adjust.py-forward-1218
+
+
+-------case--------kornia.enhance.adjust.AdjustContrastWithMeanSubtraction.contrast_factor
+{'builtins.float', 'torch.Tensor'}
+ /home/user/kornia/kornia/enhance/adjust.py-forward-1256
+
+
+-------case--------kornia.enhance.normalize.Denormalize.mean
+{'builtins.list', 'builtins.float', 'torch.Tensor'}
+ /home/user/kornia/kornia/enhance/normalize.py-forward-166
+ /home/user/kornia/kornia/enhance/normalize.py-__repr__-169
+
+
+-------case--------kornia.enhance.normalize.Denormalize.std
+{'builtins.list', 'builtins.float', 'torch.Tensor'}
+ /home/user/kornia/kornia/enhance/normalize.py-forward-166
+ /home/user/kornia/kornia/enhance/normalize.py-__repr__-169
+
+
+-------case--------kornia.enhance.zca.ZCAWhitening.transform_matrix
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/enhance/zca.py-inverse_transform-153
+ /home/user/kornia/kornia/enhance/zca.py-forward-131
+ /home/user/kornia/kornia/enhance/zca.py-fit-108
+
+
+-------case--------kornia.enhance.zca.ZCAWhitening.transform_inv
+{'builtins.bool', 'builtins.float', 'builtins.NoneType', 'missing', 'builtins.int', 'torch.Tensor', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/kornia/kornia/enhance/zca.py-inverse_transform-155
+ /home/user/kornia/kornia/enhance/zca.py-fit-109
+ /home/user/kornia/kornia/enhance/zca.py-inverse_transform-150
+
+
+-------case--------kornia.enhance.zca.ZCAWhitening.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.feature.defmo.DeFMO._modules
+{'builtins.bool', 'builtins.NoneType', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/jit/_recursive.py-infer_concrete_type_builder-218
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-named_children-2192
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-__dir__-2404
+
+
+-------case--------kornia.feature.defmo.DeFMO.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.feature.defmo.EncoderDeFMO._modules
+{'builtins.bool', 'builtins.NoneType', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-load-2011
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/jit/_recursive.py-infer_concrete_type_builder-218
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-named_children-2192
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-_load_from_state_dict-1966
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-__dir__-2404
+
+
+-------case--------kornia.feature.defmo.EncoderDeFMO.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.feature.defmo.Bottleneck.stride
+{'builtins.bool', 'builtins.NoneType', 'builtins.int', 'builtins.set', 'collections.collections.OrderedDict'}
+
+
+-------case--------kornia.feature.defmo.Bottleneck.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.feature.defmo.RenderingDeFMO.times
+{'builtins.bool', 'builtins.NoneType', 'builtins.int', 'torch.Tensor', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/kornia/kornia/feature/defmo.py-forward-245
+
+
+-------case--------kornia.feature.defmo.RenderingDeFMO.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.feature.hardnet.HardNet._modules
+{'builtins.bool', 'builtins.NoneType', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-load-2011
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/jit/_recursive.py-infer_concrete_type_builder-218
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-named_children-2192
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-_load_from_state_dict-1966
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-__dir__-2404
+
+
+-------case--------kornia.feature.hardnet.HardNet.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.feature.matching.DescriptorMatcher.th
+{'builtins.bool', 'builtins.float', 'builtins.NoneType', 'builtins.str', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/kornia/kornia/feature/matching.py-forward-331
+ /home/user/kornia/kornia/feature/matching.py-forward-329
+
+
+-------case--------kornia.feature.matching.DescriptorMatcher.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.feature.orientation.OriNet.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.feature.hardnet.HardNet8._modules
+{'builtins.bool', 'builtins.NoneType', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/jit/_recursive.py-infer_concrete_type_builder-218
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-named_children-2192
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-__dir__-2404
+
+
+-------case--------kornia.feature.hardnet.HardNet8.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.feature.hynet.HyNet.drop_rate
+{'builtins.bool', 'builtins.float', 'builtins.NoneType', 'builtins.int', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/kornia/kornia/feature/hynet.py-__init__-209
+
+
+-------case--------kornia.feature.hynet.HyNet.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.feature.hynet.FilterResponseNorm2d.is_scale
+{'builtins.bool', 'builtins.float', 'builtins.NoneType', 'builtins.int', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/kornia/kornia/feature/hynet.py-forward-86
+
+
+-------case--------kornia.feature.hynet.FilterResponseNorm2d.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.feature.hynet.TLU.num_features
+{'builtins.bool', 'builtins.NoneType', 'builtins.int', 'builtins.set', 'collections.collections.OrderedDict'}
+
+
+-------case--------kornia.feature.hynet.TLU.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.feature.mkd.VonMisesKernel.d
+{'builtins.bool', 'builtins.NoneType', 'builtins.int', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/kornia/kornia/feature/mkd.py-__repr__-161
+ /home/user/kornia/kornia/feature/mkd.py-spatial_kernel_embedding-248
+ /home/user/kornia/kornia/feature/mkd.py-__init__-536
+ /home/user/kornia/kornia/feature/mkd.py-__init__-620
+
+
+-------case--------kornia.feature.mkd.VonMisesKernel.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.feature.mkd.EmbedGradients.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.feature.mkd.ExplicitSpacialEncoding.odims
+{'builtins.bool', 'builtins.NoneType', 'builtins.dict', 'builtins.str', 'builtins.int', 'torch.Tensor', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/kornia/kornia/feature/mkd.py-__init__-540
+ /home/user/kornia/kornia/feature/mkd.py-__init__-622
+
+
+-------case--------kornia.feature.mkd.ExplicitSpacialEncoding.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.feature.mkd.Whitening.xform
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/kornia/kornia/feature/mkd.py-__repr__-470
+ /home/user/kornia/kornia/feature/mkd.py-load_whitening_parameters-437
+ /home/user/kornia/kornia/feature/mkd.py-load_whitening_parameters-423
+
+
+-------case--------kornia.feature.mkd.Whitening.output_dims
+{'builtins.bool', 'builtins.float', 'builtins.NoneType', 'builtins.str', 'builtins.int', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/kornia/kornia/feature/mkd.py-__repr__-472
+ /home/user/kornia/kornia/feature/mkd.py-load_whitening_parameters-427
+ /home/user/kornia/kornia/feature/mkd.py-load_whitening_parameters-426
+
+
+-------case--------kornia.feature.mkd.Whitening.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.feature.mkd.MKDDescriptor.whitening
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/kornia/kornia/feature/mkd.py-__repr__-588
+ /home/user/kornia/kornia/feature/mkd.py-forward-578
+ /home/user/kornia/kornia/feature/mkd.py-__init__-545
+
+
+-------case--------kornia.feature.sosnet.SOSNet._modules
+{'builtins.bool', 'builtins.NoneType', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/jit/_recursive.py-infer_concrete_type_builder-218
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-named_children-2192
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-__dir__-2404
+
+
+-------case--------kornia.feature.sosnet.SOSNet.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.feature.tfeat.TFeat._modules
+{'builtins.bool', 'builtins.NoneType', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-load-2011
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/jit/_recursive.py-infer_concrete_type_builder-218
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-named_children-2192
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-_load_from_state_dict-1966
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-__dir__-2404
+
+
+-------case--------kornia.feature.tfeat.TFeat.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.grad_estimator.ste.StraightThroughEstimator.grad_fn
+{'builtins.NoneType', 'builtins.function'}
+ /home/user/kornia/kornia/grad_estimator/ste.py-forward-122
+
+
+-------case--------kornia.losses.ms_ssim.MS_SSIMLoss.reduction
+{'builtins.bool', 'builtins.float', 'builtins.NoneType', 'builtins.str', 'builtins.int', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/kornia/kornia/losses/ms_ssim.py-forward-169
+ /home/user/kornia/kornia/losses/ms_ssim.py-forward-171
+
+
+-------case--------kornia.losses.ms_ssim.MS_SSIMLoss.__overloads__
+{'builtins.dict', 'missing'}
+
+
+-------case--------kornia.tracking.planar_tracker.HomographyTracker.previous_homography
+{'builtins.NoneType', 'torch.Tensor'}
+ /home/user/kornia/kornia/tracking/planar_tracker.py-forward-146
+
+
+-------case--------kornia.metrics.average_meter.AverageMeter._avg
+{'builtins.int', 'builtins.float'}
+ /home/user/kornia/kornia/metrics/average_meter.py-avg-39
+ /home/user/kornia/kornia/metrics/average_meter.py-avg-41
+
+

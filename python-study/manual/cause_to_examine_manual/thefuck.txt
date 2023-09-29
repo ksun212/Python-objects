@@ -1,0 +1,7 @@
+thefuck.utils.Cache._db
+{'tests.test_utils._Shelve'}
+ /home/user/thefuck-master/thefuck/utils.py-_setup_db-224
+        atexit.register(self._db.close)
+
+check: 1
+safe: 1

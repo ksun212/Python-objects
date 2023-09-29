@@ -1,0 +1,276 @@
+-------case--------flask.cli.FlaskGroup.name
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/testing.py-get_default_prog_name-195
+
+
+-------case--------flask.cli.FlaskGroup.callback
+{'builtins.NoneType', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-invoke-1403
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-invoke-1404
+
+
+-------case--------flask.cli.FlaskGroup.help
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-format_help_text-1336
+
+
+-------case--------flask.cli.FlaskGroup.create_app
+{'builtins.NoneType', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/cli.py-main-596
+
+
+-------case--------flask.config.ConfigAttribute.get_converter
+{'builtins.NoneType', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/config.py-__get__-20
+
+
+-------case--------flask.app.Flask._static_folder
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/scaffold.py-static_folder-254
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/scaffold.py-static_folder-255
+
+
+-------case--------flask.app.Flask._static_url_path
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/scaffold.py-static_url_path-281
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/scaffold.py-static_url_path-282
+
+
+-------case--------flask.cli.AppGroup.name
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/flask_tests/tests/test_cli.py-test_cli_name-48
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-add_command-1806
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/testing.py-get_default_prog_name-195
+
+
+-------case--------flask.cli.AppGroup.callback
+{'builtins.NoneType', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-invoke-1403
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-invoke-1404
+
+
+-------case--------flask.templating.Environment.loader
+{'jinja2.loaders.DictLoader', 'flask.templating.DispatchingJinjaLoader'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/environment.py-_load_template-969
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/environment.py-_load_template-956
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/environment.py-list_templates-913
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/environment.py-_load_template-954
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/environment.py-list_templates-914
+
+
+-------case--------flask.ctx.AppContext.url_adapter
+{'werkzeug.routing.MapAdapter', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/helpers.py-url_for-297
+
+
+-------case--------flask.ctx.AppContext.g
+{'test_appctx.CustomRequestGlobals', 'flask.ctx._AppCtxGlobals'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/templating.py-_default_template_ctx_processor-26
+
+
+-------case--------flask.ctx._AppCtxGlobals.foo
+{'missing', 'builtins.int', 'builtins.str'}
+
+
+-------case--------flask.ctx._AppCtxGlobals.something
+{'missing', 'builtins.str'}
+
+
+-------case--------flask.ctx._AppCtxGlobals.lang_code
+{'missing', 'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------flask.ctx._AppCtxGlobals.x
+{'missing', 'builtins.int'}
+
+
+-------case--------flask.ctx._AppCtxGlobals.bar
+{'missing', 'builtins.int'}
+
+
+-------case--------flask.ctx._AppCtxGlobals.user_agent
+{'missing', 'builtins.str'}
+
+
+-------case--------flask.ctx._AppCtxGlobals.value
+{'missing', 'builtins.int'}
+
+
+-------case--------flask.testing.EnvironBuilder._query_string
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/test.py-query_string-666
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/test.py-query_string-662
+
+
+-------case--------flask.testing.EnvironBuilder._args
+{'werkzeug.datastructures.MultiDict', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/test.py-query_string-664
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/test.py-query_string-663
+
+
+-------case--------flask.testing.EnvironBuilder.errors_stream
+{'_pytest.capture.EncodedFile', '_io._io.StringIO'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/test.py-get_environ-783
+
+
+-------case--------flask.testing.EnvironBuilder.environ_base
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/test.py-get_environ-759
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/test.py-get_environ-760
+
+
+-------case--------flask.testing.EnvironBuilder.environ_overrides
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/test.py-get_environ-809
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/test.py-get_environ-808
+
+
+-------case--------flask.testing.EnvironBuilder._input_stream
+{'builtins.NoneType', '_io._io.BytesIO'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/test.py-content_type-536
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/test.py-input_stream-649
+
+
+-------case--------flask.testing.EnvironBuilder._form
+{'werkzeug.datastructures.MultiDict', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/test.py-content_type-539
+
+
+-------case--------flask.testing.EnvironBuilder._files
+{'builtins.NoneType', 'werkzeug.datastructures.FileMultiDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/test.py-content_type-537
+
+
+-------case--------flask.ctx.RequestContext.url_adapter
+{'werkzeug.routing.MapAdapter', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-match_request-376
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-push-420
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/helpers.py-url_for-283
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/app.py-make_default_options_response-1573
+
+
+-------case--------flask.ctx.RequestContext.flashes
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/helpers.py-get_flashed_messages-430
+
+
+-------case--------flask.ctx.RequestContext.session
+{'flask.sessions.SecureCookieSession', 'flask.sessions.NullSession', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-copy-368
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-push-415
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/templating.py-_default_template_ctx_processor-29
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/app.py-process_response-1887
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-push-411
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/app.py-process_response-1888
+
+
+-------case--------flask.ctx.RequestContext._preserved_exc
+{'builtins.ZeroDivisionError', 'werkzeug.exceptions.BadRequestKeyError', 'flask.debughelpers.FormDataRoutingRedirect', 'builtins.NoneType', 'flask.debughelpers.DebugFilesKeyError', 'builtins.GeneratorExit', 'jinja2.exceptions.TemplateNotFound'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-push-393
+
+
+-------case--------flask.wrappers.Request.remote_addr
+{'builtins.NoneType', 'builtins.str'}
+
+
+-------case--------flask.wrappers.Request.routing_exception
+{'werkzeug.exceptions.NotFound', 'werkzeug.exceptions.MethodNotAllowed', 'werkzeug.exceptions.BadHost', 'werkzeug.routing.RequestRedirect'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/app.py-raise_routing_exception-1474
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/app.py-raise_routing_exception-1471
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/app.py-dispatch_request-1491
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/debughelpers.py-__init__-50
+
+
+-------case--------flask.wrappers.Request.stream
+{'werkzeug.wsgi.LimitedStream', '_io._io.BytesIO'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/request.py-get_data-424
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/request.py-_get_stream_for_parsing-313
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/request.py-_load_form_data-293
+
+
+-------case--------flask.wrappers.Request._parsed_content_type
+{'missing', 'builtins.tuple'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/sansio/request.py-mimetype-359
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/sansio/request.py-mimetype_params-368
+
+
+-------case--------flask.wrappers.Request._cached_data
+{'missing', 'builtins.bytes'}
+
+
+-------case--------flask.json.JSONEncoder.indent
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/Lib/json/encoder.py-iterencode-254
+ /home/user/purepython/cpython-3.9/Lib/json/encoder.py-iterencode-247
+ /home/user/purepython/cpython-3.9/Lib/json/encoder.py-iterencode-249
+
+
+-------case--------flask.wrappers.Response.response
+{'builtins.generator', 'builtins.list', 'werkzeug.wsgi.FileWrapper'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/response.py-get_wsgi_headers-563
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/response.py-close-438
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/response.py-get_app_iter-597
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/response.py-get_app_iter-596
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/response.py-close-437
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/response.py-iter_encoded-398
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/response.py-is_sequence-428
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/response.py-iter_encoded-402
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/response.py-make_sequence-386
+
+
+-------case--------flask.blueprints.Blueprint._static_folder
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/scaffold.py-static_folder-254
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/scaffold.py-static_folder-255
+
+
+-------case--------flask.blueprints.Blueprint.template_folder
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/scaffold.py-jinja_loader-344
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/scaffold.py-jinja_loader-345
+
+
+-------case--------flask.blueprints.Blueprint.url_prefix
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/blueprints.py-__init__-67
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/blueprints.py-register-389
+
+
+-------case--------flask.blueprints.Blueprint.subdomain
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/blueprints.py-__init__-59
+
+
+-------case--------flask.blueprints.Blueprint.cli_group
+{'builtins.NoneType', 'builtins.object', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/blueprints.py-register-372
+
+
+-------case--------flask.blueprints.BlueprintSetupState.subdomain
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/blueprints.py-add_url_rule-96
+
+
+-------case--------flask.cli.ScriptInfo.app_import_path
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/cli.py-load_app-404
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/cli.py-load_app-402
+
+
+-------case--------flask.cli.ScriptInfo.create_app
+{'builtins.NoneType', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/cli.py-load_app-400
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/cli.py-load_app-399
+
+
+-------case--------flask.cli.ScriptInfo._loaded_app
+{'conftest.Flask', 'builtins.NoneType', 'flask.app.Flask'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/cli.py-load_app-396
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/cli.py-load_app-397
+
+
+-------case--------flask.cli.DispatchingApp._bg_loading_exc
+{'builtins.NoneType', 'test_cli.BadExc'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/cli.py-_flush_bg_loading_exception-343
+
+

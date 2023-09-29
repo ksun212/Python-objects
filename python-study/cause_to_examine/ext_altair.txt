@@ -1,0 +1,12 @@
+ /home/user/altair/altair/utils/schemapi.py-__get__-820
+altair.utils.schemapi._PropertySetter.obj
+ /home/user/altair/altair/utils/schemapi.py-__get__-821
+altair.utils.schemapi._PropertySetter.cls
+ /home/user/altair/altair/utils/schemapi.py-__get__-846
+altair.utils.schemapi._PropertySetter.__signature__
+ /home/user/altair/altair/utils/schemapi.py-__get__-847
+altair.utils.schemapi._PropertySetter.__wrapped__
+ /home/user/altair/altair/utils/schemapi.py-__get__-848
+altair.utils.schemapi._PropertySetter.__name__
+ /home/user/altair/altair/utils/execeval.py-__enter__-20
+altair.utils.execeval._CatchDisplay.old_hook

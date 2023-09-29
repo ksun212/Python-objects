@@ -1,0 +1,2135 @@
+-------case--------statsmodels.distributions.discrete.genpoisson_p_gen.shapes
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-796
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-797
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-801
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-800
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_argparser-722
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-805
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-811
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-789
+
+
+-------case--------statsmodels.distributions.discrete.zipoisson_gen.shapes
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-796
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-moment-1284
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-797
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-801
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-moment-1285
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-800
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_argparser-722
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-805
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-811
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-789
+
+
+-------case--------statsmodels.distributions.discrete.zigeneralizedpoisson_gen.shapes
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-796
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-797
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-801
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-800
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_argparser-722
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-805
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-811
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-789
+
+
+-------case--------statsmodels.distributions.discrete.zinegativebinomial_gen.shapes
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-796
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-moment-1284
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-797
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-801
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-moment-1285
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-800
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_argparser-722
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-805
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-811
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-789
+
+
+-------case--------statsmodels.genmod.families.varfuncs.Power.power
+{'builtins.int', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/families/varfuncs.py-__call__-104
+
+
+-------case--------statsmodels.stats.tabledist.TableDist.asymptotic
+{'builtins.NoneType', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tabledist.py-_critvals-153
+
+
+-------case--------statsmodels.stats.tabledist.TableDist._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------statsmodels.stats.power.TTestPower.cache_fit_res
+{'builtins.list', 'missing'}
+
+
+-------case--------statsmodels.stats.power.TTestIndPower.cache_fit_res
+{'builtins.list', 'missing'}
+
+
+-------case--------statsmodels.sandbox.distributions.extras.SkewNorm_gen.a
+{'builtins.NoneType', 'builtins.float'}
+
+
+-------case--------statsmodels.sandbox.distributions.extras.SkewNorm_gen.b
+{'builtins.NoneType', 'builtins.float'}
+
+
+-------case--------statsmodels.sandbox.distributions.extras.SkewNorm2_gen.a
+{'builtins.NoneType', 'builtins.float'}
+
+
+-------case--------statsmodels.sandbox.distributions.extras.SkewNorm2_gen.b
+{'builtins.NoneType', 'builtins.float'}
+
+
+-------case--------statsmodels.sandbox.distributions.extras.Transf_gen.func
+{'builtins.function', 'numpy.numpy.ufunc'}
+
+
+-------case--------statsmodels.sandbox.distributions.extras.Transf_gen.funcinv
+{'builtins.function', 'numpy.numpy.ufunc'}
+
+
+-------case--------statsmodels.sandbox.distributions.extras.Transf_gen.kls
+{'scipy.stats._continuous_distns.gamma_gen', 'scipy.stats._continuous_distns.norm_gen'}
+
+
+-------case--------statsmodels.sandbox.distributions.extras.Transf_gen.a
+{'builtins.int', 'builtins.float'}
+
+
+-------case--------statsmodels.sandbox.distributions.extras.TransfTwo_gen.func
+{'builtins.method', 'numpy.numpy.ufunc', 'builtins.function'}
+
+
+-------case--------statsmodels.sandbox.distributions.extras.TransfTwo_gen.funcinvplus
+{'builtins.method', 'builtins.function'}
+
+
+-------case--------statsmodels.sandbox.distributions.extras.TransfTwo_gen.funcinvminus
+{'builtins.method', 'builtins.function'}
+
+
+-------case--------statsmodels.sandbox.distributions.extras.TransfTwo_gen.derivplus
+{'builtins.method', 'builtins.function'}
+
+
+-------case--------statsmodels.sandbox.distributions.extras.TransfTwo_gen.derivminus
+{'builtins.method', 'builtins.function'}
+
+
+-------case--------statsmodels.sandbox.distributions.extras.TransfTwo_gen.kls
+{'scipy.stats._continuous_distns.t_gen', 'scipy.stats._continuous_distns.norm_gen'}
+
+
+-------case--------statsmodels.sandbox.distributions.extras.TransfTwo_gen.shapes
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-796
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-797
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-801
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_argparser-727
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-800
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_argparser-722
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_argparser-724
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-805
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-811
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_construct_doc-789
+
+
+-------case--------statsmodels.tools.testing.Holder.mat
+{'numpy.numpy.ndarray', 'builtins.str', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_corrpsd.py-test_cov_nearest-165
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_corrpsd.py-test_nearest-113
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_corrpsd.py-test_cov_nearest-171
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_corrpsd.py-test_cov_nearest-142
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_corrpsd.py-test_clipped-127
+
+
+-------case--------statsmodels.tools.testing.Holder.zval
+{'numpy.numpy.ndarray', 'missing', 'builtins.float'}
+
+
+-------case--------statsmodels.tools.testing.Holder.pval
+{'numpy.numpy.ndarray', 'builtins.int', 'missing', 'builtins.float'}
+
+
+-------case--------statsmodels.tools.testing.Holder.tau2
+{'builtins.int', 'missing', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_meta.py-test_dl-236
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_meta.py-test_dl-239
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_meta.py-test_basic-320
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_meta.py-test_pm-212
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_meta.py-test_pm-196
+
+
+-------case--------statsmodels.tools.testing.Holder.tau2_f
+{'builtins.int', 'missing', 'builtins.float'}
+
+
+-------case--------statsmodels.tools.testing.Holder.p
+{'builtins.tuple', 'missing', 'builtins.int'}
+
+
+-------case--------statsmodels.tools.testing.Holder.QMp
+{'builtins.int', 'missing', 'builtins.float'}
+
+
+-------case--------statsmodels.tools.testing.Holder.test
+{'builtins.str', 'missing', 'builtins.float'}
+
+
+-------case--------statsmodels.tools.testing.Holder.statistic
+{'numpy.numpy.ndarray', 'builtins.int', 'missing', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_weightstats.py-test-714
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_inter_rater.py-test_cohens_kappa_irr-308
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_tost.py-test_ttest-522
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_robust_compare.py-test_oneway-272
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_rank_compare_2indep1-382
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_gof.py-test_chisquare-74
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_robust_compare.py-test_oneway-284
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_rank_compare_2indep1-375
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_proportion.py-test_proptest-183
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_proportion.py-test_proptest-177
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_robust_compare.py-test_inference-128
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_weightstats.py-test-741
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_proportion.py-test_proptest-189
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_weightstats.py-test-746
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_robust_compare.py-test_oneway-278
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_weightstats.py-test-709
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_rank_compare_2indep1-408
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_rank_compare_2indep1-403
+
+
+-------case--------statsmodels.tools.testing.Holder.p_value
+{'numpy.numpy.ndarray', 'builtins.int', 'missing', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_weightstats.py-test-715
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_robust_compare.py-test_inference-129
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_robust_compare.py-test_oneway-267
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_robust_compare.py-test_oneway-279
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_tost.py-test_tost_log-465
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_robust_compare.py-test_oneway-285
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_tost.py-test_ttest-523
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_robust_compare.py-test_oneway-273
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_robust_compare.py-test_oneway-260
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_proportion.py-test_binom_test-352
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_weightstats.py-test-747
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_weightstats.py-test-742
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_tost.py-test_tost_log-462
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_proportion.py-test_proptest-190
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_inter_rater.py-test_cohens_kappa_irr-309
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_gof.py-test_chisquare-75
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_proportion.py-test_proptest-178
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_tost.py-test_pval-375
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_tost.py-test_tost_asym-478
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_weightstats.py-test-710
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_proportion.py-test_proptest-184
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_rates_poisson.py-test_twosample_poisson_r-159
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_rates_poisson.py-test_twosample_poisson_r-153
+
+
+-------case--------statsmodels.tools.testing.Holder.estimate
+{'numpy.numpy.ndarray', 'builtins.tuple', 'missing', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_rates_poisson.py-test_twosample_poisson_r-160
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_robust_compare.py-test_inference-131
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_rates_poisson.py-test_twosample_poisson_r-154
+
+
+-------case--------statsmodels.tools.testing.Holder.mean_diff
+{'missing', 'builtins.float', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_tost.py-test_special-401
+
+
+-------case--------statsmodels.tools.testing.Holder.parameter
+{'builtins.float', 'numpy.numpy.ndarray', 'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_robust_compare.py-test_oneway-274
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_robust_compare.py-test_oneway-280
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_robust_compare.py-test_oneway-286
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_robust_compare.py-test_inference-130
+
+
+-------case--------statsmodels.tools.testing.Holder.confint
+{'numpy.numpy.ndarray', 'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_effectsize.py-test_noncent_f-45
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_proportion.py-test_score_confint_koopman_nam-868
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_effectsize.py-test_noncent_t-75
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_effectsize.py-test_noncent_f-50
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_effectsize.py-test_noncent_chi2-31
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/proportion.py-confint_proportions_2indep-1210
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_effectsize.py-test_noncent_t-69
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_proportion.py-test_score_confint_koopman_nam-862
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_effectsize.py-test_noncent_chi2-26
+
+
+-------case--------statsmodels.tools.testing.Holder.w
+{'builtins.float', 'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-538
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_gof.py-test_chisquare_power-19
+
+
+-------case--------statsmodels.tools.testing.Holder.power
+{'builtins.float', 'missing', 'builtins.int', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-test_positional-558
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-320
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_proportion.py-test_power_2indep-874
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-366
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-230
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_proportion.py-test_power_2indep-918
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_proportion.py-test_power_2indep-882
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-298
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-539
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-446
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-test_positional-70
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-389
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_proportion.py-test_power_2indep-885
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-276
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-test_ftest_power-613
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_proportion.py-test_power_2indep-903
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-343
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-test_ftest_power-599
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-468
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-253
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-163
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-491
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-test_ftest_power-627
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_gof.py-test_chisquare_power-21
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-515
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-140
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-test_power-42
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-207
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-682
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-185
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-654
+
+
+-------case--------statsmodels.tools.testing.Holder.eta2
+{'numpy.numpy.ndarray', 'missing', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/oneway.py-confint_effectsize_oneway-449
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_effectsize_fstat_stata-137
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_effectsize_fstat_stata-140
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_effectsize_fstat-116
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_effectsize_fstat-109
+
+
+-------case--------statsmodels.tools.testing.Holder.omega2
+{'numpy.numpy.ndarray', 'missing', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_effectsize_fstat_stata-138
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_effectsize_fstat-111
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_effectsize_fstat-118
+
+
+-------case--------statsmodels.tools.testing.Holder.eps2
+{'numpy.numpy.ndarray', 'missing', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_effectsize_fstat-110
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_effectsize_fstat-117
+
+
+-------case--------statsmodels.tools.testing.Holder.eps2_
+{'numpy.numpy.ndarray', 'missing', 'builtins.float'}
+
+
+-------case--------statsmodels.tools.testing.Holder.omega2_
+{'numpy.numpy.ndarray', 'missing', 'builtins.float'}
+
+
+-------case--------statsmodels.tools.testing.Holder.d
+{'builtins.int', 'missing', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-206
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-342
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-514
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-252
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-388
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-319
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-229
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-275
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-162
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-365
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-490
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-139
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-184
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-445
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-297
+
+
+-------case--------statsmodels.tools.testing.Holder.nobs1
+{'builtins.int', 'missing', 'builtins.float'}
+
+
+-------case--------statsmodels.tools.testing.Holder.nobs_ratio
+{'builtins.float', 'missing', 'builtins.int'}
+
+
+-------case--------statsmodels.stats.weightstats.DescrStatsW._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------statsmodels.stats.weightstats.CompareMeans._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------statsmodels.regression.linear_model.OLS._df_model
+{'builtins.int', 'builtins.NoneType', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-df_model-216
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-353
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-df_model-212
+
+
+-------case--------statsmodels.regression.linear_model.OLS._df_resid
+{'builtins.NoneType', 'builtins.float', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-df_resid-231
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-355
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-df_resid-235
+
+
+-------case--------statsmodels.regression.linear_model.OLS.pinv_wexog
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-330
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/outliers_influence.py-hat_matrix_diag-599
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-_HCCM-1938
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-_HCCM-1939
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-324
+
+
+-------case--------statsmodels.regression.linear_model.OLS.normalized_cov_params
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-361
+
+
+-------case--------statsmodels.regression.linear_model.OLS.wexog_singular_values
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-__init__-1598
+
+
+-------case--------statsmodels.regression.linear_model.OLS.exog_Q
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-345
+
+
+-------case--------statsmodels.regression.linear_model.OLS.exog_R
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-345
+
+
+-------case--------statsmodels.regression.linear_model.OLS.effects
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.regression.linear_model.OLS.formula
+{'builtins.str', 'missing'}
+
+
+-------case--------statsmodels.base.data.ModelData.orig_exog
+{'patsy.design_info.DesignMatrix', 'numpy.numpy.ndarray', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/diagnostic.py-linear_rainbow-1212
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/data.py-xnames-345
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/data.py-row_labels-384
+
+
+-------case--------statsmodels.base.data.ModelData.const_idx
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fvalue-1820
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/diagnostic.py-linear_reset-1095
+
+
+-------case--------statsmodels.base.data.ModelData.weights
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.base.data.ModelData.sigma
+{'numpy.numpy.ndarray', 'builtins.NoneType', 'missing'}
+
+
+-------case--------statsmodels.base.data.ModelData.cholsigmainv
+{'numpy.numpy.ndarray', 'builtins.NoneType', 'missing'}
+
+
+-------case--------statsmodels.base.data.ModelData.offset
+{'numpy.numpy.ndarray', 'builtins.NoneType', 'missing', 'builtins.int'}
+
+
+-------case--------statsmodels.base.data.ModelData.distr
+{'statsmodels.distributions.discrete.DiscretizedCount', 'missing'}
+
+
+-------case--------statsmodels.base.data.ModelData.freq_weights
+{'numpy.numpy.ndarray', 'builtins.NoneType', 'missing'}
+
+
+-------case--------statsmodels.base.data.ModelData.var_weights
+{'numpy.numpy.ndarray', 'builtins.NoneType', 'missing'}
+
+
+-------case--------statsmodels.base.data.ModelData.n_trials
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.base.data.ModelData.formula
+{'builtins.str', 'missing'}
+
+
+-------case--------statsmodels.base.data.ModelData.groups
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.base.data.ModelData.exog_re
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.base.data.ModelData.exog_re_names
+{'builtins.list', 'missing'}
+
+
+-------case--------statsmodels.base.data.ModelData.exog_re_names_full
+{'builtins.list', 'missing'}
+
+
+-------case--------statsmodels.base.data.ModelData.missing_row_idx
+{'missing', 'builtins.list'}
+
+
+-------case--------statsmodels.base.data.ModelData.status
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.regression.linear_model.OLSResults._wexog_singular_values
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-eigenvals-1917
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-eigenvals-1916
+
+
+-------case--------statsmodels.regression.linear_model.OLSResults.het_scale
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-cov_HC2-1972
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-cov_HC1-1961
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-cov_HC3-1983
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-cov_HC0-1952
+
+
+-------case--------statsmodels.regression.linear_model.OLSResults.diagn
+{'builtins.dict', 'missing'}
+
+
+-------case--------statsmodels.regression.linear_model.OLSResults.cov_params_default
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-cov_params-1508
+
+
+-------case--------statsmodels.regression.linear_model.OLSResults.regularized
+{'builtins.bool', 'missing'}
+
+
+-------case--------statsmodels.regression.linear_model.OLSResults.converged
+{'builtins.bool', 'missing'}
+
+
+-------case--------statsmodels.regression.linear_model.OLSResults.method
+{'builtins.str', 'missing'}
+
+
+-------case--------statsmodels.regression.linear_model.OLSResults.fit_history
+{'builtins.dict', 'missing'}
+
+
+-------case--------statsmodels.base.data.PandasData.missing_row_idx
+{'missing', 'builtins.list'}
+
+
+-------case--------statsmodels.base.data.PandasData.const_idx
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fvalue-1820
+
+
+-------case--------statsmodels.base.data.PandasData.weights
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.base.data.PandasData.sigma
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.base.data.PandasData.cholsigmainv
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.base.data.PandasData.design_info
+{'patsy.design_info.DesignInfo', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/_prediction.py-get_prediction-151
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-predict-1123
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/anova.py-anova_single-66
+
+
+-------case--------statsmodels.base.data.PandasData.formula
+{'builtins.str', 'missing'}
+
+
+-------case--------statsmodels.base.data.PandasData.frame
+{'builtins.dict', 'pandas.core.frame.DataFrame', 'statsmodels.formula.tests.test_formula.LazyDict', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/mediation.py-_get_mediator_exog-210
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/mediation.py-_get_outcome_exog-238
+
+
+-------case--------statsmodels.base.data.PandasData.predict_start
+{'builtins.int', 'missing'}
+
+
+-------case--------statsmodels.base.data.PandasData.predict_end
+{'builtins.int', 'missing'}
+
+
+-------case--------statsmodels.base.data.PandasData.predict_dates
+{'pandas.core.indexes.range.RangeIndex', 'missing'}
+
+
+-------case--------statsmodels.base.data.PandasData.freq_weights
+{'numpy.numpy.ndarray', 'builtins.NoneType', 'missing'}
+
+
+-------case--------statsmodels.base.data.PandasData.var_weights
+{'numpy.numpy.ndarray', 'builtins.NoneType', 'missing'}
+
+
+-------case--------statsmodels.base.data.PandasData.n_trials
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.base.data.PandasData.groups
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.base.data.PandasData.exog_re
+{'numpy.numpy.ndarray', 'builtins.NoneType', 'missing'}
+
+
+-------case--------statsmodels.base.data.PandasData.exog_re_names
+{'builtins.list', 'missing'}
+
+
+-------case--------statsmodels.base.data.PandasData.exog_re_names_full
+{'builtins.list', 'missing'}
+
+
+-------case--------statsmodels.base.data.PandasData.status
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.iolib.table.Cell.data
+{'numpy.numpy.bool_', 'numpy.numpy.bytes_', 'numpy.numpy.str_', 'numpy.numpy.int64', 'builtins.bytes', 'builtins.int', 'builtins.float', 'numpy.numpy.float64', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_pairwise.py-test_table_names_default_group_order-229
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_pairwise.py-test_table_names_default_group_order-228
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_pairwise.py-test_table_names_custom_group_order-244
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/iolib/table.py-format-714
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_pairwise.py-test_table_names_custom_group_order-245
+
+
+-------case--------statsmodels.iolib.table.Cell._datatype
+{'builtins.str', 'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/iolib/table.py-get_datatype-751
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/iolib/table.py-get_datatype-748
+
+
+-------case--------statsmodels.stats.contrast.ContrastResults.effect
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/tests/test_regression.py-test_effect-507
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/tests/test_regression.py-test_effect-542
+
+
+-------case--------statsmodels.stats.contrast.ContrastResults.fvalue
+{'missing', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/diagnostic.py-acorr_breusch_godfrey-720
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/anova.py-anova2_lm_single-214
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/tests/test_regression.py-test_new_ftest-415
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fvalue-1838
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/tests/test_regression.py-test_fvalue-456
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/tests/test_regression.py-test_fvalue-418
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/anova.py-anova3_lm_single-253
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_outliers_influence.py-test_reset_stata-18
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/tests/test_regression.py-test_F-381
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contrast.py-__init__-28
+
+
+-------case--------statsmodels.stats.contrast.ContrastResults.df_denom
+{'builtins.float', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/tests/test_regression.py-test_df_denom-426
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_ols_noncentrality-470
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/tests/test_regression.py-test_df_denom-539
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/diagnostic.py-_test_nested-308
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/tests/test_regression.py-test_df_denom-462
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_diagnostic.py-test_encompasing_direct-1751
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_diagnostic.py-test_encompasing_direct-1763
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/tests/test_regression.py-test_Df_denom-387
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/tests/test_regression.py-test_df_denom-504
+
+
+-------case--------statsmodels.stats.contrast.ContrastResults.pvalue
+{'numpy.numpy.ndarray', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contrast.py-__init__-63
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/tests/test_regression.py-test_pvalue-535
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/diagnostic.py-acorr_breusch_godfrey-721
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fvalue-1837
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_diagnostic.py-test_encompasing_direct-1761
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_diagnostic.py-test_encompasing_direct-1749
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/anova.py-anova3_lm_single-254
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_outliers_influence.py-test_reset_stata-19
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/tests/test_regression.py-test_pvalue-422
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/tests/test_regression.py-test_pvalue-497
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/diagnostic.py-acorr_lm-598
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/tests/test_regression.py-test_p-384
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/anova.py-anova2_lm_single-215
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/tests/test_regression.py-test_pvalue-459
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/diagnostic.py-_test_nested-307
+
+
+-------case--------statsmodels.stats.contrast.ContrastResults.tvalue
+{'numpy.numpy.ndarray', 'missing', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/tests/test_regression.py-test_tvalue-490
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/tests/test_regression.py-test_new_tvalue-487
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/tests/test_regression.py-test_tvalue-528
+
+
+-------case--------statsmodels.stats.contrast.ContrastResults.sd
+{'numpy.numpy.ndarray', 'builtins.NoneType', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/tests/test_regression.py-test_sd-493
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/tests/test_regression.py-test_sd-531
+
+
+-------case--------statsmodels.regression.linear_model.GLS._df_model
+{'builtins.NoneType', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-df_model-216
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-353
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-df_model-212
+
+
+-------case--------statsmodels.regression.linear_model.GLS._df_resid
+{'builtins.NoneType', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-df_resid-231
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-355
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-df_resid-235
+
+
+-------case--------statsmodels.regression.linear_model.GLS.pinv_wexog
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-330
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-324
+
+
+-------case--------statsmodels.regression.linear_model.GLS.normalized_cov_params
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-366
+
+
+-------case--------statsmodels.regression.linear_model.GLS.wexog_singular_values
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-__init__-1598
+
+
+-------case--------statsmodels.regression.linear_model.RegressionResults.het_scale
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-cov_HC1-1961
+
+
+-------case--------statsmodels.regression.linear_model.RegressionResults.cov_params_default
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-cov_params-1508
+
+
+-------case--------statsmodels.regression.linear_model.RegressionResults.diagn
+{'builtins.dict', 'missing'}
+
+
+-------case--------statsmodels.regression.linear_model.WLS._df_model
+{'builtins.NoneType', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-df_model-216
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-353
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-df_model-212
+
+
+-------case--------statsmodels.regression.linear_model.WLS._df_resid
+{'builtins.NoneType', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-df_resid-231
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-355
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-df_resid-235
+
+
+-------case--------statsmodels.regression.linear_model.WLS.pinv_wexog
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-330
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-324
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-_HCCM-1938
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-_HCCM-1939
+
+
+-------case--------statsmodels.regression.linear_model.WLS.normalized_cov_params
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-366
+
+
+-------case--------statsmodels.regression.linear_model.WLS.wexog_singular_values
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-__init__-1598
+
+
+-------case--------statsmodels.base.elastic_net.RegularizedResults.converged
+{'builtins.bool', 'missing'}
+
+
+-------case--------statsmodels.base.elastic_net.RegularizedResults._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------statsmodels.formula.formulatools.NAAction.missing_mask
+{'pandas.core.series.Series', 'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.distributions.tools._Grid.k_grid
+{'builtins.tuple', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/distributions/tests/test_bernstein.py-setup_class-123
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/distributions/tests/test_tools.py-test_grid_class-78
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/distributions/tests/test_tools.py-test_grid_class-116
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/distributions/tests/test_bernstein.py-test_bernstein_distribution_2d-72
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/distributions/tests/test_bernstein.py-setup_class-171
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/distributions/tests/test_tools.py-test_grid_class-96
+
+
+-------case--------statsmodels.distributions.bernstein.BernsteinDistribution._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------statsmodels.distributions.bernstein.BernsteinDistributionUV._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------statsmodels.distributions.bernstein.BernsteinDistributionBV._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------statsmodels.distributions.discrete.DiscretizedModel.df_model
+{'builtins.float', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-__init__-2675
+
+
+-------case--------statsmodels.distributions.discrete.DiscretizedModel.df_resid
+{'builtins.float', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-__init__-2682
+
+
+-------case--------statsmodels.base.model.LikelihoodModelResults.model
+{'statsmodels.regression.mixed_linear_model.MixedLM', 'statsmodels.duration.hazard_regression.PHReg', 'statsmodels.tsa.arima.model.ARIMA', 'statsmodels.genmod.generalized_linear_model.GLM', 'statsmodels.distributions.discrete.DiscretizedModel'}
+
+
+-------case--------statsmodels.base.model.GenericLikelihoodModelResults.bootstrap_results
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.distributions.edgeworth.ExpandedNormal._herm_cdf
+{'numpy.polynomial.hermite_e.HermiteE', 'builtins.function'}
+
+
+-------case--------statsmodels.distributions.edgeworth.ExpandedNormal.a
+{'builtins.NoneType', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_get_support-984
+
+
+-------case--------statsmodels.distributions.edgeworth.ExpandedNormal.b
+{'builtins.NoneType', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py-_get_support-984
+
+
+-------case--------statsmodels.regression._prediction.PredictionResults.df
+{'numpy.numpy.int64', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/_prediction.py-__init__-50
+
+
+-------case--------statsmodels.regression._prediction.PredictionResults.var_resid
+{'numpy.numpy.ndarray', 'numpy.numpy.float64'}
+
+
+-------case--------statsmodels.regression._prediction.PredictionResults.row_labels
+{'pandas.core.indexes.base.Index', 'builtins.NoneType', 'pandas.core.indexes.numeric.Int64Index'}
+
+
+-------case--------statsmodels.regression._prediction.PredictionResults.dist
+{'scipy.stats._continuous_distns.t_gen', 'scipy.stats._continuous_distns.norm_gen'}
+
+
+-------case--------statsmodels.stats.anova.AnovaRM.aggregate_func
+{'builtins.NoneType', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/anova.py-__init__-497
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/anova.py-_aggregate-511
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_anova_rm.py-test_repeated_measures_aggregate_func_mean-184
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_anova_rm.py-test_repeated_measures_aggregate_func-172
+
+
+-------case--------statsmodels.stats.base.HolderTuple.statistic
+{'numpy.numpy.ndarray', 'builtins.NoneType', 'builtins.int', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_equivalence-431
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_options-391
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_multivariate.py-test_mvmean_2indep-165
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/oneway.py-equivalence_oneway-875
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_levene-323
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_multivariate.py-test_mv_mean-72
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_means-311
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_options-371
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_options-381
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_multivariate.py-test_mv_mean-84
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_robust_compare.py-test_oneway-284
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/nonparametric.py-tost_prob_superior-227
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_robust_compare.py-test_oneway-278
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_levene-333
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_levene-346
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/base.py-__init__-23
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/oneway.py-simulate_power_equivalence_oneway-1028
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_equivalence_equal-195
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_base.py-test_holdertuple2-50
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_multivariate.py-test_mv_mean-52
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_base.py-test_holdertuple-27
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/rates.py-tost_poisson_2indep-336
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_equivalence_welch-221
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_rank_compare_vectorized-483
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_options-409
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_options-400
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_equivalence-422
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/proportion.py-tost_proportions_2indep-1814
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_rank_compare_vectorized-479
+
+
+-------case--------statsmodels.stats.base.HolderTuple.text
+{'builtins.str', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_base.py-test_holdertuple2-53
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_base.py-test_holdertuple-30
+
+
+-------case--------statsmodels.stats.base.HolderTuple.extra
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_base.py-test_holdertuple2-52
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_base.py-test_holdertuple-29
+
+
+-------case--------statsmodels.stats.base.HolderTuple.df
+{'numpy.numpy.ndarray', 'builtins.tuple', 'builtins.int', 'builtins.NoneType', 'missing', 'builtins.float', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_equivalence-423
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_meta.py-test_dl-252
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_robust_compare.py-test_oneway-286
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_equivalence_welch-226
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_meta.py-test_basic-327
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_meta.py-test_pm-226
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_multivariate.py-test_mv_mean-75
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_equivalence_equal-197
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_equivalence_welch-223
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_equivalence-432
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_equivalence_welch-234
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/oneway.py-equivalence_oneway-877
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_equivalence_equal-200
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_levene-334
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_multivariate.py-test_mv_mean-55
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_equivalence_welch-239
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_options-392
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_multivariate.py-test_mvmean_2indep-168
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_robust_compare.py-test_oneway-268
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_meta.py-test_dl-288
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_robust_compare.py-test_oneway-261
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_options-382
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_levene-347
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_robust_compare.py-test_oneway-280
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_options-410
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_multivariate.py-test_mv_mean-87
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_options-372
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/oneway.py-simulate_power_equivalence_oneway-1030
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_equivalence_equal-208
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_options-401
+
+
+-------case--------statsmodels.stats.base.HolderTuple.distr
+{'builtins.str', 'missing'}
+
+
+-------case--------statsmodels.stats.base.HolderTuple.t2
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_multivariate.py-test_mv_mean-54
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_multivariate.py-test_mv_mean-74
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_multivariate.py-test_mv_mean-86
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_multivariate.py-test_mvmean_2indep-167
+
+
+-------case--------statsmodels.stats.base.HolderTuple.null
+{'builtins.str', 'missing'}
+
+
+-------case--------statsmodels.stats.base.HolderTuple.cov_null
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.stats.base.HolderTuple.statistic_base
+{'missing', 'numpy.numpy.float64'}
+
+
+-------case--------statsmodels.stats.base.HolderTuple.statistic_chi2
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_multivariate.py-test_cov_oneway-314
+
+
+-------case--------statsmodels.stats.base.HolderTuple.pvalue_chi2
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_multivariate.py-test_cov_oneway-315
+
+
+-------case--------statsmodels.stats.base.HolderTuple.df_chi2
+{'missing', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_multivariate.py-test_cov_oneway-316
+
+
+-------case--------statsmodels.stats.base.HolderTuple.distr_chi2
+{'builtins.str', 'missing'}
+
+
+-------case--------statsmodels.stats.base.HolderTuple.statistic_f
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_multivariate.py-test_cov_oneway-310
+
+
+-------case--------statsmodels.stats.base.HolderTuple.pvalue_f
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_multivariate.py-test_cov_oneway-311
+
+
+-------case--------statsmodels.stats.base.HolderTuple.df_f
+{'builtins.tuple', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_multivariate.py-test_cov_oneway-312
+
+
+-------case--------statsmodels.stats.base.HolderTuple.distr_f
+{'builtins.str', 'missing'}
+
+
+-------case--------statsmodels.stats.base.HolderTuple.distribution
+{'builtins.str', 'missing'}
+
+
+-------case--------statsmodels.stats.base.HolderTuple.title
+{'builtins.str', 'missing'}
+
+
+-------case--------statsmodels.stats.base.HolderTuple.df_num
+{'missing', 'builtins.float', 'numpy.numpy.float64'}
+
+
+-------case--------statsmodels.stats.base.HolderTuple.df_denom
+{'numpy.numpy.int64', 'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_means-312
+
+
+-------case--------statsmodels.stats.base.HolderTuple.nobs_t
+{'numpy.numpy.int64', 'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/oneway.py-equivalence_oneway-876
+
+
+-------case--------statsmodels.stats.base.HolderTuple.n_groups
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/oneway.py-equivalence_oneway-876
+
+
+-------case--------statsmodels.stats.base.HolderTuple.means
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.stats.base.HolderTuple.nobs
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.stats.base.HolderTuple.vars_
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.stats.base.HolderTuple.use_var
+{'builtins.str', 'missing'}
+
+
+-------case--------statsmodels.stats.base.HolderTuple.welch_correction
+{'builtins.bool', 'missing'}
+
+
+-------case--------statsmodels.stats.base.HolderTuple.effectsize
+{'missing', 'numpy.numpy.float64'}
+
+
+-------case--------statsmodels.stats.base.HolderTuple.crit_f
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/oneway.py-simulate_power_equivalence_oneway-1037
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/oneway.py-_power_equivalence_oneway_emp-919
+
+
+-------case--------statsmodels.stats.base.HolderTuple.crit_es
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/oneway.py-simulate_power_equivalence_oneway-1037
+
+
+-------case--------statsmodels.stats.base.HolderTuple.reject
+{'numpy.numpy.bool_', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/oneway.py-simulate_power_equivalence_oneway-1036
+
+
+-------case--------statsmodels.stats.base.HolderTuple.power_zero
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/oneway.py-simulate_power_equivalence_oneway-1037
+
+
+-------case--------statsmodels.stats.base.HolderTuple.f_stat
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_equivalence_welch-235
+
+
+-------case--------statsmodels.stats.base.HolderTuple.type_effectsize
+{'builtins.str', 'missing'}
+
+
+-------case--------statsmodels.stats.base.HolderTuple.df2
+{'builtins.tuple', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_options-384
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_robust_compare.py-test_oneway-274
+
+
+-------case--------statsmodels.stats.base.HolderTuple.df_num2
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_means-312
+
+
+-------case--------statsmodels.stats.base.HolderTuple.pvalue2
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_means-310
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_options-383
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_robust_compare.py-test_oneway-273
+
+
+-------case--------statsmodels.stats.base.HolderTuple.data_transformed
+{'builtins.list', 'missing'}
+
+
+-------case--------statsmodels.stats.base.HolderTuple.x_transformed
+{'builtins.list', 'missing'}
+
+
+-------case--------statsmodels.stats.base.HolderTuple.compare
+{'builtins.str', 'missing'}
+
+
+-------case--------statsmodels.stats.base.HolderTuple.variance
+{'missing', 'builtins.float', 'numpy.numpy.float64'}
+
+
+-------case--------statsmodels.stats.base.HolderTuple.alternative
+{'builtins.str', 'missing'}
+
+
+-------case--------statsmodels.stats.base.HolderTuple.prop1_null
+{'missing', 'builtins.float', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_proportion.py-test_score_test_2indep-732
+
+
+-------case--------statsmodels.stats.base.HolderTuple.prop2_null
+{'missing', 'builtins.float', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_proportion.py-test_score_test_2indep-732
+
+
+-------case--------statsmodels.stats.base.HolderTuple.diff
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/proportion.py-_score_confint_inversion-2041
+
+
+-------case--------statsmodels.stats.base.HolderTuple.ratio
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_rates_poisson.py-test_twosample_poisson_r-160
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_rates_poisson.py-test_twosample_poisson_r-154
+
+
+-------case--------statsmodels.stats.base.HolderTuple.odds_ratio
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/proportion.py-_score_confint_inversion-2049
+
+
+-------case--------statsmodels.stats.base.HolderTuple.value
+{'builtins.float', 'missing', 'builtins.int', 'numpy.numpy.float64'}
+
+
+-------case--------statsmodels.stats.base.HolderTuple.rates
+{'builtins.tuple', 'missing'}
+
+
+-------case--------statsmodels.stats.base.HolderTuple.ratio_null
+{'builtins.float', 'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_rates_poisson.py-test_twosample_poisson_r-161
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_rates_poisson.py-test_twosample_poisson_r-155
+
+
+-------case--------statsmodels.stats.contingency_tables.SquareTable.table_orig
+{'numpy.numpy.ndarray', 'pandas.core.frame.DataFrame'}
+
+
+-------case--------statsmodels.stats.contingency_tables._Bunch.statistic
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_cochransq2-196
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_exact-58
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_symmetry_bowker-129
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_chisquare-88
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_chi2_association-201
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_equal_odds-377
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_chisquare-78
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_cochransq-169
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contingency_tables.py-summary-636
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_cochranq-319
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_cochransq3-224
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_ordinal_association-175
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_exact-54
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_mcnemar-222
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_chisquare-86
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_null_odds-349
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_chisquare-74
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_exact-60
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_symmetry_bowker-139
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contingency_tables.py-summary-1276
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contingency_tables.py-summary-635
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_homogeneity-39
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_symmetry-210
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_symmetry_bowker-122
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_cochransq-176
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_chisquare-90
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contingency_tables.py-summary-1277
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_ordinal_association-183
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_symmetry_bowker-146
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_chisquare-76
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_exact-52
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_exact-50
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_exact-56
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_homogeneity-44
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_equal_odds-373
+
+
+-------case--------statsmodels.stats.contingency_tables._Bunch.pvalue
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_cochransq2-196
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_exact-58
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_symmetry_bowker-129
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_chisquare-88
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_chisquare-78
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_cochransq-169
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contingency_tables.py-summary-636
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_cochransq3-224
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_equal_odds-374
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_null_odds-350
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_symmetry-212
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_exact-54
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_ordinal_association-187
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_chisquare-86
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_mcnemar-227
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_mcnemar-231
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_chisquare-74
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_equal_odds-378
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_exact-60
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_symmetry_bowker-139
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contingency_tables.py-summary-1276
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contingency_tables.py-summary-635
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_symmetry_bowker-122
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_cochransq-176
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_chisquare-90
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contingency_tables.py-summary-1277
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_symmetry_bowker-146
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_chisquare-76
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_chi2_association-202
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_exact-52
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_cochranq-320
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_ordinal_association-179
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_exact-50
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_exact-56
+
+
+-------case--------statsmodels.stats.contingency_tables._Bunch.df
+{'numpy.numpy.int64', 'builtins.int', 'missing', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_mcnemar-223
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_homogeneity-40
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contingency_tables.py-summary-635
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contingency_tables.py-summary-636
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_symmetry-211
+
+
+-------case--------statsmodels.stats.contingency_tables._Bunch.null_mean
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_ordinal_association-184
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_ordinal_association-176
+
+
+-------case--------statsmodels.stats.contingency_tables._Bunch.null_sd
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_ordinal_association-177
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_ordinal_association-185
+
+
+-------case--------statsmodels.stats.contingency_tables._Bunch.zscore
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_ordinal_association-186
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_ordinal_association-178
+
+
+-------case--------statsmodels.stats.contingency_tables.Table.table_orig
+{'numpy.numpy.ndarray', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contingency_tables.py-cumulative_log_oddsratios-414
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contingency_tables.py-marginal_probabilities-282
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contingency_tables.py-local_log_oddsratios-374
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contingency_tables.py-independence_probabilities-301
+
+
+-------case--------statsmodels.stats.contingency_tables.Table._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------statsmodels.stats.contingency_tables.Table2x2.table_orig
+{'numpy.numpy.ndarray', 'pandas.core.frame.DataFrame'}
+
+
+-------case--------statsmodels.stats.contingency_tables.Table2x2._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------statsmodels.stats.contrast.Contrast.T
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contrast.py-compute_matrix-275
+
+
+-------case--------statsmodels.stats.contrast.Contrast.D
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contrast.py-compute_matrix-275
+
+
+-------case--------statsmodels.stats.contrast.Contrast._contrast_matrix
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contrast.py-_get_matrix-252
+
+
+-------case--------statsmodels.stats.contrast.Contrast.rank
+{'builtins.int', 'missing'}
+
+
+-------case--------statsmodels.stats.correlation_tools.GaussianMultivariateKernel.bw
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/correlation_tools.py-_setup-893
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/correlation_tools.py-_setup-894
+
+
+-------case--------statsmodels.stats.descriptivestats.Describe._arraytype
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/descriptivestats.py-summary-912
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/descriptivestats.py-summary-829
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/descriptivestats.py-summary-893
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/descriptivestats.py-summary-902
+
+
+-------case--------statsmodels.stats.descriptivestats.Describe._columns_list
+{'builtins.tuple', 'builtins.list', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/descriptivestats.py-summary-916
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/descriptivestats.py-summary-923
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/descriptivestats.py-summary-903
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/descriptivestats.py-summary-926
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/descriptivestats.py-summary-913
+
+
+-------case--------statsmodels.stats.descriptivestats.Description._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------statsmodels.stats.diagnostic.ResultsStore.resols
+{'missing', 'statsmodels.regression.linear_model.RegressionResultsWrapper'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_diagnostic.py-test_het_arch2-315
+
+
+-------case--------statsmodels.stats.diagnostic.ResultsStore.usedlag
+{'builtins.int', 'missing'}
+
+
+-------case--------statsmodels.stats.diagnostic.ResultsStore.res_dx
+{'missing', 'statsmodels.regression.linear_model.RegressionResultsWrapper'}
+
+
+-------case--------statsmodels.stats.diagnostic.ResultsStore.res_xzx
+{'missing', 'statsmodels.regression.linear_model.RegressionResultsWrapper'}
+
+
+-------case--------statsmodels.stats.diagnostic.ResultsStore.c01
+{'missing', 'numpy.numpy.float64'}
+
+
+-------case--------statsmodels.stats.diagnostic.ResultsStore.v01
+{'missing', 'numpy.numpy.float64'}
+
+
+-------case--------statsmodels.stats.diagnostic.ResultsStore.q
+{'missing', 'numpy.numpy.float64'}
+
+
+-------case--------statsmodels.stats.diagnostic.ResultsStore.pvalue
+{'missing', 'numpy.numpy.float64'}
+
+
+-------case--------statsmodels.stats.diagnostic.ResultsStore.dist
+{'scipy.stats._continuous_distns.norm_gen', 'missing'}
+
+
+-------case--------statsmodels.tsa.arima.model.ARIMA.trend
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/sarimax.py-__init__-381
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/sarimax.py-__init__-1843
+
+
+-------case--------statsmodels.tsa.arima.specification.SARIMAXSpecification.trend
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.tsa.statespace.simulation_smoother.SimulationSmoother._complex_endog
+{'builtins.bool', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/mlemodel.py-fit-663
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/mlemodel.py-score_obs-1432
+
+
+-------case--------statsmodels.tsa.statespace.initialization.Initialization.initialization_type
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/initialization.py-set-302
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/initialization.py-initialized-477
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.prefix
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/representation.py-update_representation-1119
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/representation.py-update_representation-1115
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/representation.py-update_representation-1117
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/representation.py-update_representation-1096
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/representation.py-update_representation-1098
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.dtype
+{'builtins.type', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.nobs
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/kalman_filter.py-update_filter-1682
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/mlemodel.py-__init__-2292
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.k_endog
+{'builtins.NoneType', 'builtins.int'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.k_states
+{'builtins.NoneType', 'builtins.int'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.k_posdef
+{'builtins.NoneType', 'builtins.int'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.time_invariant
+{'builtins.NoneType', 'builtins.bool'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.design
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/kalman_filter.py-update_filter-1683
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.obs_intercept
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/kalman_filter.py-update_filter-1685
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.obs_cov
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/kalman_filter.py-update_filter-1684
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.transition
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.state_intercept
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.selection
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.state_cov
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.missing
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.initialization
+{'builtins.NoneType', 'statsmodels.tsa.statespace.initialization.Initialization'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.initial_state
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.initial_state_cov
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.smoothing_error
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.smoothed_state
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.smoothed_state_cov
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.smoothed_state_autocov
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.smoothed_measurement_disturbance
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.smoothed_state_disturbance
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.smoothed_measurement_disturbance_cov
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.smoothed_state_disturbance_cov
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.innovations_transition
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.initial_diffuse_state_cov
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/mlemodel.py-__init__-2310
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults._kalman_gain
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults._standardized_forecasts_error
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/kalman_filter.py-standardized_forecasts_error-1905
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/kalman_filter.py-standardized_forecasts_error-1931
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.filter_method
+{'builtins.int', 'missing'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.inversion_method
+{'builtins.int', 'missing'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.stability_method
+{'builtins.int', 'missing'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.conserve_memory
+{'builtins.int', 'missing'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.filter_timing
+{'builtins.int', 'missing'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.tolerance
+{'builtins.float', 'missing'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.loglikelihood_burn
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/mlemodel.py-loglikelihood_burn-2912
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/kalman_filter.py-update_filter-1827
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.converged
+{'builtins.bool', 'missing'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.period_converged
+{'builtins.int', 'missing'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.filtered_state
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.filtered_state_cov
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.predicted_state
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.predicted_state_cov
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.tmp1
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.tmp2
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.tmp3
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.tmp4
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.M
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.M_diffuse
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.forecasts
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.forecasts_error
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.forecasts_error_cov
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.scale
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/mlemodel.py-__init__-2262
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults.llf
+{'missing', 'numpy.numpy.float64'}
+
+
+-------case--------statsmodels.tsa.statespace.kalman_smoother.SmootherResults._SmootherResults__smoothed_state_autocovariance
+{'builtins.dict', 'missing'}
+
+
+-------case--------statsmodels.tsa.arima.model.ARIMAResults.df_resid
+{'builtins.float', 'builtins.int'}
+
+
+-------case--------statsmodels.tsa.arima.model.ARIMAResults._rank
+{'builtins.NoneType', 'numpy.numpy.int64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/mlemodel.py-_cov_params_opg-2684
+
+
+-------case--------statsmodels.tsa.arima.model.ARIMAResultsWrapper.mlefit
+{'missing', 'statsmodels.base.model.LikelihoodModelResults'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/arima/model.py-fit-394
+
+
+-------case--------statsmodels.tsa.arima.model.ARIMAResultsWrapper.mle_retvals
+{'builtins.dict', 'missing'}
+
+
+-------case--------statsmodels.tsa.arima.model.ARIMAResultsWrapper.mle_settings
+{'builtins.dict', 'missing'}
+
+
+-------case--------statsmodels.tsa.arima.model.ARIMAResultsWrapper.fit_details
+{'missing', 'statsmodels.base.model.LikelihoodModelResults'}
+
+
+-------case--------statsmodels.stats.outliers_influence.OLSInfluence._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------statsmodels.stats.outliers_influence.OLSInfluence.table_data
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.tsa.ar_model.AutoReg._hold_back
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/ar_model.py-hold_back-252
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/ar_model.py-_check_lags-305
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/ar_model.py-_setup_regressors-317
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/ar_model.py-_static_predict-649
+
+
+-------case--------statsmodels.tsa.deterministic.DeterministicProcess._cached_in_sample
+{'builtins.NoneType', 'pandas.core.frame.DataFrame'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/deterministic.py-in_sample-1247
+
+
+-------case--------statsmodels.tsa.deterministic.DeterministicProcess._retain_cols
+{'pandas.core.indexes.base.Index', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.multivariate.pca.PCA.scores
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.multivariate.pca.PCA.loadings
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.multivariate.pca.PCA.coeff
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/multivariate/pca.py-project-655
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/multivariate/pca.py-_compute_pca_from_eig-579
+
+
+-------case--------statsmodels.multivariate.pca.PCA.eigenvals
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/multivariate/pca.py-_compute_pca_from_eig-552
+
+
+-------case--------statsmodels.multivariate.pca.PCA.eigenvecs
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/multivariate/pca.py-_compute_pca_from_eig-552
+
+
+-------case--------statsmodels.multivariate.pca.PCA.projection
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.multivariate.pca.PCA.rsquare
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.multivariate.pca.PCA.ic
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.stats._diagnostic_other.CMTNewey._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------statsmodels.stats._diagnostic_other.CMTTauchen._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------statsmodels.genmod.families.family.Binomial.n
+{'numpy.numpy.ndarray', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/families/family.py-_resid_dev-963
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/families/family.py-__init__-894
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/families/family.py-loglike_obs-1008
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/families/family.py-initialize-933
+
+
+-------case--------statsmodels.genmod.families.family.Binomial._link
+{'statsmodels.genmod.families.links.Logit', 'statsmodels.genmod.families.links.probit'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/families/family.py-_getlink-72
+
+
+-------case--------statsmodels.genmod.generalized_linear_model.GLM.scaletype
+{'builtins.NoneType', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-estimate_scale-786
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-estimate_scale-785
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-estimate_scale-778
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_fit_gradient-1107
+
+
+-------case--------statsmodels.genmod.generalized_linear_model.GLM.scale
+{'missing', 'builtins.float', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_fit_irls-1238
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_fit_irls-1190
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_update_history-750
+
+
+-------case--------statsmodels.genmod.generalized_linear_model.GLM.weights
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_fit_irls-1233
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_fit_irls-1214
+
+
+-------case--------statsmodels.genmod.generalized_linear_model.GLM.mu
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.genmod.generalized_linear_model.GLM._tmp_like_exog
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.genmod.generalized_linear_model.GLM.formula
+{'builtins.str', 'missing'}
+
+
+-------case--------statsmodels.genmod.generalized_linear_model.GLMResults.scale
+{'builtins.float', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/outliers_influence.py-__init__-373
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/_prediction.py-get_prediction_glm-219
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/_prediction.py-get_prediction-188
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-cov_params-1511
+
+
+-------case--------statsmodels.genmod.generalized_linear_model.GLMResults._n_trials
+{'numpy.numpy.ndarray', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-resid_pearson-1567
+
+
+-------case--------statsmodels.genmod.generalized_linear_model.GLMResults.df_resid
+{'numpy.numpy.int64', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/graphics/regressionplots.py-_influence_plot-891
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/_prediction.py-get_prediction-200
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/outliers_influence.py-cooks_distance-452
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/outliers_influence.py-cooks_distance-1265
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/_prediction.py-get_prediction_glm-231
+
+
+-------case--------statsmodels.genmod.generalized_linear_model.GLMResults.method
+{'builtins.str', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_fit_irls-1245
+
+
+-------case--------statsmodels.genmod.generalized_linear_model.GLMResults.results_wls
+{'missing', 'statsmodels.regression.linear_model.RegressionResultsWrapper'}
+
+
+-------case--------statsmodels.genmod.generalized_linear_model.GLMResults.fit_history
+{'builtins.dict', 'missing'}
+
+
+-------case--------statsmodels.genmod.generalized_linear_model.GLMResults.converged
+{'builtins.bool', 'missing'}
+
+
+-------case--------statsmodels.genmod.generalized_linear_model.GLMResults.mle_retvals
+{'builtins.dict', 'missing'}
+
+
+-------case--------statsmodels.stats.outliers_influence.GLMInfluence._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------statsmodels.stats.outliers_influence.MLEInfluence.scale
+{'builtins.float', 'numpy.numpy.float64'}
+
+
+-------case--------statsmodels.stats.outliers_influence.MLEInfluence._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------statsmodels.genmod._prediction.PredictionResults.row_labels
+{'pandas.core.indexes.base.Index', 'builtins.NoneType', 'pandas.core.indexes.numeric.Int64Index'}
+
+
+-------case--------statsmodels.genmod._prediction.PredictionResults.link
+{'statsmodels.genmod.families.links.identity', 'statsmodels.genmod.families.links.Logit'}
+
+
+-------case--------statsmodels.iolib.summary2.Summary.title
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------statsmodels.stats.mediation.Mediation.exposure
+{'builtins.str', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/mediation.py-_get_outcome_exog-239
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/mediation.py-_variable_pos-169
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/mediation.py-_get_mediator_exog-211
+
+
+-------case--------statsmodels.stats.mediation.Mediation.mediator
+{'builtins.str', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/mediation.py-_variable_pos-167
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/mediation.py-_get_outcome_exog-240
+
+
+-------case--------statsmodels.stats.mediation.Mediation.indirect_effects
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/mediation.py-fit-337
+
+
+-------case--------statsmodels.stats.mediation.Mediation.direct_effects
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/mediation.py-fit-337
+
+
+-------case--------statsmodels.stats.mediation.MediationResults.method
+{'builtins.str', 'missing'}
+
+
+-------case--------statsmodels.regression.mixed_linear_model.MixedLM.formula
+{'builtins.str', 'missing'}
+
+
+-------case--------statsmodels.regression.mixed_linear_model.MixedLM._cov_sing
+{'builtins.int', 'missing'}
+
+
+-------case--------statsmodels.regression.mixed_linear_model.MixedLMParams.fe_params
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-score_full-1692
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-hessian-1884
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-get_packed-434
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-__init__-2326
+
+
+-------case--------statsmodels.regression.mixed_linear_model.MixedLMParams.vcomp
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-hessian-1885
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-loglike-1494
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-__init__-2328
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-score_full-1694
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-score-1630
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-fit-2226
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-get_packed-429
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-get_packed-431
+
+
+-------case--------statsmodels.regression.mixed_linear_model.MixedLMResults.scale
+{'builtins.float', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-cov_params-1511
+
+
+-------case--------statsmodels.regression.mixed_linear_model.MixedLMResults.params_object
+{'statsmodels.regression.mixed_linear_model.MixedLMParams', 'missing'}
+
+
+-------case--------statsmodels.regression.mixed_linear_model.MixedLMResults.fe_params
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.regression.mixed_linear_model.MixedLMResults.cov_re
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.regression.mixed_linear_model.MixedLMResults.vcomp
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.regression.mixed_linear_model.MixedLMResults.cov_re_unscaled
+{'numpy.numpy.ndarray', 'missing'}
+
+
+-------case--------statsmodels.regression.mixed_linear_model.MixedLMResults.method
+{'builtins.str', 'missing'}
+
+
+-------case--------statsmodels.regression.mixed_linear_model.MixedLMResults.converged
+{'builtins.bool', 'missing'}
+
+
+-------case--------statsmodels.regression.mixed_linear_model.MixedLMResults.reml
+{'builtins.bool', 'missing'}
+
+
+-------case--------statsmodels.regression.mixed_linear_model.MixedLMResults.k_fe
+{'builtins.int', 'missing'}
+
+
+-------case--------statsmodels.regression.mixed_linear_model.MixedLMResults.k_re
+{'builtins.int', 'missing'}
+
+
+-------case--------statsmodels.regression.mixed_linear_model.MixedLMResults.k_re2
+{'builtins.int', 'missing'}
+
+
+-------case--------statsmodels.regression.mixed_linear_model.MixedLMResults.k_vc
+{'builtins.int', 'missing'}
+
+
+-------case--------statsmodels.regression.mixed_linear_model.MixedLMResults.use_sqrt
+{'builtins.bool', 'missing'}
+
+
+-------case--------statsmodels.duration.hazard_regression.PHReg.formula
+{'builtins.str', 'missing'}
+
+
+-------case--------statsmodels.stats.meta_analysis.CombineResults._
+{'builtins.bool', 'missing'}
+
+
+-------case--------statsmodels.stats.meta_analysis.CombineResults.c
+{'missing', 'numpy.numpy.float64'}
+
+
+-------case--------statsmodels.stats.meta_analysis.CombineResults.ci_sample_distr
+{'builtins.str', 'missing'}
+
+
+-------case--------statsmodels.sandbox.stats.runs.Runs.npo
+{'numpy.numpy.int64', 'missing'}
+
+
+-------case--------statsmodels.sandbox.stats.runs.Runs.nne
+{'numpy.numpy.int64', 'missing'}
+
+
+-------case--------statsmodels.stats.nonparametric.RankCompareResult.statistic
+{'numpy.numpy.ndarray', 'builtins.NoneType', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_rank_compare_2indep1-375
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_rank_compare_2indep1-403
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_rank_compare_vectorized-474
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/base.py-__init__-23
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/nonparametric.py-summary-332
+
+
+-------case--------statsmodels.stats.nonparametric.RankCompareResult.pvalue
+{'numpy.numpy.ndarray', 'builtins.NoneType', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/nonparametric.py-summary-328
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_rank_compare_2indep1-410
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_rank_compare_vectorized-475
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/nonparametric.py-summary-331
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/base.py-__init__-23
+
+
+-------case--------statsmodels.stats.nonparametric.RankCompareResult.s1
+{'numpy.numpy.ndarray', 'builtins.NoneType', 'numpy.numpy.float64'}
+
+
+-------case--------statsmodels.stats.nonparametric.RankCompareResult.s2
+{'numpy.numpy.ndarray', 'builtins.NoneType', 'numpy.numpy.float64'}
+
+
+-------case--------statsmodels.stats.nonparametric.RankCompareResult.var1
+{'numpy.numpy.ndarray', 'numpy.numpy.float64'}
+
+
+-------case--------statsmodels.stats.nonparametric.RankCompareResult.var2
+{'numpy.numpy.ndarray', 'numpy.numpy.float64'}
+
+
+-------case--------statsmodels.stats.nonparametric.RankCompareResult.var_prob
+{'numpy.numpy.ndarray', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_rank_compare_ord-455
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/nonparametric.py-summary-338
+
+
+-------case--------statsmodels.stats.nonparametric.RankCompareResult.nobs1
+{'numpy.numpy.int64', 'builtins.int'}
+
+
+-------case--------statsmodels.stats.nonparametric.RankCompareResult.nobs2
+{'numpy.numpy.int64', 'builtins.int'}
+
+
+-------case--------statsmodels.stats.nonparametric.RankCompareResult.mean1
+{'numpy.numpy.ndarray', 'builtins.NoneType', 'numpy.numpy.float64'}
+
+
+-------case--------statsmodels.stats.nonparametric.RankCompareResult.mean2
+{'numpy.numpy.ndarray', 'builtins.NoneType', 'numpy.numpy.float64'}
+
+
+-------case--------statsmodels.stats.nonparametric.RankCompareResult.prob2
+{'numpy.numpy.ndarray', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_rank_compare_2indep1-377
+
+
+-------case--------statsmodels.stats.nonparametric.RankCompareResult.somersd1
+{'numpy.numpy.ndarray', 'numpy.numpy.float64'}
+
+
+-------case--------statsmodels.stats.nonparametric.RankCompareResult.somersd2
+{'numpy.numpy.ndarray', 'numpy.numpy.float64'}
+
+
+-------case--------statsmodels.stats.nonparametric.RankCompareResult.df
+{'numpy.numpy.ndarray', 'builtins.NoneType', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/nonparametric.py-test_prob_superior-173
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/nonparametric.py-conf_int-121
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/nonparametric.py-test_prob_superior-167
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_rank_compare_2indep1-411
+
+
+-------case--------statsmodels.stats.oaxaca.OaxacaBlinder.two_fold_type
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/oaxaca.py-variance-225
+
+
+-------case--------statsmodels.stats.oaxaca.OaxacaBlinder.endow_eff
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/oaxaca.py-three_fold-345
+
+
+-------case--------statsmodels.stats.oaxaca.OaxacaBlinder.coef_eff
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/oaxaca.py-three_fold-345
+
+
+-------case--------statsmodels.stats.oaxaca.OaxacaBlinder.int_eff
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/oaxaca.py-three_fold-345
+
+
+-------case--------statsmodels.stats.oaxaca.OaxacaBlinder.unexplained
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/oaxaca.py-two_fold-459
+
+
+-------case--------statsmodels.stats.oaxaca.OaxacaBlinder.explained
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/oaxaca.py-two_fold-459
+
+
+-------case--------statsmodels.stats.oaxaca.OaxacaResults.std
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oaxaca.py-test_results-283
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oaxaca.py-test_results-36
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oaxaca.py-test_results-217
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oaxaca.py-test_results-239
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oaxaca.py-test_results-261
+
+
+-------case--------statsmodels.stats.power.FTestAnovaPower.cache_fit_res
+{'builtins.list', 'missing'}
+
+
+-------case--------statsmodels.stats.robust_compare.TrimmedMean.sl
+{'builtins.tuple', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/robust_compare.py-mean_trimmed-149
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/robust_compare.py-__init__-120
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/robust_compare.py-data_trimmed-135
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/robust_compare.py-__init__-118
+
+
+-------case--------statsmodels.stats.robust_compare.TrimmedMean.lowerbound
+{'numpy.numpy.ndarray', 'numpy.numpy.int64', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/robust_compare.py-data_winsorized-141
+
+
+-------case--------statsmodels.stats.robust_compare.TrimmedMean.upperbound
+{'numpy.numpy.ndarray', 'numpy.numpy.int64', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/robust_compare.py-data_winsorized-142
+
+
+-------case--------statsmodels.stats.power.GofChisquarePower.cache_fit_res
+{'builtins.list', 'missing'}
+
+
+-------case--------statsmodels.stats.power.FTestPower.cache_fit_res
+{'builtins.list', 'missing'}
+
+
+-------case--------statsmodels.stats.base.AllPairsResults.multitest_method
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/base.py-pval_corrected-93
+
+
+-------case--------statsmodels.stats.regularized_covariance.RegularizedInvCovariance._approx_inv_cov
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/regularized_covariance.py-approx_inv_cov-181
+
+

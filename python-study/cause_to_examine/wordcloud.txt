@@ -1,0 +1,64 @@
+wordcloud.wordcloud.WordCloud.words_
+{'missing', 'builtins.dict'}
+ /home/user/word_cloud/test/test_wordcloud.py-test_repeat-445
+    assert_array_equal(list(wc.words_.values()), 1)
+wordcloud.wordcloud.WordCloud.words_
+{'missing', 'builtins.dict'}
+ /home/user/word_cloud/test/test_wordcloud.py-test_repeat-453
+    assert wc.words_['text'] == 1
+wordcloud.wordcloud.WordCloud.words_
+{'missing', 'builtins.dict'}
+ /home/user/word_cloud/test/test_wordcloud.py-test_repeat-444
+    assert len(wc.words_) == 3
+wordcloud.wordcloud.WordCloud.words_
+{'missing', 'builtins.dict'}
+ /home/user/word_cloud/test/test_wordcloud.py-test_plural_stopwords-479
+    assert w.words_['wa'] < 1
+wordcloud.wordcloud.WordCloud.words_
+{'missing', 'builtins.dict'}
+ /home/user/word_cloud/test/test_wordcloud.py-test_plural_stopwords-476
+    assert w.words_['wa'] < 1
+wordcloud.wordcloud.WordCloud.words_
+{'missing', 'builtins.dict'}
+ /home/user/word_cloud/test/test_wordcloud.py-test_default-150
+    assert len(wc.words_) == wc.max_words
+wordcloud.wordcloud.WordCloud.words_
+{'missing', 'builtins.dict'}
+ /home/user/word_cloud/test/test_wordcloud.py-test_repeat-454
+    assert wc.words_['with'] == .5
+wordcloud.wordcloud.WordCloud.words_
+{'missing', 'builtins.dict'}
+ /home/user/word_cloud/test/test_wordcloud.py-test_repeat-451
+    assert len(wc.words_) == 4
+wordcloud.wordcloud.WordCloud.layout_
+{'missing', 'builtins.list'}
+ /home/user/word_cloud/test/test_wordcloud.py-test_repeat-437
+    assert len(wc.layout_) == 3
+wordcloud.wordcloud.WordCloud.layout_
+{'missing', 'builtins.list'}
+ /home/user/word_cloud/test/test_wordcloud.py-test_small_canvas-414
+    assert len(wc.layout_) > 0
+wordcloud.wordcloud.WordCloud.layout_
+{'missing', 'builtins.list'}
+ /home/user/word_cloud/test/test_wordcloud.py-test_default-153
+    assert len(wc.layout_) == wc.max_words
+wordcloud.wordcloud.WordCloud.layout_
+{'missing', 'builtins.list'}
+ /home/user/word_cloud/test/test_wordcloud.py-test_repeat-455
+    assert len(wc.layout_), wc.max_words
+wordcloud.wordcloud.WordCloud.layout_
+{'missing', 'builtins.list'}
+ /home/user/word_cloud/test/test_wordcloud.py-test_zero_frequencies-466
+    assert len(word_cloud.layout_) == 1
+wordcloud.wordcloud.WordCloud.layout_
+{'missing', 'builtins.list'}
+ /home/user/word_cloud/test/test_wordcloud.py-test_tiny_canvas-422
+    assert len(w.layout_) == 0
+wordcloud.wordcloud.WordCloud.layout_
+{'missing', 'builtins.list'}
+ /home/user/word_cloud/test/test_wordcloud.py-test_zero_frequencies-467
+    assert word_cloud.layout_[0][0][0] == 'test'
+wordcloud.wordcloud.WordCloud.layout_
+{'missing', 'builtins.list'}
+ /home/user/word_cloud/test/test_wordcloud.py-test_repeat-440
+    assert len(wc.layout_) == 51

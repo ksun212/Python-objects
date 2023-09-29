@@ -1,0 +1,2 @@
+{"method": 24, "function": 2, "local": 1}
+{"ln": 19, "rn": 1, "t1stru2": 1}

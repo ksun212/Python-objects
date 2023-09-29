@@ -1,0 +1,40 @@
+stanza.models.pos.vocab.FeatureVocab._id2unit
+{'collections.collections.OrderedDict', 'builtins.dict'}
+ /home/user/stanza/stanza/models/common/vocab.py-build_vocab-165
+                        self._id2unit[key].append(parts[key])
+stanza.models.pos.vocab.FeatureVocab._id2unit
+{'collections.collections.OrderedDict', 'builtins.dict'}
+ /home/user/stanza/stanza/models/common/vocab.py-build_vocab-168
+            if len(self._id2unit) == 0:
+stanza.models.pos.vocab.FeatureVocab._id2unit
+{'collections.collections.OrderedDict', 'builtins.dict'}
+ /home/user/stanza/stanza/models/common/vocab.py-build_vocab-161
+                        self._id2unit[key] = copy(VOCAB_PREFIX)
+stanza.models.pos.vocab.FeatureVocab._id2unit
+{'collections.collections.OrderedDict', 'builtins.dict'}
+ /home/user/stanza/stanza/models/common/vocab.py-build_vocab-164
+                    if parts[key] not in self._id2unit[key]:
+stanza.models.common.dropout.WordDropout.dropprob
+{'builtins.float', 'builtins.int'}
+ /home/user/stanza/stanza/models/common/dropout.py-forward-19
+        dropmask = torch.rand(*masksize, device=x.device) < self.dropprob
+stanza.models.common.doc.Word._misc
+{'builtins.str'}
+ /home/user/stanza/stanza/models/common/doc.py-init_from_misc-751
+    for item in unit._misc.split('|'):
+stanza.models.common.doc.Token._misc
+{'builtins.str'}
+ /home/user/stanza/stanza/models/common/doc.py-init_from_misc-751
+    for item in unit._misc.split('|'):
+stanza.pipeline.multilingual.MultilingualPipeline.lang_configs
+{'collections.collections.defaultdict', 'builtins.dict'}
+ /home/user/stanza/stanza/pipeline/multilingual.py-_update_pipeline_cache-123
+            self.pipeline_cache[lang] = Pipeline(dir=self.model_dir, device=self.device, **self.lang_configs[lang])
+stanza.pipeline.multilingual.MultilingualPipeline.lang_configs
+{'collections.collections.defaultdict', 'builtins.dict'}
+ /home/user/stanza/stanza/pipeline/multilingual.py-__init__-68
+            if 'lang' not in self.lang_configs[lang]:
+stanza.pipeline.multilingual.MultilingualPipeline.lang_configs
+{'collections.collections.defaultdict', 'builtins.dict'}
+ /home/user/stanza/stanza/pipeline/multilingual.py-__init__-69
+                self.lang_configs[lang]['lang'] = lang

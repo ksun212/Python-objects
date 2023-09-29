@@ -1,0 +1,17 @@
+-------case--------pre_commit.util.Pty.r
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/pre-commit/pre_commit/util.py-cmd_output_p-176
+ /home/user/pre-commit/pre_commit/util.py-close_r-148
+ /home/user/pre-commit/pre_commit/util.py-cmd_output_p-188
+ /home/user/pre-commit/pre_commit/util.py-close_r-149
+
+
+-------case--------pre_commit.util.Pty.w
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/pre-commit/pre_commit/util.py-__enter__-138
+ /home/user/pre-commit/pre_commit/util.py-cmd_output_p-177
+ /home/user/pre-commit/pre_commit/util.py-close_w-144
+ /home/user/pre-commit/pre_commit/util.py-__enter__-135
+ /home/user/pre-commit/pre_commit/util.py-close_w-143
+
+

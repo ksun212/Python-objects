@@ -1,0 +1,3 @@
+t1stru2	18
+others	1
+rn	3

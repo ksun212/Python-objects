@@ -1,0 +1,1798 @@
+-------case--------altair.utils.execeval._CatchDisplay.old_hook
+{'builtins.builtin_function_or_method', 'missing'}
+ /home/user/altair/altair/utils/execeval.py-__exit__-25
+
+-------case--------statsmodels.tools.testing.Holder.omega2
+{'numpy.numpy.ndarray', 'missing', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_effectsize_fstat-111
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_effectsize_fstat_stata-138
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_effectsize_fstat-118
+
+-------case--------kornia.augmentation.random_generator._3d.rotation.RotationGenerator3D.degrees
+{'builtins.tuple', 'missing', 'builtins.float', 'builtins.list', 'builtins.int', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/rotation.py-__repr__-50
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-185
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-180
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/rotation.py-make_samplers-54
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-190
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/rotation.py-forward-62
+
+-------case--------sklearn.model_selection._search.GridSearchCV.scoring
+{'builtins.NoneType', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-fit-883 | {'builtins.NoneType', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-evaluate_candidates-858 | {'builtins.NoneType', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-fit-777 | {'builtins.NoneType', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-fit-775 | {'builtins.NoneType', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-fit-774 | {'builtins.NoneType', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-fit-776 | {'builtins.NoneType', 'builtins.function'}
+
+-------case--------sphinx.domains.std.OptionXRefRole.refdomain
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-run-101
+ /home/user/sphinx-master/sphinx/roles.py-create_xref_node-127
+
+-------case--------sphinx.domains.python.PyXRefRole.lineno
+{'builtins.int', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-get_source_info-506
+
+-------case--------sphinx.domains.cpp.ASTDeclSpecsSimple.friend
+{'builtins.bool', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-_stringify-2267 | {'builtins.bool', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-describe_signature-2302 | {'builtins.bool', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-mergeWith-2254 | {'builtins.bool', 'builtins.NoneType'}
+
+-------case--------statsmodels.tools.testing.Holder.mat
+{'builtins.str', 'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_corrpsd.py-test_clipped-127
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_corrpsd.py-test_cov_nearest-142
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_corrpsd.py-test_cov_nearest-171
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_corrpsd.py-test_cov_nearest-165
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_corrpsd.py-test_nearest-113
+
+-------case--------kornia.feature.defmo.DeFMO._modules
+{'builtins.NoneType', 'builtins.bool', 'collections.collections.OrderedDict', 'builtins.set'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/jit/_recursive.py-infer_concrete_type_builder-218 | {'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-named_children-2192 | {'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-__dir__-2404 | {'collections.collections.OrderedDict'}
+
+-------case--------statsmodels.regression.linear_model.OLS.wexog_singular_values
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-__init__-1598
+
+-------case--------kornia.feature.mkd.VonMisesKernel.d
+{'builtins.NoneType', 'builtins.set', 'builtins.bool', 'collections.collections.OrderedDict', 'builtins.int'}
+ /home/user/kornia/kornia/feature/mkd.py-__repr__-161 | {'builtins.NoneType', 'builtins.set', 'builtins.bool', 'collections.collections.OrderedDict', 'builtins.int'}
+ /home/user/kornia/kornia/feature/mkd.py-__init__-536 | {'builtins.int'}
+ /home/user/kornia/kornia/feature/mkd.py-spatial_kernel_embedding-248 | {'builtins.int'}
+ /home/user/kornia/kornia/feature/mkd.py-__init__-620 | {'builtins.int'}
+
+-------case--------rich.live._RefreshThread._tstate_lock
+{'_thread._thread.lock', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/Lib/threading.py-_set_tstate_lock-956 | {'_thread._thread.lock'}
+
+-------case--------kornia.augmentation.container.image.ImageSequential._params
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/kornia/kornia/augmentation/container/base.py-inverse-252 | {'builtins.NoneType', 'builtins.list'}
+ /home/user/kornia/kornia/augmentation/container/base.py-inverse-257 | {'builtins.NoneType', 'builtins.list'}
+
+-------case--------sklearn.svm._classes.NuSVC.support_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-_dense_decision_function-557
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-_dense_predict-456
+
+-------case--------kornia.augmentation.random_generator._2d.mosaic.MosaicGenerator.start_ratio_range_sampler
+{'missing', 'torch.distributions.uniform.Uniform'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/mosaic.py-forward-80
+
+-------case--------sphinx.domains.cpp.Symbol.siblingAbove
+{'sphinx.domains.cpp.Symbol', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-find_identifier-4986 | {'sphinx.domains.cpp.Symbol', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-candidates-4477 | {'sphinx.domains.cpp.Symbol', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-handle_signature-7372 | {'sphinx.domains.cpp.Symbol', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-handle_signature-7373 | {'sphinx.domains.cpp.Symbol', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-handle_signature-7371 | {'sphinx.domains.cpp.Symbol', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-handle_signature-7368 | {'sphinx.domains.cpp.Symbol', 'builtins.NoneType'}
+
+-------case--------stanza.models.common.doc.Word._xpos
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/models/common/doc.py-xpos-1021 | {'builtins.NoneType', 'builtins.str'}
+
+-------case--------sklearn.kernel_approximation.Nystroem.degree
+{'builtins.float', 'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-_get_kernel_params-993 | {'builtins.float', 'builtins.int', 'builtins.NoneType'}
+
+-------case--------sphinxcontrib.serializinghtml.JSONHTMLBuilder.theme
+{'missing', 'sphinx.theming.Theme', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-init_highlighter-313
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-init_highlighter-320
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-init_highlighter-314
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-init_highlighter-319
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-init_templates-307
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-_get_style_filenames-292
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-_get_style_filenames-293
+
+-------case--------statsmodels.stats.regularized_covariance.RegularizedInvCovariance._approx_inv_cov
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/regularized_covariance.py-approx_inv_cov-181
+
+-------case--------sklearn.model_selection._search_successive_halving.HalvingGridSearchCV.estimator
+{'sklearn.pipeline.Pipeline', 'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.linear_model._ridge.Ridge'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-_estimator_type-402 | {'sklearn.pipeline.Pipeline', 'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.linear_model._ridge.Ridge'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search_successive_halving.py-fit-250 | {'sklearn.pipeline.Pipeline', 'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.linear_model._ridge.Ridge'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-_more_tags-407 | {'sklearn.pipeline.Pipeline', 'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.linear_model._ridge.Ridge'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-fit-777 | {'sklearn.pipeline.Pipeline', 'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.linear_model._ridge.Ridge'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-check-366 | {'sklearn.pipeline.Pipeline', 'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.linear_model._ridge.Ridge'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-fit-771 | {'sklearn.pipeline.Pipeline', 'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.linear_model._ridge.Ridge'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-fit-789 | {'sklearn.pipeline.Pipeline', 'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.linear_model._ridge.Ridge'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search_successive_halving.py-_check_input_parameters-172 | {'sklearn.pipeline.Pipeline', 'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.linear_model._ridge.Ridge'}
+
+-------case--------statsmodels.stats.oaxaca.OaxacaBlinder.explained
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/oaxaca.py-two_fold-459
+
+-------case--------sklearn.multiclass.OneVsRestClassifier.estimator
+{'sklearn.svm._classes.LinearSVC', 'sklearn.svm._classes.SVC', 'sklearn.linear_model._coordinate_descent.Lasso', 'sklearn.model_selection._search.GridSearchCV', 'sklearn.gaussian_process._gpc._BinaryGaussianProcessClassifierLaplace', 'sklearn.linear_model._stochastic_gradient.SGDClassifier', 'sklearn.tree._classes.DecisionTreeClassifier', 'sklearn.linear_model._ridge.Ridge', 'sklearn.tree._classes.DecisionTreeRegressor', 'sklearn.pipeline.Pipeline', 'sklearn.linear_model._base.LinearRegression', 'sklearn.linear_model._coordinate_descent.ElasticNet', 'sklearn.svm._classes.SVR', 'sklearn.naive_bayes.MultinomialNB', 'sklearn.linear_model._logistic.LogisticRegression'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-<genexpr>-329 | {'sklearn.svm._classes.LinearSVC', 'sklearn.svm._classes.SVC', 'sklearn.linear_model._coordinate_descent.Lasso', 'sklearn.model_selection._search.GridSearchCV', 'sklearn.gaussian_process._gpc._BinaryGaussianProcessClassifierLaplace', 'sklearn.linear_model._stochastic_gradient.SGDClassifier', 'sklearn.tree._classes.DecisionTreeClassifier', 'sklearn.linear_model._ridge.Ridge', 'sklearn.tree._classes.DecisionTreeRegressor', 'sklearn.pipeline.Pipeline', 'sklearn.linear_model._base.LinearRegression', 'sklearn.linear_model._coordinate_descent.ElasticNet', 'sklearn.svm._classes.SVR', 'sklearn.naive_bayes.MultinomialNB', 'sklearn.linear_model._logistic.LogisticRegression'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-<lambda>-182 | {'sklearn.svm._classes.LinearSVC', 'sklearn.svm._classes.SVC', 'sklearn.linear_model._coordinate_descent.Lasso', 'sklearn.model_selection._search.GridSearchCV', 'sklearn.gaussian_process._gpc._BinaryGaussianProcessClassifierLaplace', 'sklearn.linear_model._stochastic_gradient.SGDClassifier', 'sklearn.tree._classes.DecisionTreeClassifier', 'sklearn.linear_model._ridge.Ridge', 'sklearn.tree._classes.DecisionTreeRegressor', 'sklearn.pipeline.Pipeline', 'sklearn.linear_model._base.LinearRegression', 'sklearn.linear_model._coordinate_descent.ElasticNet', 'sklearn.svm._classes.SVR', 'sklearn.naive_bayes.MultinomialNB', 'sklearn.linear_model._logistic.LogisticRegression'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-partial_fit-376 | {'sklearn.svm._classes.LinearSVC', 'sklearn.svm._classes.SVC', 'sklearn.linear_model._coordinate_descent.Lasso', 'sklearn.model_selection._search.GridSearchCV', 'sklearn.gaussian_process._gpc._BinaryGaussianProcessClassifierLaplace', 'sklearn.linear_model._stochastic_gradient.SGDClassifier', 'sklearn.tree._classes.DecisionTreeClassifier', 'sklearn.linear_model._ridge.Ridge', 'sklearn.tree._classes.DecisionTreeRegressor', 'sklearn.pipeline.Pipeline', 'sklearn.linear_model._base.LinearRegression', 'sklearn.linear_model._coordinate_descent.ElasticNet', 'sklearn.svm._classes.SVR', 'sklearn.naive_bayes.MultinomialNB', 'sklearn.linear_model._logistic.LogisticRegression'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-_more_tags-532 | {'sklearn.svm._classes.LinearSVC', 'sklearn.svm._classes.SVC', 'sklearn.linear_model._coordinate_descent.Lasso', 'sklearn.model_selection._search.GridSearchCV', 'sklearn.gaussian_process._gpc._BinaryGaussianProcessClassifierLaplace', 'sklearn.linear_model._stochastic_gradient.SGDClassifier', 'sklearn.tree._classes.DecisionTreeClassifier', 'sklearn.linear_model._ridge.Ridge', 'sklearn.tree._classes.DecisionTreeRegressor', 'sklearn.pipeline.Pipeline', 'sklearn.linear_model._base.LinearRegression', 'sklearn.linear_model._coordinate_descent.ElasticNet', 'sklearn.svm._classes.SVR', 'sklearn.naive_bayes.MultinomialNB', 'sklearn.linear_model._logistic.LogisticRegression'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-<listcomp>-382 | {'sklearn.svm._classes.LinearSVC', 'sklearn.svm._classes.SVC', 'sklearn.linear_model._coordinate_descent.Lasso', 'sklearn.model_selection._search.GridSearchCV', 'sklearn.gaussian_process._gpc._BinaryGaussianProcessClassifierLaplace', 'sklearn.linear_model._stochastic_gradient.SGDClassifier', 'sklearn.tree._classes.DecisionTreeClassifier', 'sklearn.linear_model._ridge.Ridge', 'sklearn.tree._classes.DecisionTreeRegressor', 'sklearn.pipeline.Pipeline', 'sklearn.linear_model._base.LinearRegression', 'sklearn.linear_model._coordinate_descent.ElasticNet', 'sklearn.svm._classes.SVR', 'sklearn.naive_bayes.MultinomialNB', 'sklearn.linear_model._logistic.LogisticRegression'}
+
+-------case--------sklearn.impute._iterative.IterativeImputer.random_state
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/impute/_iterative.py-fit_transform-606 | {'builtins.int', 'builtins.NoneType'}
+
+-------case--------sklearn.ensemble._hist_gradient_boosting.grower.TreeNode.value
+{'builtins.float', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_hist_gradient_boosting/grower.py-_fill_predictor_arrays-653 | {'builtins.float', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_hist_gradient_boosting/grower.py-_compute_best_split_and_push-423 | {'builtins.float', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_hist_gradient_boosting/grower.py-_apply_shrinkage-374 | {'builtins.float', 'builtins.int'}
+
+-------case--------sklearn.decomposition._truncated_svd.TruncatedSVD.random_state
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_truncated_svd.py-fit_transform-219 | {'builtins.int', 'builtins.NoneType'}
+
+-------case--------sklearn.manifold._spectral_embedding.SpectralEmbedding.affinity_matrix_
+{'numpy.numpy.ndarray', 'missing', 'scipy.sparse._csr.csr_matrix'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/manifold/_spectral_embedding.py-_get_affinity_matrix-590
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/manifold/_spectral_embedding.py-_get_affinity_matrix-584
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/manifold/_spectral_embedding.py-_get_affinity_matrix-586
+
+-------case--------dvc_objects._tqdm.Tqdm.miniters
+{'builtins.int', 'missing', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/_monitor.py-run-77
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1246
+
+-------case--------pyro.distributions.transforms.polynomial.Polynomial._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118 | {'builtins.weakref', 'builtins.NoneType'}
+
+-------case--------sphinx.domains.DirectiveAdapter.objtype
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/domains/javascript.py-add_target_and_index-134
+ /home/user/sphinx-master/sphinx/domains/javascript.py-get_index_text-147
+ /home/user/sphinx-master/sphinx/domains/javascript.py-get_index_text-143
+ /home/user/sphinx-master/sphinx/domains/javascript.py-get_index_text-149
+ /home/user/sphinx-master/sphinx/directives/__init__.py-run-268
+ /home/user/sphinx-master/sphinx/domains/std.py-add_target_and_index-58
+ /home/user/sphinx-master/sphinx/domains/python.py-get_index_text-814
+ /home/user/sphinx-master/sphinx/domains/python.py-add_target_and_index-608
+ /home/user/sphinx-master/sphinx/domains/cpp.py-display_object_type-7445
+ /home/user/sphinx-master/sphinx/domains/cpp.py-display_object_type-7444
+ /home/user/sphinx-master/sphinx/domains/std.py-add_target_and_index-73
+ /home/user/sphinx-master/sphinx/domains/c.py-display_object_type-3330
+ /home/user/sphinx-master/sphinx/domains/python.py-get_index_text-810
+ /home/user/sphinx-master/sphinx/domains/c.py-display_object_type-3331
+ /home/user/sphinx-master/sphinx/domains/cpp.py-parse_definition-7307
+ /home/user/sphinx-master/sphinx/directives/__init__.py-run-216
+ /home/user/sphinx-master/sphinx/domains/c.py-parse_definition-3239
+ /home/user/sphinx-master/sphinx/domains/javascript.py-get_index_text-151
+ /home/user/sphinx-master/sphinx/domains/python.py-get_signature_prefix-807
+
+-------case--------sphinx.domains.cpp.ASTDeclSpecsSimple.consteval
+{'builtins.bool', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-_stringify-2273 | {'builtins.bool', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-mergeWith-2249 | {'builtins.bool', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-describe_signature-2311 | {'builtins.bool', 'builtins.NoneType'}
+
+-------case--------sklearn.kernel_approximation.AdditiveChi2Sampler.sample_interval
+{'builtins.float', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-fit-632 | {'builtins.float', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_kernel_approximation.py-test_additive_chi2_sampler-114 | {'builtins.float', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_kernel_approximation.py-test_additive_chi2_sampler-123 | {'builtins.float', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-fit-618 | {'builtins.float', 'builtins.NoneType'}
+
+-------case--------spacy.language.FactoryMeta.default_config
+{'spacy.util.SimpleFrozenDict', 'builtins.dict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/spacy/language.py-create_pipe-664 | {'spacy.util.SimpleFrozenDict', 'builtins.dict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/spacy/language.py-create_pipe-665 | {'spacy.util.SimpleFrozenDict', 'builtins.dict'}
+
+-------case--------statsmodels.stats.descriptivestats.Describe._arraytype
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/descriptivestats.py-summary-902 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/descriptivestats.py-summary-829 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/descriptivestats.py-summary-893 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/descriptivestats.py-summary-912 | {'builtins.str', 'builtins.NoneType'}
+
+-------case--------sklearn.kernel_approximation.Nystroem._n_features_out
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-get_feature_names_out-924
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.miniters
+{'builtins.int', 'missing', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__iter__-1201
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1246
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/_monitor.py-run-77
+
+-------case--------torch._ops.OpOverloadPacket.main
+{'missing', 'torch._ops.OpOverload'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_prims/nvfuser_prims.py-register_var_mean-707
+
+-------case--------kornia.augmentation._3d.geometric.horizontal_flip.RandomHorizontalFlip3D._transform_matrix
+{'torch.Tensor', 'missing'}
+ /home/user/kornia/kornia/augmentation/_3d/base.py-transform_matrix-60
+
+-------case--------sphinx.config.Config.html_js_files
+{'builtins.list', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-convert_html_js_files-1173
+
+-------case--------sphinx.domains.std.EnvVarXRefRole.disabled
+{'builtins.bool', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-run-103
+
+-------case--------sphinx.jinja2glue.BuiltinTemplateLoader.pathchain
+{'builtins.list', 'missing'}
+ /home/user/sphinx-master/sphinx/jinja2glue.py-newest_template_mtime-202
+
+-------case--------sklearn.neighbors._regression.RadiusNeighborsRegressor._tree
+{'missing', 'builtins.NoneType', 'sklearn.neighbors._kd_tree.sklearn.neighbors._kd_tree.KDTree'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_base.py-<genexpr>-1171
+
+-------case--------statsmodels.genmod.generalized_linear_model.GLM.weights
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_fit_irls-1214
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_fit_irls-1233
+
+-------case--------jedi.inference.value.instance.TreeInstance._arguments
+{'jedi.inference.arguments.ValuesArguments', 'jedi.inference.arguments.TreeArguments'}
+ /home/user/jedi/jedi/inference/value/instance.py-_get_annotated_class_object-326 | {'jedi.inference.arguments.ValuesArguments', 'jedi.inference.arguments.TreeArguments'}
+ /home/user/jedi/jedi/inference/value/instance.py-__repr__-393 | {'jedi.inference.arguments.ValuesArguments', 'jedi.inference.arguments.TreeArguments'}
+ /home/user/jedi/jedi/inference/value/instance.py-create_instance_context-237 | {'jedi.inference.arguments.ValuesArguments', 'jedi.inference.arguments.TreeArguments'}
+
+-------case--------sklearn.linear_model._logistic.LogisticRegression.random_state
+{'builtins.int', 'builtins.NoneType', 'numpy.random.mtrand.numpy.random.mtrand.RandomState'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py-<genexpr>-1248 | {'builtins.int', 'builtins.NoneType', 'numpy.random.mtrand.numpy.random.mtrand.RandomState'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py-fit-1170 | {'builtins.int', 'builtins.NoneType', 'numpy.random.mtrand.numpy.random.mtrand.RandomState'}
+
+-------case--------kornia.augmentation.random_generator._2d.color_jiggle.ColorJiggleGenerator.saturation_sampler
+{'missing', 'torch.distributions.uniform.Uniform'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jiggle.py-forward-83
+
+-------case--------seaborn._marks.text.Text.fontsize
+{'seaborn._marks.base.Mappable', 'builtins.int'}
+ /home/user/seaborn/tests/_marks/test_text.py-test_set_properties-51 | {'seaborn._marks.base.Mappable', 'builtins.int'}
+
+-------case--------sklearn.decomposition._dict_learning.MiniBatchDictionaryLearning.batch_size
+{'builtins.int', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_dict_learning.py-fit-2241 | {'builtins.int', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_dict_learning.py-fit-2242 | {'builtins.int', 'builtins.str'}
+
+-------case--------sphinx.addnodes.compact_paragraph.line
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/docutils/nodes.py-setup_child-110 | {'builtins.int', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/util/nodes.py-_copy_except__document-626 | {'builtins.int', 'builtins.NoneType'}
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnGroupBox.background
+{'builtins.NoneType', 'weasyprint.layout.backgrounds.Background', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/draw.py-draw_table_backgrounds-416
+
+-------case--------sklearn.cross_decomposition._pls.PLSRegression._x_mean
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/cross_decomposition/_pls.py-predict-473
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/cross_decomposition/_pls.py-transform-387
+
+-------case--------kornia.augmentation.random_generator._2d.crop.CropGenerator.size
+{'torch.Tensor', 'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-60 | {'torch.Tensor', 'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-62 | {'torch.Tensor', 'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-__repr__-40 | {'torch.Tensor', 'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-51 | {'torch.Tensor', 'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-59 | {'torch.Tensor', 'builtins.tuple'}
+
+-------case--------pandas.core.frame.DataFrame.design_info
+{'patsy.design_info.DesignInfo', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/formula/formulatools.py-handle_formula_data-74
+
+-------case--------sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis.priors_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/discriminant_analysis.py-_decision_function-916
+
+-------case--------dvc_objects._tqdm.Tqdm.mininterval
+{'missing', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1268
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1249
+
+-------case--------mypy.options.Options.python_executable
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/main.py-infer_python_executable-297 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/build.py-log_configuration-2829 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/modulefinder.py-compute_search_paths-826 | {'builtins.str', 'builtins.NoneType'}
+
+-------case--------dvc.stage.PipelineStage.cmd
+{'builtins.list', 'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/dvc/stage/run.py-cmd_run-121 | {'builtins.list', 'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/tests/unit/stage/test_loader_pipeline_file.py-test_load_changed_command-234 | {'builtins.list', 'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/tests/unit/stage/test_loader_pipeline_file.py-test_load_stage-169 | {'builtins.list', 'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/dvc/stage/__init__.py-is_callback-252 | {'builtins.list', 'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/tests/func/test_dvcfile.py-test_run_load_one_for_multistage-40 | {'builtins.list', 'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/tests/func/test_status.py-test_status_on_pipeline_stages-74 | {'builtins.list', 'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/tests/unit/stage/test_loader_pipeline_file.py-test_load_stage_cmd_with_list-181 | {'builtins.list', 'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/dvc/stage/serialize.py-to_single_stage_lockfile-158 | {'builtins.list', 'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/tests/func/test_lockfile.py-test_cmd_changes_other_orders_are_preserved-101 | {'builtins.str'}
+ /home/user/dvc/tests/func/test_lockfile.py-test_cmd_changes_other_orders_are_preserved-98 | {'builtins.str'}
+ /home/user/dvc/tests/unit/stage/test_loader_pipeline_file.py-test_load_changed_command-229 | {'builtins.list', 'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/dvc/stage/__init__.py-run-578 | {'builtins.list', 'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/dvc/stage/loader.py-load_stage-121 | {'builtins.list', 'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/dvc/stage/serialize.py-to_single_stage_lockfile-177 | {'builtins.list', 'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/dvc/stage/utils.py-get_dump-200 | {'builtins.list', 'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/dvc/stage/__init__.py-is_data_source-244 | {'builtins.list', 'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/dvc/stage/__init__.py-is_import-257 | {'builtins.list', 'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/dvc/stage/__init__.py-run-573 | {'builtins.list', 'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/dvc/stage/serialize.py-to_pipeline_file-140 | {'builtins.list', 'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/dvc/stage/serialize.py-to_pipeline_file-133 | {'builtins.list', 'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/tests/func/test_repro_multistage.py-test_repro_when_cmd_changes-133 | {'builtins.str'}
+ /home/user/dvc/dvc/stage/cache.py-_can_hash-39 | {'builtins.list', 'builtins.NoneType', 'builtins.str'}
+
+-------case--------sklearn.cross_decomposition._pls.PLSSVD.n_features_in_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-402
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in-3653
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in_after_fitting-3713
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-399
+
+-------case--------sklearn.cluster._affinity_propagation.AffinityPropagation.random_state
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/cluster/_affinity_propagation.py-fit-496 | {'builtins.int', 'builtins.NoneType'}
+
+-------case--------kornia.augmentation.random_generator._2d.shear.ShearGenerator.shear_y_sampler
+{'missing', 'torch.distributions.uniform.Uniform'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/shear.py-forward-84
+
+-------case--------sphinx.writers.manpage.ManualPageTranslator._active_table
+{'docutils.writers.manpage.Table', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/docutils/writers/manpage.py-depart_table-1074 | {'docutils.writers.manpage.Table', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/docutils/writers/manpage.py-depart_entry-637 | {'docutils.writers.manpage.Table', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/docutils/writers/manpage.py-visit_row-1009 | {'docutils.writers.manpage.Table', 'builtins.NoneType'}
+
+-------case--------sklearn.manifold._mds.MDS.dissimilarity_matrix_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/manifold/_mds.py-fit_transform-530
+
+-------case--------sphinx.domains.c.ASTDeclSpecsSimple.volatile
+{'builtins.bool', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/c.py-_stringify-788 | {'builtins.bool', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/c.py-mergeWith-771 | {'builtins.bool', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/c.py-describe_signature-813 | {'builtins.bool', 'builtins.NoneType'}
+
+-------case--------sklearn.covariance._shrunk_covariance.OAS.precision_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/covariance/_empirical_covariance.py-get_precision-204
+
+-------case--------rich.styled.Styled.renderable
+{'rich.table.Table', 'builtins.str', 'rich.text.Text'}
+ /home/user/rich/rich-master/rich/styled.py-__rich_console__-27 | {'rich.table.Table', 'builtins.str', 'rich.text.Text'}
+ /home/user/rich/rich-master/rich/styled.py-__rich_measure__-34 | {'rich.table.Table', 'builtins.str', 'rich.text.Text'}
+
+
+-------case--------sklearn.cluster._spectral.SpectralClustering.random_state
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/cluster/_spectral.py-fit-739 | {'builtins.int', 'builtins.NoneType'}
+
+-------case--------sklearn.cross_decomposition._pls.CCA.n_features_in_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-402
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in-3653
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in_after_fitting-3713
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-399
+
+-------case--------jinja2.nodes.FromImport.template
+{'missing', 'jinja2.nodes.Const'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/meta.py-find_referenced_templates-79
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-_import_common-1085
+
+-------case--------stanza.models.common.pretrain.Pretrain._csv_filename
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/models/common/pretrain.py-read_pretrain-117 | {'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/models/common/pretrain.py-read_pretrain-116 | {'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/models/common/pretrain.py-load-70 | {'builtins.NoneType', 'builtins.str'}
+
+-------case--------weasyprint.formatting_structure.boxes.MarginBox.min_height
+{'builtins.int', 'missing', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_container_layout-637
+
+-------case--------rich.table.Column.width
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/rich/rich-master/rich/table.py-<listcomp>-554 | {'builtins.int', 'builtins.NoneType'}
+ /home/user/rich/rich-master/rich/table.py-<listcomp>-539 | {'builtins.int', 'builtins.NoneType'}
+ /home/user/rich/rich-master/rich/table.py-_measure_column-720 | {'builtins.int', 'builtins.NoneType'}
+ <string>-__eq__-4 | {'builtins.int', 'builtins.NoneType'}
+ /home/user/rich/rich-master/rich/table.py-_measure_column-717 | {'builtins.int', 'builtins.NoneType'}
+
+-------case--------kornia.augmentation._3d.geometric.affine.RandomAffine3D.p
+{'builtins.float', 'builtins.int'}
+ /home/user/kornia/kornia/augmentation/base.py-forward_parameters-171 | {'builtins.float', 'builtins.int'}
+ /home/user/kornia/kornia/augmentation/base.py-__init__-67 | {'builtins.float', 'builtins.int'}
+
+-------case--------sphinx.writers.html.HTMLWriter.clean_meta
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-write_doc-669
+
+-------case--------kornia.filters.dexined._DenseLayer._modules
+{'builtins.NoneType', 'builtins.bool', 'collections.collections.OrderedDict', 'builtins.set'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-load-2011 | {'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/jit/_recursive.py-infer_concrete_type_builder-218 | {'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-_load_from_state_dict-1966 | {'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-named_children-2192 | {'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/container.py-__len__-139 | {'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-add_module-611 | {'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/container.py-__iter__-209 | {'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-__dir__-2404 | {'collections.collections.OrderedDict'}
+
+-------case--------sklearn.decomposition._sparse_pca.MiniBatchSparsePCA.random_state
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_sparse_pca.py-fit-410 | {'builtins.int', 'builtins.NoneType'}
+
+-------case--------sphinx.domains.std.TokenXRefRole.rawtext
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-create_xref_node-138
+ /home/user/sphinx-master/sphinx/roles.py-create_xref_node-131
+
+-------case--------sklearn.cluster._mean_shift.MeanShift.cluster_centers_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/cluster/_mean_shift.py-predict-514
+
+-------case--------flask.cli.ScriptInfo.app_import_path
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/cli.py-load_app-402 | {'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/cli.py-load_app-404 | {'builtins.NoneType', 'builtins.str'}
+
+-------case--------statsmodels.stats.nonparametric.RankCompareResult.var_prob
+{'numpy.numpy.ndarray', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/nonparametric.py-summary-338 | {'numpy.numpy.ndarray', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_rank_compare_ord-455 | {'numpy.numpy.ndarray', 'numpy.numpy.float64'}
+
+-------case--------kornia.augmentation.random_generator._2d.rectangle_earase.RectangleEraseGenerator.uniform_sampler
+{'missing', 'torch.distributions.uniform.Uniform'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/rectangle_earase.py-forward-122
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/rectangle_earase.py-forward-119
+
+-------case--------sklearn.ensemble._weight_boosting.AdaBoostClassifier.n_features_in_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-402
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in_after_fitting-3713
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in-3653
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-399
+
+-------case--------newspaper.article.Article.publish_date
+{'datetime.datetime.datetime', 'builtins.NoneType', 'builtins.str'}
+ /home/user/newspaper/tests/unit_tests.py-test_parse_html-245 | {'datetime.datetime.datetime', 'builtins.NoneType', 'builtins.str'}
+
+-------case--------sklearn.svm._classes.NuSVR._intercept_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-_sparse_predict-489
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-_dense_predict-460
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-fit-266
+
+-------case--------sphinx.writers.texinfo.TexinfoTranslator.fragment
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/writers/texinfo.py-finish-206
+
+-------case--------sphinx.domains.javascript.JSXRefRole.title
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-create_xref_node-119
+
+-------case--------sklearn.ensemble._forest.RandomForestClassifier.n_features_in_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in-3653
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-399
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multioutput.py-fit-210
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/calibration.py-fit-407
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-402
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in_after_fitting-3713
+
+-------case--------stanza.models.common.doc.Word._lemma
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/models/common/doc.py-lemma-1001 | {'builtins.NoneType', 'builtins.str'}
+
+-------case--------stanza.models.tokenization.trainer.Trainer.dictionary
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_convert_units_raw_text-87 | {'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_dictionary-168 | {'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_convert_units_file-135 | {'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_convert_units_file-126 | {'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_utils.py-test_long_paragraph-89 | {'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_utils.py-test_long_paragraph-81 | {'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_dictionary-166 | {'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_dictionary_feats-177 | {'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_convert_units_file-145 | {'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_dictionary-158 | {'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_convert_units_raw_text-96 | {'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_dictionary-164 | {'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/pipeline/tokenize_processor.py-process-88 | {'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_convert_units_raw_text-91 | {'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/tests/tokenization/test_tokenize_data.py-test_dictionary-170 | {'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/models/mwt/utils.py-resplit_mwt-35 | {'builtins.dict', 'builtins.NoneType'}
+
+-------case--------sklearn.neural_network._multilayer_perceptron.MLPClassifier.t_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_fit_stochastic-664
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_fit_stochastic-674
+
+-------case--------pandas.core.indexes.numeric.Float64Index._name
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/indexes/base.py-name-1740 | {'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/indexes/base.py-__getitem__-5397 | {'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/indexes/base.py-_view-826 | {'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/indexes/base.py-_shallow_copy-818 | {'builtins.NoneType', 'builtins.str'}
+
+-------case--------sklearn.preprocessing._discretization.KBinsDiscretizer.bin_edges_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py-transform-373
+
+-------case--------sklearn.ensemble._hist_gradient_boosting.binning._BinMapper.missing_values_bin_idx_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_hist_gradient_boosting/gradient_boosting.py-fit-402
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_hist_gradient_boosting/binning.py-transform-278
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_hist_gradient_boosting/gradient_boosting.py-fit-641
+
+-------case--------sphinx.domains.c.CXRefRole.title
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-create_xref_node-119
+
+-------case--------sklearn.decomposition._kernel_pca.KernelPCA.n_features_in_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-402
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in-3653
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in_after_fitting-3713
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-399
+
+-------case--------dvc.progress.Tqdm.unit
+{'missing', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1472
+
+-------case--------seaborn.axisgrid.FacetGrid._col_var
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/seaborn/seaborn/axisgrid.py-set_titles-972 | {'builtins.NoneType', 'builtins.str'}
+ /home/user/seaborn/seaborn/axisgrid.py-set_titles-1011 | {'builtins.NoneType', 'builtins.str'}
+ /home/user/seaborn/seaborn/axisgrid.py-<listcomp>-660 | {'builtins.NoneType', 'builtins.str'}
+ /home/user/seaborn/seaborn/axisgrid.py-set_titles-961 | {'builtins.NoneType', 'builtins.str'}
+
+-------case--------pandas.core.dtypes.dtypes.IntervalDtype._closed
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/dtypes/dtypes.py-closed-1163 | {'builtins.NoneType', 'builtins.str'}
+
+-------case--------statsmodels.genmod.families.family.Binomial._link
+{'statsmodels.genmod.families.links.probit', 'statsmodels.genmod.families.links.Logit'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/families/family.py-_getlink-72 | {'statsmodels.genmod.families.links.probit', 'statsmodels.genmod.families.links.Logit'}
+
+-------case--------icecream.icecream.Source._asttext
+{'asttokens.asttokens.ASTText', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/executing/executing.py-asttext-427 | {'asttokens.asttokens.ASTText', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/executing/executing.py-asttext-430 | {'asttokens.asttokens.ASTText', 'builtins.NoneType'}
+
+-------case--------sphinx.jinja2glue.BuiltinTemplateLoader.loaders
+{'builtins.list', 'missing'}
+ /home/user/sphinx-master/sphinx/jinja2glue.py-get_source-207
+
+-------case--------sklearn.linear_model._stochastic_gradient.SGDClassifier.t_
+{'builtins.float', 'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_fit_binary-730
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-fit_binary-483
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_fit_multiclass-790
+
+-------case--------sphinx.writers.texinfo.TexinfoTranslator.first_param
+{'builtins.int', 'missing'}
+ /home/user/sphinx-master/sphinx/writers/texinfo.py-visit_desc_parameter-1472
+
+-------case--------sklearn.multioutput.ClassifierChain.n_features_in_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-402
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in_after_fitting-3713
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-399
+
+-------case--------flask.ctx.RequestContext.flashes
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/helpers.py-get_flashed_messages-430 | {'builtins.NoneType', 'builtins.list'}
+
+-------case--------sklearn.svm._classes.SVC._num_iter
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-fit-282
+
+-------case--------click.shell_completion.ShellComplete.cli
+{'click.core.Command', 'click.core.Group'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/shell_completion.py-get_completions-271 | {'click.core.Command', 'click.core.Group'}
+
+-------case--------sphinx.builders.singlehtml.SingleFileHTMLBuilder.secnumbers
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/writers/html5.py-get_secnumber-270
+ /home/user/sphinx-master/sphinx/writers/html5.py-get_secnumber-277
+ /home/user/sphinx-master/sphinx/writers/html5.py-get_secnumber-278
+
+-------case--------statsmodels.stats.base.HolderTuple.df_denom
+{'numpy.numpy.int64', 'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_means-312
+
+-------case--------kornia.augmentation.random_generator._2d.cutmix.CutmixGenerator.cut_size
+{'torch.Tensor', 'builtins.NoneType'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/cutmix.py-make_samplers-62 | {'torch.Tensor', 'builtins.NoneType'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/cutmix.py-make_samplers-65 | {'torch.Tensor', 'builtins.NoneType'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/cutmix.py-__repr__-54 | {'torch.Tensor', 'builtins.NoneType'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/cutmix.py-forward-85 | {'torch.Tensor', 'builtins.NoneType'}
+
+-------case--------prompt_toolkit.buffer.Buffer.yank_nth_arg_state
+{'prompt_toolkit.buffer.YankNthArgState', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/buffer.py-yank_nth_arg-1080 | {'prompt_toolkit.buffer.YankNthArgState', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/buffer.py-yank_nth_arg-1083 | {'prompt_toolkit.buffer.YankNthArgState', 'builtins.NoneType'}
+
+-------case--------sklearn.covariance._elliptic_envelope.EllipticEnvelope.random_state
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/covariance/_robust_covariance.py-fit-734 | {'builtins.int', 'builtins.NoneType'}
+
+-------case--------sklearn.tree._classes.DecisionTreeClassifier.max_depth
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tree/_classes.py-fit-239 | {'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tree/_classes.py-fit-244 | {'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tree/_classes.py-fit-237 | {'builtins.int', 'builtins.NoneType'}
+
+-------case--------flask.cli.FlaskGroup.name
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/testing.py-get_default_prog_name-195 | {'builtins.NoneType', 'builtins.str'}
+
+-------case--------kornia.augmentation.random_generator._3d.affine.AffineGenerator3D.scale_1_sampler
+{'missing', 'torch.distributions.uniform.Uniform'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-169
+
+-------case--------jinja2.nodes.OverlayScope.context
+{'jinja2.nodes.Call', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_OverlayScope-1924
+
+-------case--------sklearn.kernel_approximation.Nystroem.components_
+{'numpy.numpy.ndarray', 'missing', 'scipy.sparse._csr.csr_matrix'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-transform-973
+
+-------case--------dvc.repo.Repo.url
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/dvc/repo/__init__.py-__str__-234 | {'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/tests/unit/test_external_repo.py-test_subrepo_is_constructed_properly-77 | {'builtins.NoneType', 'builtins.str'}
+
+-------case--------statsmodels.stats.base.HolderTuple.ratio
+{'missing', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_rates_poisson.py-test_twosample_poisson_r-160
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_rates_poisson.py-test_twosample_poisson_r-154
+
+-------case--------dvc_objects._tqdm.Tqdm.start_t
+{'missing', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-close-1291
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1470
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1249
+
+-------case--------requests.models.Response.encoding
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/utils.py-stream_decode_response_unicode-561 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-json-952 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-text-921 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/utils.py-stream_decode_response_unicode-565 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-text-927 | {'builtins.str', 'builtins.NoneType'}
+
+-------case--------sphinx.writers.text.TextTranslator._firstoption
+{'builtins.bool', 'missing'}
+ /home/user/sphinx-master/sphinx/writers/text.py-visit_option-703
+
+-------case--------altair.vegalite.v5.api.Parameter.empty
+{'builtins.bool', 'missing'}
+ /home/user/altair/altair/vegalite/v5/api.py-transform_filter-1586
+ /home/user/altair/altair/vegalite/v5/api.py-param-360
+ /home/user/altair/altair/vegalite/v5/api.py-transform_filter-1585
+ /home/user/altair/altair/vegalite/v5/api.py-param-366
+ /home/user/altair/altair/vegalite/v5/api.py-condition-758
+ /home/user/altair/altair/vegalite/v5/api.py-param-354
+ /home/user/altair/altair/vegalite/v5/api.py-condition-757
+
+-------case--------seaborn.axisgrid.FacetGrid._legend
+{'matplotlib.legend.Legend', 'builtins.NoneType'}
+ /home/user/seaborn/tests/test_regression.py-test_lmplot_hue_col_nolegend-597 | {'matplotlib.legend.Legend', 'builtins.NoneType'}
+
+-------case--------sklearn.linear_model._ridge.RidgeClassifier.n_features_in_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in-3653
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-399
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_ridge.py-fit-2200
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-402
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in_after_fitting-3713
+
+-------case--------statsmodels.stats.robust_compare.TrimmedMean.lowerbound
+{'numpy.numpy.ndarray', 'numpy.numpy.float64', 'numpy.numpy.int64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/robust_compare.py-data_winsorized-141 | {'numpy.numpy.ndarray', 'numpy.numpy.float64', 'numpy.numpy.int64'}
+
+-------case--------nltk.ccg.chart.CCGLeafEdge._hash
+{'builtins.int', 'missing'}
+ /home/user/nltk/nltk/parse/chart.py-__hash__-222
+ /home/user/nltk/nltk/parse/chart.py-__hash__-219
+
+-------case--------jedi.inference.value.klass.ClassName._class_value
+{'jedi.inference.gradual.base.GenericClass', 'jedi.inference.value.klass.ClassValue'}
+ /home/user/jedi/jedi/inference/value/klass.py-infer-72 | {'jedi.inference.gradual.base.GenericClass', 'jedi.inference.value.klass.ClassValue'}
+
+-------case--------sphinx.roles.MenuSelection.text
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-run-249
+ /home/user/sphinx-master/sphinx/roles.py-run-266
+
+-------case--------sklearn.linear_model._passive_aggressive.PassiveAggressiveClassifier.n_features_in_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in-3653
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-399
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in_after_fitting-3746
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-402
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in_after_fitting-3713
+
+-------case--------sklearn.linear_model._perceptron.Perceptron.loss_function_
+{'sklearn.linear_model._sgd_fast.sklearn.linear_model._sgd_fast.Hinge', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-fit_binary-461
+
+-------case--------statsmodels.stats.contingency_tables._Bunch.statistic
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_null_odds-349
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_mcnemar-222
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_exact-50
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_symmetry_bowker-129
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_ordinal_association-175
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_exact-60
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_chisquare-74
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_equal_odds-377
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_cochransq2-196
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_symmetry_bowker-139
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_exact-56
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_symmetry-210
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contingency_tables.py-summary-636
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_symmetry_bowker-122
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_exact-58
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_chi2_association-201
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_chisquare-88
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_homogeneity-44
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_chisquare-90
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_homogeneity-39
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_ordinal_association-183
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contingency_tables.py-summary-1277
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_cochransq-176
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contingency_tables.py-summary-635
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_chisquare-76
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_exact-52
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_chisquare-86
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_cochranq-319
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_exact-54
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_cochransq-169
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_cochransq3-224
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contingency_tables.py-summary-1276
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_mcnemar_chisquare-78
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_nonparametric.py-test_symmetry_bowker-146
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_contingency_tables.py-test_equal_odds-373
+
+-------case--------impacket.IP6_Extension_Headers.Routing_Options._ProtocolLayer__child
+{'impacket.ICMP6.ICMP6', 'impacket.IP6_Extension_Headers.Destination_Options', 'impacket.IP6_Extension_Headers.Hop_By_Hop'}
+ /home/user/impacket/impacket/ImpactPacket.py-child-236 | {'impacket.ICMP6.ICMP6', 'impacket.IP6_Extension_Headers.Destination_Options', 'impacket.IP6_Extension_Headers.Hop_By_Hop'}
+
+-------case--------kornia.augmentation.random_generator._2d.color_jiggle.ColorJiggleGenerator.brightness
+{'builtins.float', 'missing', 'torch.Tensor', 'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jiggle.py-__repr__-55
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jiggle.py-make_samplers-60
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jiggle.py-forward-79
+
+-------case--------sphinx.roles.XRefRole.rawtext
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-create_xref_node-131
+ /home/user/sphinx-master/sphinx/roles.py-create_xref_node-138
+
+-------case--------kornia.augmentation._3d.geometric.vertical_flip.RandomVerticalFlip3D._transform_matrix
+{'torch.Tensor', 'missing'}
+ /home/user/kornia/kornia/augmentation/_3d/base.py-transform_matrix-60
+
+-------case--------statsmodels.regression.linear_model.GLS._df_resid
+{'numpy.numpy.float64', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-355 | {'numpy.numpy.float64', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-df_resid-231 | {'numpy.numpy.float64', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-df_resid-235 | {'numpy.numpy.float64', 'builtins.NoneType'}
+
+-------case--------pelican.writers.Writer.feed_url
+{'missing', 'builtins.str'}
+ /home/user/pelican/pelican/writers.py-_create_new_feed-43
+
+-------case--------jinja2.environment.TemplateModule.__name__
+{'builtins.str', 'builtins.NoneType'}
+ <template>-root-15 | {'builtins.str', 'builtins.NoneType'}
+
+-------case--------sphinx.domains.cpp.Symbol.docname
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-_resolve_xref_inner-8044 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-clear_doc-4337 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-get_objects-8115 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-get_objects-8120 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-_add_template_and_function_params-4322 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-_add_template_and_function_params-4309 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-_assert_invariants-4224 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-add_target_and_index-7283 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-_assert_invariants-4227 | {'builtins.str', 'builtins.NoneType'}
+
+-------case--------weasyprint.formatting_structure.boxes.TableCaptionBox.border_bottom_width
+{'builtins.int', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_container_layout-649
+
+-------case--------sklearn.naive_bayes.CategoricalNB.n_features_in_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in-3653
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-n_features_-747
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_update_feature_log_prob-1412
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-399
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_joint_log_likelihood-1423
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_count-1401
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in_after_fitting-3746
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-402
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in_after_fitting-3713
+
+-------case--------dvc.repo.experiments.executor.base.ExecutorInfo.result_hash
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/dvc/repo/experiments/executor/base.py-from_info-215 | {'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/dvc/repo/experiments/executor/base.py-result-94 | {'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/dvc/repo/experiments/executor/base.py-from_info-213 | {'builtins.NoneType', 'builtins.str'}
+ /home/user/dvc/dvc/repo/experiments/executor/base.py-result-97 | {'builtins.NoneType', 'builtins.str'}
+
+-------case--------sklearn.model_selection._search_successive_halving.HalvingRandomSearchCV.best_index_
+{'numpy.numpy.int64', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-fit-898
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search_successive_halving.py-fit-264
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-fit-900
+
+-------case--------sklearn.model_selection._split.ShuffleSplit.train_size
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_split.py-_iter_indices-1733 | {'builtins.int', 'builtins.NoneType'}
+
+-------case--------requests.models.Request.cookies
+{'http.cookiejar.CookieJar', 'builtins.NoneType', 'builtins.dict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare-308 | {'http.cookiejar.CookieJar', 'builtins.NoneType', 'builtins.dict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-prepare_request-467 | {'http.cookiejar.CookieJar', 'builtins.NoneType', 'builtins.dict'}
+
+-------case--------kornia.augmentation._2d.intensity.normalize.Normalize._transform_matrix
+{'torch.Tensor', 'missing'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+-------case--------kornia.augmentation.random_generator._2d.affine.AffineGenerator.shear_y_sampler
+{'builtins.NoneType', 'missing', 'torch.distributions.uniform.Uniform'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-forward-174
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-forward-172
+
+-------case--------sklearn.model_selection._search.RandomizedSearchCV.best_index_
+{'numpy.numpy.int64', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-fit-898
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-fit-900
+
+-------case--------dvc_task.contrib.kombu_filesystem.FilesystemChannel._qos
+{'kombu.transport.virtual.base.QoS', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/kombu/transport/virtual/base.py-close-777 | {'kombu.transport.virtual.base.QoS', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/kombu/transport/virtual/base.py-qos-815 | {'kombu.transport.virtual.base.QoS', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/kombu/transport/virtual/base.py-qos-813 | {'kombu.transport.virtual.base.QoS', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/kombu/transport/virtual/base.py-close-776 | {'kombu.transport.virtual.base.QoS', 'builtins.NoneType'}
+
+-------case--------kornia.augmentation.random_generator._2d.crop.ResizedCropGenerator.ratio
+{'torch.Tensor', 'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-make_samplers-193 | {'torch.Tensor', 'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-__repr__-188 | {'torch.Tensor', 'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-202 | {'torch.Tensor', 'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-232 | {'torch.Tensor', 'builtins.tuple'}
+
+-------case--------sklearn.linear_model._passive_aggressive.PassiveAggressiveClassifier.random_state
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_make_validation_split-296 | {'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_fit_binary-727 | {'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_fit_multiclass-761 | {'builtins.int', 'builtins.NoneType'}
+
+-------case--------sphinx.util.logging.NewLineStreamHandler.formatter
+{'sphinx.util.logging.ColorizeFormatter', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/Lib/logging/__init__.py-format-924 | {'sphinx.util.logging.ColorizeFormatter', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/Lib/logging/__init__.py-format-923 | {'sphinx.util.logging.ColorizeFormatter', 'builtins.NoneType'}
+
+-------case--------nltk.translate.ibm_model.AlignmentInfo.score
+{'builtins.NoneType', 'builtins.float'}
+ /home/user/nltk/nltk/translate/ibm_model.py-sample-178 | {'builtins.float'}
+
+-------case--------jinja2.nodes.EvalContext.autoescape
+{'builtins.bool', 'missing'}
+ <template>-root-19
+ <template>-root-45
+ <template>-root-49
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-__call__-381
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Concat-1688
+ <template>-macro-25
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/filters.py-do_urlize-778
+ <template>-root-24
+ <template>-root-36
+ <template>-root-27
+ <template>-macro-42
+ <template>-macro-35
+ <template>-root-21
+ <template>-root-23
+ <template>-root-13
+ <template>-macro-29
+ <template>-root-28
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-_output_child_to_const-1443
+ <template>-root-78
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/filters.py-sync_do_join-570
+ <template>-root-16
+ <template>-root-12
+ <template>-root-30
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/ext.py-npgettext-236
+ <template>-root-29
+ <template>-root-17
+ <template>-macro-24
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/filters.py-do_replace-196
+ <template>-root-31
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-_async_call-369
+ <template>-root-39
+ <template>-root-20
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-return_buffer_contents-409
+ <template>-root-51
+ <template>-root-40
+ <template>-macro-26
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-616
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-__call__-707
+ <template>-root-41
+ <template>-root-43
+ <template>-block_body-26
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-_output_child_pre-1460
+ <template>-root-52
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Filter-1807
+ <template>-root-22
+ <template>-root-57
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/ext.py-ngettext-195
+ <template>-macro-74
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/ext.py-pgettext-211
+ /home/user/jinja/tests/test_api.py-finalize-67
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/filters.py-do_xmlattr-286
+ <template>-root-33
+ <template>-root-25
+ <template>-root-34
+ <template>-root-32
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/ext.py-gettext-174
+ <template>-root-35
+ <template>-root-26
+ <template>-root-48
+
+-------case--------sklearn.naive_bayes.GaussianNB.epsilon_
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_partial_fit-474
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_partial_fit-442
+
+-------case--------statsmodels.regression.linear_model.WLS._df_resid
+{'numpy.numpy.float64', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-355 | {'numpy.numpy.float64', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-df_resid-231 | {'numpy.numpy.float64', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-df_resid-235 | {'numpy.numpy.float64', 'builtins.NoneType'}
+
+-------case--------sklearn.impute._iterative.IterativeImputer.estimator
+{'sklearn.pipeline.Pipeline', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/impute/_iterative.py-fit_transform-621 | /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/impute/_iterative.py
+
+-------case--------sklearn.tree._classes.DecisionTreeClassifier.max_features_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tree/_classes.py-fit-421
+
+-------case--------sphinx.roles.PEP.options
+{'builtins.dict', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/docutils/parsers/rst/roles.py-set_implicit_options-187
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/docutils/parsers/rst/roles.py-set_implicit_options-185
+
+-------case--------sklearn.discriminant_analysis.LinearDiscriminantAnalysis.covariance_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_discriminant_analysis.py-test_lda_store_covariance-427
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/discriminant_analysis.py-_solve_eigen-441
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/discriminant_analysis.py-_solve_lsqr-386
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_discriminant_analysis.py-test_lda_predict_proba-183
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_discriminant_analysis.py-test_lda_store_covariance-415
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_discriminant_analysis.py-test_lda_ledoitwolf-477
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_discriminant_analysis.py-test_lda_shrinkage-447
+
+-------case--------jedi.inference.imports.Importer._module_context
+{'jedi.inference.gradual.stub_value.StubModuleContext', 'jedi.api.interpreter.MixedModuleContext', 'jedi.inference.context.NamespaceContext', 'jedi.inference.gradual.stub_value.StubModuleValue', 'jedi.inference.context.ModuleContext', 'jedi.inference.gradual.stub_value.TypingModuleContext'}
+ /home/user/jedi/jedi/inference/imports.py-_get_module_names-310 | {'jedi.inference.gradual.stub_value.StubModuleContext', 'jedi.api.interpreter.MixedModuleContext', 'jedi.inference.context.NamespaceContext', 'jedi.inference.gradual.stub_value.StubModuleValue', 'jedi.inference.context.ModuleContext', 'jedi.inference.gradual.stub_value.TypingModuleContext'}
+ /home/user/jedi/jedi/inference/imports.py-_sys_path_with_modifications-243 | {'jedi.inference.gradual.stub_value.StubModuleContext', 'jedi.api.interpreter.MixedModuleContext', 'jedi.inference.context.NamespaceContext', 'jedi.inference.gradual.stub_value.StubModuleValue', 'jedi.inference.context.ModuleContext', 'jedi.inference.gradual.stub_value.TypingModuleContext'}
+ /home/user/jedi/jedi/inference/imports.py-follow-297 | {'jedi.inference.gradual.stub_value.StubModuleContext', 'jedi.api.interpreter.MixedModuleContext', 'jedi.inference.context.NamespaceContext', 'jedi.inference.gradual.stub_value.StubModuleValue', 'jedi.inference.context.ModuleContext', 'jedi.inference.gradual.stub_value.TypingModuleContext'}
+
+-------case--------kornia.augmentation.random_generator._2d.mixup.MixupGenerator.prob_sampler
+{'torch.distributions.bernoulli.Bernoulli', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/mixup.py-forward-57
+
+-------case--------dvc_data.index.index.DataIndexEntry.loaded
+{'builtins.bool', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-_ensure_loaded-578 | {'builtins.bool', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-_load-481 | {'builtins.bool', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-to_dict-69 | {'builtins.bool', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-_ensure_loaded-575 | {'builtins.bool', 'builtins.NoneType'}
+
+
+-------case--------seaborn.categorical._CategoricalAggPlotter.ax
+{'missing', 'matplotlib.axes._subplots.AxesSubplot'}
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1149
+ /home/user/seaborn/seaborn/categorical.py-plot_points-706
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1152
+ /home/user/seaborn/seaborn/_oldcore.py-_log_scaled-1302
+ /home/user/seaborn/seaborn/_oldcore.py-_log_scaled-1305
+ /home/user/seaborn/seaborn/categorical.py-plot_bars-762
+
+-------case--------pyro.infer.autoguide.guides.AutoNormal.plates
+{'builtins.dict', 'missing'}
+ /home/user/pyro/pyro/infer/autoguide/guides.py-_create_plates-150
+
+-------case--------sphinx.config.Config.extlinks
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/ext/extlinks.py-setup_link_roles-110
+
+-------case--------sklearn.dummy.DummyRegressor.constant
+{'builtins.int', 'numpy.numpy.ndarray', 'builtins.NoneType', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/dummy.py-fit-610 | {'builtins.int', 'numpy.numpy.ndarray', 'builtins.NoneType', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/dummy.py-fit-603 | {'builtins.int', 'numpy.numpy.ndarray', 'builtins.NoneType', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_dummy.py-test_constant_strategy_regressor-429 | {'builtins.int', 'numpy.numpy.ndarray', 'builtins.NoneType', 'builtins.list'}
+
+-------case--------featuretools.feature_base.feature_base.GroupByTransformFeature._names
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/featuretools/featuretools/feature_base/feature_base.py-get_feature_names-113 | {'builtins.list', 'builtins.NoneType'}
+ /home/user/featuretools/featuretools/feature_base/feature_base.py-get_feature_names-103 | {'builtins.list', 'builtins.NoneType'}
+
+-------case--------sklearn.ensemble._bagging.BaggingClassifier._seeds
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_bagging.py-_get_estimators_indices-476
+
+-------case--------jinja2.nodes.AssignBlock.filter
+{'jinja2.nodes.Filter', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_AssignBlock-1580 | {'jinja2.nodes.Filter', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_AssignBlock-1581 | {'jinja2.nodes.Filter', 'builtins.NoneType'}
+
+-------case--------sphinx.domains.std.TokenXRefRole.disabled
+{'builtins.bool', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-run-103
+
+-------case--------nltk.ccg.api.FunctionalCategory._hash
+{'builtins.int', 'missing'}
+ /home/user/nltk/nltk/ccg/api.py-__hash__-77
+ /home/user/nltk/nltk/ccg/api.py-__hash__-80
+
+-------case--------sphinx.config.Config.numfig
+{'builtins.bool', 'missing'}
+ /home/user/sphinx-master/sphinx/util/math.py-get_node_equation_number-11
+ /home/user/sphinx-master/sphinx/domains/math.py-resolve_xref-101
+ /home/user/sphinx-master/sphinx/domains/std.py-_resolve_numref_xref-869
+ /home/user/sphinx-master/sphinx/environment/collectors/toctree.py-assign_figure_numbers-323
+
+-------case--------sphinx.transforms.SphinxContentsFilter.parent
+{'docutils.nodes.math', 'docutils.nodes.Text', 'docutils.nodes.title', 'docutils.nodes.inline', 'builtins.list', 'docutils.nodes.literal'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/docutils/nodes.py-get_tree_copy-2118 | {'docutils.nodes.math', 'docutils.nodes.Text', 'docutils.nodes.title', 'docutils.nodes.inline', 'builtins.list', 'docutils.nodes.literal'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/docutils/nodes.py-default_visit-2123 | {'docutils.nodes.math', 'docutils.nodes.Text', 'docutils.nodes.title', 'docutils.nodes.inline', 'builtins.list', 'docutils.nodes.literal'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/docutils/nodes.py-default_visit-2124 | {'docutils.nodes.math', 'docutils.nodes.Text', 'docutils.nodes.title', 'docutils.nodes.inline', 'builtins.list', 'docutils.nodes.literal'}
+
+-------case--------sklearn.random_projection.GaussianRandomProjection.random_state
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/random_projection.py-_make_random_matrix-568 | {'builtins.int', 'builtins.NoneType'}
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnBox.children
+{'builtins.tuple', 'builtins.list'}
+ /home/user/WeasyPrint-52.5/weasyprint/tests/test_boxes.py-<listcomp>-47 | {'builtins.tuple', 'builtins.list'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-anonymous_table_boxes-762 | {'builtins.tuple', 'builtins.list'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/preferred.py-_block_content_width-99 | {'builtins.tuple', 'builtins.list'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-all_children-303 | {'builtins.tuple', 'builtins.list'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/build.py-process_whitespace-1236 | {'builtins.tuple', 'builtins.list'}
+
+-------case--------click.shell_completion.BashComplete.cli
+{'click.core.Command', 'click.core.Group'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/shell_completion.py-get_completions-271 | {'click.core.Command', 'click.core.Group'}
+
+-------case--------sklearn.preprocessing._data.QuantileTransformer.n_quantiles_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_data.py-fit-2593
+
+-------case--------sphinx.config.Config.root_doc
+{'builtins.str', 'builtins.int', 'missing'}
+ /home/user/sphinx-master/sphinx/environment/collectors/toctree.py-assign_figure_numbers-324
+ /home/user/sphinx-master/sphinx/builders/singlehtml.py-get_doc_context-121
+ /home/user/sphinx-master/sphinx/environment/__init__.py-collect_relations-698
+ /home/user/sphinx-master/sphinx/builders/_epub_base.py-toc_add_files-244
+ /home/user/sphinx-master/sphinx/builders/singlehtml.py-assemble_toc_fignumbers-117
+ /home/user/sphinx-master/sphinx/builders/_epub_base.py-get_toc-230
+ /home/user/sphinx-master/sphinx/config.py-check_root_doc-497
+ /home/user/sphinx-master/sphinx/builders/singlehtml.py-assemble_toc_secnumbers-96
+ /home/user/sphinx-master/sphinx/builders/singlehtml.py-get_target_uri-39
+ /home/user/sphinx-master/sphinx/builders/singlehtml.py-write-157
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-prepare_writing-543
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-prepare_writing-544
+ /home/user/sphinx-master/sphinx/builders/singlehtml.py-write-158
+ /home/user/sphinx-master/sphinx/builders/singlehtml.py-assemble_doctree-72
+ /home/user/sphinx-master/sphinx/environment/__init__.py-master_doctree-600
+ /home/user/sphinx-master/sphinx/builders/__init__.py-write-568
+ /home/user/sphinx-master/sphinx/environment/__init__.py-check_consistency-716
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-default_latex_documents-503
+ /home/user/sphinx-master/sphinx/builders/manpage.py-default_man_pages-110
+ /home/user/sphinx-master/sphinx/builders/__init__.py-read-438
+ /home/user/sphinx-master/sphinx/builders/singlehtml.py-fix_refuris-51
+ /home/user/sphinx-master/tests/test_config.py-test_core_config-27
+ /home/user/sphinx-master/tests/test_config.py-test_extension_values-77
+ /home/user/sphinx-master/sphinx/builders/texinfo.py-default_texinfo_documents-204
+ /home/user/sphinx-master/sphinx/builders/epub3.py-build_navigation_doc-179
+ /home/user/sphinx-master/sphinx/builders/_epub_base.py-get_toc-226
+ /home/user/sphinx-master/sphinx/builders/_epub_base.py-build_toc-677
+ /home/user/sphinx-master/sphinx/builders/_epub_base.py-toc_add_files-242
+ /home/user/sphinx-master/sphinx/builders/__init__.py-read-436
+
+-------case--------seaborn.categorical._CategoricalPlotter.colors
+{'seaborn.palettes._ColorPalette', 'missing'}
+ /home/user/seaborn/tests/test_categorical.py-test_specific_color-483
+ /home/user/seaborn/tests/test_categorical.py-test_specific_palette-493
+ /home/user/seaborn/seaborn/categorical.py-catplot-3621
+ /home/user/seaborn/tests/test_categorical.py-test_default_palette_with_many_levels-466
+ /home/user/seaborn/tests/test_categorical.py-test_default_palettes-453
+ /home/user/seaborn/tests/test_categorical.py-test_palette_desaturation-522
+ /home/user/seaborn/tests/test_categorical.py-test_specific_palette-498
+ /home/user/seaborn/tests/test_categorical.py-test_specific_palette-504
+ /home/user/seaborn/tests/test_categorical.py-test_dict_as_palette-512
+ /home/user/seaborn/tests/test_categorical.py-test_specific_color-477
+ /home/user/seaborn/tests/test_categorical.py-test_palette_desaturation-519
+ /home/user/seaborn/tests/test_categorical.py-test_default_palettes-458
+
+-------case--------kornia.augmentation.random_generator._3d.affine.AffineGenerator3D.degrees
+{'builtins.tuple', 'missing', 'builtins.float', 'builtins.list', 'builtins.int', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-make_samplers-102
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-157
+
+-------case--------sklearn.cross_decomposition._pls.PLSRegression.y_rotations_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/cross_decomposition/_pls.py-transform-399
+
+-------case--------jinja2.nodes.Const.value
+{'builtins.str', 'builtins.list', 'builtins.dict', 'builtins.int', 'builtins.float', 'builtins.NoneType', 'markupsafe.Markup', 'builtins.bool', 'builtins.tuple'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-586 | {'builtins.str', 'builtins.list', 'builtins.dict', 'builtins.int', 'builtins.float', 'builtins.NoneType', 'markupsafe.Markup', 'builtins.bool', 'builtins.tuple'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/meta.py-find_referenced_templates-88 | {'builtins.str', 'builtins.list', 'builtins.dict', 'builtins.int', 'builtins.float', 'builtins.NoneType', 'markupsafe.Markup', 'builtins.bool', 'builtins.tuple'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/meta.py-find_referenced_templates-99 | {'builtins.str', 'builtins.list', 'builtins.dict', 'builtins.int', 'builtins.float', 'builtins.NoneType', 'markupsafe.Markup', 'builtins.bool', 'builtins.tuple'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/meta.py-find_referenced_templates-98 | {'builtins.str', 'builtins.list', 'builtins.dict', 'builtins.int', 'builtins.float', 'builtins.NoneType', 'markupsafe.Markup', 'builtins.bool', 'builtins.tuple'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/meta.py-find_referenced_templates-89 | {'builtins.str', 'builtins.list', 'builtins.dict', 'builtins.int', 'builtins.float', 'builtins.NoneType', 'markupsafe.Markup', 'builtins.bool', 'builtins.tuple'}
+ /home/user/jinja/tests/test_api.py-visit_Const-412 | {'builtins.str', 'builtins.list', 'builtins.dict', 'builtins.int', 'builtins.float', 'builtins.NoneType', 'markupsafe.Markup', 'builtins.bool', 'builtins.tuple'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/ext.py-extract_from_ast-698 | {'builtins.str', 'builtins.list', 'builtins.dict', 'builtins.int', 'builtins.float', 'builtins.NoneType', 'markupsafe.Markup', 'builtins.bool', 'builtins.tuple'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Include-1038 | {'builtins.str', 'builtins.list', 'builtins.dict', 'builtins.int', 'builtins.float', 'builtins.NoneType', 'markupsafe.Markup', 'builtins.bool', 'builtins.tuple'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/ext.py-extract_from_ast-697 | {'builtins.str', 'builtins.list', 'builtins.dict', 'builtins.int', 'builtins.float', 'builtins.NoneType', 'markupsafe.Markup', 'builtins.bool', 'builtins.tuple'}
+
+-------case--------sklearn.kernel_approximation.PolynomialCountSketch.coef0
+{'builtins.float', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-transform-190 | {'builtins.float', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-transform-196 | {'builtins.float', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-fit-157 | {'builtins.float', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-transform-188 | {'builtins.float', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-transform-194 | {'builtins.float', 'builtins.int'}
+
+-------case--------flask.ctx.AppContext.g
+{'flask.ctx._AppCtxGlobals', 'test_appctx.CustomRequestGlobals'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/templating.py-_default_template_ctx_processor-26 | {'flask.ctx._AppCtxGlobals', 'test_appctx.CustomRequestGlobals'}
+
+-------case--------sklearn.preprocessing._encoders.OneHotEncoder._infrequent_enabled
+{'missing', 'builtins.bool'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py-_compute_n_features_outs-787
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py-_compute_transformed_categories-758
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py-fit-822
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py-fit-824
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py-_map_infrequent_categories-726
+
+-------case--------sklearn.linear_model._ridge.RidgeClassifier.alpha
+{'builtins.float', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_ridge.py-fit-892 | {'flask.ctx._AppCtxGlobals', 'test_appctx.CustomRequestGlobals'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_ridge.py-fit-2195 | {'flask.ctx._AppCtxGlobals', 'test_appctx.CustomRequestGlobals'}
+
+-------case--------sklearn.cluster._affinity_propagation.AffinityPropagation.affinity_matrix_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/cluster/_affinity_propagation.py-fit-488
+
+-------case--------sphinx.ext.autodoc.FunctionDocumenter.real_modname
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-generate-891
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-generate-905
+
+-------case--------jedi.inference.value.instance.InstanceExecutedParamName._instance
+{'jedi.inference.value.klass.ClassValue', 'jedi.inference.value.instance.AnonymousInstance'}
+ /home/user/jedi/jedi/inference/value/instance.py-infer-33 | {'jedi.inference.value.klass.ClassValue', 'jedi.inference.value.instance.AnonymousInstance'}
+
+-------case--------kornia.augmentation._2d.geometric.horizontal_flip.RandomHorizontalFlip._transform_matrix
+{'torch.Tensor', 'missing'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+-------case--------sphinx.config.Config.linkcheck_anchors_ignore
+{'builtins.list', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/linkcheck.py-__init__-260
+
+-------case--------prompt_toolkit.buffer.Buffer.auto_suggest
+{'prompt_toolkit.auto_suggest.DynamicAutoSuggest', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/buffer.py-insert_text-1258 | {'prompt_toolkit.auto_suggest.DynamicAutoSuggest', 'builtins.NoneType'}
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnBox.position_x
+{'builtins.float', 'builtins.int', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/tables.py-table_layout-509
+ /home/user/WeasyPrint-52.5/weasyprint/layout/tables.py-table_layout-507
+
+-------case--------cookiecutter.main._patch_import_path_for_repo._path
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/cookiecutter/cookiecutter/main.py-__exit__-149 | {'builtins.list'}
+
+-------case--------sklearn.linear_model._least_angle.LassoLarsCV.cv
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_least_angle.py-fit-1680 | {'builtins.int', 'builtins.NoneType'}
+
+-------case--------kornia.augmentation.random_generator._2d.resize.ResizeGenerator.dtype
+{'missing', 'torch.torch.dtype'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/resize.py-forward-52
+
+-------case--------sklearn.linear_model._passive_aggressive.PassiveAggressiveRegressor.random_state
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_make_validation_split-296 | {'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_fit_regressor-1622 | {'builtins.int', 'builtins.NoneType'}
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.unit
+{'missing', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1472
+
+-------case--------sphinx.domains.std.EnvVarXRefRole.reftype
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-run-101
+ /home/user/sphinx-master/sphinx/roles.py-create_xref_node-128
+
+-------case--------pyro.distributions.transforms.householder.Householder._inv
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/distributions/transforms.py-inv-118 | {'builtins.weakref', 'builtins.NoneType'}
+
+-------case--------sklearn.svm._classes.NuSVR._probA
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-_sparse_predict-503
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-_dense_predict-461
+
+-------case--------stanza.models.common.doc.Word._deprel
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/models/common/doc.py-deprel-1051 | {'builtins.str'}
+
+-------case--------click.core.Group.name
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/click/tests/test_shell_completion.py-_get_completions-15 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-_make_sub_context-707 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-to_info_dict-873 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/testing.py-get_default_prog_name-195 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-_check_multicommand-83 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-__repr__-876 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-_check_multicommand-87 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-<dictcomp>-1797 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-add_command-1806 | {'builtins.str', 'builtins.NoneType'}
+
+-------case--------sklearn.linear_model._coordinate_descent.ElasticNet.random_state
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py-fit-1074 | {'builtins.int', 'builtins.NoneType'}
+
+-------case--------weasyprint.formatting_structure.boxes.TableCaptionBox.margin_bottom
+{'builtins.float', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_level_layout-37
+
+-------case--------mypy.checkmember.MemberContext.context
+{'mypy.nodes.ComparisonExpr', 'mypy.nodes.ListExpr', 'mypy.nodes.OpExpr', 'mypy.nodes.StrExpr', 'mypy.nodes.CallExpr', 'mypy.nodes.MemberExpr', 'mypy.nodes.IntExpr', 'mypy.nodes.NameExpr', 'mypy.nodes.FuncDef'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_class_attribute_access-1005 | {'mypy.nodes.ComparisonExpr', 'mypy.nodes.ListExpr', 'mypy.nodes.OpExpr', 'mypy.nodes.StrExpr', 'mypy.nodes.CallExpr', 'mypy.nodes.MemberExpr', 'mypy.nodes.IntExpr', 'mypy.nodes.NameExpr', 'mypy.nodes.FuncDef'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_member_var_access-513 | {'mypy.nodes.ComparisonExpr', 'mypy.nodes.ListExpr', 'mypy.nodes.OpExpr', 'mypy.nodes.StrExpr', 'mypy.nodes.CallExpr', 'mypy.nodes.MemberExpr', 'mypy.nodes.IntExpr', 'mypy.nodes.NameExpr', 'mypy.nodes.FuncDef'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_var-787 | {'mypy.nodes.ComparisonExpr', 'mypy.nodes.ListExpr', 'mypy.nodes.OpExpr', 'mypy.nodes.StrExpr', 'mypy.nodes.CallExpr', 'mypy.nodes.MemberExpr', 'mypy.nodes.IntExpr', 'mypy.nodes.NameExpr', 'mypy.nodes.FuncDef'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-report_missing_attribute-274 | {'mypy.nodes.ComparisonExpr', 'mypy.nodes.ListExpr', 'mypy.nodes.OpExpr', 'mypy.nodes.StrExpr', 'mypy.nodes.CallExpr', 'mypy.nodes.MemberExpr', 'mypy.nodes.IntExpr', 'mypy.nodes.NameExpr', 'mypy.nodes.FuncDef'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_instance_member_access-290 | {'mypy.nodes.ComparisonExpr', 'mypy.nodes.ListExpr', 'mypy.nodes.OpExpr', 'mypy.nodes.StrExpr', 'mypy.nodes.CallExpr', 'mypy.nodes.MemberExpr', 'mypy.nodes.IntExpr', 'mypy.nodes.NameExpr', 'mypy.nodes.FuncDef'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_class_attribute_access-929 | {'mypy.nodes.ComparisonExpr', 'mypy.nodes.ListExpr', 'mypy.nodes.OpExpr', 'mypy.nodes.StrExpr', 'mypy.nodes.CallExpr', 'mypy.nodes.MemberExpr', 'mypy.nodes.IntExpr', 'mypy.nodes.NameExpr', 'mypy.nodes.FuncDef'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_class_attribute_access-911 | {'mypy.nodes.ComparisonExpr', 'mypy.nodes.ListExpr', 'mypy.nodes.OpExpr', 'mypy.nodes.StrExpr', 'mypy.nodes.CallExpr', 'mypy.nodes.MemberExpr', 'mypy.nodes.IntExpr', 'mypy.nodes.NameExpr', 'mypy.nodes.FuncDef'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_class_attribute_access-982 | {'mypy.nodes.ComparisonExpr', 'mypy.nodes.ListExpr', 'mypy.nodes.OpExpr', 'mypy.nodes.StrExpr', 'mypy.nodes.CallExpr', 'mypy.nodes.MemberExpr', 'mypy.nodes.IntExpr', 'mypy.nodes.NameExpr', 'mypy.nodes.FuncDef'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_class_attribute_access-996 | {'mypy.nodes.ComparisonExpr', 'mypy.nodes.ListExpr', 'mypy.nodes.OpExpr', 'mypy.nodes.StrExpr', 'mypy.nodes.CallExpr', 'mypy.nodes.MemberExpr', 'mypy.nodes.IntExpr', 'mypy.nodes.NameExpr', 'mypy.nodes.FuncDef'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_instance_member_access-317 | {'mypy.nodes.ComparisonExpr', 'mypy.nodes.ListExpr', 'mypy.nodes.OpExpr', 'mypy.nodes.StrExpr', 'mypy.nodes.CallExpr', 'mypy.nodes.MemberExpr', 'mypy.nodes.IntExpr', 'mypy.nodes.NameExpr', 'mypy.nodes.FuncDef'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/checkmember.py-analyze_instance_member_access-330 | {'mypy.nodes.ComparisonExpr', 'mypy.nodes.ListExpr', 'mypy.nodes.OpExpr', 'mypy.nodes.StrExpr', 'mypy.nodes.CallExpr', 'mypy.nodes.MemberExpr', 'mypy.nodes.IntExpr', 'mypy.nodes.NameExpr', 'mypy.nodes.FuncDef'}
+
+-------case--------seaborn.categorical._ViolinPlotter.value_label
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/categorical.py-annotate_axes-1190 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/categorical.py-annotate_axes-1192 | {'builtins.str', 'builtins.NoneType'}
+
+-------case--------sklearn.linear_model._ransac.RANSACRegressor.residual_threshold
+{'builtins.float', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_ransac.py-fit-360 | {'builtins.float', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_ransac.py-fit-364 | {'builtins.float', 'builtins.NoneType'}
+
+-------case--------sklearn.decomposition._nmf.MiniBatchNMF.random_state
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_nmf.py-_check_w_h-1540 | {'builtins.int', 'builtins.NoneType'}
+
+-------case--------sklearn.covariance._shrunk_covariance.ShrunkCovariance.n_features_in_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-402
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-399
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in_after_fitting-3713
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in-3653
+
+-------case--------sklearn.calibration.CalibrationDisplay.figure_
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_calibration.py-test_calibration_display_compute-710
+
+-------case--------pelican.contents.Page.slug
+{'missing', 'builtins.str'}
+ /home/user/pelican/pelican/tests/test_contents.py-test_slug-176
+ /home/user/pelican/pelican/tests/test_contents.py-test_slug-148
+ /home/user/pelican/pelican/tests/test_contents.py-test_slug-151
+
+-------case--------jinja2.nodes.Assign.target
+{'jinja2.nodes.NSRef', 'jinja2.nodes.Name'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Assign-1561 | {'jinja2.nodes.NSRef', 'jinja2.nodes.Name'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/idtracking.py-visit_Assign-289 | {'jinja2.nodes.NSRef', 'jinja2.nodes.Name'}
+
+-------case--------flask.testing.EnvironBuilder._input_stream
+{'builtins.NoneType', '_io._io.BytesIO'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/test.py-content_type-536 | {'builtins.NoneType', '_io._io.BytesIO'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/test.py-input_stream-649 | {'builtins.NoneType', '_io._io.BytesIO'}
+
+-------case--------kornia.augmentation._2d.intensity.gaussian_blur.RandomGaussianBlur._transform_matrix
+{'torch.Tensor', 'missing'}
+ /home/user/kornia/kornia/augmentation/_2d/base.py-transform_matrix-62
+
+-------case--------rich._log_render.LogRender.level_width
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/rich/rich-master/rich/_log_render.py-__call__-51 | {'builtins.int', 'builtins.NoneType'}
+
+-------case--------seaborn.categorical._CategoricalAggPlotter._redundant_hue
+{'builtins.bool', 'missing', 'numpy.numpy.bool_'}
+ /home/user/seaborn/seaborn/categorical.py-_configure_legend-335
+
+-------case--------sklearn.pipeline.FeatureUnion.n_jobs
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/pipeline.py-transform-1204 | {'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_pipeline.py-test_make_union_kwargs-541 | {'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/pipeline.py-_parallel_func-1176 | {'builtins.int', 'builtins.NoneType'}
+
+-------case--------sklearn.multiclass.OneVsRestClassifier.n_features_in_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in-3653
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multiclass.py-test_pairwise_n_features_in-797
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multioutput.py-fit-210
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multiclass.py-test_pairwise_n_features_in-817
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in_after_fitting-3713
+
+-------case--------sklearn.linear_model._logistic.LogisticRegressionCV.random_state
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py-<genexpr>-1814 | {'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py-fit-1917 | {'builtins.int', 'builtins.NoneType'}
+
+-------case--------sklearn.cluster._bicluster.SpectralBiclustering.row_labels_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/cluster/_bicluster.py-<listcomp>-592
+
+-------case--------pelican.contents.Page.source_path
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/pelican/pelican/contents.py-attach_to-583 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/pelican/pelican/contents.py-__str__-147 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/pelican/pelican/utils.py-<lambda>-726 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/pelican/pelican/contents.py-get_relative_source_path-462 | {'builtins.str', 'builtins.NoneType'}
+ /home/user/pelican/pelican/contents.py-relative_dir-479 | {'builtins.str'}
+
+-------case--------dvc_objects._tqdm.Tqdm.fp
+{'missing', 'tqdm.utils.DisableOnWriteError'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-moveto-1458
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__init__-1107
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-fp_write-1301
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-external_write_mode-641
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-external_write_mode-640
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-moveto-1457
+
+-------case--------kornia.augmentation.random_generator._2d.random_rain.RainGenerator.drop_height_sampler
+{'missing', 'torch.distributions.uniform.Uniform'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/random_rain.py-forward-61
+
+-------case--------jinja2.nodes.DerivedContextReference.lineno
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-set_lineno-224 | {'builtins.int', 'builtins.NoneType'}
+
+-------case--------sphinx.addnodes.seealso.source
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/docutils/nodes.py-setup_child-108 | {'builtins.str', 'builtins.NoneType'}
+
+-------case--------seaborn._marks.line.Range.color
+{'seaborn._marks.base.Mappable', 'builtins.str'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_direct_properties-316 | {'seaborn._marks.base.Mappable', 'builtins.str'}
+
+-------case--------jinja2.nodes.Pair.lineno
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-set_lineno-224 | {'builtins.int', 'builtins.NoneType'}
+
+-------case--------pyod.models.kpca.PyODKernelPCA.remove_zero_eig
+{'builtins.NoneType', 'builtins.bool'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-_fit_transform-365 | {'builtins.NoneType', 'builtins.bool'}
+
+-------case--------sklearn.neighbors._graph.RadiusNeighborsTransformer._fit_method
+{'missing', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_base.py-radius_neighbors-1159
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_base.py-_fit-579
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_base.py-_fit-572
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_base.py-radius_neighbors-1115
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_base.py-radius_neighbors-1109
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_base.py-radius_neighbors-1090
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_base.py-_fit-535
+
+-------case--------kornia.feature.mkd.Whitening.xform
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/kornia/kornia/feature/mkd.py-__repr__-470 | {'builtins.NoneType', 'builtins.str'}
+ /home/user/kornia/kornia/feature/mkd.py-load_whitening_parameters-423 | {'builtins.NoneType', 'builtins.str'}
+ /home/user/kornia/kornia/feature/mkd.py-load_whitening_parameters-437 | {'builtins.str'}
+
+-------case--------jinja2.environment.TemplateModule.bar
+{'jinja2.runtime.Macro', 'missing'}
+ /home/user/jinja/tests/test_core_tags.py-test_macro_api-441
+ /home/user/jinja/tests/test_core_tags.py-test_macro_api-438
+ /home/user/jinja/tests/test_core_tags.py-test_macro_api-439
+ /home/user/jinja/tests/test_core_tags.py-test_macro_api-440
+
+-------case--------kornia.augmentation.random_generator._2d.color_jiggle.ColorJiggleGenerator.hue
+{'builtins.float', 'torch.Tensor', 'missing', 'builtins.list'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jiggle.py-__repr__-55
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jiggle.py-make_samplers-63
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/color_jiggle.py-forward-79
+
+-------case--------sklearn.preprocessing._data.RobustScaler.center_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_data.py-transform-1560
+
+-------case--------sklearn.tree._classes.DecisionTreeRegressor.random_state
+{'builtins.int', 'builtins.NoneType', 'numpy.random.mtrand.numpy.random.mtrand.RandomState'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_forest.py-_compute_oob_predictions-575 | {'builtins.int', 'builtins.NoneType', 'numpy.random.mtrand.numpy.random.mtrand.RandomState'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_forest.py-_parallel_build_trees-177 | {'builtins.int', 'builtins.NoneType', 'numpy.random.mtrand.numpy.random.mtrand.RandomState'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tree/_classes.py-fit-157 | {'builtins.int', 'builtins.NoneType', 'numpy.random.mtrand.numpy.random.mtrand.RandomState'}
+
+-------case--------jedi.inference.gradual.base.GenericClass._class_value
+{'jedi.inference.gradual.base.GenericClass', 'jedi.inference.value.klass.ClassValue', 'jedi.inference.gradual.typing.TypingClassWithGenerics'}
+ /home/user/jedi/jedi/inference/gradual/base.py-_create_instance_with_generics-202 | {'jedi.inference.gradual.base.GenericClass', 'jedi.inference.value.klass.ClassValue', 'jedi.inference.gradual.typing.TypingClassWithGenerics'}
+ /home/user/jedi/jedi/inference/gradual/base.py-_get_wrapped_value-172 | {'jedi.inference.gradual.base.GenericClass', 'jedi.inference.value.klass.ClassValue', 'jedi.inference.gradual.typing.TypingClassWithGenerics'}
+
+-------case--------sklearn.svm._classes.NuSVC._probA
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-_dense_decision_function-562
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-_sparse_predict-503
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-_dense_predict-461
+
+-------case--------sphinx.builders.linkcheck.CheckExternalLinksBuilder.broken_hyperlinks
+{'builtins.int', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/linkcheck.py-process_result-154
+ /home/user/sphinx-master/sphinx/builders/linkcheck.py-finish-197
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.delay
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-close-1291
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__iter__-1190
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1249
+
+-------case--------pelican.contents.Page.author
+{'pelican.urlwrappers.Author', 'missing', 'builtins.str'}
+ /home/user/pelican/pelican/contents.py-__init__-76
+ /home/user/pelican/pelican/tests/test_contents.py-test_multiple_authors-669
+ /home/user/pelican/pelican/contents.py-url_format-210
+ /home/user/pelican/pelican/tests/test_contents.py-test_multiple_authors-663
+
+-------case--------pyro.distributions.transforms.sylvester.Sylvester._cached_logDetJ
+{'torch.Tensor', 'builtins.NoneType'}
+ /home/user/pyro/pyro/distributions/transforms/sylvester.py-log_abs_det_jacobian-157 | {'torch.Tensor'}
+
+-------case--------sklearn.ensemble._iforest.IsolationForest._max_samples
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_bagging.py-_parallel_build_estimators-86
+
+-------case--------seaborn._stats.aggregation.Agg.func
+{'builtins.function', 'builtins.str'}
+ /home/user/seaborn/seaborn/_stats/aggregation.py-__call__-45 | {'builtins.function', 'builtins.str'}
+
+-------case--------sphinx.roles.XRefRole.title
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-create_xref_node-119
+
+-------case--------sklearn.isotonic.IsotonicRegression.X_max_
+{'missing', 'numpy.numpy.float32', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/isotonic.py-transform-395
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_isotonic.py-test_input_shape_validation-652
+
+-------case--------torch._ops.OpOverloadPacket.prim_Device
+{'missing', 'torch._ops.OpOverload'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-81
+
+-------case--------requests.models.Request.files
+{'builtins.list', 'builtins.dict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-prepare_request-487 | {'builtins.list', 'builtins.dict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare-303 | {'builtins.list', 'builtins.dict'}
+
+-------case--------pelican.contents.Page._summary
+{'missing', 'builtins.str'}
+ /home/user/pelican/pelican/contents.py-refresh_metadata_intersite_links-500
+ /home/user/pelican/pelican/contents.py-refresh_metadata_intersite_links-497
+
+-------case--------sphinx.roles.AnyXRefRole.lineno
+{'builtins.int', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-get_source_info-506
+
+-------case--------torch.jit._script.RecursiveScriptModule._buffers
+{'torch.jit._script.OrderedDictWrapper', 'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-__delattr__-1679 | {'torch.jit._script.OrderedDictWrapper', 'collections.collections.OrderedDict'}
+
+-------case--------sphinx.config.Config.autodoc_inherit_docstrings
+{'builtins.bool', 'missing'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-filter_members-685
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-get_doc-552
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-get_doc-2652
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-get_object_members-1700
+
+-------case--------impacket.IP6_Extension_Headers.Hop_By_Hop._ProtocolLayer__child
+{'impacket.ICMP6.ICMP6', 'impacket.IP6_Extension_Headers.Routing_Options', 'impacket.ImpactPacket.Data'}
+ /home/user/impacket/impacket/ImpactPacket.py-child-236 | {'impacket.ICMP6.ICMP6', 'impacket.IP6_Extension_Headers.Routing_Options', 'impacket.ImpactPacket.Data'}
+
+-------case--------sphinx.io.SphinxStandaloneReader.input
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/docutils/readers/__init__.py-parse-76 | {'builtins.str'}
+
+-------case--------jinja2.nodes.Keyword.lineno
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-set_lineno-224 | {'builtins.int', 'builtins.NoneType'}
+
+-------case--------rich.layout.Layout.size
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/rich/rich-master/rich/_ratio.py-<listcomp>-37 | {'builtins.int', 'builtins.NoneType'}
+ /home/user/rich/rich-master/rich/layout.py-__rich_repr__-179 | {'builtins.int', 'builtins.NoneType'}
+
+-------case--------weasyprint.text.Layout.layout
+{'_cffi_backend._cffi_backend.__CDataGCP', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/text.py-create_layout-970
+ /home/user/WeasyPrint-52.5/weasyprint/text.py-get_font_metrics-797
+ /home/user/WeasyPrint-52.5/weasyprint/text.py-split_first_line-1229
+ /home/user/WeasyPrint-52.5/weasyprint/text.py-set_text-790
+ /home/user/WeasyPrint-52.5/weasyprint/text.py-setup-705
+ /home/user/WeasyPrint-52.5/weasyprint/text.py-first_line_metrics-615
+ /home/user/WeasyPrint-52.5/weasyprint/text.py-get_first_line-736
+ /home/user/WeasyPrint-52.5/weasyprint/text.py-set_wrap-801
+ /home/user/WeasyPrint-52.5/weasyprint/text.py-show_first_line-1244
+ /home/user/WeasyPrint-52.5/weasyprint/text.py-set_text-773
+ /home/user/WeasyPrint-52.5/weasyprint/text.py-split_first_line-1195
+ /home/user/WeasyPrint-52.5/weasyprint/text.py-setup-732
+ /home/user/WeasyPrint-52.5/weasyprint/text.py-split_first_line-1209
+ /home/user/WeasyPrint-52.5/weasyprint/text.py-set_tabs-819
+ /home/user/WeasyPrint-52.5/weasyprint/text.py-set_text-753
+ /home/user/WeasyPrint-52.5/weasyprint/text.py-setup-672
+ /home/user/WeasyPrint-52.5/weasyprint/text.py-first_line_metrics-643
+ /home/user/WeasyPrint-52.5/weasyprint/text.py-show_first_line-1252
+ /home/user/WeasyPrint-52.5/weasyprint/text.py-show_first_line-1249
+
+-------case--------sklearn.feature_selection._univariate_selection.GenericUnivariateSelect.pvalues_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_selection/_univariate_selection.py-fit-475
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_selection/_univariate_selection.py-_get_support_mask-1031
+
+-------case--------kornia.augmentation.random_generator._2d.rectangle_earase.RectangleEraseGenerator.ratio_sampler
+{'missing', 'torch.distributions.uniform.Uniform'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/rectangle_earase.py-forward-100
+
+-------case--------sklearn.gaussian_process._gpc._BinaryGaussianProcessClassifierLaplace.L_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/gaussian_process/_gpc.py-predict_proba-308
+
+-------case--------sklearn.preprocessing._data.MinMaxScaler.n_features_in_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in-3653
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-399
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in_after_fitting-3746
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-402
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in_after_fitting-3713
+
+-------case--------sklearn.naive_bayes.GaussianNB.priors
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_partial_fit-422 | {'numpy.numpy.ndarray', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_partial_fit-423 | {'numpy.numpy.ndarray', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_partial_fit-477 | {'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+-------case--------statsmodels.stats.base.HolderTuple.pvalue_chi2
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_multivariate.py-test_cov_oneway-315
+
+-------case--------sphinx.roles.AnyXRefRole.target
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-create_xref_node-118
+
+-------case--------torch._ops.OpOverloadPacket.value_reduce
+{'missing', 'torch._ops.OpOverload'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2011
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1996
+
+-------case--------sklearn.multiclass.OneVsOneClassifier.estimator
+{'sklearn.linear_model._perceptron.Perceptron', 'sklearn.svm._classes.SVC', 'sklearn.svm._classes.LinearSVC', 'sklearn.neighbors._classification.KNeighborsClassifier', 'sklearn.tree._classes.DecisionTreeRegressor', 'sklearn.pipeline.Pipeline', 'sklearn.naive_bayes.MultinomialNB', 'sklearn.linear_model._logistic.LogisticRegression'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-<listcomp>-724 | {'numpy.numpy.ndarray', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-<lambda>-182 | {'numpy.numpy.ndarray', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-<genexpr>-677 | {'numpy.numpy.ndarray', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-_more_tags-835 | {'numpy.numpy.ndarray', 'builtins.NoneType'}
+
+-------case--------kornia.augmentation.random_generator._2d.affine.AffineGenerator.scale_2_sampler
+{'builtins.NoneType', 'missing', 'torch.distributions.uniform.Uniform'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-forward-149
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-forward-150
+
+-------case--------jedi.api.refactoring.Refactoring._renames
+{'builtins.set', 'builtins.tuple'}
+ /home/user/jedi/jedi/api/refactoring/__init__.py-get_renames-112 | {'builtins.set', 'builtins.tuple'}
+
+-------case--------flask.testing.EnvironBuilder._args
+{'werkzeug.datastructures.MultiDict', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/test.py-query_string-663 | {'werkzeug.datastructures.MultiDict', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/test.py-query_string-664 | {'werkzeug.datastructures.MultiDict', 'builtins.NoneType'}
+
+-------case--------sklearn.cross_decomposition._pls.PLSCanonical.y_rotations_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/cross_decomposition/_pls.py-transform-399
+
+-------case--------statsmodels.iolib.table.Cell.data
+{'numpy.numpy.float64', 'builtins.str', 'numpy.numpy.bytes_', 'builtins.bytes', 'builtins.float', 'builtins.int', 'numpy.numpy.int64', 'numpy.numpy.bool_', 'numpy.numpy.str_'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_pairwise.py-test_table_names_custom_group_order-244 | {'numpy.numpy.float64', 'builtins.str', 'numpy.numpy.bytes_', 'builtins.bytes', 'builtins.float', 'builtins.int', 'numpy.numpy.int64', 'numpy.numpy.bool_', 'numpy.numpy.str_'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_pairwise.py-test_table_names_custom_group_order-245 | {'numpy.numpy.float64', 'builtins.str', 'numpy.numpy.bytes_', 'builtins.bytes', 'builtins.float', 'builtins.int', 'numpy.numpy.int64', 'numpy.numpy.bool_', 'numpy.numpy.str_'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_pairwise.py-test_table_names_default_group_order-229 | {'numpy.numpy.float64', 'builtins.str', 'numpy.numpy.bytes_', 'builtins.bytes', 'builtins.float', 'builtins.int', 'numpy.numpy.int64', 'numpy.numpy.bool_', 'numpy.numpy.str_'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/iolib/table.py-format-714 | {'numpy.numpy.float64', 'builtins.str', 'numpy.numpy.bytes_', 'builtins.bytes', 'builtins.float', 'builtins.int', 'numpy.numpy.int64', 'numpy.numpy.bool_', 'numpy.numpy.str_'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_pairwise.py-test_table_names_default_group_order-228 | {'numpy.numpy.float64', 'builtins.str', 'numpy.numpy.bytes_', 'builtins.bytes', 'builtins.float', 'builtins.int', 'numpy.numpy.int64', 'numpy.numpy.bool_', 'numpy.numpy.str_'}
+
+-------case--------flask.wrappers.Response.response
+{'werkzeug.wsgi.FileWrapper', 'builtins.generator', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/response.py-is_sequence-428 | {'werkzeug.wsgi.FileWrapper', 'builtins.generator', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/response.py-iter_encoded-398 | {'werkzeug.wsgi.FileWrapper', 'builtins.generator', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/response.py-close-438 | {'werkzeug.wsgi.FileWrapper', 'builtins.generator', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/response.py-get_app_iter-597 | {'werkzeug.wsgi.FileWrapper', 'builtins.generator', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/response.py-close-437 | {'werkzeug.wsgi.FileWrapper', 'builtins.generator', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/response.py-iter_encoded-402 | {'werkzeug.wsgi.FileWrapper', 'builtins.generator', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/response.py-get_app_iter-596 | {'werkzeug.wsgi.FileWrapper', 'builtins.generator', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/response.py-make_sequence-386 | {'werkzeug.wsgi.FileWrapper', 'builtins.generator', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/response.py-get_wsgi_headers-563 | {'werkzeug.wsgi.FileWrapper', 'builtins.generator', 'builtins.list'}
+
+-------case--------sphinx.roles.AnyXRefRole.title
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-create_xref_node-119
+
+-------case--------weasyprint.formatting_structure.boxes.PageBox.border_bottom_right_radius
+{'builtins.tuple', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-rounded_box-206
+
+-------case--------sklearn.decomposition._nmf.MiniBatchNMF._gamma
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_nmf.py-_minibatch_step-2111
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_nmf.py-_solve_W-2063
+
+-------case--------jedi.api.project.Project._sys_path
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/jedi/jedi/api/project.py-_get_sys_path-203 | {'builtins.list', 'builtins.NoneType'}
+ /home/user/jedi/jedi/api/project.py-_get_sys_path-206 | {'builtins.list', 'builtins.NoneType'}
+ /home/user/jedi/jedi/api/project.py-sys_path-167 | {'builtins.list', 'builtins.NoneType'}
+
+-------case--------sklearn.covariance._robust_covariance.MinCovDet.support_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/covariance/_robust_covariance.py-correct_covariance-798
+
+-------case--------sklearn.mixture._gaussian_mixture.GaussianMixture.weights_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/mixture/_gaussian_mixture.py-_estimate_log_weights-765
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/mixture/_gaussian_mixture.py-_m_step-754
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/mixture/_gaussian_mixture.py-_get_parameters-772
+
+-------case--------sphinx.domains.javascript.JSXRefRole.rawtext
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-create_xref_node-131
+ /home/user/sphinx-master/sphinx/roles.py-create_xref_node-138
+
+-------case--------dvc.progress.Tqdm.ascii
+{'missing', 'builtins.bool'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1472
+
+-------case--------sklearn.manifold._mds.MDS.n_features_in_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in_after_fitting-3713
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in-3653
+
+-------case--------kornia.augmentation._2d.intensity.color_jiggle.ColorJiggle.brightness
+{'builtins.float', 'missing', 'builtins.tuple'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-58
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-56
+
+-------case--------stanza.models.common.doc.Document._text
+{'builtins.list', 'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/models/common/doc.py-__init__-60 | {'builtins.list', 'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/models/common/doc.py-text-76 | {'builtins.NoneType', 'builtins.str'}
+
+-------case--------sklearn.utils._mocking.CheckingClassifier.check_X
+{'builtins.NoneType', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/_mocking.py-_check_X_y-162 | {'builtins.NoneType', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/_mocking.py-_check_X_y-164 | {'builtins.NoneType', 'builtins.function'}
+
+-------case--------stanza.models.common.doc.Token._sent
+{'builtins.NoneType', 'stanza.models.common.doc.Sentence'}
+ /home/user/stanza/stanza/models/common/doc.py-sent-899 | {'builtins.NoneType', 'stanza.models.common.doc.Sentence'}
+
+-------case--------torch.optim.adam.Adam._step_count
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lr_scheduler.py-step-138
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lr_scheduler.py-wrapper-67
+
+-------case--------sklearn.linear_model._coordinate_descent.ElasticNet.l1_ratio
+{'builtins.float', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py-fit-935 | {'builtins.float', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py-fit-1057 | {'builtins.float', 'numpy.numpy.float64'}
+
+-------case--------sklearn.linear_model._glm.glm.TweedieRegressor.coef_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_glm/glm.py-_linear_predictor-331
+
+-------case--------sklearn.calibration.CalibrationDisplay.line_
+{'missing', 'matplotlib.lines.Line2D'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_calibration.py-test_calibration_display_compute-708
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_calibration.py-test_calibration_display_compute-707
+
+-------case--------jinja2.nodes.Getitem.node
+{'jinja2.nodes.Name', 'jinja2.nodes.Call', 'jinja2.nodes.List', 'jinja2.nodes.Getitem', 'jinja2.nodes.Filter', 'jinja2.nodes.Getattr'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Getitem-1735 | {'jinja2.nodes.Name', 'jinja2.nodes.Call', 'jinja2.nodes.List', 'jinja2.nodes.Getitem', 'jinja2.nodes.Filter', 'jinja2.nodes.Getattr'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-847 | {'jinja2.nodes.Name', 'jinja2.nodes.Call', 'jinja2.nodes.List', 'jinja2.nodes.Getitem', 'jinja2.nodes.Filter', 'jinja2.nodes.Getattr'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Getitem-1726 | {'jinja2.nodes.Name', 'jinja2.nodes.Call', 'jinja2.nodes.List', 'jinja2.nodes.Getitem', 'jinja2.nodes.Filter', 'jinja2.nodes.Getattr'}
+
+-------case--------sklearn.calibration._SigmoidCalibration.b_
+{'missing', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/calibration.py-predict-870
+
+-------case--------sklearn.preprocessing._data.Binarizer.n_features_in_
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in-3653
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-402
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/base.py-_check_n_features-399
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_n_features_in_after_fitting-3713
+
+-------case--------requests.models.Response.connection
+{'missing', 'requests.adapters.HTTPAdapter'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/auth.py-handle_401-277
+
+-------case--------statsmodels.regression.linear_model.OLSResults.het_scale
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-cov_HC1-1961
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-cov_HC0-1952
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-cov_HC3-1983
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-cov_HC2-1972
+
+-------case--------sphinx.addnodes.desc.parent
+{'sphinx.addnodes.desc_content', 'docutils.nodes.section'}
+ /home/user/sphinx-master/sphinx/util/nodes.py-traverse_parent-290 | {'sphinx.addnodes.desc_content', 'docutils.nodes.section'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/docutils/nodes.py-document-59 | {'sphinx.addnodes.desc_content', 'docutils.nodes.section'}
+
+-------case--------sklearn.ensemble._weight_boosting.AdaBoostRegressor.estimator_errors_
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_weight_boosting.py-fit-168
+
+-------case--------statsmodels.distributions.edgeworth.ExpandedNormal._mu
+{'builtins.float', 'builtins.int', 'numpy.numpy.float64'} 
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/distributions/edgeworth.py-_sf-184  | {'builtins.float', 'builtins.int', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/distributions/edgeworth.py-_pdf-175 | {'builtins.float', 'builtins.int', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/distributions/edgeworth.py-__init__-165 | {'builtins.float', 'builtins.int', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/distributions/edgeworth.py-_cdf-179 | {'builtins.float', 'builtins.int', 'numpy.numpy.float64'}
+
+-------case--------sklearn.neighbors._graph.KNeighborsTransformer.effective_metric_params_
+{'builtins.dict', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_base.py-_fit-594
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_base.py-_fit-452
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_base.py-_fit-460
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_base.py-_fit-454
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_base.py-_fit-459
+
+-------case--------pyod.models.auto_encoder.AutoEncoder.encoding_dim_
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/auto_encoder.py-fit-241
+
+-------case--------jinja2.nodes.Import.target
+{'builtins.str', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Import-1105
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Import-1104
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/idtracking.py-visit_Import-275
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Import-1098
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Import-1100

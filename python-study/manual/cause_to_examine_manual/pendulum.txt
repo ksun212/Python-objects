@@ -1,0 +1,6 @@
+pendulum.testing.traveller.Traveller._traveller
+{'time_machine.travel'}
+ /home/user/pendulum/pendulum/testing/traveller.py-_start-118
+            self._coordinates = self._traveller.start()
+check: 1
+safe: 1

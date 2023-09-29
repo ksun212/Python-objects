@@ -1,0 +1,27 @@
+pandas.core.indexes.base.Index._data
+{'pandas.core.arrays.string_.StringArray', 'pandas.core.arrays.string_arrow.ArrowStringArray', 'pandas.core.arrays.integer.IntegerArray', 'pandas.core.arrays.boolean.BooleanArray', 'pandas.core.arrays.floating.FloatingArray', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/indexes/base.py-_getitem_slice-5403
+        res = self._data[slobj]
+pandas.core.indexes.base.Index._data
+{'pandas.core.arrays.string_.StringArray', 'pandas.core.arrays.string_arrow.ArrowStringArray', 'pandas.core.arrays.integer.IntegerArray', 'pandas.core.arrays.boolean.BooleanArray', 'pandas.core.arrays.floating.FloatingArray', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/indexes/base.py-dtype-992
+        return self._data.dtype
+pandas.core.indexes.base.Index._data
+{'pandas.core.arrays.string_.StringArray', 'pandas.core.arrays.string_arrow.ArrowStringArray', 'pandas.core.arrays.integer.IntegerArray', 'pandas.core.arrays.boolean.BooleanArray', 'pandas.core.arrays.floating.FloatingArray', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/indexes/base.py-__getitem__-5358
+        getitem = self._data.__getitem__
+pandas.core.indexes.base.Index._data
+{'pandas.core.arrays.string_.StringArray', 'pandas.core.arrays.string_arrow.ArrowStringArray', 'pandas.core.arrays.integer.IntegerArray', 'pandas.core.arrays.boolean.BooleanArray', 'pandas.core.arrays.floating.FloatingArray', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/indexes/base.py-__len__-930
+        return len(self._data)
+pandas.core.dtypes.dtypes.PandasDtype._dtype
+{'numpy.numpy.dtype[object_]', 'numpy.numpy.dtype[bool_]', 'numpy.numpy.dtype[int64]'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/dtypes/dtypes.py-kind-1402
+        return self._dtype.kind
+pandas.io.parsers.c_parser_wrapper.CParserWrapper.index_names
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py-_agg_index-503
+                    index_converter = converters.get(self.index_names[i]) is not None
+
+check: 3
+safe: 3

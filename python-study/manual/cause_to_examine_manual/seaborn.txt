@@ -1,0 +1,20 @@
+seaborn.categorical._CategoricalFacetPlotter.facets
+{'seaborn.axisgrid.FacetGrid', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_log_scaled-1303
+            axes_list = self.facets.axes.flatten()
+seaborn.categorical._CategoricalFacetPlotter.converters
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-comp_data-1116
+                grouped = self.plot_data[var].groupby(self.converters[var], sort=False)
+seaborn.categorical._CategoricalFacetPlotter.converters
+{'builtins.dict'}
+ /home/user/seaborn/seaborn/_oldcore.py-_attach-1250
+            self.converters[var] = converter
+seaborn.categorical._CategoricalFacetPlotter.converters
+{'builtins.dict'}
+ /home/user/seaborn/seaborn/_oldcore.py-_attach-1253
+            grouped = self.plot_data[var].groupby(self.converters[var], sort=False)
+
+
+check: 2
+safe: 2

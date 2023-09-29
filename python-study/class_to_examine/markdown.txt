@@ -1,0 +1,136 @@
+-------case--------markdown.core.Markdown.lines
+{'missing', 'builtins.list'}
+ /home/user/markdown/markdown/core.py-convert-251
+ /home/user/markdown/markdown/core.py-convert-254
+
+
+-------case--------markdown.core.Markdown.Meta
+{'missing', 'builtins.dict'}
+ /home/user/markdown/markdown/extensions/wikilinks.py-_getMeta-77
+ /home/user/markdown/markdown/extensions/wikilinks.py-_getMeta-82
+ /home/user/markdown/markdown/extensions/wikilinks.py-_getMeta-79
+ /home/user/markdown/tests/test_extensions.py-testMetaDataReset-195
+ /home/user/markdown/markdown/extensions/wikilinks.py-_getMeta-80
+ /home/user/markdown/tests/test_extensions.py-testYamlMetaData-159
+ /home/user/markdown/markdown/extensions/wikilinks.py-_getMeta-78
+ /home/user/markdown/tests/test_extensions.py-testMetaDataWithoutNewline-181
+ /home/user/markdown/tests/test_extensions.py-testMissingMetaData-175
+ /home/user/markdown/tests/test_extensions.py-testBasicMetaData-137
+ /home/user/markdown/markdown/extensions/wikilinks.py-_getMeta-81
+
+
+-------case--------markdown.core.Markdown.toc
+{'builtins.str', 'missing'}
+ /home/user/markdown/tests/test_extensions.py-testWithAttrList-568
+ /home/user/markdown/tests/test_extensions.py-testReset-395
+ /home/user/markdown/tests/test_extensions.py-testNoMarker-346
+ /home/user/markdown/tests/test_extensions.py-testHtmlEntities-436
+ /home/user/markdown/tests/test_extensions.py-testTitle-547
+ /home/user/markdown/tests/test_extensions.py-testReset-399
+ /home/user/markdown/tests/test_extensions.py-testUniqueIds-413
+ /home/user/markdown/tests/test_extensions.py-testHeaderInlineMarkup-527
+ /home/user/markdown/tests/test_extensions.py-testReset-397
+ /home/user/markdown/tests/test_extensions.py-testHtmlSpecialChars-455
+ /home/user/markdown/tests/test_extensions.py-testDisabledMarker-391
+ /home/user/markdown/tests/test_extensions.py-testRawHtml-474
+ /home/user/markdown/tests/test_extensions.py-testBaseLevel-498
+
+
+-------case--------markdown.core.Markdown.toc_tokens
+{'missing', 'builtins.list'}
+ /home/user/markdown/tests/test_extensions.py-testHtmlEntities-443
+ /home/user/markdown/tests/test_extensions.py-testHtmlSpecialChars-462
+ /home/user/markdown/tests/test_extensions.py-testRawHtml-481
+ /home/user/markdown/tests/test_extensions.py-testUniqueIds-422
+ /home/user/markdown/tests/test_extensions.py-testReset-400
+ /home/user/markdown/tests/test_extensions.py-testBaseLevel-510
+ /home/user/markdown/tests/test_extensions.py-testHeaderInlineMarkup-535
+ /home/user/markdown/tests/test_extensions.py-testWithAttrList-582
+
+
+-------case--------markdown.blockparser.BlockParser.root
+{'xml.etree.ElementTree.xml.etree.ElementTree.Element', 'missing'}
+ /home/user/markdown/markdown/blockparser.py-parseDocument-84
+ /home/user/markdown/markdown/blockparser.py-parseDocument-85
+
+
+-------case--------markdown.blockprocessors.HRProcessor.match
+{'missing', 're.re.Match'}
+ /home/user/markdown/markdown/blockprocessors.py-run-517
+
+
+-------case--------markdown.treeprocessors.UnescapeTreeprocessor.md
+{'markdown.core.Markdown', 'builtins.NoneType'}
+
+
+-------case--------markdown.extensions.footnotes.FootnoteExtension.md
+{'markdown.core.Markdown', 'missing'}
+
+
+-------case--------markdown.extensions.footnotes.FootnotePostTreeprocessor.offset
+{'missing', 'builtins.int'}
+ /home/user/markdown/markdown/extensions/footnotes.py-add_duplicates-340
+
+
+-------case--------markdown.htmlparser.HTMLExtractor.cdata_elem
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/Lib/html/parser.py-parse_endtag-416
+ /home/user/purepython/cpython-3.9/Lib/html/parser.py-parse_endtag-394
+ /home/user/purepython/cpython-3.9/Lib/html/parser.py-goahead-157
+ /home/user/purepython/cpython-3.9/Lib/html/parser.py-parse_endtag-415
+ /home/user/purepython/cpython-3.9/Lib/html/parser.py-set_cdata_mode-124
+ /home/user/purepython/cpython-3.9/Lib/html/parser.py-goahead-244
+
+
+-------case--------markdown.htmlparser.HTMLExtractor._HTMLExtractor__starttag_text
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/markdown/markdown/htmlparser.py-parse_starttag-312
+ /home/user/markdown/markdown/htmlparser.py-get_starttag_text-273
+ /home/user/markdown/markdown/htmlparser.py-parse_starttag-307
+
+
+-------case--------markdown.extensions.wikilinks.WikiLinkExtension.md
+{'markdown.core.Markdown', 'missing'}
+
+
+-------case--------markdown.extensions.admonition.AdmonitionProcessor.current_sibling
+{'xml.etree.ElementTree.xml.etree.ElementTree.Element', 'builtins.NoneType'}
+ /home/user/markdown/markdown/extensions/admonition.py-parse_content-64
+ /home/user/markdown/markdown/extensions/admonition.py-parse_content-63
+
+
+-------case--------markdown.extensions.admonition.AdmonitionProcessor.content_indent
+{'missing', 'builtins.int'}
+ /home/user/markdown/markdown/extensions/admonition.py-parse_content-65
+
+
+-------case--------markdown.extensions.toc.TocTreeprocessor.use_permalinks
+{'builtins.bool', 'builtins.str', 'builtins.NoneType'}
+ /home/user/markdown/markdown/extensions/toc.py-add_permalink-232
+ /home/user/markdown/markdown/extensions/toc.py-add_permalink-233
+ /home/user/markdown/markdown/extensions/toc.py-__init__-167
+ /home/user/markdown/markdown/extensions/toc.py-run-304
+
+
+-------case--------markdown.extensions.tables.TableProcessor.border
+{'builtins.bool', 'builtins.int'}
+ /home/user/markdown/markdown/extensions/tables.py-test-52
+ /home/user/markdown/markdown/extensions/tables.py-test-54
+ /home/user/markdown/markdown/extensions/tables.py-test-60
+ /home/user/markdown/markdown/extensions/tables.py-_split_row-138
+
+
+-------case--------markdown.extensions.tables.TableProcessor.separator
+{'builtins.str', 'builtins.list'}
+ /home/user/markdown/markdown/extensions/tables.py-run-84
+
+
+-------case--------markdown.extensions.md_in_html.HTMLExtractorExtra._HTMLExtractor__starttag_text
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/markdown/markdown/htmlparser.py-get_starttag_text-273
+
+
+-------case--------markdown.extensions.md_in_html.HTMLExtractorExtra.state
+{'missing', 'builtins.list'}
+
+

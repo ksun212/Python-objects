@@ -1,0 +1,1 @@
+{"('woodwork.logical_types.LogicalTypeMetaClass', 'builtins.str')": 1}

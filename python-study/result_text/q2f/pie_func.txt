@@ -1,0 +1,4 @@
+Method	2542
+Local	595
+Function	166
+Others	279

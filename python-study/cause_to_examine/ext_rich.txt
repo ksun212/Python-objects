@@ -1,0 +1,22 @@
+ /home/user/rich/rich-master/rich/markdown.py-on_enter-128
+rich.markdown.Heading.text
+ /home/user/rich/rich-master/rich/markdown.py-on_enter-94
+rich.markdown.Paragraph.style
+ /home/user/rich/rich-master/rich/markdown.py-on_enter-95
+rich.markdown.Paragraph.text
+ /home/user/rich/rich-master/rich/markdown.py-on_enter-94
+rich.markdown.ListItem.style
+ /home/user/rich/rich-master/rich/markdown.py-on_enter-95
+rich.markdown.ListItem.text
+ /home/user/rich/rich-master/rich/markdown.py-on_enter-94
+rich.markdown.BlockQuote.style
+ /home/user/rich/rich-master/rich/markdown.py-on_enter-95
+rich.markdown.BlockQuote.text
+ /home/user/rich/rich-master/rich/markdown.py-on_enter-328
+rich.markdown.ImageItem.text
+ /home/user/rich/rich-master/rich/markdown.py-on_enter-94
+rich.markdown.ImageItem.style
+ /home/user/rich/rich-master/rich/markdown.py-on_enter-94
+rich.markdown.CodeBlock.style
+ /home/user/rich/rich-master/rich/markdown.py-on_enter-95
+rich.markdown.CodeBlock.text

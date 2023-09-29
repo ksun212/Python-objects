@@ -1,0 +1,2 @@
+{"non_local": 100, "function": 81, "method": 17, "local": 23}
+{"ln": 11, "t1stru2": 101, "rn": 2, "coercion": 51}

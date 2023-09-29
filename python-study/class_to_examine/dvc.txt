@@ -1,0 +1,1260 @@
+-------case--------dvc.logger.LoggerHandler.formatter
+{'dvc.logger.ColorFormatter', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/Lib/logging/__init__.py-format-923
+ /home/user/purepython/cpython-3.9/Lib/logging/__init__.py-format-924
+
+
+-------case--------dvc_objects.fs.callbacks.NoOpCallback.size
+{'builtins.int', 'builtins.NoneType'}
+
+
+-------case--------dvc_objects.fs.local.LocalFileSystem.hash_jobs
+{'builtins.int', 'unittest.mock.MagicMock'}
+ /home/user/dvc/dvc/fs/dvc.py-__init__-141
+
+
+-------case--------dvc.repo.experiments.queue.tasks.cleanup_exp.__qualname__
+{'builtins.str', 'missing'}
+
+
+-------case--------dvc.repo.experiments.queue.tasks.collect_exp.__qualname__
+{'builtins.str', 'missing'}
+
+
+-------case--------dvc.repo.experiments.queue.tasks.setup_exp.__qualname__
+{'builtins.str', 'missing'}
+
+
+-------case--------dvc.repo.experiments.queue.tasks.run_exp.__qualname__
+{'builtins.str', 'missing'}
+
+
+-------case--------dvc_objects.fs.local.FsspecLocalFileSystem._fs_token_
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------dvc_objects.fs.local.FsspecLocalFileSystem.storage_args
+{'builtins.tuple', 'missing'}
+
+
+-------case--------dvc_objects.fs.local.FsspecLocalFileSystem.storage_options
+{'builtins.dict', 'missing'}
+
+
+-------case--------dvc.repo.Repo.url
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/dvc/tests/unit/test_external_repo.py-test_subrepo_is_constructed_properly-77
+ /home/user/dvc/dvc/repo/__init__.py-__str__-234
+
+
+-------case--------dvc.repo.Repo._fs
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem'}
+ /home/user/dvc/dvc/repo/__init__.py-fs-358
+
+
+-------case--------dvc.repo.Repo._scm
+{'scmrepo.git.Git', 'builtins.NoneType'}
+ /home/user/dvc/dvc/repo/__init__.py-scm-305
+ /home/user/dvc/dvc/repo/__init__.py-__init__-171
+ /home/user/dvc/dvc/repo/__init__.py-scm-306
+
+
+-------case--------dvc.repo.Repo.dvc_dir
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/dvc/dvc/repo/plots/__init__.py-templates_dir-269
+ /home/user/dvc/dvc/repo/__init__.py-__init__-197
+ /home/user/dvc/dvc/repo/plots/__init__.py-templates_dir-268
+ /home/user/dvc/tests/unit/command/test_cache.py-test_cache_dir_local-16
+ /home/user/dvc/dvc/repo/destroy.py-destroy-20
+ /home/user/dvc/tests/func/test_remote.py-test_remote_default_cmd-99
+ /home/user/dvc/dvc/repo/__init__.py-__init__-185
+ /home/user/dvc/dvc/repo/experiments/executor/base.py-_from_stash_entry-251
+ /home/user/dvc/dvc/repo/__init__.py-local_dvc_dir-240
+ /home/user/dvc/dvc/repo/__init__.py-local_dvc_dir-244
+
+
+-------case--------dvc.repo.Repo.local_dvc_dir
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/dvc/dvc/repo/__init__.py-tmp_dir-269
+ /home/user/dvc/dvc/cachemgr.py-__init__-34
+ /home/user/dvc/dvc/repo/__init__.py-tmp_dir-266
+ /home/user/dvc/dvc/cachemgr.py-__init__-35
+
+
+-------case--------dvc.repo.Repo.lock
+{'dvc.lock.LockNoop', 'dvc.lock.Lock'}
+ /home/user/dvc/tests/func/test_stage.py-test_stage_remove_pipeline_stage-300
+ /home/user/dvc/tests/unit/stage/test_stage.py-test_always_changed-103
+ /home/user/dvc/tests/func/test_stage.py-test_stage_remove_pipeline_stage-296
+ /home/user/dvc/tests/unit/stage/test_cache.py-test_stage_cache_wdir-114
+ /home/user/dvc/tests/func/test_stage.py-test_default_wdir_ignored_in_checksum-106
+ /home/user/dvc/tests/func/test_run_single_stage.py-test_should_not_checkout_upon_corrupted_local_hardlink_cache-810
+ /home/user/dvc/tests/func/test_stage.py-test_stage_remove_pointer_stage-316
+ /home/user/dvc/tests/func/test_root.py-test_root_locked-11
+ /home/user/dvc/tests/unit/stage/test_cache.py-test_stage_cache-43
+ /home/user/dvc/tests/func/test_stage.py-test_stage_remove_pointer_stage-311
+ /home/user/dvc/tests/unit/stage/test_stage.py-test_stage_update-69
+ /home/user/dvc/dvc/stage/decorators.py-wrapper-54
+ /home/user/dvc/tests/unit/stage/test_cache.py-test_stage_cache_params-67
+ /home/user/dvc/dvc/stage/decorators.py-rwlocked-21
+ /home/user/dvc/dvc/repo/experiments/utils.py-wrapper-71
+ /home/user/dvc/tests/unit/stage/test_cache.py-test_stage_cache_params-89
+ /home/user/dvc/tests/unit/stage/test_cache.py-test_stage_cache_wdir-136
+ /home/user/dvc/dvc/repo/gc.py-gc-70
+ /home/user/dvc/dvc/repo/experiments/utils.py-wrapper-76
+ /home/user/dvc/dvc/stage/decorators.py-wrapper-49
+ /home/user/dvc/tests/unit/stage/test_cache.py-test_stage_cache-21
+ /home/user/dvc/dvc/repo/__init__.py-lock_repo-52
+
+
+-------case--------dvc.repo.Repo.stage_collection_error_handler
+{'unittest.mock.Mock', 'builtins.function', 'builtins.NoneType'}
+ /home/user/dvc/dvc/repo/index.py-from_repo-206
+
+
+-------case--------dvc.repo.Repo._skip_graph_checks
+{'builtins.bool', 'missing'}
+
+
+-------case--------dvc.repo.Repo._reset
+{'unittest.mock.MagicMock', 'unittest.mock.Mock'}
+
+
+-------case--------dvc.repo.Repo.imp_url
+{'unittest.mock.MagicMock', 'builtins.function'}
+ /home/user/dvc/dvc/commands/imp_url.py-run-15
+
+
+-------case--------dvc_data.hashfile.cache.Cache._txn_id
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/diskcache/core.py-_transact-714
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/diskcache/core.py-_transact-742
+
+
+-------case--------dvc_data.hashfile.cache.Disk._type
+{'builtins.str', 'missing'}
+
+
+-------case--------dvc_data.hashfile.db.local.LocalHashFileDB.path
+{'dvc.config_schema.RelPath', 'builtins.str'}
+ /home/user/dvc/tests/func/test_gc.py-test_all_commits-104
+ /home/user/dvc/tests/func/test_gc.py-test_gc_not_collect_pipeline_tracked_files-245
+ /home/user/dvc/dvc/repo/imports.py-save_imports-115
+ /home/user/dvc/tests/func/test_repro.py-test_repro_no_commit-840
+ /home/user/dvc/tests/unit/test_external_repo.py-test_subrepo_is_constructed_properly-88
+ /home/user/dvc/tests/func/test_odb.py-test_cache-23
+ /home/user/dvc/tests/unit/test_info.py-test_fs_info_in_repo-116
+ /home/user/dvc/tests/unit/test_external_repo.py-test_subrepo_is_constructed_properly-80
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/hashfile/db/__init__.py-get_index-46
+ /home/user/dvc/tests/func/plots/test_show.py-test_plots_show_overlap-165
+ /home/user/dvc/tests/func/test_add.py-test_add_commit-417
+ /home/user/dvc/tests/func/test_data_cloud.py-test_push_pull_fetch_pipeline_stages-480
+ /home/user/dvc/tests/func/test_gc.py-test_date-332
+ /home/user/dvc/tests/func/test_odb.py-test_external_cache_dir-66
+ /home/user/dvc/dvc/repo/imports.py-save_imports-117
+ /home/user/dvc/dvc/stage/cache.py-transfer-238
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/hashfile/transfer.py-transfer-197
+ /home/user/dvc/tests/func/test_data_cloud.py-test_pull_git_imports-229
+ /home/user/dvc/dvc/stage/cache.py-transfer-242
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/hashfile/transfer.py-transfer-198
+ /home/user/dvc/dvc/external_repo.py-_get_remote_config-123
+ /home/user/dvc/dvc/testing/remote_tests.py-test-61
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_objects/db.py-_list_prefixes-211
+ /home/user/dvc/tests/unit/fs/test_data.py-test_open_no_remote-61
+ /home/user/dvc/tests/func/test_data_status.py-test_git_committed_missing_cache_missing_workspace-313
+ /home/user/dvc/dvc/info.py-get_dvc_info-45
+ /home/user/dvc/tests/func/test_odb.py-test_cache-18
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_objects/db.py-__eq__-51
+ /home/user/dvc/tests/unit/output/test_output.py-test_remote_missing_dependency_on_dir_pull-116
+ /home/user/dvc/tests/unit/test_external_repo.py-test_subrepo_is_constructed_properly-79
+ /home/user/dvc/dvc/info.py-_get_linktype_support_info-92
+ /home/user/dvc/tests/func/test_gc.py-test_date-325
+ /home/user/dvc/dvc/repo/experiments/executor/local.py-init_cache-152
+ /home/user/dvc/tests/func/test_external_repo.py-test_relative_remote-118
+ /home/user/dvc/tests/func/test_gc.py-test_gc_not_collect_pipeline_tracked_files-250
+ /home/user/dvc/dvc/dependency/repo.py-_get_used_and_obj-125
+ /home/user/dvc/dvc/info.py-get_dvc_info-43
+ /home/user/dvc/dvc/repo/__init__.py-_ignore-431
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_objects/db.py-__hash__-56
+ /home/user/dvc/tests/func/test_data_cloud.py-test_push_pull_fetch_pipeline_stages-476
+ /home/user/dvc/tests/func/test_gc.py-test_all_commits-100
+ /home/user/dvc/tests/unit/test_info.py-test_info_in_repo-48
+ /home/user/dvc/tests/func/test_data_cloud.py-test_cloud_cli-90
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/hashfile/status.py-status-101
+ /home/user/dvc/tests/func/test_gc.py-test_gc_not_collect_pipeline_tracked_files-243
+ /home/user/dvc/tests/func/test_run_single_stage.py-test_run_commit-685
+ /home/user/dvc/tests/func/test_gc.py-test_gc_multiple_dvc_repos-79
+ /home/user/dvc/tests/func/test_diff.py-test_diff_no_cache-258
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/hashfile/build.py-_get_staging-189
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/hashfile/status.py-status-131
+ /home/user/dvc/tests/func/test_repro.py-test_repro_no_commit-844
+ /home/user/dvc/tests/func/test_data_status.py-test_missing_cache_missing_workspace-265
+ /home/user/dvc/dvc/stage/cache.py-__init__-63
+ /home/user/dvc/tests/func/test_checkout.py-test_checkout_moved_cache_dir_with_symlinks-360
+ /home/user/dvc/tests/func/test_data_cloud.py-test_pull_git_imports-231
+ /home/user/dvc/dvc/testing/remote_tests.py-test-52
+ /home/user/dvc/tests/func/test_external_repo.py-test_subrepos_are_ignored-198
+ /home/user/dvc/tests/func/test_remove.py-test_remove_broken_symlink-59
+ /home/user/dvc/tests/func/test_data_status.py-test_missing_cache_workspace_exists-239
+ /home/user/dvc/tests/func/test_odb.py-test_shared_cache-185
+ /home/user/dvc/tests/func/test_data_status.py-test_git_committed_missing_cache_workspace_exists-290
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/hashfile/db/local.py-oid_to_path-46
+ /home/user/dvc/dvc/stage/cache.py-transfer-222
+ /home/user/dvc/dvc/repo/imports.py-save_imports-116
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/hashfile/build.py-_upload_file-44
+ /home/user/dvc/dvc/repo/__init__.py-_ignore-432
+ /home/user/dvc/tests/unit/stage/test_cache.py-test_shared_stage_cache-158
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_objects/db.py-_init-73
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/hashfile/status.py-status-147
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/hashfile/checkout.py-_checkout-195
+ /home/user/dvc/tests/unit/stage/test_cache.py-test_shared_stage_cache-187
+ /home/user/dvc/tests/func/test_gc.py-test_gc_no_dir_cache-116
+ /home/user/dvc/tests/func/test_import.py-test_chained_import-609
+ /home/user/dvc/dvc/testing/remote_tests.py-test-51
+ /home/user/dvc/dvc/testing/remote_tests.py-test-60
+ /home/user/dvc/tests/func/test_gc.py-test_gc_no_dir_cache-118
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/hashfile/gc.py-gc-29
+ /home/user/dvc/tests/unit/test_external_repo.py-test_subrepo_is_constructed_properly-58
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_objects/db.py-_init-67
+
+
+-------case--------dvc_data.hashfile.db.local.LocalHashFileDB.state
+{'dvc_data.hashfile.state.StateNoop', 'dvc_data.hashfile.state.State'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/hashfile/db/__init__.py-add-130
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/hashfile/build.py-_get_staging-190
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/hashfile/db/__init__.py-check-183
+
+
+-------case--------dvc_data.hashfile.db.local.LocalHashFileDB.tmp_dir
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/hashfile/db/__init__.py-get_index-44
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/hashfile/db/__init__.py-get_index-42
+
+
+-------case--------dvc_data.hashfile.db.local.LocalHashFileDB._dir_info
+{'builtins.dict', 'missing'}
+
+
+-------case--------dvc.repo.plots.Plots.templates_dir
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/dvc/dvc/commands/plots.py-run-158
+ /home/user/dvc/dvc/repo/plots/__init__.py-modify-244
+
+
+-------case--------dvc.progress.Tqdm.iterable
+{'builtins.list', 'builtins.range', 'builtins.generator', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__iter__-1178
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__len__-1129
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__len__-1131
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__len__-1130
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__len__-1128
+
+
+-------case--------dvc.progress.Tqdm.desc
+{'builtins.str', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1471
+
+
+-------case--------dvc.progress.Tqdm.total
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__len__-1128
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1469
+
+
+-------case--------dvc.progress.Tqdm.fp
+{'tqdm.utils.DisableOnWriteError', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-moveto-1457
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-moveto-1458
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-clear-1334
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-external_write_mode-640
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-fp_write-1301
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-external_write_mode-641
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__init__-1107
+
+
+-------case--------dvc.progress.Tqdm.mininterval
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1268
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__iter__-1187
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1249
+
+
+-------case--------dvc.progress.Tqdm.maxinterval
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1263
+
+
+-------case--------dvc.progress.Tqdm.miniters
+{'builtins.int', 'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/_monitor.py-run-77
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1246
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__iter__-1201
+
+
+-------case--------dvc.progress.Tqdm.dynamic_miniters
+{'builtins.bool', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1257
+
+
+-------case--------dvc.progress.Tqdm.ascii
+{'builtins.bool', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1472
+
+
+-------case--------dvc.progress.Tqdm.unit
+{'builtins.str', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1472
+
+
+-------case--------dvc.progress.Tqdm.unit_scale
+{'builtins.bool', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1472
+
+
+-------case--------dvc.progress.Tqdm.unit_divisor
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1475
+
+
+-------case--------dvc.progress.Tqdm.initial
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1475
+
+
+-------case--------dvc.progress.Tqdm.lock_args
+{'builtins.tuple', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1256
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__init__-1109
+
+
+-------case--------dvc.progress.Tqdm.delay
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__iter__-1190
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-close-1291
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1249
+
+
+-------case--------dvc.progress.Tqdm.gui
+{'builtins.bool', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-_decr_instances-601
+
+
+-------case--------dvc.progress.Tqdm.dynamic_ncols
+{'builtins.bool', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1466
+
+
+-------case--------dvc.progress.Tqdm.smoothing
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1265
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1252
+
+
+-------case--------dvc.progress.Tqdm._ema_dn
+{'tqdm.std.EMA', 'missing'}
+
+
+-------case--------dvc.progress.Tqdm._ema_dt
+{'builtins.function', 'tqdm.std.EMA', 'missing'}
+
+
+-------case--------dvc.progress.Tqdm._ema_miniters
+{'tqdm.std.EMA', 'missing'}
+
+
+-------case--------dvc.progress.Tqdm._time
+{'builtins.builtin_function_or_method', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__iter__-1192
+
+
+-------case--------dvc.progress.Tqdm.last_print_n
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__iter__-1189
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1251
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__iter__-1206
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1246
+
+
+-------case--------dvc.progress.Tqdm.sp
+{'builtins.function', 'missing'}
+
+
+-------case--------dvc.progress.Tqdm.last_print_t
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-close-1291
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1248
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__init__-1114
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__iter__-1188
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__iter__-1207
+
+
+-------case--------dvc.progress.Tqdm.start_t
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1470
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__iter__-1190
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-close-1291
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1249
+
+
+-------case--------dvc.stage.Stage._path
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/dvc/dvc/stage/__init__.py-path-182
+
+
+-------case--------dvc.stage.Stage.cmd
+{'builtins.list', 'builtins.str', 'builtins.NoneType'}
+ /home/user/dvc/dvc/stage/__init__.py-is_callback-252
+ /home/user/dvc/dvc/stage/utils.py-get_dump-200
+ /home/user/dvc/tests/func/test_repro.py-test_repro_when_cmd_changes-1220
+ /home/user/dvc/tests/func/test_add.py-test_add-53
+ /home/user/dvc/dvc/stage/serialize.py-to_single_stage_lockfile-158
+ /home/user/dvc/tests/func/test_run_single_stage.py-test_run-55
+ /home/user/dvc/dvc/stage/__init__.py-run-573
+ /home/user/dvc/dvc/stage/cache.py-_can_hash-39
+ /home/user/dvc/dvc/stage/__init__.py-is_data_source-244
+ /home/user/dvc/dvc/stage/__init__.py-run-578
+ /home/user/dvc/dvc/stage/run.py-cmd_run-121
+ /home/user/dvc/dvc/stage/serialize.py-to_single_stage_lockfile-177
+ /home/user/dvc/dvc/stage/__init__.py-is_import-257
+
+
+-------case--------dvc.stage.Stage.md5
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/dvc/dvc/stage/utils.py-get_dump-199
+ /home/user/dvc/tests/func/test_add.py-test_add-55
+ /home/user/dvc/tests/func/test_import_url.py-test_import_url_to_remote_status-195
+ /home/user/dvc/dvc/stage/__init__.py-changed_stage-361
+
+
+-------case--------dvc.stage.Stage._stage_text
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/dvc/dvc/stage/__init__.py-restore_fields-128
+ /home/user/dvc/dvc/stage/serialize.py-to_single_stage_file-208
+
+
+-------case--------dvc.stage.Stage._dvcfile
+{'builtins.NoneType', 'dvc.dvcfile.SingleStageFile'}
+ /home/user/dvc/dvc/stage/__init__.py-dvcfile-193
+ /home/user/dvc/dvc/stage/__init__.py-dvcfile-192
+ /home/user/dvc/dvc/stage/__init__.py-dvcfile-203
+
+
+-------case--------dvc.stage.Stage.desc
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/dvc/tests/func/test_stage.py-test_meta_desc_is_preserved-193
+ /home/user/dvc/dvc/stage/__init__.py-restore_fields-130
+ /home/user/dvc/dvc/stage/utils.py-get_dump-198
+
+
+-------case--------dvc.stage.Stage.meta
+{'builtins.dict', 'builtins.str', 'builtins.NoneType'}
+ /home/user/dvc/dvc/repo/move.py-move-66
+ /home/user/dvc/tests/func/test_stage.py-test_meta_desc_is_preserved-192
+ /home/user/dvc/dvc/stage/utils.py-get_dump-206
+ /home/user/dvc/dvc/stage/__init__.py-restore_fields-129
+
+
+-------case--------dvc.stage.Stage._read_env
+{'unittest.mock.MagicMock', 'builtins.function'}
+ /home/user/dvc/dvc/stage/__init__.py-env-313
+
+
+-------case--------dvc.stage.RawData.generated_from
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------dvc.output.Output.files
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/dvc/dvc/output.py-_compute_meta_hash_info_from_files-431
+ /home/user/dvc/dvc/output.py-_compute_meta_hash_info_from_files-422
+ /home/user/dvc/dvc/output.py-_compute_meta_hash_info_from_files-429
+ /home/user/dvc/dvc/output.py-get_obj-863
+ /home/user/dvc/dvc/output.py-dumpd-782
+ /home/user/dvc/dvc/output.py-get_obj-864
+ /home/user/dvc/dvc/output.py-_compute_meta_hash_info_from_files-430
+ /home/user/dvc/dvc/stage/__init__.py-<genexpr>-508
+ /home/user/dvc/dvc/output.py-_compute_meta_hash_info_from_files-419
+
+
+-------case--------dvc.output.Output.fs_path
+{'unittest.mock.MagicMock', 'builtins.str'}
+ /home/user/dvc/tests/func/test_add.py-test_add_optimization_for_hardlink_on_empty_files-742
+ /home/user/dvc/dvc/output.py-get_files_number-1001
+ /home/user/dvc/dvc/output.py-save-675
+ /home/user/dvc/dvc/output.py-get_obj-878
+ /home/user/dvc/dvc/fs/__init__.py-download-56
+ /home/user/dvc/dvc/dependency/repo.py-download-89
+ /home/user/dvc/tests/func/test_repo_index.py-<setcomp>-272
+ /home/user/dvc/dvc/output.py-index_key-566
+ /home/user/dvc/dvc/output.py-commit-731
+ /home/user/dvc/dvc/repo/add.py-translate_graph_error-90
+ /home/user/dvc/dvc/output.py-exists-557
+ /home/user/dvc/tests/unit/output/test_local.py-test_str_on_local_absolute_path-37
+ /home/user/dvc/dvc/output.py-isdir-631
+ /home/user/dvc/dvc/output.py-verify_metric-852
+ /home/user/dvc/dvc/stage/decorators.py-<listcomp>-25
+ /home/user/dvc/dvc/repo/index.py-data_keys-547
+ /home/user/dvc/dvc/repo/index.py-data_keys-546
+ /home/user/dvc/tests/func/test_import_url.py-test_import_url_to_dir-79
+ /home/user/dvc/dvc/output.py-move-946
+ /home/user/dvc/dvc/output.py-is_in_repo-498
+ /home/user/dvc/dvc/output.py-commit-721
+ /home/user/dvc/dvc/output.py-index_key-569
+ /home/user/dvc/dvc/output.py-isdir-629
+ /home/user/dvc/dvc/output.py-dumpd-792
+ /home/user/dvc/dvc/output.py-move-944
+ /home/user/dvc/tests/func/plots/test_show.py-test_collect_non_existing_dir-320
+ /home/user/dvc/dvc/output.py-checkout-900
+ /home/user/dvc/dvc/output.py-commit-745
+ /home/user/dvc/dvc/output.py-get_obj-877
+ /home/user/dvc/dvc/repo/index.py-_data_prefixes-532
+ /home/user/dvc/dvc/stage/utils.py-<genexpr>-133
+ /home/user/dvc/dvc/repo/reproduce.py-_get_stage_files-65
+ /home/user/dvc/tests/conftest.py-<listcomp>-236
+ /home/user/dvc/dvc/output.py-__str__-475
+ /home/user/dvc/dvc/output.py-cache-514
+ /home/user/dvc/dvc/output.py-_collect_used_dir_cache-1054
+ /home/user/dvc/tests/func/test_repo_index.py-<setcomp>-261
+ /home/user/dvc/dvc/output.py-isfile-634
+ /home/user/dvc/dvc/repo/__init__.py-func-529
+ /home/user/dvc/dvc/stage/__init__.py-_func-619
+ /home/user/dvc/dvc/repo/plots/__init__.py-<dictcomp>-331
+ /home/user/dvc/tests/func/test_repo_index.py-<setcomp>-253
+ /home/user/dvc/dvc/repo/add.py-translate_graph_error-91
+ /home/user/dvc/dvc/output.py-_collect_used_dir_cache-1063
+ /home/user/dvc/dvc/output.py-_commit_granular_dir-759
+ /home/user/dvc/tests/func/test_repo_index.py-<setcomp>-295
+ /home/user/dvc/dvc/stage/utils.py-<setcomp>-121
+ /home/user/dvc/dvc/stage/__init__.py-commit-559
+ /home/user/dvc/dvc/output.py-_collect_used_dir_cache-1065
+ /home/user/dvc/tests/func/test_add.py-test_add_optimization_for_hardlink_on_empty_files-739
+ /home/user/dvc/dvc/output.py-verify_metric-847
+ /home/user/dvc/dvc/output.py-save-683
+ /home/user/dvc/dvc/output.py-isfile-636
+ /home/user/dvc/dvc/output.py-__str__-477
+ /home/user/dvc/dvc/output.py-set_exec-697
+ /home/user/dvc/dvc/output.py-exists-560
+ /home/user/dvc/dvc/output.py-verify_metric-844
+ /home/user/dvc/tests/unit/repo/test_repo.py-test_find_outs_by_path-29
+ /home/user/dvc/dvc/repo/index.py-_data_prefixes-531
+ /home/user/dvc/dvc/output.py-_commit_granular_dir-756
+ /home/user/dvc/dvc/repo/trie.py-build_outs_trie-12
+ /home/user/dvc/dvc/output.py-fspath-1214
+ /home/user/dvc/dvc/output.py-checkout-913
+ /home/user/dvc/dvc/repo/collect.py-_filter_outs-50
+ /home/user/dvc/dvc/output.py-unprotect-1009
+ /home/user/dvc/dvc/output.py-remove-932
+ /home/user/dvc/tests/unit/output/test_local.py-test_str_on_external_absolute_path-49
+ /home/user/dvc/dvc/repo/metrics/show.py-_to_fs_paths-29
+ /home/user/dvc/dvc/output.py-is_empty-626
+ /home/user/dvc/dvc/output.py-_get_hash_meta-534
+
+
+-------case--------dvc.output.Output.remote
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/dvc/dvc/output.py-restore_fields-1231
+ /home/user/dvc/dvc/output.py-get_used_objs-1116
+ /home/user/dvc/dvc/stage/serialize.py-_get_flags-61
+ /home/user/dvc/dvc/output.py-get_used_objs-1117
+ /home/user/dvc/dvc/output.py-get_dir_cache-1020
+ /home/user/dvc/dvc/repo/index.py-_load_storage_from_out-149
+ /home/user/dvc/dvc/output.py-dumpd-823
+ /home/user/dvc/tests/unit/output/test_load.py-test_load_remote-90
+ /home/user/dvc/dvc/output.py-dumpd-822
+ /home/user/dvc/tests/unit/output/test_load.py-test_load_remote-91
+ /home/user/dvc/dvc/output.py-get_dir_cache-1019
+
+
+-------case--------dvc.annotations.Annotation.desc
+{'builtins.str', 'builtins.NoneType'}
+ <string>-__eq__-4
+
+
+-------case--------dvc.annotations.Annotation.type
+{'builtins.str', 'builtins.NoneType'}
+ <string>-__eq__-4
+
+
+-------case--------dvc.repo.index.Index.rev
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/dvc/dvc/repo/index.py-__repr__-192
+
+
+-------case--------dvc_data.hashfile.db.reference.ReferenceHashFileDB.state
+{'dvc_data.hashfile.state.StateNoop', 'dvc_data.hashfile.state.State'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/hashfile/build.py-_build_file-63
+
+
+-------case--------dvc_data.hashfile.hash.LargeFileHashingCallback.size
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/hashfile/hash.py-call-153
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.iterable
+{'builtins.generator', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__iter__-1178
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.total
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1469
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.fp
+{'tqdm.utils.DisableOnWriteError', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-moveto-1457
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-moveto-1458
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-external_write_mode-640
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-fp_write-1301
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-external_write_mode-641
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__init__-1107
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.mininterval
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1268
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__iter__-1187
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1249
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.maxinterval
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1263
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.miniters
+{'builtins.int', 'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/_monitor.py-run-77
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1246
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__iter__-1201
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.dynamic_miniters
+{'builtins.bool', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1257
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.ascii
+{'builtins.bool', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1472
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.unit
+{'builtins.str', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1472
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.unit_scale
+{'builtins.bool', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1472
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.unit_divisor
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1475
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.initial
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1475
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.lock_args
+{'builtins.tuple', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1256
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__init__-1109
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.delay
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__iter__-1190
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-close-1291
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1249
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.gui
+{'builtins.bool', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-_decr_instances-601
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.dynamic_ncols
+{'builtins.bool', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1466
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.smoothing
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1265
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1252
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress._ema_dn
+{'tqdm.std.EMA', 'missing'}
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress._ema_dt
+{'tqdm.std.EMA', 'missing'}
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress._ema_miniters
+{'tqdm.std.EMA', 'missing'}
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress._time
+{'builtins.builtin_function_or_method', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__iter__-1192
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.last_print_n
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__iter__-1189
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1251
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__iter__-1206
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1246
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.sp
+{'builtins.function', 'missing'}
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.last_print_t
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-close-1291
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1248
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__init__-1114
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__iter__-1188
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__iter__-1207
+
+
+-------case--------dvc_data.hashfile._progress.QueryingProgress.start_t
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1470
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__iter__-1190
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-close-1291
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1249
+
+
+-------case--------dvc_objects.fs.callbacks.TqdmCallback.size
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_objects/fs/callbacks.py-call-172
+
+
+-------case--------dvc_objects._tqdm.Tqdm.desc
+{'builtins.str', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1471
+
+
+-------case--------dvc_objects._tqdm.Tqdm.total
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__len__-1128
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1469
+
+
+-------case--------dvc_objects._tqdm.Tqdm.fp
+{'tqdm.utils.DisableOnWriteError', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-moveto-1457
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-moveto-1458
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-external_write_mode-640
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-fp_write-1301
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-external_write_mode-641
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__init__-1107
+
+
+-------case--------dvc_objects._tqdm.Tqdm.mininterval
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1268
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1249
+
+
+-------case--------dvc_objects._tqdm.Tqdm.maxinterval
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/_monitor.py-run-78
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1263
+
+
+-------case--------dvc_objects._tqdm.Tqdm.miniters
+{'builtins.int', 'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/_monitor.py-run-77
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1246
+
+
+-------case--------dvc_objects._tqdm.Tqdm.dynamic_miniters
+{'builtins.bool', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1257
+
+
+-------case--------dvc_objects._tqdm.Tqdm.ascii
+{'builtins.bool', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1472
+
+
+-------case--------dvc_objects._tqdm.Tqdm.unit
+{'builtins.str', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1472
+
+
+-------case--------dvc_objects._tqdm.Tqdm.unit_scale
+{'builtins.bool', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1472
+
+
+-------case--------dvc_objects._tqdm.Tqdm.unit_divisor
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1475
+
+
+-------case--------dvc_objects._tqdm.Tqdm.initial
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1475
+
+
+-------case--------dvc_objects._tqdm.Tqdm.lock_args
+{'builtins.tuple', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1256
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__init__-1109
+
+
+-------case--------dvc_objects._tqdm.Tqdm.delay
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-close-1291
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1249
+
+
+-------case--------dvc_objects._tqdm.Tqdm.gui
+{'builtins.bool', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-_decr_instances-601
+
+
+-------case--------dvc_objects._tqdm.Tqdm.dynamic_ncols
+{'builtins.bool', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1466
+
+
+-------case--------dvc_objects._tqdm.Tqdm.smoothing
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1265
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1252
+
+
+-------case--------dvc_objects._tqdm.Tqdm._ema_dn
+{'tqdm.std.EMA', 'missing'}
+
+
+-------case--------dvc_objects._tqdm.Tqdm._ema_dt
+{'tqdm.std.EMA', 'missing'}
+
+
+-------case--------dvc_objects._tqdm.Tqdm._ema_miniters
+{'tqdm.std.EMA', 'missing'}
+
+
+-------case--------dvc_objects._tqdm.Tqdm._time
+{'builtins.builtin_function_or_method', 'missing'}
+
+
+-------case--------dvc_objects._tqdm.Tqdm.last_print_n
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1251
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1246
+
+
+-------case--------dvc_objects._tqdm.Tqdm.sp
+{'builtins.function', 'missing'}
+
+
+-------case--------dvc_objects._tqdm.Tqdm.last_print_t
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1248
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-__init__-1114
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/_monitor.py-run-78
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-close-1291
+
+
+-------case--------dvc_objects._tqdm.Tqdm.start_t
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-format_dict-1470
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-close-1291
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/tqdm-4.64.2.dev0+g6791e8c.d20221206-py3.9.egg/tqdm/std.py-update-1249
+
+
+-------case--------dvc_data.hashfile.checkout.Link._callback
+{'dvc_objects.fs.callbacks.TqdmCallback', 'dvc_objects.fs.callbacks.NoOpCallback'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/hashfile/checkout.py-__call__-173
+
+
+-------case--------dvc.cli.parser.DvcParser.description
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/Lib/argparse.py-format_help-2526
+
+
+-------case--------dvc.cli.parser.DvcParser._subparsers
+{'builtins.NoneType', 'argparse._ArgumentGroup'}
+ /home/user/purepython/cpython-3.9/Lib/argparse.py-add_subparsers-1799
+ /home/user/purepython/cpython-3.9/Lib/argparse.py-add_subparsers-1774
+
+
+-------case--------dvc.cli.actions.KeyValueArgs.container
+{'argparse._ArgumentGroup', 'missing'}
+
+
+-------case--------dvc.cli.actions.CommaSeparatedArgs.container
+{'argparse._ArgumentGroup', 'missing'}
+
+
+-------case--------dvc.stage.PipelineStage._path
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/dvc/dvc/stage/__init__.py-path-182
+
+
+-------case--------dvc.stage.PipelineStage.cmd
+{'builtins.list', 'builtins.str', 'builtins.NoneType'}
+ /home/user/dvc/dvc/stage/__init__.py-is_callback-252
+ /home/user/dvc/tests/func/test_dvcfile.py-test_run_load_one_for_multistage-40
+ /home/user/dvc/dvc/stage/serialize.py-to_single_stage_lockfile-158
+ /home/user/dvc/tests/func/test_status.py-test_status_on_pipeline_stages-74
+ /home/user/dvc/tests/func/test_lockfile.py-test_cmd_changes_other_orders_are_preserved-98
+ /home/user/dvc/tests/func/test_repro_multistage.py-test_repro_when_cmd_changes-133
+ /home/user/dvc/dvc/stage/serialize.py-to_pipeline_file-133
+ /home/user/dvc/tests/unit/stage/test_loader_pipeline_file.py-test_load_changed_command-229
+ /home/user/dvc/dvc/stage/cache.py-_can_hash-39
+ /home/user/dvc/dvc/stage/__init__.py-run-578
+ /home/user/dvc/dvc/stage/run.py-cmd_run-121
+ /home/user/dvc/dvc/stage/__init__.py-is_import-257
+ /home/user/dvc/dvc/stage/loader.py-load_stage-121
+ /home/user/dvc/tests/unit/stage/test_loader_pipeline_file.py-test_load_changed_command-234
+ /home/user/dvc/dvc/stage/__init__.py-run-573
+ /home/user/dvc/tests/unit/stage/test_loader_pipeline_file.py-test_load_stage-169
+ /home/user/dvc/dvc/stage/utils.py-get_dump-200
+ /home/user/dvc/dvc/stage/__init__.py-is_data_source-244
+ /home/user/dvc/tests/unit/stage/test_loader_pipeline_file.py-test_load_stage_cmd_with_list-181
+ /home/user/dvc/dvc/stage/serialize.py-to_pipeline_file-140
+ /home/user/dvc/dvc/stage/serialize.py-to_single_stage_lockfile-177
+ /home/user/dvc/tests/func/test_lockfile.py-test_cmd_changes_other_orders_are_preserved-101
+
+
+-------case--------dvc.stage.PipelineStage.md5
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/dvc/dvc/stage/utils.py-get_dump-199
+
+
+-------case--------dvc.stage.PipelineStage._dvcfile
+{'dvc.dvcfile.ProjectFile', 'builtins.NoneType'}
+ /home/user/dvc/dvc/stage/__init__.py-dvcfile-193
+ /home/user/dvc/dvc/stage/__init__.py-dvcfile-192
+ /home/user/dvc/dvc/stage/__init__.py-dvcfile-203
+
+
+-------case--------dvc.stage.PipelineStage.desc
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/dvc/dvc/stage/utils.py-get_dump-198
+ /home/user/dvc/dvc/stage/serialize.py-to_pipeline_file-139
+ /home/user/dvc/dvc/stage/__init__.py-restore_fields-130
+ /home/user/dvc/tests/func/test_dvcfile.py-test_dvcfile_load_dump_stage_with_desc_meta-402
+ /home/user/dvc/tests/func/test_dvcfile.py-test_dvcfile_dump_preserves_desc-346
+
+
+-------case--------dvc.stage.PipelineStage.meta
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/dvc/tests/func/test_dvcfile.py-test_dvcfile_load_dump_stage_with_desc_meta-401
+ /home/user/dvc/dvc/stage/utils.py-get_dump-206
+ /home/user/dvc/dvc/stage/serialize.py-to_pipeline_file-149
+ /home/user/dvc/dvc/stage/__init__.py-restore_fields-129
+
+
+-------case--------dvc.stage.PipelineStage.name
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/dvc/tests/unit/test_params.py-test_repro_unicode-43
+ /home/user/dvc/tests/func/test_run_multistage.py-test_run_no_exec-31
+ /home/user/dvc/dvc/stage/serialize.py-to_pipeline_file-151
+ /home/user/dvc/tests/func/test_stage.py-test_stage_strings_representation-274
+ /home/user/dvc/dvc/dvcfile.py-dump-419
+ /home/user/dvc/tests/func/test_repro_multistage.py-test_downstream-103
+ /home/user/dvc/dvc/stage/__init__.py-__hash__-776
+ /home/user/dvc/dvc/stage/serialize.py-to_lockfile-195
+ /home/user/dvc/tests/func/test_repro_multistage.py-test_downstream-91
+ /home/user/dvc/tests/func/test_repro_multistage.py-test_downstream-109
+ /home/user/dvc/dvc/dvcfile.py-dump-418
+ /home/user/dvc/dvc/dvcfile.py-remove_stage-439
+ /home/user/dvc/dvc/stage/__init__.py-addressing-784
+ /home/user/dvc/tests/func/test_run_multistage.py-test_run_with_multistage_and_single_stage-54
+ /home/user/dvc/dvc/dvcfile.py-_dump_pipeline_file-279
+ /home/user/dvc/dvc/stage/__init__.py-reload-792
+ /home/user/dvc/tests/func/test_run_multistage.py-<setcomp>-69
+ /home/user/dvc/tests/func/test_stage.py-test_stage_remove_pipeline_stage-298
+ /home/user/dvc/dvc/stage/serialize.py-to_lockfile-196
+ /home/user/dvc/tests/func/test_stage.py-test_stage_strings_representation-273
+ /home/user/dvc/dvc/dvcfile.py-remove_stage-436
+ /home/user/dvc/dvc/stage/utils.py-check_stage_exists-264
+ /home/user/dvc/tests/func/test_repro_multistage.py-test_downstream-87
+ /home/user/dvc/dvc/dvcfile.py-remove_stage-344
+ /home/user/dvc/tests/func/test_repro_multistage.py-test_downstream-116
+ /home/user/dvc/dvc/dvcfile.py-remove_stage-440
+ /home/user/dvc/dvc/dvcfile.py-remove_stage-341
+ /home/user/dvc/dvc/stage/utils.py-check_stage_exists-266
+ /home/user/dvc/tests/func/test_run_multistage.py-test_run_with_name-18
+ /home/user/dvc/dvc/dvcfile.py-_dump_pipeline_file-281
+ /home/user/dvc/dvc/dvcfile.py-remove_stage-345
+ /home/user/dvc/tests/func/test_stage.py-test_stage_strings_representation-275
+ /home/user/dvc/tests/unit/stage/test_loader_pipeline_file.py-test_load_stage-168
+ /home/user/dvc/dvc/stage/__init__.py-__eq__-773
+ /home/user/dvc/tests/func/test_dvcfile.py-test_run_load_one_for_multistage-41
+ /home/user/dvc/dvc/dvcfile.py-_dump_pipeline_file-284
+ /home/user/dvc/dvc/dvcfile.py-_dump_pipeline_file-285
+ /home/user/dvc/tests/func/test_repro_multistage.py-test_repro_when_lockfile_gets_deleted-292
+ /home/user/dvc/dvc/stage/__init__.py-addressing-783
+ /home/user/dvc/tests/func/test_stage.py-test_stage_remove_pipeline_stage-304
+
+
+-------case--------dvc.stage.PipelineStage.tracked_vars
+{'builtins.dict', 'collections.collections.defaultdict'}
+ /home/user/dvc/dvc/repo/params/show.py-_collect_vars-106
+
+
+-------case--------dvc.parsing.DataResolver.fs
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem'}
+ /home/user/dvc/dvc/parsing/__init__.py-_resolve_wdir-245
+ /home/user/dvc/dvc/parsing/__init__.py-resolve_stage-275
+
+
+-------case--------dvc.parsing.context.Meta.source
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/dvc/dvc/parsing/context.py-__str__-112
+ /home/user/dvc/dvc/parsing/context.py-__init__-57
+ /home/user/dvc/dvc/parsing/context.py-get_sources-243
+ /home/user/dvc/dvc/parsing/context.py-__init__-56
+ /home/user/dvc/dvc/parsing/context.py-get_sources-148
+
+
+-------case--------dvc.data_cloud.Remote.path
+{'dvc.config_schema.RelPath', 'builtins.str'}
+ /home/user/dvc/dvc/data_cloud.py-odb-34
+
+
+-------case--------dvc.repo.index.IndexView._outs_filter
+{'builtins.function', 'builtins.NoneType'}
+ /home/user/dvc/dvc/repo/index.py-_filtered_outs-515
+
+
+-------case--------dvc_data.index.index.DataIndexEntry.key
+{'builtins.NoneType', 'builtins.tuple'}
+ /home/user/dvc/dvc/repo/index.py-build_data_index-621
+ /home/user/dvc/dvc/repo/index.py-build_data_index-616
+ /home/user/dvc/dvc/repo/diff.py-_path-15
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/diff.py-key-42
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-get_storage-324
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-remote_exists-347
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-get_storage-321
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/diff.py-key-41
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/checkout.py-checkout-89
+ /home/user/dvc/dvc/repo/diff.py-_path-16
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-get-198
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-cache_exists-338
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-get-199
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-add-405
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-remote_exists-345
+
+
+-------case--------dvc_data.index.index.DataIndexEntry.meta
+{'dvc_data.hashfile.meta.Meta', 'builtins.NoneType'}
+ /home/user/dvc/dvc/repo/index.py-build_data_index-606
+ /home/user/dvc/dvc/repo/data.py-_adapt_path-48
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/save.py-build_tree-65
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/diff.py-_diff_entry-99
+ /home/user/dvc/dvc/repo/data.py-_adapt_path-47
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-_info_from_entry-388
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/checkout.py-checkout-87
+ /home/user/dvc/dvc/repo/data.py-_adapt_path-49
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/save.py-md5-24
+ /home/user/dvc/dvc/repo/imports.py-<genexpr>-130
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/save.py-build_tree-68
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/save.py-build_tree-63
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-_info_from_entry-391
+ /home/user/dvc/dvc/repo/data.py-_adapt_path-46
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/save.py-save-122
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-_load-489
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/save.py-build_tree-67
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-to_dict-64
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-_info_from_entry-392
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-to_dict-63
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/diff.py-_diff_entry-100
+ /home/user/dvc/dvc/repo/imports.py-unpartial_imports-83
+ /home/user/dvc/dvc/repo/diff.py-_path-14
+ /home/user/dvc/dvc/repo/imports.py-<genexpr>-129
+
+
+-------case--------dvc_data.index.index.DataIndexEntry.loaded
+{'builtins.NoneType', 'builtins.bool'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-to_dict-69
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-_ensure_loaded-578
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-_load-481
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-_ensure_loaded-575
+
+
+-------case--------dvc_data.index.index.StorageInfo.data
+{'builtins.NoneType', 'dvc_data.index.index.FileStorage'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-odbs-276
+
+
+-------case--------dvc_data.hashfile.db.HashFileDB.state
+{'dvc_data.hashfile.state.StateNoop', 'dvc_data.hashfile.state.State'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/hashfile/db/__init__.py-add-130
+
+
+-------case--------dvc.dependency.repo.RepoDependency.stage
+{'dvc.stage.Stage', 'builtins.NoneType'}
+
+
+-------case--------dvc.dependency.repo.RepoDependency.fs_path
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/dvc/dvc/repo/graph.py-build_outs_graph-139
+ /home/user/dvc/dvc/stage/utils.py-<genexpr>-133
+ /home/user/dvc/dvc/repo/index.py-_load_storage_from_out-166
+ /home/user/dvc/dvc/stage/utils.py-<setcomp>-120
+ /home/user/dvc/dvc/repo/graph.py-build_outs_graph-142
+
+
+-------case--------dvc.fs.dvc._DVCFileSystem._fs_token_
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------dvc.fs.dvc._DVCFileSystem.repo_factory
+{'builtins.type', 'builtins.function'}
+ /home/user/dvc/tests/unit/test_external_repo.py-<listcomp>-41
+ /home/user/dvc/dvc/fs/dvc.py-_update-210
+ /home/user/dvc/dvc/fs/dvc.py-_update-206
+
+
+-------case--------dvc.fs.dvc._DVCFileSystem.storage_args
+{'builtins.tuple', 'missing'}
+
+
+-------case--------dvc.fs.dvc._DVCFileSystem.storage_options
+{'builtins.dict', 'missing'}
+
+
+-------case--------dvc_data.fs.DataFileSystem._fs_token_
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------dvc_data.fs.DataFileSystem.storage_args
+{'builtins.tuple', 'missing'}
+
+
+-------case--------dvc_data.fs.DataFileSystem.storage_options
+{'builtins.dict', 'missing'}
+
+
+-------case--------dvc_data.index.view._FilterNode.value
+{'dvc_data.index.index.DataIndexEntry', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/view.py-build-66
+
+
+-------case--------dvc.parsing.context.Value._value
+{'builtins.float', 'builtins.int', 'builtins.str', 'builtins.bytes', 'builtins.bool', 'builtins.NoneType'}
+ <string>-__eq__-4
+ /home/user/dvc/dvc/parsing/context.py-__repr__-142
+ /home/user/dvc/dvc/parsing/context.py-value-152
+ /home/user/dvc/dvc/parsing/context.py-__str__-145
+
+
+-------case--------dvc.parsing.ForeachDefinition.foreach_data
+{'builtins.list', 'builtins.dict', 'builtins.str'}
+ /home/user/dvc/dvc/parsing/__init__.py-_resolve_foreach_data-348
+
+
+-------case--------dvc.parsing.ForeachDefinition.resolved_iterable
+{'builtins.list', 'dvc.parsing.context.CtxList', 'builtins.dict', 'dvc.parsing.context.CtxDict'}
+ /home/user/dvc/dvc/parsing/__init__.py-normalized_iterable-393
+ /home/user/dvc/dvc/parsing/__init__.py-_each_iter-428
+
+
+-------case--------dvc.repo.experiments.executor.base.ExecutorInfo.name
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/dvc/dvc/repo/experiments/executor/base.py-_repro_dvc-621
+ /home/user/dvc/dvc/repo/experiments/executor/base.py-from_info-226
+ <string>-__repr__-3
+ /home/user/dvc/dvc/repo/experiments/executor/base.py-_repro_dvc-645
+ /home/user/dvc/dvc/repo/experiments/executor/base.py-reproduce-523
+ /home/user/dvc/dvc/repo/experiments/executor/base.py-_repro_commit-569
+
+
+-------case--------dvc.repo.experiments.executor.base.ExecutorInfo.wdir
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/dvc/dvc/repo/experiments/executor/base.py-from_info-227
+ <string>-__repr__-3
+ /home/user/dvc/dvc/repo/experiments/executor/base.py-_repro_dvc-612
+ /home/user/dvc/dvc/repo/experiments/executor/base.py-_repro_dvc-613
+
+
+-------case--------dvc.repo.experiments.executor.base.ExecutorInfo.result_hash
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/dvc/dvc/repo/experiments/executor/base.py-result-94
+ <string>-__repr__-3
+ /home/user/dvc/dvc/repo/experiments/executor/base.py-from_info-215
+ /home/user/dvc/dvc/repo/experiments/executor/base.py-result-97
+ /home/user/dvc/dvc/repo/experiments/executor/base.py-from_info-213
+
+
+-------case--------dvc.repo.experiments.executor.base.ExecutorInfo.result_ref
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/dvc/dvc/repo/experiments/executor/base.py-result-98
+ <string>-__repr__-3
+ /home/user/dvc/dvc/repo/experiments/executor/base.py-from_info-216
+
+
+-------case--------dvc.dagascii.VertexViewer.xy
+{'builtins.tuple', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/grandalf/layouts.py-draw_edges-811
+ /home/user/dvc/dvc/dagascii.py-draw-266
+ /home/user/dvc/dvc/dagascii.py-draw-224
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/grandalf/layouts.py-draw_edges-812
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/grandalf/utils/geometry.py-intersectR-64
+ /home/user/dvc/dvc/dagascii.py-draw-226
+ /home/user/dvc/dvc/dagascii.py-draw-265
+ /home/user/dvc/dvc/dagascii.py-draw-223
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/grandalf/utils/geometry.py-intersectR-65
+ /home/user/dvc/dvc/dagascii.py-draw-225
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/grandalf/utils/geometry.py-intersectR-45
+
+
+-------case--------dvc_task.app.filesystem.FSApp._tasks
+{'celery.app.registry.TaskRegistry', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/celery/app/base.py-_task_from_fun-470
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/celery/app/base.py-_task_from_fun-488
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/celery/app/base.py-tasks-1299
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/celery/app/base.py-__init__-263
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/celery/app/base.py-finalize-534
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/celery/app/base.py-__init__-262
+
+
+-------case--------dvc_task.contrib.kombu_filesystem.FilesystemChannel._cycle
+{'kombu.utils.scheduling.FairCycle', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/kombu/transport/virtual/base.py-cycle-821
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/kombu/transport/virtual/base.py-cycle-819
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/kombu/transport/virtual/base.py-close-779
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/kombu/transport/virtual/base.py-close-778
+
+
+-------case--------dvc_task.contrib.kombu_filesystem.FilesystemChannel._qos
+{'builtins.NoneType', 'kombu.transport.virtual.base.QoS'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/kombu/transport/virtual/base.py-close-777
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/kombu/transport/virtual/base.py-close-776
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/kombu/transport/virtual/base.py-qos-813
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/kombu/transport/virtual/base.py-qos-815
+
+
+-------case--------dvc_task.contrib.kombu_filesystem.FilesystemChannel.exchange_types
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/kombu/transport/virtual/base.py-typeof-689
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/kombu/transport/virtual/base.py-__init__-464
+
+
+-------case--------dvc_task.proc.tasks.run.__qualname__
+{'builtins.str', 'missing'}
+
+
+-------case--------dvc_task.proc.process.ProcessInfo.returncode
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_task/proc/manager.py-send_signal-133
+
+

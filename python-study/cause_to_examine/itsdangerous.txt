@@ -1,0 +1,8 @@
+itsdangerous.signer.Signer.algorithm
+{'itsdangerous.signer.NoneAlgorithm', 'itsdangerous.signer.HMACAlgorithm', 'test_itsdangerous.test_signer._ReverseAlgorithm'}
+ /home/user/itsdangerous/tests/test_itsdangerous/test_signer.py-test_algorithm-92
+            assert signer.algorithm.digest_method == signer.digest_method
+itsdangerous.timed.TimestampSigner.algorithm
+{'itsdangerous.signer.NoneAlgorithm', 'itsdangerous.signer.HMACAlgorithm', 'test_itsdangerous.test_signer._ReverseAlgorithm'}
+ /home/user/itsdangerous/tests/test_itsdangerous/test_signer.py-test_algorithm-92
+            assert signer.algorithm.digest_method == signer.digest_method

@@ -1,0 +1,1116 @@
+-------case--------jinja2.environment.Environment.finalize
+{'builtins.NoneType', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-_make_finalize-1398
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-_make_finalize-1396
+
+
+-------case--------jinja2.environment.Environment.autoescape
+{'builtins.bool', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-__init__-78
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-__init__-81
+
+
+-------case--------jinja2.environment.Environment.cache
+{'builtins.NoneType', 'builtins.dict', 'jinja2.utils.LRUCache'}
+ /home/user/jinja/tests/test_loader.py-test_limited_size_cache-96
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/environment.py-overlay-439
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/environment.py-_load_template-958
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/environment.py-_load_template-957
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/environment.py-_load_template-971
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/environment.py-_load_template-972
+ /home/user/jinja/tests/test_loader.py-test_limited_size_cache-95
+ /home/user/jinja/tests/test_loader.py-test_limited_size_cache-97
+
+
+-------case--------jinja2.environment.Environment.bytecode_cache
+{'builtins.NoneType', 'jinja2.bccache.FileSystemBytecodeCache'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/loaders.py-load-130
+
+
+-------case--------jinja2.environment.Environment.install_gettext_translations
+{'missing', 'builtins.method'}
+
+
+-------case--------jinja2.environment.Environment.install_null_translations
+{'missing', 'builtins.method'}
+
+
+-------case--------jinja2.environment.Environment.install_gettext_callables
+{'missing', 'builtins.method'}
+
+
+-------case--------jinja2.environment.Environment.uninstall_gettext_translations
+{'missing', 'builtins.method'}
+
+
+-------case--------jinja2.environment.Environment.extract_translations
+{'missing', 'builtins.method'}
+
+
+-------case--------jinja2.environment.Environment.newstyle_gettext
+{'missing', 'builtins.bool'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/ext.py-_make_node-527
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/ext.py-_install_callables-325
+
+
+-------case--------jinja2.parser.Parser.name
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-fail-86
+
+
+-------case--------jinja2.parser.Parser.filename
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-fail-86
+
+
+-------case--------jinja2.lexer.TokenStream._iter
+{'builtins.tuple_iterator', 'builtins.generator', 'builtins.list_iterator'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/lexer.py-__next__-389
+
+
+-------case--------jinja2.lexer.TokenStream.name
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/lexer.py-expect-419
+
+
+-------case--------jinja2.lexer.TokenStream.filename
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/lexer.py-expect-420
+
+
+-------case--------jinja2.nodes.Name.lineno
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-478
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-477
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-parse_call_args-900
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-flush_data-991
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_For-1224
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-479
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-set_lineno-224
+
+
+-------case--------jinja2.nodes.Getattr.node
+{'jinja2.nodes.Dict', 'jinja2.nodes.Getattr', 'jinja2.nodes.CondExpr', 'jinja2.nodes.Getitem', 'jinja2.nodes.List', 'jinja2.nodes.Call', 'jinja2.nodes.Const', 'jinja2.nodes.Name', 'jinja2.nodes.Filter'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Getattr-1716
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-870
+
+
+-------case--------jinja2.nodes.Getattr.environment
+{'builtins.NoneType', 'jinja2.sandbox.ImmutableSandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.nativetypes.NativeEnvironment'}
+
+
+-------case--------jinja2.nodes.Call.node
+{'jinja2.nodes.Getattr', 'jinja2.nodes.ExtensionAttribute', 'jinja2.nodes.Name', 'jinja2.nodes.Filter'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/ext.py-extract_from_ast-689
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/ext.py-extract_from_ast-720
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Call-1850
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/ext.py-extract_from_ast-690
+
+
+-------case--------jinja2.nodes.Call.dyn_args
+{'jinja2.nodes.List', 'jinja2.nodes.Const', 'builtins.NoneType', 'jinja2.nodes.Name'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-signature-511
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-signature-513
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/ext.py-extract_from_ast-704
+
+
+-------case--------jinja2.nodes.Call.dyn_kwargs
+{'jinja2.nodes.Dict', 'builtins.NoneType', 'jinja2.nodes.Const'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-signature-534
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-signature-536
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/ext.py-extract_from_ast-706
+
+
+-------case--------jinja2.nodes.Call.lineno
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-478
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-477
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-flush_data-991
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-479
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-set_lineno-224
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/ext.py-extract_from_ast-720
+
+
+-------case--------jinja2.nodes.Call.environment
+{'builtins.NoneType', 'jinja2.sandbox.ImmutableSandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.nativetypes.NativeEnvironment'}
+
+
+-------case--------jinja2.nodes.Filter.lineno
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-478
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-_filter_test_common-1772
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-flush_data-991
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-477
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-479
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/optimizer.py-generic_visit-41
+
+
+-------case--------jinja2.nodes.Filter.environment
+{'builtins.NoneType', 'jinja2.environment.Environment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.nativetypes.NativeEnvironment'}
+
+
+-------case--------jinja2.nodes.Output.lineno
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-set_lineno-224
+
+
+-------case--------jinja2.nodes.Template.lineno
+{'builtins.NoneType', 'builtins.int'}
+
+
+-------case--------jinja2.compiler.CodeGenerator.name
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-_import_common-1086
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Include-1047
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-position-710
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-fail-382
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Template-867
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-position-709
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Extends-1015
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Template-830
+
+
+-------case--------jinja2.compiler.CodeGenerator.filename
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-fail-382
+
+
+-------case--------jinja2.compiler.CodeGenerator._write_debug_info
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-write-460
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-write-459
+
+
+-------case--------jinja2.compiler.CodeGenerator._last_line
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-477
+
+
+-------case--------jinja2.compiler.Frame.parent
+{'jinja2.compiler.Frame', 'builtins.NoneType'}
+
+
+-------case--------jinja2.compiler.Frame.buffer
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Filter-1810
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-return_buffer_contents-412
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Filter-1808
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Output-1533
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Output-1551
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Block-971
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Output-1548
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Output-1538
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-end_write-431
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-start_write-424
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-buffer-392
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Output-1520
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-__init__-198
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-start_write-427
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Output-1524
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Output-1522
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_For-1213
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_AssignBlock-1583
+
+
+-------case--------jinja2.compiler.Frame.block
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-__init__-199
+
+
+-------case--------jinja2.runtime.Context.name
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-derived-311
+
+
+-------case--------jinja2.nodes.Const.value
+{'builtins.tuple', 'builtins.list', 'builtins.int', 'markupsafe.Markup', 'builtins.dict', 'builtins.bool', 'builtins.NoneType', 'builtins.float', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Include-1038
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-586
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/ext.py-extract_from_ast-698
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/ext.py-extract_from_ast-697
+ /home/user/jinja/tests/test_api.py-visit_Const-412
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/meta.py-find_referenced_templates-98
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/meta.py-find_referenced_templates-99
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/meta.py-find_referenced_templates-88
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/meta.py-find_referenced_templates-89
+
+
+-------case--------jinja2.nodes.Const.lineno
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-flush_data-991
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-parse_call_args-900
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/optimizer.py-generic_visit-41
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-set_lineno-224
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-parse_dict-767
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-parse_assign_target-508
+
+
+-------case--------jinja2.nodes.Getitem.node
+{'jinja2.nodes.Getattr', 'jinja2.nodes.List', 'jinja2.nodes.Call', 'jinja2.nodes.Name', 'jinja2.nodes.Filter', 'jinja2.nodes.Getitem'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Getitem-1735
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-847
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Getitem-1726
+
+
+-------case--------jinja2.nodes.Getitem.arg
+{'jinja2.nodes.Neg', 'jinja2.nodes.Slice', 'jinja2.nodes.Const', 'jinja2.nodes.Tuple'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Getitem-1725
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Getitem-1728
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-847
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Getitem-1737
+
+
+-------case--------jinja2.nodes.Getitem.environment
+{'builtins.NoneType', 'jinja2.environment.Environment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.nativetypes.NativeEnvironment'}
+
+
+-------case--------jinja2.nodes.TemplateData.lineno
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-478
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-flush_data-991
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-477
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-479
+
+
+-------case--------jinja2.nodes.TemplateData.environment
+{'jinja2.environment.Environment', 'builtins.NoneType', 'jinja2.nativetypes.NativeEnvironment'}
+
+
+-------case--------jinja2.nodes.For.target
+{'jinja2.nodes.Tuple', 'jinja2.nodes.Name'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_For-1188
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/idtracking.py-visit_For-211
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_For-1198
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_For-1232
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/idtracking.py-visit_For-206
+
+
+-------case--------jinja2.nodes.For.iter
+{'jinja2.nodes.Getattr', 'jinja2.nodes.Getitem', 'jinja2.nodes.List', 'jinja2.nodes.Call', 'jinja2.nodes.Const', 'jinja2.nodes.Tuple', 'jinja2.nodes.Name', 'jinja2.nodes.Filter'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_For-1245
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/idtracking.py-visit_For-295
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_For-1285
+
+
+-------case--------jinja2.nodes.For.test
+{'jinja2.nodes.Compare', 'builtins.NoneType', 'jinja2.nodes.Test'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/idtracking.py-visit_For-212
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_For-1248
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_For-1194
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/idtracking.py-visit_For-213
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_For-1238
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_For-1193
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_For-1184
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_For-1181
+
+
+-------case--------jinja2.nodes.For.lineno
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-478
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-479
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-477
+
+
+-------case--------jinja2.nodes.For.environment
+{'jinja2.environment.Environment', 'jinja2.sandbox.SandboxedEnvironment', 'builtins.NoneType', 'jinja2.nativetypes.NativeEnvironment'}
+
+
+-------case--------jinja2.nodes.Assign.target
+{'jinja2.nodes.NSRef', 'jinja2.nodes.Name'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/idtracking.py-visit_Assign-289
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Assign-1561
+
+
+-------case--------jinja2.nodes.Assign.node
+{'jinja2.nodes.Getattr', 'jinja2.nodes.Add', 'jinja2.nodes.List', 'jinja2.nodes.Call', 'jinja2.nodes.Const', 'jinja2.nodes.Name', 'jinja2.nodes.Filter'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/idtracking.py-visit_Assign-288
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Assign-1563
+
+
+-------case--------jinja2.nodes.Assign.lineno
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-478
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-479
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-477
+
+
+-------case--------jinja2.nodes.Assign.environment
+{'jinja2.environment.Environment', 'builtins.NoneType', 'test_api.CustomEnvironment'}
+
+
+-------case--------jinja2.nodes.Add.left
+{'jinja2.nodes.Mul', 'jinja2.nodes.Add', 'jinja2.nodes.Call', 'jinja2.nodes.Const', 'jinja2.nodes.Name', 'jinja2.nodes.Filter'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visitor-72
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-508
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visitor-67
+
+
+-------case--------jinja2.nodes.Add.right
+{'jinja2.nodes.Mul', 'jinja2.nodes.Mod', 'jinja2.nodes.Call', 'jinja2.nodes.Const', 'jinja2.nodes.Name', 'jinja2.nodes.Filter'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visitor-74
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-508
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visitor-69
+
+
+-------case--------jinja2.nodes.Add.environment
+{'builtins.NoneType', 'jinja2.environment.Environment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.nativetypes.NativeEnvironment'}
+
+
+-------case--------jinja2.meta.TrackingCodeGenerator._write_debug_info
+{'builtins.NoneType', 'builtins.int'}
+
+
+-------case--------jinja2.nodes.Macro.lineno
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-647
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-478
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-479
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-477
+
+
+-------case--------jinja2.nodes.Macro.environment
+{'jinja2.environment.Environment', 'builtins.NoneType', 'jinja2.nativetypes.NativeEnvironment'}
+
+
+-------case--------jinja2.nodes.Macro.args
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_def-696
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-641
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-669
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-623
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-674
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_def-698
+
+
+-------case--------jinja2.nodes.Macro.defaults
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-674
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-641
+
+
+-------case--------jinja2.nodes.Macro.body
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-630
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-687
+
+
+-------case--------jinja2.nodes.Extends.lineno
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-478
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-479
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-477
+
+
+-------case--------jinja2.nodes.Extends.template
+{'jinja2.nodes.Const', 'missing', 'jinja2.nodes.Name'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Extends-1014
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/meta.py-find_referenced_templates-79
+
+
+-------case--------jinja2.nodes.Include.lineno
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-478
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-477
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-479
+
+
+-------case--------jinja2.nodes.Include.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.Include.ignore_missing
+{'missing', 'builtins.bool'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Include-1032
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Include-1078
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Include-1048
+
+
+-------case--------jinja2.nodes.Include.with_context
+{'missing', 'builtins.bool'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Include-1058
+
+
+-------case--------jinja2.nodes.FromImport.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.FromImport.template
+{'jinja2.nodes.Const', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/meta.py-find_referenced_templates-79
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-_import_common-1085
+
+
+-------case--------jinja2.nodes.FromImport.with_context
+{'missing', 'builtins.bool'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-_import_common-1088
+
+
+-------case--------jinja2.nodes.Import.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.Import.template
+{'jinja2.nodes.Const', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/meta.py-find_referenced_templates-79
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-_import_common-1085
+
+
+-------case--------jinja2.nodes.Import.with_context
+{'missing', 'builtins.bool'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-_import_common-1088
+
+
+-------case--------jinja2.nodes.List.environment
+{'jinja2.sandbox.ImmutableSandboxedEnvironment', 'jinja2.environment.Environment', 'builtins.NoneType', 'jinja2.nativetypes.NativeEnvironment'}
+
+
+-------case--------jinja2.nodes.Tuple.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.runtime.LoopContext._iterable
+{'jinja2.runtime.Undefined', 'builtins.tuple', 'builtins.generator', 'builtins.list', 'builtins.list_reverseiterator', 'itertools.itertools.groupby', 'builtins.list_iterator', 'builtins.range', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-length-438
+
+
+-------case--------jinja2.runtime.LoopContext._iterator
+{'builtins.range_iterator', 'builtins.tuple_iterator', 'builtins.generator', 'builtins.list_reverseiterator', 'builtins.str_iterator', 'itertools.itertools.groupby', 'builtins.list_iterator'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-__next__-559
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-length-440
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-_peek_next-489
+
+
+-------case--------jinja2.runtime.LoopContext._undefined
+{'builtins.type', 'builtins.NoneType'}
+
+
+-------case--------jinja2.runtime.LoopContext._recurse
+{'builtins.NoneType', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-__call__-573
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-__call__-578
+
+
+-------case--------jinja2.runtime.LoopContext._before
+{'builtins.tuple', 'builtins.int', 'builtins.dict', 'jinja2.utils.MissingType', 'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-previtem-510
+
+
+-------case--------jinja2.runtime.LoopContext._current
+{'builtins.tuple', 'builtins.int', 'builtins.dict', 'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-__next__-562
+
+
+-------case--------jinja2.runtime.LoopContext._after
+{'builtins.dict', 'jinja2.utils.MissingType', 'builtins.int', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-_peek_next-487
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-_peek_next-490
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-__next__-555
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-__next__-556
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-length-442
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-_peek_next-486
+
+
+-------case--------jinja2.nodes.Test.environment
+{'jinja2.environment.Environment', 'builtins.NoneType', 'jinja2.nativetypes.NativeEnvironment'}
+
+
+-------case--------jinja2.nodes.Not.node
+{'jinja2.nodes.Getattr', 'jinja2.nodes.Test', 'jinja2.nodes.Const', 'jinja2.nodes.Compare', 'jinja2.nodes.Name'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-532
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visitor-94
+
+
+-------case--------jinja2.nodes.Not.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.Sub.left
+{'jinja2.nodes.Add', 'jinja2.nodes.Name'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visitor-72
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-508
+
+
+-------case--------jinja2.nodes.Sub.right
+{'jinja2.nodes.Const', 'jinja2.nodes.Div'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-508
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visitor-74
+
+
+-------case--------jinja2.nodes.Sub.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.Operand.expr
+{'jinja2.nodes.Const', 'jinja2.nodes.List', 'jinja2.nodes.Name'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-924
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Operand-1708
+
+
+-------case--------jinja2.nodes.Operand.environment
+{'jinja2.environment.Environment', 'builtins.NoneType', 'jinja2.nativetypes.NativeEnvironment'}
+
+
+-------case--------jinja2.nodes.Compare.environment
+{'jinja2.environment.Environment', 'builtins.NoneType', 'jinja2.nativetypes.NativeEnvironment'}
+
+
+-------case--------jinja2.nodes.CondExpr.expr2
+{'jinja2.nodes.Const', 'builtins.NoneType', 'jinja2.nodes.Filter'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-write_expr2-1822
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-710
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-write_expr2-1823
+
+
+-------case--------jinja2.nodes.CondExpr.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.runtime.Macro.name
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/jinja/tests/test_core_tags.py-test_macro_api-434
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-__call__-749
+
+
+-------case--------jinja2.nodes.Block.lineno
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-478
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-477
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-479
+
+
+-------case--------jinja2.nodes.Block.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.Block.name
+{'missing', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Block-963
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Template-853
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Block-973
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Block-978
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Template-851
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-parse_block-321
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Block-966
+
+
+-------case--------jinja2.nodes.Block.scoped
+{'missing', 'builtins.bool'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-<genexpr>-1170
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Block-957
+
+
+-------case--------jinja2.nodes.Block.required
+{'missing', 'builtins.bool'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-parse_block-314
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Block-962
+
+
+-------case--------jinja2.nodes.Block.body
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Template-923
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Template-935
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Template-934
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-parse_block-316
+
+
+-------case--------jinja2.runtime.AsyncLoopContext._iterable
+{'builtins.list_iterator', 'builtins.list_reverseiterator', 'builtins.tuple', 'builtins.generator', 'builtins.list', 'builtins.async_generator', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-length-599
+
+
+-------case--------jinja2.runtime.AsyncLoopContext._recurse
+{'builtins.NoneType', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-__call__-573
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-__call__-578
+
+
+-------case--------jinja2.runtime.AsyncLoopContext._before
+{'builtins.int', 'builtins.dict', 'jinja2.utils.MissingType', 'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-previtem-510
+
+
+-------case--------jinja2.runtime.AsyncLoopContext._current
+{'builtins.dict', 'builtins.NoneType', 'builtins.int', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-__anext__-650
+
+
+-------case--------jinja2.runtime.AsyncLoopContext._after
+{'builtins.dict', 'jinja2.utils.MissingType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-_peek_next-616
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-_peek_next-617
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-__anext__-644
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-_peek_next-624
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-length-603
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-__anext__-643
+
+
+-------case--------jinja2.environment.TemplateModule.test
+{'missing', 'jinja2.runtime.Macro'}
+
+
+-------case--------jinja2.environment.TemplateModule.__name__
+{'builtins.NoneType', 'builtins.str'}
+ <template>-root-15
+
+
+-------case--------jinja2.environment.TemplateModule.toplevel
+{'missing', 'jinja2.runtime.Macro'}
+ /home/user/jinja/tests/test_async.py-test_exports-171
+ /home/user/jinja/tests/test_imports.py-test_exports-90
+
+
+-------case--------jinja2.environment.TemplateModule.variable
+{'missing', 'builtins.int'}
+ /home/user/jinja/tests/test_imports.py-test_exports-92
+ /home/user/jinja/tests/test_async.py-test_exports-173
+
+
+-------case--------jinja2.environment.TemplateModule.baz
+{'missing', 'jinja2.runtime.Macro'}
+ /home/user/jinja/tests/test_core_tags.py-test_macro_api-442
+
+
+-------case--------jinja2.environment.TemplateModule.bar
+{'missing', 'jinja2.runtime.Macro'}
+ /home/user/jinja/tests/test_core_tags.py-test_macro_api-441
+ /home/user/jinja/tests/test_core_tags.py-test_macro_api-440
+ /home/user/jinja/tests/test_core_tags.py-test_macro_api-438
+ /home/user/jinja/tests/test_core_tags.py-test_macro_api-439
+
+
+-------case--------jinja2.environment.TemplateModule.foo
+{'missing', 'jinja2.runtime.Macro', 'builtins.int', 'builtins.str'}
+ /home/user/jinja/tests/test_core_tags.py-test_macro_api-437
+ /home/user/jinja/tests/test_core_tags.py-test_macro_api-434
+ /home/user/jinja/tests/test_core_tags.py-test_macro_api-436
+ /home/user/jinja/tests/test_core_tags.py-test_block_filtered_set-569
+ /home/user/jinja/tests/test_core_tags.py-test_macro_api-433
+ /home/user/jinja/tests/test_core_tags.py-test_macro_api-435
+ /home/user/jinja/tests/test_core_tags.py-test_block-474
+ /home/user/jinja/tests/test_core_tags.py-test_normal-469
+ /home/user/jinja/tests/test_core_tags.py-test_block_filtered-553
+
+
+-------case--------jinja2.environment.TemplateModule.m
+{'missing', 'jinja2.runtime.Macro'}
+ /home/user/jinja/tests/test_core_tags.py-test_macro_defaults_self_ref-459
+ /home/user/jinja/tests/test_core_tags.py-test_macro_defaults_self_ref-462
+ /home/user/jinja/tests/test_core_tags.py-test_macro_defaults_self_ref-461
+ /home/user/jinja/tests/test_core_tags.py-test_macro_defaults_self_ref-460
+
+
+-------case--------jinja2.environment.TemplateModule.x
+{'missing', 'builtins.int', 'jinja2.runtime.Macro'}
+ /home/user/jinja/tests/test_regression.py-test_double_caller_no_default-492
+
+
+-------case--------jinja2.environment.TemplateModule.a
+{'missing', 'builtins.str'}
+
+
+-------case--------jinja2.environment.TemplateModule.link_detail
+{'missing', 'jinja2.runtime.Macro'}
+ /home/user/jinja/tests/test_regression.py-test_caller_scoping-455
+
+
+-------case--------jinja2.environment.TemplateModule.detail
+{'missing', 'jinja2.runtime.Macro'}
+
+
+-------case--------jinja2.environment.TemplateModule.say_hello
+{'missing', 'jinja2.runtime.Macro'}
+ /home/user/jinja/tests/test_security.py-test_template_data-87
+ /home/user/jinja/tests/test_security.py-test_template_data-92
+ /home/user/jinja/tests/test_security.py-test_template_data-88
+
+
+-------case--------jinja2.nodes.If.lineno
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-478
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-477
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-479
+
+
+-------case--------jinja2.nodes.If.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.If.test
+{'jinja2.nodes.Getattr', 'jinja2.nodes.Compare', 'jinja2.nodes.Test', 'jinja2.nodes.Const', 'missing', 'jinja2.nodes.Not', 'jinja2.nodes.Name'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_If-1306
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_If-1299
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/idtracking.py-visit_If-253
+
+
+-------case--------jinja2.nodes.If.body
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_If-1302
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_If-1309
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/idtracking.py-visit_If-265
+
+
+-------case--------jinja2.nodes.If.else_
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/idtracking.py-visit_If-267
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_If-1311
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_If-1314
+
+
+-------case--------jinja2.nodes.CallBlock.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.CallBlock.args
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_def-696
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-669
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-623
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-674
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_def-698
+
+
+-------case--------jinja2.nodes.CallBlock.defaults
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-674
+
+
+-------case--------jinja2.nodes.CallBlock.call
+{'missing', 'jinja2.nodes.Call'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_CallBlock-1332
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/idtracking.py-visit_CallBlock-298
+
+
+-------case--------jinja2.nodes.CallBlock.body
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-630
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-687
+
+
+-------case--------jinja2.nodes.Slice.start
+{'jinja2.nodes.Const', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-893
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Slice-1744
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Slice-1745
+
+
+-------case--------jinja2.nodes.Slice.stop
+{'jinja2.nodes.Const', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-893
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Slice-1747
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Slice-1748
+
+
+-------case--------jinja2.nodes.Slice.step
+{'builtins.NoneType', 'jinja2.nodes.Neg'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-893
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Slice-1749
+
+
+-------case--------jinja2.nodes.Slice.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.Keyword.lineno
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-set_lineno-224
+
+
+-------case--------jinja2.nodes.Keyword.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nativetypes.NativeEnvironment.cache
+{'jinja2.utils.LRUCache', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nativetypes.NativeCodeGenerator._write_debug_info
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-write-459
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-write-460
+
+
+-------case--------jinja2.bccache.Bucket.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.bccache.Bucket.code
+{'builtins.code', 'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/bccache.py-write_bytecode-84
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/loaders.py-load-143
+ /home/user/jinja/tests/test_bytecode_cache.py-test_dump_load-58
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/loaders.py-load-133
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/bccache.py-write_bytecode-88
+
+
+-------case--------jinja2.nodes.AssignBlock.target
+{'jinja2.nodes.NSRef', 'jinja2.nodes.Name'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/idtracking.py-visit_AssignBlock-309
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_AssignBlock-1578
+
+
+-------case--------jinja2.nodes.AssignBlock.filter
+{'builtins.NoneType', 'jinja2.nodes.Filter'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_AssignBlock-1581
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_AssignBlock-1580
+
+
+-------case--------jinja2.nodes.AssignBlock.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.NSRef.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.With.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.With.targets
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/idtracking.py-visit_With-223
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_With-1350
+
+
+-------case--------jinja2.nodes.With.values
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/idtracking.py-visit_With-304
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_With-1350
+
+
+-------case--------jinja2.nodes.With.body
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/idtracking.py-visit_With-225
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_With-1355
+
+
+-------case--------jinja2.nodes.ScopedEvalContextModifier.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.ScopedEvalContextModifier.options
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_EvalContextModifier-1937
+
+
+-------case--------jinja2.nodes.ScopedEvalContextModifier.body
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_ScopedEvalContextModifier-1954
+
+
+-------case--------jinja2.nodes.Scope.body
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Scope-1917
+
+
+-------case--------jinja2.nodes.Scope.lineno
+{'builtins.NoneType', 'builtins.int'}
+
+
+-------case--------jinja2.nodes.Scope.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.Mod.left
+{'jinja2.nodes.Const', 'jinja2.nodes.MarkSafeIfAutoescape', 'jinja2.nodes.Name'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visitor-72
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-508
+
+
+-------case--------jinja2.nodes.Mod.right
+{'jinja2.nodes.Dict', 'jinja2.nodes.Const'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-508
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visitor-74
+
+
+-------case--------jinja2.nodes.Mod.lineno
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-set_lineno-224
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-478
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-479
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-477
+
+
+-------case--------jinja2.nodes.Mod.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.Continue.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.Break.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.ExprStmt.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.ExprStmt.node
+{'missing', 'jinja2.nodes.Call'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_ExprStmt-1360
+
+
+-------case--------jinja2.nodes.Concat.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.EnvironmentAttribute.lineno
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-set_lineno-224
+
+
+-------case--------jinja2.nodes.EnvironmentAttribute.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.ExtensionAttribute.lineno
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-set_lineno-224
+
+
+-------case--------jinja2.nodes.ExtensionAttribute.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.ImportedName.lineno
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-set_lineno-224
+
+
+-------case--------jinja2.nodes.ImportedName.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.ContextReference.lineno
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-set_lineno-224
+
+
+-------case--------jinja2.nodes.ContextReference.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.DerivedContextReference.lineno
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-set_lineno-224
+
+
+-------case--------jinja2.nodes.DerivedContextReference.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.MarkSafeIfAutoescape.lineno
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-set_lineno-224
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-478
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-479
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-newline-477
+
+
+-------case--------jinja2.nodes.MarkSafeIfAutoescape.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.Pair.lineno
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-set_lineno-224
+
+
+-------case--------jinja2.nodes.Pair.environment
+{'builtins.NoneType', 'jinja2.sandbox.ImmutableSandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.SandboxedEnvironment'}
+
+
+-------case--------jinja2.nodes.Dict.lineno
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-set_lineno-224
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-flush_data-991
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/optimizer.py-generic_visit-41
+
+
+-------case--------jinja2.nodes.Dict.environment
+{'jinja2.sandbox.ImmutableSandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.SandboxedEnvironment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.OverlayScope.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.OverlayScope.body
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_OverlayScope-1930
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/idtracking.py-visit_OverlayScope-199
+
+
+-------case--------jinja2.nodes.OverlayScope.context
+{'missing', 'jinja2.nodes.Call'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_OverlayScope-1924
+
+
+-------case--------jinja2.nodes.FilterBlock.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.FilterBlock.filter
+{'missing', 'jinja2.nodes.Filter'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/idtracking.py-visit_FilterBlock-301
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_FilterBlock-1342
+
+
+-------case--------jinja2.nodes.FilterBlock.body
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_FilterBlock-1340
+
+
+-------case--------jinja2.nodes.Neg.node
+{'jinja2.nodes.Const', 'jinja2.nodes.Name', 'jinja2.nodes.Getitem'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-532
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visitor-91
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visitor-94
+
+
+-------case--------jinja2.nodes.Neg.environment
+{'builtins.NoneType', 'jinja2.environment.Environment', 'jinja2.sandbox.SandboxedEnvironment'}
+
+
+-------case--------jinja2.nodes.Mul.left
+{'jinja2.nodes.Const', 'jinja2.nodes.Name'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visitor-72
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-508
+
+
+-------case--------jinja2.nodes.Mul.right
+{'jinja2.nodes.Const', 'jinja2.nodes.Compare'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-508
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visitor-74
+
+
+-------case--------jinja2.nodes.Mul.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.Div.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.Pow.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.FloorDiv.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.Pos.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.And.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+
+-------case--------jinja2.nodes.Or.environment
+{'jinja2.environment.Environment', 'builtins.NoneType'}
+
+

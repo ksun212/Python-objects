@@ -1,0 +1,1 @@
+["snorkel.classification.training.trainer.Trainer", "snorkel.classification.training.loggers.log_manager.LogManager"]

@@ -1,0 +1,258 @@
+-------case--------pandas.compat.numpy.function.CompatValidator.fname
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/compat/numpy/function.py-__call__-65
+
+
+-------case--------pandas.compat.numpy.function.CompatValidator.max_fname_arg_count
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/compat/numpy/function.py-__call__-67
+
+
+-------case--------pandas.util._decorators.Substitution.params
+{'builtins.dict', 'builtins.tuple'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/util/_decorators.py-__call__-468
+
+
+-------case--------pandas.core.nanops.bottleneck_switch.name
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/nanops.py-__call__-112
+
+
+-------case--------pandas.core.arrays.integer.Int8Dtype._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------pandas.core.arrays.integer.Int16Dtype._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------pandas.core.arrays.integer.Int32Dtype._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------pandas.core.arrays.integer.Int64Dtype._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------pandas.core.arrays.integer.UInt8Dtype._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------pandas.core.arrays.integer.UInt16Dtype._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------pandas.core.arrays.integer.UInt32Dtype._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------pandas.core.arrays.integer.UInt64Dtype._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------pandas.core.arrays.floating.Float32Dtype._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------pandas.core.arrays.floating.Float64Dtype._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------pandas.core.indexes.base.Index._name
+{'builtins.NoneType', 'builtins.tuple', 'pandas._libs.missing.NAType', 'pandas._libs.tslibs.nattype.NaTType', 'builtins.str', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/indexes/base.py-__getitem__-5397
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/indexes/base.py-__getitem__-5370
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/indexes/base.py-_view-826
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/indexes/base.py-_getitem_slice-5404
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/indexes/base.py-name-1740
+
+
+-------case--------pandas.core.dtypes.dtypes.DatetimeTZDtype._tz
+{'pytz.UTC', 'pytz.tzfile.US/Eastern', 'pytz.tzfile.US/Pacific'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/dtypes/dtypes.py-tz-739
+
+
+-------case--------pandas.core.dtypes.dtypes.DatetimeTZDtype._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------pandas.core.indexes.numeric.Int64Index._name
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/indexes/base.py-__getitem__-5397
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/indexes/base.py-_view-826
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/indexes/base.py-_shallow_copy-818
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/indexes/base.py-_getitem_slice-5404
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/indexes/base.py-name-1740
+
+
+-------case--------pandas.core.indexes.numeric.Float64Index._name
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/indexes/base.py-__getitem__-5397
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/indexes/base.py-name-1740
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/indexes/base.py-_shallow_copy-818
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/indexes/base.py-_view-826
+
+
+-------case--------pandas.core.dtypes.dtypes.CategoricalDtype._categories
+{'pandas.core.indexes.base.Index', 'pandas.core.indexes.numeric.UInt64Index', 'pandas.core.indexes.period.PeriodIndex', 'pandas.core.indexes.numeric.Float64Index', 'pandas.core.indexes.numeric.Int64Index', 'builtins.NoneType', 'pandas.core.indexes.interval.IntervalIndex', 'pandas.core.indexes.timedeltas.TimedeltaIndex', 'pandas.core.indexes.datetimes.DatetimeIndex'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/dtypes/dtypes.py-categories-582
+
+
+-------case--------pandas.core.dtypes.dtypes.CategoricalDtype._ordered
+{'builtins.NoneType', 'builtins.bool'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/dtypes/dtypes.py-ordered-589
+
+
+-------case--------pandas.core.dtypes.dtypes.CategoricalDtype._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------pandas.core.dtypes.dtypes.IntervalDtype._subtype
+{'numpy.numpy.dtype[float64]', 'numpy.numpy.dtype[int64]', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/dtypes/dtypes.py-subtype-1170
+
+
+-------case--------pandas.core.dtypes.dtypes.IntervalDtype._closed
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/dtypes/dtypes.py-closed-1163
+
+
+-------case--------pandas.core.arrays.integer.IntegerArray._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------pandas.core.arrays.floating.FloatingArray._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------pandas.core.series.Series._is_copy
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/generic.py-_check_is_chained_assignment_possible-4133
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/generic.py-_check_setitem_copy-4170
+
+
+-------case--------pandas.core.series.Series._name
+{'builtins.int', 'builtins.NoneType', 'builtins.tuple', 'numpy.numpy.int64', 'pandas._libs.missing.NAType', 'builtins.str', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/series.py-name-659
+
+
+-------case--------pandas.core.series.Series._cacher
+{'builtins.tuple', 'missing'}
+
+
+-------case--------pandas.core.frame.DataFrame._is_copy
+{'builtins.weakref', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/frame.py-_get_item_cache-4285
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/generic.py-_check_is_chained_assignment_possible-4133
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/generic.py-_check_setitem_copy-4170
+
+
+-------case--------pandas.core.frame.DataFrame.design_info
+{'missing', 'patsy.design_info.DesignInfo'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/formula/formulatools.py-handle_formula_data-74
+
+
+-------case--------pandas.core.frame.DataFrame.name
+{'missing', 'builtins.str'}
+
+
+-------case--------pandas.core.arrays.categorical.CategoricalAccessor._index
+{'pandas.core.indexes.numeric.Int64Index', 'pandas.core.indexes.range.RangeIndex'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/arrays/categorical.py-_delegate_method-2881
+
+
+-------case--------pandas.core.arrays.categorical.CategoricalAccessor._name
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/arrays/categorical.py-_delegate_method-2881
+
+
+-------case--------pandas.io.common.IOArgs.filepath_or_buffer
+{'_io._io.StringIO', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/common.py-get_handle-721
+
+
+-------case--------pandas.core.reshape.concat._Concatenator.keys
+{'pandas.core.indexes.numeric.Int64Index', 'builtins.NoneType', 'pandas.core.indexes.base.Index'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/reshape/concat.py-_get_concat_axis-694
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/reshape/concat.py-_get_concat_axis-688
+
+
+-------case--------pandas.core.reshape.concat._Concatenator.names
+{'builtins.NoneType', 'pandas.core.indexes.frozen.FrozenList'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/reshape/concat.py-_get_concat_axis-694
+
+
+-------case--------pandas.core.internals.concat.JoinUnit._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------pandas.io.parsers.c_parser_wrapper.CParserWrapper.names
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py-read-263
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py-__init__-124
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py-__init__-156
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py-__init__-84
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py-__init__-176
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py-_set_noconvert_columns-213
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py-__init__-103
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py-__init__-160
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py-_set_noconvert_columns-209
+
+
+-------case--------pandas.io.parsers.c_parser_wrapper.CParserWrapper.orig_names
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py-read-307
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py-read-306
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py-_set_noconvert_columns-208
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py-_set_noconvert_columns-204
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py-_clean_mapping-458
+
+
+-------case--------pandas.io.parsers.c_parser_wrapper.CParserWrapper.index_col
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py-_do_date_conversions-826
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py-_maybe_dedup_names-337
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py-__init__-165
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py-_get_simple_index-410
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py-_make_index-375
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py-__init__-59
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py-_check_data_length-849
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py-__init__-178
+
+
+-------case--------pandas.core.groupby.grouper.Grouping.level
+{'builtins.int', 'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/groupby/grouper.py-_ilevel-592
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/groupby/groupby.py-<listcomp>-1078
+
+
+-------case--------pandas.core.groupby.grouper.Grouping.obj
+{'pandas.core.series.Series', 'pandas.core.frame.DataFrame'}
+
+
+-------case--------pandas.core.groupby.ops.BaseGrouper._cache
+{'builtins.dict', 'missing'}
+
+
+-------case--------pandas._config.config.option_context.undo
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/_config/config.py-__exit__-449
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/_config/config.py-__exit__-448
+
+
+-------case--------pandas.core.groupby.base.OutputKey.label
+{'builtins.int', 'builtins.NoneType', 'builtins.str'}
+ <string>-__hash__-3
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/groupby/generic.py-<genexpr>-348
+
+
+-------case--------pandas.core.apply.GroupByApply.orig_f
+{'builtins.function', 'builtins.list'}
+
+
+-------case--------pandas.core.apply.GroupByApply.f
+{'builtins.function', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/apply.py-agg-161
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/apply.py-agg_list_like-331
+
+

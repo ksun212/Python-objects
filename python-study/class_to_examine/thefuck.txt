@@ -1,0 +1,15 @@
+-------case--------thefuck.types.Command._script_parts
+{'builtins.list', 'missing'}
+ /home/user/thefuck-master/thefuck/types.py-script_parts-46
+
+
+-------case--------thefuck.types.CorrectedCommand.side_effect
+{'builtins.NoneType', 'builtins.function'}
+ /home/user/thefuck-master/thefuck/logs.py-show_corrected_command-54
+ /home/user/thefuck-master/thefuck/types.py-__eq__-220
+ /home/user/thefuck-master/thefuck/types.py-__hash__-226
+ /home/user/thefuck-master/thefuck/types.py-__repr__-230
+ /home/user/thefuck-master/thefuck/types.py-__eq__-221
+ /home/user/thefuck-master/thefuck/logs.py-confirm_text-66
+
+

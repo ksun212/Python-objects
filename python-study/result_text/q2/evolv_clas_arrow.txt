@@ -1,0 +1,1 @@
+["arrow.factory.ArrowFactory", "arrow.locales.SwedishLocale", "arrow.locales.ItalianLocale", "arrow.locales.FrenchLocale", "arrow.locales.EnglishLocale", "arrow.locales.GermanLocale", "arrow.locales.SpanishLocale"]

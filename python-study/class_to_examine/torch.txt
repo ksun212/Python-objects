@@ -1,0 +1,1012 @@
+-------case--------torch.cuda._LazySeedTracker.manual_seed_all_cb
+{'builtins.tuple', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/cuda/__init__.py-queue_seed_all-54
+
+
+-------case--------torch.backends.ContextProp.getter
+{'builtins.function', 'builtins.builtin_function_or_method'}
+
+
+-------case--------torch.backends.ContextProp.setter
+{'builtins.function', 'builtins.builtin_function_or_method'}
+
+
+-------case--------torch.distributions.constraints._Dependent._is_discrete
+{'builtins.bool', 'builtins.NotImplementedType'}
+
+
+-------case--------torch.distributions.constraints._Dependent._event_dim
+{'builtins.NotImplementedType', 'builtins.int'}
+
+
+-------case--------torch.distributions.constraints._IndependentConstraint.base_constraint
+{'torch.distributions.constraints._GreaterThan', 'torch.distributions.constraints._Real'}
+
+
+-------case--------torch.distributions.constraints._GreaterThan.lower_bound
+{'builtins.float', 'builtins.int'}
+
+
+-------case--------torch.distributions.constraints._GreaterThanEq.lower_bound
+{'builtins.float', 'builtins.int'}
+
+
+-------case--------torch.distributions.utils.lazy_property.__doc__
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------torch.backends.cuda.cuFFTPlanCacheAttrContextProp.setter
+{'builtins.str', 'builtins.builtin_function_or_method'}
+
+
+-------case--------torch._ops.OpOverloadPacket._RecordFunction
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.Tensor
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1377
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1391
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-149
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-613
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-960
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-450
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2634
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/fx/passes/reinplace.py-<module>-169
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-1025
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1411
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-997
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1416
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1376
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-1104
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1392
+
+
+-------case--------torch._ops.OpOverloadPacket.Scalar
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1390
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1374
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1431
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-1030
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1389
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1411
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1416
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1375
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-144
+
+
+-------case--------torch._ops.OpOverloadPacket.out
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-77
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_refs/__init__.py-<module>-3724
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-83
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-387
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-103
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-85
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-117
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-125
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-107
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-59
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-119
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-52
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-379
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-115
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-109
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-146
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-967
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-101
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1130
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-111
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-184
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-123
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1319
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-105
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-106
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-121
+
+
+-------case--------torch._ops.OpOverloadPacket.Scalar_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.t
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.str
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.int
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1790
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/fx/passes/reinplace.py-<module>-168
+
+
+-------case--------torch._ops.OpOverloadPacket.complex
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.float
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-394
+
+
+-------case--------torch._ops.OpOverloadPacket.int_complex
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.complex_int
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.float_complex
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.complex_float
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.int_float
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.float_int
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.default
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-459
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1660
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/fx/passes/reinplace.py-<module>-170
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-442
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/fx/passes/reinplace.py-<module>-168
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-78
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-173
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-76
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-3197
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1819
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-630
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2556
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1436
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1378
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1406
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1328
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2051
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_prims/nvfuser_prims.py-register_view-788
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1347
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-52
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-168
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-1419
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1380
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-405
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-385
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-940
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-689
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_prims/__init__.py-_make_prim-300
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1421
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2293
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1130
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/fx/passes/reinplace.py-<module>-169
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2755
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2438
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-114
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-277
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-120
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-391
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-364
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-104
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2569
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-387
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-129
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-325
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1745
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-1566
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-75
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2670
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1399
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2317
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-79
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2279
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1100
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_prims/nvfuser_prims.py-register_rand_like-653
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-244
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-846
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-108
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-106
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-916
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_refs/__init__.py-<module>-2562
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1296
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1367
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1824
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-82
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_refs/__init__.py-<module>-2929
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-727
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-1449
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2091
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-106
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1753
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1979
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-152
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-124
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-84
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/fx/passes/reinplace.py-<module>-167
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-99
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2331
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1714
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1740
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2520
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-309
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2052
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-59
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-436
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-138
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-102
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1379
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2505
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-122
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1479
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1426
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_prims/nvfuser_prims.py-register_full-439
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_refs/__init__.py-<module>-2561
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2381
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1319
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-1461
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1733
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2513
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_refs/__init__.py-<module>-3877
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2599
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1744
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1192
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-1493
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_refs/__init__.py-<module>-4807
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1742
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2065
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2092
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2671
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_refs/__init__.py-<module>-4094
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_prims/nvfuser_prims.py-register_nvprims-822
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1743
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1441
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-3102
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-931
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-575
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-362
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-81
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-976
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-263
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1156
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-100
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_refs/__init__.py-<module>-4146
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-967
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-115
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-947
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-116
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1863
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2370
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2064
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_prims/nvfuser_prims.py-register_native_batch_norm-545
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1690
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-118
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-465
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-110
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1352
+
+
+-------case--------torch._ops.OpOverloadPacket.Scalar_Scalar
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.Scalar_Tensor
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.Tensor_out
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2634
+
+
+-------case--------torch._ops.OpOverloadPacket.Scalar_Tensor_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.Tensor_Scalar
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.Tensor_Scalar_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.Tensor_mode
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.Scalar_mode
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.out_mode
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.Scalar_mode_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.left_t
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.right_
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.int_list
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.device
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-80
+
+
+-------case--------torch._ops.OpOverloadPacket.bool
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.enum
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.float_list
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.Tensor_list
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.bool_list
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.str_list
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.Dimname
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.dtype
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.names
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.names_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.dim_IntList
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.dim_DimnameList
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.DimnameList_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.IntList_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.dim
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-158
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1336
+
+
+-------case--------torch._ops.OpOverloadPacket.names_dim
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.dim_int
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.dim_Dimname
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.Dimname_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.int_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.all_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.dimname
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.dimname_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.ScalarOpt_dim
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.names_ScalarOpt_dim
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.ScalarOpt_dim_dtype
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.dtype_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.ScalarOpt_dtype
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.ScalarOpt_dtype_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.names_ScalarOpt_dim_dtype
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.names_dtype_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.correction
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_refs/__init__.py-<module>-2383
+
+
+-------case--------torch._ops.OpOverloadPacket.correction_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.correction_names
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.correction_names_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.int_int
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.float_float
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.complex_complex
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.Tensor_Tensor
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.Tensor_Tensor_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.int_to_int
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.decimals
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1399
+
+
+-------case--------torch._ops.OpOverloadPacket.prim_Device
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-81
+
+
+-------case--------torch._ops.OpOverloadPacket.low_dtype
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-112
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1741
+
+
+-------case--------torch._ops.OpOverloadPacket.low_dtype_out
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_subclasses/fake_tensor.py-<module>-113
+
+
+-------case--------torch._ops.OpOverloadPacket.hacked_twin
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.return_type
+{'builtins.tuple', 'missing', 'torch._prims_common.RETURN_TYPE'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_prims/nvfuser_prims.py-register_nvprims-830
+
+
+-------case--------torch._ops.OpOverloadPacket.schema
+{'builtins.str', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_prims/nvfuser_prims.py-register_nvprims-817
+
+
+-------case--------torch._ops.OpOverloadPacket.prim_impl
+{'builtins.function', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_prims/nvfuser_prims.py-register_nvprims-818
+
+
+-------case--------torch._ops.OpOverloadPacket.prim_meta_impl
+{'functools.functools.partial', 'builtins.function', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_prims/nvfuser_prims.py-register_nvprims-819
+
+
+-------case--------torch._ops.OpOverloadPacket.impl_aten
+{'builtins.method_descriptor', 'builtins.function', 'missing', 'builtins.builtin_function_or_method'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_prims/nvfuser_prims.py-register_nvprims-831
+
+
+-------case--------torch._ops.OpOverloadPacket.main
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_prims/nvfuser_prims.py-register_var_mean-707
+
+
+-------case--------torch._ops.OpOverloadPacket.impl_nvfuser
+{'builtins.function', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.is_recomputable
+{'builtins.bool', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.grad_input
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.no_stats
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-1478
+
+
+-------case--------torch._ops.OpOverloadPacket.output
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.vec
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2017
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2006
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-3262
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2019
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2662
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-1997
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-3260
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-1996
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-3261
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2008
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2661
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2660
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2007
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-1998
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2018
+
+
+-------case--------torch._ops.OpOverloadPacket.input
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2282
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2516
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2518
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2281
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2517
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2312
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2632
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2313
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2280
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2311
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2630
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2631
+
+
+-------case--------torch._ops.OpOverloadPacket.data
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2377
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2343
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2551
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2550
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2601
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2342
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2379
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2549
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2378
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2602
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2344
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_decomp/decompositions.py-<module>-2600
+
+
+-------case--------torch._ops.OpOverloadPacket.src
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2008
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1993
+
+
+-------case--------torch._ops.OpOverloadPacket.value
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2009
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1994
+
+
+-------case--------torch._ops.OpOverloadPacket.reduce
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1995
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2010
+
+
+-------case--------torch._ops.OpOverloadPacket.value_reduce
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2011
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1996
+
+
+-------case--------torch._ops.OpOverloadPacket.two
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2245
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2238
+
+
+-------case--------torch._ops.OpOverloadPacket.two_out
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2238
+
+
+-------case--------torch._ops.OpOverloadPacket.Scalar_Other
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.Scalar_Self
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.OutTensor
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.OutScalar_Self
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.OutScalar_Other
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.self
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.ScalarOther
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.ScalarSelf
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.self_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.int_Tensor
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.int_Scalar
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.Dimname_Scalar
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.Dimname_Tensor
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.int_Scalar_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.int_Tensor_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.dims
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.memory_format
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_refs/__init__.py-<module>-4001
+
+
+-------case--------torch._ops.OpOverloadPacket.start
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.start_step
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.start_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.indexing
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.m
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.m_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.other_scalar
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.self_scalar
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.self_scalar_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.other_scalar_out
+{'torch._ops.OpOverload', 'missing'}
+
+
+-------case--------torch._ops.OpOverloadPacket.generator_out
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-75
+
+
+-------case--------torch._ops.OpOverloadPacket.low
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-90
+
+
+-------case--------torch._ops.OpOverloadPacket.unary_out
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-152
+
+
+-------case--------torch._ops.OpOverloadPacket.p
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-399
+
+
+-------case--------torch._ops.OpOverloadPacket.binary
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-651
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-695
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-671
+
+
+-------case--------torch._ops.OpOverloadPacket.dim_values
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-1336
+
+
+-------case--------torch._ops.OpOverloadPacket.stable
+{'torch._ops.OpOverload', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_meta_registrations.py-<module>-2331
+
+
+-------case--------torch._prims_common.wrappers.elementwise_type_promotion_wrapper.type_promoting_arg_names
+{'builtins.tuple', 'builtins.str'}
+
+
+-------case--------torch.testing._internal.common_device_type.skipCUDAIf.dep
+{'builtins.bool', 'builtins.str'}
+
+
+-------case--------torch._lobpcg.LOBPCG.B
+{'torch.Tensor', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_lobpcg.py-_get_rayleigh_ritz_transform-994
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_lobpcg.py-_get_ortho-1113
+ /home/user/pytorch/test/test_linalg.py-test_tracker-5091
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_lobpcg.py-update_residual-777
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_lobpcg.py-_get_svqb-1031
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_lobpcg.py-update-758
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_lobpcg.py-_get_ortho-1112
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_lobpcg.py-_get_ortho-1133
+
+
+-------case--------torch._lobpcg.LOBPCG.tracker
+{'builtins.function', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_lobpcg.py-run-839
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/_lobpcg.py-run-832
+
+
+-------case--------torch.jit._script.RecursiveScriptModule._parameters
+{'collections.collections.OrderedDict', 'torch.jit._script.OrderedDictWrapper'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-__delattr__-1677
+
+
+-------case--------torch.jit._script.RecursiveScriptModule._buffers
+{'collections.collections.OrderedDict', 'torch.jit._script.OrderedDictWrapper'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-__delattr__-1679
+
+
+-------case--------torch.jit._script.RecursiveScriptModule._modules
+{'collections.collections.OrderedDict', 'torch.jit._script.OrderedModuleDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/jit/_script.py-__getattr__-773
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/jit/_script.py-__setattr__-790
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/jit/_script.py-_finalize_scriptmodule-630
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/module.py-__delattr__-1682
+
+
+-------case--------torch.jit._script.RecursiveScriptModule._concrete_type
+{'missing', 'torch.torch._C.ConcreteModuleType'}
+
+
+-------case--------torch.jit._check.AttributeTypeIsSupportedChecker.class_level_annotations
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/jit/_check.py-visit_Assign-118
+
+
+-------case--------torch.jit._check.AttributeTypeIsSupportedChecker.visiting_class_level_ann
+{'builtins.bool', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/jit/_check.py-visit_Call-186
+
+
+-------case--------torch.optim.adadelta.Adadelta._step_count
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lr_scheduler.py-step-138
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lr_scheduler.py-wrapper-67
+
+
+-------case--------torch.autograd.profiler.record_function.record
+{'torch.torch._C.ScriptObject', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/autograd/profiler.py-__exit__-500
+
+
+-------case--------torch.autograd.grad_mode.enable_grad.prev
+{'builtins.bool', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/autograd/grad_mode.py-__exit__-105
+
+
+-------case--------torch.optim.lr_scheduler.ReduceLROnPlateau.best
+{'builtins.float', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lr_scheduler.py-step-1016
+
+
+-------case--------torch.optim.lr_scheduler.ReduceLROnPlateau.mode_worse
+{'builtins.float', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lr_scheduler.py-_reset-1003
+
+
+-------case--------torch.optim.lr_scheduler.ReduceLROnPlateau._last_lr
+{'builtins.list', 'missing'}
+
+
+-------case--------torch.optim.adagrad.Adagrad._step_count
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lr_scheduler.py-step-138
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lr_scheduler.py-wrapper-67
+
+
+-------case--------torch.optim.adam.Adam._step_count
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lr_scheduler.py-step-138
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lr_scheduler.py-wrapper-67
+
+
+-------case--------torch.optim.sgd.SGD.step
+{'builtins.method', 'builtins.function'}
+ /home/user/pytorch/test/test_optim.py-test_new_pattern_no_warning_with_overridden_optim_step-2034
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lr_scheduler.py-__init__-76
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lr_scheduler.py-step-131
+ /home/user/pytorch/test/test_optim.py-test_old_pattern_warning_with_overridden_optim_step-1981
+
+
+-------case--------torch.optim.sgd.SGD._step_count
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lr_scheduler.py-step-138
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lr_scheduler.py-wrapper-67
+
+
+-------case--------torch.optim.nadam.NAdam._step_count
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lr_scheduler.py-step-138
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lr_scheduler.py-wrapper-67
+
+
+-------case--------torch.optim.radam.RAdam._step_count
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lr_scheduler.py-step-138
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lr_scheduler.py-wrapper-67
+
+
+-------case--------torch.optim.lbfgs.LBFGS._numel_cache
+{'builtins.int', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lbfgs.py-_numel-246
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lbfgs.py-_numel-244
+
+
+-------case--------torch.optim.lr_scheduler.CosineAnnealingWarmRestarts.eta_min
+{'builtins.float', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lr_scheduler.py-<listcomp>-1382
+
+
+-------case--------torch.optim.lr_scheduler.CyclicLR._scale_fn_ref
+{'weakref.WeakMethod', 'builtins.NoneType'}
+ /home/user/pytorch/test/test_optim.py-test_cycle_lr_scale_fn_restored_from_state_dict-3294
+ /home/user/pytorch/test/test_optim.py-test_cycle_lr_state_dict_picklable-3281
+
+
+-------case--------torch.optim.lr_scheduler.CyclicLR._scale_fn_custom
+{'builtins.function', 'builtins.NoneType'}
+ /home/user/pytorch/test/test_optim.py-test_cycle_lr_scale_fn_restored_from_state_dict-3305
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lr_scheduler.py-_init_scale_fn-1244
+ /home/user/pytorch/test/test_optim.py-test_cycle_lr_scale_fn_restored_from_state_dict-3295
+ /home/user/pytorch/test/test_optim.py-test_cycle_lr_scale_fn_restored_from_state_dict-3296
+ /home/user/pytorch/test/test_optim.py-test_cycle_lr_scale_fn_restored_from_state_dict-3306
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lr_scheduler.py-scale_fn-1267
+
+
+-------case--------torch.optim.lr_scheduler.CyclicLR.base_momentums
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lr_scheduler.py-get_lr-1312
+
+
+-------case--------torch.optim.lr_scheduler.CyclicLR.max_momentums
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/lr_scheduler.py-get_lr-1312
+
+
+-------case--------torch.nn.modules.batchnorm.BatchNorm2d.momentum
+{'builtins.float', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/batchnorm.py-forward-155
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/batchnorm.py-forward-146
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/batchnorm.py-forward-143
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/batchnorm.py-forward-152
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/swa_utils.py-update_bn-176
+ /home/user/pytorch/test/test_optim.py-test_bn_update_eval_momentum-4264
+
+
+-------case--------torch.nn.modules.batchnorm.BatchNorm1d.momentum
+{'builtins.float', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/batchnorm.py-forward-155
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/batchnorm.py-forward-146
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/batchnorm.py-forward-143
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/nn/modules/batchnorm.py-forward-152
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/torch/optim/swa_utils.py-update_bn-176
+
+

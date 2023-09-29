@@ -1,0 +1,8 @@
+routersploit.modules.exploits.generic.heartbleed.Exploit.tcp_client
+{'builtins.NoneType', 'routersploit.core.tcp.tcp_client.TCPCli'}
+ /home/user/routersploit/routersploit/modules/exploits/generic/heartbleed.py-get_ssl_record-311
+            data = self.tcp_client.recv_all(length)
+routersploit.modules.exploits.generic.heartbleed.Exploit.tcp_client
+{'builtins.NoneType', 'routersploit.core.tcp.tcp_client.TCPCli'}
+ /home/user/routersploit/routersploit/modules/exploits/generic/heartbleed.py-get_ssl_record-307
+        hdr = self.tcp_client.recv_all(self.SSL_RECORD_HEADER_SIZE)

@@ -1,0 +1,304 @@
+-------case--------prompt_toolkit.application.current.AppSession.app
+{'builtins.NoneType', 'prompt_toolkit.application.application.Application'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/application/current.py-get_app_or_none-115
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/application/current.py-get_app-102
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/application/current.py-get_app-101
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/application/current.py-set_app-132
+
+
+-------case--------prompt_toolkit.filters.base.Condition._invert_result
+{'builtins.NoneType', 'prompt_toolkit.filters.base._Invert'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/filters/base.py-__invert__-72
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/filters/base.py-__invert__-69
+
+
+-------case--------prompt_toolkit.key_binding.key_processor.KeyPress.key
+{'prompt_toolkit.keys.Keys', 'builtins.str'}
+ /home/user/python-prompt-toolkit/tests/test_key_binding.py-test_previous_key_sequence-199
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/key_binding/key_processor.py-process_keys-266
+ /home/user/python-prompt-toolkit/tests/test_key_binding.py-test_previous_key_sequence-197
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_arrows-45
+ /home/user/python-prompt-toolkit/tests/test_key_binding.py-test_previous_key_sequence-194
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_invalid-123
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_flush_2-93
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_escape-57
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_invalid-125
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_cpr_response-131
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_cpr_response_2-140
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_arrows-44
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_flush_2-94
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_cpr_response-133
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_control_square_close-114
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_special_double_keys-67
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_control_keys-31
+ /home/user/python-prompt-toolkit/tests/test_key_binding.py-test_previous_key_sequence-185
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_cpr_response_2-141
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/key_binding/key_processor.py-<genexpr>-135
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/key_binding/key_processor.py-<genexpr>-125
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_meta_arrows-106
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_control_square_close-113
+ /home/user/python-prompt-toolkit/tests/test_key_binding.py-test_previous_key_sequence-187
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_control_keys-32
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_flush_2-92
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_special_double_keys-68
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_arrows-46
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_arrows-43
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_escape-58
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_cpr_response-132
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_invalid-124
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_meta_arrows-105
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_control_keys-33
+ /home/user/python-prompt-toolkit/tests/test_key_binding.py-test_previous_key_sequence-192
+ /home/user/python-prompt-toolkit/tests/test_inputstream.py-test_flush_1-79
+
+
+-------case--------prompt_toolkit.key_binding.key_bindings.Binding.filter
+{'prompt_toolkit.filters.base.Always', 'prompt_toolkit.filters.base._OrList', 'prompt_toolkit.filters.base._Invert', 'prompt_toolkit.filters.base._AndList', 'prompt_toolkit.filters.base.Condition'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/key_binding/key_processor.py-<setcomp>-142
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/key_binding/key_bindings.py-decorator-295
+
+
+-------case--------prompt_toolkit.key_binding.key_bindings.Binding.eager
+{'prompt_toolkit.filters.base.Never', 'prompt_toolkit.filters.base.Always'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/key_binding/key_bindings.py-decorator-296
+
+
+-------case--------prompt_toolkit.key_binding.key_bindings.Binding.record_in_macro
+{'prompt_toolkit.filters.base.Never', 'prompt_toolkit.filters.base.Always'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/key_binding/key_bindings.py-decorator-299
+
+
+-------case--------prompt_toolkit.buffer.Buffer.completer
+{'prompt_toolkit.completion.base.DynamicCompleter', 'prompt_toolkit.completion.base.DummyCompleter'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/buffer.py-insert_text-1254
+
+
+-------case--------prompt_toolkit.buffer.Buffer.auto_suggest
+{'builtins.NoneType', 'prompt_toolkit.auto_suggest.DynamicAutoSuggest'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/buffer.py-insert_text-1258
+
+
+-------case--------prompt_toolkit.buffer.Buffer.validator
+{'builtins.NoneType', 'prompt_toolkit.validation.DynamicValidator'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/buffer.py-_text_changed-537
+
+
+-------case--------prompt_toolkit.buffer.Buffer.complete_while_typing
+{'prompt_toolkit.filters.base.Never', 'prompt_toolkit.filters.base.Condition'}
+
+
+-------case--------prompt_toolkit.buffer.Buffer.read_only
+{'prompt_toolkit.filters.base.Never', 'prompt_toolkit.filters.base.Condition'}
+
+
+-------case--------prompt_toolkit.buffer.Buffer.preferred_column
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/buffer.py-cursor_down-724
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/key_binding/key_processor.py-_fix_vi_cursor_position-357
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/buffer.py-cursor_up-714
+
+
+-------case--------prompt_toolkit.buffer.Buffer.yank_nth_arg_state
+{'builtins.NoneType', 'prompt_toolkit.buffer.YankNthArgState'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/buffer.py-yank_nth_arg-1083
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/buffer.py-yank_nth_arg-1080
+
+
+-------case--------prompt_toolkit.document._DocumentCache.lines
+{'prompt_toolkit.document._ImmutableLineList', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/document.py-lines-194
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/document.py-lines-197
+
+
+-------case--------prompt_toolkit.document._DocumentCache.line_indexes
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/document.py-_line_start_indexes-206
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/document.py-_line_start_indexes-225
+
+
+-------case--------prompt_toolkit.completion.base.Completion._display_meta
+{'builtins.NoneType', 'builtins.str', 'prompt_toolkit.formatted_text.base.FormattedText'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/completion/fuzzy_completer.py-_get_fuzzy_completions-129
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/completion/base.py-display_meta-107
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/completion/base.py-__eq__-89
+
+
+-------case--------prompt_toolkit.completion.word_completer.WordCompleter.words
+{'builtins.list', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/completion/word_completer.py-get_completions-60
+
+
+-------case--------prompt_toolkit.completion.word_completer.WordCompleter.pattern
+{'builtins.NoneType', 're.re.Pattern'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/completion/word_completer.py-get_completions-69
+
+
+-------case--------prompt_toolkit.formatted_text.ansi.ANSI._color
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/formatted_text/ansi.py-_create_style_string-232
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/formatted_text/ansi.py-_create_style_string-231
+
+
+-------case--------prompt_toolkit.history.ThreadedHistory._load_thread
+{'threading.Thread', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/history.py-load-131
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/history.py-load-136
+
+
+-------case--------prompt_toolkit.input.vt100_parser.Vt100Parser.feed_key_callback
+{'builtins.method', 'builtins.function'}
+
+
+-------case--------prompt_toolkit.layout.containers.Window.wrap_lines
+{'prompt_toolkit.filters.base.Never', 'prompt_toolkit.filters.base.Condition', 'prompt_toolkit.filters.base.Always'}
+
+
+-------case--------prompt_toolkit.layout.containers.Window.dont_extend_width
+{'prompt_toolkit.filters.base.Never', 'prompt_toolkit.filters.base.Always'}
+
+
+-------case--------prompt_toolkit.layout.containers.Window.dont_extend_height
+{'prompt_toolkit.filters.base.Never', 'prompt_toolkit.filters.base.Always'}
+
+
+-------case--------prompt_toolkit.layout.containers.Window.char
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/layout/containers.py-_fill_bg-2179
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/layout/containers.py-_fill_bg-2176
+
+
+-------case--------prompt_toolkit.layout.containers.Window.width
+{'builtins.NoneType', 'builtins.int', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/layout/containers.py-preferred_width-1583
+
+
+-------case--------prompt_toolkit.layout.containers.Window.height
+{'builtins.NoneType', 'builtins.int', 'prompt_toolkit.layout.dimension.Dimension'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/layout/containers.py-preferred_height-1610
+
+
+-------case--------prompt_toolkit.layout.containers.Window.render_info
+{'prompt_toolkit.layout.containers.WindowRenderInfo', 'builtins.NoneType'}
+
+
+-------case--------prompt_toolkit.key_binding.key_bindings.ConditionalKeyBindings.key_bindings
+{'prompt_toolkit.key_binding.key_bindings.KeyBindings', 'prompt_toolkit.key_binding.key_bindings._MergedKeyBindings'}
+
+
+-------case--------prompt_toolkit.renderer.Renderer._attrs_for_style
+{'builtins.NoneType', 'prompt_toolkit.renderer._StyleStringToAttrsCache'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/renderer.py-render-699
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/renderer.py-render-667
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/renderer.py-render-661
+
+
+-------case--------prompt_toolkit.renderer.Renderer._style_string_has_style
+{'builtins.NoneType', 'prompt_toolkit.renderer._StyleStringHasStyleCache'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/renderer.py-render-665
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/renderer.py-render-700
+
+
+-------case--------prompt_toolkit.renderer.Renderer._last_style_hash
+{'builtins.NoneType', 'builtins.tuple'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/renderer.py-render-652
+
+
+-------case--------prompt_toolkit.renderer.Renderer._last_transformation_hash
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/renderer.py-render-654
+
+
+-------case--------prompt_toolkit.renderer.Renderer._last_color_depth
+{'builtins.NoneType', 'prompt_toolkit.output.color_depth.ColorDepth'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/renderer.py-render-655
+
+
+-------case--------prompt_toolkit.renderer.Renderer._last_screen
+{'builtins.NoneType', 'prompt_toolkit.layout.screen.Screen'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/renderer.py-render-635
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/renderer.py-render-695
+
+
+-------case--------prompt_toolkit.renderer.Renderer._last_size
+{'builtins.NoneType', 'prompt_toolkit.data_structures.Size'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/renderer.py-render-702
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/renderer.py-render-645
+
+
+-------case--------prompt_toolkit.renderer.Renderer._last_cursor_shape
+{'builtins.NoneType', 'prompt_toolkit.cursor_shapes.CursorShape'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/renderer.py-render-712
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/renderer.py-render-711
+
+
+-------case--------prompt_toolkit.key_binding.key_processor.KeyProcessor._bindings
+{'prompt_toolkit.application.application._CombinedRegistry', 'prompt_toolkit.key_binding.key_bindings.KeyBindings'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/key_binding/key_processor.py-_get_matches-128
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/key_binding/key_processor.py-_is_prefix_of_longer_match-142
+
+
+-------case--------prompt_toolkit.key_binding.key_processor.KeyProcessor._previous_handler
+{'builtins.NoneType', 'prompt_toolkit.key_binding.key_bindings.Binding'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/key_binding/key_processor.py-_call_handler-311
+
+
+-------case--------prompt_toolkit.layout.controls.BufferControl.input_processors
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/layout/controls.py-_create_get_processed_line_func-665
+
+
+-------case--------prompt_toolkit.layout.controls.BufferControl.preview_search
+{'prompt_toolkit.filters.base.Never', 'prompt_toolkit.filters.base.Always'}
+
+
+-------case--------prompt_toolkit.layout.controls.BufferControl._last_get_processed_line
+{'builtins.NoneType', 'builtins.function'}
+
+
+-------case--------prompt_toolkit.layout.controls.FormattedTextControl.text
+{'builtins.list', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/layout/controls.py-<lambda>-338
+
+
+-------case--------prompt_toolkit.layout.controls.FormattedTextControl._fragments
+{'builtins.NoneType', 'prompt_toolkit.formatted_text.base.FormattedText'}
+
+
+-------case--------prompt_toolkit.layout.containers.VSplit.height
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/layout/containers.py-preferred_height-551
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/layout/containers.py-preferred_height-550
+
+
+-------case--------prompt_toolkit.contrib.regular_languages.compiler._CompiledGrammar.root_node
+{'prompt_toolkit.contrib.regular_languages.regex_parser.AnyNode', 'prompt_toolkit.contrib.regular_languages.regex_parser.NodeSequence'}
+
+
+-------case--------prompt_toolkit.contrib.regular_languages.regex_parser.Variable.childnode
+{'prompt_toolkit.contrib.regular_languages.regex_parser.AnyNode', 'prompt_toolkit.contrib.regular_languages.regex_parser.Repeat'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/contrib/regular_languages/compiler.py-transform-331
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/contrib/regular_languages/compiler.py-transform-175
+
+
+-------case--------prompt_toolkit.layout.processors.ConditionalProcessor.processor
+{'prompt_toolkit.layout.processors.AppendAutoSuggestion', 'prompt_toolkit.layout.processors.PasswordProcessor'}
+
+
+-------case--------prompt_toolkit.layout.processors.ConditionalProcessor.filter
+{'prompt_toolkit.filters.base.Never', 'prompt_toolkit.filters.base._AndList'}
+
+
+-------case--------prompt_toolkit.layout.containers.ConditionalContainer.filter
+{'prompt_toolkit.filters.base._Invert', 'prompt_toolkit.filters.base.Condition'}
+
+
+-------case--------prompt_toolkit.styles.style_transformation.AdjustBrightnessStyleTransformation.min_brightness
+{'builtins.int', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/styles/style_transformation.py-transform_attrs-163
+
+
+-------case--------prompt_toolkit.styles.style_transformation.AdjustBrightnessStyleTransformation.max_brightness
+{'builtins.int', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/styles/style_transformation.py-transform_attrs-164
+
+

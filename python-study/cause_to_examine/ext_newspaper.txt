@@ -1,0 +1,2 @@
+ /home/user/newspaper/tests/../newspaper/article.py-parse-224
+newspaper.article.Article.link_hash

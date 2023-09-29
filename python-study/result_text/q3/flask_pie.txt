@@ -1,0 +1,1 @@
+{"ln": 7, "others": 1, "t1stru2": 2, "rn": 1, "t1simt2": 1}

@@ -1,0 +1,1 @@
+{"('builtins.str', 'builtins.function')": 1, "('builtins.function', 'builtins.str')": 1}

@@ -1,0 +1,2 @@
+{"local": 5, "method": 1}
+{"ln": 4, "t1simt2": 2, "t1stru2": 2, "rn": 2, "others": 1, "coercion": 4}

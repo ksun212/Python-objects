@@ -1,0 +1,49 @@
+-------case--------impacket.ICMP6.ICMP6._ProtocolLayer__parent
+{'impacket.IP6.IP6', 'impacket.IP6_Extension_Headers.Destination_Options', 'impacket.IP6_Extension_Headers.Routing_Options', 'impacket.IP6_Extension_Headers.Hop_By_Hop'}
+ /home/user/impacket/impacket/ImpactPacket.py-parent-240
+
+
+-------case--------impacket.ImpactPacket.Data._ProtocolLayer__parent
+{'impacket.ICMP6.ICMP6', 'impacket.ImpactPacket.UDP', 'impacket.IP6_Extension_Headers.Destination_Options', 'impacket.IP6_Extension_Headers.Hop_By_Hop'}
+
+
+-------case--------impacket.IP6.IP6._ProtocolLayer__child
+{'impacket.ICMP6.ICMP6', 'impacket.ImpactPacket.UDP', 'impacket.IP6_Extension_Headers.Destination_Options', 'impacket.IP6_Extension_Headers.Routing_Options', 'impacket.IP6_Extension_Headers.Hop_By_Hop'}
+ /home/user/impacket/impacket/ImpactPacket.py-child-236
+
+
+-------case--------impacket.IP6_Address.IP6_Address._IP6_Address__bytes
+{'builtins.list', 'array.array.array'}
+ /home/user/impacket/impacket/IP6_Address.py-as_bytes-98
+ /home/user/impacket/impacket/IP6_Address.py-__from_string-70
+ /home/user/impacket/impacket/IP6_Address.py-__from_string-71
+ /home/user/impacket/impacket/IP6_Address.py-as_string-83
+
+
+-------case--------impacket.IP6_Extension_Headers.Destination_Options._ProtocolLayer__child
+{'impacket.ICMP6.ICMP6', 'impacket.ImpactPacket.Data', 'impacket.IP6_Extension_Headers.Routing_Options'}
+ /home/user/impacket/impacket/ImpactPacket.py-child-236
+
+
+-------case--------impacket.IP6_Extension_Headers.Destination_Options._ProtocolLayer__parent
+{'impacket.IP6.IP6', 'impacket.IP6_Extension_Headers.Routing_Options'}
+
+
+-------case--------impacket.IP6_Extension_Headers.Hop_By_Hop._ProtocolLayer__parent
+{'impacket.IP6.IP6', 'impacket.IP6_Extension_Headers.Routing_Options'}
+
+
+-------case--------impacket.IP6_Extension_Headers.Hop_By_Hop._ProtocolLayer__child
+{'impacket.ICMP6.ICMP6', 'impacket.IP6_Extension_Headers.Routing_Options', 'impacket.ImpactPacket.Data'}
+ /home/user/impacket/impacket/ImpactPacket.py-child-236
+
+
+-------case--------impacket.IP6_Extension_Headers.Routing_Options._ProtocolLayer__parent
+{'impacket.IP6.IP6', 'impacket.IP6_Extension_Headers.Destination_Options', 'impacket.IP6_Extension_Headers.Hop_By_Hop'}
+
+
+-------case--------impacket.IP6_Extension_Headers.Routing_Options._ProtocolLayer__child
+{'impacket.ICMP6.ICMP6', 'impacket.IP6_Extension_Headers.Destination_Options', 'impacket.IP6_Extension_Headers.Hop_By_Hop'}
+ /home/user/impacket/impacket/ImpactPacket.py-child-236
+
+

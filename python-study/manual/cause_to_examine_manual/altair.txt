@@ -1,0 +1,12 @@
+altair.utils.plugin_registry.PluginEnabler.registry
+{'altair.vegalite.data.DataTransformerRegistry', 'tests.utils.test_plugin_registry.TypedCallableRegistry', 'altair.utils.theme.ThemeRegistry', 'tests.utils.test_plugin_registry.GeneralCallableRegistry', 'altair.utils.display.RendererRegistry'}
+ /home/user/altair/altair/utils/plugin_registry.py-__exit__-47
+        self.registry._set_state(self.original_state)
+altair.utils.plugin_registry.PluginEnabler.registry
+{'altair.vegalite.data.DataTransformerRegistry', 'altair.utils.display.RendererRegistry', 'tests.utils.test_plugin_registry.TypedCallableRegistry', 'altair.utils.theme.ThemeRegistry', 'tests.utils.test_plugin_registry.GeneralCallableRegistry'}
+ /home/user/altair/altair/utils/plugin_registry.py-__init__-41
+        self.registry._enable(name, **options)
+
+
+check: 1
+safe: 1

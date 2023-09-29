@@ -1,0 +1,28 @@
+-------case--------typer.models.DefaultPlaceholder.value
+{'builtins.bool', 'builtins.NoneType', 'builtins.str'}
+
+
+-------case--------typer.models.OptionInfo.default
+{'builtins.function', 'builtins.NoneType', 'builtins.str'}
+
+
+-------case--------typer.models.OptionInfo.callback
+{'builtins.function', 'builtins.NoneType'}
+
+
+-------case--------typer.models.OptionInfo.shell_complete
+{'builtins.function', 'builtins.NoneType'}
+
+
+-------case--------typer.models.OptionInfo.show_default
+{'builtins.bool', 'builtins.str'}
+
+
+-------case--------typer.models.OptionInfo.help
+{'builtins.NoneType', 'builtins.str'}
+
+
+-------case--------typer.models.OptionInfo.is_flag
+{'builtins.bool', 'builtins.NoneType'}
+
+

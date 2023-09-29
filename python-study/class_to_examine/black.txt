@@ -1,0 +1,72 @@
+-------case--------black_blib2to3.pgen2.parse.Parser.proxy
+{'missing', 'black_blib2to3.pgen2.driver.TokenProxy'}
+
+
+-------case--------black_blib2to3.pytree.Leaf.opening_bracket
+{'black_blib2to3.pytree.Leaf', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py-left_hand_split-592
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py-right_hand_split-648
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py-has_magic_trailing_comma-328
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py-has_magic_trailing_comma-329
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py-generate_trailers_to_omit-1257
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py-generate_trailers_to_omit-1255
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py-generate_trailers_to_omit-1291
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py-generate_trailers_to_omit-1284
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py-_can_omit_closing_paren-861
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py-generate_trailers_to_omit-1283
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py-_can_omit_opening_paren-836
+
+
+-------case--------black_blib2to3.pytree.Leaf.used_names
+{'missing', 'builtins.set'}
+
+
+-------case--------black_blib2to3.pytree.Node.prev_sibling_map
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py-prev_sibling-216
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py-prev_sibling-217
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py-prev_sibling-214
+
+
+-------case--------black_blib2to3.pytree.Node.next_sibling_map
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py-next_sibling-200
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py-next_sibling-203
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py-next_sibling-202
+
+
+-------case--------black_blib2to3.pytree.Node.used_names
+{'missing', 'builtins.set'}
+
+
+-------case--------black.lines.Line.magic_trailing_comma
+{'black_blib2to3.pytree.Leaf', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py-generate_trailers_to_omit-1231
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py-transform_line-475
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py-clone-429
+
+
+-------case--------black.brackets.BracketTracker.previous
+{'black_blib2to3.pytree.Leaf', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py-mark-111
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py-mark-112
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py-mark-114
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py-mark-110
+
+
+-------case--------black.lines.EmptyLineTracker.previous_block
+{'builtins.NoneType', 'black.lines.LinesBlock'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py-maybe_empty_lines-508
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py-maybe_empty_lines-498
+
+
+-------case--------black.lines.EmptyLineTracker.semantic_leading_comment
+{'builtins.NoneType', 'black.lines.LinesBlock'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py-maybe_empty_lines-520
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py-_maybe_empty_lines_for_class_or_def-629
+
+
+-------case--------black.lines.LinesBlock.previous_block
+{'builtins.NoneType', 'black.lines.LinesBlock'}
+
+

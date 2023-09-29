@@ -1,0 +1,1 @@
+{"('builtins.function', 'builtins.bool')": 1, "('builtins.bool', 'builtins.function')": 1, "('collections.collections.OrderedDict', 'builtins.float')": 3}

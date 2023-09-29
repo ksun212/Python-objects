@@ -1,0 +1,6 @@
+ /home/user/bandit/bandit/core/issue.py-from_dict-220
+bandit.core.issue.Issue.code
+ /home/user/bandit/bandit/core/metrics.py-begin-44
+bandit.core.metrics.Metrics.current
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-192
+bandit.core.node_visitor.BanditNodeVisitor.context

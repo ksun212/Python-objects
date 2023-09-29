@@ -1,0 +1,11 @@
+snorkel.classification.training.loggers.log_manager.LogManager.unit_count
+{'builtins.float', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/loggers/log_manager.py-trigger_evaluation-108
+        satisfied = self.unit_count >= self.evaluation_freq
+snorkel.classification.training.loggers.checkpointer.Checkpointer.checkpoint_freq
+{'builtins.float', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/loggers/checkpointer.py-__init__-88
+        if self.checkpoint_freq <= 0:
+
+check: 2
+safe: 2

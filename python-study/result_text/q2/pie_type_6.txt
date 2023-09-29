@@ -1,0 +1,4 @@
+ln	26
+t1stru2	7
+rn	4
+coercion	1

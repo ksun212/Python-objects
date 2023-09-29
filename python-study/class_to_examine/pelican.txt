@@ -1,0 +1,549 @@
+-------case--------pelican.log.FatalLogger.parent
+{'pelican.log.FatalLogger', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/Lib/logging/__init__.py-_fixupChildren-1368
+ /home/user/purepython/cpython-3.9/Lib/logging/__init__.py-getEffectiveLevel-1686
+ /home/user/purepython/cpython-3.9/Lib/logging/__init__.py-callHandlers-1665
+ /home/user/purepython/cpython-3.9/Lib/logging/__init__.py-_fixupChildren-1369
+
+
+-------case--------pelican.generators.ArticlesGenerator.path
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/pelican/pelican/generators.py-get_files-147
+ /home/user/pelican/pelican/generators.py-_get_file_stamp-249
+ /home/user/pelican/pelican/generators.py-get_files-154
+ /home/user/pelican/pelican/generators.py-get_files-168
+ /home/user/pelican/pelican/generators.py-generate_context-628
+
+
+-------case--------pelican.generators.ArticlesGenerator.output_path
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------pelican.readers.MarkdownReader._source_path
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------pelican.urlwrappers.Category._slug
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/pelican/pelican/urlwrappers.py-slug-32
+ /home/user/pelican/pelican/urlwrappers.py-slug-45
+
+
+-------case--------pelican.readers.PelicanHTMLWriter.visitor
+{'pelican.readers.PelicanHTMLTranslator', 'missing'}
+
+
+-------case--------pelican.readers.PelicanHTMLWriter.head_prefix
+{'builtins.list', 'missing'}
+
+
+-------case--------pelican.readers.PelicanHTMLWriter.head
+{'builtins.list', 'missing'}
+
+
+-------case--------pelican.readers.PelicanHTMLWriter.stylesheet
+{'builtins.list', 'missing'}
+
+
+-------case--------pelican.readers.PelicanHTMLWriter.body_prefix
+{'builtins.list', 'missing'}
+
+
+-------case--------pelican.readers.PelicanHTMLWriter.body_pre_docinfo
+{'builtins.list', 'missing'}
+
+
+-------case--------pelican.readers.PelicanHTMLWriter.docinfo
+{'builtins.list', 'missing'}
+
+
+-------case--------pelican.readers.PelicanHTMLWriter.body
+{'builtins.list', 'missing'}
+
+
+-------case--------pelican.readers.PelicanHTMLWriter.body_suffix
+{'builtins.list', 'missing'}
+
+
+-------case--------pelican.readers.PelicanHTMLWriter.title
+{'builtins.list', 'missing'}
+
+
+-------case--------pelican.readers.PelicanHTMLWriter.subtitle
+{'builtins.list', 'missing'}
+
+
+-------case--------pelican.readers.PelicanHTMLWriter.header
+{'builtins.list', 'missing'}
+
+
+-------case--------pelican.readers.PelicanHTMLWriter.footer
+{'builtins.list', 'missing'}
+
+
+-------case--------pelican.readers.PelicanHTMLWriter.meta
+{'builtins.list', 'missing'}
+
+
+-------case--------pelican.readers.PelicanHTMLWriter.fragment
+{'builtins.list', 'missing'}
+
+
+-------case--------pelican.readers.PelicanHTMLWriter.html_prolog
+{'builtins.list', 'missing'}
+
+
+-------case--------pelican.readers.PelicanHTMLWriter.html_head
+{'builtins.list', 'missing'}
+
+
+-------case--------pelican.readers.PelicanHTMLWriter.html_title
+{'builtins.list', 'missing'}
+
+
+-------case--------pelican.readers.PelicanHTMLWriter.html_subtitle
+{'builtins.list', 'missing'}
+
+
+-------case--------pelican.readers.PelicanHTMLWriter.html_body
+{'builtins.list', 'missing'}
+
+
+-------case--------pelican.readers.PelicanHTMLTranslator.image_loading
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/docutils/writers/_html_base.py-__init__-321
+
+
+-------case--------pelican.readers.PelicanHTMLTranslator.math_output
+{'builtins.list', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/docutils/writers/_html_base.py-__init__-325
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/docutils/writers/_html_base.py-__init__-324
+
+
+-------case--------pelican.contents.Article.reader
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Article.title
+{'builtins.str', 'missing'}
+ /home/user/pelican/pelican/tests/test_cache.py-<genexpr>-39
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-611
+ /home/user/pelican/pelican/writers.py-_add_item_to_the_feed-49
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-195
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-626
+ /home/user/pelican/pelican/tests/test_cache.py-<genexpr>-90
+ /home/user/pelican/pelican/contents.py-__init__-94
+
+
+-------case--------pelican.contents.Article.slug
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Article.source_path
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/pelican/pelican/contents.py-relative_dir-479
+ /home/user/pelican/pelican/contents.py-get_relative_source_path-462
+ /home/user/pelican/pelican/utils.py-<genexpr>-664
+ /home/user/pelican/pelican/contents.py-__str__-147
+
+
+-------case--------pelican.contents.Article.relative_source_path
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------pelican.contents.Article.timezone
+{'pytz.tzfile.Europe/Paris', 'pytz.UTC'}
+ /home/user/pelican/pelican/contents.py-__init__-534
+
+
+-------case--------pelican.contents.Article.locale_date
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Article.tags
+{'builtins.list', 'missing'}
+ /home/user/pelican/pelican/generators.py-generate_context-674
+ /home/user/pelican/pelican/writers.py-_add_item_to_the_feed-78
+
+
+-------case--------pelican.contents.Article.modified
+{'pelican.utils.SafeDatetime', 'missing'}
+ /home/user/pelican/pelican/contents.py-__init__-133
+ /home/user/pelican/pelican/contents.py-__init__-132
+ /home/user/pelican/pelican/writers.py-_add_item_to_the_feed-91
+
+
+-------case--------pelican.contents.Article.locale_modified
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Article._summary
+{'builtins.str', 'missing'}
+ /home/user/pelican/pelican/contents.py-refresh_metadata_intersite_links-497
+ /home/user/pelican/pelican/contents.py-refresh_metadata_intersite_links-500
+
+
+-------case--------pelican.contents.Article.custom_field
+{'builtins.list', 'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Article.author
+{'pelican.urlwrappers.Author', 'missing'}
+ /home/user/pelican/pelican/contents.py-url_format-210
+ /home/user/pelican/pelican/contents.py-__init__-76
+
+
+-------case--------pelican.contents.Article.custom_formatted_field
+{'builtins.list', 'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Article.multiline
+{'builtins.list', 'missing'}
+
+
+-------case--------pelican.contents.Article.viewport
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Article.license
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Article.yeah
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Article.override_url
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Article.override_save_as
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Article.translation
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.urlwrappers.Tag._slug
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/pelican/pelican/urlwrappers.py-slug-32
+ /home/user/pelican/pelican/urlwrappers.py-slug-45
+
+
+-------case--------pelican.readers._HTMLParser._HTMLParser__starttag_text
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------pelican.urlwrappers.Author._slug
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/pelican/pelican/urlwrappers.py-slug-32
+ /home/user/pelican/pelican/urlwrappers.py-slug-45
+
+
+-------case--------pelican.readers._FieldBodyTranslator.image_loading
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/docutils/writers/_html_base.py-__init__-321
+
+
+-------case--------pelican.readers._FieldBodyTranslator.math_output
+{'builtins.list', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/docutils/writers/_html_base.py-__init__-325
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/docutils/writers/_html_base.py-__init__-324
+
+
+-------case--------pelican.readers._FieldBodyTranslator.compact_p
+{'builtins.bool', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/docutils/writers/html4css1/__init__.py-should_be_compact_paragraph-739
+
+
+-------case--------pelican.generators.PagesGenerator.output_path
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------pelican.contents.Page.category
+{'pelican.urlwrappers.Category', 'missing'}
+ /home/user/pelican/pelican/contents.py-url_format-211
+
+
+-------case--------pelican.contents.Page.date
+{'datetime.datetime.datetime', 'pelican.utils.SafeDatetime', 'missing'}
+ /home/user/pelican/pelican/contents.py-__init__-129
+ /home/user/pelican/pelican/contents.py-__init__-128
+
+
+-------case--------pelican.contents.Page.reader
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Page.title
+{'builtins.str', 'missing'}
+ /home/user/pelican/pelican/tests/test_cache.py-<genexpr>-39
+ /home/user/pelican/pelican/tests/test_readers.py-test_typogrify_dashes_config-797
+ /home/user/pelican/pelican/tests/test_readers.py-test_typogrify_dashes_config-786
+ /home/user/pelican/pelican/tests/test_readers.py-test_typogrify_dashes_config-532
+ /home/user/pelican/pelican/tests/test_readers.py-test_typogrify_dashes_config-521
+ /home/user/pelican/pelican/tests/test_readers.py-test_typogrify_dashes_config-775
+ /home/user/pelican/pelican/tests/test_generators.py-<dictcomp>-772
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-643
+ /home/user/pelican/pelican/tests/test_readers.py-test_typogrify_dashes_config-510
+ /home/user/pelican/pelican/tests/test_cache.py-<genexpr>-90
+ /home/user/pelican/pelican/contents.py-__init__-94
+
+
+-------case--------pelican.contents.Page.slug
+{'builtins.str', 'missing'}
+ /home/user/pelican/pelican/tests/test_contents.py-test_slug-176
+ /home/user/pelican/pelican/tests/test_contents.py-test_slug-148
+ /home/user/pelican/pelican/tests/test_contents.py-test_slug-151
+
+
+-------case--------pelican.contents.Page.source_path
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/pelican/pelican/contents.py-relative_dir-479
+ /home/user/pelican/pelican/contents.py-get_relative_source_path-462
+ /home/user/pelican/pelican/utils.py-<lambda>-726
+ /home/user/pelican/pelican/contents.py-attach_to-583
+ /home/user/pelican/pelican/contents.py-__str__-147
+
+
+-------case--------pelican.contents.Page.relative_source_path
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/pelican/pelican/tests/test_contents.py-test_relative_source_path-211
+ /home/user/pelican/pelican/tests/test_contents.py-test_relative_source_path-224
+
+
+-------case--------pelican.contents.Page.timezone
+{'pytz.tzfile.Europe/Paris', 'pytz.UTC'}
+
+
+-------case--------pelican.contents.Page.locale_date
+{'builtins.str', 'missing'}
+ /home/user/pelican/pelican/tests/test_contents.py-test_datetime-251
+
+
+-------case--------pelican.contents.Page.author
+{'pelican.urlwrappers.Author', 'builtins.str', 'missing'}
+ /home/user/pelican/pelican/contents.py-__init__-76
+ /home/user/pelican/pelican/tests/test_contents.py-test_multiple_authors-669
+ /home/user/pelican/pelican/contents.py-url_format-210
+ /home/user/pelican/pelican/tests/test_contents.py-test_multiple_authors-663
+
+
+-------case--------pelican.contents.Page._summary
+{'builtins.str', 'missing'}
+ /home/user/pelican/pelican/contents.py-refresh_metadata_intersite_links-497
+ /home/user/pelican/pelican/contents.py-refresh_metadata_intersite_links-500
+
+
+-------case--------pelican.contents.Page.custom
+{'builtins.str', 'missing'}
+ /home/user/pelican/pelican/tests/test_contents.py-test_intrasite_link-408
+
+
+-------case--------pelican.contents.Page.foo
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Page.foobar
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Page.override_url
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Page.override_save_as
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Page.yeah
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Page.modified
+{'datetime.datetime.datetime', 'pelican.utils.SafeDatetime', 'missing'}
+ /home/user/pelican/pelican/contents.py-__init__-133
+ /home/user/pelican/pelican/contents.py-__init__-132
+
+
+-------case--------pelican.contents.Page.tags
+{'builtins.list', 'missing'}
+
+
+-------case--------pelican.contents.Page.custom_field
+{'builtins.list', 'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Page.locale_modified
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Page.key-1a
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Page.key-1b
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Page.mymeta
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Page.orginalauthor
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Page.epmr_inherit
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Page.epmr_override
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Page.custom_formatted_field
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Page.viewport
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.PrintSettings.container
+{'argparse._ArgumentGroup', 'missing'}
+
+
+-------case--------pelican.ParseOverrides.container
+{'argparse._ArgumentGroup', 'missing'}
+
+
+-------case--------pelican.contents.Static._content
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------pelican.contents.Static.timezone
+{'pytz.tzfile.Europe/Paris', 'pytz.UTC'}
+
+
+-------case--------pelican.contents.Static.override_save_as
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Static.override_url
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Static.category
+{'pelican.urlwrappers.Category', 'missing'}
+ /home/user/pelican/pelican/contents.py-url_format-211
+
+
+-------case--------pelican.contents.Static.reader
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Static.yeah
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Static.date
+{'datetime.datetime.datetime', 'pelican.utils.SafeDatetime', 'missing'}
+ /home/user/pelican/pelican/contents.py-__init__-129
+ /home/user/pelican/pelican/contents.py-__init__-128
+
+
+-------case--------pelican.contents.Static.path
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.contents.Static.author
+{'pelican.urlwrappers.Author', 'missing'}
+ /home/user/pelican/pelican/contents.py-url_format-210
+ /home/user/pelican/pelican/contents.py-__init__-76
+
+
+-------case--------pelican.contents.Static.authors
+{'builtins.list', 'missing'}
+
+
+-------case--------pelican.contents.Static.locale_date
+{'builtins.str', 'missing'}
+
+
+-------case--------pelican.utils._HTMLWordTruncator.last_word_end
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/pelican/pelican/utils.py-add_last_word-468
+ /home/user/pelican/pelican/utils.py-add_last_word-469
+ /home/user/pelican/pelican/utils.py-_handle_ref-540
+
+
+-------case--------pelican.utils._HTMLWordTruncator.truncate_at
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/pelican/pelican/utils.py-truncate_html_words-596
+ /home/user/pelican/pelican/utils.py-truncate_html_words-594
+
+
+-------case--------pelican.utils._HTMLWordTruncator._HTMLParser__starttag_text
+{'builtins.str', 'builtins.NoneType'}
+
+
+-------case--------pelican.writers.Writer.feed_domain
+{'builtins.str', 'missing'}
+ /home/user/pelican/pelican/writers.py-write_feed-142
+
+
+-------case--------pelican.writers.Writer.feed_url
+{'builtins.str', 'missing'}
+ /home/user/pelican/pelican/writers.py-_create_new_feed-43
+
+
+-------case--------pelican.paginator.Paginator._num_pages
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/pelican/pelican/paginator.py-_get_num_pages-47
+ /home/user/pelican/pelican/paginator.py-_get_num_pages-50
+
+
+-------case--------pelican.paginator.Paginator._count
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/pelican/pelican/paginator.py-_get_count-40
+ /home/user/pelican/pelican/paginator.py-_get_count-42
+
+
+-------case--------pelican.server.ComplexHTTPRequestHandler.base_path
+{'builtins.str', 'missing'}
+ /home/user/pelican/pelican/server.py-translate_path-68
+
+
+-------case--------pelican.urlwrappers.URLWrapper._slug
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/pelican/pelican/urlwrappers.py-slug-32
+ /home/user/pelican/pelican/urlwrappers.py-slug-45
+
+
+-------case--------pelican.utils.FileSystemWatcher.settings
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/pelican/pelican/utils.py-check-831
+
+
+-------case--------pelican.utils.FileSystemWatcher._extensions
+{'builtins.set', 'builtins.NoneType'}
+ /home/user/pelican/pelican/utils.py-update_watchers-776
+
+
+-------case--------pelican.utils.FileSystemWatcher._content_path
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/pelican/pelican/utils.py-update_watchers-777
+
+
+-------case--------pelican.utils.FileSystemWatcher._theme_path
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/pelican/pelican/utils.py-update_watchers-778
+
+
+-------case--------pelican.utils.FileSystemWatcher._ignore_files
+{'builtins.set', 'builtins.NoneType'}
+ /home/user/pelican/pelican/utils.py-update_watchers-779
+
+

@@ -1,0 +1,680 @@
+statsmodels.stats.power.TTestPower._counter
+{'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/power.py-func-355
+            if self._counter > 500:
+statsmodels.stats.power.TTestIndPower._counter
+{'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/power.py-func-355
+            if self._counter > 500:
+statsmodels.stats.power.NormalIndPower._counter
+{'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/power.py-func-355
+            if self._counter > 500:
+statsmodels.tools.testing.Holder.conf_int
+{'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_proportion.py-test_binom_test-359
+    assert_almost_equal(ci_upp, binom_test_less.conf_int[1], decimal=13)
+statsmodels.tools.testing.Holder.conf_int
+{'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_proportion.py-test_binom_test-360
+    assert_almost_equal(ci_low, binom_test_greater.conf_int[0], decimal=13)
+statsmodels.tools.testing.Holder.df
+{'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_power.py-setup_class-542
+        cls.kwds_extra = {'n_bins': res2.df + 1}
+statsmodels.regression.linear_model.OLS.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-endog_names-237
+        return self.data.ynames
+statsmodels.regression.linear_model.OLS.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-__init__-96
+        self.endog = self.data.endog
+statsmodels.regression.linear_model.OLS.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-exog_names-244
+        return self.data.xnames
+statsmodels.regression.linear_model.OLS.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-__init__-95
+        self.exog = self.data.exog
+statsmodels.regression.linear_model.OLS.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-__init__-94
+        self.k_constant = self.data.k_constant
+statsmodels.regression.linear_model.OLS.rank
+{'numpy.numpy.int64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-356
+            self.df_resid = self.nobs - self.rank
+statsmodels.regression.linear_model.OLS.rank
+{'numpy.numpy.int64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-df_resid-234
+            self._df_resid = self.nobs - self.rank
+statsmodels.regression.linear_model.OLS.rank
+{'numpy.numpy.int64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-df_model-215
+            self._df_model = float(self.rank - self.k_constant)
+statsmodels.regression.linear_model.OLS.rank
+{'numpy.numpy.int64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-354
+            self._df_model = float(self.rank - self.k_constant)
+statsmodels.regression.linear_model.OLS.rank
+{'numpy.numpy.int64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/anova.py-fit-572
+        if model.rank < x.shape[1]:
+statsmodels.regression.linear_model.OLS.offset
+{'missing', 'builtins.int', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-_setup_score_hess-1007
+            y = y - self.offset
+statsmodels.base.data.ModelData.exog
+{'builtins.NoneType', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/data.py-_check_integrity-435
+            if len(self.exog) != len(self.endog):
+statsmodels.base.data.ModelData.exog
+{'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/data.py-_handle_constant-140
+                if self.exog[:, const_idx].mean() != 0:
+statsmodels.base.data.ModelData.exog
+{'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/data.py-_handle_constant-150
+                    value = self.exog[:, idx].mean()
+statsmodels.regression.linear_model.OLSResults.df_model
+{'builtins.float', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-mse_total-1802
+            return self.centered_tss / (self.df_resid + self.df_model)
+statsmodels.regression.linear_model.OLSResults.df_model
+{'builtins.float', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-info_criteria-1897
+        k_params = self.df_model + self.k_constant + dk_params
+statsmodels.regression.linear_model.OLSResults.df_model
+{'builtins.float', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-mse_total-1804
+            return self.uncentered_tss / (self.df_resid + self.df_model)
+statsmodels.regression.linear_model.OLSResults.df_model
+{'builtins.float', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-mse_model-1777
+        return self.ess/self.df_model
+statsmodels.regression.linear_model.OLSResults.df_model
+{'builtins.float', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-mse_total-1799
+        if np.all(self.df_resid + self.df_model == 0.0):
+statsmodels.regression.linear_model.OLSResults.df_model
+{'builtins.float', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/graphics/regressionplots.py-_high_leverage-46
+    return 2. * (results.df_model + 1)/results.nobs
+statsmodels.regression.linear_model.OLSResults.df_resid
+{'builtins.float', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-cov_HC1-1960
+        self.het_scale = self.nobs/(self.df_resid)*(self.wresid**2)
+statsmodels.regression.linear_model.OLSResults.df_resid
+{'builtins.float', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-mse_resid-1789
+        return self.ssr/self.df_resid
+statsmodels.regression.linear_model.OLSResults.df_resid
+{'builtins.float', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/outliers_influence.py-outlier_test-85
+    df = model_results.df_resid - 1
+statsmodels.regression.linear_model.OLSResults.df_resid
+{'builtins.float', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-scale-1687
+        return np.dot(wresid, wresid) / self.df_resid
+statsmodels.regression.linear_model.OLSResults.df_resid
+{'builtins.float', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-mse_total-1802
+            return self.centered_tss / (self.df_resid + self.df_model)
+statsmodels.regression.linear_model.OLSResults.df_resid
+{'builtins.float', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-mse_total-1804
+            return self.uncentered_tss / (self.df_resid + self.df_model)
+statsmodels.regression.linear_model.OLSResults.df_resid
+{'builtins.float', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-mse_total-1799
+        if np.all(self.df_resid + self.df_model == 0.0):
+statsmodels.regression.linear_model.RegressionResultsWrapper._results
+{'statsmodels.regression.linear_model.RegressionResults', 'statsmodels.regression.linear_model.OLSResults'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/elastic_net.py-fit_elasticnet-240
+        klass = rslt._results.__class__
+statsmodels.base.data.PandasData.exog
+{'builtins.NoneType', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/data.py-_check_integrity-435
+            if len(self.exog) != len(self.endog):
+statsmodels.base.data.PandasData.exog
+{'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/data.py-_handle_constant-140
+                if self.exog[:, const_idx].mean() != 0:
+statsmodels.base.data.PandasData.exog
+{'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/data.py-_handle_constant-150
+                    value = self.exog[:, idx].mean()
+statsmodels.iolib.summary.Summary.extra_txt
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/iolib/summary.py-as_text-852
+            txt = txt + '\n\n' + self.extra_txt
+statsmodels.iolib.summary.Summary.extra_txt
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/iolib/summary.py-as_latex-872
+            latex = latex + '\n\n' + self.extra_txt.replace('\n', ' \\newline\n ')
+statsmodels.stats.contrast.ContrastResults.statistic
+{'builtins.float', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_ols_noncentrality-476
+        assert_allclose(nc_wt, wt.statistic * wt.df_num, rtol=1e-13)
+statsmodels.stats.contrast.ContrastResults.statistic
+{'builtins.float', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_oneway.py-test_ols_noncentrality-501
+        assert_allclose(nc_wt_off, wt_off.statistic * wt_off.df_num,
+statsmodels.stats.contrast.ContrastResults.dist
+{'scipy.stats._continuous_distns.chi2_gen', 'scipy.stats._continuous_distns.f_gen', 'scipy.stats._continuous_distns.t_gen'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contrast.py-__init__-42
+            self.pvalue = self.dist.sf(np.abs(t), df_denom) * 2
+statsmodels.stats.contrast.ContrastResults.dist
+{'scipy.stats._continuous_distns.chi2_gen', 'scipy.stats._continuous_distns.f_gen', 'scipy.stats._continuous_distns.t_gen'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/contrast.py-__init__-53
+                self.pvalue = self.dist.sf(self.statistic, df_denom)
+statsmodels.regression.linear_model.GLS.sigma
+{'builtins.NoneType', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit_regularized-642
+            if self.sigma.ndim == 2:
+statsmodels.regression.linear_model.GLS.sigma
+{'builtins.NoneType', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-whiten-552
+        elif self.sigma.ndim == 1:
+statsmodels.regression.linear_model.GLS.sigma
+{'builtins.NoneType', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit_regularized-644
+            elif self.sigma.ndim == 1:
+statsmodels.regression.linear_model.GLS.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-__init__-95
+        self.exog = self.data.exog
+statsmodels.regression.linear_model.GLS.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-__init__-94
+        self.k_constant = self.data.k_constant
+statsmodels.regression.linear_model.GLS.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-__init__-96
+        self.endog = self.data.endog
+statsmodels.regression.linear_model.GLS.rank
+{'numpy.numpy.int64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-354
+            self._df_model = float(self.rank - self.k_constant)
+statsmodels.regression.linear_model.GLS.rank
+{'numpy.numpy.int64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-356
+            self.df_resid = self.nobs - self.rank
+statsmodels.regression.linear_model.RegressionResults.model
+{'statsmodels.regression.linear_model.GLS', 'statsmodels.regression.linear_model.WLS'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-wresid-1669
+            self.params, self.model.wexog)
+statsmodels.regression.linear_model.RegressionResults.model
+{'statsmodels.regression.linear_model.GLS', 'statsmodels.regression.linear_model.WLS'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-summary-2772
+            title = self.model.__class__.__name__ + ' ' + "Regression Results"
+statsmodels.regression.linear_model.RegressionResults.model
+{'statsmodels.regression.linear_model.GLS', 'statsmodels.regression.linear_model.WLS'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-llf-1403
+        return self.model.loglike(self.params)
+statsmodels.regression.linear_model.RegressionResults.model
+{'statsmodels.regression.linear_model.GLS', 'statsmodels.regression.linear_model.WLS'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/wrapper.py-__getattribute__-35
+        data = results.model.data
+statsmodels.regression.linear_model.RegressionResults.model
+{'statsmodels.regression.linear_model.GLS', 'statsmodels.regression.linear_model.WLS'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/iolib/summary.py-<lambda>-295
+          ('Model:', lambda: [results.model.__class__.__name__]),
+statsmodels.regression.linear_model.RegressionResults.model
+{'statsmodels.regression.linear_model.GLS', 'statsmodels.regression.linear_model.WLS'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/iolib/summary.py-_getnames-259
+            yname = self.model.endog_names
+statsmodels.regression.linear_model.RegressionResults.model
+{'statsmodels.regression.linear_model.GLS', 'statsmodels.regression.linear_model.WLS'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/wrapper.py-wrapper-109
+        data = results.model.data
+statsmodels.regression.linear_model.RegressionResults.model
+{'statsmodels.regression.linear_model.GLS', 'statsmodels.regression.linear_model.WLS'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-nobs-1656
+        return float(self.model.wexog.shape[0])
+statsmodels.regression.linear_model.RegressionResults.model
+{'statsmodels.regression.linear_model.GLS', 'statsmodels.regression.linear_model.WLS'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/iolib/summary.py-_getnames-265
+            xname = self.model.exog_names
+statsmodels.regression.linear_model.RegressionResults.model
+{'statsmodels.regression.linear_model.GLS', 'statsmodels.regression.linear_model.WLS'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-resid_pearson-2064
+        if np.sqrt(self.scale) < 10 * eps * self.model.endog.mean():
+statsmodels.regression.linear_model.RegressionResults.model
+{'statsmodels.regression.linear_model.GLS', 'statsmodels.regression.linear_model.WLS'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-_HCCM-1939
+                   scale[:, None] * self.model.pinv_wexog.T)
+statsmodels.regression.linear_model.RegressionResults.model
+{'statsmodels.regression.linear_model.GLS', 'statsmodels.regression.linear_model.WLS'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fvalue-1820
+            const_idx = self.model.data.const_idx
+statsmodels.regression.linear_model.RegressionResults.model
+{'statsmodels.regression.linear_model.GLS', 'statsmodels.regression.linear_model.WLS'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-uncentered_tss-1724
+        wendog = self.model.wendog
+statsmodels.regression.linear_model.RegressionResults.model
+{'statsmodels.regression.linear_model.GLS', 'statsmodels.regression.linear_model.WLS'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-_HCCM-1938
+        H = np.dot(self.model.pinv_wexog,
+statsmodels.regression.linear_model.RegressionResults.model
+{'statsmodels.regression.linear_model.GLS', 'statsmodels.regression.linear_model.WLS'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-resid-1675
+            self.params, self.model.exog)
+statsmodels.regression.linear_model.RegressionResults.model
+{'statsmodels.regression.linear_model.GLS', 'statsmodels.regression.linear_model.WLS'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fvalue-1825
+            if self.model.data.k_constant == 1:
+statsmodels.regression.linear_model.WLS.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-__init__-95
+        self.exog = self.data.exog
+statsmodels.regression.linear_model.WLS.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-__init__-94
+        self.k_constant = self.data.k_constant
+statsmodels.regression.linear_model.WLS.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-endog_names-237
+        return self.data.ynames
+statsmodels.regression.linear_model.WLS.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-exog_names-244
+        return self.data.xnames
+statsmodels.regression.linear_model.WLS.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-__init__-96
+        self.endog = self.data.endog
+statsmodels.regression.linear_model.WLS.rank
+{'numpy.numpy.int64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-354
+            self._df_model = float(self.rank - self.k_constant)
+statsmodels.regression.linear_model.WLS.rank
+{'numpy.numpy.int64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/linear_model.py-fit-356
+            self.df_resid = self.nobs - self.rank
+statsmodels.base.elastic_net.RegularizedResults.model
+{'statsmodels.regression.linear_model.GLS', 'statsmodels.genmod.generalized_linear_model.GLM', 'statsmodels.regression.linear_model.WLS', 'statsmodels.regression.linear_model.OLS'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-predict-1159
+        predict_results = self.model.predict(self.params, exog, *args,
+statsmodels.base.elastic_net.RegularizedResults.model
+{'statsmodels.regression.linear_model.GLS', 'statsmodels.genmod.generalized_linear_model.GLM', 'statsmodels.regression.linear_model.WLS', 'statsmodels.regression.linear_model.OLS'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/elastic_net.py-fittedvalues-377
+        return self.model.predict(self.params)
+statsmodels.base.elastic_net.RegularizedResults.model
+{'statsmodels.regression.linear_model.GLS', 'statsmodels.genmod.generalized_linear_model.GLM', 'statsmodels.regression.linear_model.WLS', 'statsmodels.regression.linear_model.OLS'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/wrapper.py-__getattribute__-35
+        data = results.model.data
+statsmodels.distributions.discrete.DiscretizedCount.distr
+{'scipy.stats._continuous_distns.lomax_gen', 'scipy.stats._continuous_distns.gamma_gen', 'scipy.stats._continuous_distns.burr12_gen', 'scipy.stats._continuous_distns.expon_gen'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/distributions/discrete.py-_rvs-245
+        rv = np.trunc(self.distr.rvs(*args, scale=scale, size=size,
+statsmodels.base.model.LikelihoodModelResults.normalized_cov_params
+{'builtins.NoneType', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-cov_params-1512
+                cov_p = self.normalized_cov_params * scale
+statsmodels.base.model.LikelihoodModelResults.normalized_cov_params
+{'builtins.NoneType', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_fit_gradient-1131
+            cov_p = rslt.normalized_cov_params / scale
+statsmodels.base.model.LikelihoodModelResults.mle_retvals
+{'builtins.dict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-fit-2195
+                if rslt.mle_retvals['converged']:
+statsmodels.base.model.LikelihoodModelResults.mle_retvals
+{'builtins.dict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-fit-2213
+        converged = rslt.mle_retvals['converged']
+statsmodels.base.model.LikelihoodModelResults.mle_settings
+{'missing', 'builtins.dict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-cov_params-1491
+                self.mle_settings['optimizer'] in ['l1', 'l1_cvxopt_cp']):
+statsmodels.distributions.edgeworth.ExpandedNormal._mu
+{'builtins.float', 'builtins.int', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/distributions/edgeworth.py-_cdf-179
+        y = (x - self._mu) / self._sigma
+statsmodels.distributions.edgeworth.ExpandedNormal._mu
+{'builtins.float', 'builtins.int', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/distributions/edgeworth.py-_pdf-175
+        y = (x - self._mu) / self._sigma
+statsmodels.distributions.edgeworth.ExpandedNormal._mu
+{'builtins.float', 'builtins.int', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/distributions/edgeworth.py-_sf-184
+        y = (x - self._mu) / self._sigma
+statsmodels.distributions.edgeworth.ExpandedNormal._mu
+{'builtins.float', 'builtins.int', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/distributions/edgeworth.py-__init__-165
+        r = (r - self._mu) / self._sigma
+statsmodels.stats.base.HolderTuple.pvalue
+{'builtins.float', 'numpy.numpy.ndarray', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/proportion.py-func-2022
+        return r.pvalue - alpha
+statsmodels.tsa.statespace.simulation_smoother.SimulationSmoother.initialization
+{'builtins.NoneType', 'statsmodels.tsa.statespace.initialization.Initialization'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/representation.py-_initialize_state-981
+            if not self.initialization.initialized:
+statsmodels.tsa.statespace.kalman_smoother.SmootherResults.scaled_smoothed_estimator
+{'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/kalman_smoother.py-update_smoother-697
+                self.scaled_smoothed_estimator[:, start:end]
+statsmodels.tsa.statespace.kalman_smoother.SmootherResults.scaled_smoothed_estimator_cov
+{'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/kalman_smoother.py-update_smoother-701
+                self.scaled_smoothed_estimator_cov[:, :, start:end]
+statsmodels.tsa.statespace.kalman_smoother.SmootherResults.llf_obs
+{'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/kalman_filter.py-update_filter-1827
+            self.llf = np.sum(self.llf_obs[self.loglikelihood_burn:])
+statsmodels.tsa.statespace.kalman_smoother.SmootherResults.nobs_diffuse
+{'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/tsa/statespace/kalman_filter.py-update_filter-1618
+        if self.nobs_diffuse > 0:
+statsmodels.stats.outliers_influence.OLSInfluence.resid
+{'pandas.core.series.Series', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/outliers_influence.py-get_resid_studentized_external-696
+        return self.resid / sigma / np.sqrt(1 - hii)
+statsmodels.genmod.generalized_linear_model.GLM.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-__init__-95
+        self.exog = self.data.exog
+statsmodels.genmod.generalized_linear_model.GLM.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-__init__-94
+        self.k_constant = self.data.k_constant
+statsmodels.genmod.generalized_linear_model.GLM.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-exog_names-244
+        return self.data.xnames
+statsmodels.genmod.generalized_linear_model.GLM.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-__init__-96
+        self.endog = self.data.endog
+statsmodels.genmod.generalized_linear_model.GLM.wnobs
+{'builtins.int', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-initialize-361
+            self.df_resid = self.wnobs - self.df_model - 1
+statsmodels.genmod.generalized_linear_model.GLM.df_resid
+{'numpy.numpy.int64', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_estimate_x2_scale-804
+        return np.sum(resid / self.family.variance(mu)) / self.df_resid
+statsmodels.genmod.generalized_linear_model.GLM.family
+{'statsmodels.genmod.families.family.Poisson', 'statsmodels.genmod.families.family.Gaussian', 'statsmodels.genmod.families.family.Binomial'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_fit_irls-1189
+        dev = self.family.deviance(self.endog, mu, self.var_weights,
+statsmodels.genmod.generalized_linear_model.GLM.family
+{'statsmodels.genmod.families.family.Poisson', 'statsmodels.genmod.families.family.Gaussian', 'statsmodels.genmod.families.family.Binomial'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-loglike-439
+        llf = self.family.loglike(self.endog, expval, self.var_weights,
+statsmodels.genmod.generalized_linear_model.GLM.family
+{'statsmodels.genmod.families.family.Poisson', 'statsmodels.genmod.families.family.Gaussian', 'statsmodels.genmod.families.family.Binomial'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_fit_irls-1184
+            lin_pred = self.family.predict(mu)
+statsmodels.genmod.generalized_linear_model.GLM.family
+{'statsmodels.genmod.families.family.Poisson', 'statsmodels.genmod.families.family.Gaussian', 'statsmodels.genmod.families.family.Binomial'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_setup_binomial-970
+            tmp = self.family.initialize(self.endog, self.freq_weights)
+statsmodels.genmod.generalized_linear_model.GLM.family
+{'statsmodels.genmod.families.family.Poisson', 'statsmodels.genmod.families.family.Gaussian', 'statsmodels.genmod.families.family.Binomial'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_fit_irls-1210
+                            self.family.weights(mu))
+statsmodels.genmod.generalized_linear_model.GLM.family
+{'statsmodels.genmod.families.family.Poisson', 'statsmodels.genmod.families.family.Gaussian', 'statsmodels.genmod.families.family.Binomial'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_deriv_score_obs_dendog-662
+        score_factor /= self.family.variance(mu)
+statsmodels.genmod.generalized_linear_model.GLM.family
+{'statsmodels.genmod.families.family.Poisson', 'statsmodels.genmod.families.family.Gaussian', 'statsmodels.genmod.families.family.Binomial'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_deriv_score_obs_dendog-661
+        score_factor = 1 / self.family.link.deriv(mu)
+statsmodels.genmod.generalized_linear_model.GLM.family
+{'statsmodels.genmod.families.family.Poisson', 'statsmodels.genmod.families.family.Gaussian', 'statsmodels.genmod.families.family.Binomial'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_fit_irls-1183
+            mu = self.family.starting_mu(self.endog)
+statsmodels.genmod.generalized_linear_model.GLM.family
+{'statsmodels.genmod.families.family.Poisson', 'statsmodels.genmod.families.family.Gaussian', 'statsmodels.genmod.families.family.Binomial'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_deriv_mean_dparams-633
+        idl = self.family.link.inverse_deriv(lin_pred)
+statsmodels.genmod.generalized_linear_model.GLM.family
+{'statsmodels.genmod.families.family.Poisson', 'statsmodels.genmod.families.family.Gaussian', 'statsmodels.genmod.families.family.Binomial'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_estimate_x2_scale-804
+        return np.sum(resid / self.family.variance(mu)) / self.df_resid
+statsmodels.genmod.generalized_linear_model.GLM.family
+{'statsmodels.genmod.families.family.Poisson', 'statsmodels.genmod.families.family.Gaussian', 'statsmodels.genmod.families.family.Binomial'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_fit_irls-1187
+            mu = self.family.fitted(lin_pred)
+statsmodels.genmod.generalized_linear_model.GLM.family
+{'statsmodels.genmod.families.family.Poisson', 'statsmodels.genmod.families.family.Gaussian', 'statsmodels.genmod.families.family.Binomial'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-score_factor-513
+        score_factor /= self.family.variance(mu)
+statsmodels.genmod.generalized_linear_model.GLM.family
+{'statsmodels.genmod.families.family.Poisson', 'statsmodels.genmod.families.family.Gaussian', 'statsmodels.genmod.families.family.Binomial'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-hessian_factor-549
+                          self.family.variance(mu))
+statsmodels.genmod.generalized_linear_model.GLM.family
+{'statsmodels.genmod.families.family.Poisson', 'statsmodels.genmod.families.family.Gaussian', 'statsmodels.genmod.families.family.Binomial'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_update_history-747
+        history['deviance'].append(self.family.deviance(self.endog, mu,
+statsmodels.genmod.generalized_linear_model.GLM.family
+{'statsmodels.genmod.families.family.Poisson', 'statsmodels.genmod.families.family.Gaussian', 'statsmodels.genmod.families.family.Binomial'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-hessian_factor-548
+        eim_factor = 1 / (self.family.link.deriv(mu)**2 *
+statsmodels.genmod.generalized_linear_model.GLM.family
+{'statsmodels.genmod.families.family.Poisson', 'statsmodels.genmod.families.family.Gaussian', 'statsmodels.genmod.families.family.Binomial'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_fit_irls-1219
+            mu = self.family.fitted(lin_pred)
+statsmodels.genmod.generalized_linear_model.GLM.family
+{'statsmodels.genmod.families.family.Poisson', 'statsmodels.genmod.families.family.Gaussian', 'statsmodels.genmod.families.family.Binomial'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-score_factor-512
+        score_factor = (self.endog - mu) / self.family.link.deriv(mu)
+statsmodels.genmod.generalized_linear_model.GLM.family
+{'statsmodels.genmod.families.family.Poisson', 'statsmodels.genmod.families.family.Gaussian', 'statsmodels.genmod.families.family.Binomial'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_fit_irls-1211
+            wlsendog = (lin_pred + self.family.link.deriv(mu) * (self.endog-mu)
+statsmodels.genmod.generalized_linear_model.GLM.family
+{'statsmodels.genmod.families.family.Poisson', 'statsmodels.genmod.families.family.Gaussian', 'statsmodels.genmod.families.family.Binomial'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-loglike-436
+        expval = self.family.link.inverse(lin_pred)
+statsmodels.genmod.generalized_linear_model.GLM.family
+{'statsmodels.genmod.families.family.Poisson', 'statsmodels.genmod.families.family.Gaussian', 'statsmodels.genmod.families.family.Binomial'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-predict-906
+            return self.family.fitted(linpred)
+statsmodels.genmod.generalized_linear_model.GLMResults.family
+{'statsmodels.genmod.families.family.Poisson', 'statsmodels.genmod.families.family.Gaussian', 'statsmodels.genmod.families.family.Binomial'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-resid_pearson-1569
+                np.sqrt(self.family.variance(self.mu)))
+statsmodels.genmod.generalized_linear_model.GLMResults.mle_settings
+{'builtins.dict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_fit_irls-1245
+        glm_results.mle_settings['optimizer'] = glm_results.method
+statsmodels.genmod.generalized_linear_model.GLMResults.mle_settings
+{'builtins.dict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/genmod/generalized_linear_model.py-_fit_irls-1244
+        glm_results.mle_settings['wls_method'] = wls_method
+statsmodels.genmod.generalized_linear_model.GLMResults.mle_settings
+{'missing', 'builtins.dict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-cov_params-1491
+                self.mle_settings['optimizer'] in ['l1', 'l1_cvxopt_cp']):
+statsmodels.stats.outliers_influence.GLMInfluence.scale
+{'builtins.float', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/outliers_influence.py-resid_studentized-1238
+        return self.resid / np.sqrt(self.scale * (1 - hii))
+statsmodels.stats.mediation.Mediation.outcome_model
+{'statsmodels.regression.mixed_linear_model.MixedLM', 'statsmodels.genmod.generalized_linear_model.GLM', 'statsmodels.duration.hazard_regression.PHReg'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/mediation.py-_get_outcome_exog-244
+            klass = self.outcome_model.__class__
+statsmodels.stats.mediation.Mediation.outcome_model
+{'statsmodels.regression.mixed_linear_model.MixedLM', 'statsmodels.genmod.generalized_linear_model.GLM', 'statsmodels.duration.hazard_regression.PHReg'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/mediation.py-fit-322
+                    po = self.outcome_model.predict(outcome_params, oex,
+statsmodels.stats.mediation.Mediation.outcome_model
+{'statsmodels.regression.mixed_linear_model.MixedLM', 'statsmodels.genmod.generalized_linear_model.GLM', 'statsmodels.duration.hazard_regression.PHReg'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/mediation.py-_get_outcome_exog-245
+            init_kwargs = self.outcome_model._get_init_kwds()
+statsmodels.stats.mediation.Mediation.outcome_model
+{'statsmodels.regression.mixed_linear_model.MixedLM', 'statsmodels.genmod.generalized_linear_model.GLM', 'statsmodels.duration.hazard_regression.PHReg'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/mediation.py-_get_outcome_exog-238
+            df = self.outcome_model.data.frame.copy()
+statsmodels.stats.mediation.Mediation.mediator_model
+{'statsmodels.regression.linear_model.OLS', 'statsmodels.regression.mixed_linear_model.MixedLM', 'statsmodels.duration.hazard_regression.PHReg'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/mediation.py-fit-316
+                gen = self.mediator_model.get_distribution(mediation_params,
+statsmodels.stats.mediation.Mediation.mediator_model
+{'statsmodels.regression.linear_model.OLS', 'statsmodels.regression.mixed_linear_model.MixedLM', 'statsmodels.duration.hazard_regression.PHReg'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/mediation.py-_get_mediator_exog-216
+            init_kwargs = self.mediator_model._get_init_kwds()
+statsmodels.stats.mediation.Mediation.mediator_model
+{'statsmodels.regression.linear_model.OLS', 'statsmodels.regression.mixed_linear_model.MixedLM', 'statsmodels.duration.hazard_regression.PHReg'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/mediation.py-_get_mediator_exog-215
+            klass = self.mediator_model.__class__
+statsmodels.stats.mediation.Mediation.mediator_model
+{'statsmodels.regression.linear_model.OLS', 'statsmodels.regression.mixed_linear_model.MixedLM', 'statsmodels.duration.hazard_regression.PHReg'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/mediation.py-_get_mediator_exog-210
+            df = self.mediator_model.data.frame.copy()
+statsmodels.regression.mixed_linear_model.MixedLM.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-__init__-759
+            self.data.exog_re_names_full = names
+statsmodels.regression.mixed_linear_model.MixedLM.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-__init__-758
+            self.data.exog_re_names = names
+statsmodels.regression.mixed_linear_model.MixedLM.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-__init__-755
+            self.data.exog_re = self.exog_re
+statsmodels.regression.mixed_linear_model.MixedLM.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-__init__-780
+        if not self.data._param_names:
+statsmodels.regression.mixed_linear_model.MixedLM.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-__init__-757
+            self.data.param_names = self.exog_names + names
+statsmodels.regression.mixed_linear_model.MixedLM.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-__init__-96
+        self.endog = self.data.endog
+statsmodels.regression.mixed_linear_model.MixedLM.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-__init__-786
+            self.data.exog_re_names = exog_re_names
+statsmodels.regression.mixed_linear_model.MixedLM.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-__init__-787
+            self.data.exog_re_names_full = exog_re_names_full
+statsmodels.regression.mixed_linear_model.MixedLM.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-from_formula-1055
+        mod.data.exog_re_names = exog_re_names
+statsmodels.regression.mixed_linear_model.MixedLM.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-__init__-785
+            self.data.param_names = param_names
+statsmodels.regression.mixed_linear_model.MixedLM.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-exog_names-244
+        return self.data.xnames
+statsmodels.regression.mixed_linear_model.MixedLM.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-from_formula-1054
+        mod.data.param_names = param_names
+statsmodels.regression.mixed_linear_model.MixedLM.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-__init__-765
+            self.data.exog_re = exog_re
+statsmodels.regression.mixed_linear_model.MixedLM.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-__init__-94
+        self.k_constant = self.data.k_constant
+statsmodels.regression.mixed_linear_model.MixedLM.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-from_formula-1056
+        mod.data.exog_re_names_full = exog_re_names_full
+statsmodels.regression.mixed_linear_model.MixedLM.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-__init__-95
+        self.exog = self.data.exog
+statsmodels.regression.mixed_linear_model.MixedLM._endex_li
+{'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-get_fe_params-1339
+            u = solver(self._endex_li[group_ix])
+statsmodels.regression.mixed_linear_model.MixedLM._endex_li
+{'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/regression/mixed_linear_model.py-get_fe_params-1320
+                self._endex_li.append(mat)
+statsmodels.duration.hazard_regression.PHReg.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-__init__-95
+        self.exog = self.data.exog
+statsmodels.duration.hazard_regression.PHReg.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-__init__-94
+        self.k_constant = self.data.k_constant
+statsmodels.duration.hazard_regression.PHReg.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-exog_names-244
+        return self.data.xnames
+statsmodels.duration.hazard_regression.PHReg.data
+{'statsmodels.base.data.ModelData', 'statsmodels.base.data.PandasData'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/base/model.py-__init__-96
+        self.endog = self.data.endog
+statsmodels.stats.nonparametric.RankCompareResult.var
+{'numpy.numpy.ndarray', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/nonparametric.py-test_prob_superior-158
+        std_diff = np.sqrt(self.var / self.nobs)
+statsmodels.stats.nonparametric.RankCompareResult.var
+{'numpy.numpy.ndarray', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/nonparametric.py-conf_int-116
+        std_diff = np.sqrt(self.var / self.nobs)
+statsmodels.stats.nonparametric.RankCompareResult.nobs
+{'numpy.numpy.int64', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/nonparametric.py-test_prob_superior-158
+        std_diff = np.sqrt(self.var / self.nobs)
+statsmodels.stats.nonparametric.RankCompareResult.nobs
+{'numpy.numpy.int64', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/nonparametric.py-conf_int-116
+        std_diff = np.sqrt(self.var / self.nobs)
+statsmodels.stats.nonparametric.RankCompareResult.prob1
+{'numpy.numpy.ndarray', 'numpy.numpy.float64'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/nonparametric.py-conf_int-115
+        diff = self.prob1 - p0
+statsmodels.stats.oaxaca.OaxacaBlinder._t_model
+{'statsmodels.regression.linear_model.RegressionResultsWrapper'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/oaxaca.py-two_fold-442
+            self.t_params = self._t_model.params
+statsmodels.stats.oaxaca.OaxacaBlinder._t_model
+{'statsmodels.regression.linear_model.RegressionResultsWrapper'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/oaxaca.py-two_fold-448
+            self.t_params = np.delete(self._t_model.params, self.bifurcate)
+statsmodels.stats.oaxaca.OaxacaBlinder.t_params
+{'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/oaxaca.py-two_fold-451
+            self.exog_f_mean @ (self._f_model.params - self.t_params)
+statsmodels.stats.oaxaca.OaxacaBlinder.t_params
+{'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/oaxaca.py-two_fold-452
+        ) + (self.exog_s_mean @ (self.t_params - self._s_model.params))
+statsmodels.stats.power.FTestAnovaPower._counter
+{'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/power.py-func-355
+            if self._counter > 500:
+statsmodels.sandbox.stats.multicomp.MultiComparison.groupstats
+{'statsmodels.sandbox.stats.multicomp.GroupsStats'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/sandbox/stats/multicomp.py-tukeyhsd-993
+        var_ = np.var(self.groupstats.groupdemean(), ddof=len(gmeans))
+statsmodels.sandbox.stats.multicomp.MultiComparison.groupstats
+{'statsmodels.sandbox.stats.multicomp.GroupsStats'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/sandbox/stats/multicomp.py-tukeyhsd-989
+        gmeans = self.groupstats.groupmean
+statsmodels.sandbox.stats.multicomp.MultiComparison.groupstats
+{'statsmodels.sandbox.stats.multicomp.GroupsStats'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/sandbox/stats/multicomp.py-tukeyhsd-990
+        gnobs = self.groupstats.groupnobs
+statsmodels.stats.power.GofChisquarePower._counter
+{'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/power.py-func-355
+            if self._counter > 500:
+statsmodels.stats.power.FTestPower._counter
+{'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/power.py-func-355
+            if self._counter > 500:

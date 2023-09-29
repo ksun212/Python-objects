@@ -1,0 +1,72 @@
+-------case--------snorkel.analysis.scorer.Scorer.abstain_label
+{'builtins.NoneType', 'builtins.int'}
+
+
+-------case--------snorkel.labeling.lf.core.labeling_function.name
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/lf/core.py-__call__-140
+
+
+-------case--------snorkel.labeling.lf.core.labeling_function.resources
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/lf/core.py-__call__-141
+
+
+-------case--------snorkel.labeling.lf.core.labeling_function.pre
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/lf/core.py-__call__-141
+
+
+-------case--------snorkel.map.core.lambda_mapper.pre
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/map/core.py-__call__-388
+
+
+-------case--------snorkel.map.core.lambda_mapper.memoize_key
+{'builtins.function', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/map/core.py-__call__-390
+
+
+-------case--------snorkel.slicing.sf.core.slicing_function.resources
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/slicing/sf/core.py-__call__-73
+
+
+-------case--------snorkel.slicing.sf.core.slicing_function.pre
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/slicing/sf/core.py-__call__-73
+
+
+-------case--------snorkel.classification.training.loggers.log_manager.LogManager.epoch_count
+{'builtins.int', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/loggers/log_manager.py-update-103
+
+
+-------case--------snorkel.classification.training.loggers.log_manager.LogManager.unit_total
+{'builtins.int', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_checkpoint_model-481
+
+
+-------case--------snorkel.classification.training.loggers.tensorboard_writer.TensorBoardWriter.run_name
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/loggers/log_writer.py-__init__-50
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/loggers/log_writer.py-__init__-55
+
+
+-------case--------snorkel.classification.training.loggers.log_writer.LogWriter.run_name
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/loggers/log_writer.py-__init__-50
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/loggers/log_writer.py-__init__-55
+
+
+-------case--------snorkel.labeling.analysis.LFAnalysis._lf_names
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/analysis.py-lf_summary-344
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/analysis.py-lf_summary-346
+
+
+-------case--------snorkel.labeling.lf.nlp.nlp_labeling_function.pre
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/lf/nlp.py-__call__-231
+
+

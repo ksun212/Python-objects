@@ -1,0 +1,4 @@
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py-generate_from_frequencies-475
+wordcloud.wordcloud.WordCloud.words_
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py-generate_from_frequencies-551
+wordcloud.wordcloud.WordCloud.layout_

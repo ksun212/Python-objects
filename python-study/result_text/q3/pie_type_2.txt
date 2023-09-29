@@ -1,0 +1,5 @@
+ln	64
+others	3
+t1stru2	13
+rn	1
+t1simt2	1

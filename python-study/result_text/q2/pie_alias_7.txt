@@ -1,0 +1,6 @@
+method	533
+function	61
+explicit	173
+non_local	91
+local	162
+complex	82

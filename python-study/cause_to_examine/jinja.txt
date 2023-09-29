@@ -1,0 +1,16 @@
+jinja2.nodes.Filter.node
+{'jinja2.nodes.Dict', 'jinja2.nodes.Getattr', 'jinja2.nodes.Neg', 'jinja2.nodes.List', 'jinja2.nodes.Call', 'jinja2.nodes.Const', 'builtins.NoneType', 'jinja2.nodes.Name', 'jinja2.nodes.Filter'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-772
+        args.insert(0, self.node.as_const(eval_ctx))
+jinja2.nodes.Macro.name
+{'missing', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Macro-1321
+            if not node.name.startswith("_"):
+jinja2.nodes.Import.target
+{'missing', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Import-1104
+        if frame.toplevel and not node.target.startswith("_"):
+jinja2.loaders.PackageLoader._loader
+{'_frozen_importlib_external.SourceFileLoader', 'zipimport.zipimporter'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/loaders.py-list_templates-395
+            for name in self._loader._files.keys():  # type: ignore

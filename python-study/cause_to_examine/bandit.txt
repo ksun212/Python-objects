@@ -1,0 +1,92 @@
+bandit.core.metrics.Metrics.current
+{'missing', 'builtins.dict'}
+ /home/user/bandit/bandit/core/metrics.py-count_locs-75
+        self.current["loc"] += sum(proc(line) for line in lines)
+bandit.core.issue.Issue.severity
+{'builtins.int', 'builtins.str'}
+ /home/user/bandit/bandit/formatters/text.py-_output_issue_str-92
+            issue.severity.capitalize(),
+bandit.core.issue.Issue.severity
+{'builtins.int', 'builtins.str'}
+ /home/user/bandit/bandit/formatters/screen.py-_output_issue_str-124
+            issue.severity.capitalize(),
+bandit.core.issue.Issue.severity
+{'builtins.int', 'builtins.str'}
+ /home/user/bandit/tests/unit/formatters/test_text.py-_template-36
+                    _issue.severity.capitalize(),
+bandit.core.issue.Issue.severity
+{'builtins.int', 'builtins.str'}
+ /home/user/bandit/tests/unit/formatters/test_screen.py-_template-40
+                    _issue.severity.capitalize(),
+bandit.core.issue.Issue.severity
+{'builtins.int', 'builtins.str'}
+ /home/user/bandit/bandit/formatters/html.py-report-363
+            issue_class=f"issue-sev-{issue.severity.lower()}",
+bandit.core.issue.Issue.lineno
+{'builtins.int', 'builtins.str', 'builtins.NoneType'}
+ /home/user/bandit/bandit/core/issue.py-get_code-176
+        lmin = max(1, self.lineno - max_lines // 2)
+bandit.core.context.Context._context
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-call_keywords-91
+            for li in self._context["call"].keywords:
+bandit.core.context.Context._context
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-is_module_imported_like-309
+            for imp in self._context["imports"]:
+bandit.core.context.Context._context
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-statement-153
+        return self._context.get("statement")
+bandit.core.context.Context._context
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-function_def_defaults_qual-170
+                        default, self._context["import_aliases"]
+bandit.core.context.Context._context
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-call_function_name_qual-79
+        return self._context.get("qualname")
+bandit.core.context.Context._context
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-call_function_name-71
+        return self._context.get("name")
+bandit.core.context.Context._context
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-is_module_imported_exact-298
+        return module in self._context.get("imports", [])
+bandit.core.context.Context._context
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-call_keywords-88
+            self._context["call"], "keywords"
+bandit.core.context.Context._context
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-is_module_being_imported-290
+        return self._context.get("module") == module
+bandit.core.context.Context._context
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-call_args_count-61
+            return len(self._context["call"].args)
+bandit.core.context.Context._context
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-string_val-114
+        return self._context.get("str")
+bandit.core.context.Context._context
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-filename-316
+        return self._context.get("filename")
+bandit.core.context.Context._context
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-node-106
+        return self._context.get("node")
+bandit.core.context.Context._context
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-get_call_arg_at_position-279
+            arg = self._context["call"].args[position_num]
+bandit.core.context.Context._context
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-function_def_defaults_qual-167
+            for default in self._context["node"].args.defaults:
+bandit.core.context.Context._context
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-call_args-47
+            for arg in self._context["call"].args:

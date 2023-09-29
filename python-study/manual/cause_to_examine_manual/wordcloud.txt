@@ -1,0 +1,18 @@
+wordcloud.wordcloud.WordCloud.mask
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py-to_image-651
+            height = self.mask.shape[0]
+wordcloud.wordcloud.WordCloud.mask
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py-to_image-650
+            width = self.mask.shape[1]
+wordcloud.wordcloud.WordCloud.mask
+{'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py-generate_from_frequencies-428
+            height = self.mask.shape[0]
+wordcloud.wordcloud.WordCloud.mask
+{'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py-generate_from_frequencies-427
+            width = self.mask.shape[1]
+check: 1
+safe: 1

@@ -1,0 +1,2 @@
+{"local": 1, "method": 2, "function": 8}
+{"ln": 13}

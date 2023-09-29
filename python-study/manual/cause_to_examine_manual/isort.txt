@@ -1,0 +1,22 @@
+isort.io.File.stream
+{'_io._io.StringIO', '_io._io.TextIOWrapper'}
+ /home/user/isort-main/tests/unit/test_io.py-test_read-20
+                file_handler.stream.read()
+isort.format.BasicPrinter.output
+{'_io._io.StringIO', '_pytest.capture.EncodedFile', '_pytest.capture.CaptureIO', '_io._io.TextIOWrapper'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/format.py-diff_line-109
+        self.output.write(line)
+isort.deprecated.finders.RequirementsFinder.mapping
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/deprecated/finders.py-_normalize_name-271
+            name = self.mapping.get(name.replace("-", "_"), name)
+isort.format.ColoramaPrinter.output
+{'_io._io.StringIO', '_pytest.capture.CaptureIO'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/format.py-diff_line-135
+        self.output.write(self.style_text(line, style))
+isort.setuptools_commands.ISortCommand.arguments
+{'builtins.dict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/setuptools_commands.py-finalize_options-29
+        self.arguments["settings_path"] = os.getcwd()
+check: 5
+safe: 5

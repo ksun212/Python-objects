@@ -1,0 +1,1 @@
+["requests.sessions.Session", "requests.models.Response", "requests.models.PreparedRequest", "requests.adapters.HTTPAdapter", "requests.models.Request"]

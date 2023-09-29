@@ -1,0 +1,31 @@
+nltk.downloader.Downloader._index
+{'nltk.internals.ElementWrapper'}
+ /home/user/nltk/nltk/downloader.py-_update_index-962
+            Collection.fromxml(c) for c in self._index.findall("collections/collection")
+nltk.downloader.Downloader._index
+{'nltk.internals.ElementWrapper'}
+ /home/user/nltk/nltk/downloader.py-_update_index-957
+        packages = [Package.fromxml(p) for p in self._index.findall("packages/package")]
+nltk.downloader.Downloader._index_timestamp
+{'builtins.float'}
+ /home/user/nltk/nltk/downloader.py-_update_index-943
+            or time.time() - self._index_timestamp > self.INDEX_TIMEOUT
+nltk.ccg.combinator.ForwardCombinator._combinator
+{'nltk.ccg.combinator.UndirectedTypeRaise', 'nltk.ccg.combinator.UndirectedSubstitution', 'nltk.ccg.combinator.UndirectedFunctionApplication', 'nltk.ccg.combinator.UndirectedComposition'}
+ /home/user/nltk/nltk/ccg/combinator.py-can_combine-68
+        return self._combinator.can_combine(left, right) and self._predicate(
+nltk.ccg.combinator.ForwardCombinator._combinator
+{'nltk.ccg.combinator.UndirectedTypeRaise', 'nltk.ccg.combinator.UndirectedSubstitution', 'nltk.ccg.combinator.UndirectedFunctionApplication', 'nltk.ccg.combinator.UndirectedComposition'}
+ /home/user/nltk/nltk/ccg/combinator.py-combine-73
+        yield from self._combinator.combine(left, right)
+nltk.ccg.combinator.BackwardCombinator._combinator
+{'nltk.ccg.combinator.UndirectedTypeRaise', 'nltk.ccg.combinator.UndirectedSubstitution', 'nltk.ccg.combinator.UndirectedFunctionApplication', 'nltk.ccg.combinator.UndirectedComposition'}
+ /home/user/nltk/nltk/ccg/combinator.py-combine-95
+        yield from self._combinator.combine(right, left)
+nltk.ccg.combinator.BackwardCombinator._combinator
+{'nltk.ccg.combinator.UndirectedTypeRaise', 'nltk.ccg.combinator.UndirectedSubstitution', 'nltk.ccg.combinator.UndirectedFunctionApplication', 'nltk.ccg.combinator.UndirectedComposition'}
+ /home/user/nltk/nltk/ccg/combinator.py-can_combine-90
+        return self._combinator.can_combine(right, left) and self._predicate(
+
+check: 3
+safe: 3

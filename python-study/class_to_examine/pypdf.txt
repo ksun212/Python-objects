@@ -1,0 +1,70 @@
+-------case--------pypdf._encryption.Encryption.id1_entry
+{'builtins.bytes', 'pypdf.generic._base.ByteStringObject'}
+ /home/user/pypdf/pypdf/_encryption.py-verify_v4-1042
+ /home/user/pypdf/pypdf/_encryption.py-verify_v4-1030
+
+
+-------case--------pypdf._encryption.Encryption.StmF
+{'builtins.str', 'pypdf.generic._base.NameObject'}
+ /home/user/pypdf/pypdf/_encryption.py-decrypt_object-977
+
+
+-------case--------pypdf._encryption.Encryption.StrF
+{'builtins.str', 'pypdf.generic._base.NameObject'}
+ /home/user/pypdf/pypdf/_encryption.py-decrypt_object-978
+
+
+-------case--------pypdf._encryption.Encryption.EFF
+{'builtins.str', 'pypdf.generic._base.NameObject'}
+ /home/user/pypdf/pypdf/_encryption.py-decrypt_object-979
+
+
+-------case--------pypdf._encryption.Encryption._key
+{'builtins.bytes', 'builtins.NoneType'}
+ /home/user/pypdf/pypdf/_encryption.py-decrypt_object-965
+ /home/user/pypdf/pypdf/_encryption.py-decrypt_object-964
+
+
+-------case--------pypdf._encryption.CryptFilter.efCrypt
+{'pypdf._encryption.CryptRC4', 'pypdf._encryption.CryptAES'}
+
+
+-------case--------pypdf._merger.PdfMerger.fileobj
+{'pathlib.PosixPath', 'builtins.str'}
+ /home/user/pypdf/pypdf/_merger.py-__exit__-129
+ /home/user/pypdf/pypdf/_merger.py-__exit__-130
+
+
+-------case--------pypdf._writer.PdfWriter.fileobj
+{'pathlib.PosixPath', 'builtins.str'}
+ /home/user/pypdf/pypdf/_writer.py-__exit__-214
+ /home/user/pypdf/pypdf/_writer.py-__exit__-215
+
+
+-------case--------pypdf._writer.PdfWriter._ID
+{'pypdf.generic._data_structures.ArrayObject', 'missing'}
+ /home/user/pypdf/pypdf/_writer.py-_write_trailer-1205
+
+
+-------case--------pypdf._writer.PdfWriter._encrypt
+{'pypdf.generic._base.IndirectObject', 'missing'}
+ /home/user/pypdf/pypdf/_writer.py-_write_header-1174
+ /home/user/pypdf/pypdf/_writer.py-_write_trailer-1207
+
+
+-------case--------pypdf._merger._MergedPage.out_pagedata
+{'builtins.NoneType', 'pypdf.generic._base.IndirectObject'}
+ /home/user/pypdf/pypdf/_merger.py-_write_dests-528
+
+
+-------case--------pypdf.filters.CCITParameters.columns
+{'pypdf.generic._base.NumberObject', 'builtins.int'}
+ /home/user/pypdf/pypdf/filters.py-decode-501
+
+
+-------case--------pypdf.filters.CCITParameters.rows
+{'pypdf.generic._base.NumberObject', 'builtins.int'}
+ /home/user/pypdf/pypdf/filters.py-decode-527
+ /home/user/pypdf/pypdf/filters.py-decode-505
+
+

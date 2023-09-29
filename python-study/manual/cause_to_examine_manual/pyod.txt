@@ -1,0 +1,76 @@
+pyod.models.vae.VAE.n_features_
+{'builtins.int'}
+ /home/user/pyod/pyod/models/vae.py-fit-333
+        if np.min(self.encoder_neurons) > self.n_features_:
+pyod.models.vae.VAE.scaler_
+{'sklearn.preprocessing._data.StandardScaler'}
+ /home/user/pyod/pyod/models/vae.py-fit-348
+            X_norm = self.scaler_.transform(X)
+pyod.models.vae.VAE.scaler_
+{'sklearn.preprocessing._data.StandardScaler'}
+ /home/user/pyod/pyod/models/vae.py-fit-324
+            X_norm = self.scaler_.fit_transform(X)
+pyod.models.vae.VAE.model_
+{'keras.engine.functional.Functional'}
+ /home/user/pyod/pyod/models/vae.py-fit-352
+        pred_scores = self.model_.predict(X_norm)
+pyod.models.vae.VAE.model_
+{'keras.engine.functional.Functional'}
+ /home/user/pyod/pyod/models/vae.py-fit-339
+        self.history_ = self.model_.fit(X_norm,
+pyod.models.vae.VAE.threshold_
+{'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-_process_decision_scores-449
+            self.labels_ = (self.decision_scores_ > self.threshold_).astype(
+pyod.models.kpca.KPCA.decision_scores_
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+ /home/user/pyod/pyod/models/base.py-_process_decision_scores-449
+            self.labels_ = (self.decision_scores_ > self.threshold_).astype(
+pyod.models.kpca.KPCA.decision_scores_
+{'numpy.numpy.ndarray', 'builtins.NoneType'}
+ /home/user/pyod/pyod/models/base.py-<lambda>-279
+            lambda x: np.count_nonzero(self.decision_scores_ <= x))
+pyod.models.kpca.KPCA.threshold_
+{'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-_process_decision_scores-449
+            self.labels_ = (self.decision_scores_ > self.threshold_).astype(
+pyod.models.knn.KNN.threshold_
+{'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-_process_decision_scores-449
+            self.labels_ = (self.decision_scores_ > self.threshold_).astype(
+pyod.models.auto_encoder.AutoEncoder.n_features_
+{'builtins.int'}
+ /home/user/pyod/pyod/models/auto_encoder.py-fit-234
+        if np.min(self.hidden_neurons) > self.n_features_:
+pyod.models.auto_encoder.AutoEncoder.n_features_
+{'builtins.int'}
+ /home/user/pyod/pyod/models/auto_encoder.py-fit-241
+        self.compression_rate_ = self.n_features_ // self.encoding_dim_
+pyod.models.auto_encoder.AutoEncoder.scaler_
+{'sklearn.preprocessing._data.StandardScaler'}
+ /home/user/pyod/pyod/models/auto_encoder.py-fit-256
+            X_norm = self.scaler_.transform(X)
+pyod.models.auto_encoder.AutoEncoder.scaler_
+{'sklearn.preprocessing._data.StandardScaler'}
+ /home/user/pyod/pyod/models/auto_encoder.py-fit-225
+            X_norm = self.scaler_.fit_transform(X)
+pyod.models.auto_encoder.AutoEncoder.encoding_dim_
+{'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/auto_encoder.py-fit-241
+        self.compression_rate_ = self.n_features_ // self.encoding_dim_
+pyod.models.auto_encoder.AutoEncoder.model_
+{'keras.engine.sequential.Sequential'}
+ /home/user/pyod/pyod/models/auto_encoder.py-fit-260
+        pred_scores = self.model_.predict(X_norm)
+pyod.models.auto_encoder.AutoEncoder.model_
+{'keras.engine.sequential.Sequential'}
+ /home/user/pyod/pyod/models/auto_encoder.py-fit-245
+        self.history_ = self.model_.fit(X_norm, X_norm,
+pyod.models.auto_encoder.AutoEncoder.threshold_
+{'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-_process_decision_scores-449
+            self.labels_ = (self.decision_scores_ > self.threshold_).astype(
+
+
+check: 11
+safe: 11

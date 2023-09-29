@@ -1,0 +1,7 @@
+pypdf._reader.PdfReader.flattened_pages
+{'builtins.list'}
+ /home/user/pypdf/pypdf/_reader.py-_flatten-1213
+            self.flattened_pages.append(page_obj)  # type: ignore
+
+check: 1
+safe: 1

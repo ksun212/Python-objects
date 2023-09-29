@@ -1,0 +1,83 @@
+kornia.augmentation.random_generator._2d.crop.CropGenerator.resize_to
+{'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-111
+                and self.resize_to[1] > 0
+kornia.augmentation.random_generator._2d.crop.CropGenerator.resize_to
+{'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-120
+                        [0, self.resize_to[0] - 1],
+kornia.augmentation.random_generator._2d.crop.CropGenerator.resize_to
+{'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-110
+                and self.resize_to[0] > 0
+kornia.augmentation.random_generator._2d.crop.CropGenerator.resize_to
+{'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-108
+                and isinstance(self.resize_to[0], (int,))
+kornia.augmentation.random_generator._2d.crop.CropGenerator.resize_to
+{'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-109
+                and isinstance(self.resize_to[1], (int,))
+kornia.augmentation.random_generator._2d.crop.CropGenerator.resize_to
+{'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-107
+                len(self.resize_to) == 2
+kornia.augmentation.random_generator._2d.crop.CropGenerator.resize_to
+{'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/crop.py-forward-118
+                        [self.resize_to[1] - 1, 0],
+kornia.augmentation.random_generator._2d.motion_blur.MotionBlurGenerator.kernel_size
+{'builtins.tuple', 'builtins.int'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/motion_blur.py-make_samplers-66
+            if len(self.kernel_size) != 2:
+kornia.augmentation.random_generator._3d.crop.CropGenerator3D.resize_to
+{'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/crop.py-forward-113
+                and self.resize_to[0] > 0
+kornia.augmentation.random_generator._3d.crop.CropGenerator3D.resize_to
+{'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/crop.py-forward-125
+                        [0, 0, self.resize_to[-3] - 1],
+kornia.augmentation.random_generator._3d.crop.CropGenerator3D.resize_to
+{'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/crop.py-forward-122
+                        [self.resize_to[-1] - 1, 0, 0],
+kornia.augmentation.random_generator._3d.crop.CropGenerator3D.resize_to
+{'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/crop.py-forward-109
+                len(self.resize_to) == 3
+kornia.augmentation.random_generator._3d.crop.CropGenerator3D.resize_to
+{'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/crop.py-forward-111
+                and isinstance(self.resize_to[1], (int,))
+kornia.augmentation.random_generator._3d.crop.CropGenerator3D.resize_to
+{'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/crop.py-forward-112
+                and isinstance(self.resize_to[2], (int,))
+kornia.augmentation.random_generator._3d.crop.CropGenerator3D.resize_to
+{'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/crop.py-forward-114
+                and self.resize_to[1] > 0
+kornia.augmentation.random_generator._3d.crop.CropGenerator3D.resize_to
+{'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/crop.py-forward-115
+                and self.resize_to[2] > 0
+kornia.augmentation.random_generator._3d.crop.CropGenerator3D.resize_to
+{'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/crop.py-forward-110
+                and isinstance(self.resize_to[0], (int,))
+kornia.augmentation.random_generator._3d.crop.CropGenerator3D.resize_to
+{'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/crop.py-forward-124
+                        [0, self.resize_to[-2] - 1, 0],
+kornia.augmentation.random_generator._3d.motion_blur.MotionBlurGenerator3D.kernel_size
+{'builtins.tuple', 'builtins.int'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/motion_blur.py-make_samplers-69
+            if len(self.kernel_size) != 2:
+kornia.x.callbacks.EarlyStopping.best_score
+{'builtins.int'}
+ /home/user/kornia/kornia/x/callbacks.py-__call__-54
+        elif score < self.best_score + self.min_delta:
+
+check: 3
+safe: 3

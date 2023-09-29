@@ -1,0 +1,33 @@
+-------case--------faker.proxy.Faker._weights
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/faker/proxy.py-__deepcopy__-128
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/faker/proxy.py-weights-266
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/faker/proxy.py-_map_provider_method-185
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/faker/proxy.py-_map_provider_method-188
+
+
+-------case--------faker.proxy.Faker._cached_name_mapping
+{'missing', 'builtins.tuple'}
+
+
+-------case--------faker.proxy.Faker._cached_luzon_province_mapping
+{'missing', 'builtins.tuple'}
+
+
+-------case--------faker.proxy.Faker._cached_zipcode_mapping
+{'missing', 'builtins.tuple'}
+
+
+-------case--------faker.proxy.Faker._cached_obviously_invalid_provider_method_a23f_mapping
+{'missing', 'builtins.tuple'}
+
+
+-------case--------faker.proxy.Faker._cached_first_name_mapping
+{'missing', 'builtins.tuple'}
+
+
+-------case--------faker.sphinx.validator.SampleCodeValidator._tree
+{'unittest.mock.MagicMock', 'ast.Expression', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/faker/sphinx/validator.py-_validate-95
+
+

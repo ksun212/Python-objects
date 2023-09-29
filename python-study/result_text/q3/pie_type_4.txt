@@ -1,0 +1,3 @@
+ln	12
+others	7
+rn	5

@@ -1,0 +1,1232 @@
+sphinx.util.display.progress_message.message
+{'builtins.str', 'sphinx.locale._TranslationProxy'}
+ /home/user/sphinx-master/sphinx/util/display.py-__enter__-61
+        logger.info(bold(self.message + '... '), nonl=True)
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build.py-test_root_doc_not_found-63
+        app.builder.build_all()  # no index.rst
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_text.py-test_table_with_colspan-148
+    app.builder.build_update()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_api_translator.py-test_html_with_set_translator_for_man-62
+    translator_class = app.builder.get_translator_class()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_builder.py-test_incremental_reading_for_missing_files-31
+    updated = app.builder.read()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_api_translator.py-test_pickle_set_translator_for_pickle-41
+    translator_class = app.builder.get_translator_class()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_epub.py-test_epub_assets-326
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build.py-test_image_glob-92
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/sphinx/ext/mathjax.py-install_mathjax-73
+        app.builder.format != 'html' or
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_text.py-test_secnums-255
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_texinfo.py-test_texinfo_xrefs-126
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_gettext.py-test_gettext_disable_index_entries-143
+    app.builder.build(['index_entries'])
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_text.py-test_table_with_rowspan-134
+    app.builder.build_update()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_text.py-test_maxwitdh_with_prefix-20
+    app.builder.build_update()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_text.py-test_table_with_empty_cell-120
+    app.builder.build_update()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_epub.py-test_epub_css_files-339
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_gettext.py-test_gettext_template_msgid_order_in_sphinxpot-183
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_manpage.py-test_all-11
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_config.py-test_nitpick_ignore-339
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_manpage.py-test_man_pages_empty_description-36
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_text.py-test_lineblock-43
+    app.builder.build_update()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-validate_math_renderer-1259
+    if app.builder.format != 'html':
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_text.py-test_secnums-203
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/sphinx/application.py-build-392
+        self.builder.cleanup()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_builder.py-test_incremental_reading_for_missing_files-35
+    updated = app.builder.read()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_gettext.py-test_build_gettext-41
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_api_translator.py-test_html_with_set_translator_for_text-76
+    translator_class = app.builder.get_translator_class()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_config.py-test_nitpick_ignore_regex_fullmatch-378
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_api_translator.py-test_html_with_set_translator_for_texinfo-69
+    translator_class = app.builder.get_translator_class()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_application.py-test_build_specific-141
+    app.builder.build = Mock()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/sphinx/application.py-build-387
+            logger.info(self.builder.epilog % {
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_texinfo.py-test_texinfo_footnote-112
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_application.py-test_build_specific-153
+    app.builder.build.assert_called_with(expected,
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/sphinx/application.py-_init_builder-340
+        self.builder.init()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_builder.py-test_incremental_reading-21
+    updated = app.builder.read()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_config.py-test_nitpick_ignore_regex2-361
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build.py-test_numbered_circular_toctree-80
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_text.py-test_nonascii_title_line-58
+    app.builder.build_update()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/sphinx/builders/epub3.py-validate_config_values-196
+    if app.builder.name != 'epub':
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_texinfo.py-test_texinfo_xrefs-120
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_gettext.py-test_gettext_index_entries-93
+    app.builder.build(['index_entries'])
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_api_translator.py-test_html_translator-19
+    translator_class = app.builder.get_translator_class()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_texinfo.py-test_texinfo_citation-73
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_gettext.py-test_build_single_pot-200
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_text.py-test_table_with_colspan_left-162
+    app.builder.build_update()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_config.py-test_nitpick_base-322
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_api_translator.py-test_html_with_set_translator_for_html_-27
+    translator_class = app.builder.get_translator_class()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_api_translator.py-test_html_with_set_translator_for_xml-83
+    translator_class = app.builder.get_translator_class()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_config.py-test_nitpick_ignore_regex1-350
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build.py-test_circular_toctree-68
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_text.py-test_table_with_colspan_and_rowspan-176
+    app.builder.build_update()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_api_translator.py-test_singlehtml_set_translator_for_singlehtml-34
+    translator_class = app.builder.get_translator_class()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_manpage.py-test_captioned_code_block-51
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_api_translator.py-test_html_with_set_translator_for_latex-55
+    translator_class = app.builder.get_translator_class()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_texinfo.py-test_texinfo_warnings-31
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_text.py-test_nonascii_table-67
+    app.builder.build_update()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_builder.py-test_incremental_reading-8
+    updated = app.builder.read()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_text.py-test_nonascii_maxwidth-76
+    app.builder.build_update()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_text.py-test_list_items_in_admonition-191
+    app.builder.build_update()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_api_translator.py-test_json_set_translator_for_json-48
+    translator_class = app.builder.get_translator_class()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_build_text.py-test_secnums-229
+    app.builder.build_all()
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/sphinx/application.py-build-385
+        if self.statuscode == 0 and self.builder.epilog:
+sphinx.testing.util.SphinxTestApp.builder
+{'sphinx.builders.xml.PseudoXMLBuilder', 'sphinx.builders.texinfo.TexinfoBuilder', 'sphinx.builders.latex.LaTeXBuilder', 'sphinx.builders.xml.XMLBuilder', 'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.text.TextBuilder', 'sphinxcontrib.serializinghtml.JSONHTMLBuilder', 'sphinx.builders.gettext.MessageCatalogBuilder', 'sphinx.builders.changes.ChangesBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinxcontrib.serializinghtml.PickleHTMLBuilder', 'sphinx.builders.manpage.ManualPageBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.linkcheck.CheckExternalLinksBuilder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder', 'sphinx.builders.dummy.DummyBuilder'}
+ /home/user/sphinx-master/tests/test_api_translator.py-test_html_with_set_translator_for_pseudoxml-90
+    translator_class = app.builder.get_translator_class()
+sphinx.domains.c.Symbol.parent
+{'sphinx.domains.c.Symbol', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/c.py-__init__-1582
+            self.parent._children.append(self)
+sphinx.domains.c.Symbol.declaration
+{'builtins.NoneType', 'sphinx.domains.c.ASTDeclaration'}
+ /home/user/sphinx-master/sphinx/domains/c.py-get_lookup_key-1681
+                key.append((s.ident, s.declaration.get_newest_id()))
+sphinx.domains.c.Symbol.declaration
+{'builtins.NoneType', 'sphinx.domains.c.ASTDeclaration'}
+ /home/user/sphinx-master/sphinx/domains/c.py-_add_function_params-1614
+            for p in self.declaration.function_params:
+sphinx.domains.c.Symbol.declaration
+{'builtins.NoneType', 'sphinx.domains.c.ASTDeclaration'}
+ /home/user/sphinx-master/sphinx/domains/c.py-__init__-1584
+            self.declaration.symbol = self
+sphinx.domains.cpp.Symbol.parent
+{'builtins.NoneType', 'sphinx.domains.cpp.Symbol'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-__init__-4267
+            self.parent._children.append(self)
+sphinx.domains.cpp.Symbol.templateParams
+{'sphinx.domains.cpp.ASTTemplateParams', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-_add_template_and_function_params-4299
+            for tp in self.templateParams.params:
+sphinx.domains.cpp.Symbol.declaration
+{'sphinx.domains.cpp.ASTDeclaration', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-__init__-4269
+            self.declaration.symbol = self
+sphinx.domains.cpp.Symbol.declaration
+{'sphinx.domains.cpp.ASTDeclaration', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-get_lookup_key-4379
+                key.append((nne, s.templateParams, s.declaration.get_newest_id()))
+sphinx.domains.cpp.Symbol.declaration
+{'sphinx.domains.cpp.ASTDeclaration'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-_resolve_xref_inner-8022
+        declTyp = s.declaration.objectType
+sphinx.domains.cpp.Symbol.declaration
+{'sphinx.domains.cpp.ASTDeclaration', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-_add_template_and_function_params-4312
+            for fp in self.declaration.function_params:
+sphinx.builders.html.StandaloneHTMLBuilder.finish_tasks
+{'sphinx.util.parallel.SerialTasks'}
+ /home/user/sphinx-master/sphinx/builders/__init__.py-build-383
+        self.finish_tasks.join()
+sphinx.builders.html.StandaloneHTMLBuilder.docsettings
+{'docutils.frontend.Values'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-prepare_writing-482
+        self.docsettings.compact_lists = bool(self.config.html_compact_lists)
+sphinx.builders.html.StandaloneHTMLBuilder.globalcontext
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-prepare_writing-572
+            self.globalcontext.update(
+sphinx.builders.html.StandaloneHTMLBuilder.globalcontext
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-prepare_writing-575
+        self.globalcontext.update(self.config.html_context)
+sphinx.writers.html.HTMLWriter.visitor
+{'builtins.ConfHTMLTranslator', 'sphinx.writers._html4.HTML4Translator', 'sphinx.writers.html5.HTML5Translator'}
+ /home/user/sphinx-master/sphinx/writers/html.py-translate-38
+        self.output = self.visitor.astext()
+sphinx.theming.Theme.base
+{'sphinx.theming.Theme', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/theming.py-get_options-112
+            options = self.base.get_options()
+sphinx.theming.Theme.base
+{'sphinx.theming.Theme', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/theming.py-cleanup-137
+            self.base.cleanup()
+sphinx.theming.Theme.base
+{'sphinx.theming.Theme', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/theming.py-get_theme_dirs-92
+            return [self.themedir] + self.base.get_theme_dirs()
+sphinx.jinja2glue.BuiltinTemplateLoader.environment
+{'jinja2.sandbox.SandboxedEnvironment'}
+ /home/user/sphinx-master/sphinx/jinja2glue.py-init-191
+        self.environment.globals['idgen'] = idgen
+sphinx.jinja2glue.BuiltinTemplateLoader.environment
+{'jinja2.sandbox.SandboxedEnvironment'}
+ /home/user/sphinx-master/sphinx/jinja2glue.py-init-186
+        self.environment.filters['todim'] = _todim
+sphinx.jinja2glue.BuiltinTemplateLoader.environment
+{'jinja2.sandbox.SandboxedEnvironment'}
+ /home/user/sphinx-master/sphinx/jinja2glue.py-init-187
+        self.environment.filters['slice_index'] = _slice_index
+sphinx.jinja2glue.BuiltinTemplateLoader.environment
+{'jinja2.sandbox.SandboxedEnvironment'}
+ /home/user/sphinx-master/sphinx/jinja2glue.py-init-188
+        self.environment.globals['debug'] = pass_context(pformat)
+sphinx.jinja2glue.BuiltinTemplateLoader.environment
+{'jinja2.sandbox.SandboxedEnvironment'}
+ /home/user/sphinx-master/sphinx/jinja2glue.py-init-184
+        self.environment.filters['tobool'] = _tobool
+sphinx.jinja2glue.BuiltinTemplateLoader.environment
+{'jinja2.sandbox.SandboxedEnvironment'}
+ /home/user/sphinx-master/sphinx/jinja2glue.py-init-193
+            self.environment.install_gettext_translations(builder.app.translator)
+sphinx.jinja2glue.BuiltinTemplateLoader.environment
+{'jinja2.sandbox.SandboxedEnvironment'}
+ /home/user/sphinx-master/sphinx/jinja2glue.py-init-189
+        self.environment.globals['warning'] = warning
+sphinx.jinja2glue.BuiltinTemplateLoader.environment
+{'jinja2.sandbox.SandboxedEnvironment'}
+ /home/user/sphinx-master/sphinx/jinja2glue.py-init-190
+        self.environment.globals['accesskey'] = pass_context(accesskey)
+sphinx.jinja2glue.BuiltinTemplateLoader.environment
+{'jinja2.sandbox.SandboxedEnvironment'}
+ /home/user/sphinx-master/sphinx/jinja2glue.py-init-185
+        self.environment.filters['toint'] = _toint
+sphinx.builders.singlehtml.SingleFileHTMLBuilder.finish_tasks
+{'sphinx.util.parallel.SerialTasks'}
+ /home/user/sphinx-master/sphinx/builders/__init__.py-build-383
+        self.finish_tasks.join()
+sphinx.builders.singlehtml.SingleFileHTMLBuilder.docsettings
+{'docutils.frontend.Values'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-prepare_writing-482
+        self.docsettings.compact_lists = bool(self.config.html_compact_lists)
+sphinx.builders.singlehtml.SingleFileHTMLBuilder.globalcontext
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-prepare_writing-575
+        self.globalcontext.update(self.config.html_context)
+sphinx.builders.singlehtml.SingleFileHTMLBuilder.globalcontext
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-prepare_writing-572
+            self.globalcontext.update(
+sphinx.builders.latex.LaTeXBuilder.babel
+{'sphinx.builders.latex.util.ExtBabel'}
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-init_babel-203
+        if not self.babel.is_supported_language():
+sphinx.builders.latex.LaTeXBuilder.context
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-init_context-173
+        self.context['release'] = self.config.release
+sphinx.builders.latex.LaTeXBuilder.context
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-init_context-169
+        self.context.update(ADDITIONAL_SETTINGS.get(key, {}))
+sphinx.builders.latex.LaTeXBuilder.context
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-init_context-172
+        self.context.update(self.config.latex_elements)
+sphinx.builders.latex.LaTeXBuilder.context
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-init_context-182
+            self.context['date'] = format_date(self.config.today_fmt or _('%b %d, %Y'),
+sphinx.builders.latex.LaTeXBuilder.context
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-init_context-175
+        self.context['booktabs'] = 'booktabs' in self.config.latex_table_style
+sphinx.builders.latex.LaTeXBuilder.context
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-init_context-189
+        self.context['indexname'] = _('Index')
+sphinx.builders.latex.LaTeXBuilder.context
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-init_context-174
+        self.context['use_xindy'] = self.config.latex_use_xindy
+sphinx.builders.latex.LaTeXBuilder.context
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-init_context-177
+        self.context['colorrows'] = 'colorrows' in self.config.latex_table_style
+sphinx.builders.latex.LaTeXBuilder.context
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-init_context-165
+        self.context.update(ADDITIONAL_SETTINGS.get(self.config.latex_engine, {}))
+sphinx.builders.latex.LaTeXBuilder.context
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-init_context-176
+        self.context['borderless'] = 'borderless' in self.config.latex_table_style
+sphinx.builders.manpage.ManualPageBuilder.finish_tasks
+{'sphinx.util.parallel.SerialTasks'}
+ /home/user/sphinx-master/sphinx/builders/__init__.py-build-383
+        self.finish_tasks.join()
+sphinx.builders.texinfo.TexinfoBuilder.finish_tasks
+{'sphinx.util.parallel.SerialTasks'}
+ /home/user/sphinx-master/sphinx/builders/__init__.py-build-383
+        self.finish_tasks.join()
+sphinx.builders.texinfo.TexinfoBuilder.titles
+{'builtins.list'}
+ /home/user/sphinx-master/sphinx/builders/texinfo.py-init_document_data-84
+            self.titles.append((docname, entry[2]))
+sphinx.builders.text.TextBuilder.finish_tasks
+{'sphinx.util.parallel.SerialTasks'}
+ /home/user/sphinx-master/sphinx/builders/__init__.py-build-383
+        self.finish_tasks.join()
+sphinx.builders.xml.XMLBuilder.finish_tasks
+{'sphinx.util.parallel.SerialTasks'}
+ /home/user/sphinx-master/sphinx/builders/__init__.py-build-383
+        self.finish_tasks.join()
+sphinx.builders.xml.PseudoXMLBuilder.finish_tasks
+{'sphinx.util.parallel.SerialTasks'}
+ /home/user/sphinx-master/sphinx/builders/__init__.py-build-383
+        self.finish_tasks.join()
+sphinx.builders.dummy.DummyBuilder.finish_tasks
+{'sphinx.util.parallel.SerialTasks'}
+ /home/user/sphinx-master/sphinx/builders/__init__.py-build-383
+        self.finish_tasks.join()
+sphinx.builders.dirhtml.DirectoryHTMLBuilder.finish_tasks
+{'sphinx.util.parallel.SerialTasks'}
+ /home/user/sphinx-master/sphinx/builders/__init__.py-build-383
+        self.finish_tasks.join()
+sphinx.builders.dirhtml.DirectoryHTMLBuilder.docsettings
+{'docutils.frontend.Values'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-prepare_writing-482
+        self.docsettings.compact_lists = bool(self.config.html_compact_lists)
+sphinx.builders.dirhtml.DirectoryHTMLBuilder.globalcontext
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-prepare_writing-572
+            self.globalcontext.update(
+sphinx.builders.dirhtml.DirectoryHTMLBuilder.globalcontext
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-prepare_writing-575
+        self.globalcontext.update(self.config.html_context)
+sphinx.parsers.RSTParser.statemachine
+{'docutils.parsers.rst.states.RSTStateMachine'}
+ /home/user/sphinx-master/sphinx/parsers.py-parse-80
+        self.statemachine.run(inputlines, document, inliner=self.inliner)
+sphinx.ext.autodoc.directive.AutodocDirective.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-431
+        return self.state.document.settings.env
+sphinx.ext.autodoc.directive.AutodocDirective.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/directive.py-run-144
+            self.state.document.settings.record_dependencies.add(fn)
+sphinx.ext.autodoc.directive.AutodocDirective.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/directive.py-run-111
+        reporter = self.state.document.reporter
+sphinx.ext.autodoc.ModuleDocumenter.analyzer
+{'builtins.NoneType', 'sphinx.pycode.ModuleAnalyzer'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-filter_members-674
+            attr_docs = self.analyzer.find_attr_docs()
+sphinx.ext.autodoc.ModuleDocumenter.analyzer
+{'builtins.NoneType', 'sphinx.pycode.ModuleAnalyzer'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-get_sourcename-584
+            return f'{self.analyzer.srcname}:docstring of {fullname}'
+sphinx.ext.autodoc.ModuleDocumenter.analyzer
+{'builtins.NoneType', 'sphinx.pycode.ModuleAnalyzer'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-add_content-595
+            attr_docs = self.analyzer.find_attr_docs()
+sphinx.ext.autodoc.ModuleDocumenter.analyzer
+{'builtins.NoneType', 'sphinx.pycode.ModuleAnalyzer'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-get_module_members-1036
+            attr_docs = self.analyzer.attr_docs
+sphinx.pycode.parser.VariableCommentPicker.current_function
+{'ast.FunctionDef', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/pycode/parser.py-get_self-310
+            return self.current_function.args.args[0]
+sphinx.pycode.parser.DefinitionFinder.previous
+{'sphinx.pycode.parser.Token'}
+ /home/user/sphinx-master/sphinx/pycode/parser.py-parse-490
+                                         self.previous.match(NEWLINE, NL, INDENT, DEDENT)):
+sphinx.pycode.parser.DefinitionFinder.decorator
+{'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/pycode/parser.py-parse_definition-509
+            start_pos = self.decorator.start[0]
+sphinx.ext.autodoc.ClassDocumenter.objpath
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-document_members-795
+            self.env.temp_data['autodoc:class'] = self.objpath[0]
+sphinx.ext.autodoc.ClassDocumenter.object
+{'builtins.type'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-import_object-1467
+                self.doc_as_attr = (self.objpath[-1] != self.object.__name__)
+sphinx.ext.autodoc.ClassDocumenter.analyzer
+{'builtins.NoneType', 'sphinx.pycode.ModuleAnalyzer'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-filter_members-674
+            attr_docs = self.analyzer.find_attr_docs()
+sphinx.ext.autodoc.ClassDocumenter.analyzer
+{'builtins.NoneType', 'sphinx.pycode.ModuleAnalyzer'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-get_sourcename-584
+            return f'{self.analyzer.srcname}:docstring of {fullname}'
+sphinx.ext.autodoc.ClassDocumenter.analyzer
+{'builtins.NoneType', 'sphinx.pycode.ModuleAnalyzer'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-add_content-595
+            attr_docs = self.analyzer.find_attr_docs()
+sphinx.ext.autodoc.ClassDocumenter._signature_class
+{'builtins.NoneType', 'builtins.type'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-get_overloaded_signatures-1627
+            for cls in self._signature_class.__mro__:
+sphinx.ext.autodoc.AttributeDocumenter.analyzer
+{'builtins.NoneType', 'sphinx.pycode.ModuleAnalyzer'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-get_sourcename-584
+            return f'{self.analyzer.srcname}:docstring of {fullname}'
+sphinx.ext.autodoc.MethodDocumenter.parent
+{'builtins.type'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-import_object-2116
+        obj = self.parent.__dict__.get(self.object_name)
+sphinx.ext.autodoc.MethodDocumenter.analyzer
+{'builtins.NoneType', 'sphinx.pycode.ModuleAnalyzer'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-get_sourcename-584
+            return f'{self.analyzer.srcname}:docstring of {fullname}'
+sphinx.ext.autodoc.MethodDocumenter.analyzer
+{'builtins.NoneType', 'sphinx.pycode.ModuleAnalyzer'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-add_content-595
+            attr_docs = self.analyzer.find_attr_docs()
+sphinx.ext.autodoc.PropertyDocumenter.analyzer
+{'builtins.NoneType', 'sphinx.pycode.ModuleAnalyzer'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-get_sourcename-584
+            return f'{self.analyzer.srcname}:docstring of {fullname}'
+sphinx.ext.autodoc.PropertyDocumenter.analyzer
+{'builtins.NoneType', 'sphinx.pycode.ModuleAnalyzer'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-add_content-595
+            attr_docs = self.analyzer.find_attr_docs()
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/std.py-run-340
+        node.document = self.state.document
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/javascript.py-add_target_and_index-129
+        node_id = make_id(self.env, self.state.document, '', fullname)
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/std.py-run-124
+        node_id = make_id(self.env, self.state.document, self.name, fullname)
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/std.py-run-505
+                node_id = make_id(self.env, self.state.document, prefix, name)
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/javascript.py-add_target_and_index-131
+        self.state.document.note_explicit_target(signode)
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/c.py-run-3246
+        env = self.state.document.settings.env  # from ObjectDescription.run
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/c.py-add_target_and_index-3210
+        if newestId not in self.state.document.ids:
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-add_target_and_index-7279
+        if newestId not in self.state.document.ids:
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/python.py-add_target_and_index-605
+        self.state.document.note_explicit_target(signode)
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/std.py-run-127
+        self.state.document.note_explicit_target(node)
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/std.py-run-413
+                textnodes, sysmsg = self.state.inline_text(parts[0], lineno)
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/std.py-add_target_and_index-236
+        self.state.document.note_explicit_target(signode)
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/std.py-add_target_and_index-232
+            if old_node_id not in self.state.document.ids and \
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/python.py-run-1045
+            self.state.document.note_explicit_target(target)
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-add_target_and_index-7291
+                if id not in self.state.document.ids:
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/c.py-add_target_and_index-3221
+            self.state.document.note_explicit_target(signode)
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/python.py-add_target_and_index-603
+        node_id = make_id(self.env, self.state.document, '', fullname)
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/directives/__init__.py-run-213
+        self.state.document.note_source(source, line)
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/python.py-run-1042
+            node_id = make_id(self.env, self.state.document, 'module', modname)
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/std.py-run-417
+                                          node_id=None, document=self.state.document)
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-add_target_and_index-7293
+            self.state.document.note_explicit_target(signode)
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/std.py-add_target_and_index-58
+        node_id = make_id(self.env, self.state.document, self.objtype, name)
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/directives/__init__.py-run-202
+        node.document = self.state.document
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-431
+        return self.state.document.settings.env
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/std.py-run-426
+                self.state.nested_parse(definition, definition.items[0][1],
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/std.py-run-507
+                self.state.document.note_implicit_target(subnode, subnode)
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/python.py-run-1036
+        content_node.document = self.state.document
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-run-7314
+        env = self.state.document.settings.env  # from ObjectDescription.run
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/std.py-add_target_and_index-228
+            node_id = make_id(self.env, self.state.document, prefix, optname)
+sphinx.domains.DirectiveAdapter.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/std.py-add_target_and_index-60
+        self.state.document.note_explicit_target(signode)
+sphinx.domains.DirectiveAdapter.names
+{'builtins.list'}
+ /home/user/sphinx-master/sphinx/directives/__init__.py-run-263
+            self.env.temp_data['object'] = self.names[0]
+sphinx.domains.DirectiveAdapter.names
+{'builtins.list'}
+ /home/user/sphinx-master/sphinx/directives/__init__.py-run-252
+                self.names.append(name)
+sphinx.domains.DirectiveAdapter._doc_field_type_map
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/directives/__init__.py-get_field_type_map-80
+                        self._doc_field_type_map[name] = (field, True)
+sphinx.domains.DirectiveAdapter._doc_field_type_map
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/directives/__init__.py-get_field_type_map-75
+                    self._doc_field_type_map[name] = (field, False)
+sphinx.util.docfields.DocFieldTransformer.directive
+{'sphinx.directives.ObjectDescription', 'sphinx.domains.DirectiveAdapter'}
+ /home/user/sphinx-master/sphinx/util/docfields.py-transform-364
+                inliner = self.directive.state.inliner
+sphinx.util.docfields.DocFieldTransformer.directive
+{'sphinx.directives.ObjectDescription', 'sphinx.domains.DirectiveAdapter'}
+ /home/user/sphinx-master/sphinx/util/docfields.py-transform-365
+                new_list += fieldtype.make_field(fieldtypes, self.directive.domain, items,
+sphinx.util.docfields.DocFieldTransformer.directive
+{'sphinx.directives.ObjectDescription', 'sphinx.domains.DirectiveAdapter'}
+ /home/user/sphinx-master/sphinx/util/docfields.py-transform-363
+                env = self.directive.state.document.settings.env
+sphinx.ext.autodoc.FunctionDocumenter.analyzer
+{'builtins.NoneType', 'sphinx.pycode.ModuleAnalyzer'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-get_sourcename-584
+            return f'{self.analyzer.srcname}:docstring of {fullname}'
+sphinx.ext.autodoc.FunctionDocumenter.analyzer
+{'builtins.NoneType', 'sphinx.pycode.ModuleAnalyzer'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-add_content-595
+            attr_docs = self.analyzer.find_attr_docs()
+sphinx.ext.autodoc.ExceptionDocumenter.objpath
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-document_members-795
+            self.env.temp_data['autodoc:class'] = self.objpath[0]
+sphinx.ext.autodoc.ExceptionDocumenter.object
+{'builtins.type'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-import_object-1467
+                self.doc_as_attr = (self.objpath[-1] != self.object.__name__)
+sphinx.ext.autodoc.ExceptionDocumenter.analyzer
+{'builtins.NoneType', 'sphinx.pycode.ModuleAnalyzer'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-filter_members-674
+            attr_docs = self.analyzer.find_attr_docs()
+sphinx.ext.autodoc.ExceptionDocumenter.analyzer
+{'builtins.NoneType', 'sphinx.pycode.ModuleAnalyzer'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-get_sourcename-584
+            return f'{self.analyzer.srcname}:docstring of {fullname}'
+sphinx.ext.autodoc.ExceptionDocumenter.analyzer
+{'builtins.NoneType', 'sphinx.pycode.ModuleAnalyzer'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-add_content-595
+            attr_docs = self.analyzer.find_attr_docs()
+sphinx.ext.todo.Todo.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/ext/todo.py-run-68
+            self.state.document.note_explicit_target(todo)
+sphinx.ext.todo.Todo.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-431
+        return self.state.document.settings.env
+sphinx.directives.other.Include.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-431
+        return self.state.document.settings.env
+sphinx.directives.code.LiteralInclude.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/directives/code.py-run-420
+        document = self.state.document
+sphinx.directives.code.LiteralInclude.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-431
+        return self.state.document.settings.env
+sphinx.directives.code.LiteralInclude.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/directives/code.py-container_wrapper-78
+    directive.state.nested_parse(StringList([caption], source=''),
+sphinx.directives.code.Highlight.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-431
+        return self.state.document.settings.env
+sphinx.addnodes.highlightlang.parent
+{'sphinx.addnodes.document', 'docutils.nodes.section'}
+ /home/user/sphinx-master/sphinx/transforms/post_transforms/code.py-apply-40
+            node.parent.remove(node)
+sphinx.directives.other.TocTree.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-431
+        return self.state.document.settings.env
+sphinx.directives.other.TocTree.state_machine
+{'docutils.parsers.rst.states.NestedStateMachine', 'docutils.parsers.rst.states.RSTStateMachine'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-get_source_info-440
+        return self.state_machine.get_source_and_line(self.lineno)
+sphinx.addnodes.toctree.parent
+{'docutils.nodes.compound', 'docutils.nodes.bullet_list'}
+ /home/user/sphinx-master/sphinx/util/nodes.py-inline_all_toctrees-426
+        toctreenode.parent.replace(toctreenode, newnodes)
+sphinx.directives.other.Author.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/directives/other.py-run-182
+        inodes, messages = self.state.inline_text(self.arguments[0], self.lineno)
+sphinx.directives.other.Author.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-431
+        return self.state.document.settings.env
+sphinx.directives.other.Only.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/directives/other.py-run-313
+        memo: Any = self.state.memo
+sphinx.directives.other.Only.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/directives/other.py-run-307
+        node.document = self.state.document
+sphinx.domains.changeset.VersionChange.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/changeset.py-run-61
+            inodes, messages = self.state.inline_text(self.arguments[1],
+sphinx.domains.changeset.VersionChange.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/changeset.py-run-55
+        node.document = self.state.document
+sphinx.domains.changeset.VersionChange.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/changeset.py-run-69
+            self.state.nested_parse(self.content, self.content_offset, node)
+sphinx.domains.changeset.VersionChange.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-431
+        return self.state.document.settings.env
+sphinx.directives.code.CodeBlock.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/directives/code.py-run-116
+        document = self.state.document
+sphinx.directives.code.CodeBlock.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/directives/code.py-container_wrapper-78
+    directive.state.nested_parse(StringList([caption], source=''),
+sphinx.directives.code.CodeBlock.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-431
+        return self.state.document.settings.env
+sphinx.domains.index.IndexDirective.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/domains/index.py-run-79
+        self.state.document.note_explicit_target(targetnode)
+sphinx.domains.index.IndexDirective.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-431
+        return self.state.document.settings.env
+sphinx.directives.patches.MathDirective.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/directives/patches.py-add_target-174
+        self.state.document.note_explicit_target(target)
+sphinx.directives.patches.MathDirective.state
+{'docutils.parsers.rst.states.Body', 'docutils.parsers.rst.states.Explicit'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-431
+        return self.state.document.settings.env
+sphinx.domains.c.DefinitionParser.last_match
+{'re.re.Match', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/util/cfamily.py-matched_text-348
+            return self.last_match.group()
+sphinx.domains.c.ASTDeclSpecs.trailingTypeSpec
+{'sphinx.domains.c.ASTTrailingTypeSpecName', 'builtins.NoneType', 'sphinx.domains.c.ASTTrailingTypeSpecFundamental'}
+ /home/user/sphinx-master/sphinx/domains/c.py-describe_signature-860
+            self.trailingTypeSpec.describe_signature(signode, mode, env,
+sphinx.domains.c.ASTDeclaratorNameParam.param
+{'sphinx.domains.c.ASTParameters', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/c.py-describe_signature-983
+            self.param.describe_signature(signode, mode, env, symbol)
+sphinx.domains.c.ASTType.decl
+{'sphinx.domains.c.ASTDeclaratorPtr', 'sphinx.domains.c.ASTDeclaratorNameParam'}
+ /home/user/sphinx-master/sphinx/domains/c.py-describe_signature-1245
+        self.decl.describe_signature(signode, mode, env, symbol)
+sphinx.domains.c.ASTType.decl
+{'sphinx.domains.c.ASTDeclaratorPtr', 'sphinx.domains.c.ASTDeclaratorNameParam'}
+ /home/user/sphinx-master/sphinx/domains/c.py-name-1210
+        return self.decl.name
+sphinx.domains.c.ASTType.decl
+{'sphinx.domains.c.ASTDeclaratorPtr', 'sphinx.domains.c.ASTDeclaratorNameParam'}
+ /home/user/sphinx-master/sphinx/domains/c.py-function_params-1217
+        return self.decl.function_params
+sphinx.domains.c.ASTDeclaration.declaration
+{'sphinx.domains.c.ASTFunctionParameter', 'sphinx.domains.c.ASTTypeWithInit', 'sphinx.domains.c.ASTMacro', 'sphinx.domains.c.ASTType'}
+ /home/user/sphinx-master/sphinx/domains/c.py-describe_signature-1502
+        self.declaration.describe_signature(mainDeclNode, mode, env, self.symbol)
+sphinx.domains.c.ASTDeclaration.declaration
+{'sphinx.domains.c.ASTFunctionParameter', 'sphinx.domains.c.ASTTypeWithInit', 'sphinx.domains.c.ASTMacro', 'sphinx.domains.c.ASTType'}
+ /home/user/sphinx-master/sphinx/domains/c.py-get_id-1453
+        id_ = self.declaration.get_id(version, self.objectType, self.symbol)
+sphinx.domains.cpp.DefinitionParser.last_match
+{'re.re.Match', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/util/cfamily.py-matched_text-348
+            return self.last_match.group()
+sphinx.domains.cpp.ASTNestedNameElement.identOrOp
+{'sphinx.domains.cpp.ASTIdentifier', 'sphinx.domains.cpp.ASTOperatorBuildIn'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-describe_signature-709
+        self.identOrOp.describe_signature(signode, mode, env, prefix, tArgs, symbol)
+sphinx.domains.cpp.ASTNestedNameElement.identOrOp
+{'sphinx.domains.cpp.ASTIdentifier', 'sphinx.domains.cpp.ASTOperatorBuildIn'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-get_id-695
+        res = self.identOrOp.get_id(version)
+sphinx.domains.cpp.ASTNestedNameElement.templateArgs
+{'sphinx.domains.cpp.ASTTemplateArgs', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-describe_signature-711
+            self.templateArgs.describe_signature(signode, 'markType', env, symbol)
+sphinx.domains.cpp.ASTNestedNameElement.templateArgs
+{'sphinx.domains.cpp.ASTTemplateArgs', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-get_id-697
+            res += self.templateArgs.get_id(version)
+sphinx.domains.cpp.ASTDeclaration.templatePrefix
+{'builtins.NoneType', 'sphinx.domains.cpp.ASTTemplateDeclarationPrefix'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-add_declaration-4950
+            templateDecls = declaration.templatePrefix.templates
+sphinx.domains.cpp.ASTDeclaration.templatePrefix
+{'sphinx.domains.cpp.ASTTemplateDeclarationPrefix'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-get_id-4038
+            requiresClauseInLast = self.templatePrefix.get_requires_clause_in_last()
+sphinx.domains.cpp.ASTDeclaration.templatePrefix
+{'builtins.NoneType', 'sphinx.domains.cpp.ASTTemplateDeclarationPrefix'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-describe_signature-4088
+            self.templatePrefix.describe_signature(signode, mode, env,
+sphinx.domains.cpp.ASTDeclaration.templatePrefix
+{'sphinx.domains.cpp.ASTTemplateDeclarationPrefix'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-get_id-4037
+            res.append(self.templatePrefix.get_id_except_requires_clause_in_last(version))
+sphinx.domains.cpp.ASTDeclaration.declaration
+{'sphinx.domains.cpp.ASTClass', 'sphinx.domains.cpp.ASTTemplateParamType', 'sphinx.domains.cpp.ASTType', 'sphinx.domains.cpp.ASTFunctionParameter'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-get_id-4018
+            return self.declaration.get_id(version, self.objectType, self.symbol)
+sphinx.domains.cpp.ASTDeclaration.declaration
+{'sphinx.domains.cpp.ASTClass', 'sphinx.domains.cpp.ASTTemplateParamType', 'sphinx.domains.cpp.ASTType', 'sphinx.domains.cpp.ASTFunctionParameter'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-get_id-4054
+        res.append(self.declaration.get_id(version, self.objectType, self.symbol))
+sphinx.domains.cpp.ASTDeclaration.declaration
+{'sphinx.domains.cpp.ASTClass', 'sphinx.domains.cpp.ASTTemplateParamType', 'sphinx.domains.cpp.ASTType', 'sphinx.domains.cpp.ASTFunctionParameter'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-describe_signature-4127
+        self.declaration.describe_signature(mainDeclNode, mode, env, self.symbol)
+sphinx.domains.cpp.ASTDeclSpecs.trailingTypeSpec
+{'builtins.NoneType', 'sphinx.domains.cpp.ASTTrailingTypeSpecFundamental', 'sphinx.domains.cpp.ASTTrailingTypeSpecName'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-describe_signature-2380
+            self.trailingTypeSpec.describe_signature(signode, mode, env,
+sphinx.domains.cpp.ASTDeclSpecs.trailingTypeSpec
+{'sphinx.domains.cpp.ASTTrailingTypeSpecFundamental', 'sphinx.domains.cpp.ASTTrailingTypeSpecName'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-get_id-2350
+            res.append(self.trailingTypeSpec.get_id(version))
+sphinx.domains.cpp.ASTDeclaratorNameParamQual.declId
+{'sphinx.domains.cpp.ASTNestedName', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-describe_signature-2550
+            self.declId.describe_signature(signode, mode, env, symbol)
+sphinx.domains.cpp.ASTDeclaratorNameParamQual.paramQual
+{'sphinx.domains.cpp.ASTParametersQualifiers', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-get_modifiers_id-2501
+            return self.paramQual.get_modifiers_id(version)
+sphinx.domains.cpp.ASTDeclaratorNameParamQual.paramQual
+{'sphinx.domains.cpp.ASTParametersQualifiers', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-describe_signature-2554
+            self.paramQual.describe_signature(signode, mode, env, symbol)
+sphinx.domains.cpp.ASTDeclaratorNameParamQual.paramQual
+{'sphinx.domains.cpp.ASTParametersQualifiers', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-get_param_id-2506
+            return self.paramQual.get_param_id(version)
+sphinx.domains.cpp.ASTType.decl
+{'sphinx.domains.cpp.ASTDeclaratorNameParamQual', 'sphinx.domains.cpp.ASTDeclaratorRef'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-name-3089
+        return self.decl.name
+sphinx.domains.cpp.ASTType.decl
+{'sphinx.domains.cpp.ASTDeclaratorNameParamQual', 'sphinx.domains.cpp.ASTDeclaratorRef'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-get_id-3157
+            typeId = self.decl.get_type_id(version, returnTypeId)
+sphinx.domains.cpp.ASTType.decl
+{'sphinx.domains.cpp.ASTDeclaratorNameParamQual', 'sphinx.domains.cpp.ASTDeclaratorRef'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-get_id-3115
+                    res.append(self.decl.get_modifiers_id(version))
+sphinx.domains.cpp.ASTType.decl
+{'sphinx.domains.cpp.ASTDeclaratorNameParamQual', 'sphinx.domains.cpp.ASTDeclaratorRef'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-get_id-3135
+                modifiers = self.decl.get_modifiers_id(version)
+sphinx.domains.cpp.ASTType.decl
+{'sphinx.domains.cpp.ASTDeclaratorNameParamQual', 'sphinx.domains.cpp.ASTDeclaratorRef'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-trailingReturn-3105
+        return self.decl.trailingReturn
+sphinx.domains.cpp.ASTType.decl
+{'sphinx.domains.cpp.ASTDeclaratorNameParamQual', 'sphinx.domains.cpp.ASTDeclaratorRef'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-get_id-3129
+                res.append(self.decl.get_param_id(version))
+sphinx.domains.cpp.ASTType.decl
+{'sphinx.domains.cpp.ASTDeclaratorNameParamQual', 'sphinx.domains.cpp.ASTDeclaratorRef'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-get_id-3141
+                        typeId = self.decl.get_ptr_suffix_id(version)
+sphinx.domains.cpp.ASTType.decl
+{'sphinx.domains.cpp.ASTDeclaratorNameParamQual', 'sphinx.domains.cpp.ASTDeclaratorRef'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-get_id-3128
+                res.append(self.decl.get_ptr_suffix_id(version))
+sphinx.domains.cpp.ASTType.decl
+{'sphinx.domains.cpp.ASTDeclaratorNameParamQual', 'sphinx.domains.cpp.ASTDeclaratorRef'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-get_id-3125
+                if self.decl.is_function_type():
+sphinx.domains.cpp.ASTType.decl
+{'sphinx.domains.cpp.ASTDeclaratorNameParamQual', 'sphinx.domains.cpp.ASTDeclaratorRef'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-function_params-3101
+        return self.decl.function_params
+sphinx.domains.cpp.ASTType.decl
+{'sphinx.domains.cpp.ASTDeclaratorNameParamQual', 'sphinx.domains.cpp.ASTDeclaratorRef'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-get_id-3148
+                res.append(self.decl.get_param_id(version))
+sphinx.domains.cpp.ASTType.decl
+{'sphinx.domains.cpp.ASTDeclaratorNameParamQual', 'sphinx.domains.cpp.ASTDeclaratorRef'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-describe_signature-3187
+        self.decl.describe_signature(signode, mode, env, symbol)
+sphinx.domains.cpp.ASTType.decl
+{'sphinx.domains.cpp.ASTDeclaratorNameParamQual', 'sphinx.domains.cpp.ASTDeclaratorRef'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-get_id-3114
+                    res.append(self.decl.get_param_id(version))
+sphinx.domains.cpp.ASTTemplateParams.requiresClause
+{'sphinx.domains.cpp.ASTRequiresClause', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-describe_signature_as_introducer-3806
+            self.requiresClause.describe_signature(reqNode, 'markType', env, symbol)
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/writers/html5.py-get_secnumber-274
+                if anchorname not in self.builder.secnumbers:
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/ext/mathjax.py-html_visit_displaymath-51
+    self.body.append(self.builder.config.mathjax_display[0])
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/writers/html5.py-visit_math_block-815
+        name = self.builder.math_renderer_name
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/util/math.py-get_node_equation_number-19
+        number = writer.builder.fignumbers.get(key, {}).get(id, ())
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/ext/mathjax.py-html_visit_displaymath-65
+    self.body.append(self.builder.config.mathjax_display[1])
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/writers/html5.py-get_secnumber-270
+                if anchorname not in self.builder.secnumbers:
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/writers/html5.py-add_fignumber-306
+        figtype = self.builder.env.domains['std'].get_enumerable_node_type(node)
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/writers/html5.py-get_secnumber-277
+            if self.builder.secnumbers.get(anchorname):
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/ext/mathjax.py-html_visit_math-32
+    self.body.append(self.builder.config.mathjax_inline[0] +
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/writers/html5.py-visit_math_block-816
+        visit, _ = self.builder.app.registry.html_block_math_renderers[name]
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/writers/html5.py-get_secnumber-267
+            if self.builder.name == 'singlehtml':
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/writers/html5.py-visit_image-568
+            node['uri'] = posixpath.join(self.builder.imgpath,
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/writers/html5.py-get_secnumber-278
+                return self.builder.secnumbers[anchorname]
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/writers/html5.py-__init__-58
+        self.highlighter = self.builder.highlighter
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/writers/html5.py-visit_image-567
+        if olduri in self.builder.images:
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/util/math.py-get_node_equation_number-13
+        if writer.builder.name == 'singlehtml':
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/ext/mathjax.py-html_visit_math-34
+                     self.builder.config.mathjax_inline[1] + '</span>')
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/writers/html5.py-visit_image-569
+                                         urllib.parse.quote(self.builder.images[olduri]))
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/writers/html5.py-append_fignumber-302
+                    numbers = self.builder.fignumbers[key][figure_id]
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/writers/html5.py-visit_math-805
+        visit, _ = self.builder.app.registry.html_inline_math_renderers[name]
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/writers/html5.py-visit_download_reference-537
+        if not self.builder.download_support:
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/writers/html5.py-depart_title-382
+        if (self.config.html_permalinks and self.builder.add_permalinks and
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/writers/html5.py-visit_download_reference-546
+            atts['href'] = posixpath.join(self.builder.dlpath,
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/writers/html5.py-append_fignumber-290
+            if self.builder.name == 'singlehtml':
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/writers/html5.py-append_fignumber-295
+            if figure_id in self.builder.fignumbers.get(key, {}):
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/writers/html5.py-add_permalink_ref-315
+        if node['ids'] and self.config.html_permalinks and self.builder.add_permalinks:
+sphinx.writers.html5.HTML5Translator.builder
+{'sphinx.builders.dirhtml.DirectoryHTMLBuilder', 'sphinx.builders.html.StandaloneHTMLBuilder', 'sphinx.builders.epub3.Epub3Builder', 'sphinx.builders.singlehtml.SingleFileHTMLBuilder'}
+ /home/user/sphinx-master/sphinx/writers/html5.py-visit_math-804
+        name = self.builder.math_renderer_name
+sphinx.domains.cpp.ASTNamespace.templatePrefix
+{'sphinx.domains.cpp.ASTTemplateDeclarationPrefix'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-_resolve_xref_inner-7987
+                templateDecls = ns.templatePrefix.templates
+sphinx.writers.text.TextTranslator.entry
+{'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/writers/text.py-depart_entry-770
+        self.entry.text = text
+sphinx.writers.text.TextTranslator._footnote
+{'builtins.str'}
+ /home/user/sphinx-master/sphinx/writers/text.py-visit_footnote-658
+        self.new_state(len(self._footnote) + 3)
+sphinx.writers.text.TextTranslator._citlabel
+{'builtins.str'}
+ /home/user/sphinx-master/sphinx/writers/text.py-visit_citation-668
+        self.new_state(len(self._citlabel) + 3)
+sphinx.builders.linkcheck.CheckExternalLinksBuilder.finish_tasks
+{'sphinx.util.parallel.SerialTasks'}
+ /home/user/sphinx-master/sphinx/builders/__init__.py-build-383
+        self.finish_tasks.join()
+sphinx.builders.linkcheck.HyperlinkAvailabilityCheckWorker.wqueue
+{'queue.Queue', 'queue.PriorityQueue'}
+ /home/user/sphinx-master/sphinx/builders/linkcheck.py-run-454
+            self.wqueue.task_done()
+sphinx.builders.linkcheck.HyperlinkAvailabilityCheckWorker.wqueue
+{'queue.Queue', 'queue.PriorityQueue'}
+ /home/user/sphinx-master/sphinx/builders/linkcheck.py-run-424
+            check_request = self.wqueue.get()
+sphinx.builders.changes.ChangesBuilder.finish_tasks
+{'sphinx.util.parallel.SerialTasks'}
+ /home/user/sphinx-master/sphinx/builders/__init__.py-build-383
+        self.finish_tasks.join()
+sphinx.builders.epub3.Epub3Builder.outdir
+{'builtins.str'}
+ /home/user/sphinx-master/sphinx/builders/_epub_base.py-build_content-507
+        olen = len(self.outdir)
+sphinx.builders.epub3.Epub3Builder.outdir
+{'builtins.str'}
+ /home/user/sphinx-master/sphinx/builders/_epub_base.py-build_content-505
+        if not self.outdir.endswith(os.sep):
+sphinx.builders.epub3.Epub3Builder.finish_tasks
+{'sphinx.util.parallel.SerialTasks'}
+ /home/user/sphinx-master/sphinx/builders/__init__.py-build-383
+        self.finish_tasks.join()
+sphinx.builders.epub3.Epub3Builder.docsettings
+{'docutils.frontend.Values'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-prepare_writing-482
+        self.docsettings.compact_lists = bool(self.config.html_compact_lists)
+sphinx.builders.epub3.Epub3Builder.globalcontext
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/epub3.py-prepare_writing-116
+        self.globalcontext['theme_writing_mode'] = THEME_WRITING_MODES.get(writing_mode)
+sphinx.builders.epub3.Epub3Builder.globalcontext
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-prepare_writing-572
+            self.globalcontext.update(
+sphinx.builders.epub3.Epub3Builder.globalcontext
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/epub3.py-prepare_writing-119
+        self.globalcontext['skip_ua_compatible'] = True
+sphinx.builders.epub3.Epub3Builder.globalcontext
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-prepare_writing-575
+        self.globalcontext.update(self.config.html_context)
+sphinx.builders.epub3.Epub3Builder.globalcontext
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/epub3.py-prepare_writing-118
+        self.globalcontext['use_meta_charset'] = self.use_meta_charset
+sphinx.builders.epub3.Epub3Builder.globalcontext
+{'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/epub3.py-prepare_writing-117
+        self.globalcontext['html_tag'] = self.html_tag
+sphinx.builders.epub3.Epub3Builder.files
+{'builtins.list'}
+ /home/user/sphinx-master/sphinx/builders/_epub_base.py-build_content-535
+                self.files.append(filename)
+sphinx.builders.gettext.MessageCatalogBuilder.tags
+{'sphinx.util.tags.Tags'}
+ /home/user/sphinx-master/sphinx/builders/__init__.py-__init__-102
+        self.tags.add(self.format)
+sphinx.builders.gettext.MessageCatalogBuilder.tags
+{'sphinx.util.tags.Tags'}
+ /home/user/sphinx-master/sphinx/builders/__init__.py-__init__-105
+        self.tags.add("builder_%s" % self.name)
+sphinx.builders.gettext.MessageCatalogBuilder.tags
+{'sphinx.util.tags.Tags'}
+ /home/user/sphinx-master/sphinx/builders/__init__.py-__init__-104
+        self.tags.add("format_%s" % self.format)
+sphinx.builders.gettext.MessageCatalogBuilder.tags
+{'sphinx.util.tags.Tags'}
+ /home/user/sphinx-master/sphinx/builders/__init__.py-__init__-103
+        self.tags.add(self.name)
+sphinx.builders.gettext.MessageCatalogBuilder.finish_tasks
+{'sphinx.util.parallel.SerialTasks'}
+ /home/user/sphinx-master/sphinx/builders/__init__.py-build-383
+        self.finish_tasks.join()
+sphinx.writers.manpage.ManualPageWriter.visitor
+{'sphinx.writers.manpage.ManualPageTranslator'}
+ /home/user/sphinx-master/sphinx/writers/manpage.py-translate-34
+        self.output = self.visitor.astext()
+sphinx.writers.texinfo.TexinfoWriter.visitor
+{'sphinx.writers.texinfo.TexinfoTranslator'}
+ /home/user/sphinx-master/sphinx/writers/texinfo.py-translate-131
+        self.visitor.finish()
+sphinx.writers.texinfo.TexinfoTranslator.settings
+{'docutils.frontend.Values', 'unittest.mock.Mock'}
+ /home/user/sphinx-master/sphinx/writers/texinfo.py-init_settings-241
+                self.escape_menu(self.settings.texinfo_dir_entry),
+sphinx.writers.texinfo.TexinfoTranslator.settings
+{'docutils.frontend.Values', 'unittest.mock.Mock'}
+ /home/user/sphinx-master/sphinx/writers/texinfo.py-init_settings-239
+        if self.settings.texinfo_dir_entry:
+sphinx.writers.texinfo.TexinfoTranslator.settings
+{'docutils.frontend.Values', 'unittest.mock.Mock'}
+ /home/user/sphinx-master/sphinx/writers/texinfo.py-init_settings-251
+        elements.update(self.settings.texinfo_elements)
+sphinx.writers.texinfo.TexinfoTranslator.settings
+{'docutils.frontend.Values', 'unittest.mock.Mock'}
+ /home/user/sphinx-master/sphinx/writers/texinfo.py-init_settings-227
+        title: str = self.settings.title
+sphinx.writers.texinfo.TexinfoTranslator.settings
+{'docutils.frontend.Values', 'unittest.mock.Mock'}
+ /home/user/sphinx-master/sphinx/writers/texinfo.py-init_settings-215
+            'title': self.settings.title,
+sphinx.writers.texinfo.TexinfoTranslator.previous_section
+{'docutils.nodes.section'}
+ /home/user/sphinx-master/sphinx/writers/texinfo.py-visit_section-579
+            self.add_menu(self.previous_section['node_name'])

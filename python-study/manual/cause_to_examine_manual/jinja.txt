@@ -1,0 +1,63 @@
+jinja2.environment.Environment.line_statement_prefix
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/lexer.py-compile_rules-235
+                len(environment.line_statement_prefix),
+jinja2.environment.Environment.line_comment_prefix
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/lexer.py-compile_rules-243
+                len(environment.line_comment_prefix),
+jinja2.nodes.Output.nodes
+{'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-parse_print-452
+            node.nodes.append(self.parse_expression())
+jinja2.idtracking.Symbols.parent
+{'builtins.NoneType', 'jinja2.idtracking.Symbols'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/idtracking.py-branch_update-141
+                outer_target = self.parent.find_ref(name)
+jinja2.idtracking.Symbols.parent
+{'jinja2.idtracking.Symbols'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/idtracking.py-store-104
+                outer_ref = self.parent.find_ref(name)
+jinja2.idtracking.Symbols.parent
+{'jinja2.idtracking.Symbols'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/idtracking.py-find_load-64
+            return self.parent.find_load(target)
+jinja2.idtracking.Symbols.parent
+{'jinja2.idtracking.Symbols'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/idtracking.py-find_ref-73
+            return self.parent.find_ref(name)
+jinja2.runtime.Context.environment
+{'test_api.CustomEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.sandbox.ImmutableSandboxedEnvironment', 'jinja2.nativetypes.NativeEnvironment', 'jinja2.environment.Environment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/filters.py-func-1712
+            return context.environment.call_filter(
+jinja2.runtime.Context.environment
+{'test_api.CustomEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.nativetypes.NativeEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/environment.py-__init__-1528
+            if context.environment.is_async:
+jinja2.runtime.Context.environment
+{'test_api.CustomEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.sandbox.ImmutableSandboxedEnvironment', 'jinja2.nativetypes.NativeEnvironment', 'jinja2.environment.Environment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/filters.py-func-1745
+            return context.environment.call_test(name, item, args, kwargs)
+jinja2.compiler.MacroRef.node
+{'jinja2.nodes.CallBlock', 'jinja2.nodes.Macro'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_def-698
+        if len(macro_ref.node.args) == 1:
+jinja2.compiler.MacroRef.node
+{'jinja2.nodes.CallBlock', 'jinja2.nodes.Macro'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_def-696
+        arg_tuple = ", ".join(repr(x.name) for x in macro_ref.node.args)
+jinja2.nodes.Include.template
+{'jinja2.nodes.Name', 'jinja2.nodes.List', 'jinja2.nodes.Const', 'missing', 'jinja2.nodes.Tuple'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Include-1038
+            if isinstance(node.template.value, str):
+jinja2.nodes.FromImport.names
+{'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-parse_from-393
+                    node.names.append(target.name)
+jinja2.nodes.FromImport.names
+{'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-parse_from-391
+                    node.names.append((target.name, alias.name))
+
+check: 8
+safe: 8

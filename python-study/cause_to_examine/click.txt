@@ -1,0 +1,24 @@
+click.core.Context.command
+{'test_commands.OptParseCommand', 'test_commands.AliasedGroup', 'click.core.Group', 'click.core.Command'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/shell_completion.py-_resolve_incomplete-564
+    params = ctx.command.get_params(ctx)
+click.core.Context.obj
+{'builtins.str', 'test_context.Foo', 'builtins.dict', 'builtins.NoneType'}
+ /home/user/click/tests/test_context.py-cli-43
+        ctx.obj.title = "test"
+click.core.Context.obj
+{'builtins.str', 'test_context.Foo', 'builtins.dict', 'builtins.NoneType'}
+ /home/user/click/tests/test_shell_completion.py-complete-326
+        return ctx.obj["choices"]
+click.core.Context.obj
+{'builtins.str', 'test_context.Foo', 'builtins.dict', 'builtins.NoneType'}
+ /home/user/click/tests/test_commands.py-sync-242
+            click.echo(f"Debug is {'on' if ctx.obj['DEBUG'] else 'off'}")
+click.core.Context.obj
+{'builtins.str', 'test_context.Foo', 'builtins.dict', 'builtins.NoneType'}
+ /home/user/click/tests/test_context.py-cli-66
+        ctx.obj.title = "test"
+click.testing.Result.exc_info
+{'builtins.tuple', 'builtins.NoneType'}
+ /home/user/click/tests/test_testing.py-test_catch_exceptions-176
+    assert len(result.exc_info) == 3

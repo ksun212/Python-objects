@@ -1,0 +1,288 @@
+jedi.api.environment.Environment.version_info
+{'jedi.api.environment.VersionInfo', 'missing'}
+ /home/user/jedi/test/test_api/test_classes.py-test_hashlib_params-192
+    if environment.version_info < (3,):
+jedi.api.environment.Environment.version_info
+{'jedi.api.environment.VersionInfo', 'missing'}
+ /home/user/jedi/test/test_api/test_environment.py-test_find_system_environments-24
+        assert parser_version[:2] == env.version_info[:2]
+jedi.inference.InferenceState.compiled_subprocess
+{'jedi.inference.compiled.subprocess.InferenceStateSameProcess', 'jedi.inference.compiled.subprocess.InferenceStateSubprocess'}
+ /home/user/jedi/jedi/inference/imports.py-import_module-425
+        file_io_or_ns, is_pkg = inference_state.compiled_subprocess.get_module_info(
+jedi.inference.InferenceState.compiled_subprocess
+{'jedi.inference.compiled.subprocess.InferenceStateSameProcess', 'jedi.inference.compiled.subprocess.InferenceStateSubprocess'}
+ /home/user/jedi/test/test_api/test_environment.py-test_error_in_environment-63
+        inference_state.compiled_subprocess._test_raise_error(KeyboardInterrupt)
+jedi.inference.InferenceState.compiled_subprocess
+{'jedi.inference.compiled.subprocess.InferenceStateSameProcess', 'jedi.inference.compiled.subprocess.InferenceStateSubprocess'}
+ /home/user/jedi/jedi/inference/imports.py-iter_module_names-591
+    for name in inference_state.compiled_subprocess.iter_module_names(search_path):
+jedi.inference.InferenceState.compiled_subprocess
+{'jedi.inference.compiled.subprocess.InferenceStateSameProcess', 'jedi.inference.compiled.subprocess.InferenceStateSubprocess'}
+ /home/user/jedi/test/test_api/test_environment.py-test_stdout_in_subprocess-73
+    inference_state.compiled_subprocess._test_print(stdout='.')
+jedi.inference.InferenceState.compiled_subprocess
+{'jedi.inference.compiled.subprocess.InferenceStateSameProcess', 'jedi.inference.compiled.subprocess.InferenceStateSubprocess'}
+ /home/user/jedi/jedi/inference/syntax_tree.py-infer_atom-317
+        string = state.compiled_subprocess.safe_literal_eval(atom.value)
+jedi.inference.InferenceState.compiled_subprocess
+{'jedi.inference.compiled.subprocess.InferenceStateSameProcess', 'jedi.inference.compiled.subprocess.InferenceStateSubprocess'}
+ /home/user/jedi/jedi/inference/compiled/__init__.py-load_module-67
+    access_path = inference_state.compiled_subprocess.load_module(dotted_name=dotted_name, **kwargs)
+jedi.inference.InferenceState.compiled_subprocess
+{'jedi.inference.compiled.subprocess.InferenceStateSameProcess', 'jedi.inference.compiled.subprocess.InferenceStateSubprocess'}
+ /home/user/jedi/test/test_api/test_environment.py-test_error_in_environment-66
+        inference_state.compiled_subprocess._test_raise_error(KeyboardInterrupt)
+jedi.inference.InferenceState.compiled_subprocess
+{'jedi.inference.compiled.subprocess.InferenceStateSameProcess', 'jedi.inference.compiled.subprocess.InferenceStateSubprocess'}
+ /home/user/jedi/test/test_api/test_environment.py-test_load_module-45
+    access_path = inference_state.compiled_subprocess.load_module(
+jedi.inference.InferenceState.compiled_subprocess
+{'jedi.inference.compiled.subprocess.InferenceStateSameProcess', 'jedi.inference.compiled.subprocess.InferenceStateSubprocess'}
+ /home/user/jedi/jedi/inference/compiled/__init__.py-create_simple_object-53
+        inference_state.compiled_subprocess.create_simple_object(obj)
+jedi.inference.InferenceState.compiled_subprocess
+{'jedi.inference.compiled.subprocess.InferenceStateSameProcess', 'jedi.inference.compiled.subprocess.InferenceStateSubprocess'}
+ /home/user/jedi/jedi/inference/imports.py-iter_module_names-588
+        for name in inference_state.compiled_subprocess.get_builtin_module_names():
+jedi.inference.InferenceState.compiled_subprocess
+{'jedi.inference.compiled.subprocess.InferenceStateSameProcess', 'jedi.inference.compiled.subprocess.InferenceStateSubprocess'}
+ /home/user/jedi/jedi/inference/imports.py-import_module-411
+        file_io_or_ns, is_pkg = inference_state.compiled_subprocess.get_module_info(
+jedi.inference.names.ValueName._value
+{'jedi.inference.compiled.mixed.MixedObject', 'jedi.inference.value.instance.BoundMethod', 'jedi.inference.gradual.typing.OverloadFunction', 'jedi.inference.gradual.typing.TypeAlias', 'jedi.inference.filters._BuiltinMappedMethod', 'jedi.inference.value.instance.AnonymousInstance', 'jedi.inference.gradual.base.GenericClass', 'jedi.inference.value.klass.ClassValue', 'jedi.inference.gradual.typing.ProxyWithGenerics', 'jedi.inference.gradual.base._PseudoTreeNameClass', 'jedi.inference.value.function.FunctionValue', 'jedi.inference.value.function.OverloadedFunctionValue', 'jedi.plugins.stdlib.PropertyObject', 'jedi.inference.value.function.MethodValue', 'jedi.plugins.stdlib.ClassMethodGet', 'jedi.inference.gradual.type_var.TypeVarClass', 'jedi.inference.gradual.base._GenericInstanceWrapper', 'jedi.inference.value.instance.TreeInstance', 'jedi.inference.gradual.typing.TypingClassWithGenerics', 'jedi.inference.value.decorator.Decoratee', 'jedi.inference.compiled.ExactValue'}
+ /home/user/jedi/jedi/inference/names.py-py__doc__-234
+        if not doc and self._value.is_stub():
+jedi.inference.names.ValueName._value
+{'jedi.inference.compiled.mixed.MixedObject', 'jedi.inference.value.instance.BoundMethod', 'jedi.inference.gradual.typing.OverloadFunction', 'jedi.inference.gradual.typing.TypeAlias', 'jedi.inference.filters._BuiltinMappedMethod', 'jedi.inference.value.instance.AnonymousInstance', 'jedi.inference.gradual.base.GenericClass', 'jedi.inference.value.klass.ClassValue', 'jedi.inference.gradual.typing.ProxyWithGenerics', 'jedi.inference.gradual.base._PseudoTreeNameClass', 'jedi.inference.value.function.FunctionValue', 'jedi.inference.value.function.OverloadedFunctionValue', 'jedi.plugins.stdlib.PropertyObject', 'jedi.inference.value.function.MethodValue', 'jedi.plugins.stdlib.ClassMethodGet', 'jedi.inference.gradual.type_var.TypeVarClass', 'jedi.inference.gradual.base._GenericInstanceWrapper', 'jedi.inference.value.instance.TreeInstance', 'jedi.inference.gradual.typing.TypingClassWithGenerics', 'jedi.inference.value.decorator.Decoratee', 'jedi.inference.compiled.ExactValue'}
+ /home/user/jedi/jedi/inference/names.py-_get_qualified_names-242
+        return self._value.get_qualified_names()
+jedi.inference.names.ValueName._value
+{'jedi.inference.compiled.mixed.MixedObject', 'jedi.inference.value.instance.BoundMethod', 'jedi.inference.gradual.typing.OverloadFunction', 'jedi.inference.gradual.typing.TypeAlias', 'jedi.inference.filters._BuiltinMappedMethod', 'jedi.inference.value.instance.AnonymousInstance', 'jedi.inference.gradual.base.GenericClass', 'jedi.inference.value.klass.ClassValue', 'jedi.inference.gradual.typing.ProxyWithGenerics', 'jedi.inference.gradual.base._PseudoTreeNameClass', 'jedi.inference.value.function.FunctionValue', 'jedi.inference.value.function.OverloadedFunctionValue', 'jedi.plugins.stdlib.PropertyObject', 'jedi.inference.value.function.MethodValue', 'jedi.plugins.stdlib.ClassMethodGet', 'jedi.inference.gradual.type_var.TypeVarClass', 'jedi.inference.gradual.base._GenericInstanceWrapper', 'jedi.inference.value.instance.TreeInstance', 'jedi.inference.gradual.typing.TypingClassWithGenerics', 'jedi.inference.value.decorator.Decoratee', 'jedi.inference.compiled.ExactValue'}
+ /home/user/jedi/jedi/inference/names.py-api_type-257
+        return self._value.api_type
+jedi.inference.names.ValueName._value
+{'jedi.inference.compiled.mixed.MixedObject', 'jedi.inference.value.instance.BoundMethod', 'jedi.inference.gradual.typing.OverloadFunction', 'jedi.inference.gradual.typing.TypeAlias', 'jedi.inference.filters._BuiltinMappedMethod', 'jedi.inference.value.instance.AnonymousInstance', 'jedi.inference.gradual.base.GenericClass', 'jedi.inference.value.klass.ClassValue', 'jedi.inference.gradual.typing.ProxyWithGenerics', 'jedi.inference.gradual.base._PseudoTreeNameClass', 'jedi.inference.value.function.FunctionValue', 'jedi.inference.value.function.OverloadedFunctionValue', 'jedi.plugins.stdlib.PropertyObject', 'jedi.inference.value.function.MethodValue', 'jedi.plugins.stdlib.ClassMethodGet', 'jedi.inference.gradual.type_var.TypeVarClass', 'jedi.inference.gradual.base._GenericInstanceWrapper', 'jedi.inference.value.instance.TreeInstance', 'jedi.inference.gradual.typing.TypingClassWithGenerics', 'jedi.inference.value.decorator.Decoratee', 'jedi.inference.compiled.ExactValue'}
+ /home/user/jedi/jedi/inference/names.py-py__doc__-233
+        doc = self._value.py__doc__()
+jedi.inference.value.instance.TreeInstance.class_value
+{'jedi.inference.value.klass.ClassValue', 'jedi.inference.gradual.base.GenericClass'}
+ /home/user/jedi/jedi/inference/value/instance.py-get_qualified_names-103
+        return self.class_value.get_qualified_names()
+jedi.inference.context.ClassContext._value
+{'jedi.inference.gradual.typing.ProxyTypingClassValue', 'jedi.inference.value.klass.ClassValue', 'jedi.inference.gradual.typing.TypingClassWithGenerics'}
+ /home/user/jedi/jedi/inference/context.py-get_qualified_names-209
+        return self._value.get_qualified_names()
+jedi.inference.context.ClassContext._value
+{'jedi.inference.gradual.typing.ProxyTypingClassValue', 'jedi.inference.value.klass.ClassValue', 'jedi.inference.gradual.typing.TypingClassWithGenerics'}
+ /home/user/jedi/jedi/inference/context.py-is_module-181
+        return self._value.is_module()
+jedi.inference.context.ClassContext._value
+{'jedi.inference.gradual.typing.ProxyTypingClassValue', 'jedi.inference.value.klass.ClassValue', 'jedi.inference.gradual.typing.TypingClassWithGenerics'}
+ /home/user/jedi/jedi/inference/context.py-is_stub-190
+        return self._value.is_stub()
+jedi.inference.context.ClassContext._value
+{'jedi.inference.gradual.typing.ProxyTypingClassValue', 'jedi.inference.value.klass.ClassValue', 'jedi.inference.gradual.typing.TypingClassWithGenerics'}
+ /home/user/jedi/jedi/inference/context.py-tree_node-174
+        return self._value.tree_node
+jedi.inference.context.ClassContext._value
+{'jedi.inference.gradual.typing.ProxyTypingClassValue', 'jedi.inference.value.klass.ClassValue', 'jedi.inference.gradual.typing.TypingClassWithGenerics'}
+ /home/user/jedi/jedi/inference/context.py-is_bound_method-199
+        return self._value.is_bound_method()
+jedi.inference.context.ClassContext._value
+{'jedi.inference.gradual.typing.ProxyTypingClassValue', 'jedi.inference.value.klass.ClassValue', 'jedi.inference.gradual.typing.TypingClassWithGenerics'}
+ /home/user/jedi/jedi/inference/context.py-py__doc__-212
+        return self._value.py__doc__()
+jedi.inference.context.ClassContext._value
+{'jedi.inference.gradual.typing.ProxyTypingClassValue', 'jedi.inference.value.klass.ClassValue', 'jedi.inference.gradual.typing.TypingClassWithGenerics'}
+ /home/user/jedi/jedi/inference/context.py-is_instance-193
+        return self._value.is_instance()
+jedi.inference.signature.TreeSignature.value
+{'jedi.inference.value.klass.ClassValue', 'jedi.inference.value.instance.BoundMethod', 'jedi.inference.value.function.FunctionValue', 'jedi.inference.value.instance.TreeInstance', 'jedi.inference.value.function.MethodValue'}
+ /home/user/jedi/jedi/inference/value/instance.py-_get_annotated_class_object-330
+            funcdef = signature.value.tree_node
+jedi.inference.signature.TreeSignature.value
+{'jedi.inference.value.klass.ClassValue', 'jedi.inference.value.instance.BoundMethod', 'jedi.inference.value.function.FunctionValue', 'jedi.inference.value.instance.TreeInstance', 'jedi.inference.value.function.MethodValue'}
+ /home/user/jedi/jedi/inference/signature.py-_annotation-81
+        if self.value.is_class():
+jedi.inference.signature.TreeSignature._function_value
+{'jedi.inference.value.function.MethodValue', 'jedi.inference.value.instance.BoundMethod', 'jedi.inference.value.function.FunctionValue'}
+ /home/user/jedi/jedi/inference/signature.py-_annotation-83
+        return self._function_value.tree_node.annotation
+jedi.file_io.FolderIO.path
+{'builtins.str', 'pathlib.PosixPath'}
+ /home/user/jedi/jedi/inference/imports.py-load_module_from_path-512
+        if folder_io.path.endswith('-stubs'):
+jedi.file_io.FolderIO.path
+{'builtins.str', 'pathlib.PosixPath'}
+ /home/user/jedi/jedi/inference/imports.py-load_module_from_path-513
+            folder_io = FolderIO(folder_io.path[:-6])
+jedi.file_io.FolderIO.path
+{'builtins.str', 'pathlib.PosixPath'}
+ /home/user/jedi/test/test_file_io.py-test_folder_io_walk-12
+        if f.path.endswith('ns1'):
+jedi.inference.names.AnonymousParamName.function_value
+{'jedi.inference.value.instance.BoundMethod', 'jedi.inference.value.function.FunctionValue'}
+ /home/user/jedi/jedi/inference/names.py-infer-537
+            value = FakeDict(self.function_value.inference_state, {})
+jedi.inference.names.AnonymousParamName.function_value
+{'jedi.inference.value.instance.BoundMethod', 'jedi.inference.value.function.FunctionValue'}
+ /home/user/jedi/jedi/inference/names.py-infer-534
+            value = FakeTuple(self.function_value.inference_state, [])
+jedi.inference.compiled.value.CompiledValueName._value
+{'jedi.inference.value.iterable.Generator', 'jedi.inference.compiled.value.CompiledModule', 'jedi.inference.value.instance.CompiledInstance', 'jedi.inference.value.iterable.SequenceLiteralValue', 'jedi.inference.value.instance.CompiledBoundMethod', 'jedi.inference.compiled.value.CompiledValue'}
+ /home/user/jedi/jedi/inference/names.py-api_type-257
+        return self._value.api_type
+jedi.inference.compiled.value.CompiledValueName.parent_context
+{'jedi.inference.gradual.stub_value.TypingModuleContext', 'builtins.NoneType', 'jedi.inference.gradual.stub_value.StubModuleContext', 'jedi.inference.context.CompiledModuleContext'}
+ /home/user/jedi/jedi/inference/names.py-get_root_context-63
+        return self.parent_context.get_root_context()
+jedi.inference.filters.SpecialMethodName._builtin_value
+{'jedi.inference.value.instance.TreeInstance', 'jedi.inference.gradual.base._GenericInstanceWrapper'}
+ /home/user/jedi/jedi/inference/filters.py-infer-301
+            for filter in self._builtin_value.get_filters():
+jedi.inference.value.decorator.Decoratee._wrapped_value
+{'jedi.plugins.stdlib.ClassMethodObject', 'jedi.plugins.stdlib.StaticMethodObject', 'jedi.plugins.stdlib.PropertyObject', 'jedi.inference.value.instance.TreeInstance', 'jedi.inference.value.function.MethodValue', 'jedi.inference.compiled.ExactValue', 'jedi.plugins.stdlib.ClassMethodGet'}
+ /home/user/jedi/jedi/inference/value/decorator.py-py__get__-20
+            for v in self._wrapped_value.py__get__(instance, class_value)
+jedi.inference.value.decorator.Decoratee._wrapped_value
+{'jedi.plugins.stdlib.ClassMethodObject', 'jedi.plugins.stdlib.StaticMethodObject', 'jedi.plugins.stdlib.PropertyObject', 'jedi.inference.value.instance.TreeInstance', 'jedi.inference.value.function.MethodValue', 'jedi.inference.compiled.ExactValue', 'jedi.plugins.stdlib.ClassMethodGet'}
+ /home/user/jedi/jedi/inference/value/decorator.py-get_signatures-24
+        signatures = self._wrapped_value.get_signatures()
+jedi.api.classes.Name._name
+{'jedi.inference.names.ModuleName', 'jedi.inference.names.StubModuleName', 'jedi.inference.names.ValueName', 'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.StubName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.inference.value.function.LambdaName', 'jedi.api.keywords.KeywordName', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.value.function.FunctionNameInClass', 'jedi.inference.compiled.value.CompiledValueName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-__hash__-790
+        return hash((self._name.start_pos, self.module_path, self.name, self._inference_state))
+jedi.api.classes.Name._name
+{'jedi.inference.names.ModuleName', 'jedi.inference.names.StubModuleName', 'jedi.inference.names.ValueName', 'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.StubName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.inference.value.function.LambdaName', 'jedi.api.keywords.KeywordName', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.value.function.FunctionNameInClass', 'jedi.inference.compiled.value.CompiledValueName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-parent-516
+            context = self._name.parent_context
+jedi.api.classes.Name._name
+{'jedi.inference.names.ModuleName', 'jedi.inference.names.StubModuleName', 'jedi.inference.names.ValueName', 'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.StubName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.inference.value.function.LambdaName', 'jedi.api.keywords.KeywordName', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.value.function.FunctionNameInClass', 'jedi.inference.compiled.value.CompiledValueName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-defined_names-764
+        defs = self._name.infer()
+jedi.api.classes.Name._name
+{'jedi.inference.names.ModuleName', 'jedi.inference.names.StubModuleName', 'jedi.inference.names.ValueName', 'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.StubName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.inference.value.function.LambdaName', 'jedi.api.keywords.KeywordName', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.value.function.FunctionNameInClass', 'jedi.inference.compiled.value.CompiledValueName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-type-191
+            for value in self._name.infer():
+jedi.api.classes.Name._name
+{'jedi.inference.names.ModuleName', 'jedi.inference.names.StubModuleName', 'jedi.inference.names.ValueName', 'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.StubName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.inference.value.function.LambdaName', 'jedi.api.keywords.KeywordName', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.value.function.FunctionNameInClass', 'jedi.inference.compiled.value.CompiledValueName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-_get_signatures-557
+        if self._name.api_type == 'property':
+jedi.api.classes.Name._name
+{'jedi.inference.names.ModuleName', 'jedi.inference.names.StubModuleName', 'jedi.inference.names.ValueName', 'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.StubName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.inference.value.function.LambdaName', 'jedi.api.keywords.KeywordName', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.value.function.FunctionNameInClass', 'jedi.inference.compiled.value.CompiledValueName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/test/test_api/test_interpreter.py-test_negate-715
+    value, = x._name.infer()
+jedi.api.classes.Name._name
+{'jedi.inference.names.ModuleName', 'jedi.inference.names.StubModuleName', 'jedi.inference.names.ValueName', 'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.StubName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.inference.value.function.LambdaName', 'jedi.api.keywords.KeywordName', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.value.function.FunctionNameInClass', 'jedi.inference.compiled.value.CompiledValueName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-execute-592
+        return _values_to_definitions(self._name.infer().execute_with_values())
+jedi.api.classes.Name._name
+{'jedi.inference.names.ModuleName', 'jedi.inference.names.StubModuleName', 'jedi.inference.names.ValueName', 'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.StubName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.inference.value.function.LambdaName', 'jedi.api.keywords.KeywordName', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.value.function.FunctionNameInClass', 'jedi.inference.compiled.value.CompiledValueName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-is_stub-415
+        return self._name.get_root_context().is_stub()
+jedi.api.classes.Name._name
+{'jedi.inference.names.ModuleName', 'jedi.inference.names.StubModuleName', 'jedi.inference.names.ValueName', 'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.StubName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.inference.value.function.LambdaName', 'jedi.api.keywords.KeywordName', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.value.function.FunctionNameInClass', 'jedi.inference.compiled.value.CompiledValueName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-column-230
+        start_pos = self._name.start_pos
+jedi.api.classes.Name._name
+{'jedi.inference.names.ModuleName', 'jedi.inference.names.StubModuleName', 'jedi.inference.names.ValueName', 'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.StubName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.inference.value.function.LambdaName', 'jedi.api.keywords.KeywordName', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.value.function.FunctionNameInClass', 'jedi.inference.compiled.value.CompiledValueName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-_get_module_context-96
+        return self._name.get_root_context()
+jedi.api.classes.Name._name
+{'jedi.inference.names.ModuleName', 'jedi.inference.names.StubModuleName', 'jedi.inference.names.ValueName', 'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.StubName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.inference.value.function.LambdaName', 'jedi.api.keywords.KeywordName', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.value.function.FunctionNameInClass', 'jedi.inference.compiled.value.CompiledValueName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/test/test_api/test_classes.py-test_import_alias-492
+    assert n._name._value.tree_node.type == 'file_input'
+jedi.api.classes.Name._name
+{'jedi.inference.names.ModuleName', 'jedi.inference.names.StubModuleName', 'jedi.inference.names.ValueName', 'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.StubName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.inference.value.function.LambdaName', 'jedi.api.keywords.KeywordName', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.value.function.FunctionNameInClass', 'jedi.inference.compiled.value.CompiledValueName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-line-222
+        start_pos = self._name.start_pos
+jedi.api.classes.Name._name
+{'jedi.inference.names.ModuleName', 'jedi.inference.names.StubModuleName', 'jedi.inference.names.ValueName', 'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.StubName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.inference.value.function.LambdaName', 'jedi.api.keywords.KeywordName', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.value.function.FunctionNameInClass', 'jedi.inference.compiled.value.CompiledValueName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/test/test_api/test_interpreter.py-test_illegal_class_instance-496
+    v, = d._name.infer()
+jedi.api.classes.Name._name
+{'jedi.inference.names.ModuleName', 'jedi.inference.names.StubModuleName', 'jedi.inference.names.ValueName', 'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.StubName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.inference.value.function.LambdaName', 'jedi.api.keywords.KeywordName', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.value.function.FunctionNameInClass', 'jedi.inference.compiled.value.CompiledValueName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-get_definition_start_position-246
+            return self._name.start_pos
+jedi.api.classes.Name._name
+{'jedi.inference.names.ModuleName', 'jedi.inference.names.StubModuleName', 'jedi.inference.names.ValueName', 'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.StubName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.inference.value.function.LambdaName', 'jedi.api.keywords.KeywordName', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.value.function.FunctionNameInClass', 'jedi.inference.compiled.value.CompiledValueName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-_get_docstring-312
+        return self._name.py__doc__()
+jedi.api.classes.Name._name
+{'jedi.inference.names.ModuleName', 'jedi.inference.names.StubModuleName', 'jedi.inference.names.ValueName', 'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.StubName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.inference.value.function.LambdaName', 'jedi.api.keywords.KeywordName', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.value.function.FunctionNameInClass', 'jedi.inference.compiled.value.CompiledValueName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-type-193
+        return self._name.api_type
+jedi.api.classes.Name._name
+{'jedi.inference.names.ModuleName', 'jedi.inference.names.StubModuleName', 'jedi.inference.names.ValueName', 'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.StubName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.inference.value.function.LambdaName', 'jedi.api.keywords.KeywordName', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.value.function.FunctionNameInClass', 'jedi.inference.compiled.value.CompiledValueName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-goto-446
+        names = self._name.goto()
+jedi.api.classes.Name._name
+{'jedi.inference.names.ModuleName', 'jedi.inference.names.StubModuleName', 'jedi.inference.names.ValueName', 'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.StubName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.inference.value.function.LambdaName', 'jedi.api.keywords.KeywordName', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.value.function.FunctionNameInClass', 'jedi.inference.compiled.value.CompiledValueName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-get_type_hint-604
+        return self._name.infer().get_type_hint()
+jedi.api.classes.Name._name
+{'jedi.inference.names.ModuleName', 'jedi.inference.names.StubModuleName', 'jedi.inference.names.ValueName', 'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.StubName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.inference.value.function.LambdaName', 'jedi.api.keywords.KeywordName', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.value.function.FunctionNameInClass', 'jedi.inference.compiled.value.CompiledValueName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-<lambda>-767
+            key=lambda s: s._name.start_pos or (0, 0)
+jedi.api.completion.Completion.stack
+{'parso.parser.Stack', 'builtins.NoneType', 'missing'}
+ /home/user/jedi/jedi/api/completion.py-_is_parameter_completion-328
+        tos = self.stack[-1]
+jedi.api.classes.Completion._name
+{'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.ImportName', 'jedi.inference.names.StubName', 'jedi.inference.compiled.value.EmptyCompiledName', 'jedi.inference.value.instance.CompiledInstanceName', 'jedi.api.completion.ParamNameWithEquals', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.api.keywords.KeywordName', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.filters.SpecialMethodName', 'jedi.inference.names.ModuleName', 'jedi.api.interpreter.MixedTreeName', 'jedi.api.strings.StringName', 'jedi.api.file_name.PathName', 'jedi.inference.value.module._ModuleAttributeName', 'jedi.inference.compiled.mixed.MixedName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-type-191
+            for value in self._name.infer():
+jedi.api.classes.Completion._name
+{'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.ImportName', 'jedi.inference.names.StubName', 'jedi.inference.compiled.value.EmptyCompiledName', 'jedi.inference.value.instance.CompiledInstanceName', 'jedi.api.completion.ParamNameWithEquals', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.api.keywords.KeywordName', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.filters.SpecialMethodName', 'jedi.inference.names.ModuleName', 'jedi.api.interpreter.MixedTreeName', 'jedi.api.strings.StringName', 'jedi.api.file_name.PathName', 'jedi.inference.value.module._ModuleAttributeName', 'jedi.inference.compiled.mixed.MixedName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-_get_signatures-557
+        if self._name.api_type == 'property':
+jedi.api.classes.Completion._name
+{'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.ImportName', 'jedi.inference.names.StubName', 'jedi.inference.compiled.value.EmptyCompiledName', 'jedi.inference.value.instance.CompiledInstanceName', 'jedi.api.completion.ParamNameWithEquals', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.api.keywords.KeywordName', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.filters.SpecialMethodName', 'jedi.inference.names.ModuleName', 'jedi.api.interpreter.MixedTreeName', 'jedi.api.strings.StringName', 'jedi.api.file_name.PathName', 'jedi.inference.value.module._ModuleAttributeName', 'jedi.inference.compiled.mixed.MixedName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-is_stub-415
+        return self._name.get_root_context().is_stub()
+jedi.api.classes.Completion._name
+{'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.ImportName', 'jedi.inference.names.StubName', 'jedi.inference.compiled.value.EmptyCompiledName', 'jedi.inference.value.instance.CompiledInstanceName', 'jedi.api.completion.ParamNameWithEquals', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.api.keywords.KeywordName', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.filters.SpecialMethodName', 'jedi.inference.names.ModuleName', 'jedi.api.interpreter.MixedTreeName', 'jedi.api.strings.StringName', 'jedi.api.file_name.PathName', 'jedi.inference.value.module._ModuleAttributeName', 'jedi.inference.compiled.mixed.MixedName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-get_line_code-552
+        index = self._name.start_pos[0] - 1
+jedi.api.classes.Completion._name
+{'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.ImportName', 'jedi.inference.names.StubName', 'jedi.inference.compiled.value.EmptyCompiledName', 'jedi.inference.value.instance.CompiledInstanceName', 'jedi.api.completion.ParamNameWithEquals', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.api.keywords.KeywordName', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.filters.SpecialMethodName', 'jedi.inference.names.ModuleName', 'jedi.api.interpreter.MixedTreeName', 'jedi.api.strings.StringName', 'jedi.api.file_name.PathName', 'jedi.inference.value.module._ModuleAttributeName', 'jedi.inference.compiled.mixed.MixedName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/test/test_api/test_interpreter.py-test_side_effect_completion-99
+    value, = side_effect._name.infer()
+jedi.api.classes.Completion._name
+{'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.ImportName', 'jedi.inference.names.StubName', 'jedi.inference.compiled.value.EmptyCompiledName', 'jedi.inference.value.instance.CompiledInstanceName', 'jedi.api.completion.ParamNameWithEquals', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.api.keywords.KeywordName', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.filters.SpecialMethodName', 'jedi.inference.names.ModuleName', 'jedi.api.interpreter.MixedTreeName', 'jedi.api.strings.StringName', 'jedi.api.file_name.PathName', 'jedi.inference.value.module._ModuleAttributeName', 'jedi.inference.compiled.mixed.MixedName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-column-230
+        start_pos = self._name.start_pos
+jedi.api.classes.Completion._name
+{'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.ImportName', 'jedi.inference.names.StubName', 'jedi.inference.compiled.value.EmptyCompiledName', 'jedi.inference.value.instance.CompiledInstanceName', 'jedi.api.completion.ParamNameWithEquals', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.api.keywords.KeywordName', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.filters.SpecialMethodName', 'jedi.inference.names.ModuleName', 'jedi.api.interpreter.MixedTreeName', 'jedi.api.strings.StringName', 'jedi.api.file_name.PathName', 'jedi.inference.value.module._ModuleAttributeName', 'jedi.inference.compiled.mixed.MixedName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-_get_module_context-96
+        return self._name.get_root_context()
+jedi.api.classes.Completion._name
+{'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.ImportName', 'jedi.inference.names.StubName', 'jedi.inference.compiled.value.EmptyCompiledName', 'jedi.inference.value.instance.CompiledInstanceName', 'jedi.api.completion.ParamNameWithEquals', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.api.keywords.KeywordName', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.filters.SpecialMethodName', 'jedi.inference.names.ModuleName', 'jedi.api.interpreter.MixedTreeName', 'jedi.api.strings.StringName', 'jedi.api.file_name.PathName', 'jedi.inference.value.module._ModuleAttributeName', 'jedi.inference.compiled.mixed.MixedName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-line-222
+        start_pos = self._name.start_pos
+jedi.api.classes.Completion._name
+{'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.ImportName', 'jedi.inference.names.StubName', 'jedi.inference.compiled.value.EmptyCompiledName', 'jedi.inference.value.instance.CompiledInstanceName', 'jedi.api.completion.ParamNameWithEquals', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.api.keywords.KeywordName', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.filters.SpecialMethodName', 'jedi.inference.names.ModuleName', 'jedi.api.interpreter.MixedTreeName', 'jedi.api.strings.StringName', 'jedi.api.file_name.PathName', 'jedi.inference.value.module._ModuleAttributeName', 'jedi.inference.compiled.mixed.MixedName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-_get_docstring-312
+        return self._name.py__doc__()
+jedi.api.classes.Completion._name
+{'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.ImportName', 'jedi.inference.names.StubName', 'jedi.inference.compiled.value.EmptyCompiledName', 'jedi.inference.value.instance.CompiledInstanceName', 'jedi.api.completion.ParamNameWithEquals', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.api.keywords.KeywordName', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.filters.SpecialMethodName', 'jedi.inference.names.ModuleName', 'jedi.api.interpreter.MixedTreeName', 'jedi.api.strings.StringName', 'jedi.api.file_name.PathName', 'jedi.inference.value.module._ModuleAttributeName', 'jedi.inference.compiled.mixed.MixedName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-type-193
+        return self._name.api_type
+jedi.api.classes.Completion._name
+{'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.ImportName', 'jedi.inference.names.StubName', 'jedi.inference.compiled.value.EmptyCompiledName', 'jedi.inference.value.instance.CompiledInstanceName', 'jedi.api.completion.ParamNameWithEquals', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.api.keywords.KeywordName', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.filters.SpecialMethodName', 'jedi.inference.names.ModuleName', 'jedi.api.interpreter.MixedTreeName', 'jedi.api.strings.StringName', 'jedi.api.file_name.PathName', 'jedi.inference.value.module._ModuleAttributeName', 'jedi.inference.compiled.mixed.MixedName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/jedi/api/classes.py-get_line_code-547
+        lines = self._name.get_root_context().code_lines
+jedi.api.classes.Completion._name
+{'jedi.inference.names.AnonymousParamName', 'jedi.inference.names.ImportName', 'jedi.inference.names.StubName', 'jedi.inference.compiled.value.EmptyCompiledName', 'jedi.inference.value.instance.CompiledInstanceName', 'jedi.api.completion.ParamNameWithEquals', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.api.keywords.KeywordName', 'jedi.inference.value.klass.ClassName', 'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.filters.SpecialMethodName', 'jedi.inference.names.ModuleName', 'jedi.api.interpreter.MixedTreeName', 'jedi.api.strings.StringName', 'jedi.api.file_name.PathName', 'jedi.inference.value.module._ModuleAttributeName', 'jedi.inference.compiled.mixed.MixedName', 'jedi.inference.names.TreeNameDefinition', 'jedi.inference.compiled.value.CompiledName', 'jedi.inference.names.SubModuleName'}
+ /home/user/jedi/test/test_api/test_completion.py-test_fake_subnodes-119
+        str_value, = c._name.infer()
+jedi.inference.compiled.mixed.MixedObject._wrapped_value
+{'jedi.inference.value.klass.ClassValue', 'jedi.inference.value.instance.BoundMethod', 'jedi.inference.value.function.FunctionValue', 'jedi.inference.value.function.MethodValue', 'jedi.inference.gradual.stub_value.StubModuleValue', 'jedi.inference.value.instance.TreeInstance', 'jedi.inference.value.module.ModuleValue', 'jedi.plugins.stdlib.PartialObject'}
+ /home/user/jedi/jedi/inference/compiled/mixed.py-py__simple_getitem__-83
+        return self._wrapped_value.py__simple_getitem__(index)
+jedi.api.classes.ParamName._name
+{'jedi.inference.compiled.value.SignatureParamName', 'jedi.inference.names.AnonymousParamName'}
+ /home/user/jedi/jedi/api/classes.py-infer_annotation-878
+        return _values_to_definitions(self._name.infer_annotation(ignore_stars=True, **kwargs))

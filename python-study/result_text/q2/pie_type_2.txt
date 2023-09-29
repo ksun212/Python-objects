@@ -1,0 +1,4 @@
+ln	83
+t1stru2	17
+rn	8
+t1st2	1

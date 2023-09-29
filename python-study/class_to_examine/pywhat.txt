@@ -1,0 +1,5 @@
+-------case--------pywhat.identifier.Identifier._key
+{'pywhat.helper.Keys', 'builtins.function'}
+ /home/user/pyWhat/pywhat/identifier.py-identify-42
+
+

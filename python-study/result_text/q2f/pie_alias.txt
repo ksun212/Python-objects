@@ -1,0 +1,4 @@
+function	39
+method	227
+non_local	33
+local	118

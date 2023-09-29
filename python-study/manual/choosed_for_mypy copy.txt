@@ -1,0 +1,499 @@
+
+-------case--------sklearn.ensemble._gb.GradientBoostingRegressor._loss
+{'sklearn.ensemble._gb_losses.LeastSquaresError', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-_init_state-444
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.naive_bayes.MultinomialNB.class_log_prior_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_joint_log_likelihood-866
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.decomposition._kernel_pca.KernelPCA.eigenvectors_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-transform-489
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.linear_model._ridge.RidgeClassifierCV.intercept_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-decision_function-430
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.decomposition._incremental_pca.IncrementalPCA.components_
+{'missing', 'builtins.NoneType', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_base.py-transform-123
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.neural_network._multilayer_perceptron.MLPRegressor.validation_scores_
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_update_no_improvement_count-719
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.naive_bayes.ComplementNB.feature_log_prob_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_joint_log_likelihood-997
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.svm._classes.SVC.shape_fit_
+{'missing', 'builtins.tuple'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-_validate_for_predict-632
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.linear_model._ridge.RidgeClassifier._label_binarizer
+{'missing', 'sklearn.preprocessing._label.LabelBinarizer'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_ridge.py-classes_-1213
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.linear_model._ridge.RidgeClassifierCV._label_binarizer
+{'missing', 'sklearn.preprocessing._label.LabelBinarizer'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_ridge.py-classes_-1213
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.feature_extraction.text.CountVectorizer.vocabulary_ ~
+{'builtins.dict', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_extraction/text.py-get_feature_names_out-1456
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.impute._iterative.IterativeImputer._min_value ~ 
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/impute/_iterative.py-_impute_one_feature-365
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.linear_model._stochastic_gradient.SGDOneClassSVM.coef_ ~
+{'missing', 'builtins.NoneType', 'numpy.numpy.ndarray', 'scipy.sparse._csr.csr_matrix'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-decision_function-2467
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.naive_bayes.GaussianNB.theta_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_joint_log_likelihood-488
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.impute._base.MissingIndicator._n_features
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/impute/_base.py-transform-977
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.decomposition._lda.LatentDirichletAllocation.topic_word_prior_
+{'missing', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_lda.py-_em_step-509
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.gaussian_process._gpc.GaussianProcessClassifier.n_classes_
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/gaussian_process/_gpc.py-predict_proba-773
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.preprocessing._data.PowerTransformer._scaler
+{'missing', 'sklearn.preprocessing._data.StandardScaler'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_data.py-transform-3116
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.ensemble._stacking.StackingRegressor.estimators_
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_stacking.py-n_features_in_-271
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.cross_decomposition._pls.PLSSVD._y_mean
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/cross_decomposition/_pls.py-transform-1052
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.kernel_approximation.Nystroem.component_indices_ #
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_kernel_approximation.py-test_nystroem_component_indices-348
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.decomposition._pca.PCA.noise_variance_
+{'missing', 'numpy.numpy.float64', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_base.py-get_precision-79
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.linear_model._least_angle.LassoLarsCV.intercept_
+{'missing', 'numpy.numpy.float64', 'numpy.numpy.float32'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.multioutput.RegressorChain.estimators_
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multioutput.py-predict-622
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.ensemble._stacking.StackingClassifier.stack_method_
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_stacking.py-_concatenate_predictions-102
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.ensemble._iforest.IsolationForest.base_estimator_
+{'missing', 'sklearn.tree._classes.ExtraTreeRegressor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_bagging.py-_fit-359
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis.rotations_
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/discriminant_analysis.py-_decision_function-909
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.feature_selection._univariate_selection.SelectFpr.pvalues_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_selection/_univariate_selection.py-_get_support_mask-762
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.model_selection._search_successive_halving.HalvingGridSearchCV.cv_results_
+{'builtins.dict', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search_successive_halving.py-fit-264
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.linear_model._quantile.QuantileRegressor.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.neural_network._multilayer_perceptron.MLPRegressor.best_loss_
+{'missing', 'numpy.numpy.float64', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_update_no_improvement_count-742
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.feature_selection._rfe.RFECV.estimator_
+{'missing', 'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.tests.test_metaestimators.SubEstimator'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_selection/_rfe.py-predict_proba-422
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis.scalings_
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/discriminant_analysis.py-_decision_function-910
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.covariance._graph_lasso.GraphicalLasso.location_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/covariance/_empirical_covariance.py-score-261
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.kernel_approximation.PolynomialCountSketch.bitHash_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-transform-211
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.linear_model._logistic.LogisticRegression.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py-predict_proba-1308
+reportUninitializedInstanceVariable
+
+-------case--------sklearn.linear_model._bayes.BayesianRidge.intercept_
+{'missing', 'numpy.numpy.float64', 'numpy.numpy.float32'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+reportUninitializedInstanceVariable
+
+-------case--------weasyprint.images.RadialGradient.size
+{'builtins.str', 'builtins.tuple'}
+ /home/user/WeasyPrint-52.5/weasyprint/images.py-_resolve_size-526
+weasyprint/images.py:145:33 - error: Cannot access member "startswith" for type "Tuple[str, str]"
+
+-------case--------weasyprint.formatting_structure.boxes.PageBox.min_width
+{'builtins.int', 'builtins.float', 'missing', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/min_max.py-wrapper-22
+weasyprint/formatting_structure/boxes.py:686:5 - error: Instance variable "min_width" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------weasyprint.formatting_structure.boxes.PageBox.position_x
+{'builtins.int', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-padding_box_x-175
+weasyprint/formatting_structure/boxes.py:91:5 - error: Instance variable "position_x" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------weasyprint.layout.pages.HorizontalBox.margin_b
+{'builtins.str', 'builtins.float', 'builtins.int'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/pages.py-page_width_or_height-482
+weasyprint/layout/pages.py:486:21 - error: Operator "-" not supported for types "int" and "int | float | str"
+
+ -------case--------weasyprint.formatting_structure.boxes.InlineBlockBox.padding_top
+{'missing', 'builtins.int'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-content_box_y-170
+weasyprint/formatting_structure/boxes.py:86:5 - error: Instance variable "padding_top" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+ -------case--------weasyprint.images.RadialGradient.size
+{'builtins.str', 'builtins.tuple'}
+ /home/user/WeasyPrint-52.5/weasyprint/images.py-_resolve_size-526
+weasyprint/images.py:145:33 - error: Cannot access member "startswith" for type "Tuple[str, str]"
+
+-------case--------weasyprint.formatting_structure.boxes.LineBox.width
+{'builtins.int', 'builtins.float', 'missing', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-padding_width-137
+weasyprint/formatting_structure/boxes.py:92:5 - error: Instance variable "width" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnGroupBox.border_right_width
+{'builtins.int', 'builtins.float', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-border_width-146
+weasyprint/formatting_structure/boxes.py:93:5 - error: Instance variable "border_right_width" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnBox.border_bottom_width
+{'builtins.int', 'builtins.float', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-border_height-151
+weasyprint/formatting_structure/boxes.py:94:5 - error: Instance variable "border_bottom_width" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBox.padding_left
+{'builtins.int', 'builtins.float', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/inlines.py-split_inline_box-669
+weasyprint/formatting_structure/boxes.py:95:5 - error: Instance variable "padding_left" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------weasyprint.formatting_structure.boxes.TableColumnBox.height
+{'builtins.int', 'builtins.float', 'missing', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-padding_height-141
+weasyprint/formatting_structure/boxes.py:99:5 - error: Instance variable "height" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------weasyprint.formatting_structure.boxes.MarginBox.padding_right
+{'builtins.int', 'builtins.float', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/pages.py-__init__-82
+weasyprint/formatting_structure/boxes.py:96:5 - error: Instance variable "padding_right" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------weasyprint.formatting_structure.boxes.BlockReplacedBox.padding_bottom
+{'builtins.int', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-rounded_content_box-266
+weasyprint/formatting_structure/boxes.py:97:5 - error: Instance variable "padding_bottom" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------weasyprint.formatting_structure.boxes.TableCellBox.padding_top
+{'builtins.int', 'builtins.float', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-content_box_y-170
+weasyprint/formatting_structure/boxes.py:86:5 - error: Instance variable "padding_top" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------weasyprint.formatting_structure.boxes.PageBox.margin_left
+{'builtins.int', 'builtins.float', 'missing', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-margin_width-155
+weasyprint/formatting_structure/boxes.py:88:5 - error: Instance variable "margin_left" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------weasyprint.formatting_structure.boxes.PageBox.background
+{'missing', 'weasyprint.layout.backgrounds.Background', 'builtins.NoneType'}
+ /home/user/WeasyPrint-52.5/weasyprint/tests/test_layout/test_image.py-layout-341
+weasyprint/formatting_structure/boxes.py:687:5 - error: Instance variable "background" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.padding_left
+{'builtins.int', 'builtins.float', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/flex.py-flex_layout-784
+weasyprint/formatting_structure/boxes.py:95:5 - error: Instance variable "padding_left" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------weasyprint.layout.pages.HorizontalBox.margin_a
+{'builtins.int', 'builtins.float', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/pages.py-compute_fixed_dimension-160
+weasyprint/layout/pages.py:160:26 - error: Operator "-" not supported for types "int" and "int | float | str"
+
+-------case--------weasyprint.formatting_structure.boxes.TableCellBox.padding_bottom
+{'builtins.int', 'builtins.float', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_container_layout-387
+weasyprint/formatting_structure/boxes.py:97:5 - error: Instance variable "padding_bottom" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.width
+{'builtins.int', 'builtins.float', 'missing', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-padding_width-137
+weasyprint/formatting_structure/boxes.py:92:5 - error: Instance variable "width" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBlockBox.margin_top
+{'builtins.int', 'builtins.float', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/blocks.py-block_container_layout-300
+weasyprint/formatting_structure/boxes.py:87:5 - error: Instance variable "margin_top" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------weasyprint.formatting_structure.boxes.TableCellBox.border_left_width
+{'builtins.int', 'builtins.float', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/formatting_structure/boxes.py-content_box_x-166
+weasyprint/formatting_structure/boxes.py:100:5 - error: Instance variable "border_left_width" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------weasyprint.formatting_structure.boxes.BlockBox.margin_left
+{'builtins.int', 'builtins.float', 'missing', 'builtins.str'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/flex.py-flex_layout-773
+weasyprint/formatting_structure/boxes.py:88:5 - error: Instance variable "margin_left" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------weasyprint.formatting_structure.boxes.InlineBox.padding_right
+{'builtins.int', 'builtins.float', 'missing'}
+ /home/user/WeasyPrint-52.5/weasyprint/layout/inlines.py-split_inline_box-671
+weasyprint/formatting_structure/boxes.py:96:5 - error: Instance variable "padding_right" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+ -------case--------sphinx.pycode.parser.AfterCommentParser.current
+{'builtins.NoneType', 'sphinx.pycode.parser.Token'}
+ /home/user/sphinx-master/sphinx/pycode/parser.py-fetch_rvalue-194
+sphinx/pycode/parser.py:163:31 - error: "kind" is not a known member of "None" (reportOptionalMemberAccess)
+
+-------case--------sphinx.writers.texinfo.TexinfoTranslator.settings
+{'unittest.mock.Mock', 'docutils.frontend.Values'}
+ /home/user/sphinx-master/sphinx/writers/texinfo.py-init_settings-243
+Mock
+
+-------case--------sphinx.builders.dirhtml.DirectoryHTMLBuilder.globalcontext
+{'missing', 'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-handle_page-1028
+sphinx/builders/html/__init__.py:31:5 - error: Instance variable "globalcontext" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------sphinx.builders.xml.XMLBuilder.writer
+{'missing', 'sphinx.writers.xml.XMLWriter'}
+ /home/user/sphinx-master/sphinx/builders/xml.py-write_doc-81
+sphinx/builders/xml.py:36:5 - error: Instance variable "writer" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------sphinx.writers.text.Cell.col
+{'builtins.NoneType', 'builtins.int'}
+ /home/user/sphinx-master/sphinx/writers/text.py-cell_width-155
+sphinx/writers/text.py:155:29 - error: Operator "+" not supported for "None" (reportOptionalOperand)
+
+-------case--------sphinx.pycode.parser.DefinitionFinder.current
+{'sphinx.pycode.parser.Token', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/pycode/parser.py-finalize_block-528
+sphinx/pycode/parser.py:528:36 - error: "end" is not a known member of "None" (reportOptionalMemberAccess)
+
+-------case--------sphinx.builders.dirhtml.DirectoryHTMLBuilder.theme
+{'missing', 'sphinx.theming.Theme'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-cleanup-901
+sphinx/builders/html/__init__.py:306:14 - error: Instance variable "theme" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------sphinx.roles.RFC.target
+{'missing', 'builtins.str'}
+ /home/user/sphinx-master/sphinx/roles.py-build_uri-234
+sphinx/util/docutils.py:528:5 - error: Instance variable "target" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------sphinx.domains.cpp.Symbol.identOrOp
+{'sphinx.domains.cpp.ASTIdentifier', 'sphinx.domains.cpp.ASTOperatorBuildIn', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-children_recurse_anon-4359
+sphinx/domains/cpp.py:4360:32 - error: "is_anon" is not a known member of "None" (reportOptionalMemberAccess)
+
+-------case--------sphinx.config.Config.project
+{'missing', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sphinxcontrib/applehelp/__init__.py-<lambda>-257
+sphinx/config.py:87:5 - error: Instance variable "project" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------sphinx.config.Config.latex_elements
+{'missing', 'builtins.dict'}
+ /home/user/sphinx-master/tests/test_config.py-test_core_config-28
+sphinx/config.py:88:5 - error: Instance variable "latex_elements" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------sphinx.ext.autodoc.PropertyDocumenter.objpath
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-_find_signature-1170
+sphinx/ext/autodoc/__init__.py:1170:24 - error: Object of type "None" is not subscriptable (reportOptionalSubscript)
+
+-------case--------sphinx.domains.cpp.ASTDeclaratorNameParamQual.paramQual
+{'sphinx.domains.cpp.ASTParametersQualifiers', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-trailingReturn-2495
+sphinx/domains/cpp.py:2496:31 - error: "trailingReturn" is not a known member of "None" (reportOptionalMemberAccess)
+
+-------case--------sphinx.builders.html.StandaloneHTMLBuilder.relations
+{'missing', 'builtins.dict'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-get_doc_context-612
+sphinx/builders/html/__init__.py:219:5 - error: Instance variable "relations" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------sphinx.builders.dirhtml.DirectoryHTMLBuilder.highlighter
+{'sphinx.highlighting.PygmentsBridge', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-create_pygments_style_file-803
+sphinx/builders/html/__init__.py:220:5 - error: Instance variable "highlighter" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------sphinx.ext.autodoc.PropertyDocumenter.object
+{'builtins.property', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-add_directive_header-2725
+sphinx/ext/autodoc/__init__.py:2725:32 - error: "fget" is not a known member of "None" (reportOptionalMemberAccess)
+
+-------case--------sphinx.ext.autodoc.ModuleDocumenter.objpath
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/sphinx-master/sphinx/ext/autodoc/__init__.py-document_members-815
+sphinx/ext/autodoc/__init__.py:815:57 - error: Operator "+" not supported for "None" (reportOptionalOperand)
+
+-------case--------dvc.stage.Stage.repo
+{'builtins.NoneType', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/stage/decorators.py-rwlocked-36
+ dvc/example7.py:227:23 - error: "lock" is not a known member of "None" (reportOptionalMemberAccess)
+
+-------case--------dvc.output.Output.obj
+{'builtins.NoneType', 'dvc_data.hashfile.tree.Tree', 'dvc_data.hashfile.obj.HashFile'}
+ /home/user/dvc/tests/func/test_remote.py-test_push_order-288
+dvc/test_remote.py:289:40 - error: "_trie" is not a known member of "None" (reportOptionalMemberAccess)
+
+ -------case--------pyod.models.vae.VAE.scaler_
+{'missing', 'sklearn.preprocessing._data.StandardScaler'}
+ /home/user/pyod/pyod/models/vae.py-decision_function-380
+pyod/model.py:157:5 - error: Instance variable "scaler_" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------pyod.models.vae.VAE.model_
+{'missing', 'keras.engine.functional.Functional'}
+ /home/user/pyod/pyod/models/vae.py-decision_function-385
+pyod/model.py:158:5 - error: Instance variable "model_" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+ -------case--------yapf.yapflib.format_decision_state.FormatDecisionState.next_token
+{'yapf.yapflib.format_token.FormatToken', 'builtins.NoneType'}
+ /home/user/yapf/tests/format_decision_state_test.py-testSimpleFunctionDefWithNoSplitting-75
+yapf/format_decision_state_test.py:104:44 - error: "value" is not a known member of "None" (reportOptionalMemberAccess)
+
+ -------case--------networkx.classes.multigraph.MultiGraph._adj
+{'networkx.classes.coreviews.FilterMultiAdjacency', 'builtins.dict'}
+ /home/user/networkx/networkx/classes/graph.py-clear-1534
+networkx/classes/graph.py:30:19 - error: Cannot access member "clear" for type "FilterMultiAdjacency"
+
+-------case--------networkx.classes.multigraph.MultiGraph._node
+{'networkx.classes.coreviews.FilterAtlas', 'builtins.dict'}
+ /home/user/networkx/networkx/relabel.py-_relabel_copy-193
+networkx/relabel.py:195:13 - error: Cannot access member "update" for type "FilterAtlas"
+
+-------case--------networkx.classes.digraph.DiGraph._pred
+{'networkx.classes.coreviews.FilterAdjacency', 'builtins.dict'}
+ /home/user/networkx/networkx/classes/digraph.py-clear-1195
+networkx/classes/digraph.py:1195:20 - error: Cannot access member "clear" for type "FilterAdjacency"
+
+-------case--------statsmodels.sandbox.stats.multicomp.TukeyHSDResults.halfwidths
+{'numpy.numpy.ndarray', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/sandbox/stats/multicomp.py-plot_simultaneous-771
+statsmodels/sandbox/stats/multicomp.py:632:5 - error: Instance variable "halfwidths" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------statsmodels.sandbox.stats.multicomp.MultiComparison.groupstats
+{'statsmodels.sandbox.stats.multicomp.GroupsStats', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/tests/test_pairwise.py-get_thsd-160
+statsmodels/sandbox/stats/multicomp.py:808:5 - error: Instance variable "groupstats" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------statsmodels.genmod.generalized_linear_model.GLM.family
+{'statsmodels.genmod.families.family.Binomial', 'statsmodels.genmod.families.family.Poisson', 'statsmodels.genmod.families.family.Gaussian'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/statsmodels/stats/outliers_influence.py-_res_looo-1374
+statsmodels/stats/outliers_influence.py:1375:30 - error: Cannot assign member "n" for type "Gaussian"
+
+-------case--------snorkel.classification.training.trainer.Trainer.n_batches_per_epoch
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_set_lr_scheduler-349
+snorkel/classification/training/trainer.py:138:5 - error: Instance variable "n_batches_per_epoch" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------snorkel.classification.training.trainer.Trainer.running_counts
+{'missing', 'collections.collections.defaultdict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_aggregate_losses-493
+snorkel/classification/training/trainer.py:137:5 - error: Instance variable "running_counts" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------click.core.Context.command
+{'click.core.Group', 'test_commands.OptParseCommand', 'click.core.Command', 'test_commands.AliasedGroup'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/shell_completion.py-_resolve_incomplete-564
+click/shell_completion.py:564:26 - error: Cannot access member "get_params" for type "BaseCommand"
+
+-------case--------jedi.inference.compiled.mixed.MixedObject._wrapped_value
+{'jedi.inference.gradual.stub_value.StubModuleValue', 'jedi.inference.value.module.ModuleValue', 'jedi.inference.value.instance.BoundMethod', 'jedi.inference.value.function.FunctionValue', 'jedi.inference.value.instance.TreeInstance', 'jedi.plugins.stdlib.PartialObject', 'jedi.inference.value.klass.ClassValue', 'jedi.inference.value.function.MethodValue'}
+ /home/user/jedi/jedi/inference/compiled/mixed.py-py__simple_getitem__-83
+GETATTR/MethodValue
+
+-------case--------jedi.inference.names.ValueName._value
+{'jedi.inference.compiled.mixed.MixedObject', 'jedi.plugins.stdlib.PropertyObject', 'jedi.inference.filters._BuiltinMappedMethod', 'jedi.inference.gradual.typing.TypingClassWithGenerics', 'jedi.inference.value.function.FunctionValue', 'jedi.inference.value.instance.TreeInstance', 'jedi.inference.value.instance.BoundMethod', 'jedi.inference.gradual.typing.OverloadFunction', 'jedi.inference.gradual.base._GenericInstanceWrapper', 'jedi.inference.gradual.base._PseudoTreeNameClass', 'jedi.plugins.stdlib.ClassMethodGet', 'jedi.inference.value.function.MethodValue', 'jedi.inference.gradual.typing.ProxyWithGenerics', 'jedi.inference.gradual.base.GenericClass', 'jedi.inference.gradual.typing.TypeAlias', 'jedi.inference.value.function.OverloadedFunctionValue', 'jedi.inference.compiled.ExactValue', 'jedi.inference.gradual.type_var.TypeVarClass', 'jedi.inference.value.instance.AnonymousInstance', 'jedi.inference.value.decorator.Decoratee', 'jedi.inference.value.klass.ClassValue'}
+ /home/user/jedi/jedi/inference/names.py-py__doc__-233
+GETATTR/MixedObject
+
+-------case--------jedi.api.classes.Completion._name
+{'jedi.inference.value.instance.LazyInstanceClassName', 'jedi.inference.filters.SpecialMethodName', 'jedi.api.interpreter.MixedTreeName', 'jedi.inference.names.StubName', 'jedi.inference.names.AnonymousParamName', 'jedi.api.strings.StringName', 'jedi.api.keywords.KeywordName', 'jedi.inference.value.instance.CompiledInstanceName', 'jedi.inference.compiled.mixed.MixedName', 'jedi.inference.names.ModuleName', 'jedi.inference.value.module._ModuleAttributeName', 'jedi.inference.names.TreeNameDefinition', 'jedi.api.file_name.PathName', 'jedi.inference.value.instance.InstanceExecutedParamName', 'jedi.inference.compiled.value.EmptyCompiledName', 'jedi.inference.compiled.value.CompiledName', 'jedi.api.completion.ParamNameWithEquals', 'jedi.inference.names.ImportName', 'jedi.inference.names.SubModuleName', 'jedi.inference.value.klass.ClassName'}
+ /home/user/jedi/jedi/api/classes.py-get_line_code-552
+GETATTR/LazyInstanceClassName
+
+-------case--------markdown.extensions.toc.TocExtension.md
+{'markdown.core.Markdown', 'missing'}
+ /home/user/markdown/markdown/extensions/toc.py-reset-380
+markdown/extensions/toc.py:324:5 - error: Instance variable "md" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------markdown.extensions.footnotes.FootnoteExtension.parser
+{'markdown.blockparser.BlockParser', 'missing'}
+ /home/user/markdown/markdown/extensions/footnotes.py-makeFootnotesDiv-186
+markdown/extensions/footnotes.py:99:14 - error: Instance variable "footnotes" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable)
+
+-------case--------markdown.extensions.wikilinks.WikiLinksInlineProcessor.md
+{'markdown.core.Markdown', 'builtins.NoneType'}
+ /home/user/markdown/markdown/extensions/wikilinks.py-_getMeta-77
+markdown/extensions/wikilinks.py:78:36 - error: "Meta" is not a known member of "None" (reportOptionalMemberAccess)
+
+-------case--------seaborn._oldcore.VectorPlotter.converters
+{'missing', 'builtins.dict'}
+ /home/user/seaborn/tests/test_core.py-test_attach_shared_axes-1192
+/seaborn/_base.py:623:5 - error: Instance variable "converters" is not initialized in the class body or __init__ method (reportUninitializedInstanceVariable
+
+-------case--------stanza.models.lemma.data.DataLoader.data
+{'builtins.list', 'missing'}
+ /home/user/stanza/stanza/models/lemma/data.py-__len__-84
+COND
