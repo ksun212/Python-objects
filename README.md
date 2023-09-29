@@ -1,4 +1,4 @@
-    This is the artifact of a study on Python objects. 
+ This is the artifact of a study on Python objects. 
 
 ## Structure
 After unzip, the artifact contains two folders: 
