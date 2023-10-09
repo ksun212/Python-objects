@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/home/user/purepython/cpython-3.9/Lib/warnings.py", line 112, in _showwarnmsg
+    _showwarnmsg_impl(msg)
+  File "/home/user/purepython/cpython-3.9/Lib/warnings.py", line 28, in _showwarnmsg_impl
+    text = _formatwarnmsg(msg)
+  File "/home/user/purepython/cpython-3.9/Lib/warnings.py", line 128, in _formatwarnmsg
+    return _formatwarnmsg_impl(msg)
+  File "/home/user/purepython/cpython-3.9/Lib/warnings.py", line 41, in _formatwarnmsg_impl
+    import linecache
+  File "/home/user/purepython/cpython-3.9/Lib/linecache.py", line 11, in <module>
+    import tokenize
+  File "/home/user/purepython/cpython-3.9/Lib/tokenize.py", line 34, in <module>
+    from token import *
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+KeyboardInterrupt

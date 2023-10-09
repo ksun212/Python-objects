@@ -1,0 +1,90 @@
+/home/user/thefuck-master/pre_run_biend.py:3772: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3782: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(O6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3806: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ set$ & ' + ' & '.join(EXT_SET) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3807: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ event$ & ' + ' & '.join(EXT_EVENT) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3934: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/thefuck-master/pre_run_biend.py:3945: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3955: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3967: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3979: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:4101: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dash/testing/plugin.py:92: PytestDeprecationWarning: The hookimpl pytest_addhooks uses old-style configuration options (marks or attributes).
+Please use the pytest.hookimpl(tryfirst=True) decorator instead
+ to configure the hooks.
+ See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers
+  @pytest.mark.tryfirst
+============================= test session starts ==============================
+platform linux -- Python 3.9.15+, pytest-7.2.0, pluggy-1.0.0
+rootdir: /home/user/pyecharts
+plugins: mock-3.10.0, hypothesis-6.56.4, httpbin-1.0.2, cov-4.0.0, time-machine-2.9.0, html-3.2.0, Faker-15.3.4, anyio-3.6.2, flaky-3.7.0, hydra-core-1.3.2, xdist-3.2.1, test-utils-0.0.8, lazy-fixture-0.6.3, docker-1.0.1, xonsh-0.13.4, pylama-8.4.1, dash-2.9.1
+collected 151 items
+
+tests/test_bar.py ...............                                        [  9%]
+tests/test_bar3d.py ..                                                   [ 11%]
+tests/test_base.py ...                                                   [ 13%]
+tests/test_bmap.py ......                                                [ 17%]
+tests/test_boxplot.py ..                                                 [ 18%]
+tests/test_calendar.py ..                                                [ 19%]
+tests/test_datasets.py ...                                               [ 21%]
+tests/test_display.py ..                                                 [ 23%]
+tests/test_effectscatter.py ..                                           [ 24%]
+tests/test_exception.py ....                                             [ 27%]
+tests/test_funnel.py ..                                                  [ 28%]
+tests/test_gauge.py ...                                                  [ 30%]
+tests/test_geo.py ....                                                   [ 33%]
+tests/test_global_options.py .........                                   [ 39%]
+tests/test_graph.py ....                                                 [ 41%]
+tests/test_grid.py ...                                                   [ 43%]
+tests/test_heatmap.py .                                                  [ 44%]
+tests/test_image.py ..                                                   [ 45%]
+tests/test_item_style_options.py .                                       [ 46%]
+tests/test_kline.py ...                                                  [ 48%]
+tests/test_line.py .....                                                 [ 51%]
+tests/test_line3d.py .                                                   [ 52%]
+tests/test_liquid.py ..                                                  [ 53%]
+tests/test_map.py ...                                                    [ 55%]
+tests/test_map3d.py ..                                                   [ 56%]
+tests/test_map_globe.py ..                                               [ 58%]
+tests/test_page.py .............                                         [ 66%]
+tests/test_parallel.py .                                                 [ 67%]
+tests/test_pictorialbar.py .                                             [ 68%]
+tests/test_pie.py ..                                                     [ 69%]
+tests/test_polar.py .                                                    [ 70%]
+tests/test_radar.py ...                                                  [ 72%]
+tests/test_sankey.py ..                                                  [ 73%]
+tests/test_scatter.py ..                                                 [ 74%]
+tests/test_scatter3d.py .                                                [ 75%]
+tests/test_series_options.py ..                                          [ 76%]
+tests/test_snapshot.py .....                                             [ 80%]
+tests/test_sunburst.py ..                                                [ 81%]
+tests/test_surface3d.py .                                                [ 82%]
+tests/test_tab.py .......                                                [ 86%]
+tests/test_table.py ..                                                   [ 88%]
+tests/test_themeriver.py .                                               [ 88%]
+tests/test_timeline.py ........                                          [ 94%]
+tests/test_tree.py ..                                                    [ 95%]
+tests/test_treemap.py ...                                                [ 97%]
+tests/test_utils.py ...                                                  [ 99%]
+tests/test_wordcloud.py .                                                [100%]
+
+=============================== warnings summary ===============================
+../purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/nose/importer.py:12
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/nose/importer.py:12: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+    from imp import find_module, load_module, acquire_lock, release_lock
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================= 151 passed, 1 warning in 1411.62s (0:23:31) ==================
+Traceback (most recent call last):
+  File "/home/user/thefuck-master/pre_run_biend.py", line 102, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'

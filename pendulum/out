@@ -1,0 +1,155 @@
+/home/user/thefuck-master/pre_run_biend.py:3772: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3782: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(O6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3806: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ set$ & ' + ' & '.join(EXT_SET) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3807: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ event$ & ' + ' & '.join(EXT_EVENT) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3934: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/thefuck-master/pre_run_biend.py:3945: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3955: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3967: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3979: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:4101: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dash/testing/plugin.py:92: PytestDeprecationWarning: The hookimpl pytest_addhooks uses old-style configuration options (marks or attributes).
+Please use the pytest.hookimpl(tryfirst=True) decorator instead
+ to configure the hooks.
+ See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers
+  @pytest.mark.tryfirst
+============================= test session starts ==============================
+platform linux -- Python 3.9.15+, pytest-7.2.0, pluggy-1.0.0
+rootdir: /home/user/pendulum
+plugins: mock-3.10.0, hypothesis-6.56.4, httpbin-1.0.2, cov-4.0.0, time-machine-2.9.0, html-3.2.0, Faker-15.3.4, anyio-3.6.2, flaky-3.7.0, hydra-core-1.3.2, xdist-3.2.1, test-utils-0.0.8, lazy-fixture-0.6.3, docker-1.0.1, xonsh-0.13.4, pylama-8.4.1, dash-2.9.1
+collected 1732 items
+
+tests/test_helpers.py ..................                                 [  1%]
+tests/test_main.py .                                                     [  1%]
+tests/test_parsing.py .......                                            [  1%]
+tests/benchmarks/test_format.py E                                        [  1%]
+tests/benchmarks/test_parse_8601.py .                                    [  1%]
+tests/date/test_add.py ................                                  [  2%]
+tests/date/test_behavior.py ...........                                  [  3%]
+tests/date/test_comparison.py .........................                  [  4%]
+tests/date/test_construct.py ..                                          [  4%]
+tests/date/test_day_of_week_modifiers.py ............................... [  6%]
+......................                                                   [  7%]
+tests/date/test_diff.py ................................................ [ 10%]
+....................                                                     [ 11%]
+tests/date/test_fluent_setters.py ...                                    [ 11%]
+tests/date/test_getters.py ..............                                [ 12%]
+tests/date/test_start_end_of.py ........................................ [ 15%]
+.                                                                        [ 15%]
+tests/date/test_strings.py ........                                      [ 15%]
+tests/date/test_sub.py ................                                  [ 16%]
+tests/datetime/test_add.py ................................              [ 18%]
+tests/datetime/test_behavior.py .........................                [ 19%]
+tests/datetime/test_comparison.py ....................................   [ 21%]
+tests/datetime/test_construct.py ....................                    [ 22%]
+tests/datetime/test_create_from_timestamp.py ...                         [ 23%]
+tests/datetime/test_day_of_week_modifiers.py ........................... [ 24%]
+............................                                             [ 26%]
+tests/datetime/test_diff.py ............................................ [ 28%]
+........................................................................ [ 33%]
+..............                                                           [ 33%]
+tests/datetime/test_fluent_setters.py ..................                 [ 34%]
+tests/datetime/test_from_format.py ..................................... [ 37%]
+.......................                                                  [ 38%]
+tests/datetime/test_getters.py .......................................   [ 40%]
+tests/datetime/test_naive.py .........                                   [ 41%]
+tests/datetime/test_replace.py ....                                      [ 41%]
+tests/datetime/test_start_end_of.py .................................... [ 43%]
+........                                                                 [ 43%]
+tests/datetime/test_strings.py ........................                  [ 45%]
+tests/datetime/test_sub.py .............................                 [ 46%]
+tests/datetime/test_timezone.py ...                                      [ 47%]
+tests/duration/test_add_sub.py .......                                   [ 47%]
+tests/duration/test_arithmetic.py ...                                    [ 47%]
+tests/duration/test_behavior.py ..                                       [ 47%]
+tests/duration/test_construct.py ............                            [ 48%]
+tests/duration/test_in_methods.py .....                                  [ 48%]
+tests/duration/test_in_words.py ...........                              [ 49%]
+tests/duration/test_total_methods.py .....                               [ 49%]
+tests/formatting/test_formatter.py .....................                 [ 50%]
+tests/helpers/test_local_time.py ..                                      [ 51%]
+tests/interval/test_add_subtract.py .....                                [ 51%]
+tests/interval/test_arithmetic.py ...                                    [ 51%]
+tests/interval/test_behavior.py ...                                      [ 51%]
+tests/interval/test_construct.py ........                                [ 52%]
+tests/interval/test_hashing.py ..                                        [ 52%]
+tests/interval/test_in_words.py .........                                [ 52%]
+tests/interval/test_range.py ..........                                  [ 53%]
+tests/localization/test_cs.py ..                                         [ 53%]
+tests/localization/test_da.py .                                          [ 53%]
+tests/localization/test_de.py .                                          [ 53%]
+tests/localization/test_es.py .                                          [ 53%]
+tests/localization/test_fa.py .                                          [ 53%]
+tests/localization/test_fo.py .                                          [ 53%]
+tests/localization/test_fr.py ..                                         [ 53%]
+tests/localization/test_he.py .                                          [ 53%]
+tests/localization/test_id.py .                                          [ 53%]
+tests/localization/test_it.py ..                                         [ 54%]
+tests/localization/test_ja.py .                                          [ 54%]
+tests/localization/test_ko.py .                                          [ 54%]
+tests/localization/test_lt.py .                                          [ 54%]
+tests/localization/test_nb.py ..                                         [ 54%]
+tests/localization/test_nl.py ..                                         [ 54%]
+tests/localization/test_nn.py ..                                         [ 54%]
+tests/localization/test_pl.py ..                                         [ 54%]
+tests/localization/test_ru.py .                                          [ 54%]
+tests/localization/test_sk.py ..                                         [ 54%]
+tests/localization/test_sv.py .                                          [ 54%]
+tests/parsing/test_parse_iso8601.py ...                                  [ 55%]
+tests/parsing/test_parsing.py ....................                       [ 56%]
+tests/parsing/test_parsing_duration.py ......                            [ 56%]
+tests/testing/test_time_travel.py ....                                   [ 56%]
+tests/time/test_add.py ............                                      [ 57%]
+tests/time/test_behavior.py .....                                        [ 57%]
+tests/time/test_comparison.py ....................                       [ 59%]
+tests/time/test_construct.py ..                                          [ 59%]
+tests/time/test_diff.py ................................................ [ 61%]
+....                                                                     [ 62%]
+tests/time/test_fluent_setters.py .                                      [ 62%]
+tests/time/test_strings.py ......                                        [ 62%]
+tests/time/test_sub.py .............                                     [ 63%]
+tests/tz/test_helpers.py ...                                             [ 63%]
+tests/tz/test_local_timezone.py ..s.                                     [ 63%]
+tests/tz/test_timezone.py ....................s........s.                [ 65%]
+tests/tz/test_timezones.py ............................................. [ 68%]
+........................................................................ [ 72%]
+........................................................................ [ 76%]
+........................................................................ [ 80%]
+........................................................................ [ 84%]
+........................................................................ [ 88%]
+........................................................................ [ 93%]
+........................................................................ [ 97%]
+.................................................                        [100%]
+
+==================================== ERRORS ====================================
+________________________ ERROR at setup of test_format _________________________
+file /home/user/pendulum/tests/benchmarks/test_format.py, line 13
+  def test_format(benchmark: BenchmarkFixture) -> None:
+E       fixture 'benchmark' not found
+>       available fixtures: M, _session_faker, anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, check_completer, class_based_httpbin, class_based_httpbin_secure, class_mocker, completer_obj, completion_context_parse, cov, dash_br, dash_duo, dash_duo_mp, dash_multi_process_server, dash_process_server, dash_thread_server, dashjl, dashjl_server, dashr, dashr_server, diskcache_manager, docker_cleanup, docker_compose_command, docker_compose_file, docker_compose_project_name, docker_ip, docker_services, docker_setup, doctest_namespace, env, extra, faker, httpbin, httpbin_both, httpbin_ca_bundle, httpbin_secure, hydra_restore_singletons, hydra_sweep_runner, hydra_task_runner, load_xontrib, matcher, mock_executables_in, mock_xonsh_session, mocker, module_mocker, monkeypatch, monkeypatch_stderr, no_cover, os_env, package_mocker, patch_locate_binary, ptk_shell, pytestconfig, readline_shell, record_property, record_testsuite_property, record_xml_attribute, recwarn, session_env, session_execer, session_mocker, session_os_env, setup, source_path, testrun_uid, time_machine, tmp_dir, tmp_dir_factory, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, worker_id, xession, xonsh_events, xonsh_execer, xonsh_execer_exec, xonsh_execer_parse, xonsh_session, xsh_with_aliases, xsh_with_env
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+/home/user/pendulum/tests/benchmarks/test_format.py:13
+=============================== warnings summary ===============================
+tests/benchmarks/test_parse_8601.py:8
+  /home/user/pendulum/tests/benchmarks/test_parse_8601.py:8: PytestUnknownMarkWarning: Unknown pytest.mark.benchmark - is this a typo?  You can register custom marks to avoid this warning - for details, see https://docs.pytest.org/en/stable/how-to/mark.html
+    @pytest.mark.benchmark(group="Parsing")
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+ERROR tests/benchmarks/test_format.py::test_format
+======= 1728 passed, 3 skipped, 1 warning, 1 error in 830.19s (0:13:50) ========
+Traceback (most recent call last):
+  File "/home/user/thefuck-master/pre_run_biend.py", line 102, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'

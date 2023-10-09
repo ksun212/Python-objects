@@ -1,0 +1,7 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple/
+Requirement already satisfied: flask in /home/user/anaconda3/lib/python3.8/site-packages (1.1.2)
+Requirement already satisfied: Jinja2>=2.10.1 in /home/user/.local/lib/python3.8/site-packages (from flask) (3.1.2)
+Requirement already satisfied: itsdangerous>=0.24 in /home/user/anaconda3/lib/python3.8/site-packages (from flask) (1.1.0)
+Requirement already satisfied: Werkzeug>=0.15 in /home/user/anaconda3/lib/python3.8/site-packages (from flask) (1.0.1)
+Requirement already satisfied: click>=5.1 in /home/user/anaconda3/lib/python3.8/site-packages (from flask) (7.1.2)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/user/.local/lib/python3.8/site-packages (from Jinja2>=2.10.1->flask) (2.1.1)
