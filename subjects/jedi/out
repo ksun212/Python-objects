@@ -1,0 +1,2141 @@
+/home/user/thefuck-master/pre_run_biend.py:3771: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3781: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(O6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3805: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ set$ & ' + ' & '.join(EXT_SET) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3806: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ event$ & ' + ' & '.join(EXT_EVENT) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3933: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/thefuck-master/pre_run_biend.py:3944: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3954: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3966: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3978: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:4100: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dash/testing/plugin.py:92: PytestDeprecationWarning: The hookimpl pytest_addhooks uses old-style configuration options (marks or attributes).
+Please use the pytest.hookimpl(tryfirst=True) decorator instead
+ to configure the hooks.
+ See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers
+  @pytest.mark.tryfirst
+============================= test session starts ==============================
+platform linux -- Python 3.9.15+, pytest-7.2.0, pluggy-1.0.0
+rootdir: /home/user/jedi, configfile: pytest.ini
+plugins: mock-3.10.0, hypothesis-6.56.4, httpbin-1.0.2, cov-4.0.0, time-machine-2.9.0, html-3.2.0, Faker-15.3.4, anyio-3.6.2, flaky-3.7.0, hydra-core-1.3.2, xdist-3.2.1, test-utils-0.0.8, lazy-fixture-0.6.3, docker-1.0.1, xonsh-0.13.4, pylama-8.4.1, dash-2.9.1
+collected 725 items
+
+test/conftest.py .                                                       [  0%]
+test/test_cache.py ..                                                    [  0%]
+test/test_debug.py .                                                     [  0%]
+test/test_file_io.py ..                                                  [  0%]
+test/test_integration.py ............................................... [  7%]
+....................................................................     [ 16%]
+test/test_settings.py ...                                                [ 17%]
+test/test_utils.py ..........                                            [ 18%]
+test/test_api/test_analysis.py .                                         [ 18%]
+test/test_api/test_api.py .............................................. [ 24%]
+....                                                                     [ 25%]
+test/test_api/test_api_classes_follow_definition.py ....                 [ 26%]
+test/test_api/test_classes.py .......................................... [ 31%]
+..                                                                       [ 32%]
+test/test_api/test_documentation.py ..                                   [ 32%]
+test/test_api/test_classes.py ......                                     [ 33%]
+test/test_api/test_documentation.py ..                                   [ 33%]
+test/test_api/test_classes.py ......                                     [ 34%]
+test/test_api/test_documentation.py ..                                   [ 34%]
+test/test_api/test_classes.py .......................................... [ 40%]
+...............                                                          [ 42%]
+test/test_api/test_completion.py ............                            [ 44%]
+test/test_api/test_context.py .........................................  [ 49%]
+test/test_api/test_documentation.py ..................................   [ 54%]
+test/test_api/test_environment.py ...ss......EEE.....E                   [ 57%]
+test/test_api/test_full_name.py .............                            [ 59%]
+test/test_api/test_interpreter.py ...................................... [ 64%]
+........................................................................ [ 74%]
+.......................                                                  [ 77%]
+test/test_api/test_keyword.py ....                                       [ 77%]
+test/test_api/test_names.py ........................                     [ 81%]
+test/test_api/test_project.py .........................FFFFFFF.......... [ 87%]
+...........F...                                                          [ 89%]
+test/test_api/test_refactoring.py ....                                   [ 89%]
+test/test_api/test_search.py ............................                [ 93%]
+test/test_api/test_settings.py .                                         [ 93%]
+test/test_api/test_signatures.py ...................                     [ 96%]
+test/test_api/test_syntax_errors.py .........                            [ 97%]
+test/test_api/test_unicode.py ......                                     [ 98%]
+test/test_api/test_usages.py ............                                [100%]
+
+==================================== ERRORS ====================================
+_____________________ ERROR at setup of test_working_venv ______________________
+
+request = <FixtureRequest for <Function test_working_venv>>
+
+    def fill(request):
+        item = request._pyfuncitem
+        fixturenames = getattr(item, "fixturenames", None)
+        if fixturenames is None:
+            fixturenames = request.fixturenames
+    
+        if hasattr(item, 'callspec'):
+            for param, val in sorted_by_dependency(item.callspec.params, fixturenames):
+                if val is not None and is_lazy_fixture(val):
+                    item.callspec.params[param] = request.getfixturevalue(val.name)
+                elif param not in item.funcargs:
+                    item.funcargs[param] = request.getfixturevalue(param)
+    
+>       _fillfixtures()
+
+../purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pytest_lazyfixture.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test/conftest.py:127: in venv_path
+    return_code = subprocess.call([executable_path, '-m', 'venv', dirname])
+../purepython/cpython-3.9/Lib/subprocess.py:349: in call
+    with Popen(*popenargs, **kwargs) as p:
+../purepython/cpython-3.9/Lib/subprocess.py:951: in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <Popen: returncode: 255 args: ['/usr/local/bin/python3.9', '-m', 'venv', '/t...>
+args = ['/usr/local/bin/python3.9', '-m', 'venv', '/tmp/pytest-of-user/pytest-382/venv_path0/venv']
+executable = b'/usr/local/bin/python3.9', preexec_fn = None, close_fds = True
+pass_fds = (), cwd = None, env = None, startupinfo = None, creationflags = 0
+shell = False, p2cread = -1, p2cwrite = -1, c2pread = -1, c2pwrite = -1
+errread = -1, errwrite = -1, restore_signals = True, gid = None, gids = None
+uid = None, umask = -1, start_new_session = False
+
+    def _execute_child(self, args, executable, preexec_fn, close_fds,
+                       pass_fds, cwd, env,
+                       startupinfo, creationflags, shell,
+                       p2cread, p2cwrite,
+                       c2pread, c2pwrite,
+                       errread, errwrite,
+                       restore_signals,
+                       gid, gids, uid, umask,
+                       start_new_session):
+        """Execute program (POSIX version)"""
+    
+        if isinstance(args, (str, bytes)):
+            args = [args]
+        elif isinstance(args, os.PathLike):
+            if shell:
+                raise TypeError('path-like args is not allowed when '
+                                'shell is true')
+            args = [args]
+        else:
+            args = list(args)
+    
+        if shell:
+            # On Android the default shell is at '/system/bin/sh'.
+            unix_shell = ('/system/bin/sh' if
+                      hasattr(sys, 'getandroidapilevel') else '/bin/sh')
+            args = [unix_shell, "-c"] + args
+            if executable:
+                args[0] = executable
+    
+        if executable is None:
+            executable = args[0]
+    
+        sys.audit("subprocess.Popen", executable, args, cwd, env)
+    
+        if (_USE_POSIX_SPAWN
+                and os.path.dirname(executable)
+                and preexec_fn is None
+                and not close_fds
+                and not pass_fds
+                and cwd is None
+                and (p2cread == -1 or p2cread > 2)
+                and (c2pwrite == -1 or c2pwrite > 2)
+                and (errwrite == -1 or errwrite > 2)
+                and not start_new_session
+                and gid is None
+                and gids is None
+                and uid is None
+                and umask < 0):
+            self._posix_spawn(args, executable, env, restore_signals,
+                              p2cread, p2cwrite,
+                              c2pread, c2pwrite,
+                              errread, errwrite)
+            return
+    
+        orig_executable = executable
+    
+        # For transferring possible exec failure from child to parent.
+        # Data format: "exception name:hex errno:description"
+        # Pickle is not used; it is complex and involves memory allocation.
+        errpipe_read, errpipe_write = os.pipe()
+        # errpipe_write must not be in the standard io 0, 1, or 2 fd range.
+        low_fds_to_close = []
+        while errpipe_write < 3:
+            low_fds_to_close.append(errpipe_write)
+            errpipe_write = os.dup(errpipe_write)
+        for low_fd in low_fds_to_close:
+            os.close(low_fd)
+        try:
+            try:
+                # We must avoid complex work that could involve
+                # malloc or free in the child process to avoid
+                # potential deadlocks, thus we do all this here.
+                # and pass it to fork_exec()
+    
+                if env is not None:
+                    env_list = []
+                    for k, v in env.items():
+                        k = os.fsencode(k)
+                        if b'=' in k:
+                            raise ValueError("illegal environment variable name")
+                        env_list.append(k + b'=' + os.fsencode(v))
+                else:
+                    env_list = None  # Use execv instead of execve.
+                executable = os.fsencode(executable)
+                if os.path.dirname(executable):
+                    executable_list = (executable,)
+                else:
+                    # This matches the behavior of os._execvpe().
+                    executable_list = tuple(
+                        os.path.join(os.fsencode(dir), executable)
+                        for dir in os.get_exec_path(env))
+                fds_to_keep = set(pass_fds)
+                fds_to_keep.add(errpipe_write)
+                self.pid = _posixsubprocess.fork_exec(
+                        args, executable_list,
+                        close_fds, tuple(sorted(map(int, fds_to_keep))),
+                        cwd, env_list,
+                        p2cread, p2cwrite, c2pread, c2pwrite,
+                        errread, errwrite,
+                        errpipe_read, errpipe_write,
+                        restore_signals, start_new_session,
+                        gid, gids, uid, umask,
+                        preexec_fn)
+                self._child_created = True
+            finally:
+                # be sure the FD is closed no matter what
+                os.close(errpipe_write)
+    
+            self._close_pipe_fds(p2cread, p2cwrite,
+                                 c2pread, c2pwrite,
+                                 errread, errwrite)
+    
+            # Wait for exec to fail or succeed; possibly raising an
+            # exception (limited in size)
+            errpipe_data = bytearray()
+            while True:
+                part = os.read(errpipe_read, 50000)
+                errpipe_data += part
+                if not part or len(errpipe_data) > 50000:
+                    break
+        finally:
+            # be sure the FD is closed no matter what
+            os.close(errpipe_read)
+    
+        if errpipe_data:
+            try:
+                pid, sts = os.waitpid(self.pid, 0)
+                if pid == self.pid:
+                    self._handle_exitstatus(sts)
+                else:
+                    self.returncode = sys.maxsize
+            except ChildProcessError:
+                pass
+    
+            try:
+                exception_name, hex_errno, err_msg = (
+                        errpipe_data.split(b':', 2))
+                # The encoding here should match the encoding
+                # written in by the subprocess implementations
+                # like _posixsubprocess
+                err_msg = err_msg.decode()
+            except ValueError:
+                exception_name = b'SubprocessError'
+                hex_errno = b'0'
+                err_msg = 'Bad exception data from child: {!r}'.format(
+                              bytes(errpipe_data))
+            child_exception_type = getattr(
+                    builtins, exception_name.decode('ascii'),
+                    SubprocessError)
+            if issubclass(child_exception_type, OSError) and hex_errno:
+                errno_num = int(hex_errno, 16)
+                child_exec_never_called = (err_msg == "noexec")
+                if child_exec_never_called:
+                    err_msg = ""
+                    # The error must be from chdir(cwd).
+                    err_filename = cwd
+                else:
+                    err_filename = orig_executable
+                if errno_num != 0:
+                    err_msg = os.strerror(errno_num)
+>               raise child_exception_type(errno_num, err_msg, err_filename)
+E               FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/bin/python3.9'
+
+../purepython/cpython-3.9/Lib/subprocess.py:1821: FileNotFoundError
+____________________ ERROR at setup of test_scanning_venvs _____________________
+
+request = <FixtureRequest for <Function test_scanning_venvs>>
+
+    def fill(request):
+        item = request._pyfuncitem
+        fixturenames = getattr(item, "fixturenames", None)
+        if fixturenames is None:
+            fixturenames = request.fixturenames
+    
+        if hasattr(item, 'callspec'):
+            for param, val in sorted_by_dependency(item.callspec.params, fixturenames):
+                if val is not None and is_lazy_fixture(val):
+                    item.callspec.params[param] = request.getfixturevalue(val.name)
+                elif param not in item.funcargs:
+                    item.funcargs[param] = request.getfixturevalue(param)
+    
+>       _fillfixtures()
+
+../purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pytest_lazyfixture.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test/conftest.py:127: in venv_path
+    return_code = subprocess.call([executable_path, '-m', 'venv', dirname])
+../purepython/cpython-3.9/Lib/subprocess.py:349: in call
+    with Popen(*popenargs, **kwargs) as p:
+../purepython/cpython-3.9/Lib/subprocess.py:951: in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <Popen: returncode: 255 args: ['/usr/local/bin/python3.9', '-m', 'venv', '/t...>
+args = ['/usr/local/bin/python3.9', '-m', 'venv', '/tmp/pytest-of-user/pytest-382/venv_path0/venv']
+executable = b'/usr/local/bin/python3.9', preexec_fn = None, close_fds = True
+pass_fds = (), cwd = None, env = None, startupinfo = None, creationflags = 0
+shell = False, p2cread = -1, p2cwrite = -1, c2pread = -1, c2pwrite = -1
+errread = -1, errwrite = -1, restore_signals = True, gid = None, gids = None
+uid = None, umask = -1, start_new_session = False
+
+    def _execute_child(self, args, executable, preexec_fn, close_fds,
+                       pass_fds, cwd, env,
+                       startupinfo, creationflags, shell,
+                       p2cread, p2cwrite,
+                       c2pread, c2pwrite,
+                       errread, errwrite,
+                       restore_signals,
+                       gid, gids, uid, umask,
+                       start_new_session):
+        """Execute program (POSIX version)"""
+    
+        if isinstance(args, (str, bytes)):
+            args = [args]
+        elif isinstance(args, os.PathLike):
+            if shell:
+                raise TypeError('path-like args is not allowed when '
+                                'shell is true')
+            args = [args]
+        else:
+            args = list(args)
+    
+        if shell:
+            # On Android the default shell is at '/system/bin/sh'.
+            unix_shell = ('/system/bin/sh' if
+                      hasattr(sys, 'getandroidapilevel') else '/bin/sh')
+            args = [unix_shell, "-c"] + args
+            if executable:
+                args[0] = executable
+    
+        if executable is None:
+            executable = args[0]
+    
+        sys.audit("subprocess.Popen", executable, args, cwd, env)
+    
+        if (_USE_POSIX_SPAWN
+                and os.path.dirname(executable)
+                and preexec_fn is None
+                and not close_fds
+                and not pass_fds
+                and cwd is None
+                and (p2cread == -1 or p2cread > 2)
+                and (c2pwrite == -1 or c2pwrite > 2)
+                and (errwrite == -1 or errwrite > 2)
+                and not start_new_session
+                and gid is None
+                and gids is None
+                and uid is None
+                and umask < 0):
+            self._posix_spawn(args, executable, env, restore_signals,
+                              p2cread, p2cwrite,
+                              c2pread, c2pwrite,
+                              errread, errwrite)
+            return
+    
+        orig_executable = executable
+    
+        # For transferring possible exec failure from child to parent.
+        # Data format: "exception name:hex errno:description"
+        # Pickle is not used; it is complex and involves memory allocation.
+        errpipe_read, errpipe_write = os.pipe()
+        # errpipe_write must not be in the standard io 0, 1, or 2 fd range.
+        low_fds_to_close = []
+        while errpipe_write < 3:
+            low_fds_to_close.append(errpipe_write)
+            errpipe_write = os.dup(errpipe_write)
+        for low_fd in low_fds_to_close:
+            os.close(low_fd)
+        try:
+            try:
+                # We must avoid complex work that could involve
+                # malloc or free in the child process to avoid
+                # potential deadlocks, thus we do all this here.
+                # and pass it to fork_exec()
+    
+                if env is not None:
+                    env_list = []
+                    for k, v in env.items():
+                        k = os.fsencode(k)
+                        if b'=' in k:
+                            raise ValueError("illegal environment variable name")
+                        env_list.append(k + b'=' + os.fsencode(v))
+                else:
+                    env_list = None  # Use execv instead of execve.
+                executable = os.fsencode(executable)
+                if os.path.dirname(executable):
+                    executable_list = (executable,)
+                else:
+                    # This matches the behavior of os._execvpe().
+                    executable_list = tuple(
+                        os.path.join(os.fsencode(dir), executable)
+                        for dir in os.get_exec_path(env))
+                fds_to_keep = set(pass_fds)
+                fds_to_keep.add(errpipe_write)
+                self.pid = _posixsubprocess.fork_exec(
+                        args, executable_list,
+                        close_fds, tuple(sorted(map(int, fds_to_keep))),
+                        cwd, env_list,
+                        p2cread, p2cwrite, c2pread, c2pwrite,
+                        errread, errwrite,
+                        errpipe_read, errpipe_write,
+                        restore_signals, start_new_session,
+                        gid, gids, uid, umask,
+                        preexec_fn)
+                self._child_created = True
+            finally:
+                # be sure the FD is closed no matter what
+                os.close(errpipe_write)
+    
+            self._close_pipe_fds(p2cread, p2cwrite,
+                                 c2pread, c2pwrite,
+                                 errread, errwrite)
+    
+            # Wait for exec to fail or succeed; possibly raising an
+            # exception (limited in size)
+            errpipe_data = bytearray()
+            while True:
+                part = os.read(errpipe_read, 50000)
+                errpipe_data += part
+                if not part or len(errpipe_data) > 50000:
+                    break
+        finally:
+            # be sure the FD is closed no matter what
+            os.close(errpipe_read)
+    
+        if errpipe_data:
+            try:
+                pid, sts = os.waitpid(self.pid, 0)
+                if pid == self.pid:
+                    self._handle_exitstatus(sts)
+                else:
+                    self.returncode = sys.maxsize
+            except ChildProcessError:
+                pass
+    
+            try:
+                exception_name, hex_errno, err_msg = (
+                        errpipe_data.split(b':', 2))
+                # The encoding here should match the encoding
+                # written in by the subprocess implementations
+                # like _posixsubprocess
+                err_msg = err_msg.decode()
+            except ValueError:
+                exception_name = b'SubprocessError'
+                hex_errno = b'0'
+                err_msg = 'Bad exception data from child: {!r}'.format(
+                              bytes(errpipe_data))
+            child_exception_type = getattr(
+                    builtins, exception_name.decode('ascii'),
+                    SubprocessError)
+            if issubclass(child_exception_type, OSError) and hex_errno:
+                errno_num = int(hex_errno, 16)
+                child_exec_never_called = (err_msg == "noexec")
+                if child_exec_never_called:
+                    err_msg = ""
+                    # The error must be from chdir(cwd).
+                    err_filename = cwd
+                else:
+                    err_filename = orig_executable
+                if errno_num != 0:
+                    err_msg = os.strerror(errno_num)
+>               raise child_exception_type(errno_num, err_msg, err_filename)
+E               FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/bin/python3.9'
+
+../purepython/cpython-3.9/Lib/subprocess.py:1821: FileNotFoundError
+_____________ ERROR at setup of test_create_environment_venv_path ______________
+
+request = <FixtureRequest for <Function test_create_environment_venv_path>>
+
+    def fill(request):
+        item = request._pyfuncitem
+        fixturenames = getattr(item, "fixturenames", None)
+        if fixturenames is None:
+            fixturenames = request.fixturenames
+    
+        if hasattr(item, 'callspec'):
+            for param, val in sorted_by_dependency(item.callspec.params, fixturenames):
+                if val is not None and is_lazy_fixture(val):
+                    item.callspec.params[param] = request.getfixturevalue(val.name)
+                elif param not in item.funcargs:
+                    item.funcargs[param] = request.getfixturevalue(param)
+    
+>       _fillfixtures()
+
+../purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pytest_lazyfixture.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test/conftest.py:127: in venv_path
+    return_code = subprocess.call([executable_path, '-m', 'venv', dirname])
+../purepython/cpython-3.9/Lib/subprocess.py:349: in call
+    with Popen(*popenargs, **kwargs) as p:
+../purepython/cpython-3.9/Lib/subprocess.py:951: in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <Popen: returncode: 255 args: ['/usr/local/bin/python3.9', '-m', 'venv', '/t...>
+args = ['/usr/local/bin/python3.9', '-m', 'venv', '/tmp/pytest-of-user/pytest-382/venv_path0/venv']
+executable = b'/usr/local/bin/python3.9', preexec_fn = None, close_fds = True
+pass_fds = (), cwd = None, env = None, startupinfo = None, creationflags = 0
+shell = False, p2cread = -1, p2cwrite = -1, c2pread = -1, c2pwrite = -1
+errread = -1, errwrite = -1, restore_signals = True, gid = None, gids = None
+uid = None, umask = -1, start_new_session = False
+
+    def _execute_child(self, args, executable, preexec_fn, close_fds,
+                       pass_fds, cwd, env,
+                       startupinfo, creationflags, shell,
+                       p2cread, p2cwrite,
+                       c2pread, c2pwrite,
+                       errread, errwrite,
+                       restore_signals,
+                       gid, gids, uid, umask,
+                       start_new_session):
+        """Execute program (POSIX version)"""
+    
+        if isinstance(args, (str, bytes)):
+            args = [args]
+        elif isinstance(args, os.PathLike):
+            if shell:
+                raise TypeError('path-like args is not allowed when '
+                                'shell is true')
+            args = [args]
+        else:
+            args = list(args)
+    
+        if shell:
+            # On Android the default shell is at '/system/bin/sh'.
+            unix_shell = ('/system/bin/sh' if
+                      hasattr(sys, 'getandroidapilevel') else '/bin/sh')
+            args = [unix_shell, "-c"] + args
+            if executable:
+                args[0] = executable
+    
+        if executable is None:
+            executable = args[0]
+    
+        sys.audit("subprocess.Popen", executable, args, cwd, env)
+    
+        if (_USE_POSIX_SPAWN
+                and os.path.dirname(executable)
+                and preexec_fn is None
+                and not close_fds
+                and not pass_fds
+                and cwd is None
+                and (p2cread == -1 or p2cread > 2)
+                and (c2pwrite == -1 or c2pwrite > 2)
+                and (errwrite == -1 or errwrite > 2)
+                and not start_new_session
+                and gid is None
+                and gids is None
+                and uid is None
+                and umask < 0):
+            self._posix_spawn(args, executable, env, restore_signals,
+                              p2cread, p2cwrite,
+                              c2pread, c2pwrite,
+                              errread, errwrite)
+            return
+    
+        orig_executable = executable
+    
+        # For transferring possible exec failure from child to parent.
+        # Data format: "exception name:hex errno:description"
+        # Pickle is not used; it is complex and involves memory allocation.
+        errpipe_read, errpipe_write = os.pipe()
+        # errpipe_write must not be in the standard io 0, 1, or 2 fd range.
+        low_fds_to_close = []
+        while errpipe_write < 3:
+            low_fds_to_close.append(errpipe_write)
+            errpipe_write = os.dup(errpipe_write)
+        for low_fd in low_fds_to_close:
+            os.close(low_fd)
+        try:
+            try:
+                # We must avoid complex work that could involve
+                # malloc or free in the child process to avoid
+                # potential deadlocks, thus we do all this here.
+                # and pass it to fork_exec()
+    
+                if env is not None:
+                    env_list = []
+                    for k, v in env.items():
+                        k = os.fsencode(k)
+                        if b'=' in k:
+                            raise ValueError("illegal environment variable name")
+                        env_list.append(k + b'=' + os.fsencode(v))
+                else:
+                    env_list = None  # Use execv instead of execve.
+                executable = os.fsencode(executable)
+                if os.path.dirname(executable):
+                    executable_list = (executable,)
+                else:
+                    # This matches the behavior of os._execvpe().
+                    executable_list = tuple(
+                        os.path.join(os.fsencode(dir), executable)
+                        for dir in os.get_exec_path(env))
+                fds_to_keep = set(pass_fds)
+                fds_to_keep.add(errpipe_write)
+                self.pid = _posixsubprocess.fork_exec(
+                        args, executable_list,
+                        close_fds, tuple(sorted(map(int, fds_to_keep))),
+                        cwd, env_list,
+                        p2cread, p2cwrite, c2pread, c2pwrite,
+                        errread, errwrite,
+                        errpipe_read, errpipe_write,
+                        restore_signals, start_new_session,
+                        gid, gids, uid, umask,
+                        preexec_fn)
+                self._child_created = True
+            finally:
+                # be sure the FD is closed no matter what
+                os.close(errpipe_write)
+    
+            self._close_pipe_fds(p2cread, p2cwrite,
+                                 c2pread, c2pwrite,
+                                 errread, errwrite)
+    
+            # Wait for exec to fail or succeed; possibly raising an
+            # exception (limited in size)
+            errpipe_data = bytearray()
+            while True:
+                part = os.read(errpipe_read, 50000)
+                errpipe_data += part
+                if not part or len(errpipe_data) > 50000:
+                    break
+        finally:
+            # be sure the FD is closed no matter what
+            os.close(errpipe_read)
+    
+        if errpipe_data:
+            try:
+                pid, sts = os.waitpid(self.pid, 0)
+                if pid == self.pid:
+                    self._handle_exitstatus(sts)
+                else:
+                    self.returncode = sys.maxsize
+            except ChildProcessError:
+                pass
+    
+            try:
+                exception_name, hex_errno, err_msg = (
+                        errpipe_data.split(b':', 2))
+                # The encoding here should match the encoding
+                # written in by the subprocess implementations
+                # like _posixsubprocess
+                err_msg = err_msg.decode()
+            except ValueError:
+                exception_name = b'SubprocessError'
+                hex_errno = b'0'
+                err_msg = 'Bad exception data from child: {!r}'.format(
+                              bytes(errpipe_data))
+            child_exception_type = getattr(
+                    builtins, exception_name.decode('ascii'),
+                    SubprocessError)
+            if issubclass(child_exception_type, OSError) and hex_errno:
+                errno_num = int(hex_errno, 16)
+                child_exec_never_called = (err_msg == "noexec")
+                if child_exec_never_called:
+                    err_msg = ""
+                    # The error must be from chdir(cwd).
+                    err_filename = cwd
+                else:
+                    err_filename = orig_executable
+                if errno_num != 0:
+                    err_msg = os.strerror(errno_num)
+>               raise child_exception_type(errno_num, err_msg, err_filename)
+E               FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/bin/python3.9'
+
+../purepython/cpython-3.9/Lib/subprocess.py:1821: FileNotFoundError
+_____________________ ERROR at setup of test_changing_venv _____________________
+
+request = <FixtureRequest for <Function test_changing_venv>>
+
+    def fill(request):
+        item = request._pyfuncitem
+        fixturenames = getattr(item, "fixturenames", None)
+        if fixturenames is None:
+            fixturenames = request.fixturenames
+    
+        if hasattr(item, 'callspec'):
+            for param, val in sorted_by_dependency(item.callspec.params, fixturenames):
+                if val is not None and is_lazy_fixture(val):
+                    item.callspec.params[param] = request.getfixturevalue(val.name)
+                elif param not in item.funcargs:
+                    item.funcargs[param] = request.getfixturevalue(param)
+    
+>       _fillfixtures()
+
+../purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pytest_lazyfixture.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test/conftest.py:127: in venv_path
+    return_code = subprocess.call([executable_path, '-m', 'venv', dirname])
+../purepython/cpython-3.9/Lib/subprocess.py:349: in call
+    with Popen(*popenargs, **kwargs) as p:
+../purepython/cpython-3.9/Lib/subprocess.py:951: in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <Popen: returncode: 255 args: ['/usr/local/bin/python3.9', '-m', 'venv', '/t...>
+args = ['/usr/local/bin/python3.9', '-m', 'venv', '/tmp/pytest-of-user/pytest-382/venv_path0/venv']
+executable = b'/usr/local/bin/python3.9', preexec_fn = None, close_fds = True
+pass_fds = (), cwd = None, env = None, startupinfo = None, creationflags = 0
+shell = False, p2cread = -1, p2cwrite = -1, c2pread = -1, c2pwrite = -1
+errread = -1, errwrite = -1, restore_signals = True, gid = None, gids = None
+uid = None, umask = -1, start_new_session = False
+
+    def _execute_child(self, args, executable, preexec_fn, close_fds,
+                       pass_fds, cwd, env,
+                       startupinfo, creationflags, shell,
+                       p2cread, p2cwrite,
+                       c2pread, c2pwrite,
+                       errread, errwrite,
+                       restore_signals,
+                       gid, gids, uid, umask,
+                       start_new_session):
+        """Execute program (POSIX version)"""
+    
+        if isinstance(args, (str, bytes)):
+            args = [args]
+        elif isinstance(args, os.PathLike):
+            if shell:
+                raise TypeError('path-like args is not allowed when '
+                                'shell is true')
+            args = [args]
+        else:
+            args = list(args)
+    
+        if shell:
+            # On Android the default shell is at '/system/bin/sh'.
+            unix_shell = ('/system/bin/sh' if
+                      hasattr(sys, 'getandroidapilevel') else '/bin/sh')
+            args = [unix_shell, "-c"] + args
+            if executable:
+                args[0] = executable
+    
+        if executable is None:
+            executable = args[0]
+    
+        sys.audit("subprocess.Popen", executable, args, cwd, env)
+    
+        if (_USE_POSIX_SPAWN
+                and os.path.dirname(executable)
+                and preexec_fn is None
+                and not close_fds
+                and not pass_fds
+                and cwd is None
+                and (p2cread == -1 or p2cread > 2)
+                and (c2pwrite == -1 or c2pwrite > 2)
+                and (errwrite == -1 or errwrite > 2)
+                and not start_new_session
+                and gid is None
+                and gids is None
+                and uid is None
+                and umask < 0):
+            self._posix_spawn(args, executable, env, restore_signals,
+                              p2cread, p2cwrite,
+                              c2pread, c2pwrite,
+                              errread, errwrite)
+            return
+    
+        orig_executable = executable
+    
+        # For transferring possible exec failure from child to parent.
+        # Data format: "exception name:hex errno:description"
+        # Pickle is not used; it is complex and involves memory allocation.
+        errpipe_read, errpipe_write = os.pipe()
+        # errpipe_write must not be in the standard io 0, 1, or 2 fd range.
+        low_fds_to_close = []
+        while errpipe_write < 3:
+            low_fds_to_close.append(errpipe_write)
+            errpipe_write = os.dup(errpipe_write)
+        for low_fd in low_fds_to_close:
+            os.close(low_fd)
+        try:
+            try:
+                # We must avoid complex work that could involve
+                # malloc or free in the child process to avoid
+                # potential deadlocks, thus we do all this here.
+                # and pass it to fork_exec()
+    
+                if env is not None:
+                    env_list = []
+                    for k, v in env.items():
+                        k = os.fsencode(k)
+                        if b'=' in k:
+                            raise ValueError("illegal environment variable name")
+                        env_list.append(k + b'=' + os.fsencode(v))
+                else:
+                    env_list = None  # Use execv instead of execve.
+                executable = os.fsencode(executable)
+                if os.path.dirname(executable):
+                    executable_list = (executable,)
+                else:
+                    # This matches the behavior of os._execvpe().
+                    executable_list = tuple(
+                        os.path.join(os.fsencode(dir), executable)
+                        for dir in os.get_exec_path(env))
+                fds_to_keep = set(pass_fds)
+                fds_to_keep.add(errpipe_write)
+                self.pid = _posixsubprocess.fork_exec(
+                        args, executable_list,
+                        close_fds, tuple(sorted(map(int, fds_to_keep))),
+                        cwd, env_list,
+                        p2cread, p2cwrite, c2pread, c2pwrite,
+                        errread, errwrite,
+                        errpipe_read, errpipe_write,
+                        restore_signals, start_new_session,
+                        gid, gids, uid, umask,
+                        preexec_fn)
+                self._child_created = True
+            finally:
+                # be sure the FD is closed no matter what
+                os.close(errpipe_write)
+    
+            self._close_pipe_fds(p2cread, p2cwrite,
+                                 c2pread, c2pwrite,
+                                 errread, errwrite)
+    
+            # Wait for exec to fail or succeed; possibly raising an
+            # exception (limited in size)
+            errpipe_data = bytearray()
+            while True:
+                part = os.read(errpipe_read, 50000)
+                errpipe_data += part
+                if not part or len(errpipe_data) > 50000:
+                    break
+        finally:
+            # be sure the FD is closed no matter what
+            os.close(errpipe_read)
+    
+        if errpipe_data:
+            try:
+                pid, sts = os.waitpid(self.pid, 0)
+                if pid == self.pid:
+                    self._handle_exitstatus(sts)
+                else:
+                    self.returncode = sys.maxsize
+            except ChildProcessError:
+                pass
+    
+            try:
+                exception_name, hex_errno, err_msg = (
+                        errpipe_data.split(b':', 2))
+                # The encoding here should match the encoding
+                # written in by the subprocess implementations
+                # like _posixsubprocess
+                err_msg = err_msg.decode()
+            except ValueError:
+                exception_name = b'SubprocessError'
+                hex_errno = b'0'
+                err_msg = 'Bad exception data from child: {!r}'.format(
+                              bytes(errpipe_data))
+            child_exception_type = getattr(
+                    builtins, exception_name.decode('ascii'),
+                    SubprocessError)
+            if issubclass(child_exception_type, OSError) and hex_errno:
+                errno_num = int(hex_errno, 16)
+                child_exec_never_called = (err_msg == "noexec")
+                if child_exec_never_called:
+                    err_msg = ""
+                    # The error must be from chdir(cwd).
+                    err_filename = cwd
+                else:
+                    err_filename = orig_executable
+                if errno_num != 0:
+                    err_msg = os.strerror(errno_num)
+>               raise child_exception_type(errno_num, err_msg, err_filename)
+E               FileNotFoundError: [Errno 2] No such file or directory: '/usr/local/bin/python3.9'
+
+../purepython/cpython-3.9/Lib/subprocess.py:1821: FileNotFoundError
+=================================== FAILURES ===================================
+____ test_search[implicit_namespace_package.ns1.pkg-full_names20-kwargs20] _____
+
+string = 'implicit_namespace_package.ns1.pkg'
+full_names = ['examples.implicit_namespace_package.ns1.pkg'], kwargs = {}
+
+    @pytest.mark.parametrize(
+        'string, full_names, kwargs', [
+            ('test_load_save_project', ['test_api.test_project.test_load_save_project'], {}),
+            ('test_load_savep', [], dict(complete=True)),
+            ('test_load_save_p', ['test_api.test_project.test_load_save_project'],
+             dict(complete=True)),
+            ('test_load_save_p', ['test_api.test_project.test_load_save_project'],
+             dict(complete=True, all_scopes=True)),
+    
+            ('some_search_test_var', [], {}),
+            ('some_search_test_var', ['test_api.test_project.test_search.some_search_test_var'],
+             dict(all_scopes=True)),
+            ('some_search_test_var', ['test_api.test_project.test_search.some_search_test_var'],
+             dict(complete=True, all_scopes=True)),
+            # Make sure that the searched name is not part of the file, by
+            # splitting it up.
+            ('some_search_test_v' + 'a', ['test_api.test_project.test_search.some_search_test_var'],
+             dict(complete=True, all_scopes=True)),
+    
+            ('sample_int', ['helpers.sample_int'], {}),
+            ('sample_int', ['helpers.sample_int'], dict(all_scopes=True)),
+            ('sample_int.real', ['stub:builtins.int.real'], {}),
+    
+            ('class sample_int.real', [], {}),
+            ('foo sample_int.real', [], {}),
+            ('def sample_int.to_bytes', ['stub:builtins.int.to_bytes'], {}),
+            ('function sample_int.to_bytes', ['stub:builtins.int.to_bytes'], {}),
+            ('property sample_int.real', ['stub:builtins.int.real'], {}),
+    
+            # With modules
+            ('test_project.test_search', ['test_api.test_project.test_search'], {}),
+            ('test_project.test_searc', ['test_api.test_project.test_search'], dict(complete=True)),
+            ('test_api.test_project.test_search', ['test_api.test_project.test_search'], {}),
+            ('test_api.test_project.test_sear', ['test_api.test_project.test_search'],
+             dict(complete=True)),
+    
+            # With namespace
+            ('implicit_namespace_package.ns1.pkg',
+             ['examples.implicit_namespace_package.ns1.pkg'], {}),
+            ('implicit_namespace_package.ns1.pkg.ns1_file',
+             ['examples.implicit_namespace_package.ns1.pkg.ns1_file'], {}),
+            ('examples.implicit_namespace_package.ns1.pkg.ns1_file',
+             ['examples.implicit_namespace_package.ns1.pkg.ns1_file'], {}),
+            ('implicit_namespace_package.ns1.pkg.',
+             ['examples.implicit_namespace_package.ns1.pkg.ns1_file'],
+             dict(complete=True)),
+            ('implicit_namespace_package.',
+             ['examples.implicit_namespace_package.ns1',
+              'examples.implicit_namespace_package.ns2'],
+             dict(complete=True)),
+    
+            # With stubs
+            ('with_python.module', ['examples.stub_packages.with_python.module'], {}),
+            ('with_python.modul', ['examples.stub_packages.with_python.module'],
+             dict(complete=True)),
+            ('no_python.foo', ['stub:examples.stub_packages.no_python.foo'], {}),
+            ('no_python.fo', ['stub:examples.stub_packages.no_python.foo'],
+             dict(complete=True)),
+            ('with_python-stubs.module', [], {}),
+            ('no_python-stubs.foo', [], {}),
+            # Both locations are given, because they live in separate folders (one
+            # suffixed with -stubs.
+            ('with_python', ['examples.stub_packages.with_python'], {}),
+            ('no_python', ['stub:examples.stub_packages.no_python'], {}),
+            # Completion stubs
+            ('stub_only', ['stub:completion.stub_folder.stub_only',
+                           'stub:examples.stub_packages.with_python.stub_only'], {}),
+            ('with_stub', ['completion.stub_folder.with_stub'], {}),
+            ('with_stub.in_with_stub_both',
+             ['completion.stub_folder.with_stub.in_with_stub_both'], {}),
+            ('with_stub.in_with_stub_python',
+             ['completion.stub_folder.with_stub.in_with_stub_python'], {}),
+            ('with_stub.in_with_stub_stub',
+             ['stub:completion.stub_folder.with_stub.in_with_stub_stub'], {}),
+            # Completion stubs: Folder
+            ('with_stub_folder', ['completion.stub_folder.with_stub_folder'], {}),
+            ('with_stub_folder.nested_with_stub',
+             ['completion.stub_folder.with_stub_folder.nested_with_stub'], {}),
+            ('nested_with_stub',
+             ['completion.stub_folder.stub_only_folder.nested_with_stub',
+              'completion.stub_folder.with_stub_folder.nested_with_stub'], {}),
+    
+            # On sys path
+            ('sys.path', ['stub:sys.path'], {}),
+            ('json.dumps', ['json.dumps'], {}),  # stdlib + stub
+            ('multiprocessing', ['multiprocessing'], {}),
+            ('multiprocessin', ['multiprocessing'], dict(complete=True)),
+        ]
+    )
+    def test_search(string, full_names, kwargs):
+        some_search_test_var = 1.0
+        project = Project(test_dir)
+        if kwargs.pop('complete', False) is True:
+            defs = project.complete_search(string, **kwargs)
+        else:
+            defs = project.search(string, **kwargs)
+>       assert sorted([('stub:' if d.is_stub() else '') + (d.full_name or d.name) for d in defs]) == full_names
+E       AssertionError: assert [] == ['examples.im...kage.ns1.pkg']
+E         Right contains one more item: 'examples.implicit_namespace_package.ns1.pkg'
+E         Use -v to get more diff
+
+test/test_api/test_project.py:153: AssertionError
+_ test_search[implicit_namespace_package.ns1.pkg.ns1_file-full_names21-kwargs21] _
+
+string = 'implicit_namespace_package.ns1.pkg.ns1_file'
+full_names = ['examples.implicit_namespace_package.ns1.pkg.ns1_file']
+kwargs = {}
+
+    @pytest.mark.parametrize(
+        'string, full_names, kwargs', [
+            ('test_load_save_project', ['test_api.test_project.test_load_save_project'], {}),
+            ('test_load_savep', [], dict(complete=True)),
+            ('test_load_save_p', ['test_api.test_project.test_load_save_project'],
+             dict(complete=True)),
+            ('test_load_save_p', ['test_api.test_project.test_load_save_project'],
+             dict(complete=True, all_scopes=True)),
+    
+            ('some_search_test_var', [], {}),
+            ('some_search_test_var', ['test_api.test_project.test_search.some_search_test_var'],
+             dict(all_scopes=True)),
+            ('some_search_test_var', ['test_api.test_project.test_search.some_search_test_var'],
+             dict(complete=True, all_scopes=True)),
+            # Make sure that the searched name is not part of the file, by
+            # splitting it up.
+            ('some_search_test_v' + 'a', ['test_api.test_project.test_search.some_search_test_var'],
+             dict(complete=True, all_scopes=True)),
+    
+            ('sample_int', ['helpers.sample_int'], {}),
+            ('sample_int', ['helpers.sample_int'], dict(all_scopes=True)),
+            ('sample_int.real', ['stub:builtins.int.real'], {}),
+    
+            ('class sample_int.real', [], {}),
+            ('foo sample_int.real', [], {}),
+            ('def sample_int.to_bytes', ['stub:builtins.int.to_bytes'], {}),
+            ('function sample_int.to_bytes', ['stub:builtins.int.to_bytes'], {}),
+            ('property sample_int.real', ['stub:builtins.int.real'], {}),
+    
+            # With modules
+            ('test_project.test_search', ['test_api.test_project.test_search'], {}),
+            ('test_project.test_searc', ['test_api.test_project.test_search'], dict(complete=True)),
+            ('test_api.test_project.test_search', ['test_api.test_project.test_search'], {}),
+            ('test_api.test_project.test_sear', ['test_api.test_project.test_search'],
+             dict(complete=True)),
+    
+            # With namespace
+            ('implicit_namespace_package.ns1.pkg',
+             ['examples.implicit_namespace_package.ns1.pkg'], {}),
+            ('implicit_namespace_package.ns1.pkg.ns1_file',
+             ['examples.implicit_namespace_package.ns1.pkg.ns1_file'], {}),
+            ('examples.implicit_namespace_package.ns1.pkg.ns1_file',
+             ['examples.implicit_namespace_package.ns1.pkg.ns1_file'], {}),
+            ('implicit_namespace_package.ns1.pkg.',
+             ['examples.implicit_namespace_package.ns1.pkg.ns1_file'],
+             dict(complete=True)),
+            ('implicit_namespace_package.',
+             ['examples.implicit_namespace_package.ns1',
+              'examples.implicit_namespace_package.ns2'],
+             dict(complete=True)),
+    
+            # With stubs
+            ('with_python.module', ['examples.stub_packages.with_python.module'], {}),
+            ('with_python.modul', ['examples.stub_packages.with_python.module'],
+             dict(complete=True)),
+            ('no_python.foo', ['stub:examples.stub_packages.no_python.foo'], {}),
+            ('no_python.fo', ['stub:examples.stub_packages.no_python.foo'],
+             dict(complete=True)),
+            ('with_python-stubs.module', [], {}),
+            ('no_python-stubs.foo', [], {}),
+            # Both locations are given, because they live in separate folders (one
+            # suffixed with -stubs.
+            ('with_python', ['examples.stub_packages.with_python'], {}),
+            ('no_python', ['stub:examples.stub_packages.no_python'], {}),
+            # Completion stubs
+            ('stub_only', ['stub:completion.stub_folder.stub_only',
+                           'stub:examples.stub_packages.with_python.stub_only'], {}),
+            ('with_stub', ['completion.stub_folder.with_stub'], {}),
+            ('with_stub.in_with_stub_both',
+             ['completion.stub_folder.with_stub.in_with_stub_both'], {}),
+            ('with_stub.in_with_stub_python',
+             ['completion.stub_folder.with_stub.in_with_stub_python'], {}),
+            ('with_stub.in_with_stub_stub',
+             ['stub:completion.stub_folder.with_stub.in_with_stub_stub'], {}),
+            # Completion stubs: Folder
+            ('with_stub_folder', ['completion.stub_folder.with_stub_folder'], {}),
+            ('with_stub_folder.nested_with_stub',
+             ['completion.stub_folder.with_stub_folder.nested_with_stub'], {}),
+            ('nested_with_stub',
+             ['completion.stub_folder.stub_only_folder.nested_with_stub',
+              'completion.stub_folder.with_stub_folder.nested_with_stub'], {}),
+    
+            # On sys path
+            ('sys.path', ['stub:sys.path'], {}),
+            ('json.dumps', ['json.dumps'], {}),  # stdlib + stub
+            ('multiprocessing', ['multiprocessing'], {}),
+            ('multiprocessin', ['multiprocessing'], dict(complete=True)),
+        ]
+    )
+    def test_search(string, full_names, kwargs):
+        some_search_test_var = 1.0
+        project = Project(test_dir)
+        if kwargs.pop('complete', False) is True:
+            defs = project.complete_search(string, **kwargs)
+        else:
+            defs = project.search(string, **kwargs)
+>       assert sorted([('stub:' if d.is_stub() else '') + (d.full_name or d.name) for d in defs]) == full_names
+E       AssertionError: assert [] == ['examples.im...pkg.ns1_file']
+E         Right contains one more item: 'examples.implicit_namespace_package.ns1.pkg.ns1_file'
+E         Use -v to get more diff
+
+test/test_api/test_project.py:153: AssertionError
+_ test_search[examples.implicit_namespace_package.ns1.pkg.ns1_file-full_names22-kwargs22] _
+
+string = 'examples.implicit_namespace_package.ns1.pkg.ns1_file'
+full_names = ['examples.implicit_namespace_package.ns1.pkg.ns1_file']
+kwargs = {}
+
+    @pytest.mark.parametrize(
+        'string, full_names, kwargs', [
+            ('test_load_save_project', ['test_api.test_project.test_load_save_project'], {}),
+            ('test_load_savep', [], dict(complete=True)),
+            ('test_load_save_p', ['test_api.test_project.test_load_save_project'],
+             dict(complete=True)),
+            ('test_load_save_p', ['test_api.test_project.test_load_save_project'],
+             dict(complete=True, all_scopes=True)),
+    
+            ('some_search_test_var', [], {}),
+            ('some_search_test_var', ['test_api.test_project.test_search.some_search_test_var'],
+             dict(all_scopes=True)),
+            ('some_search_test_var', ['test_api.test_project.test_search.some_search_test_var'],
+             dict(complete=True, all_scopes=True)),
+            # Make sure that the searched name is not part of the file, by
+            # splitting it up.
+            ('some_search_test_v' + 'a', ['test_api.test_project.test_search.some_search_test_var'],
+             dict(complete=True, all_scopes=True)),
+    
+            ('sample_int', ['helpers.sample_int'], {}),
+            ('sample_int', ['helpers.sample_int'], dict(all_scopes=True)),
+            ('sample_int.real', ['stub:builtins.int.real'], {}),
+    
+            ('class sample_int.real', [], {}),
+            ('foo sample_int.real', [], {}),
+            ('def sample_int.to_bytes', ['stub:builtins.int.to_bytes'], {}),
+            ('function sample_int.to_bytes', ['stub:builtins.int.to_bytes'], {}),
+            ('property sample_int.real', ['stub:builtins.int.real'], {}),
+    
+            # With modules
+            ('test_project.test_search', ['test_api.test_project.test_search'], {}),
+            ('test_project.test_searc', ['test_api.test_project.test_search'], dict(complete=True)),
+            ('test_api.test_project.test_search', ['test_api.test_project.test_search'], {}),
+            ('test_api.test_project.test_sear', ['test_api.test_project.test_search'],
+             dict(complete=True)),
+    
+            # With namespace
+            ('implicit_namespace_package.ns1.pkg',
+             ['examples.implicit_namespace_package.ns1.pkg'], {}),
+            ('implicit_namespace_package.ns1.pkg.ns1_file',
+             ['examples.implicit_namespace_package.ns1.pkg.ns1_file'], {}),
+            ('examples.implicit_namespace_package.ns1.pkg.ns1_file',
+             ['examples.implicit_namespace_package.ns1.pkg.ns1_file'], {}),
+            ('implicit_namespace_package.ns1.pkg.',
+             ['examples.implicit_namespace_package.ns1.pkg.ns1_file'],
+             dict(complete=True)),
+            ('implicit_namespace_package.',
+             ['examples.implicit_namespace_package.ns1',
+              'examples.implicit_namespace_package.ns2'],
+             dict(complete=True)),
+    
+            # With stubs
+            ('with_python.module', ['examples.stub_packages.with_python.module'], {}),
+            ('with_python.modul', ['examples.stub_packages.with_python.module'],
+             dict(complete=True)),
+            ('no_python.foo', ['stub:examples.stub_packages.no_python.foo'], {}),
+            ('no_python.fo', ['stub:examples.stub_packages.no_python.foo'],
+             dict(complete=True)),
+            ('with_python-stubs.module', [], {}),
+            ('no_python-stubs.foo', [], {}),
+            # Both locations are given, because they live in separate folders (one
+            # suffixed with -stubs.
+            ('with_python', ['examples.stub_packages.with_python'], {}),
+            ('no_python', ['stub:examples.stub_packages.no_python'], {}),
+            # Completion stubs
+            ('stub_only', ['stub:completion.stub_folder.stub_only',
+                           'stub:examples.stub_packages.with_python.stub_only'], {}),
+            ('with_stub', ['completion.stub_folder.with_stub'], {}),
+            ('with_stub.in_with_stub_both',
+             ['completion.stub_folder.with_stub.in_with_stub_both'], {}),
+            ('with_stub.in_with_stub_python',
+             ['completion.stub_folder.with_stub.in_with_stub_python'], {}),
+            ('with_stub.in_with_stub_stub',
+             ['stub:completion.stub_folder.with_stub.in_with_stub_stub'], {}),
+            # Completion stubs: Folder
+            ('with_stub_folder', ['completion.stub_folder.with_stub_folder'], {}),
+            ('with_stub_folder.nested_with_stub',
+             ['completion.stub_folder.with_stub_folder.nested_with_stub'], {}),
+            ('nested_with_stub',
+             ['completion.stub_folder.stub_only_folder.nested_with_stub',
+              'completion.stub_folder.with_stub_folder.nested_with_stub'], {}),
+    
+            # On sys path
+            ('sys.path', ['stub:sys.path'], {}),
+            ('json.dumps', ['json.dumps'], {}),  # stdlib + stub
+            ('multiprocessing', ['multiprocessing'], {}),
+            ('multiprocessin', ['multiprocessing'], dict(complete=True)),
+        ]
+    )
+    def test_search(string, full_names, kwargs):
+        some_search_test_var = 1.0
+        project = Project(test_dir)
+        if kwargs.pop('complete', False) is True:
+            defs = project.complete_search(string, **kwargs)
+        else:
+            defs = project.search(string, **kwargs)
+>       assert sorted([('stub:' if d.is_stub() else '') + (d.full_name or d.name) for d in defs]) == full_names
+E       AssertionError: assert [] == ['examples.im...pkg.ns1_file']
+E         Right contains one more item: 'examples.implicit_namespace_package.ns1.pkg.ns1_file'
+E         Use -v to get more diff
+
+test/test_api/test_project.py:153: AssertionError
+____ test_search[implicit_namespace_package.ns1.pkg.-full_names23-kwargs23] ____
+
+string = 'implicit_namespace_package.ns1.pkg.'
+full_names = ['examples.implicit_namespace_package.ns1.pkg.ns1_file']
+kwargs = {}
+
+    @pytest.mark.parametrize(
+        'string, full_names, kwargs', [
+            ('test_load_save_project', ['test_api.test_project.test_load_save_project'], {}),
+            ('test_load_savep', [], dict(complete=True)),
+            ('test_load_save_p', ['test_api.test_project.test_load_save_project'],
+             dict(complete=True)),
+            ('test_load_save_p', ['test_api.test_project.test_load_save_project'],
+             dict(complete=True, all_scopes=True)),
+    
+            ('some_search_test_var', [], {}),
+            ('some_search_test_var', ['test_api.test_project.test_search.some_search_test_var'],
+             dict(all_scopes=True)),
+            ('some_search_test_var', ['test_api.test_project.test_search.some_search_test_var'],
+             dict(complete=True, all_scopes=True)),
+            # Make sure that the searched name is not part of the file, by
+            # splitting it up.
+            ('some_search_test_v' + 'a', ['test_api.test_project.test_search.some_search_test_var'],
+             dict(complete=True, all_scopes=True)),
+    
+            ('sample_int', ['helpers.sample_int'], {}),
+            ('sample_int', ['helpers.sample_int'], dict(all_scopes=True)),
+            ('sample_int.real', ['stub:builtins.int.real'], {}),
+    
+            ('class sample_int.real', [], {}),
+            ('foo sample_int.real', [], {}),
+            ('def sample_int.to_bytes', ['stub:builtins.int.to_bytes'], {}),
+            ('function sample_int.to_bytes', ['stub:builtins.int.to_bytes'], {}),
+            ('property sample_int.real', ['stub:builtins.int.real'], {}),
+    
+            # With modules
+            ('test_project.test_search', ['test_api.test_project.test_search'], {}),
+            ('test_project.test_searc', ['test_api.test_project.test_search'], dict(complete=True)),
+            ('test_api.test_project.test_search', ['test_api.test_project.test_search'], {}),
+            ('test_api.test_project.test_sear', ['test_api.test_project.test_search'],
+             dict(complete=True)),
+    
+            # With namespace
+            ('implicit_namespace_package.ns1.pkg',
+             ['examples.implicit_namespace_package.ns1.pkg'], {}),
+            ('implicit_namespace_package.ns1.pkg.ns1_file',
+             ['examples.implicit_namespace_package.ns1.pkg.ns1_file'], {}),
+            ('examples.implicit_namespace_package.ns1.pkg.ns1_file',
+             ['examples.implicit_namespace_package.ns1.pkg.ns1_file'], {}),
+            ('implicit_namespace_package.ns1.pkg.',
+             ['examples.implicit_namespace_package.ns1.pkg.ns1_file'],
+             dict(complete=True)),
+            ('implicit_namespace_package.',
+             ['examples.implicit_namespace_package.ns1',
+              'examples.implicit_namespace_package.ns2'],
+             dict(complete=True)),
+    
+            # With stubs
+            ('with_python.module', ['examples.stub_packages.with_python.module'], {}),
+            ('with_python.modul', ['examples.stub_packages.with_python.module'],
+             dict(complete=True)),
+            ('no_python.foo', ['stub:examples.stub_packages.no_python.foo'], {}),
+            ('no_python.fo', ['stub:examples.stub_packages.no_python.foo'],
+             dict(complete=True)),
+            ('with_python-stubs.module', [], {}),
+            ('no_python-stubs.foo', [], {}),
+            # Both locations are given, because they live in separate folders (one
+            # suffixed with -stubs.
+            ('with_python', ['examples.stub_packages.with_python'], {}),
+            ('no_python', ['stub:examples.stub_packages.no_python'], {}),
+            # Completion stubs
+            ('stub_only', ['stub:completion.stub_folder.stub_only',
+                           'stub:examples.stub_packages.with_python.stub_only'], {}),
+            ('with_stub', ['completion.stub_folder.with_stub'], {}),
+            ('with_stub.in_with_stub_both',
+             ['completion.stub_folder.with_stub.in_with_stub_both'], {}),
+            ('with_stub.in_with_stub_python',
+             ['completion.stub_folder.with_stub.in_with_stub_python'], {}),
+            ('with_stub.in_with_stub_stub',
+             ['stub:completion.stub_folder.with_stub.in_with_stub_stub'], {}),
+            # Completion stubs: Folder
+            ('with_stub_folder', ['completion.stub_folder.with_stub_folder'], {}),
+            ('with_stub_folder.nested_with_stub',
+             ['completion.stub_folder.with_stub_folder.nested_with_stub'], {}),
+            ('nested_with_stub',
+             ['completion.stub_folder.stub_only_folder.nested_with_stub',
+              'completion.stub_folder.with_stub_folder.nested_with_stub'], {}),
+    
+            # On sys path
+            ('sys.path', ['stub:sys.path'], {}),
+            ('json.dumps', ['json.dumps'], {}),  # stdlib + stub
+            ('multiprocessing', ['multiprocessing'], {}),
+            ('multiprocessin', ['multiprocessing'], dict(complete=True)),
+        ]
+    )
+    def test_search(string, full_names, kwargs):
+        some_search_test_var = 1.0
+        project = Project(test_dir)
+        if kwargs.pop('complete', False) is True:
+            defs = project.complete_search(string, **kwargs)
+        else:
+            defs = project.search(string, **kwargs)
+>       assert sorted([('stub:' if d.is_stub() else '') + (d.full_name or d.name) for d in defs]) == full_names
+E       AssertionError: assert [] == ['examples.im...pkg.ns1_file']
+E         Right contains one more item: 'examples.implicit_namespace_package.ns1.pkg.ns1_file'
+E         Use -v to get more diff
+
+test/test_api/test_project.py:153: AssertionError
+________ test_search[implicit_namespace_package.-full_names24-kwargs24] ________
+
+string = 'implicit_namespace_package.'
+full_names = ['examples.implicit_namespace_package.ns1', 'examples.implicit_namespace_package.ns2']
+kwargs = {}
+
+    @pytest.mark.parametrize(
+        'string, full_names, kwargs', [
+            ('test_load_save_project', ['test_api.test_project.test_load_save_project'], {}),
+            ('test_load_savep', [], dict(complete=True)),
+            ('test_load_save_p', ['test_api.test_project.test_load_save_project'],
+             dict(complete=True)),
+            ('test_load_save_p', ['test_api.test_project.test_load_save_project'],
+             dict(complete=True, all_scopes=True)),
+    
+            ('some_search_test_var', [], {}),
+            ('some_search_test_var', ['test_api.test_project.test_search.some_search_test_var'],
+             dict(all_scopes=True)),
+            ('some_search_test_var', ['test_api.test_project.test_search.some_search_test_var'],
+             dict(complete=True, all_scopes=True)),
+            # Make sure that the searched name is not part of the file, by
+            # splitting it up.
+            ('some_search_test_v' + 'a', ['test_api.test_project.test_search.some_search_test_var'],
+             dict(complete=True, all_scopes=True)),
+    
+            ('sample_int', ['helpers.sample_int'], {}),
+            ('sample_int', ['helpers.sample_int'], dict(all_scopes=True)),
+            ('sample_int.real', ['stub:builtins.int.real'], {}),
+    
+            ('class sample_int.real', [], {}),
+            ('foo sample_int.real', [], {}),
+            ('def sample_int.to_bytes', ['stub:builtins.int.to_bytes'], {}),
+            ('function sample_int.to_bytes', ['stub:builtins.int.to_bytes'], {}),
+            ('property sample_int.real', ['stub:builtins.int.real'], {}),
+    
+            # With modules
+            ('test_project.test_search', ['test_api.test_project.test_search'], {}),
+            ('test_project.test_searc', ['test_api.test_project.test_search'], dict(complete=True)),
+            ('test_api.test_project.test_search', ['test_api.test_project.test_search'], {}),
+            ('test_api.test_project.test_sear', ['test_api.test_project.test_search'],
+             dict(complete=True)),
+    
+            # With namespace
+            ('implicit_namespace_package.ns1.pkg',
+             ['examples.implicit_namespace_package.ns1.pkg'], {}),
+            ('implicit_namespace_package.ns1.pkg.ns1_file',
+             ['examples.implicit_namespace_package.ns1.pkg.ns1_file'], {}),
+            ('examples.implicit_namespace_package.ns1.pkg.ns1_file',
+             ['examples.implicit_namespace_package.ns1.pkg.ns1_file'], {}),
+            ('implicit_namespace_package.ns1.pkg.',
+             ['examples.implicit_namespace_package.ns1.pkg.ns1_file'],
+             dict(complete=True)),
+            ('implicit_namespace_package.',
+             ['examples.implicit_namespace_package.ns1',
+              'examples.implicit_namespace_package.ns2'],
+             dict(complete=True)),
+    
+            # With stubs
+            ('with_python.module', ['examples.stub_packages.with_python.module'], {}),
+            ('with_python.modul', ['examples.stub_packages.with_python.module'],
+             dict(complete=True)),
+            ('no_python.foo', ['stub:examples.stub_packages.no_python.foo'], {}),
+            ('no_python.fo', ['stub:examples.stub_packages.no_python.foo'],
+             dict(complete=True)),
+            ('with_python-stubs.module', [], {}),
+            ('no_python-stubs.foo', [], {}),
+            # Both locations are given, because they live in separate folders (one
+            # suffixed with -stubs.
+            ('with_python', ['examples.stub_packages.with_python'], {}),
+            ('no_python', ['stub:examples.stub_packages.no_python'], {}),
+            # Completion stubs
+            ('stub_only', ['stub:completion.stub_folder.stub_only',
+                           'stub:examples.stub_packages.with_python.stub_only'], {}),
+            ('with_stub', ['completion.stub_folder.with_stub'], {}),
+            ('with_stub.in_with_stub_both',
+             ['completion.stub_folder.with_stub.in_with_stub_both'], {}),
+            ('with_stub.in_with_stub_python',
+             ['completion.stub_folder.with_stub.in_with_stub_python'], {}),
+            ('with_stub.in_with_stub_stub',
+             ['stub:completion.stub_folder.with_stub.in_with_stub_stub'], {}),
+            # Completion stubs: Folder
+            ('with_stub_folder', ['completion.stub_folder.with_stub_folder'], {}),
+            ('with_stub_folder.nested_with_stub',
+             ['completion.stub_folder.with_stub_folder.nested_with_stub'], {}),
+            ('nested_with_stub',
+             ['completion.stub_folder.stub_only_folder.nested_with_stub',
+              'completion.stub_folder.with_stub_folder.nested_with_stub'], {}),
+    
+            # On sys path
+            ('sys.path', ['stub:sys.path'], {}),
+            ('json.dumps', ['json.dumps'], {}),  # stdlib + stub
+            ('multiprocessing', ['multiprocessing'], {}),
+            ('multiprocessin', ['multiprocessing'], dict(complete=True)),
+        ]
+    )
+    def test_search(string, full_names, kwargs):
+        some_search_test_var = 1.0
+        project = Project(test_dir)
+        if kwargs.pop('complete', False) is True:
+            defs = project.complete_search(string, **kwargs)
+        else:
+            defs = project.search(string, **kwargs)
+>       assert sorted([('stub:' if d.is_stub() else '') + (d.full_name or d.name) for d in defs]) == full_names
+E       AssertionError: assert [] == ['examples.im..._package.ns2']
+E         Right contains 2 more items, first extra item: 'examples.implicit_namespace_package.ns1'
+E         Use -v to get more diff
+
+test/test_api/test_project.py:153: AssertionError
+____________ test_search[with_python.module-full_names25-kwargs25] _____________
+
+string = 'with_python.module'
+full_names = ['examples.stub_packages.with_python.module'], kwargs = {}
+
+    @pytest.mark.parametrize(
+        'string, full_names, kwargs', [
+            ('test_load_save_project', ['test_api.test_project.test_load_save_project'], {}),
+            ('test_load_savep', [], dict(complete=True)),
+            ('test_load_save_p', ['test_api.test_project.test_load_save_project'],
+             dict(complete=True)),
+            ('test_load_save_p', ['test_api.test_project.test_load_save_project'],
+             dict(complete=True, all_scopes=True)),
+    
+            ('some_search_test_var', [], {}),
+            ('some_search_test_var', ['test_api.test_project.test_search.some_search_test_var'],
+             dict(all_scopes=True)),
+            ('some_search_test_var', ['test_api.test_project.test_search.some_search_test_var'],
+             dict(complete=True, all_scopes=True)),
+            # Make sure that the searched name is not part of the file, by
+            # splitting it up.
+            ('some_search_test_v' + 'a', ['test_api.test_project.test_search.some_search_test_var'],
+             dict(complete=True, all_scopes=True)),
+    
+            ('sample_int', ['helpers.sample_int'], {}),
+            ('sample_int', ['helpers.sample_int'], dict(all_scopes=True)),
+            ('sample_int.real', ['stub:builtins.int.real'], {}),
+    
+            ('class sample_int.real', [], {}),
+            ('foo sample_int.real', [], {}),
+            ('def sample_int.to_bytes', ['stub:builtins.int.to_bytes'], {}),
+            ('function sample_int.to_bytes', ['stub:builtins.int.to_bytes'], {}),
+            ('property sample_int.real', ['stub:builtins.int.real'], {}),
+    
+            # With modules
+            ('test_project.test_search', ['test_api.test_project.test_search'], {}),
+            ('test_project.test_searc', ['test_api.test_project.test_search'], dict(complete=True)),
+            ('test_api.test_project.test_search', ['test_api.test_project.test_search'], {}),
+            ('test_api.test_project.test_sear', ['test_api.test_project.test_search'],
+             dict(complete=True)),
+    
+            # With namespace
+            ('implicit_namespace_package.ns1.pkg',
+             ['examples.implicit_namespace_package.ns1.pkg'], {}),
+            ('implicit_namespace_package.ns1.pkg.ns1_file',
+             ['examples.implicit_namespace_package.ns1.pkg.ns1_file'], {}),
+            ('examples.implicit_namespace_package.ns1.pkg.ns1_file',
+             ['examples.implicit_namespace_package.ns1.pkg.ns1_file'], {}),
+            ('implicit_namespace_package.ns1.pkg.',
+             ['examples.implicit_namespace_package.ns1.pkg.ns1_file'],
+             dict(complete=True)),
+            ('implicit_namespace_package.',
+             ['examples.implicit_namespace_package.ns1',
+              'examples.implicit_namespace_package.ns2'],
+             dict(complete=True)),
+    
+            # With stubs
+            ('with_python.module', ['examples.stub_packages.with_python.module'], {}),
+            ('with_python.modul', ['examples.stub_packages.with_python.module'],
+             dict(complete=True)),
+            ('no_python.foo', ['stub:examples.stub_packages.no_python.foo'], {}),
+            ('no_python.fo', ['stub:examples.stub_packages.no_python.foo'],
+             dict(complete=True)),
+            ('with_python-stubs.module', [], {}),
+            ('no_python-stubs.foo', [], {}),
+            # Both locations are given, because they live in separate folders (one
+            # suffixed with -stubs.
+            ('with_python', ['examples.stub_packages.with_python'], {}),
+            ('no_python', ['stub:examples.stub_packages.no_python'], {}),
+            # Completion stubs
+            ('stub_only', ['stub:completion.stub_folder.stub_only',
+                           'stub:examples.stub_packages.with_python.stub_only'], {}),
+            ('with_stub', ['completion.stub_folder.with_stub'], {}),
+            ('with_stub.in_with_stub_both',
+             ['completion.stub_folder.with_stub.in_with_stub_both'], {}),
+            ('with_stub.in_with_stub_python',
+             ['completion.stub_folder.with_stub.in_with_stub_python'], {}),
+            ('with_stub.in_with_stub_stub',
+             ['stub:completion.stub_folder.with_stub.in_with_stub_stub'], {}),
+            # Completion stubs: Folder
+            ('with_stub_folder', ['completion.stub_folder.with_stub_folder'], {}),
+            ('with_stub_folder.nested_with_stub',
+             ['completion.stub_folder.with_stub_folder.nested_with_stub'], {}),
+            ('nested_with_stub',
+             ['completion.stub_folder.stub_only_folder.nested_with_stub',
+              'completion.stub_folder.with_stub_folder.nested_with_stub'], {}),
+    
+            # On sys path
+            ('sys.path', ['stub:sys.path'], {}),
+            ('json.dumps', ['json.dumps'], {}),  # stdlib + stub
+            ('multiprocessing', ['multiprocessing'], {}),
+            ('multiprocessin', ['multiprocessing'], dict(complete=True)),
+        ]
+    )
+    def test_search(string, full_names, kwargs):
+        some_search_test_var = 1.0
+        project = Project(test_dir)
+        if kwargs.pop('complete', False) is True:
+            defs = project.complete_search(string, **kwargs)
+        else:
+            defs = project.search(string, **kwargs)
+>       assert sorted([('stub:' if d.is_stub() else '') + (d.full_name or d.name) for d in defs]) == full_names
+E       AssertionError: assert [] == ['examples.st...ython.module']
+E         Right contains one more item: 'examples.stub_packages.with_python.module'
+E         Use -v to get more diff
+
+test/test_api/test_project.py:153: AssertionError
+_____________ test_search[with_python.modul-full_names26-kwargs26] _____________
+
+string = 'with_python.modul'
+full_names = ['examples.stub_packages.with_python.module'], kwargs = {}
+
+    @pytest.mark.parametrize(
+        'string, full_names, kwargs', [
+            ('test_load_save_project', ['test_api.test_project.test_load_save_project'], {}),
+            ('test_load_savep', [], dict(complete=True)),
+            ('test_load_save_p', ['test_api.test_project.test_load_save_project'],
+             dict(complete=True)),
+            ('test_load_save_p', ['test_api.test_project.test_load_save_project'],
+             dict(complete=True, all_scopes=True)),
+    
+            ('some_search_test_var', [], {}),
+            ('some_search_test_var', ['test_api.test_project.test_search.some_search_test_var'],
+             dict(all_scopes=True)),
+            ('some_search_test_var', ['test_api.test_project.test_search.some_search_test_var'],
+             dict(complete=True, all_scopes=True)),
+            # Make sure that the searched name is not part of the file, by
+            # splitting it up.
+            ('some_search_test_v' + 'a', ['test_api.test_project.test_search.some_search_test_var'],
+             dict(complete=True, all_scopes=True)),
+    
+            ('sample_int', ['helpers.sample_int'], {}),
+            ('sample_int', ['helpers.sample_int'], dict(all_scopes=True)),
+            ('sample_int.real', ['stub:builtins.int.real'], {}),
+    
+            ('class sample_int.real', [], {}),
+            ('foo sample_int.real', [], {}),
+            ('def sample_int.to_bytes', ['stub:builtins.int.to_bytes'], {}),
+            ('function sample_int.to_bytes', ['stub:builtins.int.to_bytes'], {}),
+            ('property sample_int.real', ['stub:builtins.int.real'], {}),
+    
+            # With modules
+            ('test_project.test_search', ['test_api.test_project.test_search'], {}),
+            ('test_project.test_searc', ['test_api.test_project.test_search'], dict(complete=True)),
+            ('test_api.test_project.test_search', ['test_api.test_project.test_search'], {}),
+            ('test_api.test_project.test_sear', ['test_api.test_project.test_search'],
+             dict(complete=True)),
+    
+            # With namespace
+            ('implicit_namespace_package.ns1.pkg',
+             ['examples.implicit_namespace_package.ns1.pkg'], {}),
+            ('implicit_namespace_package.ns1.pkg.ns1_file',
+             ['examples.implicit_namespace_package.ns1.pkg.ns1_file'], {}),
+            ('examples.implicit_namespace_package.ns1.pkg.ns1_file',
+             ['examples.implicit_namespace_package.ns1.pkg.ns1_file'], {}),
+            ('implicit_namespace_package.ns1.pkg.',
+             ['examples.implicit_namespace_package.ns1.pkg.ns1_file'],
+             dict(complete=True)),
+            ('implicit_namespace_package.',
+             ['examples.implicit_namespace_package.ns1',
+              'examples.implicit_namespace_package.ns2'],
+             dict(complete=True)),
+    
+            # With stubs
+            ('with_python.module', ['examples.stub_packages.with_python.module'], {}),
+            ('with_python.modul', ['examples.stub_packages.with_python.module'],
+             dict(complete=True)),
+            ('no_python.foo', ['stub:examples.stub_packages.no_python.foo'], {}),
+            ('no_python.fo', ['stub:examples.stub_packages.no_python.foo'],
+             dict(complete=True)),
+            ('with_python-stubs.module', [], {}),
+            ('no_python-stubs.foo', [], {}),
+            # Both locations are given, because they live in separate folders (one
+            # suffixed with -stubs.
+            ('with_python', ['examples.stub_packages.with_python'], {}),
+            ('no_python', ['stub:examples.stub_packages.no_python'], {}),
+            # Completion stubs
+            ('stub_only', ['stub:completion.stub_folder.stub_only',
+                           'stub:examples.stub_packages.with_python.stub_only'], {}),
+            ('with_stub', ['completion.stub_folder.with_stub'], {}),
+            ('with_stub.in_with_stub_both',
+             ['completion.stub_folder.with_stub.in_with_stub_both'], {}),
+            ('with_stub.in_with_stub_python',
+             ['completion.stub_folder.with_stub.in_with_stub_python'], {}),
+            ('with_stub.in_with_stub_stub',
+             ['stub:completion.stub_folder.with_stub.in_with_stub_stub'], {}),
+            # Completion stubs: Folder
+            ('with_stub_folder', ['completion.stub_folder.with_stub_folder'], {}),
+            ('with_stub_folder.nested_with_stub',
+             ['completion.stub_folder.with_stub_folder.nested_with_stub'], {}),
+            ('nested_with_stub',
+             ['completion.stub_folder.stub_only_folder.nested_with_stub',
+              'completion.stub_folder.with_stub_folder.nested_with_stub'], {}),
+    
+            # On sys path
+            ('sys.path', ['stub:sys.path'], {}),
+            ('json.dumps', ['json.dumps'], {}),  # stdlib + stub
+            ('multiprocessing', ['multiprocessing'], {}),
+            ('multiprocessin', ['multiprocessing'], dict(complete=True)),
+        ]
+    )
+    def test_search(string, full_names, kwargs):
+        some_search_test_var = 1.0
+        project = Project(test_dir)
+        if kwargs.pop('complete', False) is True:
+            defs = project.complete_search(string, **kwargs)
+        else:
+            defs = project.search(string, **kwargs)
+>       assert sorted([('stub:' if d.is_stub() else '') + (d.full_name or d.name) for d in defs]) == full_names
+E       AssertionError: assert [] == ['examples.st...ython.module']
+E         Right contains one more item: 'examples.stub_packages.with_python.module'
+E         Use -v to get more diff
+
+test/test_api/test_project.py:153: AssertionError
+__________ test_complete_search[test_load_save_p-completions3-False] ___________
+
+self = <CompiledSubprocess _executable='/home/user/purepython/cpython-3.9/my_purepy/bin/python', is_crashed=False, pid=59551>
+args = (), kwargs = {}
+cache_dict = {<function CompiledSubprocess._get_process at 0x147b5e12de10>: {}}
+dct = {}, key = ((), frozenset())
+
+    @wraps(method)
+    def wrapper(self, *args, **kwargs):
+        cache_dict = self.__dict__.setdefault('_memoize_method_dct', {})
+        dct = cache_dict.setdefault(method, {})
+        key = (args, frozenset(kwargs.items()))
+        try:
+>           return dct[key]
+E           KeyError: ((), frozenset())
+
+jedi/cache.py:110: KeyError
+
+During handling of the above exception, another exception occurred:
+
+self = <SameEnvironment: 3.9.15 in /home/user/purepython/cpython-3.9/my_purepy>
+
+    def _get_subprocess(self):
+        if self._subprocess is not None and not self._subprocess.is_crashed:
+            return self._subprocess
+    
+        try:
+            self._subprocess = CompiledSubprocess(self._start_executable,
+                                                  env_vars=self._env_vars)
+>           info = self._subprocess._send(None, _get_info)
+
+jedi/api/environment.py:77: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <CompiledSubprocess _executable='/home/user/purepython/cpython-3.9/my_purepy/bin/python', is_crashed=False, pid=59551>
+inference_state_id = None, function = <function _get_info at 0x147b5e00d230>
+args = (), kwargs = {}
+
+    def _send(self, inference_state_id, function, args=(), kwargs={}):
+        if self.is_crashed:
+            raise InternalError("The subprocess %s has crashed." % self._executable)
+    
+        data = inference_state_id, function, args, kwargs
+        try:
+>           pickle_dump(data, self._get_process().stdin, PICKLE_PROTOCOL)
+
+jedi/inference/compiled/subprocess/__init__.py:242: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <CompiledSubprocess _executable='/home/user/purepython/cpython-3.9/my_purepy/bin/python', is_crashed=False, pid=59551>
+args = (), kwargs = {}
+cache_dict = {<function CompiledSubprocess._get_process at 0x147b5e12de10>: {}}
+dct = {}, key = ((), frozenset())
+
+    @wraps(method)
+    def wrapper(self, *args, **kwargs):
+        cache_dict = self.__dict__.setdefault('_memoize_method_dct', {})
+        dct = cache_dict.setdefault(method, {})
+        key = (args, frozenset(kwargs.items()))
+        try:
+            return dct[key]
+        except KeyError:
+>           result = method(self, *args, **kwargs)
+
+jedi/cache.py:112: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <CompiledSubprocess _executable='/home/user/purepython/cpython-3.9/my_purepy/bin/python', is_crashed=False, pid=59551>
+
+    @memoize_method
+    def _get_process(self):
+        debug.dbg('Start environment subprocess %s', self._executable)
+        parso_path = sys.modules['parso'].__file__
+        args = (
+            self._executable,
+            _MAIN_PATH,
+            os.path.dirname(os.path.dirname(parso_path)),
+            '.'.join(str(x) for x in sys.version_info[:3]),
+        )
+>       process = _GeneralizedPopen(
+            args,
+            stdin=subprocess.PIPE,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            env=self._env_vars
+        )
+
+jedi/inference/compiled/subprocess/__init__.py:194: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = (('/home/user/purepython/cpython-3.9/my_purepy/bin/python', '/home/user/jedi/jedi/inference/compiled/subprocess/__main__.py', '/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages', '3.9.15'),)
+kwargs = {'close_fds': True, 'env': None, 'stderr': -1, 'stdin': -1, ...}
+
+    def _GeneralizedPopen(*args, **kwargs):
+        if os.name == 'nt':
+            try:
+                # Was introduced in Python 3.7.
+                CREATE_NO_WINDOW = subprocess.CREATE_NO_WINDOW
+            except AttributeError:
+                CREATE_NO_WINDOW = 0x08000000
+            kwargs['creationflags'] = CREATE_NO_WINDOW
+        # The child process doesn't need file descriptors except 0, 1, 2.
+        # This is unix only.
+        kwargs['close_fds'] = 'posix' in sys.builtin_module_names
+    
+>       return subprocess.Popen(*args, **kwargs)
+
+jedi/inference/compiled/subprocess/__init__.py:45: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <Popen: returncode: None args: ('/home/user/purepython/cpython-3.9/my_purepy...>
+args = ('/home/user/purepython/cpython-3.9/my_purepy/bin/python', '/home/user/jedi/jedi/inference/compiled/subprocess/__main__.py', '/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages', '3.9.15')
+bufsize = -1, executable = None, stdin = -1, stdout = -1, stderr = -1
+preexec_fn = None, close_fds = True, shell = False, cwd = None, env = None
+universal_newlines = None, startupinfo = None, creationflags = 0
+restore_signals = True, start_new_session = False, pass_fds = ()
+
+    def __init__(self, args, bufsize=-1, executable=None,
+                 stdin=None, stdout=None, stderr=None,
+                 preexec_fn=None, close_fds=True,
+                 shell=False, cwd=None, env=None, universal_newlines=None,
+                 startupinfo=None, creationflags=0,
+                 restore_signals=True, start_new_session=False,
+                 pass_fds=(), *, user=None, group=None, extra_groups=None,
+                 encoding=None, errors=None, text=None, umask=-1):
+        """Create new Popen instance."""
+        _cleanup()
+        # Held while anything is calling waitpid before returncode has been
+        # updated to prevent clobbering returncode if wait() or poll() are
+        # called from multiple threads at once.  After acquiring the lock,
+        # code must re-check self.returncode to see if another thread just
+        # finished a waitpid() call.
+        self._waitpid_lock = threading.Lock()
+    
+        self._input = None
+        self._communication_started = False
+        if bufsize is None:
+            bufsize = -1  # Restore default
+        if not isinstance(bufsize, int):
+            raise TypeError("bufsize must be an integer")
+    
+        if _mswindows:
+            if preexec_fn is not None:
+                raise ValueError("preexec_fn is not supported on Windows "
+                                 "platforms")
+        else:
+            # POSIX
+            if pass_fds and not close_fds:
+                warnings.warn("pass_fds overriding close_fds.", RuntimeWarning)
+                close_fds = True
+            if startupinfo is not None:
+                raise ValueError("startupinfo is only supported on Windows "
+                                 "platforms")
+            if creationflags != 0:
+                raise ValueError("creationflags is only supported on Windows "
+                                 "platforms")
+    
+        self.args = args
+        self.stdin = None
+        self.stdout = None
+        self.stderr = None
+        self.pid = None
+        self.returncode = None
+        self.encoding = encoding
+        self.errors = errors
+    
+        # Validate the combinations of text and universal_newlines
+        if (text is not None and universal_newlines is not None
+            and bool(universal_newlines) != bool(text)):
+            raise SubprocessError('Cannot disambiguate when both text '
+                                  'and universal_newlines are supplied but '
+                                  'different. Pass one or the other.')
+    
+        # Input and output objects. The general principle is like
+        # this:
+        #
+        # Parent                   Child
+        # ------                   -----
+        # p2cwrite   ---stdin--->  p2cread
+        # c2pread    <--stdout---  c2pwrite
+        # errread    <--stderr---  errwrite
+        #
+        # On POSIX, the child objects are file descriptors.  On
+        # Windows, these are Windows file handles.  The parent objects
+        # are file descriptors on both platforms.  The parent objects
+        # are -1 when not using PIPEs. The child objects are -1
+        # when not redirecting.
+    
+        (p2cread, p2cwrite,
+         c2pread, c2pwrite,
+         errread, errwrite) = self._get_handles(stdin, stdout, stderr)
+    
+        # We wrap OS handles *before* launching the child, otherwise a
+        # quickly terminating child could make our fds unwrappable
+        # (see #8458).
+    
+        if _mswindows:
+            if p2cwrite != -1:
+                p2cwrite = msvcrt.open_osfhandle(p2cwrite.Detach(), 0)
+            if c2pread != -1:
+                c2pread = msvcrt.open_osfhandle(c2pread.Detach(), 0)
+            if errread != -1:
+                errread = msvcrt.open_osfhandle(errread.Detach(), 0)
+    
+        self.text_mode = encoding or errors or text or universal_newlines
+    
+        # How long to resume waiting on a child after the first ^C.
+        # There is no right value for this.  The purpose is to be polite
+        # yet remain good for interactive users trying to exit a tool.
+        self._sigint_wait_secs = 0.25  # 1/xkcd221.getRandomNumber()
+    
+        self._closed_child_pipe_fds = False
+    
+        if self.text_mode:
+            if bufsize == 1:
+                line_buffering = True
+                # Use the default buffer size for the underlying binary streams
+                # since they don't support line buffering.
+                bufsize = -1
+            else:
+                line_buffering = False
+    
+        gid = None
+        if group is not None:
+            if not hasattr(os, 'setregid'):
+                raise ValueError("The 'group' parameter is not supported on the "
+                                 "current platform")
+    
+            elif isinstance(group, str):
+                if grp is None:
+                    raise ValueError("The group parameter cannot be a string "
+                                     "on systems without the grp module")
+    
+                gid = grp.getgrnam(group).gr_gid
+            elif isinstance(group, int):
+                gid = group
+            else:
+                raise TypeError("Group must be a string or an integer, not {}"
+                                .format(type(group)))
+    
+            if gid < 0:
+                raise ValueError(f"Group ID cannot be negative, got {gid}")
+    
+        gids = None
+        if extra_groups is not None:
+            if not hasattr(os, 'setgroups'):
+                raise ValueError("The 'extra_groups' parameter is not "
+                                 "supported on the current platform")
+    
+            elif isinstance(extra_groups, str):
+                raise ValueError("Groups must be a list, not a string")
+    
+            gids = []
+            for extra_group in extra_groups:
+                if isinstance(extra_group, str):
+                    if grp is None:
+                        raise ValueError("Items in extra_groups cannot be "
+                                         "strings on systems without the "
+                                         "grp module")
+    
+                    gids.append(grp.getgrnam(extra_group).gr_gid)
+                elif isinstance(extra_group, int):
+                    gids.append(extra_group)
+                else:
+                    raise TypeError("Items in extra_groups must be a string "
+                                    "or integer, not {}"
+                                    .format(type(extra_group)))
+    
+            # make sure that the gids are all positive here so we can do less
+            # checking in the C code
+            for gid_check in gids:
+                if gid_check < 0:
+                    raise ValueError(f"Group ID cannot be negative, got {gid_check}")
+    
+        uid = None
+        if user is not None:
+            if not hasattr(os, 'setreuid'):
+                raise ValueError("The 'user' parameter is not supported on "
+                                 "the current platform")
+    
+            elif isinstance(user, str):
+                if pwd is None:
+                    raise ValueError("The user parameter cannot be a string "
+                                     "on systems without the pwd module")
+    
+                uid = pwd.getpwnam(user).pw_uid
+            elif isinstance(user, int):
+                uid = user
+            else:
+                raise TypeError("User must be a string or an integer")
+    
+            if uid < 0:
+                raise ValueError(f"User ID cannot be negative, got {uid}")
+    
+        try:
+            if p2cwrite != -1:
+                self.stdin = io.open(p2cwrite, 'wb', bufsize)
+                if self.text_mode:
+                    self.stdin = io.TextIOWrapper(self.stdin, write_through=True,
+                            line_buffering=line_buffering,
+                            encoding=encoding, errors=errors)
+            if c2pread != -1:
+                self.stdout = io.open(c2pread, 'rb', bufsize)
+                if self.text_mode:
+                    self.stdout = io.TextIOWrapper(self.stdout,
+                            encoding=encoding, errors=errors)
+            if errread != -1:
+                self.stderr = io.open(errread, 'rb', bufsize)
+                if self.text_mode:
+                    self.stderr = io.TextIOWrapper(self.stderr,
+                            encoding=encoding, errors=errors)
+    
+>           self._execute_child(args, executable, preexec_fn, close_fds,
+                                pass_fds, cwd, env,
+                                startupinfo, creationflags, shell,
+                                p2cread, p2cwrite,
+                                c2pread, c2pwrite,
+                                errread, errwrite,
+                                restore_signals,
+                                gid, gids, uid, umask,
+                                start_new_session)
+
+../purepython/cpython-3.9/Lib/subprocess.py:951: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <Popen: returncode: None args: ('/home/user/purepython/cpython-3.9/my_purepy...>
+args = ['/home/user/purepython/cpython-3.9/my_purepy/bin/python', '/home/user/jedi/jedi/inference/compiled/subprocess/__main__.py', '/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages', '3.9.15']
+executable = b'/home/user/purepython/cpython-3.9/my_purepy/bin/python'
+preexec_fn = None, close_fds = True, pass_fds = (), cwd = None, env = None
+startupinfo = None, creationflags = 0, shell = False, p2cread = 9, p2cwrite = 16
+c2pread = 19, c2pwrite = 20, errread = 21, errwrite = 22, restore_signals = True
+gid = None, gids = None, uid = None, umask = -1, start_new_session = False
+
+    def _execute_child(self, args, executable, preexec_fn, close_fds,
+                       pass_fds, cwd, env,
+                       startupinfo, creationflags, shell,
+                       p2cread, p2cwrite,
+                       c2pread, c2pwrite,
+                       errread, errwrite,
+                       restore_signals,
+                       gid, gids, uid, umask,
+                       start_new_session):
+        """Execute program (POSIX version)"""
+    
+        if isinstance(args, (str, bytes)):
+            args = [args]
+        elif isinstance(args, os.PathLike):
+            if shell:
+                raise TypeError('path-like args is not allowed when '
+                                'shell is true')
+            args = [args]
+        else:
+            args = list(args)
+    
+        if shell:
+            # On Android the default shell is at '/system/bin/sh'.
+            unix_shell = ('/system/bin/sh' if
+                      hasattr(sys, 'getandroidapilevel') else '/bin/sh')
+            args = [unix_shell, "-c"] + args
+            if executable:
+                args[0] = executable
+    
+        if executable is None:
+            executable = args[0]
+    
+        sys.audit("subprocess.Popen", executable, args, cwd, env)
+    
+        if (_USE_POSIX_SPAWN
+                and os.path.dirname(executable)
+                and preexec_fn is None
+                and not close_fds
+                and not pass_fds
+                and cwd is None
+                and (p2cread == -1 or p2cread > 2)
+                and (c2pwrite == -1 or c2pwrite > 2)
+                and (errwrite == -1 or errwrite > 2)
+                and not start_new_session
+                and gid is None
+                and gids is None
+                and uid is None
+                and umask < 0):
+            self._posix_spawn(args, executable, env, restore_signals,
+                              p2cread, p2cwrite,
+                              c2pread, c2pwrite,
+                              errread, errwrite)
+            return
+    
+        orig_executable = executable
+    
+        # For transferring possible exec failure from child to parent.
+        # Data format: "exception name:hex errno:description"
+        # Pickle is not used; it is complex and involves memory allocation.
+        errpipe_read, errpipe_write = os.pipe()
+        # errpipe_write must not be in the standard io 0, 1, or 2 fd range.
+        low_fds_to_close = []
+        while errpipe_write < 3:
+            low_fds_to_close.append(errpipe_write)
+            errpipe_write = os.dup(errpipe_write)
+        for low_fd in low_fds_to_close:
+            os.close(low_fd)
+        try:
+            try:
+                # We must avoid complex work that could involve
+                # malloc or free in the child process to avoid
+                # potential deadlocks, thus we do all this here.
+                # and pass it to fork_exec()
+    
+                if env is not None:
+                    env_list = []
+                    for k, v in env.items():
+                        k = os.fsencode(k)
+                        if b'=' in k:
+                            raise ValueError("illegal environment variable name")
+                        env_list.append(k + b'=' + os.fsencode(v))
+                else:
+                    env_list = None  # Use execv instead of execve.
+                executable = os.fsencode(executable)
+                if os.path.dirname(executable):
+                    executable_list = (executable,)
+                else:
+                    # This matches the behavior of os._execvpe().
+                    executable_list = tuple(
+                        os.path.join(os.fsencode(dir), executable)
+                        for dir in os.get_exec_path(env))
+                fds_to_keep = set(pass_fds)
+                fds_to_keep.add(errpipe_write)
+>               self.pid = _posixsubprocess.fork_exec(
+                        args, executable_list,
+                        close_fds, tuple(sorted(map(int, fds_to_keep))),
+                        cwd, env_list,
+                        p2cread, p2cwrite, c2pread, c2pwrite,
+                        errread, errwrite,
+                        errpipe_read, errpipe_write,
+                        restore_signals, start_new_session,
+                        gid, gids, uid, umask,
+                        preexec_fn)
+E                       OSError: [Errno 12] Cannot allocate memory
+
+../purepython/cpython-3.9/Lib/subprocess.py:1754: OSError
+
+During handling of the above exception, another exception occurred:
+
+Script = functools.partial(<class 'jedi.api.Script'>, environment=<Environment: 3.9.15 in /home/user/purepython/cpython-3.9/my_purepy>)
+string = 'test_load_save_p', completions = ['roject'], all_scopes = False
+
+    @pytest.mark.parametrize(
+        'string, completions, all_scopes', [
+            ('SomeCl', ['ass'], False),
+            ('twic', [], False),
+            ('twic', ['e', 'e'], True),
+            ('test_load_save_p', ['roject'], False),
+        ]
+    )
+    def test_complete_search(Script, string, completions, all_scopes):
+        project = Project(test_dir)
+        defs = project.complete_search(string, all_scopes=all_scopes)
+>       assert [d.complete for d in defs] == completions
+
+test/test_api/test_project.py:167: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test/test_api/test_project.py:167: in <listcomp>
+    assert [d.complete for d in defs] == completions
+jedi/api/project.py:37: in wrapper
+    for definition in func(*args, **kwargs):
+jedi/api/project.py:289: in _search_func
+    s = Script('', project=self)
+jedi/api/__init__.py:119: in __init__
+    self._inference_state = InferenceState(
+jedi/inference/__init__.py:90: in __init__
+    self.compiled_subprocess = environment.get_inference_state_subprocess(self)
+jedi/api/environment.py:106: in get_inference_state_subprocess
+    return InferenceStateSubprocess(inference_state, self._get_subprocess())
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <SameEnvironment: 3.9.15 in /home/user/purepython/cpython-3.9/my_purepy>
+
+    def _get_subprocess(self):
+        if self._subprocess is not None and not self._subprocess.is_crashed:
+            return self._subprocess
+    
+        try:
+            self._subprocess = CompiledSubprocess(self._start_executable,
+                                                  env_vars=self._env_vars)
+            info = self._subprocess._send(None, _get_info)
+        except Exception as exc:
+>           raise InvalidPythonEnvironment(
+                "Could not get version information for %r: %r" % (
+                    self._start_executable,
+                    exc))
+E           jedi.api.environment.InvalidPythonEnvironment: Could not get version information for '/home/user/purepython/cpython-3.9/my_purepy/bin/python': OSError(12, 'Cannot allocate memory')
+
+jedi/api/environment.py:79: InvalidPythonEnvironment
+=========================== short test summary info ============================
+FAILED test/test_api/test_project.py::test_search[implicit_namespace_package.ns1.pkg-full_names20-kwargs20]
+FAILED test/test_api/test_project.py::test_search[implicit_namespace_package.ns1.pkg.ns1_file-full_names21-kwargs21]
+FAILED test/test_api/test_project.py::test_search[examples.implicit_namespace_package.ns1.pkg.ns1_file-full_names22-kwargs22]
+FAILED test/test_api/test_project.py::test_search[implicit_namespace_package.ns1.pkg.-full_names23-kwargs23]
+FAILED test/test_api/test_project.py::test_search[implicit_namespace_package.-full_names24-kwargs24]
+FAILED test/test_api/test_project.py::test_search[with_python.module-full_names25-kwargs25]
+FAILED test/test_api/test_project.py::test_search[with_python.modul-full_names26-kwargs26]
+FAILED test/test_api/test_project.py::test_complete_search[test_load_save_p-completions3-False]
+ERROR test/test_api/test_environment.py::test_working_venv - FileNotFoundErro...
+ERROR test/test_api/test_environment.py::test_scanning_venvs - FileNotFoundEr...
+ERROR test/test_api/test_environment.py::test_create_environment_venv_path - ...
+ERROR test/test_api/test_environment.py::test_changing_venv - FileNotFoundErr...
+======= 8 failed, 711 passed, 2 skipped, 4 errors in 10048.61s (2:47:28) =======
+Traceback (most recent call last):
+  File "/home/user/thefuck-master/pre_run_biend.py", line 102, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'

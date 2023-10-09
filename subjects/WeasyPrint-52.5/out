@@ -1,0 +1,39 @@
+nohup: ignoring input
+/home/user/thefuck-master/pre_run_biend.py:2904: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:2914: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(O6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:2938: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ set$ & ' + ' & '.join(EXT_SET) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:2939: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ event$ & ' + ' & '.join(EXT_EVENT) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3094: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/thefuck-master/pre_run_biend.py:3105: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3115: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3127: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3139: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3261: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dash/testing/plugin.py:92: PytestDeprecationWarning: The hookimpl pytest_addhooks uses old-style configuration options (marks or attributes).
+Please use the pytest.hookimpl(tryfirst=True) decorator instead
+ to configure the hooks.
+ See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers
+  @pytest.mark.tryfirst
+ERROR: file or directory not found: ./tests/
+
+============================= test session starts ==============================
+platform linux -- Python 3.9.15+, pytest-7.2.0, pluggy-1.0.0
+rootdir: /home/user/WeasyPrint-52.5, configfile: setup.cfg
+plugins: mock-3.10.0, hypothesis-6.56.4, httpbin-1.0.2, cov-4.0.0, time-machine-2.9.0, html-3.2.0, Faker-15.3.4, anyio-3.6.2, flaky-3.7.0, hydra-core-1.3.2, xdist-3.2.1, test-utils-0.0.8, lazy-fixture-0.6.3, docker-1.0.1, xonsh-0.13.4, pylama-8.4.1, dash-2.9.1
+collected 0 items
+
+============================ no tests ran in 1.74s =============================
+Traceback (most recent call last):
+  File "/home/user/thefuck-master/pre_run_biend.py", line 88, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'

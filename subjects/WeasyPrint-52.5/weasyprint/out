@@ -1,0 +1,113 @@
+/home/user/thefuck-master/pre_run_biend.py:3771: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3781: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(O6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3805: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ set$ & ' + ' & '.join(EXT_SET) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3806: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ event$ & ' + ' & '.join(EXT_EVENT) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3933: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/thefuck-master/pre_run_biend.py:3944: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3954: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3966: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3978: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:4100: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dash/testing/plugin.py:92: PytestDeprecationWarning: The hookimpl pytest_addhooks uses old-style configuration options (marks or attributes).
+Please use the pytest.hookimpl(tryfirst=True) decorator instead
+ to configure the hooks.
+ See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers
+  @pytest.mark.tryfirst
+============================= test session starts ==============================
+platform linux -- Python 3.9.15+, pytest-7.2.0, pluggy-1.0.0
+rootdir: /home/user/WeasyPrint-52.5, configfile: setup.cfg
+plugins: mock-3.10.0, hypothesis-6.56.4, httpbin-1.0.2, cov-4.0.0, time-machine-2.9.0, html-3.2.0, Faker-15.3.4, anyio-3.6.2, flaky-3.7.0, hydra-core-1.3.2, xdist-3.2.1, test-utils-0.0.8, lazy-fixture-0.6.3, docker-1.0.1, xonsh-0.13.4, pylama-8.4.1, dash-2.9.1
+collected 1320 items
+
+tests/test_acid2.py .                                                    [  0%]
+tests/test_api.py ...................                                    [  1%]
+tests/test_boxes.py .................................................... [  5%]
+.....                                                                    [  5%]
+tests/test_counters.py .............................                     [  8%]
+tests/test_css.py ...................................................... [ 12%]
+..............                                                           [ 13%]
+tests/test_css_descriptors.py ...............                            [ 14%]
+tests/test_css_validation.py ........................................... [ 17%]
+........................................................................ [ 23%]
+.........................................                                [ 26%]
+tests/test_float.py .........................x                           [ 28%]
+tests/test_fonts.py .....                                                [ 28%]
+tests/test_pdf.py ..................................                     [ 31%]
+tests/test_presentational_hints.py .........                             [ 31%]
+tests/test_stacking.py ........                                          [ 32%]
+tests/test_target.py .....                                               [ 32%]
+tests/test_text.py ..................................................... [ 36%]
+...................x.                                                    [ 38%]
+tests/test_tools.py ..                                                   [ 38%]
+tests/test_unicode.py .                                                  [ 38%]
+tests/test_variables.py ................................................ [ 42%]
+........................................................................ [ 47%]
+........................................                                 [ 50%]
+tests/test_draw/test_background.py ..................................... [ 53%]
+.......                                                                  [ 54%]
+tests/test_draw/test_before_after.py ...                                 [ 54%]
+tests/test_draw/test_box.py .....                                        [ 54%]
+tests/test_draw/test_column.py ..                                        [ 54%]
+tests/test_draw/test_current_color.py ....                               [ 55%]
+tests/test_draw/test_float.py ............xx                             [ 56%]
+tests/test_draw/test_gradient.py ...........                             [ 56%]
+tests/test_draw/test_image.py ...................                        [ 58%]
+tests/test_draw/test_list.py ...                                         [ 58%]
+tests/test_draw/test_opacity.py ...                                      [ 58%]
+tests/test_draw/test_overflow.py ........                                [ 59%]
+tests/test_draw/test_table.py .....................x.                    [ 61%]
+tests/test_draw/test_text.py ....x.x                                     [ 61%]
+tests/test_draw/test_transform.py .............                          [ 62%]
+tests/test_draw/test_visibility.py ...                                   [ 62%]
+tests/test_layout/test_block.py ........................................ [ 65%]
+.....................x....                                               [ 67%]
+tests/test_layout/test_column.py ......................                  [ 69%]
+tests/test_layout/test_flex.py .............x............                [ 71%]
+tests/test_layout/test_image.py ..ss................                     [ 73%]
+tests/test_layout/test_inline.py .x...........x......................... [ 76%]
+.........                                                                [ 76%]
+tests/test_layout/test_inline_block.py ..                                [ 76%]
+tests/test_layout/test_list.py .......x.                                 [ 77%]
+tests/test_layout/test_page.py ................................x........ [ 80%]
+................................................                         [ 84%]
+tests/test_layout/test_position.py .............                         [ 85%]
+tests/test_layout/test_shrink_to_fit.py ................................ [ 87%]
+........................................................                 [ 91%]
+tests/test_layout/test_table.py ........................................ [ 95%]
+................x.................................................       [100%]
+
+=============================== warnings summary ===============================
+weasyprint/tests/test_api.py::test_http
+  /home/user/purepython/cpython-3.9/Lib/contextlib.py:126: ResourceWarning: unclosed <socket.socket fd=633, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36219)>
+    next(self.gen)
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+weasyprint/tests/test_text.py::test_hyphenate_character_1
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pyphen/__init__.py:118: ResourceWarning: unclosed file <_io.BufferedReader name='/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pyphen/dictionaries/hyph_fr.dic'>
+    encoding = path.open('rb').readline().decode()
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+weasyprint/tests/test_text.py::test_hyphenate_limit_chars[auto-2]
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pyphen/__init__.py:118: ResourceWarning: unclosed file <_io.BufferedReader name='/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pyphen/dictionaries/hyph_en_GB.dic'>
+    encoding = path.open('rb').readline().decode()
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+===== 1304 passed, 2 skipped, 14 xfailed, 3 warnings in 3101.44s (0:51:41) =====
+Traceback (most recent call last):
+  File "/home/user/thefuck-master/pre_run_biend.py", line 102, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'

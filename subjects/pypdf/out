@@ -1,0 +1,288 @@
+/home/user/thefuck-master/pre_run_biend.py:3771: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3781: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(O6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3805: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ set$ & ' + ' & '.join(EXT_SET) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3806: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ event$ & ' + ' & '.join(EXT_EVENT) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3933: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/thefuck-master/pre_run_biend.py:3944: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3954: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3966: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3978: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:4100: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dash/testing/plugin.py:92: PytestDeprecationWarning: The hookimpl pytest_addhooks uses old-style configuration options (marks or attributes).
+Please use the pytest.hookimpl(tryfirst=True) decorator instead
+ to configure the hooks.
+ See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers
+  @pytest.mark.tryfirst
+============================= test session starts ==============================
+platform linux -- Python 3.9.15+, pytest-7.2.0, pluggy-1.0.0
+rootdir: /home/user/pypdf, configfile: pyproject.toml
+plugins: mock-3.10.0, hypothesis-6.56.4, httpbin-1.0.2, cov-4.0.0, time-machine-2.9.0, html-3.2.0, Faker-15.3.4, anyio-3.6.2, flaky-3.7.0, hydra-core-1.3.2, xdist-3.2.1, test-utils-0.0.8, lazy-fixture-0.6.3, docker-1.0.1, xonsh-0.13.4, pylama-8.4.1, dash-2.9.1
+collected 338 items
+
+tests/test_cmap.py ...........                                           [  3%]
+tests/test_constants.py .                                                [  3%]
+tests/test_encryption.py ........................                        [ 10%]
+tests/test_filters.py ....................x......F...                    [ 19%]
+tests/test_javascript.py ..                                              [ 20%]
+tests/test_merger.py .........................................           [ 32%]
+tests/test_page.py s......................................x.FF.......... [ 48%]
+...                                                                      [ 49%]
+tests/test_page_labels.py ....................                           [ 55%]
+tests/test_pagerange.py ......................                           [ 61%]
+tests/test_papersizes.py ..................                              [ 66%]
+tests/test_protocols.py .                                                [ 67%]
+tests/test_security.py ..                                                [ 67%]
+tests/test_text_extraction.py .                                          [ 68%]
+tests/test_workflows.py ......................................FF........ [ 82%]
+............................................                             [ 95%]
+tests/test_xmp.py ................                                       [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_lzw_decode_neg1 _____________________________
+
+    @pytest.mark.enable_socket()
+    def test_lzw_decode_neg1():
+        url = "https://corpora.tika.apache.org/base/docs/govdocs1/921/921632.pdf"
+        name = "tika-921632.pdf"
+>       reader = PdfReader(BytesIO(get_pdf_from_url(url, name=name)))
+
+tests/test_filters.py:222: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+pypdf/_reader.py:322: in __init__
+    self.read(stream)
+pypdf/_reader.py:1505: in read
+    self._basic_validation(stream)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <pypdf._reader.PdfReader object at 0x14db4df99cd0>
+stream = <_io.BytesIO object at 0x14daca0eb130>
+
+    def _basic_validation(self, stream: StreamType) -> None:
+        """Ensure file is not empty. Read at most 5 bytes."""
+        # start at the end:
+        stream.seek(0, os.SEEK_END)
+        if not stream.tell():
+>           raise EmptyFileError("Cannot read an empty file")
+E           pypdf.errors.EmptyFileError: Cannot read an empty file
+
+pypdf/_reader.py:1547: EmptyFileError
+_______________________________ test_old_habibi ________________________________
+
+    @pytest.mark.enable_socket()
+    def test_old_habibi():
+        # this habibi has som multiple characters associated with the h
+>       reader = PdfReader(SAMPLE_ROOT / "015-arabic/habibi.pdf")
+
+tests/test_page.py:864: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <pypdf._reader.PdfReader object at 0x14d9d1ea2870>
+stream = PosixPath('/home/user/pypdf/sample-files/015-arabic/habibi.pdf')
+strict = False, password = None
+
+    def __init__(
+        self,
+        stream: Union[StrByteType, Path],
+        strict: bool = False,
+        password: Union[None, str, bytes] = None,
+    ) -> None:
+        self.strict = strict
+        self.flattened_pages: Optional[List[PageObject]] = None
+        self.resolved_objects: Dict[Tuple[Any, Any], Optional[PdfObject]] = {}
+        self.xref_index = 0
+        self._page_id2num: Optional[
+            Dict[Any, Any]
+        ] = None  # map page indirect_reference number to Page Number
+        if hasattr(stream, "mode") and "b" not in stream.mode:  # type: ignore
+            logger_warning(
+                "PdfReader stream/file object is not in binary mode. "
+                "It may not be read correctly.",
+                __name__,
+            )
+        if isinstance(stream, (str, Path)):
+>           with open(stream, "rb") as fh:
+E           FileNotFoundError: [Errno 2] No such file or directory: '/home/user/pypdf/sample-files/015-arabic/habibi.pdf'
+
+pypdf/_reader.py:320: FileNotFoundError
+__________________________ test_read_link_annotation ___________________________
+
+    @pytest.mark.samples()
+    def test_read_link_annotation():
+>       reader = PdfReader(SAMPLE_ROOT / "016-libre-office-link/libre-office-link.pdf")
+
+tests/test_page.py:873: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <pypdf._reader.PdfReader object at 0x14db75e82c80>
+stream = PosixPath('/home/user/pypdf/sample-files/016-libre-office-link/libre-office-link.pdf')
+strict = False, password = None
+
+    def __init__(
+        self,
+        stream: Union[StrByteType, Path],
+        strict: bool = False,
+        password: Union[None, str, bytes] = None,
+    ) -> None:
+        self.strict = strict
+        self.flattened_pages: Optional[List[PageObject]] = None
+        self.resolved_objects: Dict[Tuple[Any, Any], Optional[PdfObject]] = {}
+        self.xref_index = 0
+        self._page_id2num: Optional[
+            Dict[Any, Any]
+        ] = None  # map page indirect_reference number to Page Number
+        if hasattr(stream, "mode") and "b" not in stream.mode:  # type: ignore
+            logger_warning(
+                "PdfReader stream/file object is not in binary mode. "
+                "It may not be read correctly.",
+                __name__,
+            )
+        if isinstance(stream, (str, Path)):
+>           with open(stream, "rb") as fh:
+E           FileNotFoundError: [Errno 2] No such file or directory: '/home/user/pypdf/sample-files/016-libre-office-link/libre-office-link.pdf'
+
+pypdf/_reader.py:320: FileNotFoundError
+_ test_overlay[resources/crazyones.pdf-sample-files/013-reportlab-overlay/reportlab-overlay.pdf] _
+
+pdf_file_path = PosixPath('/tmp/pytest-of-user/pytest-386/pypdf-data0/b4a73d80-0e77-4cfd-862d-0d62a2ea548f.pdf')
+base_path = PosixPath('/home/user/pypdf/resources/crazyones.pdf')
+overlay_path = 'sample-files/013-reportlab-overlay/reportlab-overlay.pdf'
+
+    @pytest.mark.samples()
+    @pytest.mark.enable_socket()
+    @pytest.mark.parametrize(
+        ("base_path", "overlay_path"),
+        [
+            (
+                "resources/crazyones.pdf",
+                "sample-files/013-reportlab-overlay/reportlab-overlay.pdf",
+            ),
+            (
+                "https://corpora.tika.apache.org/base/docs/govdocs1/935/935981.pdf",
+                "sample-files/013-reportlab-overlay/reportlab-overlay.pdf",
+            ),
+        ],
+    )
+    def test_overlay(pdf_file_path, base_path, overlay_path):
+        if base_path.startswith("http"):
+            base_path = BytesIO(get_pdf_from_url(base_path, name="tika-935981.pdf"))
+        else:
+            base_path = PROJECT_ROOT / base_path
+        reader = PdfReader(base_path)
+        writer = PdfWriter()
+    
+>       reader_overlay = PdfReader(PROJECT_ROOT / overlay_path)
+
+tests/test_workflows.py:328: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <pypdf._reader.PdfReader object at 0x14da9c8f0d70>
+stream = PosixPath('/home/user/pypdf/sample-files/013-reportlab-overlay/reportlab-overlay.pdf')
+strict = False, password = None
+
+    def __init__(
+        self,
+        stream: Union[StrByteType, Path],
+        strict: bool = False,
+        password: Union[None, str, bytes] = None,
+    ) -> None:
+        self.strict = strict
+        self.flattened_pages: Optional[List[PageObject]] = None
+        self.resolved_objects: Dict[Tuple[Any, Any], Optional[PdfObject]] = {}
+        self.xref_index = 0
+        self._page_id2num: Optional[
+            Dict[Any, Any]
+        ] = None  # map page indirect_reference number to Page Number
+        if hasattr(stream, "mode") and "b" not in stream.mode:  # type: ignore
+            logger_warning(
+                "PdfReader stream/file object is not in binary mode. "
+                "It may not be read correctly.",
+                __name__,
+            )
+        if isinstance(stream, (str, Path)):
+>           with open(stream, "rb") as fh:
+E           FileNotFoundError: [Errno 2] No such file or directory: '/home/user/pypdf/sample-files/013-reportlab-overlay/reportlab-overlay.pdf'
+
+pypdf/_reader.py:320: FileNotFoundError
+_ test_overlay[https://corpora.tika.apache.org/base/docs/govdocs1/935/935981.pdf-sample-files/013-reportlab-overlay/reportlab-overlay.pdf] _
+
+pdf_file_path = PosixPath('/tmp/pytest-of-user/pytest-386/pypdf-data0/b4a73d80-0e77-4cfd-862d-0d62a2ea548f.pdf')
+base_path = <_io.BytesIO object at 0x14daa81b86e0>
+overlay_path = 'sample-files/013-reportlab-overlay/reportlab-overlay.pdf'
+
+    @pytest.mark.samples()
+    @pytest.mark.enable_socket()
+    @pytest.mark.parametrize(
+        ("base_path", "overlay_path"),
+        [
+            (
+                "resources/crazyones.pdf",
+                "sample-files/013-reportlab-overlay/reportlab-overlay.pdf",
+            ),
+            (
+                "https://corpora.tika.apache.org/base/docs/govdocs1/935/935981.pdf",
+                "sample-files/013-reportlab-overlay/reportlab-overlay.pdf",
+            ),
+        ],
+    )
+    def test_overlay(pdf_file_path, base_path, overlay_path):
+        if base_path.startswith("http"):
+            base_path = BytesIO(get_pdf_from_url(base_path, name="tika-935981.pdf"))
+        else:
+            base_path = PROJECT_ROOT / base_path
+        reader = PdfReader(base_path)
+        writer = PdfWriter()
+    
+>       reader_overlay = PdfReader(PROJECT_ROOT / overlay_path)
+
+tests/test_workflows.py:328: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <pypdf._reader.PdfReader object at 0x14da98060eb0>
+stream = PosixPath('/home/user/pypdf/sample-files/013-reportlab-overlay/reportlab-overlay.pdf')
+strict = False, password = None
+
+    def __init__(
+        self,
+        stream: Union[StrByteType, Path],
+        strict: bool = False,
+        password: Union[None, str, bytes] = None,
+    ) -> None:
+        self.strict = strict
+        self.flattened_pages: Optional[List[PageObject]] = None
+        self.resolved_objects: Dict[Tuple[Any, Any], Optional[PdfObject]] = {}
+        self.xref_index = 0
+        self._page_id2num: Optional[
+            Dict[Any, Any]
+        ] = None  # map page indirect_reference number to Page Number
+        if hasattr(stream, "mode") and "b" not in stream.mode:  # type: ignore
+            logger_warning(
+                "PdfReader stream/file object is not in binary mode. "
+                "It may not be read correctly.",
+                __name__,
+            )
+        if isinstance(stream, (str, Path)):
+>           with open(stream, "rb") as fh:
+E           FileNotFoundError: [Errno 2] No such file or directory: '/home/user/pypdf/sample-files/013-reportlab-overlay/reportlab-overlay.pdf'
+
+pypdf/_reader.py:320: FileNotFoundError
+=========================== short test summary info ============================
+FAILED tests/test_filters.py::test_lzw_decode_neg1 - pypdf.errors.EmptyFileEr...
+FAILED tests/test_page.py::test_old_habibi - FileNotFoundError: [Errno 2] No ...
+FAILED tests/test_page.py::test_read_link_annotation - FileNotFoundError: [Er...
+FAILED tests/test_workflows.py::test_overlay[resources/crazyones.pdf-sample-files/013-reportlab-overlay/reportlab-overlay.pdf]
+FAILED tests/test_workflows.py::test_overlay[https://corpora.tika.apache.org/base/docs/govdocs1/935/935981.pdf-sample-files/013-reportlab-overlay/reportlab-overlay.pdf]
+======= 5 failed, 330 passed, 1 skipped, 2 xfailed in 5888.51s (1:38:08) =======
+Traceback (most recent call last):
+  File "/home/user/thefuck-master/pre_run_biend.py", line 102, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'

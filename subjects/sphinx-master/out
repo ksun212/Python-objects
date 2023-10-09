@@ -1,0 +1,281 @@
+/home/user/thefuck-master/pre_run_biend.py:3771: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3781: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(O6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3805: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ set$ & ' + ' & '.join(EXT_SET) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3806: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ event$ & ' + ' & '.join(EXT_EVENT) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3933: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/thefuck-master/pre_run_biend.py:3944: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3954: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3966: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3978: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:4100: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dash/testing/plugin.py:92: PytestDeprecationWarning: The hookimpl pytest_addhooks uses old-style configuration options (marks or attributes).
+Please use the pytest.hookimpl(tryfirst=True) decorator instead
+ to configure the hooks.
+ See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers
+  @pytest.mark.tryfirst
+============================= test session starts ==============================
+platform linux -- Python 3.9.15+, pytest-7.2.0, pluggy-1.0.0
+libraries: Sphinx-6.2.0, docutils-0.19
+base tempdir: /tmp/pytest-of-user/pytest-374
+rootdir: /home/user/sphinx-master, configfile: pyproject.toml
+plugins: mock-3.10.0, hypothesis-6.56.4, httpbin-1.0.2, cov-4.0.0, time-machine-2.9.0, html-3.2.0, Faker-15.3.4, anyio-3.6.2, flaky-3.7.0, hydra-core-1.3.2, xdist-3.2.1, test-utils-0.0.8, lazy-fixture-0.6.3, docker-1.0.1, xonsh-0.13.4, pylama-8.4.1, dash-2.9.1
+collected 342 items
+
+tests/test_api_translator.py ...........                                 [  3%]
+tests/test_application.py ........                                       [  5%]
+tests/test_build.py ..........                                           [  8%]
+tests/test_build_changes.py ..                                           [  9%]
+tests/test_build_dirhtml.py .                                            [  9%]
+tests/test_build_epub.py ............                                    [ 12%]
+tests/test_build_gettext.py .......                                      [ 14%]
+tests/test_build_html.py ............................................... [ 28%]
+........................................................................ [ 49%]
+..................................................................       [ 69%]
+tests/test_build_linkcheck.py F..F........F..................            [ 78%]
+tests/test_build_manpage.py ......                                       [ 79%]
+tests/test_build_texinfo.py .........                                    [ 82%]
+tests/test_build_text.py ...............                                 [ 86%]
+tests/test_builder.py ..                                                 [ 87%]
+tests/test_catalogs.py ...                                               [ 88%]
+tests/test_config.py .....................................               [ 99%]
+tests/test_correct_year.py ...                                           [100%]
+
+=================================== FAILURES ===================================
+________________________________ test_defaults _________________________________
+
+app = <SphinxTestApp buildername='linkcheck'>
+
+    @pytest.mark.sphinx('linkcheck', testroot='linkcheck', freshenv=True)
+    def test_defaults(app):
+        with http_server(DefaultsHandler):
+            app.build()
+    
+        # Text output
+        assert (app.outdir / 'output.txt').exists()
+        content = (app.outdir / 'output.txt').read_text(encoding='utf8')
+    
+        # looking for '#top' and '#does-not-exist' not found should fail
+>       assert "Anchor 'top' not found" in content
+E       assert "Anchor 'top' not found" in "links.rst:7: [broken] http://localhost:7777#does-not-exist: HTTPConnectionPool(host='localhost', port=7777): Read tim...tp://localhost:7777/image2.png: HTTPConnectionPool(host='localhost', port=7777): Read timed out. (read timeout=0.05)\n"
+
+tests/test_build_linkcheck.py:54: AssertionError
+----------------------------- Captured stderr call -----------------------------
+127.0.0.1 - - [14/May/2023 19:40:04] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 19:40:05] "GET / HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 36532)
+Traceback (most recent call last):
+  File "/home/user/purepython/cpython-3.9/Lib/socketserver.py", line 316, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/user/purepython/cpython-3.9/Lib/socketserver.py", line 347, in process_request
+    self.finish_request(request, client_address)
+  File "/home/user/purepython/cpython-3.9/Lib/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/user/purepython/cpython-3.9/Lib/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/user/purepython/cpython-3.9/Lib/http/server.py", line 432, in handle
+    self.handle_one_request()
+  File "/home/user/purepython/cpython-3.9/Lib/http/server.py", line 420, in handle_one_request
+    method()
+  File "/home/user/sphinx-master/tests/test_build_linkcheck.py", line 41, in do_GET
+    self.wfile.write(b"ok\n\n")
+  File "/home/user/purepython/cpython-3.9/Lib/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [14/May/2023 19:40:05] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 19:40:06] "GET / HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 36538)
+Traceback (most recent call last):
+  File "/home/user/purepython/cpython-3.9/Lib/socketserver.py", line 316, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/home/user/purepython/cpython-3.9/Lib/socketserver.py", line 347, in process_request
+    self.finish_request(request, client_address)
+  File "/home/user/purepython/cpython-3.9/Lib/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/user/purepython/cpython-3.9/Lib/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/home/user/purepython/cpython-3.9/Lib/http/server.py", line 432, in handle
+    self.handle_one_request()
+  File "/home/user/purepython/cpython-3.9/Lib/http/server.py", line 420, in handle_one_request
+    method()
+  File "/home/user/sphinx-master/tests/test_build_linkcheck.py", line 41, in do_GET
+    self.wfile.write(b"ok\n\n")
+  File "/home/user/purepython/cpython-3.9/Lib/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+127.0.0.1 - - [14/May/2023 19:40:06] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 19:40:06] "HEAD /image.png HTTP/1.1" 404 -
+127.0.0.1 - - [14/May/2023 19:40:06] "HEAD /image2.png HTTP/1.1" 404 -
+--------------------------- Captured stdout teardown ---------------------------
+# testroot: root
+# builder: linkcheck
+# srcdir: /tmp/pytest-of-user/pytest-374/linkcheck
+# outdir: /tmp/pytest-of-user/pytest-374/linkcheck/_build/linkcheck
+# status: 
+[01mRunning Sphinx v6.2.0[39;49;00m
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mwriting output... [39;49;00m
+[01mbuilding [linkcheck]: [39;49;00mtargets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m[new config] 1 added, 0 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mlinks[39;49;00m                                                
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpickling environment... [39;49;00mdone
+[01mchecking consistency... [39;49;00mdone
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[100%] [32mlinks[39;49;00m                                                 
+
+(           links: line    8) [32mok        [39;49;00mconf.py
+(           links: line    7) [91mbroken    [39;49;00mhttp://localhost:7777#does-not-exist[91m - HTTPConnectionPool(host='localhost', port=7777): Read timed out. (read timeout=0.05)[39;49;00m
+(           links: line    6) [91mbroken    [39;49;00mhttp://localhost:7777/#top[91m - HTTPConnectionPool(host='localhost', port=7777): Read timed out. (read timeout=0.05)[39;49;00m
+(           links: line    4) [91mbroken    [39;49;00mhttp://localhost:7777/#!bar[91m - HTTPConnectionPool(host='localhost', port=7777): Read timed out. (read timeout=0.05)[39;49;00m
+(           links: line    9) [91mbroken    [39;49;00mpath/to/notfound[91m - [39;49;00m
+(           links: line    5) [91mbroken    [39;49;00mhttp://localhost:7777#!bar[91m - HTTPConnectionPool(host='localhost', port=7777): Read timed out. (read timeout=0.05)[39;49;00m
+(           links: line    3) [32mok        [39;49;00mhttp://localhost:7777/
+(           links: line   11) [91mbroken    [39;49;00mhttp://localhost:7777/image.png[91m - HTTPConnectionPool(host='localhost', port=7777): Read timed out. (read timeout=0.05)[39;49;00m
+(           links: line   13) [91mbroken    [39;49;00mhttp://localhost:7777/image2.png[91m - HTTPConnectionPool(host='localhost', port=7777): Read timed out. (read timeout=0.05)[39;49;00m
+[01mbuild finished with problems.[39;49;00m
+
+# warning: 
+
+_____________________________ test_anchors_ignored _____________________________
+
+app = <SphinxTestApp buildername='linkcheck'>
+
+    @pytest.mark.sphinx(
+        'linkcheck', testroot='linkcheck-anchors-ignore', freshenv=True,
+        confoverrides={'linkcheck_anchors_ignore': ["^!", "^top$"]})
+    def test_anchors_ignored(app):
+        with http_server(OKHandler):
+            app.build()
+    
+        assert (app.outdir / 'output.txt').exists()
+        content = (app.outdir / 'output.txt').read_text(encoding='utf8')
+    
+        # expect all ok when excluding #top
+>       assert not content
+E       assert not "index.rst:1: [broken] http://localhost:7777/#!bar: HTTPConnectionPool(host='localhost', port=7777): Read timed out. (read timeout=0.05)\n"
+
+tests/test_build_linkcheck.py:162: AssertionError
+----------------------------- Captured stderr call -----------------------------
+127.0.0.1 - - [14/May/2023 19:41:24] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [14/May/2023 19:41:24] "HEAD / HTTP/1.1" 200 -
+--------------------------- Captured stdout teardown ---------------------------
+# testroot: root
+# builder: linkcheck
+# srcdir: /tmp/pytest-of-user/pytest-374/linkcheck-anchors-ignore
+# outdir: /tmp/pytest-of-user/pytest-374/linkcheck-anchors-ignore/_build/linkcheck
+# status: 
+[01mRunning Sphinx v6.2.0[39;49;00m
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mwriting output... [39;49;00m
+[01mbuilding [linkcheck]: [39;49;00mtargets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m[new config] 1 added, 0 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mindex[39;49;00m                                                
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpickling environment... [39;49;00mdone
+[01mchecking consistency... [39;49;00mdone
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[100%] [32mindex[39;49;00m                                                 
+
+(           index: line    1) [91mbroken    [39;49;00mhttp://localhost:7777/#!bar[91m - HTTPConnectionPool(host='localhost', port=7777): Read timed out. (read timeout=0.05)[39;49;00m
+(           index: line    2) [32mok        [39;49;00mhttp://localhost:7777/#top
+[01mbuild finished with problems, 1 warning.[39;49;00m
+
+# warning: 
+[91m/tmp/pytest-of-user/pytest-374/linkcheck-anchors-ignore/index.rst:1: WARNING: Duplicate explicit target name: "example bar invalid".[39;49;00m
+
+_______________________ test_linkcheck_allowed_redirects _______________________
+
+app = <SphinxTestApp buildername='linkcheck'>
+warning = <_io.StringIO object at 0x153c4c571c30>
+
+    @pytest.mark.sphinx('linkcheck', testroot='linkcheck-localserver-warn-redirects',
+                        freshenv=True, confoverrides={
+                            'linkcheck_allowed_redirects': {'http://localhost:7777/.*1': '.*'},
+                        })
+    def test_linkcheck_allowed_redirects(app, warning):
+        with http_server(make_redirect_handler(support_head=False)):
+            app.build()
+    
+        with open(app.outdir / 'output.json', encoding='utf-8') as fp:
+            rows = [json.loads(l) for l in fp.readlines()]
+    
+        assert len(rows) == 2
+        records = {row["uri"]: row for row in rows}
+>       assert records["http://localhost:7777/path1"]["status"] == "working"
+E       AssertionError: assert 'broken' == 'working'
+E         - working
+E         + broken
+
+tests/test_build_linkcheck.py:352: AssertionError
+----------------------------- Captured stderr call -----------------------------
+127.0.0.1 - - [] "HEAD /path2 HTTP/1.1" 405 -
+127.0.0.1 - - [] "HEAD /path1 HTTP/1.1" 405 -
+127.0.0.1 - - [] "GET /path2 HTTP/1.1" 302 -
+127.0.0.1 - - [] "GET /?redirected=1 HTTP/1.1" 204 -
+--------------------------- Captured stdout teardown ---------------------------
+# testroot: root
+# builder: linkcheck
+# srcdir: /tmp/pytest-of-user/pytest-374/linkcheck-localserver-warn-redirects
+# outdir: /tmp/pytest-of-user/pytest-374/linkcheck-localserver-warn-redirects/_build/linkcheck
+# status: 
+[01mRunning Sphinx v6.2.0[39;49;00m
+[01mbuilding [mo]: [39;49;00mtargets for 0 po files that are out of date
+[01mwriting output... [39;49;00m
+[01mbuilding [linkcheck]: [39;49;00mtargets for 1 source files that are out of date
+[01mupdating environment: [39;49;00m[new config] 1 added, 0 changed, 0 removed
+[01mreading sources... [39;49;00m[100%] [35mindex[39;49;00m                                                
+[01mlooking for now-outdated files... [39;49;00mnone found
+[01mpickling environment... [39;49;00mdone
+[01mchecking consistency... [39;49;00mdone
+[01mpreparing documents... [39;49;00mdone
+[01mwriting output... [39;49;00m[100%] [32mindex[39;49;00m                                                 
+
+(           index: line    1) [91mbroken    [39;49;00mhttp://localhost:7777/path1[91m - HTTPConnectionPool(host='localhost', port=7777): Read timed out. (read timeout=0.05)[39;49;00m
+(           index: line    3) [01mbuild finished with problems, 1 warning.[39;49;00m
+
+# warning: 
+[91m/tmp/pytest-of-user/pytest-374/linkcheck-localserver-warn-redirects/index.rst:3: WARNING: redirect  http://localhost:7777/path2 - with Found to http://localhost:7777/?redirected=1[39;49;00m
+
+=============================== warnings summary ===============================
+tests/test_build_linkcheck.py::test_auth_header_uses_first_match
+  /home/user/sphinx-master/sphinx/environment/__init__.py:244: ResourceWarning: unclosed <socket.socket [closed] fd=394, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6>
+    self._search_index_mapping: dict[str, set[str]] = {}
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+tests/test_build_linkcheck.py::test_too_many_requests_retry_after_int_delay
+  /home/user/sphinx-master/sphinx/domains/__init__.py:204: ResourceWarning: unclosed <socket.socket [closed] fd=394, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6>
+    self.env: BuildEnvironment = env
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+tests/test_build_linkcheck.py::test_linkcheck_exclude_documents
+  /home/user/sphinx-master/sphinx/domains/__init__.py:204: ResourceWarning: unclosed <socket.socket [closed] fd=404, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6>
+    self.env: BuildEnvironment = env
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_build_linkcheck.py::test_defaults - assert "Anchor 'top' no...
+FAILED tests/test_build_linkcheck.py::test_anchors_ignored - assert not "inde...
+FAILED tests/test_build_linkcheck.py::test_linkcheck_allowed_redirects - Asse...
+=========== 3 failed, 339 passed, 3 warnings in 13406.16s (3:43:26) ============
+Traceback (most recent call last):
+  File "/home/user/thefuck-master/pre_run_biend.py", line 102, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'

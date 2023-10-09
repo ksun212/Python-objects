@@ -1,0 +1,42 @@
+/home/user/thefuck-master/pre_run_biend.py:2902: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:2912: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(O6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:2936: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ set$ & ' + ' & '.join(EXT_SET) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:2937: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ event$ & ' + ' & '.join(EXT_EVENT) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3092: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/thefuck-master/pre_run_biend.py:3103: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3113: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3125: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3137: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3259: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+============================= test session starts ==============================
+platform linux -- Python 3.9.15+, pytest-7.2.0, pluggy-1.0.0
+rootdir: /home/user/pypdf, configfile: pyproject.toml
+plugins: mock-3.10.0, hypothesis-6.56.4, httpbin-1.0.2, cov-4.0.0, time-machine-2.9.0, html-3.2.0, Faker-15.3.4, anyio-3.6.2, flaky-3.7.0, hydra-core-1.3.2, xdist-3.2.1, test-utils-0.0.8, lazy-fixture-0.6.3, docker-1.0.1, xonsh-0.13.4
+collected 662 items
+
+tests/test_cmap.py ........F..                                           [  1%]
+tests/test_constants.py .                                                [  1%]
+tests/test_encryption.py ........................                        [  5%]
+tests/test_filters.py ....................x......F..F                    [ 10%]
+tests/test_generic.py .................................................. [ 17%]
+................F.................................F.                     [ 25%]
+tests/test_javascript.py ..                                              [ 25%]
+tests/test_merger.py ......................................FF.           [ 32%]
+tests/test_page.py s......................................x.FF.......... [ 40%]
+.F.                                                                      [ 40%]
+tests/test_page_labels.py ...................F                           [ 43%]
+tests/test_pagerange.py ......................                           [ 46%]
+tests/test_papersizes.py ..................                              [ 49%]
+tests/test_protocols.py .                                                [ 49%]
+tests/test_reader.py ....F.........xx.F................................. [ 57%]
+........F........................FF.F...F..FF.

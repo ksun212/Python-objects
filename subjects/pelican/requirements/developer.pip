@@ -1,0 +1,3 @@
+-r test.pip
+-r docs.pip
+-r style.pip

@@ -1,0 +1,227 @@
+/home/user/thefuck-master/pre_run_biend.py:3771: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3781: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(O6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3805: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ set$ & ' + ' & '.join(EXT_SET) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3806: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ event$ & ' + ' & '.join(EXT_EVENT) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3933: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/thefuck-master/pre_run_biend.py:3944: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3954: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3966: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3978: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:4100: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dash/testing/plugin.py:92: PytestDeprecationWarning: The hookimpl pytest_addhooks uses old-style configuration options (marks or attributes).
+Please use the pytest.hookimpl(tryfirst=True) decorator instead
+ to configure the hooks.
+ See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers
+  @pytest.mark.tryfirst
+============================= test session starts ==============================
+platform linux -- Python 3.9.15+, pytest-7.2.0, pluggy-1.0.0
+rootdir: /home/user/featuretools, configfile: pyproject.toml
+plugins: mock-3.10.0, hypothesis-6.56.4, httpbin-1.0.2, cov-4.0.0, time-machine-2.9.0, html-3.2.0, Faker-15.3.4, anyio-3.6.2, flaky-3.7.0, hydra-core-1.3.2, xdist-3.2.1, test-utils-0.0.8, lazy-fixture-0.6.3, docker-1.0.1, xonsh-0.13.4, pylama-8.4.1, dash-2.9.1
+collected 660 items
+
+tests/computational_backend/test_calculate_feature_matrix.py ..xs..s..s. [  1%]
+xs..s...xs.xs..s....s                                                    [  4%]
+tests/computational_backend/test_dask_features.py .                      [  5%]
+tests/computational_backend/test_feature_set.py ..s..s..s..s             [  6%]
+tests/computational_backend/test_feature_set_calculator.py ..s..s..s.... [  8%]
+s..s..s.xs.xs..s..s..s..s..s..s..s.xs..s..s..s..s....s..s..s..s..s..s.xs [ 19%]
+...s.                                                                    [ 20%]
+tests/computational_backend/test_utils.py ..s..s                         [ 21%]
+tests/entityset_tests/test_dask_es.py ......                             [ 22%]
+tests/entityset_tests/test_es.py ..s..s..s..s..s..s..s..s..s..s..s..s..s [ 28%]
+..s...s..s..s..s..s..s..s..s..s..s..s..s..s..s..s..s..s..s..s..s..s..s.. [ 39%]
+s..s..s...s.x....s..s..s..s....s..s..s..s..s..s..s..s..s..s..s..s..s..s. [ 50%]
+.s..s...s..s..s..s......s..s..s..s..s.ss...s..s.....s..s....s....s..s... [ 60%]
+.s.....s..s                                                              [ 62%]
+tests/entityset_tests/test_es_metadata.py ..s..s..s..s..s..s..s..s..s..s [ 67%]
+..s..s..s..s..s..s..s..s                                                 [ 70%]
+tests/entityset_tests/test_last_time_index.py ..s..s.xs.xs..s..s..s..s.. [ 74%]
+s..s..s..s                                                               [ 76%]
+tests/entityset_tests/test_relationship.py ..s..s..s..s..s..s            [ 78%]
+tests/entityset_tests/test_spark_es.py ssssss                            [ 79%]
+tests/entityset_tests/test_timedelta.py ....s..s..s..s...s..s......      [ 83%]
+tests/entityset_tests/test_ww_es.py ...s..s..s..s...s..s..........ss..s. [ 89%]
+.s..s..s..s..s..s..s..s..s..s..s.xs.xs..s..s..s..s...s..s..s..s..s..s.   [100%]
+
+=============================== warnings summary ===============================
+featuretools/tests/computational_backend/test_dask_features.py::test_tokenize_entityset
+  /home/user/featuretools/featuretools/tests/computational_backend/test_dask_features.py:32: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+    more_cohorts = cohorts_df.append(new_row, ignore_index=True, sort=True)
+
+featuretools/tests/computational_backend/test_feature_set_calculator.py: 17 warnings
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dask/dataframe/multi.py:1287: UserWarning: Concatenating dataframes with unknown divisions.
+  We're assuming that the indices of each dataframes are 
+   aligned. This assumption is not generally safe.
+    warnings.warn(
+
+featuretools/tests/computational_backend/test_feature_set_calculator.py::test_make_agg_feat_using_prev_n_events[pd_es]
+  /home/user/featuretools/featuretools/computational_backends/feature_set_calculator.py:736: FutureWarning: Not prepending group keys to the result index of transform-like apply. In the future, the group keys will be included in the index, regardless of whether the applied function returns a like-indexed object.
+  To preserve the previous behavior, use
+  
+  	>>> .groupby(..., group_keys=False)
+  
+  To adopt the future behavior and silence this warning, use 
+  
+  	>>> .groupby(..., group_keys=True)
+    base_frame = base_frame.groupby(
+
+featuretools/tests/computational_backend/test_feature_set_calculator.py::test_make_agg_feat_where_count_or_device_type_feat[dask_es]
+  /home/user/featuretools/featuretools/tests/testing_utils/es_utils.py:34: FutureWarning: pandas.Int64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
+    pd_df.index = pd.Int64Index(pd_df.index)
+
+featuretools/tests/computational_backend/test_feature_set_calculator.py::test_make_dfeat_of_agg_feat_on_self[dask_es]
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dask/dataframe/multi.py:500: UserWarning: Merging dataframes with merge column data type mismatches: 
+  +----------------------------+------------+-------------+
+  | Merge columns              | left dtype | right dtype |
+  +----------------------------+------------+-------------+
+  | ('région_id', 'région_id') | category   | object      |
+  +----------------------------+------------+-------------+
+  Cast dtypes explicitly to avoid unexpected results.
+    warnings.warn(
+
+featuretools/tests/computational_backend/test_feature_set_calculator.py::test_make_dfeat_of_agg_feat_through_parent[dask_es]
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dask/dataframe/multi.py:500: UserWarning: Merging dataframes with merge column data type mismatches: 
+  +----------------------------+------------+-------------+
+  | Merge columns              | left dtype | right dtype |
+  +----------------------------+------------+-------------+
+  | ('région_id', 'région_id') | category   | category    |
+  +----------------------------+------------+-------------+
+  Cast dtypes explicitly to avoid unexpected results.
+    warnings.warn(
+
+featuretools/tests/computational_backend/test_feature_set_calculator.py::test_empty_child_dataframe[dd_parent_child]
+featuretools/tests/computational_backend/test_feature_set_calculator.py::test_empty_child_dataframe[dd_parent_child]
+featuretools/tests/entityset_tests/test_es.py::test_add_relationship_empty_child_convert_dtype[dask_es]
+featuretools/tests/entityset_tests/test_es_metadata.py::test_find_forward_paths_ignores_loops[dd_employee_df]
+featuretools/tests/entityset_tests/test_ww_es.py::test_init_es_with_dataframe[dd_df]
+featuretools/tests/entityset_tests/test_ww_es.py::test_add_dataframe_to_es[dd_df]
+  /home/user/featuretools/featuretools/entityset/entityset.py:706: UserWarning: Performing type inference on Dask or Spark DataFrames may be computationally intensive. Specify logical types for each column to speed up EntitySet initialization.
+    warnings.warn(
+
+featuretools/tests/computational_backend/test_feature_set_calculator.py::test_with_features_built_from_es_metadata[dask_es]
+featuretools/tests/entityset_tests/test_es.py::test_concat_not_inplace[dask_es]
+featuretools/tests/entityset_tests/test_es.py::test_concat_inplace[dask_es]
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dask/dataframe/core.py:4345: UserWarning: 
+  You did not provide metadata, so Dask is running your function on a small dataset to guess output types. It is possible that Dask will guess incorrectly.
+  To provide an explicit output types or to silence this message, please provide the `meta=` keyword, as described in the map or apply function that you are using.
+    Before: .apply(func)
+    After:  .apply(func, meta=('loves_ice_cream', 'float64'))
+  
+    warnings.warn(meta_warning(meta))
+
+featuretools/tests/computational_backend/test_feature_set_calculator.py::test_with_features_built_from_es_metadata[dask_es]
+featuretools/tests/entityset_tests/test_es.py::test_concat_not_inplace[dask_es]
+featuretools/tests/entityset_tests/test_es.py::test_concat_inplace[dask_es]
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dask/dataframe/core.py:4345: UserWarning: 
+  You did not provide metadata, so Dask is running your function on a small dataset to guess output types. It is possible that Dask will guess incorrectly.
+  To provide an explicit output types or to silence this message, please provide the `meta=` keyword, as described in the map or apply function that you are using.
+    Before: .apply(func)
+    After:  .apply(func, meta=('purchased', 'float64'))
+  
+    warnings.warn(meta_warning(meta))
+
+featuretools/tests/computational_backend/test_utils.py: 10 warnings
+  /home/user/featuretools/featuretools/synthesis/deep_feature_synthesis.py:169: UserWarning: Only one dataframe in entityset, changing max_depth to 1 since deeper features cannot be created
+    warnings.warn(
+
+featuretools/tests/entityset_tests/test_es.py::test_add_relationship_empty_child_convert_dtype[pd_es]
+featuretools/tests/entityset_tests/test_es.py::test_add_relationship_empty_child_convert_dtype[dask_es]
+featuretools/tests/entityset_tests/test_es.py::test_bad_time_index_column[pd_df3]
+featuretools/tests/entityset_tests/test_es.py::test_bad_time_index_column[dd_df3]
+  /home/user/featuretools/featuretools/entityset/entityset.py:1890: UserWarning: Using first column as index. To change this, specify the index parameter
+    warnings.warn(
+
+featuretools/tests/entityset_tests/test_es.py::test_add_relationship_empty_child_convert_dtype[pd_es]
+featuretools/tests/entityset_tests/test_es.py::test_add_relationship_empty_child_convert_dtype[dask_es]
+  /home/user/featuretools/featuretools/entityset/entityset.py:414: UserWarning: Logical type Unknown for child column session_id does not match parent column id logical type Integer. Changing child logical type to match parent.
+    warnings.warn(
+
+featuretools/tests/entityset_tests/test_es.py::test_add_relationship_with_relationship_object[pd_es]
+featuretools/tests/entityset_tests/test_es.py::test_add_relationship_with_relationship_object[dask_es]
+featuretools/tests/entityset_tests/test_es.py::test_add_relationships_with_relationship_object[pd_es]
+featuretools/tests/entityset_tests/test_es.py::test_add_relationships_with_relationship_object[dask_es]
+  /home/user/featuretools/featuretools/entityset/entityset.py:379: UserWarning: Not adding duplicate relationship: <Relationship: log.session_id -> sessions.id>
+    warnings.warn("Not adding duplicate relationship: " + str(relationship))
+
+featuretools/tests/entityset_tests/test_es.py: 28 warnings
+featuretools/tests/entityset_tests/test_last_time_index.py: 40 warnings
+featuretools/tests/entityset_tests/test_ww_es.py: 41 warnings
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dask/dataframe/core.py:4345: UserWarning: 
+  You did not provide metadata, so Dask is running your function on a small dataset to guess output types. It is possible that Dask will guess incorrectly.
+  To provide an explicit output types or to silence this message, please provide the `meta=` keyword, as described in the map or apply function that you are using.
+    Before: .apply(func)
+    After:  .apply(func, meta=('id', 'object'))
+  
+    warnings.warn(meta_warning(meta))
+
+featuretools/tests/entityset_tests/test_es.py: 6 warnings
+featuretools/tests/entityset_tests/test_last_time_index.py: 10 warnings
+featuretools/tests/entityset_tests/test_ww_es.py: 10 warnings
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dask/dataframe/multi.py:500: UserWarning: Merging dataframes with merge column data type mismatches: 
+  +---------------+------------+-------------+
+  | Merge columns | left dtype | right dtype |
+  +---------------+------------+-------------+
+  | ('id', 'id')  | category   | object      |
+  +---------------+------------+-------------+
+  Cast dtypes explicitly to avoid unexpected results.
+    warnings.warn(
+
+featuretools/tests/entityset_tests/test_es_metadata.py::test_cannot_re_add_relationships_that_already_exists[pd_es]
+featuretools/tests/entityset_tests/test_es_metadata.py::test_cannot_re_add_relationships_that_already_exists[dask_es]
+  /home/user/featuretools/featuretools/entityset/entityset.py:379: UserWarning: Not adding duplicate relationship: <Relationship: customers.cohort -> cohorts.cohort>
+    warnings.warn("Not adding duplicate relationship: " + str(relationship))
+
+featuretools/tests/entityset_tests/test_last_time_index.py::TestLastTimeIndex::test_parent_some_missing[pd_es]
+  /home/user/featuretools/featuretools/tests/entityset_tests/test_last_time_index.py:161: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+    df = values.append(row, sort=True)
+
+featuretools/tests/entityset_tests/test_last_time_index.py::TestLastTimeIndex::test_parent_no_time_index_missing[pd_es]
+featuretools/tests/entityset_tests/test_last_time_index.py::TestLastTimeIndex::test_parent_no_time_index_missing[dask_es]
+featuretools/tests/entityset_tests/test_last_time_index.py::TestLastTimeIndex::test_multiple_children_left_missing[pd_es]
+featuretools/tests/entityset_tests/test_last_time_index.py::TestLastTimeIndex::test_multiple_children_left_missing[dask_es]
+featuretools/tests/entityset_tests/test_last_time_index.py::TestLastTimeIndex::test_multiple_children_all_combined[pd_es]
+featuretools/tests/entityset_tests/test_last_time_index.py::TestLastTimeIndex::test_multiple_children_all_combined[dask_es]
+featuretools/tests/entityset_tests/test_last_time_index.py::TestLastTimeIndex::test_multiple_children_both_missing[pd_es]
+featuretools/tests/entityset_tests/test_last_time_index.py::TestLastTimeIndex::test_multiple_children_both_missing[dask_es]
+  /home/user/featuretools/featuretools/tests/entityset_tests/test_last_time_index.py:95: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+    df = df.append(row, sort=True).sort_index()
+
+featuretools/tests/entityset_tests/test_last_time_index.py::TestLastTimeIndex::test_multiple_children_left_missing[pd_es]
+featuretools/tests/entityset_tests/test_last_time_index.py::TestLastTimeIndex::test_multiple_children_left_missing[dask_es]
+  /home/user/featuretools/featuretools/tests/entityset_tests/test_last_time_index.py:296: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+    df = wishlist_df.append(row)
+
+featuretools/tests/entityset_tests/test_last_time_index.py::TestLastTimeIndex::test_multiple_children_all_combined[pd_es]
+featuretools/tests/entityset_tests/test_last_time_index.py::TestLastTimeIndex::test_multiple_children_all_combined[dask_es]
+  /home/user/featuretools/featuretools/tests/entityset_tests/test_last_time_index.py:349: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+    df = wishlist_df.append(row)
+
+featuretools/tests/entityset_tests/test_ww_es.py::test_numeric_es_last_time_index_logical_type[dask_int_es]
+featuretools/tests/entityset_tests/test_ww_es.py::test_numeric_es_last_time_index_logical_type[dask_int_es]
+featuretools/tests/entityset_tests/test_ww_es.py::test_numeric_es_last_time_index_logical_type[dask_int_es]
+featuretools/tests/entityset_tests/test_ww_es.py::test_numeric_es_last_time_index_logical_type[dask_int_es]
+featuretools/tests/entityset_tests/test_ww_es.py::test_numeric_es_last_time_index_logical_type[dask_int_es]
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dask/dataframe/core.py:4345: UserWarning: 
+  You did not provide metadata, so Dask is running your function on a small dataset to guess output types. It is possible that Dask will guess incorrectly.
+  To provide an explicit output types or to silence this message, please provide the `meta=` keyword, as described in the map or apply function that you are using.
+    Before: .apply(func)
+    After:  .apply(func, meta=('last_time', 'int64'))
+  
+    warnings.warn(meta_warning(meta))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=== 443 passed, 204 skipped, 13 xfailed, 209 warnings in 22339.38s (6:12:19) ===
+Traceback (most recent call last):
+  File "/home/user/thefuck-master/pre_run_biend.py", line 102, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'
