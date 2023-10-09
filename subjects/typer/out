@@ -1,0 +1,1299 @@
+/home/user/thefuck-master/pre_run_biend.py:3772: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3782: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(O6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3806: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ set$ & ' + ' & '.join(EXT_SET) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3807: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ event$ & ' + ' & '.join(EXT_EVENT) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3934: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/thefuck-master/pre_run_biend.py:3945: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3955: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3967: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3979: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:4101: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dash/testing/plugin.py:92: PytestDeprecationWarning: The hookimpl pytest_addhooks uses old-style configuration options (marks or attributes).
+Please use the pytest.hookimpl(tryfirst=True) decorator instead
+ to configure the hooks.
+ See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers
+  @pytest.mark.tryfirst
+============================= test session starts ==============================
+platform linux -- Python 3.9.15+, pytest-7.2.0, pluggy-1.0.0
+rootdir: /home/user/typer, configfile: pyproject.toml
+plugins: mock-3.10.0, hypothesis-6.56.4, httpbin-1.0.2, cov-4.0.0, time-machine-2.9.0, html-3.2.0, Faker-15.3.4, anyio-3.6.2, flaky-3.7.0, hydra-core-1.3.2, xdist-3.2.1, test-utils-0.0.8, lazy-fixture-0.6.3, docker-1.0.1, xonsh-0.13.4, pylama-8.4.1, dash-2.9.1
+collected 33 items / 126 errors
+
+==================================== ERRORS ====================================
+__________ ERROR collecting tests/test_completion/test_completion.py ___________
+ImportError while importing test module '/home/user/typer/tests/test_completion/test_completion.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_completion/test_completion.py:6: in <module>
+    from docs_src.commands.index import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+______ ERROR collecting tests/test_completion/test_completion_complete.py ______
+ImportError while importing test module '/home/user/typer/tests/test_completion/test_completion_complete.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_completion/test_completion_complete.py:5: in <module>
+    from docs_src.commands.help import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+__ ERROR collecting tests/test_completion/test_completion_complete_no_help.py __
+ImportError while importing test module '/home/user/typer/tests/test_completion/test_completion_complete_no_help.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_completion/test_completion_complete_no_help.py:5: in <module>
+    from docs_src.commands.index import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+______ ERROR collecting tests/test_completion/test_completion_install.py _______
+ImportError while importing test module '/home/user/typer/tests/test_completion/test_completion_install.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_completion/test_completion_install.py:11: in <module>
+    from docs_src.commands.index import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+________ ERROR collecting tests/test_completion/test_completion_show.py ________
+ImportError while importing test module '/home/user/typer/tests/test_completion/test_completion_show.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_completion/test_completion_show.py:5: in <module>
+    from docs_src.commands.index import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_arguments/test_default/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_arguments/test_default/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_arguments/test_default/test_tutorial001.py:7: in <module>
+    from docs_src.arguments.default import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_arguments/test_default/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_arguments/test_default/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_arguments/test_default/test_tutorial002.py:7: in <module>
+    from docs_src.arguments.default import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_arguments/test_envvar/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_arguments/test_envvar/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_arguments/test_envvar/test_tutorial001.py:8: in <module>
+    from docs_src.arguments.envvar import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_arguments/test_envvar/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_arguments/test_envvar/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_arguments/test_envvar/test_tutorial002.py:7: in <module>
+    from docs_src.arguments.envvar import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_arguments/test_envvar/test_tutorial003.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_arguments/test_envvar/test_tutorial003.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_arguments/test_envvar/test_tutorial003.py:7: in <module>
+    from docs_src.arguments.envvar import tutorial003 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_arguments/test_help/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_arguments/test_help/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_arguments/test_help/test_tutorial001.py:8: in <module>
+    from docs_src.arguments.help import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_arguments/test_help/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_arguments/test_help/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_arguments/test_help/test_tutorial002.py:7: in <module>
+    from docs_src.arguments.help import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_arguments/test_help/test_tutorial003.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_arguments/test_help/test_tutorial003.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_arguments/test_help/test_tutorial003.py:7: in <module>
+    from docs_src.arguments.help import tutorial003 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_arguments/test_help/test_tutorial004.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_arguments/test_help/test_tutorial004.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_arguments/test_help/test_tutorial004.py:7: in <module>
+    from docs_src.arguments.help import tutorial004 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_arguments/test_help/test_tutorial005.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_arguments/test_help/test_tutorial005.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_arguments/test_help/test_tutorial005.py:7: in <module>
+    from docs_src.arguments.help import tutorial005 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_arguments/test_help/test_tutorial006.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_arguments/test_help/test_tutorial006.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_arguments/test_help/test_tutorial006.py:7: in <module>
+    from docs_src.arguments.help import tutorial006 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_arguments/test_help/test_tutorial007.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_arguments/test_help/test_tutorial007.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_arguments/test_help/test_tutorial007.py:8: in <module>
+    from docs_src.arguments.help import tutorial007 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_arguments/test_help/test_tutorial008.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_arguments/test_help/test_tutorial008.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_arguments/test_help/test_tutorial008.py:8: in <module>
+    from docs_src.arguments.help import tutorial008 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_arguments/test_optional/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_arguments/test_optional/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_arguments/test_optional/test_tutorial001.py:8: in <module>
+    from docs_src.arguments.optional import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_arguments/test_optional/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_arguments/test_optional/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_arguments/test_optional/test_tutorial002.py:7: in <module>
+    from docs_src.arguments.optional import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_commands/test_arguments/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_commands/test_arguments/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_commands/test_arguments/test_tutorial001.py:6: in <module>
+    from docs_src.commands.arguments import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_commands/test_callback/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_commands/test_callback/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_commands/test_callback/test_tutorial001.py:7: in <module>
+    from docs_src.commands.callback import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_commands/test_callback/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_commands/test_callback/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_commands/test_callback/test_tutorial002.py:6: in <module>
+    from docs_src.commands.callback import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_commands/test_callback/test_tutorial003.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_commands/test_callback/test_tutorial003.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_commands/test_callback/test_tutorial003.py:6: in <module>
+    from docs_src.commands.callback import tutorial003 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_commands/test_callback/test_tutorial004.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_commands/test_callback/test_tutorial004.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_commands/test_callback/test_tutorial004.py:6: in <module>
+    from docs_src.commands.callback import tutorial004 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_commands/test_context/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_commands/test_context/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_commands/test_context/test_tutorial001.py:6: in <module>
+    from docs_src.commands.context import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_commands/test_context/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_commands/test_context/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_commands/test_context/test_tutorial002.py:6: in <module>
+    from docs_src.commands.context import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_commands/test_context/test_tutorial003.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_commands/test_context/test_tutorial003.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_commands/test_context/test_tutorial003.py:6: in <module>
+    from docs_src.commands.context import tutorial003 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_commands/test_context/test_tutorial004.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_commands/test_context/test_tutorial004.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_commands/test_context/test_tutorial004.py:6: in <module>
+    from docs_src.commands.context import tutorial004 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_commands/test_help/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_commands/test_help/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_commands/test_help/test_tutorial001.py:6: in <module>
+    from docs_src.commands.help import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_commands/test_help/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_commands/test_help/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_commands/test_help/test_tutorial002.py:6: in <module>
+    from docs_src.commands.help import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_commands/test_help/test_tutorial003.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_commands/test_help/test_tutorial003.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_commands/test_help/test_tutorial003.py:6: in <module>
+    from docs_src.commands.help import tutorial003 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_commands/test_help/test_tutorial004.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_commands/test_help/test_tutorial004.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_commands/test_help/test_tutorial004.py:6: in <module>
+    from docs_src.commands.help import tutorial004 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_commands/test_help/test_tutorial005.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_commands/test_help/test_tutorial005.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_commands/test_help/test_tutorial005.py:6: in <module>
+    from docs_src.commands.help import tutorial005 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_commands/test_help/test_tutorial006.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_commands/test_help/test_tutorial006.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_commands/test_help/test_tutorial006.py:6: in <module>
+    from docs_src.commands.help import tutorial006 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_commands/test_help/test_tutorial007.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_commands/test_help/test_tutorial007.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_commands/test_help/test_tutorial007.py:6: in <module>
+    from docs_src.commands.help import tutorial007 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_commands/test_help/test_tutorial008.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_commands/test_help/test_tutorial008.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_commands/test_help/test_tutorial008.py:6: in <module>
+    from docs_src.commands.help import tutorial008 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_commands/test_index/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_commands/test_index/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_commands/test_index/test_tutorial001.py:6: in <module>
+    from docs_src.commands.index import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_commands/test_index/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_commands/test_index/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_commands/test_index/test_tutorial002.py:6: in <module>
+    from docs_src.commands.index import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_commands/test_name/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_commands/test_name/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_commands/test_name/test_tutorial001.py:6: in <module>
+    from docs_src.commands.name import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_commands/test_one_or_multiple/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_commands/test_one_or_multiple/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_commands/test_one_or_multiple/test_tutorial001.py:6: in <module>
+    from docs_src.commands.one_or_multiple import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_commands/test_one_or_multiple/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_commands/test_one_or_multiple/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_commands/test_one_or_multiple/test_tutorial002.py:6: in <module>
+    from docs_src.commands.one_or_multiple import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_commands/test_options/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_commands/test_options/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_commands/test_options/test_tutorial001.py:6: in <module>
+    from docs_src.commands.options import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+___ ERROR collecting tests/test_tutorial/test_exceptions/test_tutorial001.py ___
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_exceptions/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_exceptions/test_tutorial001.py:8: in <module>
+    from docs_src.exceptions import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+___ ERROR collecting tests/test_tutorial/test_exceptions/test_tutorial002.py ___
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_exceptions/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_exceptions/test_tutorial002.py:8: in <module>
+    from docs_src.exceptions import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+___ ERROR collecting tests/test_tutorial/test_exceptions/test_tutorial003.py ___
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_exceptions/test_tutorial003.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_exceptions/test_tutorial003.py:8: in <module>
+    from docs_src.exceptions import tutorial003 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+___ ERROR collecting tests/test_tutorial/test_exceptions/test_tutorial004.py ___
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_exceptions/test_tutorial004.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_exceptions/test_tutorial004.py:8: in <module>
+    from docs_src.exceptions import tutorial004 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+__ ERROR collecting tests/test_tutorial/test_first_steps/test_tutorial001.py ___
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_first_steps/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_first_steps/test_tutorial001.py:7: in <module>
+    from docs_src.first_steps import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+__ ERROR collecting tests/test_tutorial/test_first_steps/test_tutorial002.py ___
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_first_steps/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_first_steps/test_tutorial002.py:7: in <module>
+    from docs_src.first_steps import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+__ ERROR collecting tests/test_tutorial/test_first_steps/test_tutorial003.py ___
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_first_steps/test_tutorial003.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_first_steps/test_tutorial003.py:7: in <module>
+    from docs_src.first_steps import tutorial003 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+__ ERROR collecting tests/test_tutorial/test_first_steps/test_tutorial004.py ___
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_first_steps/test_tutorial004.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_first_steps/test_tutorial004.py:7: in <module>
+    from docs_src.first_steps import tutorial004 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+__ ERROR collecting tests/test_tutorial/test_first_steps/test_tutorial005.py ___
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_first_steps/test_tutorial005.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_first_steps/test_tutorial005.py:7: in <module>
+    from docs_src.first_steps import tutorial005 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+__ ERROR collecting tests/test_tutorial/test_first_steps/test_tutorial006.py ___
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_first_steps/test_tutorial006.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_first_steps/test_tutorial006.py:7: in <module>
+    from docs_src.first_steps import tutorial006 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_multiple_values/test_arguments_with_multiple_values/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_multiple_values/test_arguments_with_multiple_values/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_multiple_values/test_arguments_with_multiple_values/test_tutorial001.py:7: in <module>
+    from docs_src.multiple_values.arguments_with_multiple_values import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_multiple_values/test_arguments_with_multiple_values/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_multiple_values/test_arguments_with_multiple_values/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_multiple_values/test_arguments_with_multiple_values/test_tutorial002.py:7: in <module>
+    from docs_src.multiple_values.arguments_with_multiple_values import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_multiple_values/test_multiple_options/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_multiple_values/test_multiple_options/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_multiple_values/test_multiple_options/test_tutorial001.py:7: in <module>
+    from docs_src.multiple_values.multiple_options import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_multiple_values/test_multiple_options/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_multiple_values/test_multiple_options/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_multiple_values/test_multiple_options/test_tutorial002.py:7: in <module>
+    from docs_src.multiple_values.multiple_options import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_multiple_values/test_options_with_multiple_values/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_multiple_values/test_options_with_multiple_values/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_multiple_values/test_options_with_multiple_values/test_tutorial001.py:7: in <module>
+    from docs_src.multiple_values.options_with_multiple_values import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_options/test_callback/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_options/test_callback/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_options/test_callback/test_tutorial001.py:7: in <module>
+    from docs_src.options.callback import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_options/test_callback/test_tutorial003.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_options/test_callback/test_tutorial003.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_options/test_callback/test_tutorial003.py:8: in <module>
+    from docs_src.options.callback import tutorial003 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_options/test_callback/test_tutorial004.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_options/test_callback/test_tutorial004.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_options/test_callback/test_tutorial004.py:8: in <module>
+    from docs_src.options.callback import tutorial004 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_options/test_help/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_options/test_help/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_options/test_help/test_tutorial001.py:7: in <module>
+    from docs_src.options.help import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_options/test_help/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_options/test_help/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_options/test_help/test_tutorial002.py:7: in <module>
+    from docs_src.options.help import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_options/test_help/test_tutorial003.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_options/test_help/test_tutorial003.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_options/test_help/test_tutorial003.py:7: in <module>
+    from docs_src.options.help import tutorial003 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_options/test_name/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_options/test_name/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_options/test_name/test_tutorial001.py:7: in <module>
+    from docs_src.options.name import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_options/test_name/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_options/test_name/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_options/test_name/test_tutorial002.py:7: in <module>
+    from docs_src.options.name import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_options/test_name/test_tutorial003.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_options/test_name/test_tutorial003.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_options/test_name/test_tutorial003.py:7: in <module>
+    from docs_src.options.name import tutorial003 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_options/test_name/test_tutorial004.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_options/test_name/test_tutorial004.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_options/test_name/test_tutorial004.py:7: in <module>
+    from docs_src.options.name import tutorial004 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_options/test_name/test_tutorial005.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_options/test_name/test_tutorial005.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_options/test_name/test_tutorial005.py:7: in <module>
+    from docs_src.options.name import tutorial005 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_options/test_prompt/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_options/test_prompt/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_options/test_prompt/test_tutorial001.py:7: in <module>
+    from docs_src.options.prompt import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_options/test_prompt/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_options/test_prompt/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_options/test_prompt/test_tutorial002.py:7: in <module>
+    from docs_src.options.prompt import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_options/test_prompt/test_tutorial003.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_options/test_prompt/test_tutorial003.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_options/test_prompt/test_tutorial003.py:7: in <module>
+    from docs_src.options.prompt import tutorial003 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_options/test_required/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_options/test_required/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_options/test_required/test_tutorial002.py:8: in <module>
+    from docs_src.options.required import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_options/test_version/test_tutorial003.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_options/test_version/test_tutorial003.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_options/test_version/test_tutorial003.py:8: in <module>
+    from docs_src.options.version import tutorial003 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_options_autocompletion/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_options_autocompletion/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_options_autocompletion/test_tutorial002.py:7: in <module>
+    from docs_src.options_autocompletion import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_options_autocompletion/test_tutorial003.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_options_autocompletion/test_tutorial003.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_options_autocompletion/test_tutorial003.py:7: in <module>
+    from docs_src.options_autocompletion import tutorial003 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_options_autocompletion/test_tutorial004.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_options_autocompletion/test_tutorial004.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_options_autocompletion/test_tutorial004.py:7: in <module>
+    from docs_src.options_autocompletion import tutorial004 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_options_autocompletion/test_tutorial007.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_options_autocompletion/test_tutorial007.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_options_autocompletion/test_tutorial007.py:7: in <module>
+    from docs_src.options_autocompletion import tutorial007 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_options_autocompletion/test_tutorial008.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_options_autocompletion/test_tutorial008.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_options_autocompletion/test_tutorial008.py:7: in <module>
+    from docs_src.options_autocompletion import tutorial008 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_options_autocompletion/test_tutorial009.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_options_autocompletion/test_tutorial009.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_options_autocompletion/test_tutorial009.py:7: in <module>
+    from docs_src.options_autocompletion import tutorial009 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_parameter_types/test_bool/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_parameter_types/test_bool/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_parameter_types/test_bool/test_tutorial001.py:7: in <module>
+    from docs_src.parameter_types.bool import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_parameter_types/test_bool/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_parameter_types/test_bool/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_parameter_types/test_bool/test_tutorial002.py:8: in <module>
+    from docs_src.parameter_types.bool import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_parameter_types/test_bool/test_tutorial003.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_parameter_types/test_bool/test_tutorial003.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_parameter_types/test_bool/test_tutorial003.py:7: in <module>
+    from docs_src.parameter_types.bool import tutorial003 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_parameter_types/test_bool/test_tutorial004.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_parameter_types/test_bool/test_tutorial004.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_parameter_types/test_bool/test_tutorial004.py:7: in <module>
+    from docs_src.parameter_types.bool import tutorial004 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_parameter_types/test_datetime/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_parameter_types/test_datetime/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_parameter_types/test_datetime/test_tutorial001.py:7: in <module>
+    from docs_src.parameter_types.datetime import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_parameter_types/test_datetime/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_parameter_types/test_datetime/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_parameter_types/test_datetime/test_tutorial002.py:7: in <module>
+    from docs_src.parameter_types.datetime import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_parameter_types/test_enum/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_parameter_types/test_enum/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_parameter_types/test_enum/test_tutorial001.py:7: in <module>
+    from docs_src.parameter_types.enum import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_parameter_types/test_enum/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_parameter_types/test_enum/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_parameter_types/test_enum/test_tutorial002.py:7: in <module>
+    from docs_src.parameter_types.enum import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_parameter_types/test_file/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_parameter_types/test_file/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_parameter_types/test_file/test_tutorial001.py:8: in <module>
+    from docs_src.parameter_types.file import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_parameter_types/test_file/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_parameter_types/test_file/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_parameter_types/test_file/test_tutorial002.py:8: in <module>
+    from docs_src.parameter_types.file import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_parameter_types/test_file/test_tutorial003.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_parameter_types/test_file/test_tutorial003.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_parameter_types/test_file/test_tutorial003.py:8: in <module>
+    from docs_src.parameter_types.file import tutorial003 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_parameter_types/test_file/test_tutorial004.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_parameter_types/test_file/test_tutorial004.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_parameter_types/test_file/test_tutorial004.py:8: in <module>
+    from docs_src.parameter_types.file import tutorial004 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_parameter_types/test_file/test_tutorial005.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_parameter_types/test_file/test_tutorial005.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_parameter_types/test_file/test_tutorial005.py:8: in <module>
+    from docs_src.parameter_types.file import tutorial005 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_parameter_types/test_index/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_parameter_types/test_index/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_parameter_types/test_index/test_tutorial001.py:7: in <module>
+    from docs_src.parameter_types.index import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_parameter_types/test_number/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_parameter_types/test_number/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_parameter_types/test_number/test_tutorial001.py:8: in <module>
+    from docs_src.parameter_types.number import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_parameter_types/test_number/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_parameter_types/test_number/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_parameter_types/test_number/test_tutorial002.py:7: in <module>
+    from docs_src.parameter_types.number import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_parameter_types/test_number/test_tutorial003.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_parameter_types/test_number/test_tutorial003.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_parameter_types/test_number/test_tutorial003.py:7: in <module>
+    from docs_src.parameter_types.number import tutorial003 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_parameter_types/test_path/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_parameter_types/test_path/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_parameter_types/test_path/test_tutorial001.py:8: in <module>
+    from docs_src.parameter_types.path import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_parameter_types/test_path/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_parameter_types/test_path/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_parameter_types/test_path/test_tutorial002.py:8: in <module>
+    from docs_src.parameter_types.path import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_parameter_types/test_uuid/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_parameter_types/test_uuid/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_parameter_types/test_uuid/test_tutorial001.py:7: in <module>
+    from docs_src.parameter_types.uuid import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_____ ERROR collecting tests/test_tutorial/test_prompt/test_tutorial001.py _____
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_prompt/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_prompt/test_tutorial001.py:7: in <module>
+    from docs_src.prompt import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_____ ERROR collecting tests/test_tutorial/test_prompt/test_tutorial002.py _____
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_prompt/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_prompt/test_tutorial002.py:7: in <module>
+    from docs_src.prompt import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_____ ERROR collecting tests/test_tutorial/test_prompt/test_tutorial003.py _____
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_prompt/test_tutorial003.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_prompt/test_tutorial003.py:7: in <module>
+    from docs_src.prompt import tutorial003 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+__ ERROR collecting tests/test_tutorial/test_subcommands/test_tutorial001.py ___
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_subcommands/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_subcommands/test_tutorial001.py:8: in <module>
+    from docs_src.subcommands import tutorial001
+E   ModuleNotFoundError: No module named 'docs_src'
+__ ERROR collecting tests/test_tutorial/test_subcommands/test_tutorial002.py ___
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_subcommands/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_subcommands/test_tutorial002.py:6: in <module>
+    from docs_src.subcommands.tutorial002 import main as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+__ ERROR collecting tests/test_tutorial/test_subcommands/test_tutorial003.py ___
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_subcommands/test_tutorial003.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_subcommands/test_tutorial003.py:8: in <module>
+    from docs_src.subcommands import tutorial003
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_subcommands/test_callback_override/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_subcommands/test_callback_override/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_subcommands/test_callback_override/test_tutorial001.py:6: in <module>
+    from docs_src.subcommands.callback_override import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_subcommands/test_callback_override/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_subcommands/test_callback_override/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_subcommands/test_callback_override/test_tutorial002.py:6: in <module>
+    from docs_src.subcommands.callback_override import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_subcommands/test_callback_override/test_tutorial003.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_subcommands/test_callback_override/test_tutorial003.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_subcommands/test_callback_override/test_tutorial003.py:6: in <module>
+    from docs_src.subcommands.callback_override import tutorial003 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_subcommands/test_callback_override/test_tutorial004.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_subcommands/test_callback_override/test_tutorial004.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_subcommands/test_callback_override/test_tutorial004.py:6: in <module>
+    from docs_src.subcommands.callback_override import tutorial004 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_subcommands/test_name_help/test_tutorial001.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_subcommands/test_name_help/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_subcommands/test_name_help/test_tutorial001.py:6: in <module>
+    from docs_src.subcommands.name_help import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_subcommands/test_name_help/test_tutorial002.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_subcommands/test_name_help/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_subcommands/test_name_help/test_tutorial002.py:6: in <module>
+    from docs_src.subcommands.name_help import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_subcommands/test_name_help/test_tutorial003.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_subcommands/test_name_help/test_tutorial003.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_subcommands/test_name_help/test_tutorial003.py:6: in <module>
+    from docs_src.subcommands.name_help import tutorial003 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_subcommands/test_name_help/test_tutorial004.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_subcommands/test_name_help/test_tutorial004.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_subcommands/test_name_help/test_tutorial004.py:6: in <module>
+    from docs_src.subcommands.name_help import tutorial004 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_subcommands/test_name_help/test_tutorial005.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_subcommands/test_name_help/test_tutorial005.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_subcommands/test_name_help/test_tutorial005.py:6: in <module>
+    from docs_src.subcommands.name_help import tutorial005 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_subcommands/test_name_help/test_tutorial006.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_subcommands/test_name_help/test_tutorial006.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_subcommands/test_name_help/test_tutorial006.py:6: in <module>
+    from docs_src.subcommands.name_help import tutorial006 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_subcommands/test_name_help/test_tutorial007.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_subcommands/test_name_help/test_tutorial007.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_subcommands/test_name_help/test_tutorial007.py:6: in <module>
+    from docs_src.subcommands.name_help import tutorial007 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_ ERROR collecting tests/test_tutorial/test_subcommands/test_name_help/test_tutorial008.py _
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_subcommands/test_name_help/test_tutorial008.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_subcommands/test_name_help/test_tutorial008.py:6: in <module>
+    from docs_src.subcommands.name_help import tutorial008 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+__ ERROR collecting tests/test_tutorial/test_terminating/test_tutorial001.py ___
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_terminating/test_tutorial001.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_terminating/test_tutorial001.py:7: in <module>
+    from docs_src.terminating import tutorial001 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+__ ERROR collecting tests/test_tutorial/test_terminating/test_tutorial002.py ___
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_terminating/test_tutorial002.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_terminating/test_tutorial002.py:7: in <module>
+    from docs_src.terminating import tutorial002 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+__ ERROR collecting tests/test_tutorial/test_terminating/test_tutorial003.py ___
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_terminating/test_tutorial003.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_terminating/test_tutorial003.py:8: in <module>
+    from docs_src.terminating import tutorial003 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_______ ERROR collecting tests/test_tutorial/test_testing/test_app01.py ________
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_testing/test_app01.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_testing/test_app01.py:4: in <module>
+    from docs_src.testing.app01 import main as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_______ ERROR collecting tests/test_tutorial/test_testing/test_app02.py ________
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_testing/test_app02.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_testing/test_app02.py:4: in <module>
+    from docs_src.testing.app02 import main as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+_______ ERROR collecting tests/test_tutorial/test_testing/test_app03.py ________
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_testing/test_app03.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_testing/test_app03.py:4: in <module>
+    from docs_src.testing.app03 import main as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+__ ERROR collecting tests/test_tutorial/test_using_click/test_tutorial003.py ___
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_using_click/test_tutorial003.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_using_click/test_tutorial003.py:6: in <module>
+    from docs_src.using_click import tutorial003 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+__ ERROR collecting tests/test_tutorial/test_using_click/test_tutorial004.py ___
+ImportError while importing test module '/home/user/typer/tests/test_tutorial/test_using_click/test_tutorial004.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../purepython/cpython-3.9/Lib/importlib/__init__.py:127: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests/test_tutorial/test_using_click/test_tutorial004.py:6: in <module>
+    from docs_src.using_click import tutorial004 as mod
+E   ModuleNotFoundError: No module named 'docs_src'
+=========================== short test summary info ============================
+ERROR tests/test_completion/test_completion.py
+ERROR tests/test_completion/test_completion_complete.py
+ERROR tests/test_completion/test_completion_complete_no_help.py
+ERROR tests/test_completion/test_completion_install.py
+ERROR tests/test_completion/test_completion_show.py
+ERROR tests/test_tutorial/test_arguments/test_default/test_tutorial001.py
+ERROR tests/test_tutorial/test_arguments/test_default/test_tutorial002.py
+ERROR tests/test_tutorial/test_arguments/test_envvar/test_tutorial001.py
+ERROR tests/test_tutorial/test_arguments/test_envvar/test_tutorial002.py
+ERROR tests/test_tutorial/test_arguments/test_envvar/test_tutorial003.py
+ERROR tests/test_tutorial/test_arguments/test_help/test_tutorial001.py
+ERROR tests/test_tutorial/test_arguments/test_help/test_tutorial002.py
+ERROR tests/test_tutorial/test_arguments/test_help/test_tutorial003.py
+ERROR tests/test_tutorial/test_arguments/test_help/test_tutorial004.py
+ERROR tests/test_tutorial/test_arguments/test_help/test_tutorial005.py
+ERROR tests/test_tutorial/test_arguments/test_help/test_tutorial006.py
+ERROR tests/test_tutorial/test_arguments/test_help/test_tutorial007.py
+ERROR tests/test_tutorial/test_arguments/test_help/test_tutorial008.py
+ERROR tests/test_tutorial/test_arguments/test_optional/test_tutorial001.py
+ERROR tests/test_tutorial/test_arguments/test_optional/test_tutorial002.py
+ERROR tests/test_tutorial/test_commands/test_arguments/test_tutorial001.py
+ERROR tests/test_tutorial/test_commands/test_callback/test_tutorial001.py
+ERROR tests/test_tutorial/test_commands/test_callback/test_tutorial002.py
+ERROR tests/test_tutorial/test_commands/test_callback/test_tutorial003.py
+ERROR tests/test_tutorial/test_commands/test_callback/test_tutorial004.py
+ERROR tests/test_tutorial/test_commands/test_context/test_tutorial001.py
+ERROR tests/test_tutorial/test_commands/test_context/test_tutorial002.py
+ERROR tests/test_tutorial/test_commands/test_context/test_tutorial003.py
+ERROR tests/test_tutorial/test_commands/test_context/test_tutorial004.py
+ERROR tests/test_tutorial/test_commands/test_help/test_tutorial001.py
+ERROR tests/test_tutorial/test_commands/test_help/test_tutorial002.py
+ERROR tests/test_tutorial/test_commands/test_help/test_tutorial003.py
+ERROR tests/test_tutorial/test_commands/test_help/test_tutorial004.py
+ERROR tests/test_tutorial/test_commands/test_help/test_tutorial005.py
+ERROR tests/test_tutorial/test_commands/test_help/test_tutorial006.py
+ERROR tests/test_tutorial/test_commands/test_help/test_tutorial007.py
+ERROR tests/test_tutorial/test_commands/test_help/test_tutorial008.py
+ERROR tests/test_tutorial/test_commands/test_index/test_tutorial001.py
+ERROR tests/test_tutorial/test_commands/test_index/test_tutorial002.py
+ERROR tests/test_tutorial/test_commands/test_name/test_tutorial001.py
+ERROR tests/test_tutorial/test_commands/test_one_or_multiple/test_tutorial001.py
+ERROR tests/test_tutorial/test_commands/test_one_or_multiple/test_tutorial002.py
+ERROR tests/test_tutorial/test_commands/test_options/test_tutorial001.py
+ERROR tests/test_tutorial/test_exceptions/test_tutorial001.py
+ERROR tests/test_tutorial/test_exceptions/test_tutorial002.py
+ERROR tests/test_tutorial/test_exceptions/test_tutorial003.py
+ERROR tests/test_tutorial/test_exceptions/test_tutorial004.py
+ERROR tests/test_tutorial/test_first_steps/test_tutorial001.py
+ERROR tests/test_tutorial/test_first_steps/test_tutorial002.py
+ERROR tests/test_tutorial/test_first_steps/test_tutorial003.py
+ERROR tests/test_tutorial/test_first_steps/test_tutorial004.py
+ERROR tests/test_tutorial/test_first_steps/test_tutorial005.py
+ERROR tests/test_tutorial/test_first_steps/test_tutorial006.py
+ERROR tests/test_tutorial/test_multiple_values/test_arguments_with_multiple_values/test_tutorial001.py
+ERROR tests/test_tutorial/test_multiple_values/test_arguments_with_multiple_values/test_tutorial002.py
+ERROR tests/test_tutorial/test_multiple_values/test_multiple_options/test_tutorial001.py
+ERROR tests/test_tutorial/test_multiple_values/test_multiple_options/test_tutorial002.py
+ERROR tests/test_tutorial/test_multiple_values/test_options_with_multiple_values/test_tutorial001.py
+ERROR tests/test_tutorial/test_options/test_callback/test_tutorial001.py
+ERROR tests/test_tutorial/test_options/test_callback/test_tutorial003.py
+ERROR tests/test_tutorial/test_options/test_callback/test_tutorial004.py
+ERROR tests/test_tutorial/test_options/test_help/test_tutorial001.py
+ERROR tests/test_tutorial/test_options/test_help/test_tutorial002.py
+ERROR tests/test_tutorial/test_options/test_help/test_tutorial003.py
+ERROR tests/test_tutorial/test_options/test_name/test_tutorial001.py
+ERROR tests/test_tutorial/test_options/test_name/test_tutorial002.py
+ERROR tests/test_tutorial/test_options/test_name/test_tutorial003.py
+ERROR tests/test_tutorial/test_options/test_name/test_tutorial004.py
+ERROR tests/test_tutorial/test_options/test_name/test_tutorial005.py
+ERROR tests/test_tutorial/test_options/test_prompt/test_tutorial001.py
+ERROR tests/test_tutorial/test_options/test_prompt/test_tutorial002.py
+ERROR tests/test_tutorial/test_options/test_prompt/test_tutorial003.py
+ERROR tests/test_tutorial/test_options/test_required/test_tutorial002.py
+ERROR tests/test_tutorial/test_options/test_version/test_tutorial003.py
+ERROR tests/test_tutorial/test_options_autocompletion/test_tutorial002.py
+ERROR tests/test_tutorial/test_options_autocompletion/test_tutorial003.py
+ERROR tests/test_tutorial/test_options_autocompletion/test_tutorial004.py
+ERROR tests/test_tutorial/test_options_autocompletion/test_tutorial007.py
+ERROR tests/test_tutorial/test_options_autocompletion/test_tutorial008.py
+ERROR tests/test_tutorial/test_options_autocompletion/test_tutorial009.py
+ERROR tests/test_tutorial/test_parameter_types/test_bool/test_tutorial001.py
+ERROR tests/test_tutorial/test_parameter_types/test_bool/test_tutorial002.py
+ERROR tests/test_tutorial/test_parameter_types/test_bool/test_tutorial003.py
+ERROR tests/test_tutorial/test_parameter_types/test_bool/test_tutorial004.py
+ERROR tests/test_tutorial/test_parameter_types/test_datetime/test_tutorial001.py
+ERROR tests/test_tutorial/test_parameter_types/test_datetime/test_tutorial002.py
+ERROR tests/test_tutorial/test_parameter_types/test_enum/test_tutorial001.py
+ERROR tests/test_tutorial/test_parameter_types/test_enum/test_tutorial002.py
+ERROR tests/test_tutorial/test_parameter_types/test_file/test_tutorial001.py
+ERROR tests/test_tutorial/test_parameter_types/test_file/test_tutorial002.py
+ERROR tests/test_tutorial/test_parameter_types/test_file/test_tutorial003.py
+ERROR tests/test_tutorial/test_parameter_types/test_file/test_tutorial004.py
+ERROR tests/test_tutorial/test_parameter_types/test_file/test_tutorial005.py
+ERROR tests/test_tutorial/test_parameter_types/test_index/test_tutorial001.py
+ERROR tests/test_tutorial/test_parameter_types/test_number/test_tutorial001.py
+ERROR tests/test_tutorial/test_parameter_types/test_number/test_tutorial002.py
+ERROR tests/test_tutorial/test_parameter_types/test_number/test_tutorial003.py
+ERROR tests/test_tutorial/test_parameter_types/test_path/test_tutorial001.py
+ERROR tests/test_tutorial/test_parameter_types/test_path/test_tutorial002.py
+ERROR tests/test_tutorial/test_parameter_types/test_uuid/test_tutorial001.py
+ERROR tests/test_tutorial/test_prompt/test_tutorial001.py
+ERROR tests/test_tutorial/test_prompt/test_tutorial002.py
+ERROR tests/test_tutorial/test_prompt/test_tutorial003.py
+ERROR tests/test_tutorial/test_subcommands/test_tutorial001.py
+ERROR tests/test_tutorial/test_subcommands/test_tutorial002.py
+ERROR tests/test_tutorial/test_subcommands/test_tutorial003.py
+ERROR tests/test_tutorial/test_subcommands/test_callback_override/test_tutorial001.py
+ERROR tests/test_tutorial/test_subcommands/test_callback_override/test_tutorial002.py
+ERROR tests/test_tutorial/test_subcommands/test_callback_override/test_tutorial003.py
+ERROR tests/test_tutorial/test_subcommands/test_callback_override/test_tutorial004.py
+ERROR tests/test_tutorial/test_subcommands/test_name_help/test_tutorial001.py
+ERROR tests/test_tutorial/test_subcommands/test_name_help/test_tutorial002.py
+ERROR tests/test_tutorial/test_subcommands/test_name_help/test_tutorial003.py
+ERROR tests/test_tutorial/test_subcommands/test_name_help/test_tutorial004.py
+ERROR tests/test_tutorial/test_subcommands/test_name_help/test_tutorial005.py
+ERROR tests/test_tutorial/test_subcommands/test_name_help/test_tutorial006.py
+ERROR tests/test_tutorial/test_subcommands/test_name_help/test_tutorial007.py
+ERROR tests/test_tutorial/test_subcommands/test_name_help/test_tutorial008.py
+ERROR tests/test_tutorial/test_terminating/test_tutorial001.py
+ERROR tests/test_tutorial/test_terminating/test_tutorial002.py
+ERROR tests/test_tutorial/test_terminating/test_tutorial003.py
+ERROR tests/test_tutorial/test_testing/test_app01.py
+ERROR tests/test_tutorial/test_testing/test_app02.py
+ERROR tests/test_tutorial/test_testing/test_app03.py
+ERROR tests/test_tutorial/test_using_click/test_tutorial003.py
+ERROR tests/test_tutorial/test_using_click/test_tutorial004.py
+!!!!!!!!!!!!!!!!!! Interrupted: 126 errors during collection !!!!!!!!!!!!!!!!!!!
+======================= 126 errors in 189.40s (0:03:09) ========================
+Traceback (most recent call last):
+  File "/home/user/thefuck-master/pre_run_biend.py", line 102, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'

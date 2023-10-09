@@ -1,0 +1,1333 @@
+/home/user/thefuck-master/pre_run_biend.py:3772: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3782: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(O6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3806: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ set$ & ' + ' & '.join(EXT_SET) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3807: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ event$ & ' + ' & '.join(EXT_EVENT) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3934: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/thefuck-master/pre_run_biend.py:3945: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3955: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3967: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3979: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:4101: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dash/testing/plugin.py:92: PytestDeprecationWarning: The hookimpl pytest_addhooks uses old-style configuration options (marks or attributes).
+Please use the pytest.hookimpl(tryfirst=True) decorator instead
+ to configure the hooks.
+ See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers
+  @pytest.mark.tryfirst
+============================= test session starts ==============================
+platform linux -- Python 3.9.15+, pytest-7.2.0, pluggy-1.0.0
+rootdir: /home/user/isort-main
+plugins: mock-3.10.0, hypothesis-6.56.4, httpbin-1.0.2, cov-4.0.0, time-machine-2.9.0, html-3.2.0, Faker-15.3.4, anyio-3.6.2, flaky-3.7.0, hydra-core-1.3.2, xdist-3.2.1, test-utils-0.0.8, lazy-fixture-0.6.3, docker-1.0.1, xonsh-0.13.4, pylama-8.4.1, dash-2.9.1
+collected 521 items
+
+tests/benchmark/test_api.py EE                                           [  0%]
+tests/unit/test_action_comments.py .                                     [  0%]
+tests/unit/test_api.py F...........                                      [  2%]
+tests/unit/test_comments.py ...                                          [  3%]
+tests/unit/test_deprecated_finders.py .............F.........            [  7%]
+tests/unit/test_exceptions.py ......................................     [ 15%]
+tests/unit/test_files.py .                                               [ 15%]
+tests/unit/test_format.py ........F                                      [ 17%]
+tests/unit/test_hooks.py ..                                              [ 17%]
+tests/unit/test_identify.py ......                                       [ 18%]
+tests/unit/test_importable.py .                                          [ 18%]
+tests/unit/test_io.py ...                                                [ 19%]
+tests/unit/test_isort.py ............................................... [ 28%]
+........................................................................ [ 42%]
+..................s..................................................... [ 56%]
+.................                                                        [ 59%]
+tests/unit/test_literal.py .....                                         [ 60%]
+tests/unit/test_main.py ...................                              [ 63%]
+tests/unit/test_output.py .                                              [ 64%]
+tests/unit/test_parse.py .....                                           [ 65%]
+tests/unit/test_place.py ....                                            [ 65%]
+tests/unit/test_pylama_isort.py ...                                      [ 66%]
+tests/unit/test_regressions.py ......................................... [ 74%]
+...............................                                          [ 80%]
+tests/unit/test_settings.py .........................                    [ 85%]
+tests/unit/test_setuptools_command.py .                                  [ 85%]
+tests/unit/test_ticketed_features.py ......F.................F.          [ 90%]
+tests/unit/test_utils.py .                                               [ 90%]
+tests/unit/test_wrap.py .                                                [ 90%]
+tests/unit/test_wrap_modes.py .............F..FF.F..                     [ 94%]
+tests/unit/profiles/test_attrs.py ...                                    [ 95%]
+tests/unit/profiles/test_black.py ....                                   [ 96%]
+tests/unit/profiles/test_django.py ...                                   [ 96%]
+tests/unit/profiles/test_google.py ....                                  [ 97%]
+tests/unit/profiles/test_hug.py ...                                      [ 98%]
+tests/unit/profiles/test_open_stack.py ...                               [ 98%]
+tests/unit/profiles/test_plone.py ...                                    [ 99%]
+tests/unit/profiles/test_pycharm.py .                                    [ 99%]
+tests/unit/profiles/test_wemake.py ...                                   [100%]
+
+==================================== ERRORS ====================================
+_______________________ ERROR at setup of test_sort_file _______________________
+file /home/user/isort-main/tests/benchmark/test_api.py, line 18
+  def test_sort_file(benchmark, imperfect) -> None:
+E       fixture 'benchmark' not found
+>       available fixtures: M, _session_faker, anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, check_completer, class_based_httpbin, class_based_httpbin_secure, class_mocker, completer_obj, completion_context_parse, cov, dash_br, dash_duo, dash_duo_mp, dash_multi_process_server, dash_process_server, dash_thread_server, dashjl, dashjl_server, dashr, dashr_server, diskcache_manager, docker_cleanup, docker_compose_command, docker_compose_file, docker_compose_project_name, docker_ip, docker_services, docker_setup, doctest_namespace, env, extra, faker, httpbin, httpbin_both, httpbin_ca_bundle, httpbin_secure, hydra_restore_singletons, hydra_sweep_runner, hydra_task_runner, imperfect, load_xontrib, matcher, mock_executables_in, mock_xonsh_session, mocker, module_mocker, monkeypatch, monkeypatch_stderr, no_cover, os_env, package_mocker, patch_locate_binary, ptk_shell, pytestconfig, readline_shell, record_property, record_testsuite_property, record_xml_attribute, recwarn, session_env, session_execer, session_mocker, session_os_env, source_path, testrun_uid, time_machine, tmp_dir, tmp_dir_factory, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, worker_id, xession, xonsh_events, xonsh_execer, xonsh_execer_exec, xonsh_execer_parse, xonsh_session, xsh_with_aliases, xsh_with_env
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+/home/user/isort-main/tests/benchmark/test_api.py:18
+__________________ ERROR at setup of test_sort_file_in_place ___________________
+file /home/user/isort-main/tests/benchmark/test_api.py, line 26
+  def test_sort_file_in_place(benchmark, imperfect) -> None:
+E       fixture 'benchmark' not found
+>       available fixtures: M, _session_faker, anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, check_completer, class_based_httpbin, class_based_httpbin_secure, class_mocker, completer_obj, completion_context_parse, cov, dash_br, dash_duo, dash_duo_mp, dash_multi_process_server, dash_process_server, dash_thread_server, dashjl, dashjl_server, dashr, dashr_server, diskcache_manager, docker_cleanup, docker_compose_command, docker_compose_file, docker_compose_project_name, docker_ip, docker_services, docker_setup, doctest_namespace, env, extra, faker, httpbin, httpbin_both, httpbin_ca_bundle, httpbin_secure, hydra_restore_singletons, hydra_sweep_runner, hydra_task_runner, imperfect, load_xontrib, matcher, mock_executables_in, mock_xonsh_session, mocker, module_mocker, monkeypatch, monkeypatch_stderr, no_cover, os_env, package_mocker, patch_locate_binary, ptk_shell, pytestconfig, readline_shell, record_property, record_testsuite_property, record_xml_attribute, recwarn, session_env, session_execer, session_mocker, session_os_env, source_path, testrun_uid, time_machine, tmp_dir, tmp_dir_factory, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory, worker_id, xession, xonsh_events, xonsh_execer, xonsh_execer_exec, xonsh_execer_parse, xonsh_session, xsh_with_aliases, xsh_with_env
+>       use 'pytest --fixtures [testpath]' for help on them.
+
+/home/user/isort-main/tests/benchmark/test_api.py:26
+=================================== FAILURES ===================================
+________________________ test_sort_file_with_bad_syntax ________________________
+
+tmpdir = local('/tmp/pytest-of-user/pytest-364/test_sort_file_with_bad_syntax0')
+
+    def test_sort_file_with_bad_syntax(tmpdir) -> None:
+        tmp_file = tmpdir.join("test_bad_syntax.py")
+        tmp_file.write_text("""print('mismatching quotes")""", "utf8")
+        with pytest.warns(UserWarning):
+>           api.sort_file(tmp_file)
+E           Failed: DID NOT WARN. No warnings of type (<class 'UserWarning'>,) were emitted.
+E           The list of emitted warnings is: [].
+
+tests/unit/test_api.py:27: Failed
+__________________ TestPathFinder.test_conda_and_virtual_env ___________________
+
+self = <tests.unit.test_deprecated_finders.TestPathFinder object at 0x14d3af734be0>
+tmpdir = local('/tmp/pytest-of-user/pytest-364/test_conda_and_virtual_env0')
+
+    def test_conda_and_virtual_env(self, tmpdir):
+        python3lib = tmpdir.mkdir("lib").mkdir("python3")
+        python3lib.mkdir("site-packages").mkdir("y")
+        python3lib.mkdir("n").mkdir("site-packages").mkdir("x")
+        tmpdir.mkdir("z").join("__init__.py").write("__version__ = '1.0.0'")
+        tmpdir.chdir()
+    
+        conda = self.kind(settings.Config(conda_env=str(tmpdir)), str(tmpdir))
+        venv = self.kind(settings.Config(virtual_env=str(tmpdir)), str(tmpdir))
+        assert conda.find("y") == venv.find("y") == "THIRDPARTY"
+        assert conda.find("x") == venv.find("x") == "THIRDPARTY"
+        assert conda.find("z") == "THIRDPARTY"
+>       assert conda.find("os") == venv.find("os") == "STDLIB"
+E       AssertionError: assert 'THIRDPARTY' == 'STDLIB'
+E         - STDLIB
+E         + THIRDPARTY
+
+/home/user/isort-main/tests/unit/test_deprecated_finders.py:87: AssertionError
+_________________________ test_fuzz_show_unified_diff __________________________
+
+self = <hypothesis.core.StateForActualGivenExecution object at 0x14d316068640>
+data = ConjectureData(INTERESTING, 17 bytes, frozen)
+
+    def _execute_once_for_engine(self, data):
+        """Wrapper around ``execute_once`` that intercepts test failure
+        exceptions and single-test control exceptions, and turns them into
+        appropriate method calls to `data` instead.
+    
+        This allows the engine to assume that any exception other than
+        ``StopTest`` must be a fatal error, and should stop the entire engine.
+        """
+        try:
+            trace = frozenset()
+            if (
+                self.failed_normally
+                and not self.failed_due_to_deadline
+                and Phase.shrink in self.settings.phases
+                and Phase.explain in self.settings.phases
+                and sys.gettrace() is None
+                and not PYPY
+            ):  # pragma: no cover
+                # This is in fact covered by our *non-coverage* tests, but due to the
+                # settrace() contention *not* by our coverage tests.  Ah well.
+                tracer = Tracer()
+                try:
+                    sys.settrace(tracer.trace)
+                    result = self.execute_once(data)
+                    if data.status == Status.VALID:
+                        self.explain_traces[None].add(frozenset(tracer.branches))
+                finally:
+                    sys.settrace(None)
+                    trace = frozenset(tracer.branches)
+            else:
+>               result = self.execute_once(data)
+
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/hypothesis/core.py:752: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <hypothesis.core.StateForActualGivenExecution object at 0x14d316068640>
+data = ConjectureData(INTERESTING, 17 bytes, frozen), print_example = False
+is_final = False, expected_failure = None
+
+    def execute_once(
+        self, data, print_example=False, is_final=False, expected_failure=None
+    ):
+        """Run the test function once, using ``data`` as input.
+    
+        If the test raises an exception, it will propagate through to the
+        caller of this method. Depending on its type, this could represent
+        an ordinary test failure, or a fatal error, or a control exception.
+    
+        If this method returns normally, the test might have passed, or
+        it might have placed ``data`` in an unsuccessful state and then
+        swallowed the corresponding control exception.
+        """
+    
+        self.ever_executed = True
+        data.is_find = self.is_find
+    
+        text_repr = None
+        if self.settings.deadline is None:
+            test = self.test
+        else:
+    
+            @proxies(self.test)
+            def test(*args, **kwargs):
+                self.__test_runtime = None
+                initial_draws = len(data.draw_times)
+                start = time.perf_counter()
+                result = self.test(*args, **kwargs)
+                finish = time.perf_counter()
+                internal_draw_time = sum(data.draw_times[initial_draws:])
+                runtime = datetime.timedelta(
+                    seconds=finish - start - internal_draw_time
+                )
+                self.__test_runtime = runtime
+                current_deadline = self.settings.deadline
+                if not is_final:
+                    current_deadline = (current_deadline // 4) * 5
+                if runtime >= current_deadline:
+                    raise DeadlineExceeded(runtime, self.settings.deadline)
+                return result
+    
+        def run(data):
+            # Set up dynamic context needed by a single test run.
+            with local_settings(self.settings):
+                with deterministic_PRNG():
+                    with BuildContext(data, is_final=is_final):
+    
+                        # Generate all arguments to the test function.
+                        args, kwargs = data.draw(self.search_strategy)
+                        if expected_failure is not None:
+                            nonlocal text_repr
+                            text_repr = repr_call(test, args, kwargs)
+    
+                        if print_example or current_verbosity() >= Verbosity.verbose:
+                            output = StringIO()
+    
+                            printer = RepresentationPrinter(output)
+                            if print_example:
+                                printer.text("Falsifying example:")
+                            else:
+                                printer.text("Trying example:")
+    
+                            if self.print_given_args:
+                                printer.text(" ")
+                                printer.text(test.__name__)
+                                with printer.group(indent=4, open="(", close=""):
+                                    printer.break_()
+                                    for v in args:
+                                        printer.pretty(v)
+                                        # We add a comma unconditionally because
+                                        # generated arguments will always be kwargs,
+                                        # so there will always be more to come.
+                                        printer.text(",")
+                                        printer.breakable()
+    
+                                    for i, (k, v) in enumerate(kwargs.items()):
+                                        printer.text(k)
+                                        printer.text("=")
+                                        printer.pretty(v)
+                                        printer.text(",")
+                                        if i + 1 < len(kwargs):
+                                            printer.breakable()
+                                printer.break_()
+                                printer.text(")")
+                            printer.flush()
+                            report(output.getvalue())
+                        return test(*args, **kwargs)
+    
+        # Run the test function once, via the executor hook.
+        # In most cases this will delegate straight to `run(data)`.
+>       result = self.test_runner(data, run)
+
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/hypothesis/core.py:691: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+data = ConjectureData(INTERESTING, 17 bytes, frozen)
+function = <function StateForActualGivenExecution.execute_once.<locals>.run at 0x14d30bed3870>
+
+    def default_new_style_executor(data, function):
+>       return function(data)
+
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/hypothesis/executors.py:47: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+data = ConjectureData(INTERESTING, 17 bytes, frozen)
+
+    def run(data):
+        # Set up dynamic context needed by a single test run.
+        with local_settings(self.settings):
+            with deterministic_PRNG():
+                with BuildContext(data, is_final=is_final):
+    
+                    # Generate all arguments to the test function.
+                    args, kwargs = data.draw(self.search_strategy)
+                    if expected_failure is not None:
+                        nonlocal text_repr
+                        text_repr = repr_call(test, args, kwargs)
+    
+                    if print_example or current_verbosity() >= Verbosity.verbose:
+                        output = StringIO()
+    
+                        printer = RepresentationPrinter(output)
+                        if print_example:
+                            printer.text("Falsifying example:")
+                        else:
+                            printer.text("Trying example:")
+    
+                        if self.print_given_args:
+                            printer.text(" ")
+                            printer.text(test.__name__)
+                            with printer.group(indent=4, open="(", close=""):
+                                printer.break_()
+                                for v in args:
+                                    printer.pretty(v)
+                                    # We add a comma unconditionally because
+                                    # generated arguments will always be kwargs,
+                                    # so there will always be more to come.
+                                    printer.text(",")
+                                    printer.breakable()
+    
+                                for i, (k, v) in enumerate(kwargs.items()):
+                                    printer.text(k)
+                                    printer.text("=")
+                                    printer.pretty(v)
+                                    printer.text(",")
+                                    if i + 1 < len(kwargs):
+                                        printer.breakable()
+                            printer.break_()
+                            printer.text(")")
+                        printer.flush()
+                        report(output.getvalue())
+>                   return test(*args, **kwargs)
+
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/hypothesis/core.py:687: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+file_input = 'b', file_output = '', file_path = None
+output = <_io.StringIO object at 0x14d30b9ebd70>
+
+    @given(
+>       file_input=st.text(),
+        file_output=st.text(),
+        file_path=st.one_of(st.none(), st.builds(Path)),
+        output=st.one_of(st.none(), st.builds(StringIO, st.text())),
+    )
+
+/home/user/isort-main/tests/unit/test_format.py:119: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+args = ('b', '', None, <_io.StringIO object at 0x14d30b9ebd70>), kwargs = {}
+initial_draws = 1, start = 7509149.138498845, result = None
+finish = 7509149.455146729, internal_draw_time = 0
+runtime = datetime.timedelta(microseconds=316648)
+current_deadline = datetime.timedelta(microseconds=250000)
+
+    @proxies(self.test)
+    def test(*args, **kwargs):
+        self.__test_runtime = None
+        initial_draws = len(data.draw_times)
+        start = time.perf_counter()
+        result = self.test(*args, **kwargs)
+        finish = time.perf_counter()
+        internal_draw_time = sum(data.draw_times[initial_draws:])
+        runtime = datetime.timedelta(
+            seconds=finish - start - internal_draw_time
+        )
+        self.__test_runtime = runtime
+        current_deadline = self.settings.deadline
+        if not is_final:
+            current_deadline = (current_deadline // 4) * 5
+        if runtime >= current_deadline:
+>           raise DeadlineExceeded(runtime, self.settings.deadline)
+E           hypothesis.errors.DeadlineExceeded: Test took 316.65ms, which exceeds the deadline of 200.00ms
+
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/hypothesis/core.py:639: DeadlineExceeded
+
+The above exception was the direct cause of the following exception:
+
+    @given(
+>       file_input=st.text(),
+        file_output=st.text(),
+        file_path=st.one_of(st.none(), st.builds(Path)),
+        output=st.one_of(st.none(), st.builds(StringIO, st.text())),
+    )
+
+/home/user/isort-main/tests/unit/test_format.py:119: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <hypothesis.core.StateForActualGivenExecution object at 0x14d316068640>
+data = ConjectureData(VALID, 17 bytes, frozen), print_example = True
+is_final = True
+expected_failure = (DeadlineExceeded('Test took 316.65ms, which exceeds the deadline of 200.00ms'), "args = ('b', '', None, <_io.StringIO...n\n/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/hypothesis/core.py:639: DeadlineExceeded\n")
+
+    def execute_once(
+        self, data, print_example=False, is_final=False, expected_failure=None
+    ):
+        """Run the test function once, using ``data`` as input.
+    
+        If the test raises an exception, it will propagate through to the
+        caller of this method. Depending on its type, this could represent
+        an ordinary test failure, or a fatal error, or a control exception.
+    
+        If this method returns normally, the test might have passed, or
+        it might have placed ``data`` in an unsuccessful state and then
+        swallowed the corresponding control exception.
+        """
+    
+        self.ever_executed = True
+        data.is_find = self.is_find
+    
+        text_repr = None
+        if self.settings.deadline is None:
+            test = self.test
+        else:
+    
+            @proxies(self.test)
+            def test(*args, **kwargs):
+                self.__test_runtime = None
+                initial_draws = len(data.draw_times)
+                start = time.perf_counter()
+                result = self.test(*args, **kwargs)
+                finish = time.perf_counter()
+                internal_draw_time = sum(data.draw_times[initial_draws:])
+                runtime = datetime.timedelta(
+                    seconds=finish - start - internal_draw_time
+                )
+                self.__test_runtime = runtime
+                current_deadline = self.settings.deadline
+                if not is_final:
+                    current_deadline = (current_deadline // 4) * 5
+                if runtime >= current_deadline:
+                    raise DeadlineExceeded(runtime, self.settings.deadline)
+                return result
+    
+        def run(data):
+            # Set up dynamic context needed by a single test run.
+            with local_settings(self.settings):
+                with deterministic_PRNG():
+                    with BuildContext(data, is_final=is_final):
+    
+                        # Generate all arguments to the test function.
+                        args, kwargs = data.draw(self.search_strategy)
+                        if expected_failure is not None:
+                            nonlocal text_repr
+                            text_repr = repr_call(test, args, kwargs)
+    
+                        if print_example or current_verbosity() >= Verbosity.verbose:
+                            output = StringIO()
+    
+                            printer = RepresentationPrinter(output)
+                            if print_example:
+                                printer.text("Falsifying example:")
+                            else:
+                                printer.text("Trying example:")
+    
+                            if self.print_given_args:
+                                printer.text(" ")
+                                printer.text(test.__name__)
+                                with printer.group(indent=4, open="(", close=""):
+                                    printer.break_()
+                                    for v in args:
+                                        printer.pretty(v)
+                                        # We add a comma unconditionally because
+                                        # generated arguments will always be kwargs,
+                                        # so there will always be more to come.
+                                        printer.text(",")
+                                        printer.breakable()
+    
+                                    for i, (k, v) in enumerate(kwargs.items()):
+                                        printer.text(k)
+                                        printer.text("=")
+                                        printer.pretty(v)
+                                        printer.text(",")
+                                        if i + 1 < len(kwargs):
+                                            printer.breakable()
+                                printer.break_()
+                                printer.text(")")
+                            printer.flush()
+                            report(output.getvalue())
+                        return test(*args, **kwargs)
+    
+        # Run the test function once, via the executor hook.
+        # In most cases this will delegate straight to `run(data)`.
+        result = self.test_runner(data, run)
+    
+        # If a failure was expected, it should have been raised already, so
+        # instead raise an appropriate diagnostic error.
+        if expected_failure is not None:
+            exception, traceback = expected_failure
+            if (
+                isinstance(exception, DeadlineExceeded)
+                and self.__test_runtime is not None
+            ):
+                report(
+                    "Unreliable test timings! On an initial run, this "
+                    "test took %.2fms, which exceeded the deadline of "
+                    "%.2fms, but on a subsequent run it took %.2f ms, "
+                    "which did not. If you expect this sort of "
+                    "variability in your test timings, consider turning "
+                    "deadlines off for this test by setting deadline=None."
+                    % (
+                        exception.runtime.total_seconds() * 1000,
+                        self.settings.deadline.total_seconds() * 1000,
+                        self.__test_runtime.total_seconds() * 1000,
+                    )
+                )
+            else:
+                report("Failed to reproduce exception. Expected: \n" + traceback)
+>           raise Flaky(
+                f"Hypothesis {text_repr} produces unreliable results: "
+                "Falsified on the first call but did not on a subsequent one"
+            ) from exception
+E           hypothesis.errors.Flaky: Hypothesis test_fuzz_show_unified_diff(file_input='b', file_output='', file_path=None, output=<_io.StringIO at 0x14d30a6b20f0>) produces unreliable results: Falsified on the first call but did not on a subsequent one
+E           Falsifying example: test_fuzz_show_unified_diff(
+E               file_input='b',
+E               file_output='',
+E               file_path=None,
+E               output=<_io.StringIO at 0x14d30a6b20f0>,
+E           )
+E           Unreliable test timings! On an initial run, this test took 316.65ms, which exceeded the deadline of 200.00ms, but on a subsequent run it took 18.95 ms, which did not. If you expect this sort of variability in your test timings, consider turning deadlines off for this test by setting deadline=None.
+
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/hypothesis/core.py:716: Flaky
+----------------------------- Captured stdout call -----------------------------
+--- :before	2023-05-14 13:39:02.607471
++++ :after	2023-05-14 13:39:02.607541
+@@ -0,0 +1 @@
++0--- .:before	2023-05-14 13:38:42.808901
++++ .:after	2023-05-14 13:39:02.889841
+@@ -0,0 +1 @@
++0--- :before	2023-05-14 13:39:03.109842
++++ :after	2023-05-14 13:39:03.109911
+@@ -1 +0,0 @@
+-0--- :before	2023-05-14 13:39:03.648731
++++ :after	2023-05-14 13:39:03.648820
+@@ -1 +0,0 @@
+-0--- :before	2023-05-14 13:39:04.242877
++++ :after	2023-05-14 13:39:04.242983
+@@ -1 +0,0 @@
+-0--- :before	2023-05-14 13:39:04.426616
++++ :after	2023-05-14 13:39:04.426699
+@@ -0,0 +1 @@
++lµ--- .:before	2023-05-14 13:38:42.808901
++++ .:after	2023-05-14 13:39:04.826637
+@@ -1 +0,0 @@
+-Èl·ñ--- :before	2023-05-14 13:39:05.164731
++++ :after	2023-05-14 13:39:05.164800
+@@ -1 +1 @@
+-Æ+q폦--- :before	2023-05-14 13:39:05.422517
++++ :after	2023-05-14 13:39:05.422578
+@@ -1 +1 @@
+-Æ+q폦--- :before	2023-05-14 13:39:10.164142
++++ :after	2023-05-14 13:39:10.164210
+@@ -0,0 +1,2 @@
+++󱅚ºö¼--- .:before	2023-05-14 13:38:42.808901
++++ .:after	2023-05-14 13:39:10.489179
+@@ -1 +1 @@
+-+Ï--- .:before	2023-05-14 13:38:42.808901
++++ .:after	2023-05-14 13:39:11.492100
+@@ -0,0 +1 @@
++/--- :before	2023-05-14 13:39:12.552299
++++ :after	2023-05-14 13:39:12.552354
+@@ -1 +1 @@
+-󚸮+󡛄¡a¦u--- .:before	2023-05-14 13:38:42.808901
++++ .:after	2023-05-14 13:39:12.875516
+@@ -1 +1 @@
+-񆕽+¹Òâ´"ö¯c 1Â^--- .:before	2023-05-14 13:38:42.808901
++++ .:after	2023-05-14 13:39:13.207525
+@@ -1 +1 @@
+- Y򏓆°+¯>ªóro¬?i񫬚--- :before	2023-05-14 13:39:13.571486
++++ :after	2023-05-14 13:39:13.571714
+@@ -1 +1 @@
+-󬜵+\"󪶚Ï\--- .:before	2023-05-14 13:38:42.808901
++++ .:after	2023-05-14 13:39:13.890653
+@@ -1 +1 @@
+-𱺍ÑÅ8+򫂯V»,--- .:before	2023-05-14 13:38:42.808901
++++ .:after	2023-05-14 13:39:14.171702
+@@ -0,0 +1 @@
++é¡󳸧󴖶􄑞󿑯--- .:before	2023-05-14 13:38:42.808901
++++ .:after	2023-05-14 13:39:14.803040
+@@ -0,0 +1 @@
++ò􏃽񖼏󷭡--- .:before	2023-05-14 13:38:42.808901
++++ .:after	2023-05-14 13:39:15.083081
+@@ -1 +1 @@
+-𭦨H+à--- .:before	2023-05-14 13:38:42.808901
++++ .:after	2023-05-14 13:39:16.678188
+@@ -0,0 +1 @@
++zø--- :before	2023-05-14 13:39:16.931230
++++ :after	2023-05-14 13:39:16.931301
+@@ -1 +1 @@
+-𰥺ø+?M򬰷sF--- :before	2023-05-14 13:39:35.112539
++++ :after	2023-05-14 13:39:35.112632
+@@ -0,0 +1 @@
++,÷䐎򿈉õË%񍦰è--- :before	2023-05-14 13:39:37.092162
++++ :after	2023-05-14 13:39:37.092256
+@@ -0,0 +1,2 @@
++𢴖+¬yÛ4--- .:before	2023-05-14 13:38:42.808901
++++ .:after	2023-05-14 13:39:38.146001
+@@ -0,0 +1 @@
++m򑇯
+--- :before	2023-05-14 13:39:39.409034
++++ :after	2023-05-14 13:39:39.409117
+@@ -1 +1 @@
+-򆰧򆰧򆰧+𐼀--- .:before	2023-05-14 13:38:42.808901
++++ .:after	2023-05-14 13:39:40.832860
+@@ -1 +1 @@
+-+!Çq񡱖򼲍±À--- :before	2023-05-14 13:39:41.534294
++++ :after	2023-05-14 13:39:41.534374
+@@ -1 +1 @@
+-½½|©¢񠲭û銏r񐴠ಎ(􀔫àL+{=--- .:before	2023-05-14 13:38:42.808901
++++ .:after	2023-05-14 13:39:42.429748
+@@ -1,2 +1 @@
+-q1±𧑊򅛴¿â𝍈¢򈳿¤4*
+-ô+񘨓񡯟¨Î--- .:before	2023-05-14 13:38:42.808901
++++ .:after	2023-05-14 13:39:43.579713
+@@ -1 +1 @@
+-񛘰+זêt癁𲎲𳣈󘨪ûÜðsZ񢹄񺡈üÜ򶄣V!Å--- .:before	2023-05-14 13:38:42.808901
++++ .:after	2023-05-14 13:39:43.905458
+@@ -1 +1 @@
+-񛘰+𲎲זêt癁𲎲𳣈󘨪ûÜðsZ񢹄񺡈üÜ򶄣V!Å--- :before	2023-05-14 13:39:45.284543
++++ :after	2023-05-14 13:39:45.284620
+@@ -1 +0,0 @@
+-𱲘Õ--- :before	2023-05-14 13:39:46.435359
++++ :after	2023-05-14 13:39:46.435430
+@@ -1 +1 @@
+-b5+𐸁1--- :before	2023-05-14 13:39:49.045568
++++ :after	2023-05-14 13:39:49.045636
+@@ -1 +0,0 @@
+-b--- .:before	2023-05-14 13:38:42.808901
++++ .:after	2023-05-14 13:39:49.257524
+@@ -1 +1 @@
+-󋊽+񲭸tt󅅇È𒲚ô򟻫򏗍--- .:before	2023-05-14 13:38:42.808901
++++ .:after	2023-05-14 13:39:49.618064
+@@ -0,0 +1,2 @@
++²:m
++󳤂2--- .:before	2023-05-14 13:38:42.808901
++++ .:after	2023-05-14 13:39:50.781123
+@@ -1 +0,0 @@
+-膴--- :before	2023-05-14 13:39:50.982668
++++ :after	2023-05-14 13:39:50.982743
+@@ -1 +0,0 @@
+-膴--- .:before	2023-05-14 13:38:42.808901
++++ .:after	2023-05-14 13:39:51.208072
+@@ -0,0 +1 @@
++0
+________________ test_isort_supports_shared_profiles_issue_970 _________________
+
+    def test_isort_supports_shared_profiles_issue_970():
+        """Test to ensure isort provides a way to use shared profiles.
+        See: https://github.com/pycqa/isort/issues/970.
+        """
+>       assert isort.code("import a", profile="example") == "import a\n"  # shared profile
+
+/home/user/isort-main/tests/unit/test_ticketed_features.py:234: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/api.py:91: in sort_code_string
+    config = _config(path=file_path, config=config, **config_kwargs)
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/api.py:649: in _config
+    config = Config(**config_kwargs)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = <[AttributeError("'Config' object has no attribute 'known_other'") raised in repr()] Config object at 0x14d301c915a0>
+settings_file = '', settings_path = '', config = None
+config_overrides = {'profile': 'example'}, quiet = False
+sources = [{'add_imports': frozenset(), 'append_only': False, 'atomic': False, 'auto_identify_namespace_packages': True, ...}]
+config_settings = {}, project_root = '/tmp/pytest-of-user/pytest-364/config0'
+profile_name = 'example', profile = {}
+
+    def __init__(
+        self,
+        settings_file: str = "",
+        settings_path: str = "",
+        config: Optional[_Config] = None,
+        **config_overrides: Any,
+    ):
+        self._known_patterns: Optional[List[Tuple[Pattern[str], str]]] = None
+        self._section_comments: Optional[Tuple[str, ...]] = None
+        self._section_comments_end: Optional[Tuple[str, ...]] = None
+        self._skips: Optional[FrozenSet[str]] = None
+        self._skip_globs: Optional[FrozenSet[str]] = None
+        self._sorting_function: Optional[Callable[..., List[str]]] = None
+    
+        if config:
+            config_vars = vars(config).copy()
+            config_vars.update(config_overrides)
+            config_vars["py_version"] = config_vars["py_version"].replace("py", "")
+            config_vars.pop("_known_patterns")
+            config_vars.pop("_section_comments")
+            config_vars.pop("_section_comments_end")
+            config_vars.pop("_skips")
+            config_vars.pop("_skip_globs")
+            config_vars.pop("_sorting_function")
+            super().__init__(**config_vars)
+            return
+    
+        # We can't use self.quiet to conditionally show warnings before super.__init__() is called
+        # at the end of this method. _Config is also frozen so setting self.quiet isn't possible.
+        # Therefore we extract quiet early here in a variable and use that in warning conditions.
+        quiet = config_overrides.get("quiet", False)
+    
+        sources: List[Dict[str, Any]] = [_DEFAULT_SETTINGS]
+    
+        config_settings: Dict[str, Any]
+        project_root: str
+        if settings_file:
+            config_settings = _get_config_data(
+                settings_file,
+                CONFIG_SECTIONS.get(os.path.basename(settings_file), FALLBACK_CONFIG_SECTIONS),
+            )
+            project_root = os.path.dirname(settings_file)
+            if not config_settings and not quiet:
+                warn(
+                    f"A custom settings file was specified: {settings_file} but no configuration "
+                    "was found inside. This can happen when [settings] is used as the config "
+                    "header instead of [isort]. "
+                    "See: https://pycqa.github.io/isort/docs/configuration/config_files"
+                    "/#custom_config_files for more information."
+                )
+        elif settings_path:
+            if not os.path.exists(settings_path):
+                raise InvalidSettingsPath(settings_path)
+    
+            settings_path = os.path.abspath(settings_path)
+            project_root, config_settings = _find_config(settings_path)
+        else:
+            config_settings = {}
+            project_root = os.getcwd()
+    
+        profile_name = config_overrides.get("profile", config_settings.get("profile", ""))
+        profile: Dict[str, Any] = {}
+        if profile_name:
+            if profile_name not in profiles:
+                import pkg_resources
+    
+                for plugin in pkg_resources.iter_entry_points("isort.profiles"):
+                    profiles.setdefault(plugin.name, plugin.load())
+    
+            if profile_name not in profiles:
+>               raise ProfileDoesNotExist(profile_name)
+E               isort.exceptions.ProfileDoesNotExist: Specified profile of example does not exist. Available profiles: black,django,pycharm,google,open_stack,plone,attrs,hug,wemake,appnexus.
+
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py:367: ProfileDoesNotExist
+____________________ test_sort_configurable_sort_issue_1732 ____________________
+
+    def test_sort_configurable_sort_issue_1732() -> None:
+        """Test support for pluggable isort sort functions."""
+        test_input = (
+            "from bob2.apples2 import aardvark as aardvark2\n"
+            "from bob.apples import aardvark \n"
+            "import module9\n"
+            "import module10\n"
+            "import module200\n"
+        )
+        assert isort.code(test_input, sort_order="native") == (
+            "import module10\n"
+            "import module200\n"
+            "import module9\n"
+            "from bob.apples import aardvark\n"
+            "from bob2.apples2 import aardvark as aardvark2\n"
+        )
+        assert (
+            isort.code(test_input, sort_order="natural")
+            == isort.code(test_input)
+            == (
+                "import module9\n"
+                "import module10\n"
+                "import module200\n"
+                "from bob2.apples2 import aardvark as aardvark2\n"
+                "from bob.apples import aardvark\n"
+            )
+        )
+>       assert (
+            isort.code(test_input, sort_order="natural_plus")
+            == isort.code(test_input)
+            == (
+                "import module9\n"
+                "import module10\n"
+                "import module200\n"
+                "from bob2.apples2 import aardvark as aardvark2\n"
+                "from bob.apples import aardvark\n"
+            )
+        )
+
+/home/user/isort-main/tests/unit/test_ticketed_features.py:1044: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/api.py:92: in sort_code_string
+    sort_stream(
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/api.py:210: in sort_stream
+    changed = core.process(
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/core.py:424: in process
+    sorted_import_section = output.sorted_imports(
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/output.py:52: in sorted_imports
+    straight_modules = sorting.sort(
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/sorting.py:108: in sort
+    return config.sorting_function(to_sort, key=key, reverse=reverse)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+self = Config(py_version='py3', force_to_top=frozenset(), skip=frozenset({'.svn', '.eggs', '.hg', '.tox', '.pytype', '.mypy_c... format_success='{success}: {message}', sort_order='natural_plus', sort_reexports=False, split_on_trailing_comma=False)
+
+    @property
+    def sorting_function(self) -> Callable[..., List[str]]:
+        if self._sorting_function is not None:
+            return self._sorting_function
+    
+        if self.sort_order == "natural":
+            self._sorting_function = sorting.naturally
+        elif self.sort_order == "native":
+            self._sorting_function = sorted
+        else:
+            available_sort_orders = ["natural", "native"]
+            import pkg_resources
+    
+            for sort_plugin in pkg_resources.iter_entry_points("isort.sort_function"):
+                available_sort_orders.append(sort_plugin.name)
+                if sort_plugin.name == self.sort_order:
+                    self._sorting_function = sort_plugin.load()
+                    break
+            else:
+>               raise SortingFunctionDoesNotExist(self.sort_order, available_sort_orders)
+E               isort.exceptions.SortingFunctionDoesNotExist: Specified sort_order of natural_plus does not exist. Available sort_orders: natural,native.
+
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py:725: SortingFunctionDoesNotExist
+___________________________ test_fuzz_hanging_indent ___________________________
+
+    @given(
+>       statement=st.text(),
+        imports=st.lists(st.text()),
+        white_space=st.text(),
+        indent=st.text(),
+        line_length=st.integers(),
+        comments=st.lists(st.text()),
+        line_separator=st.text(),
+        comment_prefix=st.text(),
+        include_trailing_comma=st.booleans(),
+        remove_comments=st.booleans(),
+    )
+E   hypothesis.errors.FailedHealthCheck: Data generation is extremely slow: Only produced 8 valid examples in 1.03 seconds (0 invalid ones and 2 exceeded maximum size). Try decreasing size of the data you're generating (with e.g. max_size or max_leaves parameters).
+E   See https://hypothesis.readthedocs.io/en/latest/healthchecks.html for more information about this. If you want to disable just this health check, add HealthCheck.too_slow to the suppress_health_check settings for this test.
+
+/home/user/isort-main/tests/unit/test_wrap_modes.py:222: FailedHealthCheck
+---------------------------------- Hypothesis ----------------------------------
+You can add @seed(60475130348371077774286270065679924512) to this test or run pytest with --hypothesis-seed=60475130348371077774286270065679924512 to reproduce this failure.
+______________________________ test_fuzz_vertical ______________________________
+
+    @given(
+>       statement=st.text(),
+        imports=st.lists(st.text()),
+        white_space=st.text(),
+        indent=st.text(),
+        line_length=st.integers(),
+        comments=st.lists(st.text()),
+        line_separator=st.text(),
+        comment_prefix=st.text(),
+        include_trailing_comma=st.booleans(),
+        remove_comments=st.booleans(),
+    )
+E   hypothesis.errors.FailedHealthCheck: Data generation is extremely slow: Only produced 8 valid examples in 1.06 seconds (0 invalid ones and 2 exceeded maximum size). Try decreasing size of the data you're generating (with e.g. max_size or max_leaves parameters).
+E   See https://hypothesis.readthedocs.io/en/latest/healthchecks.html for more information about this. If you want to disable just this health check, add HealthCheck.too_slow to the suppress_health_check settings for this test.
+
+/home/user/isort-main/tests/unit/test_wrap_modes.py:345: FailedHealthCheck
+---------------------------------- Hypothesis ----------------------------------
+You can add @seed(147256133995960276469744000504612797446) to this test or run pytest with --hypothesis-seed=147256133995960276469744000504612797446 to reproduce this failure.
+___________________________ test_fuzz_vertical_grid ____________________________
+
+    @given(
+>       statement=st.text(),
+        imports=st.lists(st.text()),
+        white_space=st.text(),
+        indent=st.text(),
+        line_length=st.integers(),
+        comments=st.lists(st.text()),
+        line_separator=st.text(),
+        comment_prefix=st.text(),
+        include_trailing_comma=st.booleans(),
+        remove_comments=st.booleans(),
+    )
+E   hypothesis.errors.FailedHealthCheck: Data generation is extremely slow: Only produced 9 valid examples in 1.03 seconds (0 invalid ones and 2 exceeded maximum size). Try decreasing size of the data you're generating (with e.g. max_size or max_leaves parameters).
+E   See https://hypothesis.readthedocs.io/en/latest/healthchecks.html for more information about this. If you want to disable just this health check, add HealthCheck.too_slow to the suppress_health_check settings for this test.
+
+/home/user/isort-main/tests/unit/test_wrap_modes.py:386: FailedHealthCheck
+---------------------------------- Hypothesis ----------------------------------
+You can add @seed(231339092829424650962401800928420992969) to this test or run pytest with --hypothesis-seed=231339092829424650962401800928420992969 to reproduce this failure.
+______________________ test_fuzz_vertical_hanging_indent _______________________
+
+    @given(
+>       statement=st.text(),
+        imports=st.lists(st.text()),
+        white_space=st.text(),
+        indent=st.text(),
+        line_length=st.integers(),
+        comments=st.lists(st.text()),
+        line_separator=st.text(),
+        comment_prefix=st.text(),
+        include_trailing_comma=st.booleans(),
+        remove_comments=st.booleans(),
+    )
+E   hypothesis.errors.FailedHealthCheck: Data generation is extremely slow: Only produced 8 valid examples in 1.05 seconds (0 invalid ones and 1 exceeded maximum size). Try decreasing size of the data you're generating (with e.g. max_size or max_leaves parameters).
+E   See https://hypothesis.readthedocs.io/en/latest/healthchecks.html for more information about this. If you want to disable just this health check, add HealthCheck.too_slow to the suppress_health_check settings for this test.
+
+/home/user/isort-main/tests/unit/test_wrap_modes.py:468: FailedHealthCheck
+---------------------------------- Hypothesis ----------------------------------
+You can add @seed(115276639963462839459256695420262248979) to this test or run pytest with --hypothesis-seed=115276639963462839459256695420262248979 to reproduce this failure.
+=============================== warnings summary ===============================
+tests/unit/test_hooks.py::test_git_hook_uses_the_configuration_file_specified_in_settings_path
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py:445: UserWarning: `sections` setting includes testsection, but no known_testsection is defined. The following known_SECTION config options are defined: .
+    warn(
+
+tests/unit/test_io.py::TestFile::test_open
+  /home/user/isort-main/tests/unit/test_io.py:38: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/pytest-of-user/pytest-364/test_open0/file.py' mode='r' encoding='utf-8'>
+    assert io.File._open(str(test_file))
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+tests/unit/test_isort.py::test_atomic_mode
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/api.py:201: UserWarning: Passed in content Python AST errors found but ignored due to Cython extension
+    warn(
+
+tests/unit/test_isort.py::test_atomic_mode
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/api.py:229: UserWarning: Passed in content Python AST errors found but ignored due to Cython extension
+    warn(
+
+tests/unit/test_isort.py::test_custom_sections_exception_handling
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py:445: UserWarning: `sections` setting includes DJANGO, but no known_django is defined. The following known_SECTION config options are defined: .
+    warn(
+
+tests/unit/test_isort.py::test_custom_sections_exception_handling
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py:445: UserWarning: `sections` setting includes PANDAS, but no known_pandas is defined. The following known_SECTION config options are defined: .
+    warn(
+
+tests/unit/test_isort.py::test_failing_file_check_916
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py:445: UserWarning: `sections` setting includes NORDIGEN, but no known_nordigen is defined. The following known_SECTION config options are defined: .
+    warn(
+
+tests/unit/test_isort.py::test_python_future_category
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py:445: UserWarning: `sections` setting includes FUTURE_LIBRARY, but no known_future_library is defined. The following known_SECTION config options are defined: future_thirdparty.
+    warn(
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file  due to [Errno 21] Is a directory: '/tmp/pytest-of-user/pytest-364/config0'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 0 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/0'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 񴋨 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U000742e8'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file `» due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/`»\x86'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file ó򔹟É due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/ó\U00094e5f\x8cÉ'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 𤙕q due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/𤙕q'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file N due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/N'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file W¼ÙU񄏦 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/W¼ÙU\U000443e6'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file ^¬ÓU² due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/^¬ÓU²'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 𓶽«񊶢 𴉧¦íÊy򅡏 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U00013dbd«\U0004ada2 \U00034267¦íÊy\U0008584f'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file Âçs due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/Âçs\x0e'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file - due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\x9f\x9a-'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file  due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\x9f'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 0ºcDèé𿚫¯ due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\x9f\x9f0º\x7fcD\x96\x9a\x8aèé\U0003f6ab¯\x95'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 0ºcDèé𿚫¯ due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\x9f\x8a0º\x7fcD\x96\x9a\x8aèé\U0003f6ab¯\x95'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 󪡃󕆳򦏧íe
+  ÷6t due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U000ea843\U000d51b3\U000a63e7íe\x0b÷6t'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file ­þ>t𚈌ûi±ù due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\xadþ>t\U0001a20c\x91ûi±\x97ù'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file ?¾e®񕿢>ç򃚕񆟆  due to embedded null byte
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 󰈺ÅN´􄶤Rã due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\x17\U000f023aÅ\x8aN´\U00104da4Rã'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 񋨃hI򔌧讒· due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U0004ba03\x17h\x14I\U00094327讒·'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 0 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\x9f0'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 00 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/00'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 000 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/000'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 100 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/100'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 101 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/101'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 􉴳z©¡^h-񀛯É`Í񨐫S󓠸ëh¾8 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U00109d33z©¡^h-\x9e\U000406efÉ\x11\x15\x81\x14`Í\U0006842bS\U000d3838ëh¾8'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 󅹓 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U000c5e53'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 󝰟􀭜S򙭑úÜGTV󗛂Û񤦜J񩥾 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U000ddc1f\U00100b5cS\U00099b51úÜGTV\x11\U000d76c2Û\U0006499cJ\U0006997e'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 몼V󇪶 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/몼V\U000c7ab6'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 񿠭)Ã   due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U0007f82d)Ã\xa0\xa0'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file Í1À§ due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\x03Í1À§\x80'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 񖣸Á󙨄äè¶󶆀Ú+­Á due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U000568f8Á\U000d9a04äè¶\U000f6180Ú+\xad\x01Á\x16'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file ªßpã%򜠵Ë
+   due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/ªß\x03pã%\U0009c835Ë\x9a\x85'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 󧈤% due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U000e7224%'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 񋈍ÖÔ󟠽ôð due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U0004b20d\x94\x9fÖÔ\U000df83dôð'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 񒔨=ÖÔ󟠽ôð due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U00052528=\x94\x9fÖÔ\U000df83dôð'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 򰖪s due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U000b05aas'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file ó due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/ó'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file óó due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/óó'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 򱾣򱻗N¨q򢾶æ}dk𞶡ý#§𵈺򪏽|f􍓏\򑷷þ& due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U000b1fa3\U000b1ed7N\x13¨q\U000a2fb6æ}d\x01k\U0001eda1\x9a\x13ý#§\x03\x89\U0003523a\U000aa3fd|f\U0010d4cf\\\U00091df7þ&'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 񒿰yG񋅥ó due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U00052ff0yG\U0004b165ó'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file ®c
+  @ÿê񂱔ÆMm due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/®c\x05\x01\x1c@ÿ\x97\x87\x8a\x15ê\U00042c54ÆMm'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file h«V» due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/h«V\x94»'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file  due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\x10\x93'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 񵹾q󙥆ß$ due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U00075e7eq\U000d9946ß\x95$'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 񵹾ß󙥆ß$ due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U00075e7eß\U000d9946ß\x95$'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 𠳑𴧽Ó£ due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/𠳑\U000349fdÓ£'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file A	31 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/A\t31'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 3 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\x993'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 33 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/33'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 3 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/3'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 30I due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/30I\x94\x80'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 􏝝 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U0010f75d'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 􏝝1
+   due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U0010f75d1\x0b'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 􏝝𐥏 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U0010f75d\U0001094f'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 𪣨 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/𪣨'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 𪣨0 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/𪣨0'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 𪣨Ā due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/𪣨Ā'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file ĀĀ due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/ĀĀ'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file mÙ󓌱¸ꚛaþ񦅊Æ6J­ due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/mÙ\U000d3331¸ꚛaþ\x95\x08\U0006614aÆ6J\xad'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file '·𝗊󀾖񋊥ÒeS[WgC¯¯󓹍 due to [Errno 2] No such file or directory: "/tmp/pytest-of-user/pytest-364/config0/'·𝗊\U000c0f96\U0004b2a5Ò\x82eS[WgC¯¯\U000d3e4d"
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 󗎳 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U000d73b3'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 񂀱i(
+  B/-=󕒕æWB} due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U00042031i(\rB/-\x1a=\U000d5495æWB}'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 򕪥񮌑ÖÏL due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U00095aa5\U0006e311ÖÏL'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 򴐍´ð򚷲(y𞒑 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U000b440d´ð\x82\U0009adf2\x8f(\x9ay\x18\U0001e491'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 5ßt  due to embedded null byte
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file X񡓉 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/X\U000614c9'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 񡓉񡓉 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U000614c9\U000614c9'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 񟓸ÃB due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U0005f4f8ÃB'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 񾗪^ 򮆘µ򼵀TV𽃑Ä𪗬/񡒗𩙡 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U0007e5ea^ \U000ae198µ\U000bcd40TV\U0003d0d1Ä𪗬/\U00061497𩙡'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file Ù due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/Ù'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file Ù𐩿
+  4򰺽·Úâ¾ due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/Ù𐩿\x0b4\U000b0ebd·\x8aÚ\x93â¾'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file ÊWêÂ due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/ÊWêÂ'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file @a_񅕊񍏦񚍇 due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/@a\x9a_\U0004554a\U0004d3e6\U0005a347'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 𲐟A󾶓éè蘆¨(µ` due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\x19\U0003241fA\U000fed93éè蘆¨(µ\x8d`\x11'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_fuzz_sort_imports
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:104: UserWarning: Unable to parse file 򤧣ËÅ/HÞ due to [Errno 2] No such file or directory: '/tmp/pytest-of-user/pytest-364/config0/\U000a49e3ËÅ/HÞ'
+    warn(f"Unable to parse file {file_name} due to {error}")
+
+tests/unit/test_main.py::test_missing_default_section
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py:445: UserWarning: `sections` setting includes MADEUP, but no known_madeup is defined. The following known_SECTION config options are defined: .
+    warn(
+
+tests/unit/test_main.py::test_main
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:1081: UserWarning: virtual_env dir does not exist: /random-root-folder-that-cant-exist-right?
+    warn(f"virtual_env dir does not exist: {arguments['virtual_env']}")
+
+tests/unit/test_main.py::test_main
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:1261: UserWarning: not-exist was broken path, make sure it exists correctly
+    warn(f"{was_broken} was broken path, make sure it exists correctly")
+
+tests/unit/test_main.py::test_unsupported_encodings
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/main.py:108: UserWarning: Encoding not supported for /tmp/pytest-of-user/pytest-364/test_unsupported_encodings0/file.py
+    warn(f"Encoding not supported for {file_name}")
+
+tests/unit/test_parse.py::test_file_contents
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/parse.py:564: UserWarning: could not place module xyz of line import xyz -- Do you need to define a default section?
+    warn(
+
+tests/unit/test_parse.py::test_file_contents
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/parse.py:564: UserWarning: could not place module one of line     three) -- Do you need to define a default section?
+    warn(
+
+tests/unit/test_parse.py::test_file_contents
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/parse.py:564: UserWarning: could not place module zebra of line not_bacon -- Do you need to define a default section?
+    warn(
+
+tests/unit/test_parse.py::test_file_contents
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/parse.py:450: UserWarning: could not place module x of line     three) -- Do you need to define a default section?
+    warn(
+
+tests/unit/test_regressions.py::test_reverse_relative_combined_with_force_sort_within_sections_issue_1395
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py:445: UserWarning: `sections` setting includes APPLICATION, but no known_application is defined. The following known_SECTION config options are defined: .
+    warn(
+
+tests/unit/test_settings.py::TestConfig::test_known_settings
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py:408: UserWarning: Can't set both known_thirdparty and known_third_party in the same config file.
+  Default to known_third_party if unsure.
+  
+  See: https://pycqa.github.io/isort/#custom-sections-and-ordering.
+    warn(
+
+tests/unit/test_settings.py::test_find_config
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py:782: UserWarning: Failed to pull configuration information from /tmp/pytest-of-user/pytest-364/test_find_config0/.isort.cfg
+    warn(f"Failed to pull configuration information from {potential_config_file}")
+
+tests/unit/test_settings.py::test_find_all_configs
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py:819: UserWarning: Failed to pull configuration information from /tmp/pytest-of-user/pytest-364/test_find_all_configs0/subdir4/pyproject.toml
+    warn(f"Failed to pull configuration information from {potential_config_file}")
+
+tests/unit/test_ticketed_features.py::test_isort_should_warn_on_empty_custom_config_issue_1433
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/python.py:195: PytestRemovedIn8Warning: Passing None has been deprecated.
+  See https://docs.pytest.org/en/latest/how-to/capture-warnings.html#additional-use-cases-of-warnings-in-tests for alternatives in common use cases.
+    result = testfunction(**testargs)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/unit/test_api.py::test_sort_file_with_bad_syntax - Failed: DID N...
+FAILED tests/unit/test_deprecated_finders.py::TestPathFinder::test_conda_and_virtual_env
+FAILED tests/unit/test_format.py::test_fuzz_show_unified_diff - hypothesis.er...
+FAILED tests/unit/test_ticketed_features.py::test_isort_supports_shared_profiles_issue_970
+FAILED tests/unit/test_ticketed_features.py::test_sort_configurable_sort_issue_1732
+FAILED tests/unit/test_wrap_modes.py::test_fuzz_hanging_indent - hypothesis.e...
+FAILED tests/unit/test_wrap_modes.py::test_fuzz_vertical - hypothesis.errors....
+FAILED tests/unit/test_wrap_modes.py::test_fuzz_vertical_grid - hypothesis.er...
+FAILED tests/unit/test_wrap_modes.py::test_fuzz_vertical_hanging_indent - hyp...
+ERROR tests/benchmark/test_api.py::test_sort_file
+ERROR tests/benchmark/test_api.py::test_sort_file_in_place
+= 9 failed, 509 passed, 1 skipped, 121 warnings, 2 errors in 1943.81s (0:32:23) =
+Traceback (most recent call last):
+  File "/home/user/thefuck-master/pre_run_biend.py", line 102, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'

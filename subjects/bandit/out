@@ -1,0 +1,2312 @@
+/home/user/thefuck-master/pre_run_biend.py:3772: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3782: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(O6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3806: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ set$ & ' + ' & '.join(EXT_SET) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3807: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ event$ & ' + ' & '.join(EXT_EVENT) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3934: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/thefuck-master/pre_run_biend.py:3945: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3955: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3967: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3979: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:4101: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dash/testing/plugin.py:92: PytestDeprecationWarning: The hookimpl pytest_addhooks uses old-style configuration options (marks or attributes).
+Please use the pytest.hookimpl(tryfirst=True) decorator instead
+ to configure the hooks.
+ See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers
+  @pytest.mark.tryfirst
+============================= test session starts ==============================
+platform linux -- Python 3.9.15+, pytest-7.2.0, pluggy-1.0.0
+rootdir: /home/user/bandit
+plugins: mock-3.10.0, hypothesis-6.56.4, httpbin-1.0.2, cov-4.0.0, time-machine-2.9.0, html-3.2.0, Faker-15.3.4, anyio-3.6.2, flaky-3.7.0, hydra-core-1.3.2, xdist-3.2.1, test-utils-0.0.8, lazy-fixture-0.6.3, docker-1.0.1, xonsh-0.13.4, pylama-8.4.1, dash-2.9.1
+collected 268 items
+
+tests/functional/test_baseline.py FFFFFFF                                [  2%]
+tests/functional/test_functional.py F.FFFFFFFFFFF.FFFFFFFFFFFFFFFFFFFFFF [ 16%]
+F..F.FFFFFFFFFFFFFFFFFFF.FFFFFFFFFFF                                     [ 29%]
+tests/functional/test_runtime.py F.FFF...F                               [ 32%]
+tests/unit/cli/test_baseline.py EEEEEEEEEEEE                             [ 37%]
+tests/unit/cli/test_config_generator.py ......                           [ 39%]
+tests/unit/cli/test_main.py ......................                       [ 47%]
+tests/unit/core/test_blacklisting.py ..                                  [ 48%]
+tests/unit/core/test_config.py ..........................                [ 58%]
+tests/unit/core/test_context.py ...................                      [ 65%]
+tests/unit/core/test_docs_util.py ...                                    [ 66%]
+tests/unit/core/test_issue.py .......                                    [ 69%]
+tests/unit/core/test_manager.py .....................                    [ 76%]
+tests/unit/core/test_meta_ast.py ..                                      [ 77%]
+tests/unit/core/test_test_set.py ..............                          [ 82%]
+tests/unit/core/test_util.py .......................F......              [ 94%]
+tests/unit/formatters/test_csv.py .                                      [ 94%]
+tests/unit/formatters/test_custom.py .                                   [ 94%]
+tests/unit/formatters/test_html.py ...                                   [ 95%]
+tests/unit/formatters/test_json.py .                                     [ 96%]
+tests/unit/formatters/test_screen.py ....                                [ 97%]
+tests/unit/formatters/test_text.py ....                                  [ 99%]
+tests/unit/formatters/test_xml.py .                                      [ 99%]
+tests/unit/formatters/test_yaml.py .                                     [100%]
+
+==================================== ERRORS ====================================
+________ ERROR at setup of BanditBaselineToolTests.test_bandit_baseline ________
+
+cls = <class 'tests.unit.cli.test_baseline.BanditBaselineToolTests'>
+
+    @classmethod
+    def setUpClass(cls):
+        # Set up prior to running test class
+        # read in content used for temporary file contents
+>       with open("examples/mktemp.py") as fd:
+E       FileNotFoundError: [Errno 2] No such file or directory: 'examples/mktemp.py'
+
+tests/unit/cli/test_baseline.py:39: FileNotFoundError
+__________ ERROR at setup of BanditBaselineToolTests.test_init_logger __________
+
+cls = <class 'tests.unit.cli.test_baseline.BanditBaselineToolTests'>
+
+    @classmethod
+    def setUpClass(cls):
+        # Set up prior to running test class
+        # read in content used for temporary file contents
+>       with open("examples/mktemp.py") as fd:
+E       FileNotFoundError: [Errno 2] No such file or directory: 'examples/mktemp.py'
+
+tests/unit/cli/test_baseline.py:39: FileNotFoundError
+_____ ERROR at setup of BanditBaselineToolTests.test_initialize_dirty_repo _____
+
+cls = <class 'tests.unit.cli.test_baseline.BanditBaselineToolTests'>
+
+    @classmethod
+    def setUpClass(cls):
+        # Set up prior to running test class
+        # read in content used for temporary file contents
+>       with open("examples/mktemp.py") as fd:
+E       FileNotFoundError: [Errno 2] No such file or directory: 'examples/mktemp.py'
+
+tests/unit/cli/test_baseline.py:39: FileNotFoundError
+_ ERROR at setup of BanditBaselineToolTests.test_initialize_existing_report_file _
+
+cls = <class 'tests.unit.cli.test_baseline.BanditBaselineToolTests'>
+
+    @classmethod
+    def setUpClass(cls):
+        # Set up prior to running test class
+        # read in content used for temporary file contents
+>       with open("examples/mktemp.py") as fd:
+E       FileNotFoundError: [Errno 2] No such file or directory: 'examples/mktemp.py'
+
+tests/unit/cli/test_baseline.py:39: FileNotFoundError
+_ ERROR at setup of BanditBaselineToolTests.test_initialize_existing_temp_file _
+
+cls = <class 'tests.unit.cli.test_baseline.BanditBaselineToolTests'>
+
+    @classmethod
+    def setUpClass(cls):
+        # Set up prior to running test class
+        # read in content used for temporary file contents
+>       with open("examples/mktemp.py") as fd:
+E       FileNotFoundError: [Errno 2] No such file or directory: 'examples/mktemp.py'
+
+tests/unit/cli/test_baseline.py:39: FileNotFoundError
+_ ERROR at setup of BanditBaselineToolTests.test_initialize_git_command_failure _
+
+cls = <class 'tests.unit.cli.test_baseline.BanditBaselineToolTests'>
+
+    @classmethod
+    def setUpClass(cls):
+        # Set up prior to running test class
+        # read in content used for temporary file contents
+>       with open("examples/mktemp.py") as fd:
+E       FileNotFoundError: [Errno 2] No such file or directory: 'examples/mktemp.py'
+
+tests/unit/cli/test_baseline.py:39: FileNotFoundError
+______ ERROR at setup of BanditBaselineToolTests.test_initialize_no_repo _______
+
+cls = <class 'tests.unit.cli.test_baseline.BanditBaselineToolTests'>
+
+    @classmethod
+    def setUpClass(cls):
+        # Set up prior to running test class
+        # read in content used for temporary file contents
+>       with open("examples/mktemp.py") as fd:
+E       FileNotFoundError: [Errno 2] No such file or directory: 'examples/mktemp.py'
+
+tests/unit/cli/test_baseline.py:39: FileNotFoundError
+_ ERROR at setup of BanditBaselineToolTests.test_initialize_with_output_argument _
+
+cls = <class 'tests.unit.cli.test_baseline.BanditBaselineToolTests'>
+
+    @classmethod
+    def setUpClass(cls):
+        # Set up prior to running test class
+        # read in content used for temporary file contents
+>       with open("examples/mktemp.py") as fd:
+E       FileNotFoundError: [Errno 2] No such file or directory: 'examples/mktemp.py'
+
+tests/unit/cli/test_baseline.py:39: FileNotFoundError
+___ ERROR at setup of BanditBaselineToolTests.test_main_git_command_failure ____
+
+cls = <class 'tests.unit.cli.test_baseline.BanditBaselineToolTests'>
+
+    @classmethod
+    def setUpClass(cls):
+        # Set up prior to running test class
+        # read in content used for temporary file contents
+>       with open("examples/mktemp.py") as fd:
+E       FileNotFoundError: [Errno 2] No such file or directory: 'examples/mktemp.py'
+
+tests/unit/cli/test_baseline.py:39: FileNotFoundError
+_____ ERROR at setup of BanditBaselineToolTests.test_main_no_parent_commit _____
+
+cls = <class 'tests.unit.cli.test_baseline.BanditBaselineToolTests'>
+
+    @classmethod
+    def setUpClass(cls):
+        # Set up prior to running test class
+        # read in content used for temporary file contents
+>       with open("examples/mktemp.py") as fd:
+E       FileNotFoundError: [Errno 2] No such file or directory: 'examples/mktemp.py'
+
+tests/unit/cli/test_baseline.py:39: FileNotFoundError
+_________ ERROR at setup of BanditBaselineToolTests.test_main_non_repo _________
+
+cls = <class 'tests.unit.cli.test_baseline.BanditBaselineToolTests'>
+
+    @classmethod
+    def setUpClass(cls):
+        # Set up prior to running test class
+        # read in content used for temporary file contents
+>       with open("examples/mktemp.py") as fd:
+E       FileNotFoundError: [Errno 2] No such file or directory: 'examples/mktemp.py'
+
+tests/unit/cli/test_baseline.py:39: FileNotFoundError
+_____ ERROR at setup of BanditBaselineToolTests.test_main_subprocess_error _____
+
+cls = <class 'tests.unit.cli.test_baseline.BanditBaselineToolTests'>
+
+    @classmethod
+    def setUpClass(cls):
+        # Set up prior to running test class
+        # read in content used for temporary file contents
+>       with open("examples/mktemp.py") as fd:
+E       FileNotFoundError: [Errno 2] No such file or directory: 'examples/mktemp.py'
+
+tests/unit/cli/test_baseline.py:39: FileNotFoundError
+=================================== FAILURES ===================================
+___________ BaselineFunctionalTests.test_existing_and_new_candidates ___________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_baseline.py", line 212, in test_existing_and_new_candidates
+    target_directory, baseline_code = self._create_baseline(
+  File "/home/user/bandit/tests/functional/test_baseline.py", line 89, in _create_baseline
+    shutil.copy(
+  File "/home/user/purepython/cpython-3.9/Lib/shutil.py", line 427, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/user/purepython/cpython-3.9/Lib/shutil.py", line 264, in copyfile
+    with open(src, 'rb') as fsrc:
+FileNotFoundError: [Errno 2] No such file or directory: 'examples/new_candidates-some.py'
+
+_____ BaselineFunctionalTests.test_new_candidates_include_nosec_new_nosecs _____
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_baseline.py", line 312, in test_new_candidates_include_nosec_new_nosecs
+    target_directory, baseline_code = self._create_baseline(
+  File "/home/user/bandit/tests/functional/test_baseline.py", line 89, in _create_baseline
+    shutil.copy(
+  File "/home/user/purepython/cpython-3.9/Lib/shutil.py", line 427, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/user/purepython/cpython-3.9/Lib/shutil.py", line 264, in copyfile
+    with open(src, 'rb') as fsrc:
+FileNotFoundError: [Errno 2] No such file or directory: 'examples/new_candidates-none.py'
+
+____ BaselineFunctionalTests.test_new_candidates_include_nosec_only_nosecs _____
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_baseline.py", line 275, in test_new_candidates_include_nosec_only_nosecs
+    target_directory, baseline_code = self._create_baseline(
+  File "/home/user/bandit/tests/functional/test_baseline.py", line 89, in _create_baseline
+    shutil.copy(
+  File "/home/user/purepython/cpython-3.9/Lib/shutil.py", line 427, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/user/purepython/cpython-3.9/Lib/shutil.py", line 264, in copyfile
+    with open(src, 'rb') as fsrc:
+FileNotFoundError: [Errno 2] No such file or directory: 'examples/new_candidates-none.py'
+
+__________ BaselineFunctionalTests.test_no_existing_no_new_candidates __________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_baseline.py", line 150, in test_no_existing_no_new_candidates
+    target_directory, baseline_code = self._create_baseline(
+  File "/home/user/bandit/tests/functional/test_baseline.py", line 89, in _create_baseline
+    shutil.copy(
+  File "/home/user/purepython/cpython-3.9/Lib/shutil.py", line 427, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/user/purepython/cpython-3.9/Lib/shutil.py", line 264, in copyfile
+    with open(src, 'rb') as fsrc:
+FileNotFoundError: [Errno 2] No such file or directory: 'examples/okay.py'
+
+_________ BaselineFunctionalTests.test_no_existing_with_new_candidates _________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_baseline.py", line 177, in test_no_existing_with_new_candidates
+    target_directory, baseline_code = self._create_baseline(
+  File "/home/user/bandit/tests/functional/test_baseline.py", line 89, in _create_baseline
+    shutil.copy(
+  File "/home/user/purepython/cpython-3.9/Lib/shutil.py", line 427, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/user/purepython/cpython-3.9/Lib/shutil.py", line 264, in copyfile
+    with open(src, 'rb') as fsrc:
+FileNotFoundError: [Errno 2] No such file or directory: 'examples/new_candidates-none.py'
+
+________________ BaselineFunctionalTests.test_no_new_candidates ________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_baseline.py", line 125, in test_no_new_candidates
+    target_directory, baseline_code = self._create_baseline(
+  File "/home/user/bandit/tests/functional/test_baseline.py", line 89, in _create_baseline
+    shutil.copy(
+  File "/home/user/purepython/cpython-3.9/Lib/shutil.py", line 427, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/user/purepython/cpython-3.9/Lib/shutil.py", line 264, in copyfile
+    with open(src, 'rb') as fsrc:
+FileNotFoundError: [Errno 2] No such file or directory: 'examples/new_candidates-all.py'
+
+_________ BaselineFunctionalTests.test_no_new_candidates_include_nosec _________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_baseline.py", line 246, in test_no_new_candidates_include_nosec
+    target_directory, baseline_code = self._create_baseline(
+  File "/home/user/bandit/tests/functional/test_baseline.py", line 89, in _create_baseline
+    shutil.copy(
+  File "/home/user/purepython/cpython-3.9/Lib/shutil.py", line 427, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/home/user/purepython/cpython-3.9/Lib/shutil.py", line 264, in copyfile
+    with open(src, 'rb') as fsrc:
+FileNotFoundError: [Errno 2] No such file or directory: 'examples/new_candidates-all.py'
+
+_________________________ FunctionalTests.test_asserts _________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 680, in test_asserts
+    self.check_example("assert.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 1, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 1}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 1, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 1, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
+_________________________ FunctionalTests.test_binding _________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 107, in test_binding
+    self.check_example("binding.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 1, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 1, 'UNDEFINED': 0},
+?                                                ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                                                ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 1, 'UNDEFINED': 0}}
+?                                              ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                              ^
+
+___________________ FunctionalTests.test_blacklist_pycrypto ____________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 918, in test_blacklist_pycrypto
+    self.check_example("pycrypto.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[51 chars]GH': 2}, 'CONFIDENCE': {'UNDEFINED': 0, 'LOW':[23 chars]: 2}} != {'SEV[51 chars]GH': 0}, 'CONFIDENCE': {'UNDEFINED': 0, 'LOW':[23 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 2, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 2, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^
+
+____________________ FunctionalTests.test_blacklist_pyghmi _____________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 937, in test_blacklist_pyghmi
+    self.check_example("pyghmi.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 1, 'MEDIUM': 0, 'HIGH': 1}, 'CONFIDENCE':[47 chars]: 1}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 1, 'LOW': 0, 'MEDIUM': 1, 'UNDEFINED': 0},
+?                         ^                      ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^                      ^
+
+-  'SEVERITY': {'HIGH': 1, 'LOW': 1, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^         ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^         ^
+
+______________________ FunctionalTests.test_cipher_modes _______________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 157, in test_cipher_modes
+    self.check_example("cipher-modes.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 1, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 1}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 1, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 1, 'UNDEFINED': 0}}
+?                                              ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                              ^
+
+_________________________ FunctionalTests.test_ciphers _________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 149, in test_ciphers
+    self.check_example("ciphers.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 1, 'HIGH': 21}, 'CONFIDENCE': {'UNDEFINED[36 chars] 22}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 22, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 21, 'LOW': 0, 'MEDIUM': 1, 'UNDEFINED': 0}}
+?                       ^^                      ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^                      ^
+
+____________________ FunctionalTests.test_code_line_numbers ____________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 812, in test_code_line_numbers
+    code_lines = issues[0].get_code().splitlines()
+IndexError: list index out of range
+
+_______________________ FunctionalTests.test_crypto_md5 ________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 141, in test_crypto_md5
+    self.check_example("crypto-md5.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 10, 'HIGH': 9}, 'CONFIDENCE': {'UNDEFINED[36 chars] 19}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 19, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 9, 'LOW': 0, 'MEDIUM': 10, 'UNDEFINED': 0}}
+?                       ^                      -
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^
+
+__________________________ FunctionalTests.test_dill ___________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 362, in test_dill
+    self.check_example("dill.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 1, 'MEDIUM': 3, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 4}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 4, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 1, 'MEDIUM': 3, 'UNDEFINED': 0}}
+?                                 ^            ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^            ^
+
+__________________ FunctionalTests.test_django_sql_injection ___________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 536, in test_django_sql_injection
+    self.check_example("django_sql_injection_extra.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 11, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED[36 chars]: 0}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 11, 'UNDEFINED': 0},
+?                                                ^^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                                                ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 11, 'UNDEFINED': 0}}
+?                                              ^^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                              ^
+
+________________ FunctionalTests.test_django_sql_injection_raw _________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 545, in test_django_sql_injection_raw
+    self.check_example("django_sql_injection_raw.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 4, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 4, 'UNDEFINED': 0},
+?                                                ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                                                ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 4, 'UNDEFINED': 0}}
+?                                              ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                              ^
+
+___________________ FunctionalTests.test_django_xss_insecure ___________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 599, in test_django_xss_insecure
+    self.check_example("mark_safe_insecure.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 29, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED[36 chars] 29}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 29, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 29, 'UNDEFINED': 0}}
+?                                              ^^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                              ^
+
+__________________________ FunctionalTests.test_eval ___________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 165, in test_eval
+    self.check_example("eval.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 3, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 3}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 3, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 3, 'UNDEFINED': 0}}
+?                                              ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                              ^
+
+__________________________ FunctionalTests.test_exec ___________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 181, in test_exec
+    self.check_example("exec.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 1, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 1}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 1, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 1, 'UNDEFINED': 0}}
+?                                              ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                              ^
+
+____________________ FunctionalTests.test_flask_debug_true _____________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 823, in test_flask_debug_true
+    self.check_example("flask_debug.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[51 chars]GH': 1}, 'CONFIDENCE': {'UNDEFINED': 0, 'LOW':[23 chars]: 0}} != {'SEV[51 chars]GH': 0}, 'CONFIDENCE': {'UNDEFINED': 0, 'LOW':[23 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 1, 'UNDEFINED': 0},
+?                                                ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                                                ^
+
+-  'SEVERITY': {'HIGH': 1, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^
+
+________________________ FunctionalTests.test_ftp_usage ________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 253, in test_ftp_usage
+    self.check_example("ftplib.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[51 chars]GH': 2}, 'CONFIDENCE': {'UNDEFINED': 0, 'LOW':[23 chars]: 2}} != {'SEV[51 chars]GH': 0}, 'CONFIDENCE': {'UNDEFINED': 0, 'LOW':[23 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 2, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 2, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^
+
+___________________ FunctionalTests.test_hardcoded_passwords ___________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 189, in test_hardcoded_passwords
+    self.check_example("hardcoded-passwords.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 14, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE'[49 chars]: 0}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 14, 'UNDEFINED': 0},
+?                                                ^^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                                                ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 14, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
+______________________ FunctionalTests.test_hardcoded_tmp ______________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 197, in test_hardcoded_tmp
+    self.check_example("hardcoded-tmp.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 3, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 3, 'UNDEFINED': 0},
+?                                                ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                                                ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 3, 'UNDEFINED': 0}}
+?                                              ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                              ^
+
+_____________ FunctionalTests.test_hashlib_new_insecure_functions ______________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 910, in test_hashlib_new_insecure_functions
+    self.check_example("hashlib_new_insecure_functions.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[51 chars]GH': 9}, 'CONFIDENCE': {'UNDEFINED': 0, 'LOW':[23 chars]: 9}} != {'SEV[51 chars]GH': 0}, 'CONFIDENCE': {'UNDEFINED': 0, 'LOW':[23 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 9, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 9, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^
+
+__________________ FunctionalTests.test_host_key_verification __________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 561, in test_host_key_verification
+    self.check_example("no_host_key_verification.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[51 chars]GH': 2}, 'CONFIDENCE': {'UNDEFINED': 0, 'LOW':[23 chars]: 0}} != {'SEV[51 chars]GH': 0}, 'CONFIDENCE': {'UNDEFINED': 0, 'LOW':[23 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 2, 'UNDEFINED': 0},
+?                                                ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                                                ^
+
+-  'SEVERITY': {'HIGH': 2, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^
+
+_________________________ FunctionalTests.test_httpoxy _________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 663, in test_httpoxy
+    self.check_example("httpoxy_cgihandler.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[51 chars]GH': 1}, 'CONFIDENCE': {'UNDEFINED': 0, 'LOW':[23 chars]: 1}} != {'SEV[51 chars]GH': 0}, 'CONFIDENCE': {'UNDEFINED': 0, 'LOW':[23 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 1, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 1, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^
+
+_______________________ FunctionalTests.test_ignore_skip _______________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 434, in test_ignore_skip
+    self.check_example("skip.py", expect, ignore_nosec=True)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 7, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 7}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 7, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 7, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
+_________________________ FunctionalTests.test_imports _________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 261, in test_imports
+    self.check_example("imports.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 2, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 2}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 2, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 2, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
+_____________________ FunctionalTests.test_imports_aliases _____________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 221, in test_imports_aliases
+    self.check_example("imports-aliases.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 4, 'MEDIUM': 1, 'HIGH': 4}, 'CONFIDENCE':[47 chars]: 9}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 9, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 4, 'LOW': 4, 'MEDIUM': 1, 'UNDEFINED': 0}}
+?                       ^         ^            ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^         ^            ^
+
+______________________ FunctionalTests.test_imports_from _______________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 229, in test_imports_from
+    self.check_example("imports-from.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 3, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 3}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 3, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 3, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
+____________________ FunctionalTests.test_imports_function _____________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 237, in test_imports_function
+    self.check_example("imports-function.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 2, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 2}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 2, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 2, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
+_________________ FunctionalTests.test_imports_using_importlib _________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 269, in test_imports_using_importlib
+    self.check_example("imports-with-importlib.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 4, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 4}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 4, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 4, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
+____________________ FunctionalTests.test_jinja2_templating ____________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 569, in test_jinja2_templating
+    self.check_example("jinja2_templating.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[51 chars]GH': 5}, 'CONFIDENCE': {'UNDEFINED': 0, 'LOW':[23 chars]: 3}} != {'SEV[51 chars]GH': 0}, 'CONFIDENCE': {'UNDEFINED': 0, 'LOW':[23 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 3, 'LOW': 0, 'MEDIUM': 2, 'UNDEFINED': 0},
+?                         ^                      ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^                      ^
+
+-  'SEVERITY': {'HIGH': 5, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^
+
+_______________________ FunctionalTests.test_jsonpickle ________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 378, in test_jsonpickle
+    self.check_example("jsonpickle.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 3, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 3}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 3, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 3, 'UNDEFINED': 0}}
+?                                              ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                              ^
+
+_____________________ FunctionalTests.test_mako_templating _____________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 577, in test_mako_templating
+    self.check_example("mako_templating.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 3, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 3}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 3, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 3, 'UNDEFINED': 0}}
+?                                              ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                              ^
+
+________________________ FunctionalTests.test_mark_safe ________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 173, in test_mark_safe
+    self.check_example("mark_safe.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 1, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 1}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 1, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 1, 'UNDEFINED': 0}}
+?                                              ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                              ^
+
+____________________ FunctionalTests.test_metric_gathering _____________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 762, in test_metric_gathering
+    self.check_metrics("skip.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 90, in check_metrics
+    self.assertEqual(expect[k], m["_totals"][k])
+  File "/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/testtools/testcase.py", line 394, in assertEqual
+    self.assertThat(observed, matcher, message)
+  File "/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/testtools/testcase.py", line 481, in assertThat
+    raise mismatch_error
+testtools.matchers._impl.MismatchError: 2 != 0
+
+_________________________ FunctionalTests.test_mktemp __________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 277, in test_mktemp
+    self.check_example("mktemp.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 4, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 4}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 4, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 4, 'UNDEFINED': 0}}
+?                                              ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                              ^
+
+_____________________ FunctionalTests.test_multiline_code ______________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 781, in test_multiline_code
+    self.assertEqual(0, len(self.b_mgr.skipped))
+  File "/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/testtools/testcase.py", line 394, in assertEqual
+    self.assertThat(observed, matcher, message)
+  File "/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/testtools/testcase.py", line 481, in assertThat
+    raise mismatch_error
+testtools.matchers._impl.MismatchError: 0 != 1
+
+________________ FunctionalTests.test_multiline_sql_statements _________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 494, in test_multiline_sql_statements
+    self.check_example(example_file, expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 26, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED[37 chars]: 0}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 0, 'LOW': 13, 'MEDIUM': 13, 'UNDEFINED': 0},
+?                                   ^^            ^^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                                   ^            ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 26, 'UNDEFINED': 0}}
+?                                              ^^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                              ^
+
+__________________________ FunctionalTests.test_nosec __________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 830, in test_nosec
+    self.check_example("nosec.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 5, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 5}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 5, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 5, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
+________________________ FunctionalTests.test_os_chmod _________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 306, in test_os_chmod
+    self.check_example("os-chmod.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 4, 'HIGH': 8}, 'CONFIDENCE': {'UNDEFINED'[35 chars] 11}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 11, 'LOW': 0, 'MEDIUM': 1, 'UNDEFINED': 0},
+?                         ^^                      ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^                      ^
+
+-  'SEVERITY': {'HIGH': 8, 'LOW': 0, 'MEDIUM': 4, 'UNDEFINED': 0}}
+?                       ^                      ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^                      ^
+
+_________________________ FunctionalTests.test_os_exec _________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 314, in test_os_exec
+    self.check_example("os-exec.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 8, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 8, 'UNDEFINED': 0},
+?                                                ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                                                ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 8, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
+________________________ FunctionalTests.test_os_popen _________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 322, in test_os_popen
+    self.check_example("os-popen.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 8, 'MEDIUM': 0, 'HIGH': 1}, 'CONFIDENCE':[47 chars]: 9}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 9, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 1, 'LOW': 8, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^         ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^         ^
+
+________________________ FunctionalTests.test_os_spawn _________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 330, in test_os_spawn
+    self.check_example("os-spawn.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 8, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 8, 'UNDEFINED': 0},
+?                                                ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                                                ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 8, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
+______________________ FunctionalTests.test_os_startfile _______________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 338, in test_os_startfile
+    self.check_example("os-startfile.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 3, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 3, 'UNDEFINED': 0},
+?                                                ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                                                ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 3, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
+________________________ FunctionalTests.test_os_system ________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 346, in test_os_system
+    self.check_example("os_system.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 1, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 1}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 1, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 1, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
+___________________ FunctionalTests.test_pandas_read_pickle ____________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 386, in test_pandas_read_pickle
+    self.check_example("pandas_read_pickle.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 1, 'MEDIUM': 1, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 2}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 2, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 1, 'MEDIUM': 1, 'UNDEFINED': 0}}
+?                                 ^            ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^            ^
+
+___________________ FunctionalTests.test_paramiko_injection ____________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 702, in test_paramiko_injection
+    self.check_example("paramiko_injection.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 1, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 1, 'UNDEFINED': 0},
+?                                                ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                                                ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 1, 'UNDEFINED': 0}}
+?                                              ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                              ^
+
+______________________ FunctionalTests.test_partial_path _______________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 710, in test_partial_path
+    self.check_example("partial_path_process.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 11, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE'[49 chars] 11}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 11, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 11, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
+_________________________ FunctionalTests.test_pickle __________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 354, in test_pickle
+    self.check_example("pickle_deserialize.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 1, 'MEDIUM': 3, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 4}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 4, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 1, 'MEDIUM': 3, 'UNDEFINED': 0}}
+?                                 ^            ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^            ^
+
+_____________________ FunctionalTests.test_popen_wrappers ______________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 394, in test_popen_wrappers
+    self.check_example("popen_wrappers.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 7, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 7}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 7, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 7, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
+______________________ FunctionalTests.test_random_module ______________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 402, in test_random_module
+    self.check_example("random_module.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 7, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 7}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 7, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 7, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
+______________ FunctionalTests.test_requests_ssl_verify_disabled _______________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 410, in test_requests_ssl_verify_disabled
+    self.check_example("requests-ssl-verify-disabled.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[51 chars]GH': 18}, 'CONFIDENCE': {'UNDEFINED': 0, 'LOW'[25 chars] 18}} != {'SEV[51 chars]GH': 0}, 'CONFIDENCE': {'UNDEFINED': 0, 'LOW':[23 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 18, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 18, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^
+
+________________ FunctionalTests.test_requests_without_timeout _________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 418, in test_requests_without_timeout
+    self.check_example("requests-missing-timeout.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 14, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED[36 chars]: 0}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 0, 'LOW': 14, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                                   ^^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                                   ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 14, 'UNDEFINED': 0}}
+?                                              ^^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                              ^
+
+_________________________ FunctionalTests.test_shelve __________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 370, in test_shelve
+    self.check_example("shelve_open.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 1, 'MEDIUM': 2, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 3}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 3, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 1, 'MEDIUM': 2, 'UNDEFINED': 0}}
+?                                 ^            ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^            ^
+
+__________________________ FunctionalTests.test_skip ___________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 426, in test_skip
+    self.check_example("skip.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 5, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 5}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 5, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 5, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
+___________________ FunctionalTests.test_snmp_security_check ___________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 945, in test_snmp_security_check
+    self.check_example("snmp.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 3, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 3}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 3, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 3, 'UNDEFINED': 0}}
+?                                              ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                              ^
+
+_____________________ FunctionalTests.test_sql_statements ______________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 452, in test_sql_statements
+    self.check_example("sql_statements.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 18, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED[36 chars]: 0}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 0, 'LOW': 8, 'MEDIUM': 10, 'UNDEFINED': 0},
+?                                   ^            -
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                                   ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 18, 'UNDEFINED': 0}}
+?                                              ^^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                              ^
+
+__________________ FunctionalTests.test_ssl_insecure_version ___________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 503, in test_ssl_insecure_version
+    self.check_example("ssl-insecure-version.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 1, 'MEDIUM': 13, 'HIGH': 9}, 'CONFIDENCE'[49 chars]: 9}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 9, 'LOW': 0, 'MEDIUM': 14, 'UNDEFINED': 0},
+?                         ^                      ^^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^                      ^
+
+-  'SEVERITY': {'HIGH': 9, 'LOW': 1, 'MEDIUM': 13, 'UNDEFINED': 0}}
+?                       ^         ^            ^^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^         ^            ^
+
+____________________ FunctionalTests.test_subprocess_shell _____________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 511, in test_subprocess_shell
+    self.check_example("subprocess_shell.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 21, 'MEDIUM': 1, 'HIGH': 11}, 'CONFIDENCE[50 chars] 32}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 32, 'LOW': 1, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^^         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^         ^
+
+-  'SEVERITY': {'HIGH': 11, 'LOW': 21, 'MEDIUM': 1, 'UNDEFINED': 0}}
+?                       ^^         ^^            ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^         ^            ^
+
+_________________ FunctionalTests.test_tarfile_unsafe_members __________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 953, in test_tarfile_unsafe_members
+    self.check_example("tarfile_extractall.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 1, 'MEDIUM': 2, 'HIGH': 1}, 'CONFIDENCE':[47 chars]: 1}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 1, 'LOW': 1, 'MEDIUM': 2, 'UNDEFINED': 0},
+?                         ^         ^            ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^         ^            ^
+
+-  'SEVERITY': {'HIGH': 1, 'LOW': 1, 'MEDIUM': 2, 'UNDEFINED': 0}}
+?                       ^         ^            ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^         ^            ^
+
+______________________ FunctionalTests.test_telnet_usage _______________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 245, in test_telnet_usage
+    self.check_example("telnetlib.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[51 chars]GH': 2}, 'CONFIDENCE': {'UNDEFINED': 0, 'LOW':[23 chars]: 2}} != {'SEV[51 chars]GH': 0}, 'CONFIDENCE': {'UNDEFINED': 0, 'LOW':[23 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 2, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 2, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^
+
+___________________ FunctionalTests.test_try_except_continue ___________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 725, in test_try_except_continue
+    self.check_example("try_except_continue.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 3, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 3}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 3, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 3, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
+_____________________ FunctionalTests.test_try_except_pass _____________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 747, in test_try_except_pass
+    self.check_example("try_except_pass.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 3, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 3}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 3, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 3, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^
+
+___________________ FunctionalTests.test_unverified_context ____________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 876, in test_unverified_context
+    self.check_example("unverified_context.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 1, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 1}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 1, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 1, 'UNDEFINED': 0}}
+?                                              ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                              ^
+
+_________________________ FunctionalTests.test_urlopen _________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 519, in test_urlopen
+    self.check_example("urlopen.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 8, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 8}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 8, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 8, 'UNDEFINED': 0}}
+?                                              ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                              ^
+
+_________________ FunctionalTests.test_weak_cryptographic_key __________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 776, in test_weak_cryptographic_key
+    self.check_example("weak_cryptographic_key_sizes.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 8, 'HIGH': 8}, 'CONFIDENCE': {'UNDEFINED'[35 chars] 16}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 16, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 8, 'LOW': 0, 'MEDIUM': 8, 'UNDEFINED': 0}}
+?                       ^                      ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^                      ^
+
+___________________ FunctionalTests.test_wildcard_injection ____________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 527, in test_wildcard_injection
+    self.check_example("wildcard-injection.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 10, 'MEDIUM': 0, 'HIGH': 4}, 'CONFIDENCE'[48 chars]: 9}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 9, 'LOW': 0, 'MEDIUM': 5, 'UNDEFINED': 0},
+?                         ^                      ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^                      ^
+
+-  'SEVERITY': {'HIGH': 4, 'LOW': 10, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^         -
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                       ^
+
+___________________________ FunctionalTests.test_xml ___________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 607, in test_xml
+    self.check_example("xml_etree_celementtree.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[27 chars]OW': 1, 'MEDIUM': 4, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 5}} != {'SEV[27 chars]OW': 0, 'MEDIUM': 0, 'HIGH': 0}, 'CONFIDENCE':[47 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 5, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 1, 'MEDIUM': 4, 'UNDEFINED': 0}}
+?                                 ^            ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                 ^            ^
+
+__________________________ FunctionalTests.test_yaml ___________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_functional.py", line 553, in test_yaml
+    self.check_example("yaml_load.py", expect)
+  File "/home/user/bandit/tests/functional/test_functional.py", line 74, in check_example
+    self.assertDictEqual(expect, result)
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 1136, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/home/user/purepython/cpython-3.9/Lib/unittest/case.py", line 676, in fail
+    raise self.failureException(msg)
+AssertionError: {'SEV[40 chars]UM': 2, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 2}} != {'SEV[40 chars]UM': 0, 'HIGH': 0}, 'CONFIDENCE': {'UNDEFINED'[34 chars]: 0}}
+- {'CONFIDENCE': {'HIGH': 2, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
++ {'CONFIDENCE': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0},
+?                         ^
+
+-  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 2, 'UNDEFINED': 0}}
+?                                              ^
+
++  'SEVERITY': {'HIGH': 0, 'LOW': 0, 'MEDIUM': 0, 'UNDEFINED': 0}}
+?                                              ^
+
+______________________ RuntimeTests.test_example_imports _______________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_runtime.py", line 129, in test_example_imports
+    self.assertEqual(1, retcode)
+  File "/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/testtools/testcase.py", line 394, in assertEqual
+    self.assertThat(observed, matcher, message)
+  File "/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/testtools/testcase.py", line 481, in assertThat
+    raise mismatch_error
+testtools.matchers._impl.MismatchError: 1 != 0
+
+______________________ RuntimeTests.test_example_nonsense ______________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_runtime.py", line 105, in test_example_nonsense
+    self.assertIn("nonsense.py (syntax error while parsing AST", output)
+  File "/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/testtools/testcase.py", line 400, in assertIn
+    self.assertThat(haystack, Contains(needle), message)
+  File "/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/testtools/testcase.py", line 481, in assertThat
+    raise mismatch_error
+testtools.matchers._impl.MismatchError: 'nonsense.py (syntax error while parsing AST' not in '[main]\tINFO\tprofile include tests: None\n[main]\tINFO\tprofile exclude tests: None\n[main]\tINFO\tcli include tests: None\n[main]\tINFO\tcli exclude tests: None\n[main]\tINFO\trunning on Python 3.9.15\nRun started:2023-05-14 05:38:35.623667\n\nTest results:\n\tNo issues identified.\n\nCode scanned:\n\tTotal lines of code: 0\n\tTotal lines skipped (#nosec): 0\n\tTotal potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0\n\nRun metrics:\n\tTotal issues (by severity):\n\t\tUndefined: 0\n\t\tLow: 0\n\t\tMedium: 0\n\t\tHigh: 0\n\tTotal issues (by confidence):\n\t\tUndefined: 0\n\t\tLow: 0\n\t\tMedium: 0\n\t\tHigh: 0\nFiles skipped (1):\n\t/home/user/bandit/examples/nonsense.py (No such file or directory)\n'
+
+_____________________ RuntimeTests.test_example_nonsense2 ______________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_runtime.py", line 118, in test_example_nonsense2
+    self.assertIn("nonsense2.py (syntax error while parsing AST", output)
+  File "/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/testtools/testcase.py", line 400, in assertIn
+    self.assertThat(haystack, Contains(needle), message)
+  File "/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/testtools/testcase.py", line 481, in assertThat
+    raise mismatch_error
+testtools.matchers._impl.MismatchError: 'nonsense2.py (syntax error while parsing AST' not in '[main]\tINFO\tprofile include tests: None\n[main]\tINFO\tprofile exclude tests: None\n[main]\tINFO\tcli include tests: None\n[main]\tINFO\tcli exclude tests: None\n[main]\tINFO\trunning on Python 3.9.15\nRun started:2023-05-14 05:38:38.117549\n\nTest results:\n\tNo issues identified.\n\nCode scanned:\n\tTotal lines of code: 0\n\tTotal lines skipped (#nosec): 0\n\tTotal potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0\n\nRun metrics:\n\tTotal issues (by severity):\n\t\tUndefined: 0\n\t\tLow: 0\n\t\tMedium: 0\n\t\tHigh: 0\n\tTotal issues (by confidence):\n\t\tUndefined: 0\n\t\tLow: 0\n\t\tMedium: 0\n\t\tHigh: 0\nFiles skipped (1):\n\t/home/user/bandit/examples/nonsense2.py (No such file or directory)\n'
+
+________________________ RuntimeTests.test_example_okay ________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_runtime.py", line 90, in test_example_okay
+    self.assertIn("Total lines of code: 1", output)
+  File "/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/testtools/testcase.py", line 400, in assertIn
+    self.assertThat(haystack, Contains(needle), message)
+  File "/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/testtools/testcase.py", line 481, in assertThat
+    raise mismatch_error
+testtools.matchers._impl.MismatchError: 'Total lines of code: 1' not in '[main]\tINFO\tprofile include tests: None\n[main]\tINFO\tprofile exclude tests: None\n[main]\tINFO\tcli include tests: None\n[main]\tINFO\tcli exclude tests: None\n[main]\tINFO\trunning on Python 3.9.15\nRun started:2023-05-14 05:38:40.505053\n\nTest results:\n\tNo issues identified.\n\nCode scanned:\n\tTotal lines of code: 0\n\tTotal lines skipped (#nosec): 0\n\tTotal potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 0\n\nRun metrics:\n\tTotal issues (by severity):\n\t\tUndefined: 0\n\t\tLow: 0\n\t\tMedium: 0\n\t\tHigh: 0\n\tTotal issues (by confidence):\n\t\tUndefined: 0\n\t\tLow: 0\n\t\tMedium: 0\n\t\tHigh: 0\nFiles skipped (1):\n\t/home/user/bandit/examples/okay.py (No such file or directory)\n'
+
+________________________ RuntimeTests.test_piped_input _________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/functional/test_runtime.py", line 38, in test_piped_input
+    with open("examples/imports.py") as infile:
+FileNotFoundError: [Errno 2] No such file or directory: 'examples/imports.py'
+
+___________________________ UtilTests.test_linerange ___________________________
+'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+NOTE: Incompatible Exception Representation, displaying natively:
+
+testtools.testresult.real._StringException: Traceback (most recent call last):
+  File "/home/user/bandit/tests/unit/core/test_util.py", line 265, in test_linerange
+    with open("./examples/jinja2_templating.py") as test_file:
+FileNotFoundError: [Errno 2] No such file or directory: './examples/jinja2_templating.py'
+
+=============================== warnings summary ===============================
+tests/unit/core/test_test_set.py::test_plugin
+  Expected None, but tests/unit/core/test_test_set.py::test_plugin returned {'Import': [{'name': 'telnet', 'id': 'B401', 'cwe': 319, 'message': 'A telnet-related module is being imported.  Telnet is considered insecure. Use SSH or some other encrypted protocol.', 'qualnames': ['telnetlib'], 'level': 'HIGH'}, {'name': 'marshal', 'id': 'B302', 'cwe': 502, 'message': 'Deserialization with the marshal module is possibly dangerous.', 'qualnames': ['marshal.load', 'marshal.loads'], 'level': 'MEDIUM'}], 'ImportFrom': [{'name': 'telnet', 'id': 'B401', 'cwe': 319, 'message': 'A telnet-related module is being imported.  Telnet is considered insecure. Use SSH or some other encrypted protocol.', 'qualnames': ['telnetlib'], 'level': 'HIGH'}, {'name': 'marshal', 'id': 'B302', 'cwe': 502, 'message': 'Deserialization with the marshal module is possibly dangerous.', 'qualnames': ['marshal.load', 'marshal.loads'], 'level': 'MEDIUM'}], 'Call': [{'name': 'telnet', 'id': 'B401', 'cwe': 319, 'message': 'A telnet-related module is being imported.  Telnet is considered insecure. Use SSH or some other encrypted protocol.', 'qualnames': ['telnetlib'], 'level': 'HIGH'}, {'name': 'marshal', 'id': 'B302', 'cwe': 502, 'message': 'Deserialization with the marshal module is possibly dangerous.', 'qualnames': ['marshal.load', 'marshal.loads'], 'level': 'MEDIUM'}]}, which will be an error in a future version of pytest.  Did you mean to use `assert` instead of `return`?
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/functional/test_baseline.py::BaselineFunctionalTests::test_existing_and_new_candidates
+FAILED tests/functional/test_baseline.py::BaselineFunctionalTests::test_new_candidates_include_nosec_new_nosecs
+FAILED tests/functional/test_baseline.py::BaselineFunctionalTests::test_new_candidates_include_nosec_only_nosecs
+FAILED tests/functional/test_baseline.py::BaselineFunctionalTests::test_no_existing_no_new_candidates
+FAILED tests/functional/test_baseline.py::BaselineFunctionalTests::test_no_existing_with_new_candidates
+FAILED tests/functional/test_baseline.py::BaselineFunctionalTests::test_no_new_candidates
+FAILED tests/functional/test_baseline.py::BaselineFunctionalTests::test_no_new_candidates_include_nosec
+FAILED tests/functional/test_functional.py::FunctionalTests::test_asserts
+FAILED tests/functional/test_functional.py::FunctionalTests::test_binding
+FAILED tests/functional/test_functional.py::FunctionalTests::test_blacklist_pycrypto
+FAILED tests/functional/test_functional.py::FunctionalTests::test_blacklist_pyghmi
+FAILED tests/functional/test_functional.py::FunctionalTests::test_cipher_modes
+FAILED tests/functional/test_functional.py::FunctionalTests::test_ciphers
+FAILED tests/functional/test_functional.py::FunctionalTests::test_code_line_numbers
+FAILED tests/functional/test_functional.py::FunctionalTests::test_crypto_md5
+FAILED tests/functional/test_functional.py::FunctionalTests::test_dill
+FAILED tests/functional/test_functional.py::FunctionalTests::test_django_sql_injection
+FAILED tests/functional/test_functional.py::FunctionalTests::test_django_sql_injection_raw
+FAILED tests/functional/test_functional.py::FunctionalTests::test_django_xss_insecure
+FAILED tests/functional/test_functional.py::FunctionalTests::test_eval
+FAILED tests/functional/test_functional.py::FunctionalTests::test_exec
+FAILED tests/functional/test_functional.py::FunctionalTests::test_flask_debug_true
+FAILED tests/functional/test_functional.py::FunctionalTests::test_ftp_usage
+FAILED tests/functional/test_functional.py::FunctionalTests::test_hardcoded_passwords
+FAILED tests/functional/test_functional.py::FunctionalTests::test_hardcoded_tmp
+FAILED tests/functional/test_functional.py::FunctionalTests::test_hashlib_new_insecure_functions
+FAILED tests/functional/test_functional.py::FunctionalTests::test_host_key_verification
+FAILED tests/functional/test_functional.py::FunctionalTests::test_httpoxy
+FAILED tests/functional/test_functional.py::FunctionalTests::test_ignore_skip
+FAILED tests/functional/test_functional.py::FunctionalTests::test_imports
+FAILED tests/functional/test_functional.py::FunctionalTests::test_imports_aliases
+FAILED tests/functional/test_functional.py::FunctionalTests::test_imports_from
+FAILED tests/functional/test_functional.py::FunctionalTests::test_imports_function
+FAILED tests/functional/test_functional.py::FunctionalTests::test_imports_using_importlib
+FAILED tests/functional/test_functional.py::FunctionalTests::test_jinja2_templating
+FAILED tests/functional/test_functional.py::FunctionalTests::test_jsonpickle
+FAILED tests/functional/test_functional.py::FunctionalTests::test_mako_templating
+FAILED tests/functional/test_functional.py::FunctionalTests::test_mark_safe
+FAILED tests/functional/test_functional.py::FunctionalTests::test_metric_gathering
+FAILED tests/functional/test_functional.py::FunctionalTests::test_mktemp
+FAILED tests/functional/test_functional.py::FunctionalTests::test_multiline_code
+FAILED tests/functional/test_functional.py::FunctionalTests::test_multiline_sql_statements
+FAILED tests/functional/test_functional.py::FunctionalTests::test_nosec
+FAILED tests/functional/test_functional.py::FunctionalTests::test_os_chmod
+FAILED tests/functional/test_functional.py::FunctionalTests::test_os_exec
+FAILED tests/functional/test_functional.py::FunctionalTests::test_os_popen
+FAILED tests/functional/test_functional.py::FunctionalTests::test_os_spawn
+FAILED tests/functional/test_functional.py::FunctionalTests::test_os_startfile
+FAILED tests/functional/test_functional.py::FunctionalTests::test_os_system
+FAILED tests/functional/test_functional.py::FunctionalTests::test_pandas_read_pickle
+FAILED tests/functional/test_functional.py::FunctionalTests::test_paramiko_injection
+FAILED tests/functional/test_functional.py::FunctionalTests::test_partial_path
+FAILED tests/functional/test_functional.py::FunctionalTests::test_pickle
+FAILED tests/functional/test_functional.py::FunctionalTests::test_popen_wrappers
+FAILED tests/functional/test_functional.py::FunctionalTests::test_random_module
+FAILED tests/functional/test_functional.py::FunctionalTests::test_requests_ssl_verify_disabled
+FAILED tests/functional/test_functional.py::FunctionalTests::test_requests_without_timeout
+FAILED tests/functional/test_functional.py::FunctionalTests::test_shelve
+FAILED tests/functional/test_functional.py::FunctionalTests::test_skip
+FAILED tests/functional/test_functional.py::FunctionalTests::test_snmp_security_check
+FAILED tests/functional/test_functional.py::FunctionalTests::test_sql_statements
+FAILED tests/functional/test_functional.py::FunctionalTests::test_ssl_insecure_version
+FAILED tests/functional/test_functional.py::FunctionalTests::test_subprocess_shell
+FAILED tests/functional/test_functional.py::FunctionalTests::test_tarfile_unsafe_members
+FAILED tests/functional/test_functional.py::FunctionalTests::test_telnet_usage
+FAILED tests/functional/test_functional.py::FunctionalTests::test_try_except_continue
+FAILED tests/functional/test_functional.py::FunctionalTests::test_try_except_pass
+FAILED tests/functional/test_functional.py::FunctionalTests::test_unverified_context
+FAILED tests/functional/test_functional.py::FunctionalTests::test_urlopen
+FAILED tests/functional/test_functional.py::FunctionalTests::test_weak_cryptographic_key
+FAILED tests/functional/test_functional.py::FunctionalTests::test_wildcard_injection
+FAILED tests/functional/test_functional.py::FunctionalTests::test_xml
+FAILED tests/functional/test_functional.py::FunctionalTests::test_yaml
+FAILED tests/functional/test_runtime.py::RuntimeTests::test_example_imports
+FAILED tests/functional/test_runtime.py::RuntimeTests::test_example_nonsense
+FAILED tests/functional/test_runtime.py::RuntimeTests::test_example_nonsense2
+FAILED tests/functional/test_runtime.py::RuntimeTests::test_example_okay
+FAILED tests/functional/test_runtime.py::RuntimeTests::test_piped_input
+FAILED tests/unit/core/test_util.py::UtilTests::test_linerange
+ERROR tests/unit/cli/test_baseline.py::BanditBaselineToolTests::test_bandit_baseline
+ERROR tests/unit/cli/test_baseline.py::BanditBaselineToolTests::test_init_logger
+ERROR tests/unit/cli/test_baseline.py::BanditBaselineToolTests::test_initialize_dirty_repo
+ERROR tests/unit/cli/test_baseline.py::BanditBaselineToolTests::test_initialize_existing_report_file
+ERROR tests/unit/cli/test_baseline.py::BanditBaselineToolTests::test_initialize_existing_temp_file
+ERROR tests/unit/cli/test_baseline.py::BanditBaselineToolTests::test_initialize_git_command_failure
+ERROR tests/unit/cli/test_baseline.py::BanditBaselineToolTests::test_initialize_no_repo
+ERROR tests/unit/cli/test_baseline.py::BanditBaselineToolTests::test_initialize_with_output_argument
+ERROR tests/unit/cli/test_baseline.py::BanditBaselineToolTests::test_main_git_command_failure
+ERROR tests/unit/cli/test_baseline.py::BanditBaselineToolTests::test_main_no_parent_commit
+ERROR tests/unit/cli/test_baseline.py::BanditBaselineToolTests::test_main_non_repo
+ERROR tests/unit/cli/test_baseline.py::BanditBaselineToolTests::test_main_subprocess_error
+======= 79 failed, 177 passed, 1 warning, 12 errors in 475.76s (0:07:55) =======
+Traceback (most recent call last):
+  File "/home/user/thefuck-master/pre_run_biend.py", line 102, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'

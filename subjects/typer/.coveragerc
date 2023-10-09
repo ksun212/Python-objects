@@ -1,0 +1,9 @@
+[run]
+
+source =
+    typer
+    tests
+    docs_src
+
+parallel = True
+context = '${CONTEXT}'

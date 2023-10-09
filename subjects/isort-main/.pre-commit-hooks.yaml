@@ -1,0 +1,8 @@
+-   id: isort
+    name: isort
+    entry: isort
+    require_serial: true
+    language: python
+    types_or: [cython, pyi, python]
+    args: ['--filter-files']
+    minimum_pre_commit_version: '2.9.2'
