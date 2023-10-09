@@ -1,0 +1,15 @@
+
+
+All subjects except the following eight, should be able to be installed by change into the directory and "pip install" since their sources are provided in the folder. 
+
+We do not provide the sources of the following 8 subjects due to their sizes. However, we do provide the test suite used. 
+Please get the version-matching sources and substitute the test suites we provide for the test suites contained in the sources. 
+
+sklearn = "1.1.3"
+spacy = "3.5.1"
+pandas = "1.5.2"
+mypy = "1.0.0+dev"
+statsmodels = "0.13.5"
+torch = "2.1.0a0"
+stanza = "1.5.0"
+requests = "2.28.2"

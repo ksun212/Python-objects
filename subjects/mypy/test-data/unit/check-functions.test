@@ -1,0 +1,392 @@
+-- Test cases for the type checker related to functions, function types and
+-- calls.
+
+-- See also check-varargs.test.
+
+
+-- Callable type basics
+-- --------------------
+
+
+[case testCallingVariableWithFunctionType]
+from typing import Callable
+f = None # type: Callable[[A], B]
+a, b = None, None # type: (A, B)
+if int():
+    a = f(a)    # E: Incompatible types in assignment (expression has type "B", variable has type "A")
+if int():
+    b = f(b)    # E: Argument 1 has incompatible type "B"; expected "A"
+if int():
+    b = f()     # E: Too few arguments
+if int():
+    b = f(a, a) # E: Too many arguments
+if int():
+    b = f(a)
+
+class A: pass
+class B: pass
+[builtins fixtures/tuple.pyi]
+
+[case testKeywordOnlyArgumentOrderInsensitivity]
+import typing
+
+class A(object):
+    def f(self, *, a: int, b: str) -> None: pass
+
+class B(A):
+    def f(self, *, b: str, a: int) -> None: pass
+
+class C(A):
+    def f(self, *, b: int, a: str) -> None: pass  # Fail
+[out]
+main:10: error: Signature of "f" incompatible with supertype "A"
+main:10: note:      Superclass:
+main:10: note:          def f(self, *, a: int, b: str) -> None
+main:10: note:      Subclass:
+main:10: note:          def f(self, *, b: int, a: str) -> None
+
+[case testPositionalOverridingArgumentNameInsensitivity]
+import typing
+
+class A(object):
+    def f(self, a: int, b: str) -> None: pass
+
+class B(A):
+    def f(self, b: str, a: int) -> None: pass # E: Argument 1 of "f" is incompatible with supertype "A"; supertype defines the argument type as "int" \
+                                              # N: This violates the Liskov substitution principle \
+                                              # N: See https://mypy.readthedocs.io/en/stable/common_issues.html#incompatible-overrides \
+                                              # E: Argument 2 of "f" is incompatible with supertype "A"; supertype defines the argument type as "str"
+
+class C(A):
+    def f(self, foo: int, bar: str) -> None: pass
+
+
+[case testPositionalOverridingArgumentNamesCheckedWhenMismatchingPos]
+import typing
+
+class A(object):
+    def f(self, a: int, b: str) -> None: pass
+
+class B(A):
+    def f(self, b: int, a: str) -> None: pass  # Fail
+[out]
+main:7: error: Signature of "f" incompatible with supertype "A"
+main:7: note:      Superclass:
+main:7: note:          def f(self, a: int, b: str) -> None
+main:7: note:      Subclass:
+main:7: note:          def f(self, b: int, a: str) -> None
+
+[case testSubtypingFunctionTypes]
+from typing import Callable
+
+class A: pass
+class B(A): pass
+
+f = None # type: Callable[[B], A]
+g = None # type: Callable[[A], A]  # subtype of f
+h = None # type: Callable[[B], B]  # subtype of f
+if int():
+    g = h  # E: Incompatible types in assignment (expression has type "Callable[[B], B]", variable has type "Callable[[A], A]")
+if int():
+    h = f  # E: Incompatible types in assignment (expression has type "Callable[[B], A]", variable has type "Callable[[B], B]")
+if int():
+    h = g  # E: Incompatible types in assignment (expression has type "Callable[[A], A]", variable has type "Callable[[B], B]")
+if int():
+    g = f  # E: Incompatible types in assignment (expression has type "Callable[[B], A]", variable has type "Callable[[A], A]")
+if int():
+    f = g
+if int():
+    f = h
+if int():
+    f = f
+if int():
+    g = g
+if int():
+    h = h
+
+[case testSubtypingFunctionsDoubleCorrespondence]
+
+def l(x) -> None: ...
+def r(__, *, x) -> None: ...
+r = l # E: Incompatible types in assignment (expression has type "Callable[[Any], None]", variable has type "Callable[[Any, NamedArg(Any, 'x')], None]")
+
+[case testSubtypingFunctionsRequiredLeftArgNotPresent]
+
+def l(x, y) -> None: ...
+def r(x) -> None: ...
+r = l # E: Incompatible types in assignment (expression has type "Callable[[Any, Any], None]", variable has type "Callable[[Any], None]")
+
+[case testSubtypingFunctionsImplicitNames]
+from typing import Any
+
+def f(a, b): pass
+def g(c: Any, d: Any) -> Any: pass
+
+ff = f
+gg = g
+
+gg = f
+ff = g
+
+[case testSubtypingFunctionsDefaultsNames]
+from typing import Callable
+
+def f(a: int, b: str) -> None: pass
+f_nonames = None # type: Callable[[int, str], None]
+def g(a: int, b: str = "") -> None: pass
+def h(aa: int, b: str = "") -> None: pass
+
+ff_nonames = f_nonames
+ff = f
+gg = g
+hh = h
+
+if int():
+    ff = gg
+if int():
+    ff_nonames = ff
+if int():
+    ff_nonames = f_nonames # reset
+if int():
+    ff = ff_nonames # E: Incompatible types in assignment (expression has type "Callable[[int, str], None]", variable has type "Callable[[Arg(int, 'a'), Arg(str, 'b')], None]")
+if int():
+    ff = f # reset
+if int():
+    gg = ff # E: Incompatible types in assignment (expression has type "Callable[[Arg(int, 'a'), Arg(str, 'b')], None]", variable has type "Callable[[Arg(int, 'a'), DefaultArg(str, 'b')], None]")
+if int():
+    gg = hh # E: Incompatible types in assignment (expression has type "Callable[[Arg(int, 'aa'), DefaultArg(str, 'b')], None]", variable has type "Callable[[Arg(int, 'a'), DefaultArg(str, 'b')], None]")
+
+[case testSubtypingFunctionsArgsKwargs]
+from typing import Any, Callable
+
+def everything(*args: Any, **kwargs: Any) -> None: pass
+everywhere = None # type: Callable[..., None]
+
+def specific_1(a: int, b: str) -> None: pass
+def specific_2(a: int, *, b: str) -> None: pass
+
+ss_1 = specific_1
+ss_2 = specific_2
+ee_def = everything
+ee_var = everywhere
+
+if int():
+    ss_1 = ee_def
+if int():
+    ss_1 = specific_1
+if int():
+    ss_2 = ee_def
+if int():
+    ss_2 = specific_2
+if int():
+    ee_def = everywhere
+if int():
+    ee_def = everything
+if int():
+    ee_var = everything
+if int():
+    ee_var = everywhere
+
+if int():
+    ee_var = specific_1
+if int():
+    ee_def = specific_1
+
+[builtins fixtures/dict.pyi]
+
+[case testSubtypingFunctionsDecorated]
+from typing import Any
+
+# untyped decorator
+def deco(f): pass
+
+class A:
+    @deco
+    def f(self) -> Any:
+        pass
+
+class B(A):
+    @deco
+    def f(self) -> Any:
+        pass
+
+[builtins fixtures/list.pyi]
+
+
+[case testLackOfNames]
+def f(__a: int, __b: str) -> None: pass
+def g(a: int, b: str) -> None: pass
+
+ff = f
+gg = g
+
+if int():
+    ff = g
+if int():
+    gg = f # E: Incompatible types in assignment (expression has type "Callable[[int, str], None]", variable has type "Callable[[Arg(int, 'a'), Arg(str, 'b')], None]")
+
+[case testLackOfNamesFastparse]
+def f(__a: int, __b: str) -> None: pass
+def g(a: int, b: str) -> None: pass
+
+ff = f
+gg = g
+
+if int():
+    ff = g
+if int():
+    gg = f # E: Incompatible types in assignment (expression has type "Callable[[int, str], None]", variable has type "Callable[[Arg(int, 'a'), Arg(str, 'b')], None]")
+
+[case testFunctionTypeCompatibilityWithOtherTypes]
+from typing import Callable
+f = None # type: Callable[[], None]
+a, o = None, None # type: (A, object)
+if int():
+    a = f   # E: Incompatible types in assignment (expression has type "Callable[[], None]", variable has type "A")
+if int():
+    f = a   # E: Incompatible types in assignment (expression has type "A", variable has type "Callable[[], None]")
+if int():
+    f = o   # E: Incompatible types in assignment (expression has type "object", variable has type "Callable[[], None]")
+if int():
+    f = f() # E: Function does not return a value
+
+if int():
+    f = f
+if int():
+    f = None
+if int():
+    o = f
+
+class A: pass
+[builtins fixtures/tuple.pyi]
+
+[case testReturnEmptyTuple]
+from typing import Tuple
+def f(x): # type: (int) -> () # E: Syntax error in type annotation \
+                              # N: Suggestion: Use Tuple[()] instead of () for an empty tuple, or None for a function without a return value
+   pass
+
+def g(x: int) -> Tuple[()]:
+   pass
+[builtins fixtures/tuple.pyi]
+
+[case testFunctionSubtypingWithVoid]
+from typing import Callable
+f = None # type: Callable[[], None]
+g = None # type: Callable[[], object]
+if int():
+    f = g  # E: Incompatible types in assignment (expression has type "Callable[[], object]", variable has type "Callable[[], None]")
+if int():
+    g = f  # OK
+
+if int():
+    f = f
+if int():
+    g = g
+
+[case testFunctionSubtypingWithMultipleArgs]
+from typing import Callable
+f = None # type: Callable[[A, A], None]
+g = None # type: Callable[[A, B], None]
+h = None # type: Callable[[B, B], None]
+if int():
+    f = g  # E: Incompatible types in assignment (expression has type "Callable[[A, B], None]", variable has type "Callable[[A, A], None]")
+if int():
+    f = h  # E: Incompatible types in assignment (expression has type "Callable[[B, B], None]", variable has type "Callable[[A, A], None]")
+if int():
+    g = h  # E: Incompatible types in assignment (expression has type "Callable[[B, B], None]", variable has type "Callable[[A, B], None]")
+if int():
+    g = f
+if int():
+    h = f
+if int():
+    h = g
+if int():
+    f = f
+if int():
+    g = g
+if int():
+    h = h
+
+class A: pass
+class B(A): pass
+
+[case testFunctionTypesWithDifferentArgumentCounts]
+from typing import Callable
+f = None # type: Callable[[], None]
+g = None # type: Callable[[A], None]
+h = None # type: Callable[[A, A], None]
+
+if int():
+    f = g   # E: Incompatible types in assignment (expression has type "Callable[[A], None]", variable has type "Callable[[], None]")
+if int():
+    f = h   # E: Incompatible types in assignment (expression has type "Callable[[A, A], None]", variable has type "Callable[[], None]")
+if int():
+    h = f   # E: Incompatible types in assignment (expression has type "Callable[[], None]", variable has type "Callable[[A, A], None]")
+if int():
+    h = g   # E: Incompatible types in assignment (expression has type "Callable[[A], None]", variable has type "Callable[[A, A], None]")
+
+if int():
+    f = f
+if int():
+    g = g
+if int():
+    h = h
+
+class A: pass
+[out]
+
+[case testCompatibilityOfSimpleTypeObjectWithStdType]
+t = None # type: type
+a = None # type: A
+
+if int():
+    a = A # E: Incompatible types in assignment (expression has type "Type[A]", variable has type "A")
+if int():
+    t = f # E: Incompatible types in assignment (expression has type "Callable[[], None]", variable has type "type")
+if int():
+    t = A
+
+class A:
+    def __init__(self, a: 'A') -> None: pass
+
+def f() -> None: pass
+
+[case testFunctionTypesWithOverloads]
+from foo import *
+[file foo.pyi]
+from typing import Callable, overload
+f = None # type: Callable[[AA], A]
+g = None # type: Callable[[B], B]
+h = None # type: Callable[[A], AA]
+
+if int():
+    h = i  # E: Incompatible types in assignment (expression has type overloaded function, variable has type "Callable[[A], AA]")
+if int():
+    f = j
+
+if int():
+    f = i
+if int():
+    g = i
+if int():
+    g = j
+
+class A: pass
+class AA(A): pass
+
+class B: pass
+
+@overload
+def i(x: AA) -> A:
+    pass
+@overload
+def i(x: B) -> B:
+    pass
+
+@overload
+def j(x: B) -> B:
+    pass
+@overload
+def j(x: A) -> AA:
+    pass

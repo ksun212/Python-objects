@@ -1,0 +1,518 @@
+-- Test cases for simple expressions.
+--
+-- See also:
+--  * check-functions.test contains test cases for calls.
+--  * check-varargs.test contains test cases for *args.
+--  * check-dynamic.test contains test cases related to 'Any' type.
+--  * check-generics.test contains test cases for generic values.
+
+
+-- None expression
+-- ---------------
+
+
+[case testNoneAsRvalue]
+import typing
+a = None # type: A
+class A: pass
+[out]
+
+[case testNoneAsArgument]
+import typing
+def f(x: 'A', y: 'B') -> None: pass
+f(None, None)
+class A: pass
+class B(A): pass
+[out]
+
+
+-- Simple expressions
+-- ------------------
+
+
+[case testIntLiteral]
+a = 0
+b = None # type: A
+if int():
+    b = 1 # E: Incompatible types in assignment (expression has type "int", variable has type "A")
+if int():
+    a = 1
+class A:
+    pass
+
+[case testStrLiteral]
+a = ''
+b = None # type: A
+if int():
+    b = 'x' # E: Incompatible types in assignment (expression has type "str", variable has type "A")
+if int():
+    a = 'x'
+if int():
+    a = r"x"
+if int():
+    a = """foo"""
+class A:
+    pass
+
+[case testFloatLiteral]
+a = 0.0
+b = None # type: A
+if str():
+    b = 1.1 # E: Incompatible types in assignment (expression has type "float", variable has type "A")
+if str():
+    a = 1.1
+class A:
+    pass
+[builtins fixtures/dict.pyi]
+
+[case testComplexLiteral]
+a = 0.0j
+b = None # type: A
+if str():
+    b = 1.1j # E: Incompatible types in assignment (expression has type "complex", variable has type "A")
+if str():
+    a = 1.1j
+class A:
+    pass
+[builtins fixtures/dict.pyi]
+
+[case testBytesLiteral]
+b, a = None, None # type: (bytes, A)
+if str():
+    b = b'foo'
+if str():
+    b = br"foo"
+if str():
+    b = b'''foo'''
+if str():
+    a = b'foo' # E: Incompatible types in assignment (expression has type "bytes", variable has type "A")
+class A: pass
+[builtins fixtures/dict.pyi]
+
+[case testUnicodeLiteralInPython3]
+s = None  # type: str
+if int():
+    s = u'foo'
+b = None  # type: bytes
+if int():
+    b = u'foo' # E: Incompatible types in assignment (expression has type "str", variable has type "bytes")
+[builtins fixtures/primitives.pyi]
+
+
+-- Binary operators
+-- ----------------
+
+
+[case testAdd]
+a, b, c = None, None, None # type: (A, B, C)
+if int():
+    c = a + c  # E: Unsupported operand types for + ("A" and "C")
+if int():
+    a = a + b  # E: Incompatible types in assignment (expression has type "C", variable has type "A")
+if int():
+    c = b + a  # E: Unsupported left operand type for + ("B")
+if int():
+    c = a + b
+
+class A:
+    def __add__(self, x: 'B') -> 'C':
+        pass
+class B:
+    pass
+class C:
+    pass
+[builtins fixtures/tuple.pyi]
+
+[case testSub]
+a, b, c = None, None, None # type: (A, B, C)
+if int():
+    c = a - c  # E: Unsupported operand types for - ("A" and "C")
+if int():
+    a = a - b  # E: Incompatible types in assignment (expression has type "C", variable has type "A")
+if int():
+    c = b - a  # E: Unsupported left operand type for - ("B")
+if int():
+    c = a - b
+
+class A:
+    def __sub__(self, x: 'B') -> 'C':
+        pass
+class B:
+    pass
+class C:
+    pass
+[builtins fixtures/tuple.pyi]
+
+[case testMul]
+a, b, c = None, None, None # type: (A, B, C)
+if int():
+    c = a * c  # E: Unsupported operand types for * ("A" and "C")
+if int():
+    a = a * b  # E: Incompatible types in assignment (expression has type "C", variable has type "A")
+if int():
+    c = b * a  # E: Unsupported left operand type for * ("B")
+if int():
+    c = a * b
+
+class A:
+    def __mul__(self, x: 'B') -> 'C':
+        pass
+class B:
+    pass
+class C:
+    pass
+[builtins fixtures/tuple.pyi]
+
+[case testMatMul]
+a, b, c = None, None, None # type: (A, B, C)
+if int():
+    c = a @ c  # E: Unsupported operand types for @ ("A" and "C")
+if int():
+    a = a @ b  # E: Incompatible types in assignment (expression has type "C", variable has type "A")
+if int():
+    c = b @ a  # E: Unsupported left operand type for @ ("B")
+if int():
+    c = a @ b
+
+class A:
+    def __matmul__(self, x: 'B') -> 'C':
+        pass
+class B:
+    pass
+class C:
+    pass
+[builtins fixtures/tuple.pyi]
+
+[case testDiv]
+a, b, c = None, None, None # type: (A, B, C)
+if int():
+    c = a / c  # E: Unsupported operand types for / ("A" and "C")
+    a = a / b  # E: Incompatible types in assignment (expression has type "C", variable has type "A")
+if int():
+    c = b / a  # E: Unsupported left operand type for / ("B")
+if int():
+    c = a / b
+
+class A:
+    def __truediv__(self, x: 'B') -> 'C':
+        pass
+class B:
+    pass
+class C:
+    pass
+[builtins fixtures/tuple.pyi]
+
+[case testIntDiv]
+a, b, c = None, None, None # type: (A, B, C)
+if int():
+    c = a // c  # E: Unsupported operand types for // ("A" and "C")
+    a = a // b  # E: Incompatible types in assignment (expression has type "C", variable has type "A")
+if int():
+    c = b // a  # E: Unsupported left operand type for // ("B")
+if int():
+    c = a // b
+
+class A:
+    def __floordiv__(self, x: 'B') -> 'C':
+        pass
+class B:
+    pass
+class C:
+    pass
+[builtins fixtures/tuple.pyi]
+
+[case testMod]
+a, b, c = None, None, None # type: (A, B, C)
+if int():
+    c = a % c  # E: Unsupported operand types for % ("A" and "C")
+if int():
+    a = a % b  # E: Incompatible types in assignment (expression has type "C", variable has type "A")
+if int():
+    c = b % a  # E: Unsupported left operand type for % ("B")
+if int():
+    c = a % b
+
+class A:
+    def __mod__(self, x: 'B') -> 'C':
+        pass
+class B:
+    pass
+class C:
+    pass
+[builtins fixtures/tuple.pyi]
+
+[case testPow]
+a, b, c = None, None, None # type: (A, B, C)
+if int():
+    c = a ** c  # E: Unsupported operand types for ** ("A" and "C")
+if int():
+    a = a ** b  # E: Incompatible types in assignment (expression has type "C", variable has type "A")
+if int():
+    c = b ** a  # E: Unsupported left operand type for ** ("B")
+if int():
+    c = a ** b
+
+class A:
+    def __pow__(self, x: 'B') -> 'C':
+        pass
+class B:
+    pass
+class C:
+    pass
+[builtins fixtures/tuple.pyi]
+
+[case testMiscBinaryOperators]
+
+a, b = None, None # type: (A, B)
+b = a & a  # Fail
+b = a | b  # Fail
+b = a ^ a  # Fail
+b = a << b # Fail
+b = a >> a # Fail
+
+b = a & b
+b = a | a
+b = a ^ b
+b = a << a
+b = a >> b
+class A:
+  def __and__(self, x: 'B') -> 'B': pass
+  def __or__(self, x: 'A') -> 'B': pass
+  def __xor__(self, x: 'B') -> 'B': pass
+  def __lshift__(self, x: 'A') -> 'B': pass
+  def __rshift__(self, x: 'B') -> 'B': pass
+class B: pass
+[builtins fixtures/tuple.pyi]
+[out]
+main:3: error: Unsupported operand types for & ("A" and "A")
+main:4: error: Unsupported operand types for | ("A" and "B")
+main:5: error: Unsupported operand types for ^ ("A" and "A")
+main:6: error: Unsupported operand types for << ("A" and "B")
+main:7: error: Unsupported operand types for >> ("A" and "A")
+
+[case testBooleanAndOr]
+a, b = None, None # type: (A, bool)
+if int():
+    b = b and b
+if int():
+    b = b or b
+if int():
+    b = b and a # E: Incompatible types in assignment (expression has type "Union[Literal[False], A]", variable has type "bool")
+if int():
+    b = a and b # E: Incompatible types in assignment (expression has type "Union[A, bool]", variable has type "bool")
+if int():
+    b = b or a  # E: Incompatible types in assignment (expression has type "Union[Literal[True], A]", variable has type "bool")
+if int():
+    b = a or b  # E: Incompatible types in assignment (expression has type "Union[A, bool]", variable has type "bool")
+class A: pass
+
+[builtins fixtures/bool.pyi]
+
+[case testRestrictedTypeAnd]
+
+b = None # type: bool
+i = None # type: str
+j = not b and i
+if j:
+    reveal_type(j) # N: Revealed type is "builtins.str"
+[builtins fixtures/bool.pyi]
+
+[case testRestrictedTypeOr]
+
+b = None # type: bool
+i = None # type: str
+j = b or i
+if not j:
+    reveal_type(j) # N: Revealed type is "builtins.str"
+[builtins fixtures/bool.pyi]
+
+[case testAndOr]
+
+s = ""
+b = bool()
+reveal_type(s and b or b)  # N: Revealed type is "builtins.bool"
+[builtins fixtures/bool.pyi]
+
+[case testRestrictedBoolAndOrWithGenerics]
+from typing import List
+
+def f(a: List[str], b: bool) -> bool:
+    x = a and b
+    y: bool
+    return reveal_type(x or y)  # N: Revealed type is "builtins.bool"
+[builtins fixtures/list.pyi]
+
+[case testNonBooleanOr]
+c, d, b = None, None, None # type: (C, D, bool)
+if int():
+    c = c or c
+if int():
+    c = c or d
+if int():
+    c = d or c
+if int():
+    b = c or c # E: Incompatible types in assignment (expression has type "C", variable has type "bool")
+if int():
+    d = c or d # E: Incompatible types in assignment (expression has type "C", variable has type "D")
+if int():
+    d = d or c # E: Incompatible types in assignment (expression has type "C", variable has type "D")
+class C: pass
+class D(C): pass
+[builtins fixtures/bool.pyi]
+
+[case testInOperator]
+from typing import Iterator, Iterable, Any
+a, b, c, d, e = None, None, None, None, None # type: (A, B, bool, D, Any)
+if int():
+    c = c in a  # E: Unsupported operand types for in ("bool" and "A")
+if int():
+    a = b in a  # E: Incompatible types in assignment (expression has type "bool", variable has type "A")
+if int():
+    c = a in b  # E: Unsupported right operand type for in ("B")
+if int():
+    c = b in d  # E: Unsupported operand types for in ("B" and "D")
+if int():
+    c = b in a
+if int():
+    c = a in d
+if int():
+    c = e in d
+if int():
+    c = a in e
+
+class A:
+    def __contains__(self, x: 'B') -> bool: pass
+class B: pass
+class D(Iterable[A]):
+    def __iter__(self) -> Iterator[A]: pass
+[builtins fixtures/bool.pyi]
+
+[case testNotInOperator]
+from typing import Iterator, Iterable, Any
+a, b, c, d, e = None, None, None, None, None # type: (A, B, bool, D, Any)
+if int():
+    c = c not in a  # E: Unsupported operand types for in ("bool" and "A")
+if int():
+    a = b not in a  # E: Incompatible types in assignment (expression has type "bool", variable has type "A")
+if int():
+    c = a not in b  # E: Unsupported right operand type for in ("B")
+if int():
+    c = b not in d  # E: Unsupported operand types for in ("B" and "D")
+if int():
+    c = b not in a
+if int():
+    c = a not in d
+if int():
+    c = e in d
+if int():
+    c = a in e
+
+class A:
+    def __contains__(self, x: 'B') -> bool: pass
+class B: pass
+class D(Iterable[A]):
+    def __iter__(self) -> Iterator[A]: pass
+[builtins fixtures/bool.pyi]
+
+[case testNonBooleanContainsReturnValue]
+a, b, c = None, None, None # type: (A, bool, str)
+if int():
+    b = a not in a
+if int():
+    b = a in a
+if int():
+    c = a not in a  # E: Incompatible types in assignment (expression has type "bool", variable has type "str")
+if int():
+    c = a in a  # E: Incompatible types in assignment (expression has type "bool", variable has type "str")
+
+class A:
+  def __contains__(self, x: 'A') -> str: pass
+[builtins fixtures/bool.pyi]
+
+[case testInWithInvalidArgs]
+a = 1 in ([1] + ['x'])  # E: List item 0 has incompatible type "str"; expected "int"
+[builtins fixtures/list.pyi]
+
+[case testEq]
+
+a, b = None, None # type: (A, bool)
+if int():
+    a = a == b # E: Incompatible types in assignment (expression has type "bool", variable has type "A")
+if int():
+    a = a != b # E: Incompatible types in assignment (expression has type "bool", variable has type "A")
+if int():
+    b = a == b
+if int():
+    b = a != b
+
+class A:
+  def __eq__(self, o: object) -> bool: pass
+  def __ne__(self, o: object) -> bool: pass
+[builtins fixtures/bool.pyi]
+
+[case testLtAndGt]
+a, b, bo = None, None, None # type: (A, B, bool)
+if int():
+    a = a < b # E: Incompatible types in assignment (expression has type "bool", variable has type "A")
+if int():
+    a = a > b # E: Incompatible types in assignment (expression has type "bool", variable has type "A")
+if int():
+    bo = a < b
+if int():
+    bo = a > b
+
+class A:
+    def __lt__(self, o: 'B') -> bool: pass
+    def __gt__(self, o: 'B') -> bool: pass
+class B:
+    def __lt__(self, o: 'B') -> bool: pass
+    def __gt__(self, o: 'B') -> bool: pass
+[builtins fixtures/bool.pyi]
+
+[case cmpIgnoredPy3]
+a, b, bo = None, None, None # type: (A, B, bool)
+bo = a <= b # E: Unsupported left operand type for <= ("A")
+
+class A:
+    def __cmp__(self, o: 'B') -> bool: pass
+class B:
+    pass
+[builtins fixtures/bool.pyi]
+
+[case testLeAndGe]
+a, b, bo = None, None, None # type: (A, B, bool)
+if int():
+    a = a <= b # E: Incompatible types in assignment (expression has type "bool", variable has type "A")
+if int():
+    a = a >= b # E: Incompatible types in assignment (expression has type "bool", variable has type "A")
+if int():
+    bo = a <= b
+if int():
+    bo = a >= b
+
+class A:
+    def __le__(self, o: 'B') -> bool: pass
+    def __ge__(self, o: 'B') -> bool: pass
+class B:
+    def __le__(self, o: 'B') -> bool: pass
+    def __ge__(self, o: 'B') -> bool: pass
+[builtins fixtures/bool.pyi]
+
+[case testChainedComp]
+
+a, b, bo = None, None, None # type: (A, B, bool)
+a < a < b < b # Fail
+a < b < b < b
+a < a > a < b # Fail
+
+class A:
+    def __lt__(self, o: 'B') -> bool: pass
+    def __gt__(self, o: 'B') -> bool: pass
+class B:
+    def __lt__(self, o: 'B') -> bool: pass
+    def __gt__(self, o: 'B') -> bool: pass
+[builtins fixtures/bool.pyi]
+[out]
+main:3: error: Unsupported operand types for < ("A" and "A")
+main:5: error: Unsupported operand types for < ("A" and "A")
+main:5: error: Unsupported operand types for > ("A" and "A")
