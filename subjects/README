@@ -1,6 +1,7 @@
 
+This directory contains the 50 subjects used in the study. Each subdirectory corresponds to one subject. All subjects are distributed under their specific licenses.  
 
-All subjects except the following eight, should be able to be installed by change into the directory and "pip install" since their sources are provided in the folder. 
+All subjects except eight (listed in the end), should be able to be installed easily. Just change into the directory and "pip install".
 
 We do not provide the sources of the following 8 subjects due to their sizes. However, we do provide the test suite used. 
 Please get the version-matching sources and substitute the test suites we provide for the test suites contained in the sources. 
