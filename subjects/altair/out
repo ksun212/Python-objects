@@ -1,0 +1,259 @@
+/home/user/thefuck-master/pre_run_biend.py:3772: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3782: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(O6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3806: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ set$ & ' + ' & '.join(EXT_SET) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3807: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ event$ & ' + ' & '.join(EXT_EVENT) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3934: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/thefuck-master/pre_run_biend.py:3945: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3955: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3967: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3979: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:4101: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dash/testing/plugin.py:92: PytestDeprecationWarning: The hookimpl pytest_addhooks uses old-style configuration options (marks or attributes).
+Please use the pytest.hookimpl(tryfirst=True) decorator instead
+ to configure the hooks.
+ See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers
+  @pytest.mark.tryfirst
+============================= test session starts ==============================
+platform linux -- Python 3.9.15+, pytest-7.2.0, pluggy-1.0.0
+rootdir: /home/user/altair, configfile: pyproject.toml
+plugins: mock-3.10.0, hypothesis-6.56.4, httpbin-1.0.2, cov-4.0.0, time-machine-2.9.0, html-3.2.0, Faker-15.3.4, anyio-3.6.2, flaky-3.7.0, hydra-core-1.3.2, xdist-3.2.1, test-utils-0.0.8, lazy-fixture-0.6.3, docker-1.0.1, xonsh-0.13.4, pylama-8.4.1, dash-2.9.1
+collected 217 items
+
+tests/test_examples.py ..ssss                                            [  2%]
+tests/test_magics.py ...                                                 [  4%]
+tests/test_toplevel.py .                                                 [  4%]
+tests/expr/test_expr.py .............                                    [ 10%]
+tests/utils/test_core.py ...............                                 [ 17%]
+tests/utils/test_data.py ........                                        [ 21%]
+tests/utils/test_deprecation.py ..                                       [ 22%]
+tests/utils/test_execeval.py ..                                          [ 23%]
+tests/utils/test_html.py ....                                            [ 24%]
+tests/utils/test_mimebundle.py sss...                                    [ 27%]
+tests/utils/test_plugin_registry.py ....                                 [ 29%]
+tests/utils/test_schemapi.py ................................            [ 44%]
+tests/utils/test_server.py .                                             [ 44%]
+tests/utils/test_utils.py ........                                       [ 48%]
+tests/vegalite/test_common.py ....                                       [ 50%]
+tests/vegalite/v5/test_alias.py .                                        [ 50%]
+tests/vegalite/v5/test_api.py ........................F................. [ 70%]
+...........................................                              [ 89%]
+tests/vegalite/v5/test_data.py .                                         [ 90%]
+tests/vegalite/v5/test_display.py ..                                     [ 91%]
+tests/vegalite/v5/test_geo_interface.py ........                         [ 94%]
+tests/vegalite/v5/test_layer_props.py .                                  [ 95%]
+tests/vegalite/v5/test_params.py ......                                  [ 98%]
+tests/vegalite/v5/test_renderers.py ...                                  [ 99%]
+tests/vegalite/v5/test_theme.py .                                        [100%]
+
+=================================== FAILURES ===================================
+_____________________________ test_save_html[True] _____________________________
+
+spec = {'$schema': 'https://vega.github.io/schema/vega-lite/v5.6.1.json', 'config': {'view': {'continuousHeight': 300, 'conti...}, {'a': 'B', 'b': 55}, {'a': 'C', 'b': 43}, {'a': 'D', 'b': 91}, {'a': 'E', 'b': 81}, {'a': 'F', 'b': 53}, ...]}, ...}
+mode = 'vega-lite', vega_version = '5', vegaembed_version = '6'
+vegalite_version = '5.6.1', base_url = 'https://cdn.jsdelivr.net/npm'
+output_div = 'vis', embed_options = {'mode': 'vega-lite'}, json_kwds = {}
+fullhtml = True, requirejs = False, template = 'inline'
+
+    def spec_to_html(
+        spec,
+        mode,
+        vega_version,
+        vegaembed_version,
+        vegalite_version=None,
+        base_url="https://cdn.jsdelivr.net/npm",
+        output_div="vis",
+        embed_options=None,
+        json_kwds=None,
+        fullhtml=True,
+        requirejs=False,
+        template="standard",
+    ):
+        """Embed a Vega/Vega-Lite spec into an HTML page
+    
+        Parameters
+        ----------
+        spec : dict
+            a dictionary representing a vega-lite plot spec.
+        mode : string {'vega' | 'vega-lite'}
+            The rendering mode. This value is overridden by embed_options['mode'],
+            if it is present.
+        vega_version : string
+            For html output, the version of vega.js to use.
+        vegalite_version : string
+            For html output, the version of vegalite.js to use.
+        vegaembed_version : string
+            For html output, the version of vegaembed.js to use.
+        base_url : string (optional)
+            The base url from which to load the javascript libraries.
+        output_div : string (optional)
+            The id of the div element where the plot will be shown.
+        embed_options : dict (optional)
+            Dictionary of options to pass to the vega-embed script. Default
+            entry is {'mode': mode}.
+        json_kwds : dict (optional)
+            Dictionary of keywords to pass to json.dumps().
+        fullhtml : boolean (optional)
+            If True (default) then return a full html page. If False, then return
+            an HTML snippet that can be embedded into an HTML page.
+        requirejs : boolean (optional)
+            If False (default) then load libraries from base_url using <script>
+            tags. If True, then load libraries using requirejs
+        template : jinja2.Template or string (optional)
+            Specify the template to use (default = 'standard'). If template is a
+            string, it must be one of {'universal', 'standard'}. Otherwise, it
+            can be a jinja2.Template object containing a custom template.
+    
+        Returns
+        -------
+        output : string
+            an HTML string for rendering the chart.
+        """
+        embed_options = embed_options or {}
+        json_kwds = json_kwds or {}
+    
+        mode = embed_options.setdefault("mode", mode)
+    
+        if mode not in ["vega", "vega-lite"]:
+            raise ValueError("mode must be either 'vega' or 'vega-lite'")
+    
+        if vega_version is None:
+            raise ValueError("must specify vega_version")
+    
+        if vegaembed_version is None:
+            raise ValueError("must specify vegaembed_version")
+    
+        if mode == "vega-lite" and vegalite_version is None:
+            raise ValueError("must specify vega-lite version for mode='vega-lite'")
+    
+        render_kwargs = dict()
+        if template == "inline":
+            try:
+>               from altair_viewer import get_bundled_script
+E               ModuleNotFoundError: No module named 'altair_viewer'
+
+altair/utils/html.py:257: ModuleNotFoundError
+
+During handling of the above exception, another exception occurred:
+
+basic_chart = alt.Chart(...), inline = True
+
+    @pytest.mark.parametrize("inline", [False, True])
+    def test_save_html(basic_chart, inline):
+        out = io.StringIO()
+>       basic_chart.save(out, format="html", inline=inline)
+
+tests/vegalite/v5/test_api.py:372: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+altair/vegalite/v5/api.py:937: in save
+    result = save(**kwds)
+altair/utils/save.py:141: in save
+    mimebundle = spec_to_mimebundle(
+altair/utils/mimebundle.py:55: in spec_to_mimebundle
+    html = spec_to_html(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+spec = {'$schema': 'https://vega.github.io/schema/vega-lite/v5.6.1.json', 'config': {'view': {'continuousHeight': 300, 'conti...}, {'a': 'B', 'b': 55}, {'a': 'C', 'b': 43}, {'a': 'D', 'b': 91}, {'a': 'E', 'b': 81}, {'a': 'F', 'b': 53}, ...]}, ...}
+mode = 'vega-lite', vega_version = '5', vegaembed_version = '6'
+vegalite_version = '5.6.1', base_url = 'https://cdn.jsdelivr.net/npm'
+output_div = 'vis', embed_options = {'mode': 'vega-lite'}, json_kwds = {}
+fullhtml = True, requirejs = False, template = 'inline'
+
+    def spec_to_html(
+        spec,
+        mode,
+        vega_version,
+        vegaembed_version,
+        vegalite_version=None,
+        base_url="https://cdn.jsdelivr.net/npm",
+        output_div="vis",
+        embed_options=None,
+        json_kwds=None,
+        fullhtml=True,
+        requirejs=False,
+        template="standard",
+    ):
+        """Embed a Vega/Vega-Lite spec into an HTML page
+    
+        Parameters
+        ----------
+        spec : dict
+            a dictionary representing a vega-lite plot spec.
+        mode : string {'vega' | 'vega-lite'}
+            The rendering mode. This value is overridden by embed_options['mode'],
+            if it is present.
+        vega_version : string
+            For html output, the version of vega.js to use.
+        vegalite_version : string
+            For html output, the version of vegalite.js to use.
+        vegaembed_version : string
+            For html output, the version of vegaembed.js to use.
+        base_url : string (optional)
+            The base url from which to load the javascript libraries.
+        output_div : string (optional)
+            The id of the div element where the plot will be shown.
+        embed_options : dict (optional)
+            Dictionary of options to pass to the vega-embed script. Default
+            entry is {'mode': mode}.
+        json_kwds : dict (optional)
+            Dictionary of keywords to pass to json.dumps().
+        fullhtml : boolean (optional)
+            If True (default) then return a full html page. If False, then return
+            an HTML snippet that can be embedded into an HTML page.
+        requirejs : boolean (optional)
+            If False (default) then load libraries from base_url using <script>
+            tags. If True, then load libraries using requirejs
+        template : jinja2.Template or string (optional)
+            Specify the template to use (default = 'standard'). If template is a
+            string, it must be one of {'universal', 'standard'}. Otherwise, it
+            can be a jinja2.Template object containing a custom template.
+    
+        Returns
+        -------
+        output : string
+            an HTML string for rendering the chart.
+        """
+        embed_options = embed_options or {}
+        json_kwds = json_kwds or {}
+    
+        mode = embed_options.setdefault("mode", mode)
+    
+        if mode not in ["vega", "vega-lite"]:
+            raise ValueError("mode must be either 'vega' or 'vega-lite'")
+    
+        if vega_version is None:
+            raise ValueError("must specify vega_version")
+    
+        if vegaembed_version is None:
+            raise ValueError("must specify vegaembed_version")
+    
+        if mode == "vega-lite" and vegalite_version is None:
+            raise ValueError("must specify vega-lite version for mode='vega-lite'")
+    
+        render_kwargs = dict()
+        if template == "inline":
+            try:
+                from altair_viewer import get_bundled_script
+            except ImportError:
+>               raise ImportError(
+                    "The altair_viewer package is required to convert to HTML with inline=True"
+                )
+E               ImportError: The altair_viewer package is required to convert to HTML with inline=True
+
+altair/utils/html.py:259: ImportError
+=========================== short test summary info ============================
+FAILED tests/vegalite/v5/test_api.py::test_save_html[True] - ImportError: The...
+============ 1 failed, 209 passed, 7 skipped in 5963.66s (1:39:23) =============
+Traceback (most recent call last):
+  File "/home/user/thefuck-master/pre_run_biend.py", line 102, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'

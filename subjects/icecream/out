@@ -1,0 +1,133 @@
+/home/user/thefuck-master/pre_run_biend.py:3772: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3782: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(O6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3806: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ set$ & ' + ' & '.join(EXT_SET) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3807: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ event$ & ' + ' & '.join(EXT_EVENT) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3934: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/thefuck-master/pre_run_biend.py:3945: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3955: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3967: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3979: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:4101: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dash/testing/plugin.py:92: PytestDeprecationWarning: The hookimpl pytest_addhooks uses old-style configuration options (marks or attributes).
+Please use the pytest.hookimpl(tryfirst=True) decorator instead
+ to configure the hooks.
+ See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers
+  @pytest.mark.tryfirst
+============================= test session starts ==============================
+platform linux -- Python 3.9.15+, pytest-7.2.0, pluggy-1.0.0
+rootdir: /home/user/icecream
+plugins: mock-3.10.0, hypothesis-6.56.4, httpbin-1.0.2, cov-4.0.0, time-machine-2.9.0, html-3.2.0, Faker-15.3.4, anyio-3.6.2, flaky-3.7.0, hydra-core-1.3.2, xdist-3.2.1, test-utils-0.0.8, lazy-fixture-0.6.3, docker-1.0.1, xonsh-0.13.4, pylama-8.4.1, dash-2.9.1
+collected 39 items
+
+tests/test_icecream.py ..........F.......................F..             [ 94%]
+tests/test_install.py ..                                                 [100%]
+
+=================================== FAILURES ===================================
+________________________ TestIceCream.testEnableDisable ________________________
+
+self = <test_icecream.TestIceCream testMethod=testEnableDisable>
+
+    def testEnableDisable(self):
+        with disableColoring(), captureStandardStreams() as (out, err):
+            assert ic(a) == 1
+            assert ic.enabled
+    
+            ic.disable()
+            assert not ic.enabled
+            assert ic(b) == 2
+    
+            ic.enable()
+            assert ic.enabled
+            assert ic(c) == 3
+    
+        pairs = parseOutputIntoPairs(out, err, 2)
+>       assert pairs == [[('a', '1')], [('c', '3')]]
+E       AssertionError: assert [[(None, '1')], [(None, '3')]] == [[('a', '1')], [('c', '3')]]
+E         At index 0 diff: [(None, '1')] != [('a', '1')]
+E         Use -v to get more diff
+
+tests/test_icecream.py:382: AssertionError
+_______________ TestIceCream.testSingledispatchArgumentToString ________________
+
+self = <test_icecream.TestIceCream testMethod=testSingledispatchArgumentToString>
+
+    def testSingledispatchArgumentToString(self):
+        def argumentToString_tuple(obj):
+            return "Dispatching tuple!"
+    
+        # Unsupport Python2
+        if "singledispatch" not in dir(functools):
+            for attr in ("register", "unregister"):
+                with self.assertRaises(NotImplementedError):
+                    getattr(argumentToString, attr)(
+                        tuple, argumentToString_tuple
+                    )
+            return
+    
+        # Prepare input and output
+        x = (1, 2)
+        default_output = ic.format(x)
+    
+        # Register
+        argumentToString.register(tuple, argumentToString_tuple)
+        assert tuple in argumentToString.registry
+        assert str.endswith(ic.format(x), argumentToString_tuple(x))
+    
+        # Unregister
+        argumentToString.unregister(tuple)
+        assert tuple not in argumentToString.registry
+>       assert ic.format(x) == default_output
+E       AssertionError: assert 'ic| (1, 2)' == 'ic| x: (1, 2)'
+E         - ic| x: (1, 2)
+E         ?     ---
+E         + ic| (1, 2)
+
+tests/test_icecream.py:420: AssertionError
+=============================== warnings summary ===============================
+tests/test_icecream.py::TestIceCream::testEnableDisable
+  /home/user/icecream/tests/test_icecream.py:370: RuntimeWarning: Failed to access the underlying source code for analysis. Was ic() invoked in a REPL (e.g. from the command line), a frozen application (e.g. packaged with PyInstaller), or did the underlying source code change during execution?
+    assert ic(a) == 1
+
+tests/test_icecream.py::TestIceCream::testEnableDisable
+  /home/user/icecream/tests/test_icecream.py:379: RuntimeWarning: Failed to access the underlying source code for analysis. Was ic() invoked in a REPL (e.g. from the command line), a frozen application (e.g. packaged with PyInstaller), or did the underlying source code change during execution?
+    assert ic(c) == 3
+
+tests/test_icecream.py::TestIceCream::testMultilineContainerArgs
+  /home/user/icecream/tests/test_icecream.py:598: DeprecationWarning: Please use assertRegex instead.
+    self.assertRegexpMatches(
+
+tests/test_icecream.py::TestIceCream::testReturnValue
+  /home/user/icecream/tests/test_icecream.py:318: RuntimeWarning: Failed to access the underlying source code for analysis. Was ic() invoked in a REPL (e.g. from the command line), a frozen application (e.g. packaged with PyInstaller), or did the underlying source code change during execution?
+    assert ic(1) == 1
+
+tests/test_icecream.py::TestIceCream::testReturnValue
+  /home/user/icecream/tests/test_icecream.py:319: RuntimeWarning: Failed to access the underlying source code for analysis. Was ic() invoked in a REPL (e.g. from the command line), a frozen application (e.g. packaged with PyInstaller), or did the underlying source code change during execution?
+    assert ic(1, 2, 3) == (1, 2, 3)
+
+tests/test_icecream.py::TestIceCream::testSingledispatchArgumentToString
+  /home/user/icecream/tests/test_icecream.py:415: RuntimeWarning: Failed to access the underlying source code for analysis. Was ic() invoked in a REPL (e.g. from the command line), a frozen application (e.g. packaged with PyInstaller), or did the underlying source code change during execution?
+    assert str.endswith(ic.format(x), argumentToString_tuple(x))
+
+tests/test_icecream.py::TestIceCream::testSingledispatchArgumentToString
+  /home/user/icecream/tests/test_icecream.py:420: RuntimeWarning: Failed to access the underlying source code for analysis. Was ic() invoked in a REPL (e.g. from the command line), a frozen application (e.g. packaged with PyInstaller), or did the underlying source code change during execution?
+    assert ic.format(x) == default_output
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_icecream.py::TestIceCream::testEnableDisable - AssertionErr...
+FAILED tests/test_icecream.py::TestIceCream::testSingledispatchArgumentToString
+============= 2 failed, 37 passed, 7 warnings in 266.44s (0:04:26) =============
+Traceback (most recent call last):
+  File "/home/user/thefuck-master/pre_run_biend.py", line 102, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'

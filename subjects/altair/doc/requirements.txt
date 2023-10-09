@@ -1,0 +1,10 @@
+sphinx
+docutils
+jinja2
+numpydoc
+pillow
+pydata-sphinx-theme
+geopandas
+myst-parser
+sphinx_copybutton
+sphinx-design

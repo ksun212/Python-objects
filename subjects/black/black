@@ -1,0 +1,29 @@
+nohup: ignoring input
+/home/user/thefuck-master/pre_run_biend.py:925: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim t_2$ & ' + ' & '.join(M6) + '\\\\ \\hline' +'\n')
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jupyter_client/connect.py:27: DeprecationWarning: Jupyter is migrating its paths to use standard platformdirs
+given by the platformdirs library.  To remove this warning and
+see the appropriate new directories, set the environment variable
+`JUPYTER_PLATFORM_DIRS=1` and then run `jupyter --paths`.
+The use of platformdirs will be the default in `jupyter_core` v6
+  from jupyter_core.paths import jupyter_data_dir
+============================= test session starts ==============================
+platform linux -- Python 3.9.15+, pytest-7.2.0, pluggy-0.13.1
+rootdir: /home/user/black, configfile: pyproject.toml
+plugins: mock-3.10.0, hypothesis-6.56.4, httpbin-1.0.2, timeout-2.1.0, cov-4.0.0, nbval-0.9.6, asyncio-0.20.2, metadata-2.0.4, html-3.2.0
+asyncio: mode=strict
+collected 245 items / 1 skipped
+
+tests/test_black.py .................................................... [ 21%]
+.....................s...........................................        [ 47%]
+tests/test_blackd.py ...................                                 [ 55%]
+tests/test_format.py ................................................... [ 76%]
+.......................................................                  [ 98%]
+tests/test_no_ipynb.py ss                                                [ 99%]
+tests/test_trans.py .                                                    [100%]
+
+================= 242 passed, 4 skipped in 1897.76s (0:31:37) ==================
+Traceback (most recent call last):
+  File "/home/user/thefuck-master/pre_run_biend.py", line 35, in <module>
+    import matplotlib.pyplot as plt
+ModuleNotFoundError: No module named 'matplotlib'
