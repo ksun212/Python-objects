@@ -1,0 +1,144 @@
+ /home/user/bandit/bandit/core/metrics.py-count_locs-75
+bandit.core.metrics.Metrics.current
+        self.current["loc"] += sum(proc(line) for line in lines)
+{'missing', 'builtins.dict'}
+ /home/user/bandit/tests/unit/formatters/test_screen.py-_template-40
+bandit.core.issue.Issue.severity
+                    _issue.severity.capitalize(),
+{'builtins.int', 'builtins.str'}
+ /home/user/bandit/tests/unit/formatters/test_text.py-_template-36
+bandit.core.issue.Issue.severity
+                    _issue.severity.capitalize(),
+{'builtins.int', 'builtins.str'}
+ /home/user/bandit/bandit/formatters/text.py-_output_issue_str-92
+bandit.core.issue.Issue.severity
+            issue.severity.capitalize(),
+{'builtins.int', 'builtins.str'}
+ /home/user/bandit/bandit/formatters/html.py-report-363
+bandit.core.issue.Issue.severity
+            issue_class=f"issue-sev-{issue.severity.lower()}",
+{'builtins.int', 'builtins.str'}
+ /home/user/bandit/bandit/formatters/screen.py-_output_issue_str-124
+bandit.core.issue.Issue.severity
+            issue.severity.capitalize(),
+{'builtins.int', 'builtins.str'}
+ /home/user/bandit/bandit/core/issue.py-get_code-176
+bandit.core.issue.Issue.lineno
+        lmin = max(1, self.lineno - max_lines // 2)
+{'builtins.NoneType', 'builtins.int', 'builtins.str'}
+ /home/user/bandit/bandit/core/context.py-call_args_count-61
+bandit.core.context.Context._context
+            return len(self._context["call"].args)
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-call_args-46
+bandit.core.context.Context._context
+        if "call" in self._context and hasattr(self._context["call"], "args"):
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-call_function_name-71
+bandit.core.context.Context._context
+        return self._context.get("name")
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-statement-153
+bandit.core.context.Context._context
+        return self._context.get("statement")
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-function_def_defaults_qual-164
+bandit.core.context.Context._context
+            and hasattr(self._context["node"], "args")
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-string_val-114
+bandit.core.context.Context._context
+        return self._context.get("str")
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-call_keywords-88
+bandit.core.context.Context._context
+            self._context["call"], "keywords"
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-is_module_imported_like-309
+bandit.core.context.Context._context
+            for imp in self._context["imports"]:
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-function_def_defaults_qual-170
+bandit.core.context.Context._context
+                        default, self._context["import_aliases"]
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-function_def_defaults_qual-167
+bandit.core.context.Context._context
+            for default in self._context["node"].args.defaults:
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-call_args-47
+bandit.core.context.Context._context
+            for arg in self._context["call"].args:
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-call_function_name_qual-79
+bandit.core.context.Context._context
+        return self._context.get("qualname")
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-is_module_being_imported-290
+bandit.core.context.Context._context
+        return self._context.get("module") == module
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-call_keywords-91
+bandit.core.context.Context._context
+            for li in self._context["call"].keywords:
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-is_module_imported_exact-298
+bandit.core.context.Context._context
+        return module in self._context.get("imports", [])
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-function_def_defaults_qual-165
+bandit.core.context.Context._context
+            and hasattr(self._context["node"].args, "defaults")
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-call_args_count-60
+bandit.core.context.Context._context
+        if "call" in self._context and hasattr(self._context["call"], "args"):
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-filename-316
+bandit.core.context.Context._context
+        return self._context.get("filename")
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-node-106
+bandit.core.context.Context._context
+        return self._context.get("node")
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/context.py-get_call_arg_at_position-279
+bandit.core.context.Context._context
+            arg = self._context["call"].args[position_num]
+{'unittest.mock.Mock', 'builtins.dict'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-204
+bandit.core.node_visitor.BanditNodeVisitor.context
+            self.context["col_offset"] = node.col_offset
+{'missing', 'builtins.dict'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-193
+bandit.core.node_visitor.BanditNodeVisitor.context
+        self.context["imports"] = self.imports
+{'missing', 'builtins.dict'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-201
+bandit.core.node_visitor.BanditNodeVisitor.context
+            self.context["lineno"] = node.lineno
+{'missing', 'builtins.dict'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-206
+bandit.core.node_visitor.BanditNodeVisitor.context
+            self.context["end_col_offset"] = node.end_col_offset
+{'missing', 'builtins.dict'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-208
+bandit.core.node_visitor.BanditNodeVisitor.context
+        self.context["node"] = node
+{'missing', 'builtins.dict'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-209
+bandit.core.node_visitor.BanditNodeVisitor.context
+        self.context["linerange"] = b_utils.linerange(node)
+{'missing', 'builtins.dict'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-210
+bandit.core.node_visitor.BanditNodeVisitor.context
+        self.context["filename"] = self.fname
+{'missing', 'builtins.dict'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-194
+bandit.core.node_visitor.BanditNodeVisitor.context
+        self.context["import_aliases"] = self.import_aliases
+{'missing', 'builtins.dict'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-211
+bandit.core.node_visitor.BanditNodeVisitor.context
+        self.context["file_data"] = self.fdata
+{'missing', 'builtins.dict'}

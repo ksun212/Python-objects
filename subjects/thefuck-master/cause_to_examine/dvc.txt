@@ -1,0 +1,92 @@
+dvc.repo.Repo.stage_cache
+{'dvc.stage.cache.StageCache', 'missing'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_do_not_save_on_no_exec_and_dry-62
+    assert not dvc.stage_cache._load(stage)
+dvc.repo.Repo.stage_cache
+{'dvc.stage.cache.StageCache', 'missing'}
+ /home/user/dvc/tests/unit/stage/test_cache.py-test_stage_cache_wdir-121
+        dvc.stage_cache.cache_dir,
+dvc.repo.Repo.stage_cache
+{'dvc.stage.cache.StageCache', 'missing'}
+ /home/user/dvc/dvc/repo/__init__.py-used_objs-503
+            for odb, objs in self.stage_cache.get_used_objs(
+dvc.repo.Repo.stage_cache
+{'dvc.stage.cache.StageCache', 'missing'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_do_not_save_on_no_exec_and_dry-55
+    run_cache_dir = dvc.stage_cache.cache_dir
+dvc.repo.Repo.stage_cache
+{'dvc.stage.cache.StageCache', 'missing'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_memory_runs_of_multiple_stages-128
+    assert not os.path.exists(dvc.stage_cache.cache_dir)
+dvc.repo.Repo.stage_cache
+{'dvc.stage.cache.StageCache', 'missing'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_outs_no_cache_deactivate_run_cache-87
+    assert os.path.isdir(dvc.stage_cache.cache_dir) == run_cache
+dvc.repo.Repo.stage_cache
+{'dvc.stage.cache.StageCache', 'missing'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_memory_for_multiple_runs_of_same_stage-92
+    assert not os.path.exists(dvc.stage_cache.cache_dir)
+dvc.repo.Repo.stage_cache
+{'dvc.stage.cache.StageCache', 'missing'}
+ /home/user/dvc/tests/unit/stage/test_cache.py-test_stage_cache_params-74
+        dvc.stage_cache.cache_dir,
+dvc.repo.Repo.stage_cache
+{'dvc.stage.cache.StageCache', 'missing'}
+ /home/user/dvc/dvc/repo/push.py-push-41
+    used_run_cache = self.stage_cache.push(remote, odb=odb) if run_cache else []
+dvc.repo.Repo.stage_cache
+{'dvc.stage.cache.StageCache', 'missing'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_memory_for_multiple_runs_of_same_stage-94
+    assert _recurse_count_files(dvc.stage_cache.cache_dir) == 1
+dvc.repo.Repo.stage_cache
+{'dvc.stage.cache.StageCache', 'missing'}
+ /home/user/dvc/tests/unit/stage/test_cache.py-test_shared_stage_cache-162
+    parent_cache_dir = os.path.join(dvc.stage_cache.cache_dir, "fd")
+dvc.repo.Repo.stage_cache
+{'dvc.stage.cache.StageCache', 'missing'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_memory_runs_of_multiple_stages-131
+    assert _recurse_count_files(dvc.stage_cache.cache_dir) == 1
+dvc.repo.Repo.stage_cache
+{'dvc.stage.cache.StageCache', 'missing'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_do_not_save_on_no_exec_and_dry-67
+    assert not dvc.stage_cache._load(stage)
+dvc.repo.Repo.stage_cache
+{'dvc.stage.cache.StageCache', 'missing'}
+ /home/user/dvc/tests/func/test_data_cloud.py-test_pipeline_file_target_ops-357
+    remove(dvc.stage_cache.cache_dir)
+dvc.repo.Repo.stage_cache
+{'dvc.stage.cache.StageCache', 'missing'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_memory_for_multiple_runs_of_same_stage-97
+    assert _recurse_count_files(dvc.stage_cache.cache_dir) == 2
+dvc.repo.Repo.stage_cache
+{'dvc.stage.cache.StageCache', 'missing'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_save-51
+    assert dvc.stage_cache._load(stage)
+dvc.repo.Repo.stage_cache
+{'dvc.stage.cache.StageCache', 'missing'}
+ /home/user/dvc/tests/func/test_gc.py-test_gc_not_collect_pipeline_tracked_files-242
+    shutil.rmtree(dvc.stage_cache.cache_dir)
+dvc.repo.Repo.stage_cache
+{'dvc.stage.cache.StageCache', 'missing'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_save-45
+    run_cache_dir = dvc.stage_cache.cache_dir
+dvc.repo.Repo.stage_cache
+{'dvc.stage.cache.StageCache', 'missing'}
+ /home/user/dvc/tests/unit/stage/test_cache.py-test_shared_stage_cache-188
+    assert _mode(dvc.stage_cache.cache_dir) == dir_mode
+dvc.repo.Repo.stage_cache
+{'dvc.stage.cache.StageCache', 'missing'}
+ /home/user/dvc/tests/unit/stage/test_cache.py-test_stage_cache-28
+        dvc.stage_cache.cache_dir,
+dvc.repo.Repo.stage_cache
+{'dvc.stage.cache.StageCache', 'missing'}
+ /home/user/dvc/tests/func/test_lockfile.py-test_params_dump-154
+    for item in [dvc.stage_cache.cache_dir, LOCK_FILE]:
+dvc.repo.Repo.stage_cache
+{'dvc.stage.cache.StageCache', 'missing'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_memory_runs_of_multiple_stages-135
+    assert _recurse_count_files(dvc.stage_cache.cache_dir) == 2
+dvc.repo.scm_context.SCMContext._cm
+{'contextlib._GeneratorContextManager', 'missing'}
+ /home/user/dvc/dvc/repo/scm_context.py-__exit__-144
+        self._cm.__exit__(*exc_args)  # pylint: disable=no-member

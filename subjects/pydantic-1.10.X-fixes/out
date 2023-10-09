@@ -1,0 +1,181 @@
+/home/user/thefuck-master/pre_run_biend.py:3772: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3782: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(O6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3806: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ set$ & ' + ' & '.join(EXT_SET) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3807: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ event$ & ' + ' & '.join(EXT_EVENT) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3934: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/thefuck-master/pre_run_biend.py:3945: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3955: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3967: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3979: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:4101: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dash/testing/plugin.py:92: PytestDeprecationWarning: The hookimpl pytest_addhooks uses old-style configuration options (marks or attributes).
+Please use the pytest.hookimpl(tryfirst=True) decorator instead
+ to configure the hooks.
+ See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers
+  @pytest.mark.tryfirst
+============================= test session starts ==============================
+platform linux -- Python 3.9.15+, pytest-7.2.0, pluggy-1.0.0
+rootdir: /home/user/pydantic/pydantic-1.10.X-fixes, configfile: setup.cfg
+plugins: mock-3.10.0, httpbin-1.0.2, cov-4.0.0, time-machine-2.9.0, html-3.2.0, Faker-15.3.4, anyio-3.6.2, flaky-3.7.0, hydra-core-1.3.2, xdist-3.2.1, test-utils-0.0.8, lazy-fixture-0.6.3, docker-1.0.1, xonsh-0.13.4, pylama-8.4.1, dash-2.9.1
+collected 2528 items
+
+tests/test_abc.py ..                                                     [  0%]
+tests/test_aliases.py ..........................                         [  1%]
+tests/test_annotated.py .............                                    [  1%]
+tests/test_annotated_types.py ........s.........                         [  2%]
+tests/test_assert_in_validators.py .                                     [  2%]
+tests/test_callable.py ........                                          [  2%]
+tests/test_color.py .................................................... [  4%]
+....................                                                     [  5%]
+tests/test_construction.py ...........................                   [  6%]
+tests/test_create_model.py .....................                         [  7%]
+tests/test_dataclasses.py .............................................. [  9%]
+...........................s......                                       [ 10%]
+tests/test_datetime_parse.py ........................................... [ 12%]
+........................................................................ [ 15%]
+....................................                                     [ 16%]
+tests/test_decorator.py ..........................                       [ 17%]
+tests/test_discrimated_union.py ................                         [ 18%]
+tests/test_edge_cases.py ............................................... [ 20%]
+........................................................................ [ 22%]
+................................F...........                             [ 24%]
+tests/test_errors.py .................                                   [ 25%]
+tests/test_forward_ref.py ..............................                 [ 26%]
+tests/test_generics.py .......................................s......... [ 28%]
+.....................                                                    [ 29%]
+tests/test_hypothesis_plugin.py ...........                              [ 29%]
+tests/test_json.py ...................................................   [ 31%]
+tests/test_main.py ..................................................... [ 33%]
+........................................................................ [ 36%]
+..................................s.........                             [ 38%]
+tests/test_model_signature.py ..............                             [ 39%]
+tests/test_networks.py ................................................. [ 40%]
+........................................................................ [ 43%]
+..................................................................ssssss [ 46%]
+ssssssssssssssssssssssssssssss.ss                                        [ 47%]
+tests/test_networks_ipaddress.py ....................................... [ 49%]
+........................................................................ [ 52%]
+.............................................                            [ 54%]
+tests/test_orm_mode.py .............                                     [ 54%]
+tests/test_parse.py ......................                               [ 55%]
+tests/test_private_attributes.py ...........                             [ 55%]
+tests/test_rich_repr.py ..                                               [ 56%]
+tests/test_schema.py ................................................... [ 58%]
+..ss.................................................................... [ 60%]
+........................................................................ [ 63%]
+..........................................................               [ 66%]
+tests/test_settings.py ...................................ssssssssssssss [ 67%]
+sss..............s.......                                                [ 68%]
+tests/test_structural_pattern_matching.py s                              [ 68%]
+tests/test_tools.py ............                                         [ 69%]
+tests/test_types.py .................................................... [ 71%]
+........................................................................ [ 74%]
+....................ss.................................................. [ 77%]
+........................................................................ [ 80%]
+........................................................................ [ 82%]
+........................................................................ [ 85%]
+.................                                                        [ 86%]
+tests/test_types_payment_card_number.py ................................ [ 87%]
+...............                                                          [ 88%]
+tests/test_typing.py .............ss                                     [ 88%]
+tests/test_utils.py .................................................... [ 90%]
+.......ss............................................................... [ 93%]
+...                                                                      [ 93%]
+tests/test_validators.py ............................................... [ 95%]
+...............................................................          [ 98%]
+tests/test_validators_dataclass.py .......                               [ 98%]
+tests/test_version.py ..                                                 [ 98%]
+tests/mypy/test_mypy.py ssssssssssssssssssssssssss.........              [100%]
+
+=================================== FAILURES ===================================
+________________________ test_cython_function_untouched ________________________
+
+cls = <class '_pytest.runner.CallInfo'>
+func = <function call_runtest_hook.<locals>.<lambda> at 0x146b00c15050>
+when = 'call'
+reraise = (<class '_pytest.outcomes.Exit'>, <class 'KeyboardInterrupt'>)
+
+    @classmethod
+    def from_call(
+        cls,
+        func: "Callable[[], TResult]",
+        when: "Literal['collect', 'setup', 'call', 'teardown']",
+        reraise: Optional[
+            Union[Type[BaseException], Tuple[Type[BaseException], ...]]
+        ] = None,
+    ) -> "CallInfo[TResult]":
+        """Call func, wrapping the result in a CallInfo.
+    
+        :param func:
+            The function to call. Called without arguments.
+        :param when:
+            The phase in which the function is called.
+        :param reraise:
+            Exception or exceptions that shall propagate if raised by the
+            function, instead of being wrapped in the CallInfo.
+        """
+        excinfo = None
+        start = timing.time()
+        precise_start = timing.perf_counter()
+        try:
+>           result: Optional[TResult] = func()
+
+../../purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/runner.py:339: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+../../purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/runner.py:260: in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+../../purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pluggy/_hooks.py:265: in __call__
+    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)
+../../purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pluggy/_manager.py:80: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+../../purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/runner.py:175: in pytest_runtest_call
+    raise e
+../../purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/runner.py:167: in pytest_runtest_call
+    item.runtest()
+../../purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/python.py:1789: in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+../../purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pluggy/_hooks.py:265: in __call__
+    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)
+../../purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pluggy/_manager.py:80: in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+pyfuncitem = <Function test_cython_function_untouched>
+
+    @hookimpl(trylast=True)
+    def pytest_pyfunc_call(pyfuncitem: "Function") -> Optional[object]:
+        testfunction = pyfuncitem.obj
+        if is_async_function(testfunction):
+            async_warn_and_skip(pyfuncitem.nodeid)
+        funcargs = pyfuncitem.funcargs
+        testargs = {arg: funcargs[arg] for arg in pyfuncitem._fixtureinfo.argnames}
+        result = testfunction(**testargs)
+        if hasattr(result, "__await__") or hasattr(result, "__aiter__"):
+            async_warn_and_skip(pyfuncitem.nodeid)
+        elif result is not None:
+>           warnings.warn(
+                PytestReturnNotNoneWarning(
+                    f"Expected None, but {pyfuncitem.nodeid} returned {result!r}, which will be an error in a "
+                    "future version of pytest.  Did you mean to use `assert` instead of `return`?"
+                )
+            )
+E           pytest.PytestReturnNotNoneWarning: Expected None, but tests/test_edge_cases.py::test_cython_function_untouched returned True, which will be an error in a future version of pytest.  Did you mean to use `assert` instead of `return`?
+
+../../purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/python.py:199: PytestReturnNotNoneWarning
+=========================== short test summary info ============================
+FAILED tests/test_edge_cases.py::test_cython_function_untouched - pytest.Pyte...
+=========== 1 failed, 2432 passed, 95 skipped in 2528.68s (0:42:08) ============
+Traceback (most recent call last):
+  File "/home/user/thefuck-master/pre_run_biend.py", line 102, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'

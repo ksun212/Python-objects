@@ -1,0 +1,15 @@
+rich.console.Console._width
+{'builtins.int'}
+ /home/user/rich/rich-master/rich/console.py-size-994
+            return ConsoleDimensions(self._width - self.legacy_windows, self._height)
+rich.pretty.Node.children
+{'builtins.list'}
+ /home/user/rich/rich-master/rich/pretty.py-iter_tokens-450
+                    yield from self.children[0].iter_tokens()
+rich.pretty.Node.children
+{'builtins.list'}
+ /home/user/rich/rich-master/rich/pretty.py-iter_tokens-449
+                if self.is_tuple and not self.is_namedtuple and len(self.children) == 1:
+                
+check: 2
+safe: 2

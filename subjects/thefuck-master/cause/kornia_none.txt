@@ -1,0 +1,344 @@
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-234
+kornia.augmentation._2d.geometric.affine.RandomAffine._param_generator
+                assert (shear.to(device=device, dtype=dtype) - aug._param_generator.shear.data).sum() != 0
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-229
+kornia.augmentation._2d.geometric.affine.RandomAffine._param_generator
+            elif resample == 'nearest' or torch.all(aug._param_generator.shear._grad == 0.0):
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-198
+kornia.augmentation._2d.geometric.affine.RandomAffine._param_generator
+                assert (degrees.to(device=device, dtype=dtype) - aug._param_generator.degrees.data).sum() != 0
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-222
+kornia.augmentation._2d.geometric.affine.RandomAffine._param_generator
+                assert (scale.to(device=device, dtype=dtype) - aug._param_generator.scale.data).sum() != 0
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-212
+kornia.augmentation._2d.geometric.affine.RandomAffine._param_generator
+            assert isinstance(aug._param_generator.scale, torch.Tensor)
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-224
+kornia.augmentation._2d.geometric.affine.RandomAffine._param_generator
+            assert isinstance(aug._param_generator.shear, torch.Tensor)
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-188
+kornia.augmentation._2d.geometric.affine.RandomAffine._param_generator
+            assert isinstance(aug._param_generator.degrees, torch.Tensor)
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-205
+kornia.augmentation._2d.geometric.affine.RandomAffine._param_generator
+            elif resample == 'nearest' or torch.all(aug._param_generator.translate._grad == 0.0):
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-217
+kornia.augmentation._2d.geometric.affine.RandomAffine._param_generator
+            elif resample == 'nearest' or torch.all(aug._param_generator.scale._grad == 0.0):
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-193
+kornia.augmentation._2d.geometric.affine.RandomAffine._param_generator
+            elif resample == 'nearest' or torch.all(aug._param_generator.degrees._grad == 0.0):
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-210
+kornia.augmentation._2d.geometric.affine.RandomAffine._param_generator
+                assert (translate.to(device=device, dtype=dtype) - aug._param_generator.translate.data).sum() != 0
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-200
+kornia.augmentation._2d.geometric.affine.RandomAffine._param_generator
+            assert isinstance(aug._param_generator.translate, torch.Tensor)
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-make_samplers-84
+kornia.augmentation.random_generator._2d.affine.AffineGenerator.scale
+                        _range_bound(self.scale[-2:], 'scale_y', bounds=(0, float('inf')), check='singular'),
+{'builtins.tuple', 'torch.Tensor', 'missing', 'builtins.list'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-make_samplers-80
+kornia.augmentation.random_generator._2d.affine.AffineGenerator.scale
+            elif len(self.scale) == 4:
+{'builtins.tuple', 'torch.Tensor', 'missing', 'builtins.list'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-make_samplers-77
+kornia.augmentation.random_generator._2d.affine.AffineGenerator.scale
+                _scale = _range_bound(self.scale[:2], 'scale', bounds=(0, float('inf')), check='singular').to(
+{'builtins.tuple', 'torch.Tensor', 'missing', 'builtins.list'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-make_samplers-83
+kornia.augmentation.random_generator._2d.affine.AffineGenerator.scale
+                        _range_bound(self.scale[:2], 'scale_x', bounds=(0, float('inf')), check='singular'),
+{'builtins.tuple', 'torch.Tensor', 'missing', 'builtins.list'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-make_samplers-76
+kornia.augmentation.random_generator._2d.affine.AffineGenerator.scale
+            if len(self.scale) == 2:
+{'builtins.tuple', 'torch.Tensor', 'missing', 'builtins.list'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-58
+kornia.augmentation._2d.intensity.color_jiggle.ColorJiggle.brightness
+            assert (brightness.to(device=device, dtype=dtype) - aug.brightness.data).sum() != 0
+{'builtins.float', 'builtins.tuple', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-62
+kornia.augmentation._2d.intensity.color_jiggle.ColorJiggle.contrast
+            assert (contrast.to(device=device, dtype=dtype) - aug.contrast.data).sum() != 0
+{'builtins.float', 'missing', 'builtins.list'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-66
+kornia.augmentation._2d.intensity.color_jiggle.ColorJiggle.saturation
+            assert (saturation.to(device=device, dtype=dtype) - aug.saturation.data).sum() != 0
+{'builtins.float', 'builtins.tuple', 'torch.Tensor', 'missing', 'builtins.list'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-70
+kornia.augmentation._2d.intensity.color_jiggle.ColorJiggle.hue
+            assert (hue.to(device=device, dtype=dtype) - aug.hue.data).sum() != 0
+{'builtins.float', 'missing', 'builtins.list'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-304
+kornia.augmentation._2d.geometric.perspective.RandomPerspective._param_generator
+            assert isinstance(aug._param_generator.distortion_scale, torch.Tensor)
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-309
+kornia.augmentation._2d.geometric.perspective.RandomPerspective._param_generator
+            elif resample == 'nearest' or torch.all(aug._param_generator.distortion_scale._grad == 0.0):
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/perspective.py-forward-69
+kornia.augmentation.random_generator._2d.perspective.PerspectiveGenerator._distortion_scale
+        fx = self._distortion_scale * width / 2
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/perspective.py-forward-70
+kornia.augmentation.random_generator._2d.perspective.PerspectiveGenerator._distortion_scale
+        fy = self._distortion_scale * height / 2
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-268
+kornia.augmentation._2d.geometric.rotation.RandomRotation._param_generator
+            elif resample == 'nearest' or torch.all(aug._param_generator.degrees._grad == 0.0):
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-273
+kornia.augmentation._2d.geometric.rotation.RandomRotation._param_generator
+                assert (degrees.to(device=device, dtype=dtype) - aug._param_generator.degrees.data).sum() != 0
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-263
+kornia.augmentation._2d.geometric.rotation.RandomRotation._param_generator
+            assert isinstance(aug._param_generator.degrees, torch.Tensor)
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/plain_uniform.py-make_samplers-74
+kornia.augmentation.random_generator._2d.plain_uniform.PlainUniformGenerator.sampler_dict
+            self.sampler_dict.update({name: Uniform(factor[0], factor[1], validate_args=False)})
+{'missing', 'builtins.dict'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/plain_uniform.py-forward-83
+kornia.augmentation.random_generator._2d.plain_uniform.PlainUniformGenerator.sampler_dict
+            for name, dist in self.sampler_dict.items()
+{'missing', 'builtins.dict'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-401
+kornia.augmentation._2d.intensity.sharpness.RandomSharpness._param_generator
+            assert (sharpness.to(device=device, dtype=dtype) - aug._param_generator.sharpness.data).sum() != 0
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-399
+kornia.augmentation._2d.intensity.sharpness.RandomSharpness._param_generator
+            assert isinstance(aug._param_generator.sharpness, torch.Tensor)
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-363
+kornia.augmentation._2d.intensity.motion_blur.RandomMotionBlur._param_generator
+                assert (angle.to(device=device, dtype=dtype) - aug._param_generator.angle.data).sum() != 0
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-357
+kornia.augmentation._2d.intensity.motion_blur.RandomMotionBlur._param_generator
+            elif resample == 'nearest' or torch.all(aug._param_generator.angle._grad == 0.0):
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-366
+kornia.augmentation._2d.intensity.motion_blur.RandomMotionBlur._param_generator
+            if torch.all(aug._param_generator.direction._grad == 0.0):
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-372
+kornia.augmentation._2d.intensity.motion_blur.RandomMotionBlur._param_generator
+                assert (direction.to(device=device, dtype=dtype) - aug._param_generator.direction.data).sum() != 0
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-353
+kornia.augmentation._2d.intensity.motion_blur.RandomMotionBlur._param_generator
+            assert isinstance(aug._param_generator.angle, torch.Tensor)
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-365
+kornia.augmentation._2d.intensity.motion_blur.RandomMotionBlur._param_generator
+            assert isinstance(aug._param_generator.direction, torch.Tensor)
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_augmentation.py-test_apply-3720
+kornia.augmentation.container.augment.AugmentationSequential._params
+            assert_close(aug_list._params[0].data["batch_prob"], to_apply)
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-113
+kornia.augmentation._2d.intensity.color_jitter.ColorJitter.brightness
+            assert (brightness.to(device=device, dtype=dtype) - aug.brightness.data).sum() != 0
+{'builtins.float', 'builtins.tuple', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-117
+kornia.augmentation._2d.intensity.color_jitter.ColorJitter.contrast
+            assert (contrast.to(device=device, dtype=dtype) - aug.contrast.data).sum() != 0
+{'builtins.float', 'missing', 'builtins.list'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-121
+kornia.augmentation._2d.intensity.color_jitter.ColorJitter.saturation
+            assert (saturation.to(device=device, dtype=dtype) - aug.saturation.data).sum() != 0
+{'builtins.float', 'builtins.tuple', 'torch.Tensor', 'missing', 'builtins.list'}
+ /home/user/kornia/test/augmentation/test_backward.py-test_param-125
+kornia.augmentation._2d.intensity.color_jitter.ColorJitter.hue
+            assert (hue.to(device=device, dtype=dtype) - aug.hue.data).sum() != 0
+{'builtins.float', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-180
+kornia.augmentation._3d.geometric.rotation.RandomRotation3D._param_generator
+            assert isinstance(aug._param_generator.degrees, torch.Tensor)
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-190
+kornia.augmentation._3d.geometric.rotation.RandomRotation3D._param_generator
+                assert (degrees.to(device=device, dtype=dtype) - aug._param_generator.degrees.data).sum() != 0
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-185
+kornia.augmentation._3d.geometric.rotation.RandomRotation3D._param_generator
+            elif resample == 'nearest' or torch.all(aug._param_generator.degrees._grad == 0.0):
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-98
+kornia.augmentation._3d.geometric.affine.RandomAffine3D.degrees
+            elif resample == 'nearest' or torch.all(aug.degrees._grad == 0.0):
+{'builtins.float', 'builtins.tuple', 'builtins.list', 'missing', 'builtins.int'}
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-103
+kornia.augmentation._3d.geometric.affine.RandomAffine3D.degrees
+                assert (degrees.to(device=device, dtype=dtype) - aug.degrees.data).sum() != 0
+{'builtins.float', 'builtins.tuple', 'builtins.list', 'missing', 'builtins.int'}
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-139
+kornia.augmentation._3d.geometric.affine.RandomAffine3D.shears
+                assert (shear.to(device=device, dtype=dtype) - aug.shears.data).sum() != 0
+{'builtins.NoneType', 'builtins.float', 'missing', 'builtins.list'}
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-134
+kornia.augmentation._3d.geometric.affine.RandomAffine3D.shears
+            elif resample == 'nearest' or torch.all(aug.shears._grad == 0.0):
+{'builtins.NoneType', 'builtins.float', 'missing', 'builtins.list'}
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-115
+kornia.augmentation._3d.geometric.affine.RandomAffine3D.translate
+                assert (translate.to(device=device, dtype=dtype) - aug.translate.data).sum() != 0
+{'builtins.NoneType', 'missing', 'builtins.list'}
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-110
+kornia.augmentation._3d.geometric.affine.RandomAffine3D.translate
+            elif resample == 'nearest' or torch.all(aug.translate._grad == 0.0):
+{'builtins.NoneType', 'missing', 'builtins.list'}
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-122
+kornia.augmentation._3d.geometric.affine.RandomAffine3D.scale
+            elif resample == 'nearest' or torch.all(aug.scale._grad == 0.0):
+{'builtins.NoneType', 'missing', 'builtins.list'}
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-127
+kornia.augmentation._3d.geometric.affine.RandomAffine3D.scale
+                assert (scale.to(device=device, dtype=dtype) - aug.scale.data).sum() != 0
+{'builtins.NoneType', 'missing', 'builtins.list'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-181
+kornia.augmentation.random_generator._3d.affine.AffineGenerator3D._translate
+            max_dz: torch.Tensor = self._translate[2] * depth
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-179
+kornia.augmentation.random_generator._3d.affine.AffineGenerator3D._translate
+            max_dx: torch.Tensor = self._translate[0] * width
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-180
+kornia.augmentation.random_generator._3d.affine.AffineGenerator3D._translate
+            max_dy: torch.Tensor = self._translate[1] * height
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-make_samplers-132
+kornia.augmentation.random_generator._3d.affine.AffineGenerator3D._scale
+            self.scale_1_sampler = Uniform(self._scale[0, 0], self._scale[0, 1], validate_args=False)
+{'builtins.NoneType', 'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-make_samplers-129
+kornia.augmentation.random_generator._3d.affine.AffineGenerator3D._scale
+            _singular_range_check(self._scale[0], 'scale-x', bounds=(0, float('inf')), mode='2d')
+{'builtins.NoneType', 'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-make_samplers-131
+kornia.augmentation.random_generator._3d.affine.AffineGenerator3D._scale
+            _singular_range_check(self._scale[2], 'scale-z', bounds=(0, float('inf')), mode='2d')
+{'builtins.NoneType', 'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-make_samplers-130
+kornia.augmentation.random_generator._3d.affine.AffineGenerator3D._scale
+            _singular_range_check(self._scale[1], 'scale-y', bounds=(0, float('inf')), mode='2d')
+{'builtins.NoneType', 'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-make_samplers-133
+kornia.augmentation.random_generator._3d.affine.AffineGenerator3D._scale
+            self.scale_2_sampler = Uniform(self._scale[1, 0], self._scale[1, 1], validate_args=False)
+{'builtins.NoneType', 'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-make_samplers-134
+kornia.augmentation.random_generator._3d.affine.AffineGenerator3D._scale
+            self.scale_3_sampler = Uniform(self._scale[2, 0], self._scale[2, 1], validate_args=False)
+{'builtins.NoneType', 'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/_2d/mix/cutmix.py-apply_non_transform_class-109
+kornia.augmentation._2d.mix.cutmix.RandomCutMixV2._param_generator
+        for _ in range(self._param_generator.num_mix):
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/cutmix.py-forward-108
+kornia.augmentation.random_generator._2d.cutmix.CutmixGenerator._cut_size
+        cutmix_betas = torch.min(torch.max(cutmix_betas, self._cut_size[0]), self._cut_size[1])
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-221
+kornia.augmentation._3d.geometric.perspective.RandomPerspective3D._param_generator
+            assert isinstance(aug._param_generator.distortion_scale, torch.Tensor)
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-226
+kornia.augmentation._3d.geometric.perspective.RandomPerspective3D._param_generator
+            elif resample == 'nearest' or torch.all(aug._param_generator.distortion_scale._grad == 0.0):
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/perspective.py-forward-72
+kornia.augmentation.random_generator._3d.perspective.PerspectiveGenerator3D._distortion_scale
+        fx = self._distortion_scale * width / 2
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/perspective.py-forward-73
+kornia.augmentation.random_generator._3d.perspective.PerspectiveGenerator3D._distortion_scale
+        fy = self._distortion_scale * height / 2
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/perspective.py-forward-74
+kornia.augmentation.random_generator._3d.perspective.PerspectiveGenerator3D._distortion_scale
+        fz = self._distortion_scale * depth / 2
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-271
+kornia.augmentation._3d.intensity.motion_blur.RandomMotionBlur3D._param_generator
+            assert isinstance(aug._param_generator.angle, torch.Tensor)
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-290
+kornia.augmentation._3d.intensity.motion_blur.RandomMotionBlur3D._param_generator
+                assert (direction.to(device=device, dtype=dtype) - aug._param_generator.direction.data).sum() != 0
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-281
+kornia.augmentation._3d.intensity.motion_blur.RandomMotionBlur3D._param_generator
+                assert (angle.to(device=device, dtype=dtype) - aug._param_generator.angle.data).sum() != 0
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-284
+kornia.augmentation._3d.intensity.motion_blur.RandomMotionBlur3D._param_generator
+            if torch.all(aug._param_generator.direction._grad == 0.0):
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-283
+kornia.augmentation._3d.intensity.motion_blur.RandomMotionBlur3D._param_generator
+            assert isinstance(aug._param_generator.direction, torch.Tensor)
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/test/augmentation/test_backward_3d.py-test_param-275
+kornia.augmentation._3d.intensity.motion_blur.RandomMotionBlur3D._param_generator
+            elif resample == 'nearest' or torch.all(aug._param_generator.angle._grad == 0.0):
+{'builtins.NoneType', 'missing'}
+ /home/user/kornia/kornia/enhance/zca.py-fit-107
+kornia.enhance.zca.ZCAWhitening.mean_vector
+            self.mean_vector = self.mean_vector.detach()
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/enhance/zca.py-inverse_transform-153
+kornia.enhance.zca.ZCAWhitening.mean_vector
+        mean_inv: Tensor = -self.mean_vector.mm(self.transform_matrix)
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/enhance/zca.py-fit-108
+kornia.enhance.zca.ZCAWhitening.transform_matrix
+            self.transform_matrix = self.transform_matrix.detach()
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/enhance/zca.py-fit-109
+kornia.enhance.zca.ZCAWhitening.transform_inv
+            self.transform_inv = self.transform_inv.detach()
+{'torch.Tensor', 'builtins.bool', 'builtins.set', 'collections.collections.OrderedDict', 'builtins.NoneType', 'builtins.float', 'missing', 'builtins.int'}
+ /home/user/kornia/kornia/feature/defmo.py-forward-245
+kornia.feature.defmo.RenderingDeFMO.times
+        times = self.times.to(latent.device).unsqueeze(0).repeat(latent.shape[0], 1)
+{'builtins.NoneType', 'torch.Tensor', 'builtins.bool', 'builtins.set', 'collections.collections.OrderedDict', 'builtins.int'}
+ /home/user/kornia/kornia/feature/orientation.py-forward-186
+kornia.feature.orientation.OriNet.eps
+        angle = torch.atan2(xy[:, 0] + 1e-8, xy[:, 1] + self.eps)
+{'builtins.NoneType', 'builtins.float', 'builtins.bool', 'builtins.set', 'collections.collections.OrderedDict'}
+ /home/user/kornia/kornia/feature/mkd.py-emb_mags-203
+kornia.feature.mkd.EmbedGradients.eps
+        mags = torch.sqrt(mags + self.eps)
+{'builtins.NoneType', 'builtins.float', 'builtins.bool', 'builtins.set', 'collections.collections.OrderedDict', 'builtins.int'}
+ /home/user/kornia/kornia/feature/mkd.py-__init__-307
+kornia.feature.mkd.ExplicitSpacialEncoding.gmask
+            emb = emb * self.gmask
+{'builtins.NoneType', 'torch.Tensor'}
+ /home/user/kornia/kornia/tracking/planar_tracker.py-device-55
+kornia.tracking.planar_tracker.HomographyTracker.target
+        return self.target.device
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/tracking/planar_tracker.py-dtype-59
+kornia.tracking.planar_tracker.HomographyTracker.target
+        return self.target.dtype
+{'missing', 'torch.Tensor'}

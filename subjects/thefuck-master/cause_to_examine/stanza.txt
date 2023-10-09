@@ -1,0 +1,112 @@
+stanza.models.tokenization.vocab.Vocab._unit2id
+{'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-unit2id-61
+            return self._unit2id[unit]
+stanza.models.mwt.vocab.Vocab._unit2id
+{'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-unit2id-61
+            return self._unit2id[unit]
+stanza.models.mwt.vocab.Vocab._id2unit
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-__len__-75
+        return len(self._id2unit)
+stanza.models.mwt.vocab.Vocab._id2unit
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-id2unit-66
+        return self._id2unit[id]
+stanza.models.common.pretrain.PretrainedWordVocab._id2unit
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-__len__-75
+        return len(self._id2unit)
+stanza.models.common.pretrain.PretrainedWordVocab._id2unit
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-id2unit-66
+        return self._id2unit[id]
+stanza.models.common.pretrain.PretrainedWordVocab._unit2id
+{'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-unit2id-63
+            return self._unit2id[UNK]
+stanza.models.common.pretrain.PretrainedWordVocab._unit2id
+{'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-unit2id-61
+            return self._unit2id[unit]
+stanza.models.common.vocab.CharVocab._unit2id
+{'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-unit2id-61
+            return self._unit2id[unit]
+stanza.models.common.vocab.CharVocab._id2unit
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-__len__-75
+        return len(self._id2unit)
+stanza.models.pos.vocab.WordVocab._unit2id
+{'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/pos/vocab.py-unit2id-20
+            return self._unit2id[EMPTY]
+stanza.models.pos.vocab.WordVocab._unit2id
+{'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-unit2id-63
+            return self._unit2id[UNK]
+stanza.models.pos.vocab.WordVocab._unit2id
+{'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-unit2id-61
+            return self._unit2id[unit]
+stanza.models.pos.vocab.WordVocab._id2unit
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-__len__-75
+        return len(self._id2unit)
+stanza.models.pos.vocab.WordVocab._id2unit
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-id2unit-66
+        return self._id2unit[id]
+stanza.models.pos.vocab.FeatureVocab._id2unit
+{'missing', 'collections.collections.OrderedDict'}
+ /home/user/stanza/stanza/models/common/vocab.py-__len__-75
+        return len(self._id2unit)
+stanza.models.pos.vocab.FeatureVocab._id2unit
+{'missing', 'collections.collections.OrderedDict'}
+ /home/user/stanza/stanza/models/common/vocab.py-id2unit-144
+                items.append("{}={}".format(k, self._id2unit[k][v]))
+stanza.models.pos.vocab.FeatureVocab._id2unit
+{'missing', 'collections.collections.OrderedDict'}
+ /home/user/stanza/stanza/models/common/vocab.py-id2unit-141
+        for v, k in zip(id, self._id2unit.keys()):
+stanza.models.lemma.vocab.Vocab._unit2id
+{'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-unit2id-61
+            return self._unit2id[unit]
+stanza.models.lemma.vocab.Vocab._id2unit
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-__len__-75
+        return len(self._id2unit)
+stanza.models.lemma.vocab.Vocab._id2unit
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-id2unit-66
+        return self._id2unit[id]
+stanza.models.ner.vocab.TagVocab._unit2id
+{'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-unit2id-63
+            return self._unit2id[UNK]
+stanza.models.ner.vocab.TagVocab._unit2id
+{'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-unit2id-61
+            return self._unit2id[unit]
+stanza.models.ner.vocab.TagVocab._id2unit
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-__len__-75
+        return len(self._id2unit)
+stanza.models.ner.vocab.TagVocab._id2unit
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-id2unit-66
+        return self._id2unit[id]
+stanza.models.lemma.data.DataLoader.data
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/lemma/data.py-__getitem__-90
+        if key < 0 or key >= len(self.data):
+stanza.models.lemma.data.DataLoader.data
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/lemma/data.py-__getitem__-92
+        batch = self.data[key]
+stanza.models.lemma.data.DataLoader.data
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/lemma/data.py-__len__-84
+        return len(self.data)

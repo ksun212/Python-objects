@@ -1,0 +1,3 @@
+ /home/user/networkx/networkx/algorithms/isomorphism/isomorphvf2.py-initialize-258 || modular_init
+ /home/user/networkx/networkx/classes/digraph.py-__set__-40 || add_after_computation, descriptor
+ /home/user/purepython/cpython-3.9/Lib/enum.py-__new__-295 || builtin_enum

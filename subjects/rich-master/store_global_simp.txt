@@ -1,0 +1,3 @@
+/home/user/rich/rich-master/rich/__init__.py: get_console: 34: 97, 0
+/home/user/rich/rich-master/rich/__init__.py: get_console: 0 from builtins.NoneType to rich.console.Console
+----------/home/user/rich/rich-master/rich/__init__.py: get_console----------

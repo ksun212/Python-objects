@@ -1,0 +1,60 @@
+kornia.augmentation.random_generator._2d.affine.AffineGenerator.scale
+{'missing', 'builtins.list', 'torch.Tensor', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-make_samplers-80
+            elif len(self.scale) == 4:
+kornia.augmentation.random_generator._2d.affine.AffineGenerator.scale
+{'missing', 'builtins.list', 'torch.Tensor', 'builtins.NoneType', 'builtins.tuple'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/affine.py-make_samplers-76
+            if len(self.scale) == 2:
+kornia.augmentation.random_generator._2d.perspective.PerspectiveGenerator._distortion_scale
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/perspective.py-forward-70
+        fy = self._distortion_scale * height / 2
+kornia.augmentation.random_generator._2d.perspective.PerspectiveGenerator._distortion_scale
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/perspective.py-forward-69
+        fx = self._distortion_scale * width / 2
+kornia.augmentation.random_generator._2d.plain_uniform.PlainUniformGenerator.sampler_dict
+{'missing', 'builtins.dict'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/plain_uniform.py-make_samplers-74
+            self.sampler_dict.update({name: Uniform(factor[0], factor[1], validate_args=False)})
+kornia.augmentation.random_generator._2d.plain_uniform.PlainUniformGenerator.sampler_dict
+{'missing', 'builtins.dict'}
+ /home/user/kornia/kornia/augmentation/random_generator/_2d/plain_uniform.py-forward-83
+            for name, dist in self.sampler_dict.items()
+kornia.augmentation.random_generator._3d.affine.AffineGenerator3D._translate
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-179
+            max_dx: torch.Tensor = self._translate[0] * width
+kornia.augmentation.random_generator._3d.affine.AffineGenerator3D._translate
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-181
+            max_dz: torch.Tensor = self._translate[2] * depth
+kornia.augmentation.random_generator._3d.affine.AffineGenerator3D._translate
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/affine.py-forward-180
+            max_dy: torch.Tensor = self._translate[1] * height
+kornia.augmentation.random_generator._3d.perspective.PerspectiveGenerator3D._distortion_scale
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/perspective.py-forward-72
+        fx = self._distortion_scale * width / 2
+kornia.augmentation.random_generator._3d.perspective.PerspectiveGenerator3D._distortion_scale
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/perspective.py-forward-73
+        fy = self._distortion_scale * height / 2
+kornia.augmentation.random_generator._3d.perspective.PerspectiveGenerator3D._distortion_scale
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/augmentation/random_generator/_3d/perspective.py-forward-74
+        fz = self._distortion_scale * depth / 2
+kornia.enhance.zca.ZCAWhitening.mean_vector
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/enhance/zca.py-inverse_transform-153
+        mean_inv: Tensor = -self.mean_vector.mm(self.transform_matrix)
+kornia.tracking.planar_tracker.HomographyTracker.target
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/tracking/planar_tracker.py-dtype-59
+        return self.target.dtype
+kornia.tracking.planar_tracker.HomographyTracker.target
+{'missing', 'torch.Tensor'}
+ /home/user/kornia/kornia/tracking/planar_tracker.py-device-55
+        return self.target.device

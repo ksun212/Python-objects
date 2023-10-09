@@ -1,0 +1,67 @@
+prompt_toolkit.buffer.Buffer._load_history_task
+{'_asyncio._asyncio.Task'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/buffer.py-load_history_if_not_yet_loaded-423
+            self._load_history_task.add_done_callback(load_history_done)
+prompt_toolkit.formatted_text.ansi.ANSI._bgcolor
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/formatted_text/ansi.py-_create_style_string-234
+            result.append("bg:" + self._bgcolor)
+prompt_toolkit.history.ThreadedHistory.history
+{'prompt_toolkit.history.InMemoryHistory', 'prompt_toolkit.history.FileHistory'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/history.py-store_string-212
+        self.history.store_string(string)
+prompt_toolkit.layout.layout.Layout.container
+{'prompt_toolkit.layout.containers.Window', 'prompt_toolkit.layout.containers.VSplit', 'prompt_toolkit.layout.containers.HSplit'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/renderer.py-render-639
+                layout.container.preferred_height(size.columns, size.rows).preferred,
+prompt_toolkit.layout.layout.Layout.container
+{'prompt_toolkit.layout.containers.Window', 'prompt_toolkit.layout.containers.VSplit', 'prompt_toolkit.layout.containers.HSplit'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/renderer.py-render-631
+            height = layout.container.preferred_height(
+prompt_toolkit.layout.layout.Layout.container
+{'prompt_toolkit.layout.containers.Window', 'prompt_toolkit.layout.containers.VSplit', 'prompt_toolkit.layout.containers.HSplit'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/layout/layout.py-reset-379
+        self.container.reset()
+prompt_toolkit.layout.layout.Layout.container
+{'prompt_toolkit.layout.containers.Window', 'prompt_toolkit.layout.containers.VSplit', 'prompt_toolkit.layout.containers.HSplit'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/renderer.py-render-674
+        layout.container.write_to_screen(
+prompt_toolkit.renderer.Renderer.output
+{'prompt_toolkit.output.base.DummyOutput', 'prompt_toolkit.output.plain_text.PlainTextOutput'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/renderer.py-render-605
+            self.output.reset_cursor_key_mode()
+prompt_toolkit.renderer.Renderer.output
+{'prompt_toolkit.output.base.DummyOutput', 'prompt_toolkit.output.plain_text.PlainTextOutput'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/renderer.py-render-600
+            self.output.enable_bracketed_paste()
+prompt_toolkit.renderer.Renderer.output
+{'prompt_toolkit.output.base.DummyOutput', 'prompt_toolkit.output.plain_text.PlainTextOutput'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/renderer.py-reset-413
+            self.output.disable_bracketed_paste()
+prompt_toolkit.renderer.Renderer.output
+{'prompt_toolkit.output.base.DummyOutput', 'prompt_toolkit.output.plain_text.PlainTextOutput'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/renderer.py-reset-421
+        self.output.flush()
+prompt_toolkit.renderer.Renderer.output
+{'prompt_toolkit.output.base.DummyOutput', 'prompt_toolkit.output.plain_text.PlainTextOutput'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/renderer.py-reset-416
+        self.output.reset_cursor_shape()
+prompt_toolkit.renderer.Renderer.output
+{'prompt_toolkit.output.base.DummyOutput', 'prompt_toolkit.output.plain_text.PlainTextOutput'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/renderer.py-reset-399
+            self.output.scroll_buffer_to_prompt()
+prompt_toolkit.key_binding.key_processor.KeyProcessor._flush_wait_task
+{'_asyncio._asyncio.Task'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/key_binding/key_processor.py-_start_timeout-412
+            self._flush_wait_task.cancel()
+prompt_toolkit.layout.controls.BufferControl.lexer
+{'prompt_toolkit.lexers.base.SimpleLexer', 'prompt_toolkit.lexers.base.DynamicLexer'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/layout/controls.py-get_formatted_text_for_line-651
+            return self.lexer.lex_document(document)
+prompt_toolkit.layout.controls.BufferControl.lexer
+{'prompt_toolkit.lexers.base.SimpleLexer', 'prompt_toolkit.lexers.base.DynamicLexer'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/prompt_toolkit/layout/controls.py-_get_formatted_text_for_line_func-653
+        key = (document.text, self.lexer.invalidation_hash())
+
+check: 7
+safe: 7

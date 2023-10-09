@@ -1,0 +1,266 @@
+/home/user/thefuck-master/pre_run_biend.py:3772: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3782: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(O6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3806: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ set$ & ' + ' & '.join(EXT_SET) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3807: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ event$ & ' + ' & '.join(EXT_EVENT) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3934: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/thefuck-master/pre_run_biend.py:3945: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3955: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3967: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3979: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:4101: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dash/testing/plugin.py:92: PytestDeprecationWarning: The hookimpl pytest_addhooks uses old-style configuration options (marks or attributes).
+Please use the pytest.hookimpl(tryfirst=True) decorator instead
+ to configure the hooks.
+ See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers
+  @pytest.mark.tryfirst
+============================= test session starts ==============================
+platform linux -- Python 3.9.15+, pytest-7.2.0, pluggy-1.0.0
+rootdir: /home/user/thefuck-master
+plugins: mock-3.10.0, hypothesis-6.56.4, httpbin-1.0.2, cov-4.0.0, time-machine-2.9.0, html-3.2.0, Faker-15.3.4, anyio-3.6.2, flaky-3.7.0, hydra-core-1.3.2, xdist-3.2.1, test-utils-0.0.8, lazy-fixture-0.6.3, docker-1.0.1, xonsh-0.13.4, pylama-8.4.1, dash-2.9.1
+collected 1935 items
+
+tests/test_argument_parser.py ............                               [  0%]
+tests/test_conf.py ............                                          [  1%]
+tests/test_corrector.py .......                                          [  1%]
+tests/test_logs.py ...                                                   [  1%]
+tests/test_readme.py .                                                   [  1%]
+tests/test_types.py ............................                         [  3%]
+tests/test_ui.py .........                                               [  3%]
+tests/test_utils.py .....................................                [  5%]
+tests/entrypoints/test_alias.py .......                                  [  5%]
+tests/entrypoints/test_fix_command.py ......                             [  6%]
+tests/entrypoints/test_not_configured.py .......                         [  6%]
+tests/functional/test_bash.py sssssssssssssss                            [  7%]
+tests/functional/test_fish.py ssssssss                                   [  7%]
+tests/functional/test_tcsh.py ssssssss                                   [  8%]
+tests/functional/test_zsh.py sssssssssssssss                             [  9%]
+tests/output_readers/test_rerun.py .........                             [  9%]
+tests/rules/test_adb_unknown_command.py .........                        [  9%]
+tests/rules/test_ag_literal.py ...                                       [ 10%]
+tests/rules/test_apt_get.py ............                                 [ 10%]
+tests/rules/test_apt_get_search.py ..........                            [ 11%]
+tests/rules/test_apt_invalid_operation.py ...........                    [ 11%]
+tests/rules/test_apt_list_upgradable.py .............                    [ 12%]
+tests/rules/test_apt_upgrade.py ....                                     [ 12%]
+tests/rules/test_aws_cli.py .......                                      [ 13%]
+tests/rules/test_az_cli.py .....                                         [ 13%]
+tests/rules/test_brew_cask_dependency.py .....                           [ 13%]
+tests/rules/test_brew_install.py ...                                     [ 13%]
+tests/rules/test_brew_link.py ....                                       [ 13%]
+tests/rules/test_brew_reinstall.py .....                                 [ 14%]
+tests/rules/test_brew_uninstall.py .....                                 [ 14%]
+tests/rules/test_brew_unknown_command.py ..                              [ 14%]
+tests/rules/test_brew_update_formula.py .....                            [ 14%]
+tests/rules/test_cargo_no_command.py ....                                [ 15%]
+tests/rules/test_cat_dir.py .........                                    [ 15%]
+tests/rules/test_cd_correction.py ......                                 [ 15%]
+tests/rules/test_cd_cs.py ..                                             [ 15%]
+tests/rules/test_cd_mkdir.py ........                                    [ 16%]
+tests/rules/test_cd_parent.py ..                                         [ 16%]
+tests/rules/test_chmod_x.py ........                                     [ 16%]
+tests/rules/test_choco_install.py ....................                   [ 17%]
+tests/rules/test_composer_not_command.py ..                              [ 17%]
+tests/rules/test_conda_mistype.py ..                                     [ 18%]
+tests/rules/test_cp_create_destination.py ........                       [ 18%]
+tests/rules/test_cp_omitting_directory.py ......                         [ 18%]
+tests/rules/test_dirty_untar.py ........................................ [ 20%]
+........................................................................ [ 24%]
+........................................................................ [ 28%]
+........................................................................ [ 32%]
+..............                                                           [ 32%]
+tests/rules/test_dirty_unzip.py ............                             [ 33%]
+tests/rules/test_django_south_ghost.py ..                                [ 33%]
+tests/rules/test_django_south_merge.py ..                                [ 33%]
+tests/rules/test_dnf_no_such_command.py .......                          [ 33%]
+tests/rules/test_docker_image_being_used_by_container.py ....            [ 34%]
+tests/rules/test_docker_login.py ..                                      [ 34%]
+tests/rules/test_docker_not_command.py .............                     [ 34%]
+tests/rules/test_dry.py ....                                             [ 35%]
+tests/rules/test_fab_command_not_found.py .........                      [ 35%]
+tests/rules/test_fix_alt_space.py ..                                     [ 35%]
+tests/rules/test_fix_file.py ........................................... [ 37%]
+........................................................................ [ 41%]
+                                                                         [ 41%]
+tests/rules/test_gem_unknown_command.py ......                           [ 41%]
+tests/rules/test_git_add.py .......                                      [ 42%]
+tests/rules/test_git_add_force.py ..                                     [ 42%]
+tests/rules/test_git_bisect_usage.py .........                           [ 42%]
+tests/rules/test_git_branch_0flag.py ....................                [ 43%]
+tests/rules/test_git_branch_delete.py ..                                 [ 44%]
+tests/rules/test_git_branch_delete_checked_out.py ......                 [ 44%]
+tests/rules/test_git_branch_exists.py .........                          [ 44%]
+tests/rules/test_git_branch_list.py ...                                  [ 44%]
+tests/rules/test_git_checkout.py ....................                    [ 45%]
+tests/rules/test_git_clone_git_clone.py ...                              [ 46%]
+tests/rules/test_git_clone_missing.py .................................. [ 47%]
+......................................                                   [ 49%]
+tests/rules/test_git_commit_add.py ........                              [ 50%]
+tests/rules/test_git_commit_amend.py .......                             [ 50%]
+tests/rules/test_git_commit_reset.py .......                             [ 51%]
+tests/rules/test_git_diff_no_index.py .....                              [ 51%]
+tests/rules/test_git_diff_staged.py ........                             [ 51%]
+tests/rules/test_git_fix_stash.py .......                                [ 52%]
+tests/rules/test_git_flag_after_filename.py ..............               [ 52%]
+tests/rules/test_git_help_aliased.py ......                              [ 53%]
+tests/rules/test_git_hook_bypass.py .............                        [ 53%]
+tests/rules/test_git_lfs_mistype.py ..                                   [ 53%]
+tests/rules/test_git_main_master.py .........                            [ 54%]
+tests/rules/test_git_merge.py ....                                       [ 54%]
+tests/rules/test_git_merge_unrelated.py ....                             [ 54%]
+tests/rules/test_git_not_command.py ..                                   [ 54%]
+tests/rules/test_git_pull.py ..                                          [ 54%]
+tests/rules/test_git_pull_clone.py ..                                    [ 55%]
+tests/rules/test_git_pull_uncommitted_changes.py ..                      [ 55%]
+tests/rules/test_git_pull_unstaged_changes.py ..                         [ 55%]
+tests/rules/test_git_push.py .................                           [ 56%]
+tests/rules/test_git_push_different_branch_names.py .....                [ 56%]
+tests/rules/test_git_push_force.py ............                          [ 57%]
+tests/rules/test_git_push_pull.py ..................                     [ 57%]
+tests/rules/test_git_push_without_commits.py ...                         [ 58%]
+tests/rules/test_git_rebase_merge_dir.py ........                        [ 58%]
+tests/rules/test_git_rebase_no_changes.py ..                             [ 58%]
+tests/rules/test_git_remote_delete.py ......                             [ 58%]
+tests/rules/test_git_remote_seturl_add.py .......                        [ 59%]
+tests/rules/test_git_rm_local_modifications.py .......                   [ 59%]
+tests/rules/test_git_rm_recursive.py ......                              [ 59%]
+tests/rules/test_git_rm_staged.py .......                                [ 60%]
+tests/rules/test_git_stash.py ......                                     [ 60%]
+tests/rules/test_git_stash_pop.py ..                                     [ 60%]
+tests/rules/test_git_tag_force.py ..                                     [ 60%]
+tests/rules/test_git_two_dashes.py .................                     [ 61%]
+tests/rules/test_go_run.py ....                                          [ 61%]
+tests/rules/test_go_unknown_command.py ...                               [ 62%]
+tests/rules/test_gradle_not_task.py ............                         [ 62%]
+tests/rules/test_gradle_wrapper.py ........                              [ 63%]
+tests/rules/test_grep_arguments_order.py ...............                 [ 63%]
+tests/rules/test_grep_recursive.py ..                                    [ 63%]
+tests/rules/test_gulp_not_task.py ....                                   [ 64%]
+tests/rules/test_has_exists_script.py ..                                 [ 64%]
+tests/rules/test_heroku_multiple_apps.py ...                             [ 64%]
+tests/rules/test_heroku_not_command.py ...                               [ 64%]
+tests/rules/test_history.py ......                                       [ 64%]
+tests/rules/test_hostscli.py ..                                          [ 65%]
+tests/rules/test_ifconfig_device_not_found.py ......                     [ 65%]
+tests/rules/test_java.py ....                                            [ 65%]
+tests/rules/test_javac.py ....                                           [ 65%]
+tests/rules/test_lein_not_task.py ..                                     [ 65%]
+tests/rules/test_ln_no_hard_link.py .............                        [ 66%]
+tests/rules/test_ln_s_order.py .......                                   [ 66%]
+tests/rules/test_long_form_help.py ......                                [ 67%]
+tests/rules/test_ls_all.py ..                                            [ 67%]
+tests/rules/test_ls_lah.py ..                                            [ 67%]
+tests/rules/test_man.py .................                                [ 68%]
+tests/rules/test_man_no_space.py ..                                      [ 68%]
+tests/rules/test_mercurial.py ...........................                [ 69%]
+tests/rules/test_missing_space_before_subcommand.py ..........           [ 70%]
+tests/rules/test_mkdir_p.py ...........                                  [ 70%]
+tests/rules/test_mvn_no_command.py ......                                [ 71%]
+tests/rules/test_mvn_unknown_lifecycle_phase.py ......                   [ 71%]
+tests/rules/test_nixos_cmd_not_found.py .....                            [ 71%]
+tests/rules/test_no_command.py ............                              [ 72%]
+tests/rules/test_no_such_file.py ......                                  [ 72%]
+tests/rules/test_npm_missing_script.py .........                         [ 73%]
+tests/rules/test_npm_run_script.py .........                             [ 73%]
+tests/rules/test_npm_wrong_command.py ...........                        [ 74%]
+tests/rules/test_omnienv_no_such_command.py ...........                  [ 74%]
+tests/rules/test_open.py .......................                         [ 75%]
+tests/rules/test_pacman.py ss......ssss.....                             [ 76%]
+tests/rules/test_pacman_invalid_option.py .............................. [ 78%]
+.                                                                        [ 78%]
+tests/rules/test_pacman_not_found.py sssss.....sssss.....                [ 79%]
+tests/rules/test_path_from_history.py ......                             [ 79%]
+tests/rules/test_php_s.py ......                                         [ 80%]
+tests/rules/test_pip_install.py ..                                       [ 80%]
+tests/rules/test_pip_unknown_command.py ...                              [ 80%]
+tests/rules/test_port_already_in_use.py ...............                  [ 81%]
+tests/rules/test_prove_recursively.py .......                            [ 81%]
+tests/rules/test_python_command.py ..                                    [ 81%]
+tests/rules/test_python_execute.py ....                                  [ 81%]
+tests/rules/test_python_module_error.py ......                           [ 82%]
+tests/rules/test_quotation_marks.py ......                               [ 82%]
+tests/rules/test_rails_migrations_pending.py .....                       [ 82%]
+tests/rules/test_react_native_command_unrecognized.py ......             [ 82%]
+tests/rules/test_remove_shell_prompt_literal.py .............            [ 83%]
+tests/rules/test_remove_trailing_cedilla.py ....                         [ 83%]
+tests/rules/test_rm_dir.py ..........                                    [ 84%]
+tests/rules/test_rm_root.py .....                                        [ 84%]
+tests/rules/test_scm_correction.py ........                              [ 85%]
+tests/rules/test_sed_unterminated_s.py ..                                [ 85%]
+tests/rules/test_sl_ls.py ..                                             [ 85%]
+tests/rules/test_ssh_known_host.py ...                                   [ 85%]
+tests/rules/test_sudo.py .................                               [ 86%]
+tests/rules/test_sudo_command_from_user_path.py .......                  [ 86%]
+tests/rules/test_switch_lang.py ..................                       [ 87%]
+tests/rules/test_systemctl.py ..                                         [ 87%]
+tests/rules/test_terraform_init.py .........                             [ 88%]
+tests/rules/test_terraform_no_command.py .......                         [ 88%]
+tests/rules/test_tmux.py ..                                              [ 88%]
+tests/rules/test_touch.py ......                                         [ 88%]
+tests/rules/test_tsuru_login.py .......                                  [ 89%]
+tests/rules/test_tsuru_not_command.py .............                      [ 89%]
+tests/rules/test_unknown_command.py ...........                          [ 90%]
+tests/rules/test_unsudo.py ....                                          [ 90%]
+tests/rules/test_vagrant_up.py ............                              [ 91%]
+tests/rules/test_whois.py .......                                        [ 91%]
+tests/rules/test_workon_doesnt_exists.py .........                       [ 92%]
+tests/rules/test_wrong_hyphen_before_subcommand.py .......               [ 92%]
+tests/rules/test_yarn_alias.py ......                                    [ 92%]
+tests/rules/test_yarn_command_replaced.py .......                        [ 93%]
+tests/rules/test_yum_invalid_operation.py ...........                    [ 93%]
+tests/shells/test_bash.py ................                               [ 94%]
+tests/shells/test_fish.py .................................              [ 96%]
+tests/shells/test_generic.py ...........                                 [ 96%]
+tests/shells/test_powershell.py ......                                   [ 97%]
+tests/shells/test_tcsh.py ...............                                [ 97%]
+tests/shells/test_zsh.py ..............                                  [ 98%]
+tests/specific/test_git.py ..................                            [ 99%]
+tests/specific/test_npm.py .                                             [ 99%]
+tests/specific/test_sudo.py .......                                      [100%]
+
+=============================== warnings summary ===============================
+thefuck/conf.py:1
+  /home/user/thefuck-master/thefuck/conf.py:1: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+    from imp import load_source
+
+tests/test_conf.py::test_get_user_dir_path[True-~/.config-~/.thefuck]
+  /home/user/thefuck-master/thefuck/conf.py:52: UserWarning: Config path /home/user/.thefuck is deprecated. Please move to /home/user/.config/thefuck
+    warn(u'Config path {} is deprecated. Please move to {}'.format(
+
+tests/test_conf.py::test_get_user_dir_path[True-/user/test/config/-~/.thefuck]
+  /home/user/thefuck-master/thefuck/conf.py:52: UserWarning: Config path /home/user/.thefuck is deprecated. Please move to /user/test/config/thefuck
+    warn(u'Config path {} is deprecated. Please move to {}'.format(
+
+tests/rules/test_apt_get.py::test_match[command0-packages0]
+  /home/user/purepython/cpython-3.9/Lib/subprocess.py:1052: ResourceWarning: subprocess 3154 is still running
+    _warn("subprocess %s is still running" % self.pid,
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+tests/rules/test_apt_get.py::test_match[command0-packages0]
+  /home/user/purepython/cpython-3.9/Lib/unittest/mock.py:2103: ResourceWarning: unclosed file <_io.BufferedReader name=14>
+    def __init__(self, name, parent):
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+tests/rules/test_apt_get.py::test_match[command0-packages0]
+  /home/user/purepython/cpython-3.9/Lib/unittest/mock.py:2103: ResourceWarning: unclosed file <_io.BufferedWriter name=13>
+    def __init__(self, name, parent):
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+========== 1873 passed, 62 skipped, 6 warnings in 1767.98s (0:29:27) ===========
+Traceback (most recent call last):
+  File "/home/user/thefuck-master/pre_run_biend.py", line 102, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'

@@ -1,0 +1,14 @@
+markdown.treeprocessors.InlineProcessor.parent_map
+{'builtins.dict'}
+ /home/user/markdown/markdown/treeprocessors.py-run-387
+                    self.parent_map[child] = currElement
+markdown.treeprocessors.InlineProcessor.parent_map
+{'builtins.dict'}
+ /home/user/markdown/markdown/treeprocessors.py-run-384
+                        self.parent_map[newChild[0]] = currElement
+markdown.treeprocessors.InlineProcessor.parent_map
+{'builtins.dict'}
+ /home/user/markdown/markdown/treeprocessors.py-run-370
+                        self.parent_map[item[0]] = child
+check: 1
+safe: 1

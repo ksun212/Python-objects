@@ -1,0 +1,228 @@
+ /home/user/stanza/stanza/models/common/vocab.py-unit2id-61
+stanza.models.tokenization.vocab.Vocab._unit2id
+            return self._unit2id[unit]
+{'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-unit2id-61
+stanza.models.mwt.vocab.Vocab._unit2id
+            return self._unit2id[unit]
+{'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-__len__-75
+stanza.models.mwt.vocab.Vocab._id2unit
+        return len(self._id2unit)
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-id2unit-66
+stanza.models.mwt.vocab.Vocab._id2unit
+        return self._id2unit[id]
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/pretrain.py-build_vocab-22
+stanza.models.common.pretrain.PretrainedWordVocab.data
+        self._id2unit = VOCAB_PREFIX + self.data
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-__len__-75
+stanza.models.common.pretrain.PretrainedWordVocab._id2unit
+        return len(self._id2unit)
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-id2unit-66
+stanza.models.common.pretrain.PretrainedWordVocab._id2unit
+        return self._id2unit[id]
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-unit2id-63
+stanza.models.common.pretrain.PretrainedWordVocab._unit2id
+            return self._unit2id[UNK]
+{'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-unit2id-61
+stanza.models.common.pretrain.PretrainedWordVocab._unit2id
+            return self._unit2id[unit]
+{'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/tests/classifiers/test_classifier.py-test_train_filter_channels-142
+stanza.models.classifiers.trainer.Trainer.model
+        assert trainer.model.fc_input_size == 40
+{'stanza.models.classifiers.cnn_classifier.CNNClassifier', 'stanza.models.classifiers.constituency_classifier.ConstituencyClassifier'}
+ /home/user/stanza/stanza/tests/classifiers/test_classifier.py-test_train_filter_channels-147
+stanza.models.classifiers.trainer.Trainer.model
+        assert trainer.model.fc_input_size == 50
+{'stanza.models.classifiers.cnn_classifier.CNNClassifier', 'stanza.models.classifiers.constituency_classifier.ConstituencyClassifier'}
+ /home/user/stanza/stanza/models/constituency/lstm_model.py-initial_word_queues-716
+stanza.models.constituency.lstm_model.LSTMModel.forward_charlm
+            all_forward_chars = self.forward_charlm.build_char_representation(all_word_labels)
+{'missing'}
+ /home/user/stanza/stanza/models/constituency/lstm_model.py-__init__-284
+stanza.models.constituency.lstm_model.LSTMModel.forward_charlm
+            self.word_input_size += self.forward_charlm.hidden_dim()
+{'builtins.NoneType', 'missing'}
+ /home/user/stanza/stanza/models/constituency/lstm_model.py-__init__-291
+stanza.models.constituency.lstm_model.LSTMModel.backward_charlm
+            self.word_input_size += self.backward_charlm.hidden_dim()
+{'builtins.NoneType', 'missing'}
+ /home/user/stanza/stanza/models/constituency/lstm_model.py-initial_word_queues-720
+stanza.models.constituency.lstm_model.LSTMModel.backward_charlm
+            all_backward_chars = self.backward_charlm.build_char_representation(all_word_labels)
+{'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-build_vocab-239
+stanza.models.common.vocab.CharVocab.data
+        if isinstance(self.data[0][0], (list, tuple)): # general data from DataLoader
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-unit2id-61
+stanza.models.common.vocab.CharVocab._unit2id
+            return self._unit2id[unit]
+{'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-__len__-75
+stanza.models.common.vocab.CharVocab._id2unit
+        return len(self._id2unit)
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-unit2id-61
+stanza.models.pos.vocab.WordVocab._unit2id
+            return self._unit2id[unit]
+{'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/pos/vocab.py-unit2id-20
+stanza.models.pos.vocab.WordVocab._unit2id
+            return self._unit2id[EMPTY]
+{'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-unit2id-63
+stanza.models.pos.vocab.WordVocab._unit2id
+            return self._unit2id[UNK]
+{'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-__len__-75
+stanza.models.pos.vocab.WordVocab._id2unit
+        return len(self._id2unit)
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-id2unit-66
+stanza.models.pos.vocab.WordVocab._id2unit
+        return self._id2unit[id]
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-build_vocab-165
+stanza.models.pos.vocab.FeatureVocab._id2unit
+                        self._id2unit[key].append(parts[key])
+{'collections.collections.OrderedDict', 'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-id2unit-144
+stanza.models.pos.vocab.FeatureVocab._id2unit
+                items.append("{}={}".format(k, self._id2unit[k][v]))
+{'collections.collections.OrderedDict', 'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-id2unit-141
+stanza.models.pos.vocab.FeatureVocab._id2unit
+        for v, k in zip(id, self._id2unit.keys()):
+{'collections.collections.OrderedDict', 'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-build_vocab-161
+stanza.models.pos.vocab.FeatureVocab._id2unit
+                        self._id2unit[key] = copy(VOCAB_PREFIX)
+{'collections.collections.OrderedDict', 'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-<listcomp>-188
+stanza.models.pos.vocab.FeatureVocab._id2unit
+        self._id2unit = OrderedDict([(k, self._id2unit[k]) for k in sorted(self._id2unit.keys())])
+{'collections.collections.OrderedDict', 'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-build_vocab-168
+stanza.models.pos.vocab.FeatureVocab._id2unit
+            if len(self._id2unit) == 0:
+{'collections.collections.OrderedDict', 'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-build_vocab-188
+stanza.models.pos.vocab.FeatureVocab._id2unit
+        self._id2unit = OrderedDict([(k, self._id2unit[k]) for k in sorted(self._id2unit.keys())])
+{'collections.collections.OrderedDict', 'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-__len__-75
+stanza.models.pos.vocab.FeatureVocab._id2unit
+        return len(self._id2unit)
+{'collections.collections.OrderedDict', 'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-build_vocab-164
+stanza.models.pos.vocab.FeatureVocab._id2unit
+                    if parts[key] not in self._id2unit[key]:
+{'collections.collections.OrderedDict', 'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/doc.py-init_from_misc-751
+stanza.models.common.doc.Word._misc
+    for item in unit._misc.split('|'):
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/models/common/doc.py-init_from_misc-751
+stanza.models.common.doc.Token._misc
+    for item in unit._misc.split('|'):
+{'builtins.NoneType', 'builtins.str'}
+ /home/user/stanza/stanza/models/tokenization/data.py-extract_dict_feat-100
+stanza.models.tokenization.data.TokenizationDataset.dictionary
+                feat = 1 if forward_word in self.dictionary["words"] else 0
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/models/tokenization/data.py-extract_dict_feat-111
+stanza.models.tokenization.data.TokenizationDataset.dictionary
+                if backward_word not in self.dictionary["suffixes"]:
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/models/tokenization/data.py-extract_dict_feat-104
+stanza.models.tokenization.data.TokenizationDataset.dictionary
+                if forward_word not in self.dictionary["prefixes"]:
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/models/tokenization/data.py-extract_dict_feat-109
+stanza.models.tokenization.data.TokenizationDataset.dictionary
+                feat = 1 if backward_word in self.dictionary["words"] else 0
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/models/common/vocab.py-unit2id-61
+stanza.models.lemma.vocab.Vocab._unit2id
+            return self._unit2id[unit]
+{'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-__len__-75
+stanza.models.lemma.vocab.Vocab._id2unit
+        return len(self._id2unit)
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-id2unit-66
+stanza.models.lemma.vocab.Vocab._id2unit
+        return self._id2unit[id]
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-unit2id-61
+stanza.models.ner.vocab.TagVocab._unit2id
+            return self._unit2id[unit]
+{'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-unit2id-63
+stanza.models.ner.vocab.TagVocab._unit2id
+            return self._unit2id[UNK]
+{'builtins.dict', 'missing'}
+ /home/user/stanza/stanza/models/common/vocab.py-__len__-75
+stanza.models.ner.vocab.TagVocab._id2unit
+        return len(self._id2unit)
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/common/vocab.py-id2unit-66
+stanza.models.ner.vocab.TagVocab._id2unit
+        return self._id2unit[id]
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/ner/model.py-__init__-64
+stanza.models.ner.model.NERTagger.delta_emb
+                nn.init.zeros_(self.delta_emb.weight)
+{'builtins.NoneType', 'missing'}
+ /home/user/stanza/stanza/models/lemma/data.py-__init__-47
+stanza.models.lemma.data.DataLoader.vocab
+        data = self.preprocess(data, self.vocab['char'], self.vocab['pos'], args)
+{'missing', 'stanza.models.lemma.vocab.MultiVocab'}
+ /home/user/stanza/stanza/models/lemma/data.py-__getitem__-90
+stanza.models.lemma.data.DataLoader.data
+        if key < 0 or key >= len(self.data):
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/lemma/data.py-__getitem__-92
+stanza.models.lemma.data.DataLoader.data
+        batch = self.data[key]
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/lemma/data.py-__len__-84
+stanza.models.lemma.data.DataLoader.data
+        return len(self.data)
+{'missing', 'builtins.list'}
+ /home/user/stanza/stanza/models/tokenization/data.py-extract_dict_feat-100
+stanza.models.tokenization.data.DataLoader.dictionary
+                feat = 1 if forward_word in self.dictionary["words"] else 0
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/models/tokenization/data.py-extract_dict_feat-111
+stanza.models.tokenization.data.DataLoader.dictionary
+                if backward_word not in self.dictionary["suffixes"]:
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/models/tokenization/data.py-extract_dict_feat-109
+stanza.models.tokenization.data.DataLoader.dictionary
+                feat = 1 if backward_word in self.dictionary["words"] else 0
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/models/tokenization/data.py-extract_dict_feat-104
+stanza.models.tokenization.data.DataLoader.dictionary
+                if forward_word not in self.dictionary["prefixes"]:
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/stanza/stanza/models/tokenization/data.py-advance_old_batch-194
+stanza.models.tokenization.data.DataLoader.vocab
+        unkid = self.vocab.unit2id('<UNK>')
+{'stanza.models.tokenization.vocab.Vocab', 'builtins.NoneType'}
+ /home/user/stanza/stanza/models/tokenization/data.py-advance_old_batch-195
+stanza.models.tokenization.data.DataLoader.vocab
+        padid = self.vocab.unit2id('<PAD>')
+{'stanza.models.tokenization.vocab.Vocab', 'builtins.NoneType'}
+ /home/user/stanza/stanza/models/tokenization/data.py-<listcomp>-142
+stanza.models.tokenization.data.DataLoader.vocab
+            return (np.array([self.vocab.unit2id(y) for y in sent_units]),
+{'stanza.models.tokenization.vocab.Vocab', 'builtins.NoneType'}

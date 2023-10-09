@@ -1,0 +1,114 @@
+/home/user/rich/rich-master/rich/_log_render.py-__call__-51$$self.level_width$${'builtins.NoneType', 'builtins.int'}$${'builtins.NoneType'} || yes
+/home/user/rich/rich-master/rich/align.py-__repr__-67$$self.renderable$${'rich.table.Table', 'rich.pretty.Pretty', 'rich.text.Text', 'builtins.str', 'rich.panel.Panel'}$${'builtins.str'} || yes
+/home/user/rich/rich-master/rich/align.py-__rich_measure__-230$$self.renderable$${'rich.table.Table', 'rich.pretty.Pretty', 'rich.text.Text', 'builtins.str', 'rich.panel.Panel'}$${'builtins.str', 'rich.panel.Panel', 'rich.text.Text'} || yes
+/home/user/rich/rich-master/rich/bar.py-__rich_measure__-92$$self.width$${'builtins.NoneType', 'builtins.int'}$${'builtins.NoneType'} || yes
+/home/user/rich/rich-master/tests/test_console.py-test_init-122$$console._color_system$${'builtins.NoneType', 'rich.color.ColorSystem'}$${'builtins.NoneType'} || no
+/home/user/rich/rich-master/tests/test_console.py-test_init-124$$console._color_system$${'builtins.NoneType', 'rich.color.ColorSystem'}$${'rich.color.ColorSystem'} || no
+/home/user/rich/rich-master/rich/console.py-__init__-671$$self._environ$${'missing', 'builtins.dict'}$${'os._Environ', 'builtins.dict'} || no
+/home/user/rich/rich-master/rich/console.py-__init__-677$$self._environ$${'missing', 'builtins.dict'}$${'os._Environ', 'builtins.dict'} || no
+/home/user/rich/rich-master/rich/console.py-__init__-696$$self._environ$${'missing', 'builtins.dict'}$${'os._Environ', 'builtins.dict'} || no
+/home/user/rich/rich-master/rich/console.py-__init__-700$$self._environ$${'missing', 'builtins.dict'}$${'os._Environ', 'builtins.dict'} || no
+/home/user/rich/rich-master/rich/console.py-__init__-715$$self._environ$${'missing', 'builtins.dict'}$${'os._Environ', 'builtins.dict'} || no
+/home/user/rich/rich-master/rich/console.py-__init__-742$$self._environ$${'missing', 'builtins.dict'}$${'os._Environ', 'builtins.dict'} || no
+/home/user/rich/rich-master/rich/console.py-_detect_color_system-811$$self._environ$${'missing', 'builtins.dict'}$${'os._Environ', 'builtins.dict'} || no 
+/home/user/rich/rich-master/rich/console.py-_detect_color_system-814$$self._environ$${'missing', 'builtins.dict'}$${'os._Environ', 'builtins.dict'} || no
+/home/user/rich/rich-master/rich/console.py-is_dumb_terminal-968$$self._environ$${'missing', 'builtins.dict'}$${'os._Environ', 'builtins.dict'} || no
+/home/user/rich/rich-master/rich/console.py-size-1016$$self._environ$${'missing', 'builtins.dict'}$${'os._Environ', 'builtins.dict'} || no
+/home/user/rich/rich-master/rich/console.py-size-1019$$self._environ$${'missing', 'builtins.dict'}$${'os._Environ', 'builtins.dict'} || no
+/home/user/rich/rich-master/tests/test_console.py-test_get_time-696$$console.get_datetime$${'builtins.function', 'builtins.builtin_function_or_method'}$${'builtins.function'} || yes
+/home/user/rich/rich-master/rich/progress.py-__init__-1098$$self.get_time$${'builtins.function', 'builtins.builtin_function_or_method'}$${'builtins.builtin_function_or_method'} || yes
+/home/user/rich/rich-master/tests/test_console.py-test_get_time-695$$console.get_time$${'builtins.function', 'builtins.builtin_function_or_method'}$${'builtins.function'} || yes
+/home/user/rich/rich-master/rich/align.py-__rich_console__-265$$options.height$${'builtins.NoneType', 'builtins.int'}$${'builtins.NoneType'} || bad
+/home/user/rich/rich-master/rich/console.py-update_screen-1802$$self.height$${'builtins.NoneType', 'builtins.int'}$${'builtins.NoneType'} || bad
+/home/user/rich/rich-master/rich/layout.py-__rich_console__-64$$options.height$${'builtins.NoneType', 'builtins.int'}$${'builtins.int'} || bad
+/home/user/rich/rich-master/rich/layout.py-render-378$$console.height$${'builtins.NoneType', 'builtins.int'}$${'builtins.int'} || bad
+/home/user/rich/rich-master/tests/test_console.py-test_console_options_update_height-113$$options.height$${'builtins.NoneType', 'builtins.int'}$${'builtins.NoneType'} || no
+/home/user/rich/rich-master/tests/test_console.py-test_console_options_update_height-115$$options.height$${'builtins.NoneType', 'builtins.int'}$${'builtins.NoneType'} || no
+/home/user/rich/rich-master/tests/test_console.py-test_console_options_update_height-116$$render_options.height$${'builtins.NoneType', 'builtins.int'}$${'builtins.int'} || no
+/home/user/rich/rich-master/rich/tree.py-__rich_console__-139$$options.justify$${'builtins.NoneType', 'builtins.str'}$${'builtins.NoneType'} || yes
+/home/user/rich/rich-master/rich/console.py-render-1308$$_options.markup$${'builtins.NoneType', 'builtins.bool'}$${'builtins.NoneType'} || yes
+/home/user/rich/rich-master/rich/measure.py-get-100$$options.markup$${'builtins.NoneType', 'builtins.bool'}$${'builtins.NoneType'} || yes
+/home/user/rich/rich-master/rich/console.py-renderables-478$$self._render$${'builtins.NoneType', 'builtins.list'}$${'builtins.list'} || no_assign 
+/home/user/rich/rich-master/rich/constrain.py-__rich_console__-26$$self.renderable$${'rich.table.Table', 'rich.pretty.Pretty', 'rich.text.Text', 'builtins.str', 'rich.panel.Panel'}$${'rich.panel.Panel'} || yes
+/home/user/rich/rich-master/rich/constrain.py-__rich_measure__-36$$self.renderable$${'rich.table.Table', 'rich.pretty.Pretty', 'rich.text.Text', 'builtins.str', 'rich.panel.Panel'}$${'rich.text.Text'} || yes
+/home/user/rich/rich-master/tests/test_layout.py-test_render-43$$top._renderable$${'rich.layout._Placeholder', 'rich.panel.Panel', 'builtins.str'}$${'rich.panel.Panel'} || yes
+/home/user/rich/rich-master/rich/layout.py-__rich_console__-68$$layout.name$${'builtins.str', 'builtins.NoneType'}$${'builtins.str'} || yes
+/home/user/rich/rich-master/rich/layout.py-tree-245$$layout.splitter$${'rich.layout.ColumnSplitter', 'rich.layout.RowSplitter'}$${'rich.layout.ColumnSplitter'} || yes
+/home/user/rich/rich-master/rich/live.py-start-132$$self._refresh_thread$${'rich.live._RefreshThread', 'builtins.NoneType'}$${'rich.live._RefreshThread'} || no_assign
+/home/user/rich/rich-master/rich/live.py-stop-142$$self._refresh_thread$${'rich.live._RefreshThread', 'builtins.NoneType'}$${'rich.live._RefreshThread'} || yes
+/home/user/rich/rich-master/rich/live.py-__enter__-166$$self._renderable$${'builtins.str', 'rich.spinner.Spinner', 'builtins.NoneType', 'rich.text.Text'}$${'builtins.str', 'builtins.NoneType', 'rich.text.Text'} || yes
+/home/user/purepython/cpython-3.9/Lib/threading.py-_bootstrap_inner-971$$self._ident$${'builtins.int', 'builtins.NoneType'}$${'builtins.int'} || bad
+/home/user/purepython/cpython-3.9/Lib/threading.py-_set_tstate_lock-956$$self._tstate_lock$${'builtins.NoneType', '_thread._thread.lock'}$${'_thread._thread.lock'} || bad
+/home/user/rich/rich-master/rich/live_render.py-__rich_console__-86$$self.renderable$${'rich.console.Group', 'rich.spinner.Spinner', 'rich.text.Text', 'builtins.str', 'rich.screen.Screen'}$${'rich.console.Group', 'builtins.str', 'rich.screen.Screen'} || yes
+/home/user/rich/rich-master/tests/test_live_render.py-test_renderable-14$$live_render.renderable$${'rich.console.Group', 'rich.spinner.Spinner', 'rich.text.Text', 'builtins.str', 'rich.screen.Screen'}$${'builtins.str'} || yes
+/home/user/rich/rich-master/tests/test_live_render.py-test_renderable-16$$live_render.renderable$${'rich.console.Group', 'rich.spinner.Spinner', 'rich.text.Text', 'builtins.str', 'rich.screen.Screen'}$${'builtins.str'} || yes
+/home/user/rich/rich-master/rich/logging.py-render_message-194$$self.keywords$${'builtins.list', 'builtins.NoneType'}$${'builtins.list'} || yes
+/home/user/rich/rich-master/rich/markdown.py-__rich_console__-251$$self.list_start$${'builtins.int', 'builtins.NoneType'}$${'builtins.int'} || yes
+/home/user/rich/rich-master/rich/padding.py-__repr__-77$$self.renderable$${'rich.__main__.ColorBox', 'rich.panel.Panel', 'tests.test_console.Panels', 'rich.rule.Rule', 'rich.console.Group', 'rich.constrain.Constrain', 'rich.progress_bar.ProgressBar', 'rich.text.Text', 'rich.containers.Renderables', 'rich.align.Align', 'builtins.str', 'rich.segment.Segments', 'rich.table.Table', 'rich.syntax.Syntax', 'rich.pretty.Pretty', 'rich.markdown.Markdown'}$${'builtins.str'} || yes
+/home/user/rich/rich-master/rich/padding.py-__rich_console__-87$$self.renderable$${'rich.__main__.ColorBox', 'rich.panel.Panel', 'tests.test_console.Panels', 'rich.rule.Rule', 'rich.console.Group', 'rich.constrain.Constrain', 'rich.progress_bar.ProgressBar', 'rich.text.Text', 'rich.containers.Renderables', 'rich.align.Align', 'builtins.str', 'rich.segment.Segments', 'rich.table.Table', 'rich.syntax.Syntax', 'rich.pretty.Pretty', 'rich.markdown.Markdown'}$${'builtins.str'} || yes
+/home/user/rich/rich-master/rich/padding.py-__rich_measure__-132$$self.renderable$${'rich.__main__.ColorBox', 'rich.panel.Panel', 'tests.test_console.Panels', 'rich.rule.Rule', 'rich.console.Group', 'rich.constrain.Constrain', 'rich.progress_bar.ProgressBar', 'rich.text.Text', 'rich.containers.Renderables', 'rich.align.Align', 'builtins.str', 'rich.segment.Segments', 'rich.table.Table', 'rich.syntax.Syntax', 'rich.pretty.Pretty', 'rich.markdown.Markdown'}$${'rich.align.Align', 'rich.__main__.ColorBox', 'rich.pretty.Pretty', 'builtins.str', 'rich.panel.Panel', 'rich.rule.Rule', 'rich.console.Group', 'rich.table.Table', 'rich.syntax.Syntax', 'rich.constrain.Constrain', 'rich.progress_bar.ProgressBar', 'rich.text.Text', 'rich.containers.Renderables', 'rich.markdown.Markdown'} || yes
+/home/user/rich/rich-master/rich/panel.py-__rich_measure__-274$$self.renderable$${'rich.align.Align', 'rich.pretty.Pretty', 'tests.test_protocol.Foo', 'builtins.str', 'tests.test_console.Panels', 'rich.panel.Panel', 'rich.console.Group', 'rich.table.Table', 'rich.syntax.Syntax', 'rich.text.Text'}$${'builtins.str', 'rich.table.Table', 'rich.pretty.Pretty'} || yes
+/home/user/rich/rich-master/rich/pretty.py-expand-539$$node.children$${'builtins.list', 'builtins.NoneType'}$${'builtins.list'} || no_assert
+/home/user/rich/rich-master/rich/pretty.py-expand-548$$node.children$${'builtins.list', 'builtins.NoneType'}$${'builtins.list'} || no_assert
+/home/user/rich/rich-master/rich/pretty.py-expand-549$$node.children$${'builtins.list', 'builtins.NoneType'}$${'builtins.list'} || no_assert
+/home/user/rich/rich-master/rich/pretty.py-expand-540$$node.key_repr$${'builtins.NoneType', 'builtins.str'}$${'builtins.str'} || yes
+/home/user/rich/rich-master/rich/pretty.py-expand-542$$node.key_separator$${'missing', 'builtins.str'}$${'builtins.str'} || bad_missing
+/home/user/rich/rich-master/rich/pretty.py-iter_tokens-443$$self.key_separator$${'missing', 'builtins.str'}$${'builtins.str'}  || bad_missing
+/home/user/rich/rich-master/rich/pretty.py-__rich_measure__-369$$self._object$${'builtins.tuple', 'builtins.list', 'rich.layout.Layout', 'tests.test_inspect.Thing', 'tests.test_repr.Bar', 'tests.test_repr.Foo', 'builtins.dict', 'builtins.int', 'tests.test_inspect.NotCallable', 'tests.test_pretty.Hello', 'rich.pretty.Node', 'rich.console.Console', 'tests.test_pretty.Thing', 'builtins.str'}$${'builtins.list', 'tests.test_inspect.Thing', 'builtins.dict', 'builtins.int', 'tests.test_inspect.NotCallable', 'rich.pretty.Node', 'rich.console.Console', 'rich.layout.Layout'} || yes
+/home/user/rich/rich-master/rich/pretty.py-check_length-531$$self.node$${'rich.pretty.Node', 'builtins.NoneType'}$${'rich.pretty.Node'} || no_assert
+/home/user/rich/rich-master/rich/pretty.py-check_length-532$$self.node$${'rich.pretty.Node', 'builtins.NoneType'}$${'rich.pretty.Node'} || no_assert
+/home/user/rich/rich-master/rich/pretty.py-expand-536$$self.node$${'rich.pretty.Node', 'builtins.NoneType'}$${'rich.pretty.Node'} || no_assert
+/home/user/rich/rich-master/tests/test_progress.py-test_bar_columns-56$$bar_column.bar_width$${'builtins.int', 'builtins.NoneType'}$${'builtins.int'} || no_assert
+/home/user/rich/rich-master/rich/progress.py-render-681$$task.finished_time$${'builtins.NoneType', 'builtins.float'}$${'builtins.float'} || no_sensi
+/home/user/rich/rich-master/rich/progress.py-update-1460$$task.finished_time$${'builtins.NoneType', 'builtins.float'}$${'builtins.NoneType'} || no_sensi
+/home/user/rich/rich-master/rich/progress.py-elapsed-991$$self.start_time$${'builtins.int', 'missing', 'builtins.float'}$${'builtins.int', 'builtins.NoneType', 'builtins.float'} || bad_missing
+/home/user/rich/rich-master/rich/progress.py-elapsed-994$$self.start_time$${'builtins.int', 'missing', 'builtins.float'}$${'builtins.int', 'builtins.float'} || bad_missing
+/home/user/rich/rich-master/rich/progress.py-elapsed-995$$self.start_time$${'builtins.int', 'missing', 'builtins.float'}$${'builtins.int', 'builtins.float'} || bad_missing
+/home/user/rich/rich-master/rich/progress.py-speed-1014$$self.start_time$${'builtins.int', 'missing', 'builtins.float'}$${'builtins.NoneType', 'builtins.float'} || bad_missing
+/home/user/rich/rich-master/rich/progress.py-start_task-1388$$task.start_time$${'builtins.int', 'missing', 'builtins.float'}$${'builtins.NoneType', 'builtins.float'} || bad_missing
+/home/user/rich/rich-master/rich/progress.py-started-979$$self.start_time$${'builtins.int', 'missing', 'builtins.float'}$${'builtins.int', 'builtins.NoneType', 'builtins.float'} || bad_missing
+/home/user/rich/rich-master/rich/progress.py-stop_task-1402$$task.start_time$${'builtins.int', 'missing', 'builtins.float'}$${'builtins.NoneType', 'builtins.float'} || bad_missing
+/home/user/rich/rich-master/rich/progress.py-elapsed-993$$self.stop_time$${'builtins.int', 'missing', 'builtins.float'}$${'builtins.int', 'builtins.NoneType', 'builtins.float'} || bad_missing
+/home/user/rich/rich-master/rich/progress.py-elapsed-994$$self.stop_time$${'builtins.int', 'missing', 'builtins.float'}$${'builtins.int', 'builtins.float'} || bad_missing 
+/home/user/rich/rich-master/rich/progress.py-advance-1529$$task.total$${'builtins.int', 'builtins.NoneType', 'builtins.float'}$${'builtins.int', 'builtins.float'} || yes
+/home/user/rich/rich-master/rich/progress.py-advance-1530$$task.total$${'builtins.int', 'builtins.NoneType', 'builtins.float'}$${'builtins.int', 'builtins.float'} || yes
+/home/user/rich/rich-master/rich/progress.py-percentage-1005$$self.total$${'builtins.int', 'builtins.NoneType', 'builtins.float'}$${'builtins.int', 'builtins.float'} || yes
+/home/user/rich/rich-master/rich/progress.py-remaining-984$$self.total$${'builtins.int', 'builtins.NoneType', 'builtins.float'}$${'builtins.float'} || yes
+/home/user/rich/rich-master/rich/progress.py-remaining-986$$self.total$${'builtins.int', 'builtins.float'}$${'builtins.float'} || yes
+/home/user/rich/rich-master/rich/progress.py-render-746$$task.total$${'builtins.int', 'builtins.NoneType', 'builtins.float'}$${'builtins.int', 'builtins.float'} || yes
+/home/user/rich/rich-master/rich/progress.py-render-791$$task.total$${'builtins.int', 'builtins.NoneType', 'builtins.float'}$${'builtins.int', 'builtins.float'} || yes
+/home/user/rich/rich-master/rich/progress.py-render-891$$task.total$${'builtins.NoneType', 'builtins.int', 'builtins.float'}$${'builtins.int'} || yes
+/home/user/rich/rich-master/rich/progress.py-render-892$$task.total$${'builtins.float', 'builtins.int'}$${'builtins.int'} || yes
+/home/user/rich/rich-master/rich/progress.py-update-1434$$task.total$${'builtins.NoneType', 'builtins.int', 'builtins.float'}$${'builtins.float', 'builtins.int'} || no_assign
+/home/user/rich/rich-master/rich/progress.py-update-1458$$task.total$${'builtins.NoneType', 'builtins.int', 'builtins.float'}$${'builtins.float', 'builtins.int'} || no_assign
+/home/user/rich/rich-master/rich/progress.py-update-1459$$task.total$${'builtins.NoneType', 'builtins.int', 'builtins.float'}$${'builtins.float', 'builtins.int'} || no_assign
+/home/user/rich/rich-master/tests/test_progress.py-test_reset-486$$task.total$${'builtins.NoneType', 'builtins.int', 'builtins.float'}$${'builtins.int'} || no_assert
+/home/user/rich/rich-master/rich/progress.py-__call__-519$$self.max_refresh$${'builtins.int', 'missing'}$${'builtins.NoneType', 'builtins.int'} || bad_missing
+/home/user/rich/rich-master/rich/progress.py-__call__-525$$self.max_refresh$${'builtins.int', 'missing'}$${'builtins.int'} || bad_missing
+/home/user/rich/rich-master/rich/progress_bar.py-__repr__-58$$self.total$${'builtins.NoneType', 'builtins.float', 'builtins.int'}$${'builtins.float'} || yes
+/home/user/rich/rich-master/rich/progress_bar.py-__rich_console__-182$$self.total$${'builtins.NoneType', 'builtins.float', 'builtins.int'}$${'builtins.float', 'builtins.int'} || yes
+/home/user/rich/rich-master/rich/progress_bar.py-percentage_completed-63$$self.total$${'builtins.NoneType', 'builtins.float', 'builtins.int'}$${'builtins.float', 'builtins.int'} || yes
+/home/user/rich/rich-master/rich/progress_bar.py-update-124$$self.total$${'builtins.NoneType', 'builtins.float', 'builtins.int'}$${'builtins.float', 'builtins.int'} || yes
+/home/user/rich/rich-master/tests/test_bar.py-test_update-18$$bar.total$${'builtins.NoneType', 'builtins.float', 'builtins.int'}$${'builtins.float'} || no_assert
+/home/user/rich/rich-master/tests/test_bar.py-test_update-21$$bar.total$${'builtins.NoneType', 'builtins.float', 'builtins.int'}$${'builtins.int'} || no_assert
+/home/user/rich/rich-master/tests/test_progress.py-test_bar_columns-61$$bar.total$${'builtins.NoneType', 'builtins.float', 'builtins.int'}$${'builtins.int'} || no_assert
+/home/user/rich/rich-master/rich/rule.py-__rich_console__-102$$self.style$${'builtins.NoneType', 'builtins.str', 'rich.style.Style'}$${'builtins.str'} || yes
+/home/user/rich/rich-master/rich/rule.py-__rich_console__-92$$self.style$${'builtins.NoneType', 'builtins.str', 'rich.style.Style'}$${'builtins.str'} || yes
+/home/user/rich/rich-master/rich/rule.py-__rich_console__-94$$self.style$${'builtins.NoneType', 'builtins.str', 'rich.style.Style'}$${'builtins.str'} || yes
+/home/user/rich/rich-master/rich/rule.py-__rich_console__-99$$self.style$${'builtins.NoneType', 'builtins.str', 'rich.style.Style'}$${'builtins.str'} || yes
+/home/user/rich/rich-master/rich/rule.py-__repr__-47$$self.title$${'rich.text.Text', 'builtins.str'}$${'builtins.str'} || yes
+/home/user/rich/rich-master/rich/spinner.py-render-68$$self.start_time$${'builtins.NoneType', 'builtins.float', 'builtins.int'}$${'builtins.NoneType', 'builtins.float'} || yes
+/home/user/rich/rich-master/rich/spinner.py-render-71$$self.start_time$${'builtins.NoneType', 'builtins.float', 'builtins.int'}$${'builtins.float', 'builtins.int'} || yes
+/home/user/rich/rich-master/tests/test_spinner.py-test_spinner_markup-71$$spinner.text$${'rich.text.Text', 'rich.rule.Rule'}$${'rich.text.Text'} || no_assert
+/home/user/rich/rich-master/tests/test_spinner.py-test_spinner_markup-72$$spinner.text$${'rich.text.Text', 'rich.rule.Rule'}$${'rich.text.Text'} || no_assert
+/home/user/rich/rich-master/rich/styled.py-__rich_measure__-34$$self.renderable$${'rich.table.Table', 'rich.text.Text', 'builtins.str'}$${'rich.text.Text', 'builtins.str'} || yes
+/home/user/rich/rich-master/rich/syntax.py-get_style_for_token-158$$self._pygments_style_class$${'pygments.style.Style', 'pygments.style.StyleMeta'}$${'pygments.style.StyleMeta'} || yes
+/home/user/rich/rich-master/rich/syntax.py-__rich_console__-612$$self._theme$${'rich.syntax.ANSISyntaxTheme', 'rich.syntax.PygmentsSyntaxTheme'}$${'rich.syntax.PygmentsSyntaxTheme'} || yes
+/home/user/rich/rich-master/rich/syntax.py-_get_line_numbers_color-539$$self._theme$${'rich.syntax.ANSISyntaxTheme', 'rich.syntax.PygmentsSyntaxTheme'}$${'rich.syntax.PygmentsSyntaxTheme'} || yes
+/home/user/rich/rich-master/rich/syntax.py-_get_number_styles-572$$self._theme$${'rich.syntax.ANSISyntaxTheme', 'rich.syntax.PygmentsSyntaxTheme'}$${'rich.syntax.PygmentsSyntaxTheme'} || yes
+/home/user/rich/rich-master/rich/syntax.py-_get_number_styles-578$$self._theme$${'rich.syntax.ANSISyntaxTheme', 'rich.syntax.PygmentsSyntaxTheme'}$${'rich.syntax.PygmentsSyntaxTheme'} || yes
+/home/user/rich/rich-master/rich/syntax.py-__rich_console__-612$$self.padding$${'builtins.tuple', 'builtins.int'}$${'builtins.tuple'} || yes
+/home/user/rich/rich-master/rich/syntax.py-__rich_measure__-591$$self.padding$${'builtins.tuple', 'builtins.int'}$${'builtins.int'} || yes
+/home/user/rich/rich-master/rich/traceback.py-__rich_console__-466$$self.width$${'builtins.NoneType', 'builtins.int'}$${'builtins.int'} || yes
+/home/user/rich/rich-master/rich/traceback.py-__rich_console__-468$$self.width$${'builtins.NoneType', 'builtins.int'}$${'builtins.int'} || yes
+/home/user/rich/rich-master/rich/tree.py-__rich_measure__-187$$tree.label$${'rich.table.Table', 'builtins.str'}$${'builtins.str'} || yes

@@ -1,0 +1,1150 @@
+<opcode> /home/user/rich/rich-master/rich/console.py: _collect_renderables-0x562a6698eac0: 1519: 125, 11
+/home/user/rich/rich-master/rich/console.py: _collect_renderables-0x562a6698eac0: _highlighter : <unknown-module>.ReprHighlighter
+<opcode> /home/user/rich/rich-master/rich/console.py: _collect_renderables-0x562a6698eac0: 1519: 125, 11
+/home/user/rich/rich-master/rich/console.py: _collect_renderables-0x562a6698eac0: _highlighter : <unknown-module>.ReprHighlighter
+<opcode> /home/user/rich/rich-master/rich/console.py: _collect_renderables-0x562a6698eac0: 1519: 125, 11
+/home/user/rich/rich-master/rich/console.py: _collect_renderables-0x562a6698eac0: _highlighter : <unknown-module>.ReprHighlighter
+<opcode> /home/user/rich/rich-master/rich/console.py: _collect_renderables-0x562a6698eac0: 1519: 125, 11
+/home/user/rich/rich-master/rich/console.py: _collect_renderables-0x562a6698eac0: _highlighter : <unknown-module>.ReprHighlighter
+<opcode> /home/user/rich/rich-master/rich/console.py: _collect_renderables-0x562a6698eac0: 1519: 125, 11
+/home/user/rich/rich-master/rich/console.py: _collect_renderables-0x562a6698eac0: _highlighter : <unknown-module>.ReprHighlighter
+<opcode> /home/user/rich/rich-master/rich/console.py: _collect_renderables-0x562a6698eac0: 1519: 125, 11
+/home/user/rich/rich-master/rich/console.py: _collect_renderables-0x562a6698eac0: _highlighter : <unknown-module>.ReprHighlighter
+<opcode> /home/user/rich/rich-master/rich/console.py: _collect_renderables-0x562a6698eac0: 1519: 125, 11
+/home/user/rich/rich-master/rich/console.py: _collect_renderables-0x562a6698eac0: _highlighter : <unknown-module>.ReprHighlighter
+<opcode> /home/user/rich/rich-master/rich/console.py: size-0x562a6698ed80: 1024: 125, 1
+/home/user/rich/rich-master/rich/console.py: size-0x562a6698ed80: width : <unknown-module>.int
+<opcode> /home/user/rich/rich-master/rich/console.py: size-0x562a6698ed80: 1025: 125, 2
+/home/user/rich/rich-master/rich/console.py: size-0x562a6698ed80: height : <unknown-module>.int
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 219: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 219: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 14
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: plain_text : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 147: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: 219: 125, 15
+/home/user/rich/rich-master/rich/markup.py: render-0x562a6698f260: tag : <unknown-module>.Tag
+<opcode> /home/user/rich/rich-master/rich/_pick.py: pick_bool-0x562a66712e10: 14: 125, 1
+/home/user/rich/rich-master/rich/_pick.py: pick_bool-0x562a66712e10: value : <unknown-module>.bool
+<opcode> /home/user/rich/rich-master/rich/_pick.py: pick_bool-0x562a66712e10: 14: 125, 1
+/home/user/rich/rich-master/rich/_pick.py: pick_bool-0x562a66712e10: value : <unknown-module>.bool
+<opcode> /home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: 158: 125, 15
+/home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: next_word : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: 158: 125, 15
+/home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: next_word : <unknown-module>.Text
+<opcode> /home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: 158: 125, 15
+/home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: next_word : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: 158: 125, 15
+/home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: next_word : <unknown-module>.Text
+<opcode> /home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: 158: 125, 15
+/home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: next_word : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: 158: 125, 15
+/home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: next_word : <unknown-module>.Text
+<opcode> /home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: 158: 125, 15
+/home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: next_word : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: 158: 125, 15
+/home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: next_word : <unknown-module>.Text
+<opcode> /home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: 158: 125, 15
+/home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: next_word : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: 158: 125, 15
+/home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: next_word : <unknown-module>.Text
+<opcode> /home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: 158: 125, 15
+/home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: next_word : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: 158: 125, 15
+/home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: next_word : <unknown-module>.Text
+<opcode> /home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: 158: 125, 15
+/home/user/rich/rich-master/rich/containers.py: justify-0x562a668b3d60: next_word : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.int
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.bool
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.int
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.int
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.int
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.int
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.bool
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.int
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.int
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.bool
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.int
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.bool
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.int
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.int
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.bool
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.int
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.bool
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.int
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.bool
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.int
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.int
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.bool
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.int
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.bool
+<opcode> /home/user/rich/rich-master/rich/text.py: render-0x562a66994970: 730: 125, 14
+/home/user/rich/rich-master/rich/text.py: render-0x562a66994970: _ : <unknown-module>.int
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: 2055: 125, 8
+/home/user/rich/rich-master/rich/console.py: _render_buffer-0x562a66993e50: style : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/style.py: parse-0x562a66998500: 532: 125, 4
+/home/user/rich/rich-master/rich/style.py: parse-0x562a66998500: bgcolor : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/style.py: parse-0x562a66998500: 547: 125, 6
+/home/user/rich/rich-master/rich/style.py: parse-0x562a66998500: link : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/style.py: parse-0x562a66998500: 559: 125, 3
+/home/user/rich/rich-master/rich/style.py: parse-0x562a66998500: color : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/style.py: parse-0x562a66998500: 532: 125, 4
+/home/user/rich/rich-master/rich/style.py: parse-0x562a66998500: bgcolor : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/style.py: parse-0x562a66998500: 559: 125, 3
+/home/user/rich/rich-master/rich/style.py: parse-0x562a66998500: color : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/style.py: parse-0x562a66998500: 559: 125, 3
+/home/user/rich/rich-master/rich/style.py: parse-0x562a66998500: color : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/console.py: get_style-0x562a66997380: 1470: 125, 3
+/home/user/rich/rich-master/rich/console.py: get_style-0x562a66997380: style : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 8
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: sgr : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 8
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: sgr : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: 149: 125, 9
+/home/user/rich/rich-master/rich/ansi.py: decode_line-0x562a6699da50: osc : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/progress_bar.py: percentage_completed-0x14da1ddfd620: 66: 125, 1
+/home/user/rich/rich-master/rich/progress_bar.py: percentage_completed-0x14da1ddfd620: completed : <unknown-module>.int
+<opcode> /home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a3b60: 49: 125, 4
+/home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a3b60: arg : <unknown-module>.ColorType
+<opcode> /home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a3b60: 49: 125, 4
+/home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a3b60: arg : <unknown-module>.tuple
+<opcode> /home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a3b60: 54: 125, 6
+/home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a3b60: value : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a3b60: 49: 125, 4
+/home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a3b60: arg : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a3b60: 54: 125, 6
+/home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a3b60: value : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a3920: 54: 125, 6
+/home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a3920: value : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a3920: 49: 125, 4
+/home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a3920: arg : <unknown-module>.ColorType
+<opcode> /home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a3920: 49: 125, 4
+/home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a3920: arg : <unknown-module>.tuple
+<opcode> /home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a3920: 54: 125, 6
+/home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a3920: value : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a3920: 49: 125, 4
+/home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a3920: arg : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a36e0: 49: 125, 4
+/home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a36e0: arg : <unknown-module>.Style
+<opcode> /home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a36e0: 54: 125, 6
+/home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a36e0: value : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a36e0: 49: 125, 4
+/home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a36e0: arg : <unknown-module>.ColorType
+<opcode> /home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a36e0: 49: 125, 4
+/home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a36e0: arg : <unknown-module>.tuple
+<opcode> /home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a36e0: 54: 125, 6
+/home/user/rich/rich-master/rich/repr.py: auto_repr-0x562a669a36e0: value : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/table.py: add_row-0x562a669aa720: 447: 125, 8
+/home/user/rich/rich-master/rich/table.py: add_row-0x562a669aa720: renderable : <unknown-module>.ColorBox
+<opcode> /home/user/rich/rich-master/rich/table.py: add_row-0x562a669aa720: 447: 125, 8
+/home/user/rich/rich-master/rich/table.py: add_row-0x562a669aa720: renderable : <unknown-module>.Table
+<opcode> /home/user/rich/rich-master/rich/table.py: add_row-0x562a669aa720: 447: 125, 8
+/home/user/rich/rich-master/rich/table.py: add_row-0x562a669aa720: renderable : <unknown-module>.Group
+<opcode> /home/user/rich/rich-master/rich/table.py: add_row-0x562a669aa720: 447: 125, 8
+/home/user/rich/rich-master/rich/table.py: add_row-0x562a669aa720: renderable : <unknown-module>.Pretty
+<opcode> /home/user/rich/rich-master/rich/table.py: add_row-0x562a669aa720: 447: 125, 8
+/home/user/rich/rich-master/rich/table.py: add_row-0x562a669aa720: renderable : <unknown-module>.Markdown
+<opcode> /home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669be860: 671: 125, 11
+/home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669be860: cell : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669be860: 671: 125, 11
+/home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669be860: cell : <unknown-module>.Group
+<opcode> /home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669be860: 671: 125, 11
+/home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669be860: cell : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669be860: 671: 125, 11
+/home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669be860: cell : <unknown-module>.Table
+<opcode> /home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669be860: 671: 125, 11
+/home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669be860: cell : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669bf4d0: 671: 125, 11
+/home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669bf4d0: cell : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669bf4d0: 671: 125, 11
+/home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669bf4d0: cell : <unknown-module>.Group
+<opcode> /home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669bf4d0: 671: 125, 11
+/home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669bf4d0: cell : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669bf4d0: 671: 125, 11
+/home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669bf4d0: cell : <unknown-module>.Table
+<opcode> /home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669bf4d0: 671: 125, 11
+/home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669bf4d0: cell : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/measure.py: <listcomp>-0x562a669b3df0: 145: 125, 1
+/home/user/rich/rich-master/rich/measure.py: <listcomp>-0x562a669b3df0: renderable : <unknown-module>.Table
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a667d9a00: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a667d9a00: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a667d9a00: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a667d9a00: container_type : <unknown-module>.ABCMeta
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a667d9a00: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a667d9a00: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a667d9a00: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a667d9a00: container_type : <unknown-module>.ABCMeta
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a667d9a00: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a667d9a00: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6682e090: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6682e090: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6682e090: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6682e090: container_type : <unknown-module>.ABCMeta
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6682e090: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6682e090: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6682e090: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6682e090: container_type : <unknown-module>.ABCMeta
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6682e090: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6682e090: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6682e090: 871: 125, 19
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6682e090: child : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a667d5be0: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a667d5be0: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a667d5be0: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a667d5be0: container_type : <unknown-module>.ABCMeta
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a667d5be0: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a667d5be0: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a667d5be0: 871: 125, 19
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a667d5be0: child : <unknown-module>.tuple
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a667d5be0: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a667d5be0: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a667d5be0: 862: 125, 19
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a667d5be0: child : <unknown-module>.tuple
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a668b4080: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a668b4080: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a668b4080: 862: 125, 19
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a668b4080: child : <unknown-module>.tuple
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669a1160: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669a1160: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669a1160: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669a1160: container_type : <unknown-module>.ABCMeta
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669a1160: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669a1160: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669a1160: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669a1160: container_type : <unknown-module>.ABCMeta
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669a1160: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669a1160: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669af250: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669af250: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669af250: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669af250: container_type : <unknown-module>.ABCMeta
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669af250: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669af250: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669af250: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669af250: container_type : <unknown-module>.ABCMeta
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669af250: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669af250: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669af250: 871: 125, 19
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669af250: child : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6681fd70: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6681fd70: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6681fd70: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6681fd70: container_type : <unknown-module>.ABCMeta
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6681fd70: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6681fd70: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6681fd70: 871: 125, 19
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6681fd70: child : <unknown-module>.tuple
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6681fd70: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6681fd70: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6681fd70: 862: 125, 19
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a6681fd70: child : <unknown-module>.tuple
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669afc80: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669afc80: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669afc80: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669afc80: container_type : <unknown-module>.ABCMeta
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669afc80: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669afc80: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669afc80: 871: 125, 19
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669afc80: child : <unknown-module>.tuple
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669afc80: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669afc80: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669afc80: 862: 125, 19
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669afc80: child : <unknown-module>.tuple
+<opcode> /home/user/rich/rich-master/rich/style.py: pick_first-0x562a669be330: 398: 125, 2
+/home/user/rich/rich-master/rich/style.py: pick_first-0x562a669be330: value : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669a1160: 671: 125, 11
+/home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669a1160: cell : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669a1160: 671: 125, 11
+/home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669a1160: cell : <unknown-module>.Group
+<opcode> /home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669a1160: 671: 125, 11
+/home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669a1160: cell : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669a1160: 671: 125, 11
+/home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669a1160: cell : <unknown-module>.Table
+<opcode> /home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669a1160: 671: 125, 11
+/home/user/rich/rich-master/rich/table.py: _get_cells-0x562a669a1160: cell : <unknown-module>.str
+<opcode> /home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a669af250: 110: 125, 10
+/home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a669af250: blank_line : <unknown-module>.list
+<opcode> /home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a669af250: 110: 125, 10
+/home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a669af250: blank_line : <unknown-module>.list
+<opcode> /home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a669b6710: 110: 125, 10
+/home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a669b6710: blank_line : <unknown-module>.list
+<opcode> /home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a669b6710: 110: 125, 10
+/home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a669b6710: blank_line : <unknown-module>.list
+<opcode> /home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a66706e90: 110: 125, 10
+/home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a66706e90: blank_line : <unknown-module>.list
+<opcode> /home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a66706e90: 110: 125, 10
+/home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a66706e90: blank_line : <unknown-module>.list
+<opcode> /home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a66706980: 110: 125, 10
+/home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a66706980: blank_line : <unknown-module>.list
+<opcode> /home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a66706980: 110: 125, 10
+/home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a66706980: blank_line : <unknown-module>.list
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669b2830: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669b2830: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669b2830: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669b2830: container_type : <unknown-module>.ABCMeta
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669b2830: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669b2830: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669b2830: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669b2830: container_type : <unknown-module>.ABCMeta
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669b2830: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669b2830: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a66705b70: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a66705b70: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a66705b70: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a66705b70: container_type : <unknown-module>.ABCMeta
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a66705b70: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a66705b70: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a66705b70: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a66705b70: container_type : <unknown-module>.ABCMeta
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a66705b70: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a66705b70: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a66705b70: 871: 125, 19
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a66705b70: child : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669b24c0: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669b24c0: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669b24c0: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669b24c0: container_type : <unknown-module>.ABCMeta
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669b24c0: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669b24c0: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669b24c0: 871: 125, 19
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669b24c0: child : <unknown-module>.tuple
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669b24c0: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669b24c0: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669b24c0: 862: 125, 19
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669b24c0: child : <unknown-module>.tuple
+<opcode> /home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a66705b70: 110: 125, 10
+/home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a66705b70: blank_line : <unknown-module>.list
+<opcode> /home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a66705b70: 110: 125, 10
+/home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a66705b70: blank_line : <unknown-module>.list
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669efc50: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669efc50: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669efc50: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669efc50: container_type : <unknown-module>.ABCMeta
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669efc50: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669efc50: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669efc50: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669efc50: container_type : <unknown-module>.ABCMeta
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669efc50: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669efc50: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669cb200: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669cb200: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669cb200: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669cb200: container_type : <unknown-module>.ABCMeta
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669cb200: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669cb200: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669cb200: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669cb200: container_type : <unknown-module>.ABCMeta
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669cb200: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669cb200: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669cb200: 871: 125, 19
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669cb200: child : <unknown-module>.NoneType
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669e84a0: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669e84a0: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669e84a0: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669e84a0: container_type : <unknown-module>.ABCMeta
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669e84a0: 833: 125, 26
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669e84a0: container_type : <unknown-module>.type
+<opcode> /home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669e84a0: 871: 125, 19
+/home/user/rich/rich-master/rich/pretty.py: _traverse-0x562a669e84a0: child : <unknown-module>.tuple
+<opcode> /home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a669b8f50: 110: 125, 10
+/home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a669b8f50: blank_line : <unknown-module>.list
+<opcode> /home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a669b8f50: 110: 125, 10
+/home/user/rich/rich-master/rich/padding.py: __rich_console__-0x562a669b8f50: blank_line : <unknown-module>.list
+<opcode> /home/user/rich/rich-master/rich/markdown.py: __rich_console__-0x562a667d5be0: 495: 125, 13
+/home/user/rich/rich-master/rich/markdown.py: __rich_console__-0x562a667d5be0: element : <unknown-module>.Heading
+<opcode> /home/user/rich/rich-master/rich/markdown.py: __rich_console__-0x562a667d5be0: 495: 125, 13
+/home/user/rich/rich-master/rich/markdown.py: __rich_console__-0x562a667d5be0: element : <unknown-module>.ListItem
+<opcode> /home/user/rich/rich-master/rich/markdown.py: __rich_console__-0x562a667d5be0: 495: 125, 13
+/home/user/rich/rich-master/rich/markdown.py: __rich_console__-0x562a667d5be0: element : <unknown-module>.Paragraph
+<opcode> /home/user/rich/rich-master/rich/markdown.py: __rich_console__-0x562a667d5be0: 499: 125, 13
+/home/user/rich/rich-master/rich/markdown.py: __rich_console__-0x562a667d5be0: element : <unknown-module>.ListItem
+<opcode> /home/user/rich/rich-master/rich/markdown.py: __rich_console__-0x562a667d5be0: 495: 125, 13
+/home/user/rich/rich-master/rich/markdown.py: __rich_console__-0x562a667d5be0: element : <unknown-module>.Paragraph
+<opcode> /home/user/rich/rich-master/rich/markdown.py: __rich_console__-0x562a667d5be0: 499: 125, 13
+/home/user/rich/rich-master/rich/markdown.py: __rich_console__-0x562a667d5be0: element : <unknown-module>.ListItem
+<opcode> /home/user/rich/rich-master/rich/markdown.py: __rich_console__-0x562a667d5be0: 495: 125, 13
+/home/user/rich/rich-master/rich/markdown.py: __rich_console__-0x562a667d5be0: element : <unknown-module>.Paragraph
+<opcode> /home/user/rich/rich-master/rich/markdown.py: __rich_console__-0x562a667d5be0: 499: 125, 13
+/home/user/rich/rich-master/rich/markdown.py: __rich_console__-0x562a667d5be0: element : <unknown-module>.ListItem
+<opcode> /home/user/rich/rich-master/rich/markdown.py: __rich_console__-0x562a667d5be0: 495: 125, 13
+/home/user/rich/rich-master/rich/markdown.py: __rich_console__-0x562a667d5be0: element : <unknown-module>.Paragraph
+<opcode> /home/user/rich/rich-master/rich/markdown.py: __rich_console__-0x562a667d5be0: 499: 125, 13
+/home/user/rich/rich-master/rich/markdown.py: __rich_console__-0x562a667d5be0: element : <unknown-module>.ListItem
+<opcode> /home/user/rich/rich-master/rich/markdown.py: __rich_console__-0x562a667d5be0: 499: 125, 13
+/home/user/rich/rich-master/rich/markdown.py: __rich_console__-0x562a667d5be0: element : <unknown-module>.ListElement

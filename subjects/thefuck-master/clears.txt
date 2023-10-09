@@ -1,0 +1,301 @@
+<obj>:<0x14d323d689b0>: /home/user/rich/rich-master/rich/__init__.py: reconfigure-0x14d----------~cc-0x14d3293247c0:<(nil)>----------~<opcode> <obj>:<0x14d323d689b0>: /home/user/rich/rich-master/rich/__init__.py: reconfigure-0x14d323777050: 50: 95, 3
+<obj>:<0x1532bb7ce1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x55a4c067ab20: clear
+<opcode> <obj>:<0x1532bb7ce1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x55a4c067ab20: 122
+<obj>:<0x1467da4bf4d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py: maybe_empty_lines-0x55788f372400: clear
+<opcode> <obj>:<0x1467da4bf4d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py: maybe_empty_lines-0x55788f372400: 506
+<obj>:<0x1467c0e998f0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/trans.py: __call__-0x55788f593560: clear
+<opcode> <obj>:<0x1467c0e998f0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/trans.py: __call__-0x55788f593560: 251
+<obj>:<0x14679b190b90>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/parsing.py: fixup_ast_constants-0x1467da5e3a00: clear
+<opcode> <obj>:<0x14679b190b90>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/parsing.py: fixup_ast_constants-0x1467da5e3a00: 268
+<obj>:<0x1467da4bf4d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py: maybe_empty_lines-0x55788f372400: clear
+<opcode> <obj>:<0x1467da4bf4d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py: maybe_empty_lines-0x55788f372400: 506
+<obj>:<0x1467da4bf4d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py: maybe_empty_lines-0x55788f372400: clear
+<opcode> <obj>:<0x1467da4bf4d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py: maybe_empty_lines-0x55788f372400: 506
+<obj>:<0x1467da4bf4d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py: maybe_empty_lines-0x55788f372400: clear
+<opcode> <obj>:<0x1467da4bf4d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py: maybe_empty_lines-0x55788f372400: 506
+<obj>:<0x1467c0e998f0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/trans.py: __call__-0x55788f593560: clear
+<opcode> <obj>:<0x1467c0e998f0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/trans.py: __call__-0x55788f593560: 251
+<obj>:<0x14679b190b90>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/parsing.py: fixup_ast_constants-0x1467da5e3a00: clear
+<opcode> <obj>:<0x14679b190b90>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/parsing.py: fixup_ast_constants-0x1467da5e3a00: 268
+<obj>:<0x146762f58890>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py: shift-0x55788f33f660: clear
+<opcode> <obj>:<0x146762f58890>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py: shift-0x55788f33f660: 363
+<obj>:<0x1467da4bf4d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py: maybe_empty_lines-0x55788f372400: clear
+<opcode> <obj>:<0x1467da4bf4d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py: maybe_empty_lines-0x55788f372400: 506
+<obj>:<0x1467c0e998f0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/trans.py: __call__-0x55788f593560: clear
+<opcode> <obj>:<0x1467c0e998f0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/trans.py: __call__-0x55788f593560: 251
+<obj>:<0x14679b190b90>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/parsing.py: fixup_ast_constants-0x1467da5e3a00: clear
+<opcode> <obj>:<0x14679b190b90>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/parsing.py: fixup_ast_constants-0x1467da5e3a00: 268
+<obj>:<0x146762f58890>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py: shift-0x55788f33f660: clear
+<opcode> <obj>:<0x146762f58890>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py: shift-0x55788f33f660: 363
+<obj>:<0x1467da4bf4d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py: maybe_empty_lines-0x55788f372400: clear
+<opcode> <obj>:<0x1467da4bf4d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py: maybe_empty_lines-0x55788f372400: 506
+<obj>:<0x1467c0e998f0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/trans.py: __call__-0x55788f593560: clear
+<opcode> <obj>:<0x1467c0e998f0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/trans.py: __call__-0x55788f593560: 251
+<obj>:<0x14679b190b90>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/parsing.py: fixup_ast_constants-0x1467da5e3a00: clear
+<opcode> <obj>:<0x14679b190b90>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/parsing.py: fixup_ast_constants-0x1467da5e3a00: 268
+<obj>:<0x146762f58890>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py: shift-0x55788f33f660: clear
+<opcode> <obj>:<0x146762f58890>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py: shift-0x55788f33f660: 363
+<obj>:<0x1467da4bf4d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py: maybe_empty_lines-0x55788f372400: clear
+<opcode> <obj>:<0x1467da4bf4d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py: maybe_empty_lines-0x55788f372400: 506
+<obj>:<0x1467c0e998f0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/trans.py: __call__-0x55788f593560: clear
+<opcode> <obj>:<0x1467c0e998f0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/trans.py: __call__-0x55788f593560: 251
+<obj>:<0x14679b190b90>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/parsing.py: fixup_ast_constants-0x1467da5e3a00: clear
+<opcode> <obj>:<0x14679b190b90>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/parsing.py: fixup_ast_constants-0x1467da5e3a00: 268
+<obj>:<0x146762f58890>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py: shift-0x55788f33f660: clear
+<opcode> <obj>:<0x146762f58890>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py: shift-0x55788f33f660: 363
+<obj>:<0x1467da4bf4d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py: maybe_empty_lines-0x55788f372400: clear
+<opcode> <obj>:<0x1467da4bf4d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py: maybe_empty_lines-0x55788f372400: 506
+<obj>:<0x1467c0e998f0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/trans.py: __call__-0x55788f593560: clear
+<opcode> <obj>:<0x1467c0e998f0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/trans.py: __call__-0x55788f593560: 251
+<obj>:<0x14679b190b90>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/parsing.py: fixup_ast_constants-0x1467da5e3a00: clear
+<opcode> <obj>:<0x14679b190b90>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/parsing.py: fixup_ast_constants-0x1467da5e3a00: 268
+<obj>:<0x146762f58890>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py: shift-0x55788f33f660: clear
+<opcode> <obj>:<0x146762f58890>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py: shift-0x55788f33f660: 363
+<obj>:<0x1467da4bf4d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py: maybe_empty_lines-0x55788f372400: clear
+<opcode> <obj>:<0x1467da4bf4d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py: maybe_empty_lines-0x55788f372400: 506
+<obj>:<0x1467da4bf4d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py: maybe_empty_lines-0x55788f372400: clear
+<opcode> <obj>:<0x1467da4bf4d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py: maybe_empty_lines-0x55788f372400: 506
+<obj>:<0x14b73aa2a890>: /home/user/rich/rich-master/rich/text.py: highlight_regex-0x55a64cc0a060: clear
+<opcode> <obj>:<0x14b73aa2a890>: /home/user/rich/rich-master/rich/text.py: highlight_regex-0x55a64cc0a060: 576
+<obj>:<0x14b73a9f08f0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/fixtures.py: getfixturedefs-0x55a64ca13c60: clear
+<opcode> <obj>:<0x14b73a9f08f0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/fixtures.py: getfixturedefs-0x55a64ca13c60: 1661
+<obj>:<0x14b73aa5b770>: /home/user/rich/rich-master/rich/style.py: __add__-0x14b73aaf9410: clear
+<opcode> <obj>:<0x14b73aa5b770>: /home/user/rich/rich-master/rich/style.py: __add__-0x14b73aaf9410: 735
+<obj>:<0x14b73a60fdd0>: /home/user/rich/rich-master/rich/segment.py: cell_length-0x14b73aaff240: clear
+<opcode> <obj>:<0x14b73a60fdd0>: /home/user/rich/rich-master/rich/segment.py: cell_length-0x14b73aaff240: 89
+<obj>:<0x14b73a5d6290>: /home/user/rich/rich-master/rich/table.py: _get_cells-0x55a64cc634a0: clear
+<opcode> <obj>:<0x14b73a5d6290>: /home/user/rich/rich-master/rich/table.py: _get_cells-0x55a64cc634a0: 670
+<obj>:<0x14b73a52c3b0>: /home/user/rich/rich-master/rich/text.py: render-0x55a64cc44f20: clear
+<opcode> <obj>:<0x14b73a52c3b0>: /home/user/rich/rich-master/rich/text.py: render-0x55a64cc44f20: 730
+<obj>:<0x14b73a5d2a70>: /home/user/rich/rich-master/rich/console.py: renderables-0x55a64cc63c10: clear
+<opcode> <obj>:<0x14b73a5d2a70>: /home/user/rich/rich-master/rich/console.py: renderables-0x55a64cc63c10: 477
+<obj>:<0x14b73a36c650>: /home/user/rich/rich-master/rich/text.py: get_current_style-0x55a64cc45fa0: clear
+<opcode> <obj>:<0x14b73a36c650>: /home/user/rich/rich-master/rich/text.py: get_current_style-0x55a64cc45fa0: 722
+<obj>:<0x14b73a3d9050>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pluggy/callers.py: _multicall-0x55a64cd06de0: clear
+<opcode> <obj>:<0x14b73a3d9050>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pluggy/callers.py: _multicall-0x55a64cd06de0: 169
+<obj>:<0x14b73a2b4cb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/nodes.py: iter_markers_with_node-0x14b73b37ac50: clear
+<opcode> <obj>:<0x14b73a2b4cb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/nodes.py: iter_markers_with_node-0x14b73b37ac50: 379
+<obj>:<0x14b73a2d1890>: /home/user/purepython/cpython-3.9/Lib/typing.py: __hash__-0x14b73a66f960: clear
+<opcode> <obj>:<0x14b73a2d1890>: /home/user/purepython/cpython-3.9/Lib/typing.py: __hash__-0x14b73a66f960: 934
+<obj>:<0x14b739233c50>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/mark/structures.py: __iter__-0x55a64d2b69e0: clear
+<opcode> <obj>:<0x14b739233c50>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/mark/structures.py: __iter__-0x55a64d2b69e0: 603
+<obj>:<0x14b73aa2a890>: /home/user/rich/rich-master/rich/text.py: highlight_regex-0x55a64cc0a060: clear
+<opcode> <obj>:<0x14b73aa2a890>: /home/user/rich/rich-master/rich/text.py: highlight_regex-0x55a64cc0a060: 576
+<obj>:<0x14b73a9f08f0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/fixtures.py: getfixturedefs-0x55a64ca13c60: clear
+<opcode> <obj>:<0x14b73a9f08f0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/fixtures.py: getfixturedefs-0x55a64ca13c60: 1661
+<obj>:<0x14b73aa2a890>: /home/user/rich/rich-master/rich/text.py: highlight_regex-0x55a64cc0a060: clear
+<opcode> <obj>:<0x14b73aa2a890>: /home/user/rich/rich-master/rich/text.py: highlight_regex-0x55a64cc0a060: 576
+<obj>:<0x14b73a9f08f0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/fixtures.py: getfixturedefs-0x55a64ca13c60: clear
+<opcode> <obj>:<0x14b73a9f08f0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/fixtures.py: getfixturedefs-0x55a64ca13c60: 1661
+<obj>:<0x14b73aa5b770>: /home/user/rich/rich-master/rich/style.py: __add__-0x14b73aaf9410: clear
+<opcode> <obj>:<0x14b73aa5b770>: /home/user/rich/rich-master/rich/style.py: __add__-0x14b73aaf9410: 735
+<obj>:<0x14b73a60fdd0>: /home/user/rich/rich-master/rich/segment.py: cell_length-0x14b73aaff240: clear
+<opcode> <obj>:<0x14b73a60fdd0>: /home/user/rich/rich-master/rich/segment.py: cell_length-0x14b73aaff240: 89
+<obj>:<0x14b73a5d6290>: /home/user/rich/rich-master/rich/table.py: _get_cells-0x55a64cc634a0: clear
+<opcode> <obj>:<0x14b73a5d6290>: /home/user/rich/rich-master/rich/table.py: _get_cells-0x55a64cc634a0: 670
+<obj>:<0x14b73a52c3b0>: /home/user/rich/rich-master/rich/text.py: render-0x55a64cc44f20: clear
+<opcode> <obj>:<0x14b73a52c3b0>: /home/user/rich/rich-master/rich/text.py: render-0x55a64cc44f20: 730
+<obj>:<0x14b73a5d2a70>: /home/user/rich/rich-master/rich/console.py: renderables-0x55a64cc63c10: clear
+<opcode> <obj>:<0x14b73a5d2a70>: /home/user/rich/rich-master/rich/console.py: renderables-0x55a64cc63c10: 477
+<obj>:<0x14b73a36c650>: /home/user/rich/rich-master/rich/text.py: get_current_style-0x55a64cc45fa0: clear
+<opcode> <obj>:<0x14b73a36c650>: /home/user/rich/rich-master/rich/text.py: get_current_style-0x55a64cc45fa0: 722
+<obj>:<0x14b73a3d9050>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pluggy/callers.py: _multicall-0x55a64cd06de0: clear
+<opcode> <obj>:<0x14b73a3d9050>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pluggy/callers.py: _multicall-0x55a64cd06de0: 169
+<obj>:<0x14b73a2b4cb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/nodes.py: iter_markers_with_node-0x14b73b37ac50: clear
+<opcode> <obj>:<0x14b73a2b4cb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/nodes.py: iter_markers_with_node-0x14b73b37ac50: 379
+<obj>:<0x14b73a2d1890>: /home/user/purepython/cpython-3.9/Lib/typing.py: __hash__-0x14b73a66f960: clear
+<opcode> <obj>:<0x14b73a2d1890>: /home/user/purepython/cpython-3.9/Lib/typing.py: __hash__-0x14b73a66f960: 934
+<obj>:<0x149134ae3d70>: /home/user/yapf/yapf/yapflib/reformatter.py: self-initing-0x149134d8aa50: clear
+<opcode> <obj>:<0x149134ae3d70>: /home/user/yapf/yapf/yapflib/reformatter.py: __init__-0x149134d8aa50: 433
+<obj>:<0x1491341f7050>: /home/user/yapf/yapf/yapflib/format_decision_state.py: Clone-0x560d1336f360: clear
+<opcode> <obj>:<0x1491341f7050>: /home/user/yapf/yapf/yapflib/format_decision_state.py: Clone-0x560d1336f360: 84
+<obj>:<0x14913415f170>: /home/user/yapf/yapf/yapflib/object_state.py: self-initing-0x149134d7e5f0: clear
+<opcode> <obj>:<0x14913415f170>: /home/user/yapf/yapf/yapflib/object_state.py: __init__-0x149134d7e5f0: 108
+<obj>:<0x1491344196b0>: /home/user/yapf/yapf/yapflib/format_decision_state.py: MoveStateToNextToken-0x560d1333afe0: clear
+<opcode> <obj>:<0x1491344196b0>: /home/user/yapf/yapf/yapflib/format_decision_state.py: MoveStateToNextToken-0x560d1333afe0: 736
+<obj>:<0x14913366eef0>: /home/user/yapf/yapf/yapflib/object_state.py: self-initing-0x560d12954960: clear
+<opcode> <obj>:<0x14913366eef0>: /home/user/yapf/yapf/yapflib/object_state.py: __init__-0x560d12954960: 48
+<obj>:<0x1491334ee590>: /home/user/purepython/cpython-3.9/Lib/lib2to3/pgen2/parse.py: shift-0x560d13329fd0: clear
+<opcode> <obj>:<0x1491334ee590>: /home/user/purepython/cpython-3.9/Lib/lib2to3/pgen2/parse.py: shift-0x560d13329fd0: 182
+<obj>:<0x149131397290>: /home/user/yapf/yapf/yapflib/object_state.py: self-initing-0x149134cae050: clear
+<opcode> <obj>:<0x149131397290>: /home/user/yapf/yapf/yapflib/object_state.py: __init__-0x149134cae050: 204
+<obj>:<0x14913323cef0>: /home/user/yapf/yapf/yapflib/format_decision_state.py: self-initing-0x149134cae5f0: clear
+<opcode> <obj>:<0x14913323cef0>: /home/user/yapf/yapf/yapflib/format_decision_state.py: __init__-0x149134cae5f0: 69
+<obj>:<0x149134ae3d70>: /home/user/yapf/yapf/yapflib/reformatter.py: self-initing-0x149134d8aa50: clear
+<opcode> <obj>:<0x149134ae3d70>: /home/user/yapf/yapf/yapflib/reformatter.py: __init__-0x149134d8aa50: 433
+<obj>:<0x149134ae3d70>: /home/user/yapf/yapf/yapflib/reformatter.py: self-initing-0x149134d8aa50: clear
+<opcode> <obj>:<0x149134ae3d70>: /home/user/yapf/yapf/yapflib/reformatter.py: __init__-0x149134d8aa50: 433
+<obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: clear
+<opcode> <obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: 1018
+<obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: clear
+<opcode> <obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: 122
+<obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: clear
+<opcode> <obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: 983
+<obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: clear
+<opcode> <obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: 82
+<obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: self-initing-0x145f5f267450: clear
+<opcode> <obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __init__-0x145f5f267450: 414
+<obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: clear
+<opcode> <obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: 1018
+<obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: clear
+<opcode> <obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: 122
+<obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: clear
+<opcode> <obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: 983
+<obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: clear
+<opcode> <obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: 82
+<obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: self-initing-0x145f5f267450: clear
+<opcode> <obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __init__-0x145f5f267450: 414
+<obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: clear
+<opcode> <obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: 1018
+<obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: clear
+<opcode> <obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: 122
+<obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: clear
+<opcode> <obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: 983
+<obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: clear
+<opcode> <obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: 82
+<obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: self-initing-0x145f5f267450: clear
+<opcode> <obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __init__-0x145f5f267450: 414
+<obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: clear
+<opcode> <obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: 1018
+<obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: clear
+<opcode> <obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: 122
+<obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: clear
+<opcode> <obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: 983
+<obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: clear
+<opcode> <obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: 82
+<obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: self-initing-0x145f5f267450: clear
+<opcode> <obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __init__-0x145f5f267450: 414
+<obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: clear
+<opcode> <obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: 1018
+<obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: clear
+<opcode> <obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: 122
+<obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: clear
+<opcode> <obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: 983
+<obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: clear
+<opcode> <obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: 82
+<obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: self-initing-0x145f5f267450: clear
+<opcode> <obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __init__-0x145f5f267450: 414
+<obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: clear
+<opcode> <obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: 1018
+<obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: clear
+<opcode> <obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: 122
+<obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: clear
+<opcode> <obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: 983
+<obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: clear
+<opcode> <obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: 82
+<obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: self-initing-0x145f5f267450: clear
+<opcode> <obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __init__-0x145f5f267450: 414
+<obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: clear
+<opcode> <obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: 1018
+<obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: clear
+<opcode> <obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: 122
+<obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: clear
+<opcode> <obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: 983
+<obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: clear
+<opcode> <obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: 82
+<obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: self-initing-0x145f5f267450: clear
+<opcode> <obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __init__-0x145f5f267450: 414
+<obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: clear
+<opcode> <obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: 1018
+<obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: clear
+<opcode> <obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: 122
+<obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: clear
+<opcode> <obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: 983
+<obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: clear
+<opcode> <obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: 82
+<obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: self-initing-0x145f5f267450: clear
+<opcode> <obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __init__-0x145f5f267450: 414
+<obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: clear
+<opcode> <obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: 1018
+<obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: clear
+<opcode> <obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: 122
+<obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: clear
+<opcode> <obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: 1018
+<obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: clear
+<opcode> <obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: 122
+<obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: clear
+<opcode> <obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: 983
+<obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: clear
+<opcode> <obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: 82
+<obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: self-initing-0x145f5f267450: clear
+<opcode> <obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __init__-0x145f5f267450: 414
+<obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: clear
+<opcode> <obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: 1018
+<obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: clear
+<opcode> <obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: 122
+<obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: clear
+<opcode> <obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: 983
+<obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: clear
+<opcode> <obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: 82
+<obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: self-initing-0x145f5f267450: clear
+<opcode> <obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __init__-0x145f5f267450: 414
+<obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: clear
+<opcode> <obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: 1018
+<obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: clear
+<opcode> <obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: 122
+<obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: clear
+<opcode> <obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: 983
+<obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: clear
+<opcode> <obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: 82
+<obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: self-initing-0x145f5f267450: clear
+<opcode> <obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __init__-0x145f5f267450: 414
+<obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: clear
+<opcode> <obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: 1018
+<obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: clear
+<opcode> <obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: 122
+<obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: clear
+<opcode> <obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: 983
+<obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: clear
+<opcode> <obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: 82
+<obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: self-initing-0x145f5f267450: clear
+<opcode> <obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __init__-0x145f5f267450: 414
+<obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: clear
+<opcode> <obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: 1018
+<obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: clear
+<opcode> <obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: 122
+<obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: clear
+<opcode> <obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: 983
+<obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: clear
+<opcode> <obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: 82
+<obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: self-initing-0x145f5f267450: clear
+<opcode> <obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __init__-0x145f5f267450: 414
+<obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: clear
+<opcode> <obj>:<0x145f49d8e1d0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559eca4c0be0: 1018
+<obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: clear
+<opcode> <obj>:<0x145f49b7ffb0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x559ec9fdf3f0: 122
+<obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: clear
+<opcode> <obj>:<0x145f2a213290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x559ecb18f340: 983
+<obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: clear
+<opcode> <obj>:<0x145f28f7eb30>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x145f5f2655f0: 82
+<obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: self-initing-0x145f5f267450: clear
+<opcode> <obj>:<0x145f10f14290>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __init__-0x145f5f267450: 414
+<obj>:<0x14bc3e70e590>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x14bc462d8620: clear
+<opcode> <obj>:<0x14bc3e70e590>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x14bc462d8620: 82
+<obj>:<0x14bc30c5c650>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x55e157971df0: clear
+<opcode> <obj>:<0x14bc30c5c650>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x55e157971df0: 1018
+<obj>:<0x14bc2eed0f50>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x55e1577fa3b0: clear
+<opcode> <obj>:<0x14bc2eed0f50>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x55e1577fa3b0: 122
+<obj>:<0x14bc114a8ad0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: self-initing-0x55e15778d0c0: clear
+<opcode> <obj>:<0x14bc114a8ad0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __init__-0x55e15778d0c0: 414
+<obj>:<0x14bc0f43dbf0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x55e1587fbd70: clear
+<opcode> <obj>:<0x14bc0f43dbf0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x55e1587fbd70: 983
+<obj>:<0x14bc3e70e590>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x14bc462d8620: clear
+<opcode> <obj>:<0x14bc3e70e590>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x14bc462d8620: 82
+<obj>:<0x14bc30c5c650>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x55e157971df0: clear
+<opcode> <obj>:<0x14bc30c5c650>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x55e157971df0: 1018
+<obj>:<0x14bc2eed0f50>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x55e1577fa3b0: clear
+<opcode> <obj>:<0x14bc2eed0f50>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x55e1577fa3b0: 122
+<obj>:<0x14bc114a8ad0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: self-initing-0x55e15778d0c0: clear
+<opcode> <obj>:<0x14bc114a8ad0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __init__-0x55e15778d0c0: 414
+<obj>:<0x14bc0f43dbf0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x55e1587fbd70: clear
+<opcode> <obj>:<0x14bc0f43dbf0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x55e1587fbd70: 983
+<obj>:<0x14bc3e70e590>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x14bc462d8620: clear
+<opcode> <obj>:<0x14bc3e70e590>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __new__-0x14bc462d8620: 82
+<obj>:<0x14bc30c5c650>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x55e157971df0: clear
+<opcode> <obj>:<0x14bc30c5c650>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x55e157971df0: 1018
+<obj>:<0x14bc2eed0f50>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x55e1577fa3b0: clear
+<opcode> <obj>:<0x14bc2eed0f50>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py: mark-0x55e1577fa3b0: 122
+<obj>:<0x14bc114a8ad0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: self-initing-0x55e15778d0c0: clear
+<opcode> <obj>:<0x14bc114a8ad0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py: __init__-0x55e15778d0c0: 414
+<obj>:<0x14bc0f43dbf0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x55e1587fbd70: clear
+<opcode> <obj>:<0x14bc0f43dbf0>: /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py: normalize_invisible_parens-0x55e1587fbd70: 983

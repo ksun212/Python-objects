@@ -1,0 +1,12 @@
+ /home/user/featuretools/featuretools/entityset/timedelta.py-__radd__-202
+featuretools.entityset.timedelta.Timedelta.delta_obj
+            return time + self.delta_obj
+{'dateutil.relativedelta.relativedelta', 'pandas._libs.tslibs.timedeltas.Timedelta', 'pandas._libs.tslibs.offsets.pandas._libs.tslibs.offsets.BusinessDay', 'pandas._libs.tslibs.offsets.DateOffset', 'builtins.NoneType'}
+ /home/user/featuretools/featuretools/entityset/timedelta.py-__rsub__-209
+featuretools.entityset.timedelta.Timedelta.delta_obj
+            return time - self.delta_obj
+{'dateutil.relativedelta.relativedelta', 'pandas._libs.tslibs.timedeltas.Timedelta', 'pandas._libs.tslibs.offsets.pandas._libs.tslibs.offsets.BusinessDay', 'pandas._libs.tslibs.offsets.DateOffset', 'builtins.NoneType'}
+ /home/user/featuretools/featuretools/synthesis/deep_feature_synthesis.py-_build_agg_features-855
+featuretools.synthesis.deep_feature_synthesis.DeepFeatureSynthesis.where_clauses
+            wheres = list(self.where_clauses[child_dataframe.ww.name])
+{'missing', 'collections.collections.defaultdict'}

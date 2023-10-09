@@ -1,0 +1,114 @@
+0
+4
+0
+0
+1
+172
+109
+18
+
+0
+1
+0
+0
+ /home/user/pyecharts/pyecharts/render/engine.py-generate_js_link-43
+ /home/user/pyecharts/pyecharts/charts/chart.py-__init__-210
+ /home/user/pyecharts/pyecharts/charts/composite_charts/tab.py-add-22
+1
+4
+3
+3
+0.7565438291851566
+0.03373207280210946
+0.20972409801273395
+0.2017738359201774
+0.7982261640798226
+0.0
+0.2746835443037975
+0.02911392405063291
+0.6962025316455697
+0.1224188790560472
+0.8775811209439528
+0.0
+defaultdict(<class 'int'>, {'builtins.getset_descriptor': 20679, 'builtins.member_descriptor': 2528, 'builtins.method_descriptor': 62, 'builtins.function': 253, 'builtins.staticmethod': 5, 'builtins.property': 0, 'builtins.classmethod': 0, 'builtins.wrapper_descriptor': 0, 'builtins.classmethod_descriptor': 0, 'functools.cached_property': 0, 'functools.functools._lru_cache_wrapper': 0})
+defaultdict(<class 'int'>, {'builtins.member_descriptor': 910, 'builtins.property': 0, 'builtins.getset_descriptor': 0, 'builtins.function': 0, 'builtins.classmethod': 0, 'builtins.method_descriptor': 0, 'builtins.wrapper_descriptor': 0, 'builtins.classmethod_descriptor': 0, 'builtins.staticmethod': 0, 'functools.cached_property': 0, 'functools.functools._lru_cache_wrapper': 0})
+10
+0
+0.0
+from none: 0.9069767441860465
+to none: 0.09302325581395349
+t1 == t2:  0.0
+t1 <: t2:  0.0
+t2 <: t1:  0.0
+t2 ~~ t1:  0.0
+normal mutation: 0.0
+from none class:  0.6666666666666666
+to none class:  0.3333333333333333
+t1 == t2 class:  0.0
+t1 <: t2 class:  0.0
+t2 <: t1 class:  0.0
+t2 ~~ t1 class:  0.0
+nromal class:  0.0
+dot syntax:  1.0
+hashmap syntax:  0.0
+reflection:  0.0
+??? syntax:  0.0
+dot syntax:  0.8498053880790659
+hashmap syntax:  0.0
+reflection:  0.15019461192093414
+??? syntax:  0.0
+[(1, 3402), (2, 39)]
+1: 0.988666085440279
+2: 0.011333914559721011
+pyecharts.charts.three_axis_charts.bar3D.Bar3D  _3d_chart_type
+{'builtins.str', 'builtins.NoneType'}
+pyecharts.charts.basic_charts.bmap.BMap  _chart_type
+{'builtins.str', 'builtins.NoneType'}
+pyecharts.charts.basic_charts.bmap.BMap  _coordinate_system
+{'builtins.str', 'builtins.NoneType'}
+pyecharts.charts.basic_charts.geo.Geo  _chart_type
+{'builtins.str', 'builtins.NoneType'}
+pyecharts.charts.basic_charts.geo.Geo  _coordinate_system
+{'builtins.str', 'builtins.NoneType'}
+pyecharts.charts.composite_charts.grid.Grid  options
+{'builtins.dict', 'builtins.NoneType'}
+pyecharts.charts.three_axis_charts.line3D.Line3D  _3d_chart_type
+{'builtins.str', 'builtins.NoneType'}
+pyecharts.charts.three_axis_charts.map3D.Map3D  _3d_chart_type
+{'builtins.str', 'builtins.NoneType'}
+pyecharts.charts.three_axis_charts.scatter3D.Scatter3D  _3d_chart_type
+{'builtins.str', 'builtins.NoneType'}
+pyecharts.charts.three_axis_charts.surface3D.Surface3D  _3d_chart_type
+{'builtins.str', 'builtins.NoneType'}
+[(1, 585), (2, 10)]
+1: 0.17000871839581516
+2: 0.002906131938390003
+defaultdict(<class 'int'>, {'pyecharts.globals._CurrentConfig': 1, 'pyecharts.charts.basic_charts.bar.Bar': 50, 'pyecharts.charts.three_axis_charts.bar3D.Bar3D': 2, 'pyecharts.charts.basic_charts.bmap.BMap': 5, 'pyecharts.charts.basic_charts.boxplot.Boxplot': 2, 'pyecharts.charts.basic_charts.calendar.Calendar': 2, 'pyecharts.charts.basic_charts.effectscatter.EffectScatter': 2, 'pyecharts.charts.basic_charts.funnel.Funnel': 2, 'pyecharts.charts.basic_charts.gauge.Gauge': 3, 'pyecharts.charts.basic_charts.geo.Geo': 2, 'pyecharts.charts.basic_charts.graph.Graph': 3, 'pyecharts.charts.basic_charts.line.Line': 21, 'pyecharts.charts.composite_charts.grid.Grid': 2, 'pyecharts.charts.basic_charts.heatmap.HeatMap': 1, 'pyecharts.components.image.Image': 1, 'pyecharts.charts.basic_charts.kline.Kline': 3, 'pyecharts.charts.three_axis_charts.line3D.Line3D': 1, 'pyecharts.charts.basic_charts.liquid.Liquid': 1, 'pyecharts.charts.basic_charts.map.Map': 2, 'pyecharts.charts.three_axis_charts.map3D.Map3D': 2, 'pyecharts.charts.three_axis_charts.map_globe.MapGlobe': 2, 'pyecharts.charts.composite_charts.page.Page': 5, 'pyecharts.charts.basic_charts.parallel.Parallel': 1, 'pyecharts.charts.basic_charts.pictorialbar.PictorialBar': 1, 'pyecharts.charts.basic_charts.pie.Pie': 2, 'pyecharts.charts.basic_charts.polar.Polar': 1, 'pyecharts.charts.basic_charts.radar.Radar': 3, 'pyecharts.charts.basic_charts.sankey.Sankey': 2, 'pyecharts.charts.basic_charts.scatter.Scatter': 2, 'pyecharts.charts.three_axis_charts.scatter3D.Scatter3D': 1, 'pyecharts.charts.basic_charts.sunburst.Sunburst': 1, 'pyecharts.charts.three_axis_charts.surface3D.Surface3D': 1, 'pyecharts.charts.composite_charts.tab.Tab': 2, 'pyecharts.components.table.Table': 2, 'pyecharts.charts.basic_charts.themeriver.ThemeRiver': 1, 'pyecharts.charts.basic_charts.tree.Tree': 2, 'pyecharts.charts.basic_charts.treemap.TreeMap': 3, 'pyecharts.charts.basic_charts.wordcloud.WordCloud': 1})
+ext object:0.0632003585835948
+del object: 0.0
+clr object: 0.0
+rep object: 0.0
+upd object: 0.0
+mod object: 0.011205737337516808
+refl object: 0.0
+extensive classes: 0.2733812949640288
+deleting classes: 0.0
+clearing classes: 0.0
+updating classes: 0.0
+replacing classes: 0.0
+modifying classes: 0.05755395683453238
+refling classes: 0.0
+(('builtins.NoneType', 'builtins.str'), 35)
+(('builtins.dict', 'builtins.NoneType'), 4)
+(('builtins.NoneType', 'builtins.dict'), 4)
+multiple dict: 0
+single dict: 0
+polymorphic class: 1.0
+set()
+dot overloading: 0.0
+static classes: 0.005747126436781609
+0
+0
+0
+0
+black

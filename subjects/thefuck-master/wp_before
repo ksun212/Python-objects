@@ -1,0 +1,400 @@
+False
+NOT(self.show_time)
+NOT(self.show_level)
+NOT(self.show_time)
+True
+False
+None
+None
+None
+False
+False
+NOT(excess_space <= 0)  =>  NOT(align == 'left')
+NOT(excess_space <= 0)  =>  (NOT(align == 'left')  =>  NOT(align == 'center'))
+True
+False
+False
+False
+None
+None
+None
+False
+False
+NOT(self.style)
+False
+NOT(self.vertical and vertical_height IsNot None)
+self.vertical and vertical_height IsNot None  =>  self.vertical == 'top'
+False
+False
+False
+True
+NOT(renderables)
+renderables  =>  NOT(self.align)
+NOT(renderables)
+NOT(renderables)
+NOT(renderables)
+renderables  =>  NOT(self.width IsNot None)
+renderables  =>  NOT(self.width IsNot None)
+False
+True
+True
+False
+False
+True
+False
+False
+self.is_jupyter  =>  NOT(width Is None)
+self.is_jupyter  =>  NOT(height Is None)
+NOT(width Is None)
+NOT(height Is None)
+force_terminal IsNot None
+False
+NOT(self.is_jupyter)  =>  (NOT(NOT(self.is_terminal) or self.is_dumb_terminal)  =>  WINDOWS)
+NOT(self.is_jupyter)  =>  (NOT(NOT(self.is_terminal) or self.is_dumb_terminal)  =>  (NOT(WINDOWS)  =>  color_term In ['truecolor','24bit']))
+False
+NOT(self._width IsNot None and self._height IsNot None)  =>  self.is_dumb_terminal
+NOT(self._width IsNot None and self._height IsNot None)  =>  self.is_dumb_terminal
+False
+False
+True
+True
+False
+True
+False
+True
+False
+True
+False
+False
+False
+False
+NOT(self.style IsNot None)
+False
+False
+True
+True
+True
+NOT(region Is None)
+False
+False
+False
+False
+NOT(render_options.height IsNot None)
+False
+False
+False
+False
+NOT(_options.max_width < 1)  =>  (NOT(hasattr(renderable,'__rich_console__') and NOT(isclass(renderable)))  =>  NOT(isinstance(renderable,str)))
+False
+False
+False
+None
+NOT(_options.max_width < 1)  =>  (NOT(hasattr(renderable,'__rich_console__') and NOT(isclass(renderable)))  =>  NOT(isinstance(renderable,str)))
+NOT(_max_width < 1)  =>  NOT(isinstance(renderable,str))
+None
+None
+False
+NOT(NOT(self.line_numbers) and NOT(self.word_wrap) and NOT(self.line_range))  =>  self.word_wrap
+False
+False
+False
+False
+True
+NOT(self.width Is None)
+self.width Is None
+False
+False
+self.width Is None
+False
+NOT(self.width IsNot None)
+True
+False
+False
+False
+False
+False
+None
+None
+None
+None
+False
+NOT(children)
+False
+False
+False
+False
+NOT(self.auto_refresh)
+False
+NOT(self.auto_refresh and self._refresh_thread IsNot None)
+False
+False
+False
+NOT(self._restore_stderr)
+False
+NOT(self._restore_stdout)
+NOT(self.auto_refresh)
+False
+False
+False
+False
+NOT(self._shape IsNot None)
+False
+NOT(self._shape IsNot None)
+False
+False
+False
+False
+NOT(self.formatter)
+NOT(self.rich_tracebacks and record.exc_info and record.exc_info =/= [None,None,None])
+self.rich_tracebacks and record.exc_info and record.exc_info =/= [None,None,None]  =>  NOT(self.formatter)
+False
+False
+False
+NOT(self.keywords)
+self.list_type == 'bullet'
+False
+False
+NOT(node_type In 'code' and self._syntax IsNot None)
+True
+self.expand
+False
+max_width-extra_width < 1
+False
+False
+False
+False
+False
+False
+False
+False
+NOT(self.subtitle)
+NOT(self.subtitle)
+False
+NOT(self.title)
+NOT(self.title)
+NOT(self.title)
+False
+False
+False
+self.width Is None
+False
+False
+False
+None
+self.value_repr
+NOT(self.value_repr)  =>  NOT(self.children IsNot None)
+NOT(self.value_repr)  =>  (self.children IsNot None  =>  NOT(self.children))
+NOT(self.value_repr)  =>  (self.children IsNot None  =>  (self.children  =>  NOT(self.is_tuple and NOT(self.is_namedtuple) and len(self.children) == 1)))
+NOT(self.value_repr)  =>  (self.children IsNot None  =>  (self.children  =>  self.is_tuple and NOT(self.is_namedtuple) and len(self.children) == 1))
+False
+NOT(node.key_repr)
+False
+NOT(self.key_repr)
+NOT(node.key_repr)
+NOT(self.key_repr)
+False
+False
+False
+False
+False
+False
+False
+False
+True
+True
+False
+True
+False
+True
+True
+False
+False
+False
+False
+True
+False
+False
+False
+True
+True
+False
+False
+True
+False
+self.start_time Is None
+True
+False
+False
+False
+NOT(self.total)
+False
+True
+True
+False
+task.total Is None and self.show_speed
+False
+False
+False
+False
+False
+NOT(task.total IsNot None)
+False
+False
+False
+None
+False
+False
+NOT(self.highlighter)
+False
+NOT(self.max_refresh IsNot None and NOT(task.completed))
+True
+False
+False
+False
+self.daemon
+False
+False
+False
+True
+False
+should_pulse
+should_pulse
+should_pulse
+should_pulse
+False
+self.total Is None
+False
+False
+False
+False
+False
+True
+True
+False
+True
+False
+NOT(self.show_choices and self.choices)
+False
+self.title  =>  (truncate_width  =>  (NOT(self.align == 'center')  =>  self.align == 'left'))
+NOT(self.title)
+self.title  =>  NOT(truncate_width)
+self.title  =>  (truncate_width  =>  self.align == 'center')
+True
+False
+False
+self.title  =>  NOT(truncate_width)
+self.title  =>  (truncate_width  =>  (NOT(self.align == 'center')  =>  (NOT(self.align == 'left')  =>  NOT(self.align == 'right'))))
+self.title  =>  (truncate_width  =>  NOT(self.align == 'center'))
+self.title  =>  (truncate_width  =>  NOT(self.align == 'center'))
+self.title  =>  (truncate_width  =>  (NOT(self.align == 'center')  =>  NOT(self.align == 'left')))
+False
+True
+False
+NOT(self.title)
+self.title  =>  NOT(isinstance(self.title,Text))
+self.title  =>  isinstance(self.title,Text)
+False
+False
+False
+NOT(self._update_speed)
+False
+False
+False
+False
+False
+False
+False
+False
+NOT(self.text)
+True
+self.text  =>  isinstance(self.text,[str,Text])
+False
+False
+False
+True
+False
+False
+False
+False
+True
+True
+NOT(self.padding)
+False
+False
+NOT(background_style.transparent_background)  =>  NOT(console.color_system In ['256','truecolor'])
+NOT(background_style.transparent_background)  =>  NOT(console.color_system In ['256','truecolor'])
+NOT(NOT(self.line_numbers) and NOT(self.word_wrap) and NOT(self.line_range))
+NOT(NOT(self.line_numbers) and NOT(self.word_wrap) and NOT(self.line_range))  =>  NOT(self.indent_guides and NOT(options.ascii_only))
+False
+False
+lexer Is None
+NOT(lexer Is None)  =>  NOT(self.background_color IsNot None)
+False
+NOT(self.code_width IsNot None)
+False
+False
+False
+False
+NOT(self.line_numbers) and NOT(self.word_wrap) and NOT(self.line_range)
+NOT(self.line_numbers) and NOT(self.word_wrap) and NOT(self.line_range)
+False
+NOT(self.padding)
+False
+NOT(self.show_footer)
+None
+True
+None
+None
+max_width < 1
+True
+None
+False
+False
+False
+False
+NOT(self.columns)
+self.columns  =>  NOT(self.caption)
+max_width < 0
+False
+NOT(table_width < max_width and self.expand or self.min_width IsNot None and table_width < self.min_width-extra_width)
+NOT(table_width < max_width and self.expand or self.min_width IsNot None and table_width < self.min_width-extra_width)
+NOT(self.columns)
+self.columns  =>  NOT(self.title)
+NOT(self.columns)
+self.columns  =>  NOT(self.width IsNot None)
+False
+NOT(self.width IsNot None)
+max_width < 0
+max_width < 0
+True
+suppressed
+False
+NOT(frame.locals)
+False
+NOT(stack.syntax_error IsNot None)
+NOT(stack.syntax_error IsNot None)
+suppressed
+suppressed
+suppressed
+NOT(frame.locals)
+NOT(frame.locals)
+NOT(frame.locals)
+False
+NOT(self.max_frames =/= 0)
+NOT(self.max_frames =/= 0)
+False
+False
+False
+False
+False
+False
+False
+False
+False
+None
+NOT(stack.frames)
+NOT(stack.syntax_error IsNot None)
+NOT(stack.syntax_error IsNot None)
+suppressed
+False
+False

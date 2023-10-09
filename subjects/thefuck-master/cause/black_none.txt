@@ -1,0 +1,116 @@
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py-push-375
+black_blib2to3.pgen2.parse.Parser.stack
+            dfa, state, node = self.stack[-1]
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py-shift-366
+black_blib2to3.pgen2.parse.Parser.stack
+            self.stack[-1] = (dfa, newstate, node)
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py-push-378
+black_blib2to3.pgen2.parse.Parser.stack
+            self.stack.append((newdfa, 0, newnode))
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py-_addtoken-316
+black_blib2to3.pgen2.parse.Parser.stack
+                        dfa, state, node = self.stack[-1]
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py-_addtoken-290
+black_blib2to3.pgen2.parse.Parser.stack
+            dfa, state, node = self.stack[-1]
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py-shift-361
+black_blib2to3.pgen2.parse.Parser.stack
+            dfa, state, node = self.stack[-1]
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py-pop-388
+black_blib2to3.pgen2.parse.Parser.stack
+                dfa, state, node = self.stack[-1]
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py-pop-385
+black_blib2to3.pgen2.parse.Parser.stack
+            popdfa, popstate, popnode = self.stack.pop()
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py-push-377
+black_blib2to3.pgen2.parse.Parser.stack
+            self.stack[-1] = (dfa, newstate, node)
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py-pop-393
+black_blib2to3.pgen2.parse.Parser.rootnode
+                self.rootnode.used_names = self.used_names
+{'black_blib2to3.pytree.Leaf', 'black_blib2to3.pytree.Node', 'builtins.NoneType', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py-classify-339
+black_blib2to3.pgen2.parse.Parser.used_names
+            self.used_names.add(value)
+{'builtins.set', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/nodes.py-whitespace-253
+black_blib2to3.pytree.Leaf.parent
+            and prevp.parent.type == syms.factor
+{'black_blib2to3.pytree.Node', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py-is_split_before_delimiter-237
+black_blib2to3.pytree.Leaf.parent
+        and leaf.parent.type not in {syms.import_from, syms.dotted_name}
+{'black_blib2to3.pytree.Node', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py-is_split_before_delimiter-245
+black_blib2to3.pytree.Leaf.parent
+        and leaf.parent.type not in {syms.factor, syms.star_expr}
+{'black_blib2to3.pytree.Node', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py-append_comment-357
+black_blib2to3.pytree.Leaf.parent
+            and len(list(last_leaf.parent.leaves())) <= 3
+{'black_blib2to3.pytree.Node', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py-is_split_before_delimiter-277
+black_blib2to3.pytree.Leaf.parent
+        and leaf.parent.type in {syms.comp_if, syms.old_comp_if}
+{'black_blib2to3.pytree.Node', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/linegen.py-should_split_line-1215
+black_blib2to3.pytree.Leaf.parent
+        or opening_bracket.parent.type in {syms.atom, syms.import_from}
+{'black_blib2to3.pytree.Node', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/brackets.py-is_split_before_delimiter-265
+black_blib2to3.pytree.Leaf.parent
+        and leaf.parent.type in {syms.comp_for, syms.old_comp_for}
+{'black_blib2to3.pytree.Node', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/nodes.py-is_one_sequence_between-593
+black_blib2to3.pytree.Leaf.parent
+            if leaf.parent and leaf.parent.type in {
+{'black_blib2to3.pytree.Node', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/nodes.py-is_one_sequence_between-576
+black_blib2to3.pytree.Leaf.bracket_depth
+    depth = closing.bracket_depth + 1
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py-replace-154
+black_blib2to3.pytree.Node.parent
+        self.parent.changed()
+{'black_blib2to3.pytree.Node', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py-replace-144
+black_blib2to3.pytree.Node.parent
+        for ch in self.parent.children:
+{'black_blib2to3.pytree.Node', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py-replace-153
+black_blib2to3.pytree.Node.parent
+        self.parent.children = l_children
+{'black_blib2to3.pytree.Node', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/nodes.py-whitespace-347
+black_blib2to3.pytree.Node.parent
+            if p.parent.type == syms.subscriptlist:
+{'black_blib2to3.pytree.Node', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pytree.py-replace-155
+black_blib2to3.pytree.Node.parent
+        self.parent.invalidate_sibling_maps()
+{'black_blib2to3.pytree.Node', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/nodes.py-whitespace-258
+black_blib2to3.pytree.Node.parent
+        elif prevp.type == token.AT and p.parent and p.parent.type == syms.decorator:
+{'black_blib2to3.pytree.Node', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py-_maybe_empty_lines-589
+black.lines.EmptyLineTracker.previous_line
+            and self.previous_line.is_class
+{'black.lines.Line', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py-_maybe_empty_lines-581
+black.lines.EmptyLineTracker.previous_line
+            and self.previous_line.is_import
+{'black.lines.Line', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py-_maybe_empty_lines-583
+black.lines.EmptyLineTracker.previous_line
+            and depth == self.previous_line.depth
+{'black.lines.Line', 'builtins.NoneType'}

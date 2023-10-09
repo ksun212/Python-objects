@@ -1,0 +1,40 @@
+ /home/user/rich/rich-master/rich/syntax.py-get_style_for_token-158
+rich.syntax.PygmentsSyntaxTheme._pygments_style_class
+                pygments_style = self._pygments_style_class.style_for_token(token_type)
+{'pygments.style.Style', 'pygments.style.StyleMeta'}
+ /home/user/rich/rich-master/rich/pretty.py-expand-548
+rich.pretty.Node.children
+        tuple_of_one = node.is_tuple and len(node.children) == 1
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/rich/rich-master/rich/pretty.py-check_length-532
+rich.pretty._Line.node
+        return self.node.check_length(start_length, max_length)
+{'builtins.NoneType', 'rich.pretty.Node'}
+ /home/user/rich/rich-master/rich/markdown.py-on_text-98
+rich.markdown.Heading.text
+        self.text.append(text, context.current_style if isinstance(text, str) else None)
+{'rich.text.Text', 'missing'}
+ /home/user/rich/rich-master/rich/markdown.py-__rich_console__-120
+rich.markdown.Paragraph.text
+        self.text.justify = self.justify
+{'rich.text.Text', 'missing'}
+ /home/user/rich/rich-master/rich/markdown.py-on_text-98
+rich.markdown.Paragraph.text
+        self.text.append(text, context.current_style if isinstance(text, str) else None)
+{'rich.text.Text', 'missing'}
+ /home/user/rich/rich-master/rich/spinner.py-render-71
+rich.spinner.Spinner.start_time
+        frame_no = ((time - self.start_time) * self.speed) / (
+{'builtins.float', 'builtins.int', 'builtins.NoneType'}
+ /home/user/rich/rich-master/rich/live.py-start-132
+rich.live.Live._refresh_thread
+                self._refresh_thread.start()
+{'rich.live._RefreshThread', 'builtins.NoneType'}
+ /home/user/rich/rich-master/rich/markdown.py-on_text-98
+rich.markdown.ImageItem.text
+        self.text.append(text, context.current_style if isinstance(text, str) else None)
+{'rich.text.Text', 'missing'}
+ /home/user/rich/rich-master/rich/markdown.py-on_text-98
+rich.markdown.CodeBlock.text
+        self.text.append(text, context.current_style if isinstance(text, str) else None)
+{'rich.text.Text', 'missing'}

@@ -1,0 +1,4 @@
+pyecharts.charts.basic_charts.scatter.Scatter._xaxis_data
+{'missing', 'builtins.list'}
+ /home/user/pyecharts/pyecharts/charts/basic_charts/scatter.py-_parse_data-24
+        elif len(self._xaxis_data) == 0:

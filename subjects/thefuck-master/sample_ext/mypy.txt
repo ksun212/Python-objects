@@ -1,0 +1,3 @@
+ /home/user/mypy-master/mypy/semanal.py-visit_assignment_stmt-2635
+ /home/user/mypy-master/mypy/semanal_pass1.py-visit_file-60
+ /home/user/mypy-master/mypy/semanal.py-file_context-771

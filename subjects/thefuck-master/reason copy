@@ -1,0 +1,2540 @@
+ /home/user/rich/rich-master/rich/syntax.py-get_style_for_token-158
+rich.syntax.PygmentsSyntaxTheme._pygments_style_class
+                pygments_style = self._pygments_style_class.style_for_token(token_type)
+{'pygments.style.StyleMeta', 'pygments.style.Style'}
+ /home/user/rich/rich-master/rich/syntax.py-__init__-149
+rich.syntax.PygmentsSyntaxTheme._pygments_style_class
+        self._background_color = self._pygments_style_class.background_color
+{'pygments.style.StyleMeta', 'pygments.style.Style'}
+ /home/user/rich/rich-master/rich/pretty.py-check_length-532
+rich.pretty._Line.node
+        return self.node.check_length(start_length, max_length)
+{'rich.pretty.Node', 'builtins.NoneType'}
+ /home/user/rich/rich-master/rich/markdown.py-on_text-98
+rich.markdown.Heading.text
+        self.text.append(text, context.current_style if isinstance(text, str) else None)
+{'missing', 'rich.text.Text'}
+ /home/user/rich/rich-master/rich/markdown.py-on_text-98
+rich.markdown.Paragraph.text
+        self.text.append(text, context.current_style if isinstance(text, str) else None)
+{'missing', 'rich.text.Text'}
+ /home/user/rich/rich-master/rich/markdown.py-__rich_console__-120
+rich.markdown.Paragraph.text
+        self.text.justify = self.justify
+{'missing', 'rich.text.Text'}
+ /home/user/rich/rich-master/rich/spinner.py-render-71
+rich.spinner.Spinner.start_time
+        frame_no = ((time - self.start_time) * self.speed) / (
+{'builtins.NoneType', 'builtins.int', 'builtins.float'}
+ /home/user/rich/rich-master/rich/live.py-start-132
+rich.live.Live._refresh_thread
+                self._refresh_thread.start()
+{'builtins.NoneType', 'rich.live._RefreshThread'}
+ /home/user/rich/rich-master/rich/markdown.py-on_text-98
+rich.markdown.ImageItem.text
+        self.text.append(text, context.current_style if isinstance(text, str) else None)
+{'missing', 'rich.text.Text'}
+ /home/user/rich/rich-master/rich/markdown.py-on_text-98
+rich.markdown.CodeBlock.text
+        self.text.append(text, context.current_style if isinstance(text, str) else None)
+{'missing', 'rich.text.Text'}
+ /home/user/rich/rich-master/rich/progress.py-update-1459
+rich.progress.Task.total
+                and task.completed >= task.total
+{'builtins.NoneType', 'builtins.float', 'builtins.int'}
+ /home/user/rich/rich-master/rich/progress.py-advance-1530
+rich.progress.Task.total
+                and task.completed >= task.total
+{'builtins.NoneType', 'builtins.float', 'builtins.int'}
+ /home/user/rich/rich-master/rich/progress.py-__enter__-282
+rich.progress._ReadContext.reader
+        return self.reader.__enter__()
+{'rich.progress._Reader', '_io._io.TextIOWrapper'}
+ /home/user/rich/rich-master/rich/progress.py-__exit__-291
+rich.progress._ReadContext.reader
+        self.reader.__exit__(exc_type, exc_val, exc_tb)
+{'rich.progress._Reader', '_io._io.TextIOWrapper'}
+ /home/user/thefuck-master/thefuck/utils.py-get_value-264
+thefuck.utils.Cache._db
+            self._db[key] = {'etag': etag, 'value': value}
+{'tests.test_utils._Shelve', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/utils.py-get_value-260
+thefuck.utils.Cache._db
+        if self._db.get(key, {}).get('etag') == etag:
+{'tests.test_utils._Shelve', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/utils.py-get_value-261
+thefuck.utils.Cache._db
+            return self._db[key]['value']
+{'tests.test_utils._Shelve', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/utils.py-_setup_db-224
+thefuck.utils.Cache._db
+        atexit.register(self._db.close)
+{'tests.test_utils._Shelve', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/composer_not_command.py-get_new_command-14
+thefuck.types.Command.output
+    if "install" in command.script_parts and "composer require" in command.output.lower():
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/man_no_space.py-match-3
+thefuck.types.Command.output
+            and u'command not found' in command.output.lower())
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/terraform_init.py-match-7
+thefuck.types.Command.output
+    return ('this module is not yet installed' in command.output.lower() or
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/cd_correction.py-match-26
+thefuck.types.Command.output
+            'cd: can\'t cd to' in command.output.lower(),
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/cd_mkdir.py-match-13
+thefuck.types.Command.output
+            'cd: can\'t cd to' in command.output.lower(),
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/cp_omitting_directory.py-match-9
+thefuck.types.Command.output
+    output = command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/cd_mkdir.py-match-14
+thefuck.types.Command.output
+            'does not exist' in command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/vagrant_up.py-match-7
+thefuck.types.Command.output
+    return 'run `vagrant up`' in command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/docker_not_command.py-get_new_command-44
+thefuck.types.Command.output
+        management_subcommands = _parse_commands(command.output.split('\n'), 'Commands:')
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/grep_recursive.py-match-6
+thefuck.types.Command.output
+    return 'is a directory' in command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/pacman_invalid_option.py-match-10
+thefuck.types.Command.output
+    return command.output.startswith("error: invalid option '-") and any(
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/chmod_x.py-match-7
+thefuck.types.Command.output
+            and 'permission denied' in command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/ifconfig_device_not_found.py-get_new_command-21
+thefuck.types.Command.output
+    interface = command.output.split(' ')[0][:-1]
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/unsudo.py-match-9
+thefuck.types.Command.output
+        if pattern in command.output.lower():
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/ls_all.py-match-6
+thefuck.types.Command.output
+    return command.output.strip() == ''
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/open.py-match-29
+thefuck.types.Command.output
+            command.output.strip().endswith(' does not exist.'))
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/composer_not_command.py-match-9
+thefuck.types.Command.output
+        "install" in command.script_parts and "composer require" in command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/git_help_aliased.py-get_new_command-11
+thefuck.types.Command.output
+    aliased = command.output.split('`', 2)[2].split("'", 1)[0].split(' ', 1)[0]
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/cp_create_destination.py-match-10
+thefuck.types.Command.output
+        and command.output.rstrip().endswith("does not exist")
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/sudo.py-match-36
+thefuck.types.Command.output
+        if pattern in command.output.lower():
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/terraform_init.py-match-8
+thefuck.types.Command.output
+            'initialization required' in command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/composer_not_command.py-match-7
+thefuck.types.Command.output
+    return (('did you mean this?' in command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/ln_no_hard_link.py-match-17
+thefuck.types.Command.output
+    return (command.output.endswith("hard link not allowed for directory") and
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/cat_dir.py-match-8
+thefuck.types.Command.output
+        command.output.startswith('cat: ') and
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/man.py-get_new_command-20
+thefuck.types.Command.output
+    if command.output.strip() == 'No manual entry for ' + last_arg:
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/docker_image_being_used_by_container.py-get_new_command-19
+thefuck.types.Command.output
+    container_id = command.output.strip().split(' ')
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/fix_alt_space.py-match-9
+thefuck.types.Command.output
+    return ('command not found' in command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/rm_dir.py-match-8
+thefuck.types.Command.output
+            and 'is a directory' in command.output.lower())
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/apt_upgrade.py-match-11
+thefuck.types.Command.output
+    return command.script == "apt list --upgradable" and len(command.output.strip().split('\n')) > 1
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/cd_correction.py-match-27
+thefuck.types.Command.output
+            'does not exist' in command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/git_pull.py-get_new_command-12
+thefuck.types.Command.output
+    line = command.output.split('\n')[-3].strip()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/ag_literal.py-match-6
+thefuck.types.Command.output
+    return command.output.endswith('run ag with -Q\n')
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/git_rebase_merge_dir.py-get_new_command-15
+thefuck.types.Command.output
+    rm_cmd = command.output.split('\n')[-4]
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/dnf_no_such_command.py-match-14
+thefuck.types.Command.output
+    return 'no such command' in command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/cd_mkdir.py-match-12
+thefuck.types.Command.output
+            'no such file or directory' in command.output.lower(),
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/git_two_dashes.py-get_new_command-13
+thefuck.types.Command.output
+    to = command.output.split('`')[1]
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/cp_create_destination.py-match-9
+thefuck.types.Command.output
+        or command.output.startswith("cp: directory")
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/apt_invalid_operation.py-get_new_command-56
+thefuck.types.Command.output
+    invalid_operation = command.output.split()[-1]
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/adb_unknown_command.py-match-45
+thefuck.types.Command.output
+            and command.output.startswith('Android Debug Bridge version'))
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/cargo_no_command.py-match-7
+thefuck.types.Command.output
+    return ('no such subcommand' in command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/cd_correction.py-match-25
+thefuck.types.Command.output
+            'no such file or directory' in command.output.lower(),
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/composer_not_command.py-match-8
+thefuck.types.Command.output
+             or 'did you mean one of these?' in command.output.lower())) or (
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/open.py-match-28
+thefuck.types.Command.output
+            command.output.strip().startswith('The file ') and
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/open.py-get_new_command-34
+thefuck.types.Command.output
+    output = command.output.strip()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-mount-808
+requests.sessions.Session.adapters
+            self.adapters[key] = self.adapters.pop(key)
+{'builtins.dict', 'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-get_adapter-786
+requests.sessions.Session.adapters
+        for (prefix, adapter) in self.adapters.items():
+{'builtins.dict', 'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-mount-804
+requests.sessions.Session.adapters
+        self.adapters[prefix] = adapter
+{'builtins.dict', 'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-close-796
+requests.sessions.Session.adapters
+        for v in self.adapters.values():
+{'builtins.dict', 'collections.collections.OrderedDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-prepare_request-485
+requests.models.Request.method
+            method=request.method.upper(),
+{'builtins.str', 'builtins.NoneType', 'builtins.bytes'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare_headers-493
+requests.models.PreparedRequest.headers
+                self.headers[to_native_string(name)] = value
+{'builtins.NoneType', 'requests.structures.CaseInsensitiveDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/auth.py-__call__-95
+requests.models.PreparedRequest.headers
+        r.headers["Authorization"] = _basic_auth_str(self.username, self.password)
+{'builtins.NoneType', 'requests.structures.CaseInsensitiveDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare_cookies-629
+requests.models.PreparedRequest.headers
+            self.headers["Cookie"] = cookie_header
+{'builtins.NoneType', 'requests.structures.CaseInsensitiveDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-resolve_redirects-231
+requests.models.PreparedRequest.headers
+                    prepared_request.headers.pop(header, None)
+{'builtins.NoneType', 'requests.structures.CaseInsensitiveDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare_content_length-580
+requests.models.PreparedRequest.headers
+                self.headers["Content-Length"] = builtin_str(length)
+{'builtins.NoneType', 'requests.structures.CaseInsensitiveDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare_content_length-587
+requests.models.PreparedRequest.headers
+            self.headers["Content-Length"] = "0"
+{'builtins.NoneType', 'requests.structures.CaseInsensitiveDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/auth.py-__call__-291
+requests.models.PreparedRequest.headers
+            r.headers["Authorization"] = self.build_digest_header(r.method, r.url)
+{'builtins.NoneType', 'requests.structures.CaseInsensitiveDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare_body-569
+requests.models.PreparedRequest.headers
+                self.headers["Content-Type"] = content_type
+{'builtins.NoneType', 'requests.structures.CaseInsensitiveDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare_body-552
+requests.models.PreparedRequest.headers
+                self.headers["Transfer-Encoding"] = "chunked"
+{'builtins.NoneType', 'requests.structures.CaseInsensitiveDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/adapters.py-send-518
+requests.models.PreparedRequest.headers
+                    for header, value in request.headers.items():
+{'builtins.NoneType', 'requests.structures.CaseInsensitiveDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare_body-550
+requests.models.PreparedRequest.headers
+                self.headers["Content-Length"] = builtin_str(length)
+{'builtins.NoneType', 'requests.structures.CaseInsensitiveDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare_content_length-583
+requests.models.PreparedRequest.headers
+            and self.headers.get("Content-Length") is None
+{'builtins.NoneType', 'requests.structures.CaseInsensitiveDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/auth.py-handle_401-274
+requests.models.PreparedRequest.headers
+            prep.headers["Authorization"] = self.build_digest_header(
+{'builtins.NoneType', 'requests.structures.CaseInsensitiveDict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/auth.py-__call__-293
+requests.models.PreparedRequest.body
+            self._thread_local.pos = r.body.tell()
+{'_io._io.BytesIO', 'tests.test_requests.TestStream', 'builtins.str', 'builtins.generator', 'builtins.NoneType', 'builtins.bytes', 'tests.test_requests.BadFileObj', 'builtins.list_iterator'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/auth.py-handle_401-270
+requests.models.Response.request
+            prep = r.request.copy()
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-rebuild_auth-292
+requests.models.Response.request
+            response.request.url, url
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-close-1030
+requests.models.Response.raw
+            self.raw.close()
+{'_io._io.BytesIO', 'urllib3.response.HTTPResponse', '_io._io.StringIO', 'builtins.NoneType', 'unittest.mock.Mock'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-generate-816
+requests.models.Response.raw
+                    yield from self.raw.stream(chunk_size, decode_content=True)
+{'_io._io.BytesIO', 'urllib3.response.HTTPResponse', '_io._io.StringIO', 'builtins.NoneType', 'unittest.mock.Mock'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-generate-828
+requests.models.Response.raw
+                    chunk = self.raw.read(chunk_size)
+{'_io._io.BytesIO', 'urllib3.response.HTTPResponse', '_io._io.StringIO', 'builtins.NoneType', 'unittest.mock.Mock'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-resolve_redirects-188
+requests.models.Response.raw
+                resp.raw.read(decode_content=False)
+{'_io._io.BytesIO', 'urllib3.response.HTTPResponse', '_io._io.StringIO', 'builtins.NoneType', 'unittest.mock.Mock'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/adapters.py-build_response-317
+requests.models.Response.raw
+        response.reason = response.raw.reason
+{'_io._io.BytesIO', 'urllib3.response.HTTPResponse', '_io._io.StringIO', 'builtins.NoneType', 'unittest.mock.Mock'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/auth.py-handle_401-277
+requests.models.Response.connection
+            _r = r.connection.send(prep, **kwargs)
+{'missing', 'requests.adapters.HTTPAdapter'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/templating.py-list_templates-115
+flask.templating.DispatchingJinjaLoader.app
+        for blueprint in self.app.iter_blueprints():
+{'flask.app.Flask', 'conftest.Flask', 'test_templating.CustomFlask'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/templating.py-list_templates-111
+flask.templating.DispatchingJinjaLoader.app
+        loader = self.app.jinja_loader
+{'flask.app.Flask', 'conftest.Flask', 'test_templating.CustomFlask'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/templating.py-_iter_loaders-100
+flask.templating.DispatchingJinjaLoader.app
+        loader = self.app.jinja_loader
+{'flask.app.Flask', 'conftest.Flask', 'test_templating.CustomFlask'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/templating.py-get_source-57
+flask.templating.DispatchingJinjaLoader.app
+        if self.app.config["EXPLAIN_TEMPLATE_LOADING"]:
+{'flask.app.Flask', 'conftest.Flask', 'test_templating.CustomFlask'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/templating.py-_iter_loaders-104
+flask.templating.DispatchingJinjaLoader.app
+        for blueprint in self.app.iter_blueprints():
+{'flask.app.Flask', 'conftest.Flask', 'test_templating.CustomFlask'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/helpers.py-url_for-338
+flask.ctx.AppContext.app
+        return appctx.app.handle_url_build_error(error, endpoint, values)
+{'flask.app.Flask', 'test_reqctx.CustomFlask', 'test_subclassing.SuppressedFlask', 'conftest.Flask', 'test_templating.MyFlask', 'test_helpers.StaticFileApp'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/helpers.py-url_for-311
+flask.ctx.AppContext.app
+    appctx.app.inject_url_defaults(endpoint, values)
+{'flask.app.Flask', 'test_reqctx.CustomFlask', 'test_subclassing.SuppressedFlask', 'conftest.Flask', 'test_templating.MyFlask', 'test_helpers.StaticFileApp'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/templating.py-render_template_string-164
+flask.ctx.AppContext.app
+    ctx.app.update_template_context(context)
+{'flask.app.Flask', 'test_reqctx.CustomFlask', 'test_subclassing.SuppressedFlask', 'conftest.Flask', 'test_templating.MyFlask', 'test_helpers.StaticFileApp'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-__repr__-108
+flask.ctx.AppContext.app
+            return f"<flask.g of {top.app.name!r}>"
+{'flask.app.Flask', 'test_reqctx.CustomFlask', 'test_subclassing.SuppressedFlask', 'conftest.Flask', 'test_templating.MyFlask', 'test_helpers.StaticFileApp'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/templating.py-render_template-148
+flask.ctx.AppContext.app
+        ctx.app.jinja_env.get_or_select_template(template_name_or_list),
+{'flask.app.Flask', 'test_reqctx.CustomFlask', 'test_subclassing.SuppressedFlask', 'conftest.Flask', 'test_templating.MyFlask', 'test_helpers.StaticFileApp'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-pop-259
+flask.ctx.AppContext.app
+                self.app.do_teardown_appcontext(exc)
+{'flask.app.Flask', 'test_reqctx.CustomFlask', 'test_subclassing.SuppressedFlask', 'conftest.Flask', 'test_templating.MyFlask', 'test_helpers.StaticFileApp'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/templating.py-render_template-146
+flask.ctx.AppContext.app
+    ctx.app.update_template_context(context)
+{'flask.app.Flask', 'test_reqctx.CustomFlask', 'test_subclassing.SuppressedFlask', 'conftest.Flask', 'test_templating.MyFlask', 'test_helpers.StaticFileApp'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-copy-366
+flask.ctx.RequestContext.request
+            environ=self.request.environ,
+{'test_json.ModifiedRequest', 'flask.wrappers.Request'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-auto_pop-463
+flask.ctx.RequestContext.request
+        if self.request.environ.get("flask._preserve_context") or (
+{'test_json.ModifiedRequest', 'flask.wrappers.Request'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-match_request-377
+flask.ctx.RequestContext.request
+            self.request.url_rule, self.request.view_args = result  # type: ignore
+{'test_json.ModifiedRequest', 'flask.wrappers.Request'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-pop-452
+flask.ctx.RequestContext.request
+                rv.request.environ["werkzeug.request"] = None
+{'test_json.ModifiedRequest', 'flask.wrappers.Request'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/debughelpers.py-explain_template_loading_attempts-120
+flask.ctx.RequestContext.request
+    if reqctx is not None and reqctx.request.blueprint is not None:
+{'test_json.ModifiedRequest', 'flask.wrappers.Request'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-match_request-379
+flask.ctx.RequestContext.request
+            self.request.routing_exception = e
+{'test_json.ModifiedRequest', 'flask.wrappers.Request'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/debughelpers.py-explain_template_loading_attempts-121
+flask.ctx.RequestContext.request
+        blueprint = reqctx.request.blueprint
+{'test_json.ModifiedRequest', 'flask.wrappers.Request'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/testing.py-session_transaction-173
+flask.ctx.RequestContext.request
+            self.cookie_jar.extract_wsgi(c.request.environ, headers)
+{'test_json.ModifiedRequest', 'flask.wrappers.Request'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-__init__-320
+flask.ctx.RequestContext.request
+            self.request.routing_exception = e
+{'test_json.ModifiedRequest', 'flask.wrappers.Request'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/testing.py-session_transaction-172
+flask.ctx.RequestContext.request
+            headers = resp.get_wsgi_headers(c.request.environ)
+{'test_json.ModifiedRequest', 'flask.wrappers.Request'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-push-412
+flask.ctx.RequestContext.app
+            session_interface = self.app.session_interface
+{'flask.app.Flask', 'test_reqctx.CustomFlask', 'test_subclassing.SuppressedFlask', 'conftest.Flask', 'test_templating.MyFlask', 'test_helpers.StaticFileApp'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-pop-440
+flask.ctx.RequestContext.app
+                self.app.do_teardown_request(exc)
+{'flask.app.Flask', 'test_reqctx.CustomFlask', 'test_subclassing.SuppressedFlask', 'conftest.Flask', 'test_templating.MyFlask', 'test_helpers.StaticFileApp'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-auto_pop-464
+flask.ctx.RequestContext.app
+            exc is not None and self.app.preserve_context_on_exception
+{'flask.app.Flask', 'test_reqctx.CustomFlask', 'test_subclassing.SuppressedFlask', 'conftest.Flask', 'test_templating.MyFlask', 'test_helpers.StaticFileApp'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-push-399
+flask.ctx.RequestContext.app
+            app_ctx = self.app.app_context()
+{'flask.app.Flask', 'test_reqctx.CustomFlask', 'test_subclassing.SuppressedFlask', 'conftest.Flask', 'test_templating.MyFlask', 'test_helpers.StaticFileApp'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-match_request-376
+flask.ctx.RequestContext.url_adapter
+            result = self.url_adapter.match(return_rule=True)  # type: ignore
+{'werkzeug.routing.MapAdapter', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/blueprints.py-__init__-59
+flask.blueprints.BlueprintSetupState.blueprint
+            subdomain = self.blueprint.subdomain
+{'test_blueprints.MyBlueprint', 'flask.blueprints.Blueprint'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/blueprints.py-__init__-67
+flask.blueprints.BlueprintSetupState.blueprint
+            url_prefix = self.blueprint.url_prefix
+{'test_blueprints.MyBlueprint', 'flask.blueprints.Blueprint'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/blueprints.py-__init__-77
+flask.blueprints.BlueprintSetupState.blueprint
+        self.url_defaults = dict(self.blueprint.url_values_defaults)
+{'test_blueprints.MyBlueprint', 'flask.blueprints.Blueprint'}
+ /home/user/pyecharts/pyecharts/charts/composite_charts/grid.py-add-50
+pyecharts.charts.composite_charts.grid.Grid.options
+        self.options.get("title").extend(title)
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/composite_charts/grid.py-add-74
+pyecharts.charts.composite_charts.grid.Grid.options
+            self.options.get("legend").extend(chart.options.get("legend"))
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/composite_charts/grid.py-add-39
+pyecharts.charts.composite_charts.grid.Grid.options
+            self.options.update(backgroundColor=self.bg_color)
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/composite_charts/grid.py-add-79
+pyecharts.charts.composite_charts.grid.Grid.options
+        self.options.get("grid").append(grid_opts)
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/base.py-__init__-41
+pyecharts.charts.composite_charts.grid.Grid.options
+        self.options.update(_opts.get("animationOpts", AnimationOpts()).opts)
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/composite_charts/grid.py-add-73
+pyecharts.charts.composite_charts.grid.Grid.options
+            self.options.get("series").extend(chart.options.get("series"))
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/composite_charts/grid.py-add-42
+pyecharts.charts.composite_charts.grid.Grid.options
+                for s in self.options.get("series"):
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/base.py-__init__-40
+pyecharts.charts.composite_charts.grid.Grid.options
+        self.options.update(backgroundColor=_opts.get("bg_color"))
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/composite_charts/grid.py-add-34
+pyecharts.charts.composite_charts.grid.Grid.options
+            self.options.update(grid=[], title=[])
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/networkx/networkx/classes/graph.py-clear-1534
+networkx.classes.graph.Graph._adj
+        self._adj.clear()
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-clear-1535
+networkx.classes.graph.Graph._node
+        self._node.clear()
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/relabel.py-_relabel_copy-193
+networkx.classes.graph.Graph._node
+    H._node.update((mapping.get(n, n), d.copy()) for n, d in G.nodes.items())
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/digraph.py-clear-1194
+networkx.classes.digraph.DiGraph._succ
+        self._succ.clear()
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/digraph.py-clear-1196
+networkx.classes.digraph.DiGraph._node
+        self._node.clear()
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/digraph.py-clear-1195
+networkx.classes.digraph.DiGraph._pred
+        self._pred.clear()
+{'builtins.dict', 'networkx.classes.coreviews.FilterAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-clear-1534
+networkx.classes.multigraph.MultiGraph._adj
+        self._adj.clear()
+{'builtins.dict', 'networkx.classes.coreviews.FilterMultiAdjacency'}
+ /home/user/networkx/networkx/classes/graph.py-clear-1535
+networkx.classes.multigraph.MultiGraph._node
+        self._node.clear()
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/relabel.py-_relabel_copy-193
+networkx.classes.multigraph.MultiGraph._node
+    H._node.update((mapping.get(n, n), d.copy()) for n, d in G.nodes.items())
+{'builtins.dict', 'networkx.classes.coreviews.FilterAtlas'}
+ /home/user/networkx/networkx/classes/coreviews.py-__iter__-280
+networkx.classes.coreviews.FilterAtlas.NODE_OK
+            return (n for n in self.NODE_OK.nodes if n in self._atlas)
+{'builtins.function', 'networkx.classes.filters.show_nodes'}
+ /home/user/networkx/networkx/classes/coreviews.py-__iter__-276
+networkx.classes.coreviews.FilterAtlas.NODE_OK
+            node_ok_shorter = 2 * len(self.NODE_OK.nodes) < len(self._atlas)
+{'builtins.function', 'networkx.classes.filters.show_nodes'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-type_cast_value-2274
+click.core.Option.type
+        if self.nargs == 1 or self.type.is_composite:
+{'click.types.Tuple', 'flask.cli.SeparatedPathType', 'click.types.Choice', 'click.types.BoolParamType', 'click.types.DateTime', 'click.types.File', 'click.types.UUIDParameterType', 'click.types.StringParamType', 'click.types.IntRange', 'click.types.FloatParamType', 'click.types.Path', 'click.types.IntParamType', 'flask.cli.CertParamType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-__init__-2080
+click.core.Option.type
+            if self.type.is_composite:
+{'click.types.Tuple', 'flask.cli.SeparatedPathType', 'click.types.Choice', 'click.types.BoolParamType', 'click.types.DateTime', 'click.types.File', 'click.types.UUIDParameterType', 'click.types.StringParamType', 'click.types.IntRange', 'click.types.FloatParamType', 'click.types.Path', 'click.types.IntParamType', 'flask.cli.CertParamType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-shell_complete-2406
+click.core.Option.type
+        return self.type.shell_complete(ctx, self, incomplete)
+{'click.types.Tuple', 'flask.cli.SeparatedPathType', 'click.types.Choice', 'click.types.BoolParamType', 'click.types.DateTime', 'click.types.File', 'click.types.UUIDParameterType', 'click.types.StringParamType', 'click.types.IntRange', 'click.types.FloatParamType', 'click.types.Path', 'click.types.IntParamType', 'flask.cli.CertParamType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-get_help_record-2782
+click.core.Option.type
+            and not (self.count and self.type.min == 0 and self.type.max is None)
+{'click.types.Tuple', 'flask.cli.SeparatedPathType', 'click.types.Choice', 'click.types.BoolParamType', 'click.types.DateTime', 'click.types.File', 'click.types.UUIDParameterType', 'click.types.StringParamType', 'click.types.IntRange', 'click.types.FloatParamType', 'click.types.Path', 'click.types.IntParamType', 'flask.cli.CertParamType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-make_metavar-2178
+click.core.Option.type
+        metavar = self.type.get_metavar(self)
+{'click.types.Tuple', 'flask.cli.SeparatedPathType', 'click.types.Choice', 'click.types.BoolParamType', 'click.types.DateTime', 'click.types.File', 'click.types.UUIDParameterType', 'click.types.StringParamType', 'click.types.IntRange', 'click.types.FloatParamType', 'click.types.Path', 'click.types.IntParamType', 'flask.cli.CertParamType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-__init__-2097
+click.core.Option.type
+            if self.type.is_composite and nargs != self.type.arity:
+{'click.types.Tuple', 'flask.cli.SeparatedPathType', 'click.types.Choice', 'click.types.BoolParamType', 'click.types.DateTime', 'click.types.File', 'click.types.UUIDParameterType', 'click.types.StringParamType', 'click.types.IntRange', 'click.types.FloatParamType', 'click.types.Path', 'click.types.IntParamType', 'flask.cli.CertParamType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-to_info_dict-2151
+click.core.Option.type
+            "type": self.type.to_info_dict(),
+{'click.types.Tuple', 'flask.cli.SeparatedPathType', 'click.types.Choice', 'click.types.BoolParamType', 'click.types.DateTime', 'click.types.File', 'click.types.UUIDParameterType', 'click.types.StringParamType', 'click.types.IntRange', 'click.types.FloatParamType', 'click.types.Path', 'click.types.IntParamType', 'flask.cli.CertParamType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-__init__-2081
+click.core.Option.type
+                nargs = self.type.arity
+{'click.types.Tuple', 'flask.cli.SeparatedPathType', 'click.types.Choice', 'click.types.BoolParamType', 'click.types.DateTime', 'click.types.File', 'click.types.UUIDParameterType', 'click.types.StringParamType', 'click.types.IntRange', 'click.types.FloatParamType', 'click.types.Path', 'click.types.IntParamType', 'flask.cli.CertParamType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-make_metavar-2181
+click.core.Option.type
+            metavar = self.type.name.upper()
+{'click.types.Tuple', 'flask.cli.SeparatedPathType', 'click.types.Choice', 'click.types.BoolParamType', 'click.types.DateTime', 'click.types.File', 'click.types.UUIDParameterType', 'click.types.StringParamType', 'click.types.IntRange', 'click.types.FloatParamType', 'click.types.Path', 'click.types.IntParamType', 'flask.cli.CertParamType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-value_from_envvar-2880
+click.core.Option.type
+            rv = self.type.split_envvar_value(rv)
+{'click.types.Tuple', 'flask.cli.SeparatedPathType', 'click.types.Choice', 'click.types.BoolParamType', 'click.types.DateTime', 'click.types.File', 'click.types.UUIDParameterType', 'click.types.StringParamType', 'click.types.IntRange', 'click.types.FloatParamType', 'click.types.Path', 'click.types.IntParamType', 'flask.cli.CertParamType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-get_help_record-2784
+click.core.Option.type
+            range_str = self.type._describe_range()
+{'click.types.Tuple', 'flask.cli.SeparatedPathType', 'click.types.Choice', 'click.types.BoolParamType', 'click.types.DateTime', 'click.types.File', 'click.types.UUIDParameterType', 'click.types.StringParamType', 'click.types.IntRange', 'click.types.FloatParamType', 'click.types.Path', 'click.types.IntParamType', 'flask.cli.CertParamType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-make_metavar-2965
+click.core.Argument.type
+        var = self.type.get_metavar(self)
+{'click.types.Tuple', 'click.types.Choice', 'click.types.File', 'click.types.StringParamType', 'test_formatting.MyType', 'click.types.Path', 'click.types.IntParamType', 'click.types.UnprocessedParamType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-type_cast_value-2274
+click.core.Argument.type
+        if self.nargs == 1 or self.type.is_composite:
+{'click.types.Tuple', 'click.types.Choice', 'click.types.File', 'click.types.StringParamType', 'test_formatting.MyType', 'click.types.Path', 'click.types.IntParamType', 'click.types.UnprocessedParamType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-value_from_envvar-2348
+click.core.Argument.type
+            rv = self.type.split_envvar_value(rv)
+{'click.types.Tuple', 'click.types.Choice', 'click.types.File', 'click.types.StringParamType', 'test_formatting.MyType', 'click.types.Path', 'click.types.IntParamType', 'click.types.UnprocessedParamType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-to_info_dict-2151
+click.core.Argument.type
+            "type": self.type.to_info_dict(),
+{'click.types.Tuple', 'click.types.Choice', 'click.types.File', 'click.types.StringParamType', 'test_formatting.MyType', 'click.types.Path', 'click.types.IntParamType', 'click.types.UnprocessedParamType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-__init__-2081
+click.core.Argument.type
+                nargs = self.type.arity
+{'click.types.Tuple', 'click.types.Choice', 'click.types.File', 'click.types.StringParamType', 'test_formatting.MyType', 'click.types.Path', 'click.types.IntParamType', 'click.types.UnprocessedParamType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-__init__-2097
+click.core.Argument.type
+            if self.type.is_composite and nargs != self.type.arity:
+{'click.types.Tuple', 'click.types.Choice', 'click.types.File', 'click.types.StringParamType', 'test_formatting.MyType', 'click.types.Path', 'click.types.IntParamType', 'click.types.UnprocessedParamType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-__init__-2080
+click.core.Argument.type
+            if self.type.is_composite:
+{'click.types.Tuple', 'click.types.Choice', 'click.types.File', 'click.types.StringParamType', 'test_formatting.MyType', 'click.types.Path', 'click.types.IntParamType', 'click.types.UnprocessedParamType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-shell_complete-2406
+click.core.Argument.type
+        return self.type.shell_complete(ctx, self, incomplete)
+{'click.types.Tuple', 'click.types.Choice', 'click.types.File', 'click.types.StringParamType', 'test_formatting.MyType', 'click.types.Path', 'click.types.IntParamType', 'click.types.UnprocessedParamType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-get_help-699
+click.core.Context.command
+        return self.command.get_help(self)
+{'test_commands.OptParseCommand', 'click.core.Command', 'click.core.Group', 'test_commands.AliasedGroup'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-invoke-1688
+click.core.Context.command
+                    rv.append(sub_ctx.command.invoke(sub_ctx))
+{'test_commands.OptParseCommand', 'click.core.Command', 'click.core.Group', 'test_commands.AliasedGroup'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-get_usage-693
+click.core.Context.command
+        return self.command.get_usage(self)
+{'test_commands.OptParseCommand', 'click.core.Command', 'click.core.Group', 'test_commands.AliasedGroup'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/shell_completion.py-_resolve_incomplete-564
+click.core.Context.command
+    params = ctx.command.get_params(ctx)
+{'test_commands.OptParseCommand', 'click.core.Command', 'click.core.Group', 'test_commands.AliasedGroup'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-invoke-1657
+click.core.Context.command
+                    return _process_result(sub_ctx.command.invoke(sub_ctx))
+{'test_commands.OptParseCommand', 'click.core.Command', 'click.core.Group', 'test_commands.AliasedGroup'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-to_info_dict-445
+click.core.Context.command
+            "command": self.command.to_info_dict(self),
+{'test_commands.OptParseCommand', 'click.core.Command', 'click.core.Group', 'test_commands.AliasedGroup'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-shell_complete-956
+click.core.Context.command
+            if isinstance(ctx.command, MultiCommand) and ctx.command.chain:
+{'test_commands.OptParseCommand', 'click.core.Command', 'click.core.Group', 'test_commands.AliasedGroup'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/parser.py-parse_args-340
+click.parser.OptionParser.ctx
+            if self.ctx is None or not self.ctx.resilient_parsing:
+{'click.core.Context', 'test_custom_classes.CustomContext'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/parser.py-process-236
+click.parser.Argument.obj
+        if self.nargs == -1 and self.obj.envvar is not None and value == ():
+{'test_options.CustomArgument', 'click.core.Argument'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/parser.py-_get_value_from_state-467
+click.parser.Option.obj
+            if option.obj._flag_needs_value:
+{'click.core.Option', 'test_options.CustomOption'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/parser.py-_get_value_from_state-483
+click.parser.Option.obj
+                option.obj._flag_needs_value
+{'click.core.Option', 'test_options.CustomOption'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/utils.py-close-165
+click.utils.LazyFile._f
+            self._f.close()
+{'_io._io.TextIOWrapper', '_io._io.BufferedWriter', 'click._compat._AtomicFile'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/_compat.py-close-476
+click._compat._AtomicFile._f
+        self._f.close()
+{'_io._io.TextIOWrapper', '_io._io.BufferedWriter'}
+ /home/user/pelican/pelican/generators.py-generate_context-677
+pelican.generators.ArticlesGenerator.authors
+                self.authors[author].append(article)
+{'collections.collections.defaultdict', 'builtins.list'}
+ /home/user/pelican/pelican/generators.py-generate_context-691
+pelican.generators.ArticlesGenerator.authors
+        self.authors.sort()
+{'collections.collections.defaultdict', 'builtins.list'}
+ /home/user/pelican/pelican/generators.py-generate_context-690
+pelican.generators.ArticlesGenerator.authors
+        self.authors = list(self.authors.items())
+{'collections.collections.defaultdict', 'builtins.list'}
+ /home/user/pelican/pelican/generators.py-generate_context-687
+pelican.generators.ArticlesGenerator.categories
+        self.categories.sort(
+{'collections.collections.defaultdict', 'builtins.list'}
+ /home/user/pelican/pelican/generators.py-generate_context-686
+pelican.generators.ArticlesGenerator.categories
+        self.categories = list(self.categories.items())
+{'collections.collections.defaultdict', 'builtins.list'}
+ /home/user/pelican/pelican/generators.py-generate_context-672
+pelican.generators.ArticlesGenerator.categories
+            self.categories[article.category].append(article)
+{'collections.collections.defaultdict', 'builtins.list'}
+ /home/user/pelican/pelican/generators.py-generate_context-680
+pelican.generators.ArticlesGenerator.dates
+        self.dates.sort(key=attrgetter('date'),
+{'builtins.dict', 'builtins.list'}
+ /home/user/pelican/pelican/readers.py-read-344
+pelican.readers.MarkdownReader._md
+            content = self._md.convert(text)
+{'markdown.core.Markdown', 'missing'}
+ /home/user/pelican/pelican/readers.py-_parse_metadata-321
+pelican.readers.MarkdownReader._md
+                formatted = self._md.convert(formatted_values)
+{'markdown.core.Markdown', 'missing'}
+ /home/user/pelican/pelican/readers.py-read-347
+pelican.readers.MarkdownReader._md
+            metadata = self._parse_metadata(self._md.Meta)
+{'markdown.core.Markdown', 'missing'}
+ /home/user/pelican/pelican/readers.py-_parse_metadata-311
+pelican.readers.MarkdownReader._md
+        self._md.preprocessors.deregister('meta')
+{'markdown.core.Markdown', 'missing'}
+ /home/user/pelican/pelican/readers.py-_parse_metadata-320
+pelican.readers.MarkdownReader._md
+                self._md.reset()
+{'markdown.core.Markdown', 'missing'}
+ /home/user/pelican/pelican/contents.py-url_format-210
+pelican.contents.Article.author
+            'author': self.author.slug if hasattr(self, 'author') else '',
+{'pelican.urlwrappers.Author', 'missing'}
+ /home/user/pelican/pelican/contents.py-url_format-211
+pelican.contents.Article.category
+            'category': self.category.slug if hasattr(self, 'category') else ''
+{'builtins.str', 'missing', 'pelican.urlwrappers.Category'}
+ /home/user/pelican/pelican/contents.py-__init__-133
+pelican.contents.Article.modified
+            self.locale_modified = self.modified.strftime(self.date_format)
+{'missing', 'pelican.utils.SafeDatetime'}
+ /home/user/pelican/pelican/contents.py-__init__-71
+pelican.contents.Article.authors
+                self.author = self.authors[0]
+{'missing', 'builtins.list'}
+ /home/user/pelican/pelican/contents.py-__init__-129
+pelican.contents.Article.date
+            self.locale_date = self.date.strftime(self.date_format)
+{'datetime.datetime.datetime', 'missing', 'pelican.utils.SafeDatetime'}
+ /home/user/pelican/pelican/contents.py-url_format-210
+pelican.contents.Page.author
+            'author': self.author.slug if hasattr(self, 'author') else '',
+{'builtins.str', 'pelican.urlwrappers.Author', 'missing'}
+ /home/user/pelican/pelican/contents.py-url_format-211
+pelican.contents.Page.category
+            'category': self.category.slug if hasattr(self, 'category') else ''
+{'missing', 'pelican.urlwrappers.Category'}
+ /home/user/pelican/pelican/contents.py-__init__-133
+pelican.contents.Page.modified
+            self.locale_modified = self.modified.strftime(self.date_format)
+{'missing', 'pelican.utils.SafeDatetime'}
+ /home/user/pelican/pelican/contents.py-__init__-71
+pelican.contents.Page.authors
+                self.author = self.authors[0]
+{'missing', 'builtins.list'}
+ /home/user/pelican/pelican/contents.py-__init__-129
+pelican.contents.Page.date
+            self.locale_date = self.date.strftime(self.date_format)
+{'missing', 'pelican.utils.SafeDatetime'}
+ /home/user/pelican/pelican/contents.py-url_format-210
+pelican.contents.Static.author
+            'author': self.author.slug if hasattr(self, 'author') else '',
+{'pelican.urlwrappers.Author', 'missing'}
+ /home/user/pelican/pelican/contents.py-url_format-211
+pelican.contents.Static.category
+            'category': self.category.slug if hasattr(self, 'category') else ''
+{'missing', 'pelican.urlwrappers.Category'}
+ /home/user/pelican/pelican/contents.py-__init__-129
+pelican.contents.Static.date
+            self.locale_date = self.date.strftime(self.date_format)
+{'missing', 'pelican.utils.SafeDatetime'}
+ /home/user/pelican/pelican/writers.py-_create_new_feed-42
+pelican.writers.Writer.site_url
+            link=(self.site_url + '/'),
+{'builtins.str', 'missing'}
+ /home/user/pelican/pelican/generators.py-generate_context-837
+pelican.generators.StaticGenerator.staticfiles
+            self.staticfiles.append(static)
+{'missing', 'builtins.list'}
+ /home/user/impacket/impacket/ImpactDecoder.py-decode-259
+impacket.ImpactDecoder.ICMP6Decoder.data_decoder
+        child_packet = self.data_decoder.decode(buffer[start_pos:])
+{'missing', 'impacket.ImpactDecoder.DataDecoder'}
+ /home/user/impacket/impacket/ImpactDecoder.py-decode-164
+impacket.ImpactDecoder.IP6MultiProtocolDecoder.udp_decoder
+            packet = self.udp_decoder.decode(buffer)
+{'missing', 'impacket.ImpactDecoder.UDPDecoder'}
+ /home/user/impacket/impacket/ImpactDecoder.py-decode-180
+impacket.ImpactDecoder.IP6MultiProtocolDecoder.data_decoder
+                packet = self.data_decoder.decode(buffer)
+{'missing', 'impacket.ImpactDecoder.DataDecoder'}
+ /home/user/impacket/impacket/ImpactDecoder.py-decode-177
+impacket.ImpactDecoder.IP6MultiProtocolDecoder.extension_header_decoder
+                packet = self.extension_header_decoder.decode(buffer)
+{'impacket.ImpactDecoder.DestinationOptionsDecoder', 'impacket.ImpactDecoder.HopByHopDecoder', 'missing', 'impacket.ImpactDecoder.RoutingOptionsDecoder'}
+ /home/user/impacket/impacket/ImpactDecoder.py-decode-170
+impacket.ImpactDecoder.IP6MultiProtocolDecoder.icmp6_decoder
+            packet = self.icmp6_decoder.decode(buffer)
+{'missing', 'impacket.ImpactDecoder.ICMP6Decoder'}
+ /home/user/impacket/impacket/ImpactDecoder.py-decode-286
+impacket.ImpactDecoder.UDPDecoder.data_decoder
+        packet = self.data_decoder.decode(aBuffer[off:])
+{'missing', 'impacket.ImpactDecoder.DataDecoder'}
+ /home/user/routersploit/routersploit/core/telnet/telnet_client.py-read_until-113
+routersploit.core.telnet.telnet_client.TelnetCli.telnet_client
+            response = self.telnet_client.read_until(data, 5)
+{'builtins.NoneType', 'telnetlib.Telnet'}
+ /home/user/routersploit/routersploit/modules/exploits/generic/heartbleed.py-establish_connect-199
+routersploit.modules.exploits.generic.heartbleed.Exploit.tcp_client
+        self.tcp_client.connect()
+{'builtins.NoneType', 'routersploit.core.tcp.tcp_client.TCPCli'}
+ /home/user/routersploit/routersploit/modules/exploits/generic/heartbleed.py-get_ssl_record-307
+routersploit.modules.exploits.generic.heartbleed.Exploit.tcp_client
+        hdr = self.tcp_client.recv_all(self.SSL_RECORD_HEADER_SIZE)
+{'builtins.NoneType', 'routersploit.core.tcp.tcp_client.TCPCli'}
+ /home/user/routersploit/routersploit/modules/exploits/generic/heartbleed.py-establish_connect-203
+routersploit.modules.exploits.generic.heartbleed.Exploit.tcp_client
+        self.tcp_client.send(data)
+{'builtins.NoneType', 'routersploit.core.tcp.tcp_client.TCPCli'}
+ /home/user/routersploit/routersploit/modules/exploits/generic/heartbleed.py-get_ssl_record-311
+routersploit.modules.exploits.generic.heartbleed.Exploit.tcp_client
+            data = self.tcp_client.recv_all(length)
+{'builtins.NoneType', 'routersploit.core.tcp.tcp_client.TCPCli'}
+ /home/user/routersploit/routersploit/modules/exploits/routers/mikrotik/routeros_jailbreak.py-check-54
+routersploit.modules.exploits.routers.mikrotik.routeros_jailbreak.Exploit.ssh_client
+        if self.ssh_client.login(self.username, self.password):
+{'routersploit.core.ssh.ssh_client.SSHCli', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/environment.py-_load_template-969
+jinja2.environment.Environment.loader
+        template = self.loader.load(self, name, self.make_globals(globals))
+{'jinja2.loaders.ChoiceLoader', 'jinja2.loaders.FileSystemLoader', 'jinja2.loaders.PrefixLoader', 'jinja2.loaders.FunctionLoader', 'jinja2.loaders.PackageLoader', 'jinja2.loaders.ModuleLoader', 'test_loader.TestLoader', 'jinja2.loaders.DictLoader'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/environment.py-list_templates-914
+jinja2.environment.Environment.loader
+        names = self.loader.list_templates()
+{'jinja2.loaders.ChoiceLoader', 'jinja2.loaders.FileSystemLoader', 'jinja2.loaders.PrefixLoader', 'jinja2.loaders.FunctionLoader', 'builtins.NoneType', 'jinja2.loaders.PackageLoader', 'jinja2.loaders.ModuleLoader', 'test_loader.TestLoader', 'jinja2.loaders.DictLoader'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/environment.py-compile_templates-874
+jinja2.environment.Environment.loader
+                source, filename, _ = self.loader.get_source(self, name)
+{'jinja2.loaders.ChoiceLoader', 'jinja2.loaders.FileSystemLoader', 'jinja2.loaders.PrefixLoader', 'jinja2.loaders.FunctionLoader', 'builtins.NoneType', 'jinja2.loaders.PackageLoader', 'jinja2.loaders.ModuleLoader', 'test_loader.TestLoader', 'jinja2.loaders.DictLoader'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/ext.py-_install_callables-325
+jinja2.ext.InternationalizationExtension.environment
+        if self.environment.newstyle_gettext:  # type: ignore
+{'jinja2.environment.Environment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/ext.py-_make_node-527
+jinja2.ext.InternationalizationExtension.environment
+        newstyle = self.environment.newstyle_gettext  # type: ignore
+{'jinja2.environment.Environment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/ext.py-_install_callables-324
+jinja2.ext.InternationalizationExtension.environment
+            self.environment.newstyle_gettext = newstyle  # type: ignore
+{'jinja2.environment.Environment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-870
+jinja2.nodes.Getattr.node
+            return eval_ctx.environment.getattr(self.node.as_const(eval_ctx), self.attr)
+{'jinja2.nodes.List', 'jinja2.nodes.Call', 'jinja2.nodes.Dict', 'jinja2.nodes.Getattr', 'jinja2.nodes.Getitem', 'jinja2.nodes.Name', 'jinja2.nodes.Filter', 'jinja2.nodes.CondExpr', 'jinja2.nodes.Const'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/ext.py-extract_from_ast-720
+jinja2.nodes.Call.node
+        yield node.lineno, node.node.name, out
+{'jinja2.nodes.Getattr', 'jinja2.nodes.Name', 'jinja2.nodes.Filter', 'jinja2.nodes.ExtensionAttribute'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/ext.py-extract_from_ast-690
+jinja2.nodes.Call.node
+            or node.node.name not in gettext_functions
+{'jinja2.nodes.Getattr', 'jinja2.nodes.Name', 'jinja2.nodes.Filter', 'jinja2.nodes.ExtensionAttribute'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-772
+jinja2.nodes.Filter.node
+        args.insert(0, self.node.as_const(eval_ctx))
+{'jinja2.nodes.Call', 'jinja2.nodes.Dict', 'jinja2.nodes.Neg', 'jinja2.nodes.Getattr', 'builtins.NoneType', 'jinja2.nodes.Name', 'jinja2.nodes.Filter', 'jinja2.nodes.List', 'jinja2.nodes.Const'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-parse_print-452
+jinja2.nodes.Output.nodes
+            node.nodes.append(self.parse_expression())
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visitor-88
+jinja2.compiler.CodeGenerator.environment
+            and op in self.environment.intercepted_unops  # type: ignore
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-_filter_test_common-1765
+jinja2.compiler.CodeGenerator.environment
+            func = self.environment.tests.get(node.name)
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Getitem-1731
+jinja2.compiler.CodeGenerator.environment
+            if self.environment.is_async:
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_For-1246
+jinja2.compiler.CodeGenerator.environment
+            if self.environment.is_async and not extended_loop:
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_For-1283
+jinja2.compiler.CodeGenerator.environment
+            if self.environment.is_async:
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-_filter_test_common-1757
+jinja2.compiler.CodeGenerator.environment
+        if self.environment.is_async:
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Call-1860
+jinja2.compiler.CodeGenerator.environment
+        if self.environment.is_async:
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-_filter_test_common-1762
+jinja2.compiler.CodeGenerator.environment
+            func = self.environment.filters.get(node.name)
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-_make_finalize-1396
+jinja2.compiler.CodeGenerator.environment
+        if self.environment.finalize:
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Include-1064
+jinja2.compiler.CodeGenerator.environment
+        elif self.environment.is_async:
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_For-1286
+jinja2.compiler.CodeGenerator.environment
+            if self.environment.is_async:
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visitor-63
+jinja2.compiler.CodeGenerator.environment
+            self.environment.sandboxed
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_For-1243
+jinja2.compiler.CodeGenerator.environment
+            if self.environment.is_async and not extended_loop:
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-choose_async-606
+jinja2.compiler.CodeGenerator.environment
+        return async_value if self.environment.is_async else sync_value
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visitor-64
+jinja2.compiler.CodeGenerator.environment
+            and op in self.environment.intercepted_binops  # type: ignore
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Template-834
+jinja2.compiler.CodeGenerator.environment
+        if self.environment.is_async:
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Call-1844
+jinja2.compiler.CodeGenerator.environment
+        if self.environment.is_async:
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-_make_finalize-1398
+jinja2.compiler.CodeGenerator.environment
+            env_finalize = self.environment.finalize
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-_filter_test_common-1792
+jinja2.compiler.CodeGenerator.environment
+        if self.environment.is_async:
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Getattr-1712
+jinja2.compiler.CodeGenerator.environment
+        if self.environment.is_async:
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visitor-87
+jinja2.compiler.CodeGenerator.environment
+            self.environment.sandboxed
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Getattr-1719
+jinja2.compiler.CodeGenerator.environment
+        if self.environment.is_async:
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Block-971
+jinja2.compiler.CodeGenerator.environment
+        if not self.environment.is_async and frame.buffer is None:
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Template-898
+jinja2.compiler.CodeGenerator.environment
+            if not self.environment.is_async:
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Getitem-1740
+jinja2.compiler.CodeGenerator.environment
+            if self.environment.is_async:
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Call-1846
+jinja2.compiler.CodeGenerator.environment
+        if self.environment.sandboxed:
+{'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-755
+jinja2.nodes.EvalContext.environment
+            env_map = eval_ctx.environment.filters
+{'jinja2.nativetypes.NativeEnvironment', 'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-870
+jinja2.nodes.EvalContext.environment
+            return eval_ctx.environment.getattr(self.node.as_const(eval_ctx), self.attr)
+{'jinja2.nativetypes.NativeEnvironment', 'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-503
+jinja2.nodes.EvalContext.environment
+            and self.operator in eval_ctx.environment.intercepted_binops  # type: ignore
+{'jinja2.nativetypes.NativeEnvironment', 'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-502
+jinja2.nodes.EvalContext.environment
+            eval_ctx.environment.sandboxed
+{'jinja2.nativetypes.NativeEnvironment', 'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/filters.py-do_urlize-751
+jinja2.nodes.EvalContext.environment
+    policies = eval_ctx.environment.policies
+{'jinja2.nativetypes.NativeEnvironment', 'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-527
+jinja2.nodes.EvalContext.environment
+            and self.operator in eval_ctx.environment.intercepted_unops  # type: ignore
+{'jinja2.nativetypes.NativeEnvironment', 'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-765
+jinja2.nodes.EvalContext.environment
+        if eval_ctx.environment.is_async and (
+{'jinja2.nativetypes.NativeEnvironment', 'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-757
+jinja2.nodes.EvalContext.environment
+            env_map = eval_ctx.environment.tests
+{'jinja2.nativetypes.NativeEnvironment', 'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-526
+jinja2.nodes.EvalContext.environment
+            eval_ctx.environment.sandboxed
+{'jinja2.nativetypes.NativeEnvironment', 'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/filters.py-do_tojson-1680
+jinja2.nodes.EvalContext.environment
+    policies = eval_ctx.environment.policies
+{'jinja2.nativetypes.NativeEnvironment', 'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-846
+jinja2.nodes.EvalContext.environment
+            return eval_ctx.environment.getitem(
+{'jinja2.nativetypes.NativeEnvironment', 'test_api.CustomEnvironment', 'test_regression.MyEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/filters.py-func-1712
+jinja2.runtime.Context.environment
+            return context.environment.call_filter(
+{'jinja2.nativetypes.NativeEnvironment', 'test_api.CustomEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/filters.py-func-1745
+jinja2.runtime.Context.environment
+            return context.environment.call_test(name, item, args, kwargs)
+{'jinja2.nativetypes.NativeEnvironment', 'test_api.CustomEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/environment.py-__init__-1528
+jinja2.runtime.Context.environment
+            if context.environment.is_async:
+{'jinja2.nativetypes.NativeEnvironment', 'test_api.CustomEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-call-300
+jinja2.runtime.Context.environment
+            return __self.environment.undefined(
+{'jinja2.nativetypes.NativeEnvironment', 'test_api.CustomEnvironment', 'jinja2.sandbox.SandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.ImmutableSandboxedEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-847
+jinja2.nodes.Getitem.arg
+                self.node.as_const(eval_ctx), self.arg.as_const(eval_ctx)
+{'jinja2.nodes.Neg', 'jinja2.nodes.Const', 'jinja2.nodes.Tuple', 'jinja2.nodes.Slice'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-847
+jinja2.nodes.Getitem.node
+                self.node.as_const(eval_ctx), self.arg.as_const(eval_ctx)
+{'jinja2.nodes.Call', 'jinja2.nodes.Getattr', 'jinja2.nodes.Getitem', 'jinja2.nodes.Name', 'jinja2.nodes.Filter', 'jinja2.nodes.List'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Macro-1321
+jinja2.nodes.Macro.name
+            if not node.name.startswith("_"):
+{'builtins.str', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-674
+jinja2.nodes.Macro.defaults
+                default = node.defaults[idx - len(node.args)]
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-641
+jinja2.nodes.Macro.defaults
+                    node.defaults[explicit_caller - len(node.args)]
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Include-1038
+jinja2.nodes.Include.template
+            if isinstance(node.template.value, str):
+{'missing', 'jinja2.nodes.Tuple', 'jinja2.nodes.Name', 'jinja2.nodes.List', 'jinja2.nodes.Const'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-parse_from-393
+jinja2.nodes.FromImport.names
+                    node.names.append(target.name)
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-parse_from-391
+jinja2.nodes.FromImport.names
+                    node.names.append((target.name, alias.name))
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Import-1104
+jinja2.nodes.Import.target
+        if frame.toplevel and not node.target.startswith("_"):
+{'builtins.str', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-772
+jinja2.nodes.Test.node
+        args.insert(0, self.node.as_const(eval_ctx))
+{'jinja2.nodes.Call', 'jinja2.nodes.Pow', 'jinja2.nodes.Dict', 'jinja2.nodes.Getattr', 'jinja2.nodes.Name', 'jinja2.nodes.List', 'jinja2.nodes.Const'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-924
+jinja2.nodes.Operand.expr
+                new_value = op.expr.as_const(eval_ctx)
+{'jinja2.nodes.Name', 'jinja2.nodes.List', 'jinja2.nodes.Const'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-parse_block-321
+jinja2.nodes.Block.name
+        self.stream.skip_if("name:" + node.name)
+{'builtins.str', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-parse_if-264
+jinja2.nodes.If.elif_
+                result.elif_.append(node)
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-674
+jinja2.nodes.CallBlock.defaults
+                default = node.defaults[idx - len(node.args)]
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_EvalContextModifier-1941
+jinja2.nodes.Keyword.value
+                val = keyword.value.as_const(frame.eval_ctx)
+{'jinja2.nodes.Name', 'jinja2.nodes.List', 'jinja2.nodes.Const'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-691
+jinja2.nodes.Keyword.value
+        return self.key, self.value.as_const(eval_ctx)
+{'jinja2.nodes.Name', 'jinja2.nodes.List', 'jinja2.nodes.Const'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/loaders.py-list_templates-395
+jinja2.loaders.PackageLoader._loader
+            for name in self._loader._files.keys():  # type: ignore
+{'zipimport.zipimporter', '_frozen_importlib_external.SourceFileLoader'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/loaders.py-get_source-357
+jinja2.loaders.PackageLoader._loader
+                source = self._loader.get_data(p)  # type: ignore
+{'zipimport.zipimporter', '_frozen_importlib_external.SourceFileLoader'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-508
+jinja2.nodes.Mod.right
+            return f(self.left.as_const(eval_ctx), self.right.as_const(eval_ctx))
+{'jinja2.nodes.Dict', 'jinja2.nodes.Const'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-679
+jinja2.nodes.Pair.value
+        return self.key.as_const(eval_ctx), self.value.as_const(eval_ctx)
+{'jinja2.nodes.Name', 'jinja2.nodes.Dict', 'jinja2.nodes.Const'}
+ /home/user/pendulum/pendulum/testing/traveller.py-_start-118
+pendulum.testing.traveller.Traveller._traveller
+            self._coordinates = self._traveller.start()
+{'builtins.NoneType', 'time_machine.travel'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py-to_image-651
+wordcloud.wordcloud.WordCloud.mask
+            height = self.mask.shape[0]
+{'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py-generate_from_frequencies-427
+wordcloud.wordcloud.WordCloud.mask
+            width = self.mask.shape[1]
+{'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py-to_image-650
+wordcloud.wordcloud.WordCloud.mask
+            width = self.mask.shape[1]
+{'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py-generate_from_frequencies-428
+wordcloud.wordcloud.WordCloud.mask
+            height = self.mask.shape[0]
+{'numpy.numpy.ndarray'}
+ /home/user/word_cloud/test/test_wordcloud.py-test_plural_stopwords-476
+wordcloud.wordcloud.WordCloud.words_
+    assert w.words_['wa'] < 1
+{'builtins.dict', 'missing'}
+ /home/user/word_cloud/test/test_wordcloud.py-test_repeat-453
+wordcloud.wordcloud.WordCloud.words_
+    assert wc.words_['text'] == 1
+{'builtins.dict', 'missing'}
+ /home/user/word_cloud/test/test_wordcloud.py-test_plural_stopwords-479
+wordcloud.wordcloud.WordCloud.words_
+    assert w.words_['wa'] < 1
+{'builtins.dict', 'missing'}
+ /home/user/word_cloud/test/test_wordcloud.py-test_repeat-454
+wordcloud.wordcloud.WordCloud.words_
+    assert wc.words_['with'] == .5
+{'builtins.dict', 'missing'}
+ /home/user/word_cloud/test/test_wordcloud.py-test_repeat-445
+wordcloud.wordcloud.WordCloud.words_
+    assert_array_equal(list(wc.words_.values()), 1)
+{'builtins.dict', 'missing'}
+ /home/user/word_cloud/test/test_wordcloud.py-test_zero_frequencies-467
+wordcloud.wordcloud.WordCloud.layout_
+    assert word_cloud.layout_[0][0][0] == 'test'
+{'missing', 'builtins.list'}
+ /home/user/word_cloud/test/test_wordcloud.py-test_max_font_size_as_mask_height-504
+wordcloud.wordcloud.WordCloud.layout_
+    assert wc.layout_[0][1] == wc2.layout_[0][1]
+{'missing', 'builtins.list'}
+ /home/user/arrow/arrow/locales.py-month_number-236
+arrow.locales.EnglishLocale._month_name_to_ordinal
+        return self._month_name_to_ordinal.get(name)
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/arrow/arrow/locales.py-month_number-232
+arrow.locales.EnglishLocale._month_name_to_ordinal
+            self._month_name_to_ordinal.update(
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/arrow/arrow/locales.py-month_number-236
+arrow.locales.FrenchLocale._month_name_to_ordinal
+        return self._month_name_to_ordinal.get(name)
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/arrow/arrow/locales.py-month_number-232
+arrow.locales.FrenchLocale._month_name_to_ordinal
+            self._month_name_to_ordinal.update(
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/arrow/arrow/locales.py-month_number-236
+arrow.locales.ItalianLocale._month_name_to_ordinal
+        return self._month_name_to_ordinal.get(name)
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/arrow/arrow/locales.py-month_number-232
+arrow.locales.ItalianLocale._month_name_to_ordinal
+            self._month_name_to_ordinal.update(
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/arrow/arrow/locales.py-month_number-236
+arrow.locales.SpanishLocale._month_name_to_ordinal
+        return self._month_name_to_ordinal.get(name)
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/arrow/arrow/locales.py-month_number-232
+arrow.locales.SpanishLocale._month_name_to_ordinal
+            self._month_name_to_ordinal.update(
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/arrow/arrow/locales.py-month_number-236
+arrow.locales.SwedishLocale._month_name_to_ordinal
+        return self._month_name_to_ordinal.get(name)
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/arrow/arrow/locales.py-month_number-232
+arrow.locales.SwedishLocale._month_name_to_ordinal
+            self._month_name_to_ordinal.update(
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/arrow/arrow/locales.py-month_number-236
+arrow.locales.GermanLocale._month_name_to_ordinal
+        return self._month_name_to_ordinal.get(name)
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/arrow/arrow/locales.py-month_number-232
+arrow.locales.GermanLocale._month_name_to_ordinal
+            self._month_name_to_ordinal.update(
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/arrow/arrow/parser.py-__init__-173
+arrow.parser.DateTimeParser.locale
+                "Do": re.compile(self.locale.ordinal_day_re),
+{'arrow.locales.GermanLocale', 'arrow.locales.JapaneseLocale', 'arrow.locales.SpanishLocale', 'arrow.locales.EnglishLocale', 'arrow.locales.SwedishLocale', 'arrow.locales.HungarianLocale', 'arrow.locales.FrenchLocale', 'arrow.locales.ItalianLocale'}
+ /home/user/arrow/arrow/parser.py-_parse_token-511
+arrow.parser.DateTimeParser.locale
+            parts["month"] = self.locale.month_number(value.lower())  # type: ignore[typeddict-item]
+{'arrow.locales.GermanLocale', 'arrow.locales.JapaneseLocale', 'arrow.locales.SpanishLocale', 'arrow.locales.EnglishLocale', 'arrow.locales.SwedishLocale', 'arrow.locales.HungarianLocale', 'arrow.locales.FrenchLocale', 'arrow.locales.ItalianLocale'}
+ /home/user/arrow/arrow/parser.py-_parse_token-534
+arrow.parser.DateTimeParser.locale
+            day_of_week = [x.lower() for x in self.locale.day_abbreviations].index(
+{'arrow.locales.GermanLocale', 'arrow.locales.JapaneseLocale', 'arrow.locales.SpanishLocale', 'arrow.locales.EnglishLocale', 'arrow.locales.SwedishLocale', 'arrow.locales.HungarianLocale', 'arrow.locales.FrenchLocale', 'arrow.locales.ItalianLocale'}
+ /home/user/arrow/arrow/parser.py-_parse_token-581
+arrow.parser.DateTimeParser.locale
+            elif value in (self.locale.meridians["pm"], self.locale.meridians["PM"]):
+{'arrow.locales.GermanLocale', 'arrow.locales.JapaneseLocale', 'arrow.locales.SpanishLocale', 'arrow.locales.EnglishLocale', 'arrow.locales.SwedishLocale', 'arrow.locales.HungarianLocale', 'arrow.locales.FrenchLocale', 'arrow.locales.ItalianLocale'}
+ /home/user/arrow/arrow/parser.py-__init__-168
+arrow.parser.DateTimeParser.locale
+                    self.locale.month_names[1:], re.IGNORECASE
+{'arrow.locales.GermanLocale', 'arrow.locales.JapaneseLocale', 'arrow.locales.SpanishLocale', 'arrow.locales.EnglishLocale', 'arrow.locales.SwedishLocale', 'arrow.locales.HungarianLocale', 'arrow.locales.FrenchLocale', 'arrow.locales.ItalianLocale'}
+ /home/user/arrow/arrow/parser.py-__init__-178
+arrow.parser.DateTimeParser.locale
+                    self.locale.day_abbreviations[1:], re.IGNORECASE
+{'arrow.locales.GermanLocale', 'arrow.locales.JapaneseLocale', 'arrow.locales.SpanishLocale', 'arrow.locales.EnglishLocale', 'arrow.locales.SwedishLocale', 'arrow.locales.HungarianLocale', 'arrow.locales.FrenchLocale', 'arrow.locales.ItalianLocale'}
+ /home/user/arrow/arrow/parser.py-__init__-186
+arrow.parser.DateTimeParser.locale
+                "A": self._generate_choice_re(self.locale.meridians.values()),
+{'arrow.locales.GermanLocale', 'arrow.locales.JapaneseLocale', 'arrow.locales.SpanishLocale', 'arrow.locales.EnglishLocale', 'arrow.locales.SwedishLocale', 'arrow.locales.HungarianLocale', 'arrow.locales.FrenchLocale', 'arrow.locales.ItalianLocale'}
+ /home/user/arrow/arrow/parser.py-_parse_token-527
+arrow.parser.DateTimeParser.locale
+            day_of_week = [x.lower() for x in self.locale.day_names].index(
+{'arrow.locales.GermanLocale', 'arrow.locales.JapaneseLocale', 'arrow.locales.SpanishLocale', 'arrow.locales.EnglishLocale', 'arrow.locales.SwedishLocale', 'arrow.locales.HungarianLocale', 'arrow.locales.FrenchLocale', 'arrow.locales.ItalianLocale'}
+ /home/user/arrow/arrow/parser.py-__init__-175
+arrow.parser.DateTimeParser.locale
+                    self.locale.day_names[1:], re.IGNORECASE
+{'arrow.locales.GermanLocale', 'arrow.locales.JapaneseLocale', 'arrow.locales.SpanishLocale', 'arrow.locales.EnglishLocale', 'arrow.locales.SwedishLocale', 'arrow.locales.HungarianLocale', 'arrow.locales.FrenchLocale', 'arrow.locales.ItalianLocale'}
+ /home/user/arrow/arrow/parser.py-_parse_token-575
+arrow.parser.DateTimeParser.locale
+            if value in (self.locale.meridians["am"], self.locale.meridians["AM"]):
+{'arrow.locales.GermanLocale', 'arrow.locales.JapaneseLocale', 'arrow.locales.SpanishLocale', 'arrow.locales.EnglishLocale', 'arrow.locales.SwedishLocale', 'arrow.locales.HungarianLocale', 'arrow.locales.FrenchLocale', 'arrow.locales.ItalianLocale'}
+ /home/user/arrow/arrow/parser.py-__init__-182
+arrow.parser.DateTimeParser.locale
+                    (self.locale.meridians["am"], self.locale.meridians["pm"])
+{'arrow.locales.GermanLocale', 'arrow.locales.JapaneseLocale', 'arrow.locales.SpanishLocale', 'arrow.locales.EnglishLocale', 'arrow.locales.SwedishLocale', 'arrow.locales.HungarianLocale', 'arrow.locales.FrenchLocale', 'arrow.locales.ItalianLocale'}
+ /home/user/arrow/arrow/parser.py-__init__-171
+arrow.parser.DateTimeParser.locale
+                    self.locale.month_abbreviations[1:], re.IGNORECASE
+{'arrow.locales.GermanLocale', 'arrow.locales.JapaneseLocale', 'arrow.locales.SpanishLocale', 'arrow.locales.EnglishLocale', 'arrow.locales.SwedishLocale', 'arrow.locales.HungarianLocale', 'arrow.locales.FrenchLocale', 'arrow.locales.ItalianLocale'}
+ /home/user/typer/typer/main.py-get_group_name-385
+typer.models.TyperInfo.callback
+                return get_command_name(registered_callback.callback.__name__)
+{'typer.models.DefaultPlaceholder', 'builtins.function'}
+ /home/user/typer/typer/main.py-get_group_name-379
+typer.models.TyperInfo.callback
+        return get_command_name(typer_info.callback.__name__)
+{'typer.models.DefaultPlaceholder', 'builtins.function'}
+ /home/user/typer/typer/main.py-solve_typer_info_help-397
+typer.models.TyperInfo.typer_instance
+        callback_help = typer_info.typer_instance.registered_callback.help
+{'typer.models.DefaultPlaceholder', 'builtins.NoneType', 'typer.main.Typer'}
+ /home/user/typer/typer/main.py-get_group_name-386
+typer.models.TyperInfo.typer_instance
+        if typer_info.typer_instance.info.callback:
+{'typer.models.DefaultPlaceholder', 'typer.main.Typer'}
+ /home/user/typer/typer/main.py-get_group_name-387
+typer.models.TyperInfo.typer_instance
+            return get_command_name(typer_info.typer_instance.info.callback.__name__)
+{'typer.models.DefaultPlaceholder', 'typer.main.Typer'}
+ /home/user/typer/typer/main.py-solve_typer_info_help-404
+typer.models.TyperInfo.typer_instance
+        instance_help = typer_info.typer_instance.info.help
+{'typer.models.DefaultPlaceholder', 'builtins.NoneType', 'typer.main.Typer'}
+ /home/user/typer/typer/main.py-get_group_name-381
+typer.models.TyperInfo.typer_instance
+        registered_callback = typer_info.typer_instance.registered_callback
+{'typer.models.DefaultPlaceholder', 'typer.main.Typer'}
+ /home/user/typer/typer/main.py-get_group_from_info-482
+typer.models.TyperInfo.typer_instance
+    for command_info in group_info.typer_instance.registered_commands:
+{'typer.models.DefaultPlaceholder', 'builtins.NoneType', 'typer.main.Typer'}
+ /home/user/typer/typer/main.py-solve_typer_info_help-416
+typer.models.TyperInfo.typer_instance
+        callback = typer_info.typer_instance.registered_callback.callback
+{'typer.models.DefaultPlaceholder', 'builtins.NoneType', 'typer.main.Typer'}
+ /home/user/typer/typer/main.py-solve_typer_info_defaults-447
+typer.models.TyperInfo.typer_instance
+                typer_info.typer_instance.registered_callback, name  # type: ignore
+{'typer.models.DefaultPlaceholder', 'builtins.NoneType', 'typer.main.Typer'}
+ /home/user/typer/typer/main.py-get_group_from_info-490
+typer.models.TyperInfo.typer_instance
+    for sub_group_info in group_info.typer_instance.registered_groups:
+{'typer.models.DefaultPlaceholder', 'builtins.NoneType', 'typer.main.Typer'}
+ /home/user/typer/typer/main.py-solve_typer_info_help-425
+typer.models.TyperInfo.typer_instance
+        instance_callback = typer_info.typer_instance.info.callback
+{'typer.models.DefaultPlaceholder', 'builtins.NoneType', 'typer.main.Typer'}
+ /home/user/typer/typer/main.py-solve_typer_info_defaults-457
+typer.models.TyperInfo.typer_instance
+                typer_info.typer_instance.info, name  # type: ignore
+{'typer.models.DefaultPlaceholder', 'builtins.NoneType', 'typer.main.Typer'}
+ /home/user/typer/typer/rich_utils.py-_print_options_panel-392
+typer.core.TyperOption.type
+                range_str = param.type._describe_range()
+{'click.types.Tuple', 'click.types.FloatRange', 'click.types.BoolParamType', 'click.types.Choice', 'click.types.File', 'click.types.StringParamType', 'click.types.IntRange', 'click.types.FloatParamType', 'click.types.Path', 'click.types.IntParamType'}
+ /home/user/typer/typer/core.py-get_help_record-589
+typer.core.TyperOption.type
+            range_str = self.type._describe_range()
+{'click.types.Tuple', 'click.types.FloatRange', 'click.types.BoolParamType', 'click.types.Choice', 'click.types.File', 'click.types.StringParamType', 'click.types.IntRange', 'click.types.FloatParamType', 'click.types.Path', 'click.types.IntParamType'}
+ /home/user/typer/typer/rich_utils.py-_print_options_panel-377
+typer.core.TyperArgument.type
+            metavar_str = param.type.name.upper()
+{'click.types.Tuple', 'click.types.IntParamType', 'click.types.Choice', 'click.types.UUIDParameterType', 'click.types.StringParamType', 'click.types.IntRange', 'click.types.Path', 'click.types.DateTime'}
+ /home/user/typer/typer/core.py-make_metavar-404
+typer.core.TyperArgument.type
+        type_var = self.type.get_metavar(self)
+{'click.types.Tuple', 'click.types.IntParamType', 'click.types.Choice', 'click.types.UUIDParameterType', 'click.types.StringParamType', 'click.types.IntRange', 'click.types.Path', 'click.types.DateTime'}
+ /home/user/bandit/bandit/core/metrics.py-note_nosec-52
+bandit.core.metrics.Metrics.current
+        self.current["nosec"] += num
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/metrics.py-count_issues-78
+bandit.core.metrics.Metrics.current
+        self.current.update(self._get_issue_counts(scores))
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/metrics.py-note_skipped_test-60
+bandit.core.metrics.Metrics.current
+        self.current["skipped_tests"] += num
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/metrics.py-count_locs-75
+bandit.core.metrics.Metrics.current
+        self.current["loc"] += sum(proc(line) for line in lines)
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/node_visitor.py-visit_Str-173
+bandit.core.node_visitor.BanditNodeVisitor.context
+        self.context["str"] = node.s
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/node_visitor.py-visit_FunctionDef-70
+bandit.core.node_visitor.BanditNodeVisitor.context
+        self.context["function"] = node
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/node_visitor.py-visit_ImportFrom-145
+bandit.core.node_visitor.BanditNodeVisitor.context
+            self.context["name"] = nodename.name
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/node_visitor.py-visit_Import-112
+bandit.core.node_visitor.BanditNodeVisitor.context
+            self.context["module"] = nodename.name
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/node_visitor.py-visit_FunctionDef-75
+bandit.core.node_visitor.BanditNodeVisitor.context
+        self.context["name"] = name
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/node_visitor.py-visit_Call-91
+bandit.core.node_visitor.BanditNodeVisitor.context
+        self.context["call"] = node
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-193
+bandit.core.node_visitor.BanditNodeVisitor.context
+        self.context["imports"] = self.imports
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/node_visitor.py-visit_Bytes-186
+bandit.core.node_visitor.BanditNodeVisitor.context
+        self.context["bytes"] = node.s
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-208
+bandit.core.node_visitor.BanditNodeVisitor.context
+        self.context["node"] = node
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/node_visitor.py-visit_Call-95
+bandit.core.node_visitor.BanditNodeVisitor.context
+        self.context["qualname"] = qualname
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-209
+bandit.core.node_visitor.BanditNodeVisitor.context
+        self.context["linerange"] = b_utils.linerange(node)
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/node_visitor.py-visit_Call-96
+bandit.core.node_visitor.BanditNodeVisitor.context
+        self.context["name"] = name
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-211
+bandit.core.node_visitor.BanditNodeVisitor.context
+        self.context["file_data"] = self.fdata
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-194
+bandit.core.node_visitor.BanditNodeVisitor.context
+        self.context["import_aliases"] = self.import_aliases
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/node_visitor.py-visit_FunctionDef-74
+bandit.core.node_visitor.BanditNodeVisitor.context
+        self.context["qualname"] = qualname
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-204
+bandit.core.node_visitor.BanditNodeVisitor.context
+            self.context["col_offset"] = node.col_offset
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-201
+bandit.core.node_visitor.BanditNodeVisitor.context
+            self.context["lineno"] = node.lineno
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-210
+bandit.core.node_visitor.BanditNodeVisitor.context
+        self.context["filename"] = self.fname
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/node_visitor.py-pre_visit-206
+bandit.core.node_visitor.BanditNodeVisitor.context
+            self.context["end_col_offset"] = node.end_col_offset
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/node_visitor.py-visit_Str-175
+bandit.core.node_visitor.BanditNodeVisitor.context
+            self.context["linerange"] = b_utils.linerange(node._bandit_parent)
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/node_visitor.py-visit_ImportFrom-144
+bandit.core.node_visitor.BanditNodeVisitor.context
+            self.context["module"] = module
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/core/node_visitor.py-visit_Bytes-188
+bandit.core.node_visitor.BanditNodeVisitor.context
+            self.context["linerange"] = b_utils.linerange(node._bandit_parent)
+{'builtins.dict', 'missing'}
+ /home/user/bandit/bandit/formatters/screen.py-_output_issue_str-124
+bandit.core.issue.Issue.severity
+            issue.severity.capitalize(),
+{'builtins.str', 'builtins.int'}
+ /home/user/bandit/bandit/formatters/html.py-report-363
+bandit.core.issue.Issue.severity
+            issue_class=f"issue-sev-{issue.severity.lower()}",
+{'builtins.str', 'builtins.int'}
+ /home/user/bandit/bandit/formatters/text.py-_output_issue_str-92
+bandit.core.issue.Issue.severity
+            issue.severity.capitalize(),
+{'builtins.str', 'builtins.int'}
+ /home/user/bandit/bandit/core/issue.py-get_code-176
+bandit.core.issue.Issue.lineno
+        lmin = max(1, self.lineno - max_lines // 2)
+{'builtins.str', 'builtins.NoneType', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py-known_patterns-670
+isort.settings.Config._known_patterns
+                self._known_patterns.append((re.compile(regexp), placement))
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/api.py-sort_file-485
+isort.io.File.stream
+                        source_file.stream.seek(0)
+{'_io._io.TextIOWrapper', '_io._io.StringIO'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/api.py-sort_file-488
+isort.io.File.stream
+                            file_input=source_file.stream.read(),
+{'_io._io.TextIOWrapper', '_io._io.StringIO'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/api.py-sort_file-440
+isort.io.File.stream
+                                    source_file.stream.seek(0)
+{'_io._io.TextIOWrapper', '_io._io.StringIO'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/api.py-sort_file-457
+isort.io.File.stream
+                                source_file.stream.close()
+{'_io._io.TextIOWrapper', '_io._io.StringIO'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/api.py-sort_file-494
+isort.io.File.stream
+                    source_file.stream.close()
+{'_io._io.TextIOWrapper', '_io._io.StringIO'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/api.py-sort_file-442
+isort.io.File.stream
+                                        file_input=source_file.stream.read(),
+{'_io._io.TextIOWrapper', '_io._io.StringIO'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/format.py-diff_line-109
+isort.format.BasicPrinter.output
+        self.output.write(line)
+{'_pytest.capture.EncodedFile', '_pytest.capture.CaptureIO', '_io._io.StringIO', '_io._io.TextIOWrapper'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/format.py-diff_line-135
+isort.format.ColoramaPrinter.output
+        self.output.write(self.style_text(line, style))
+{'_pytest.capture.CaptureIO', '_io._io.StringIO'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/setuptools_commands.py-finalize_options-29
+isort.setuptools_commands.ISortCommand.arguments
+        self.arguments["settings_path"] = os.getcwd()
+{'builtins.dict', 'missing'}
+ /home/user/pyod/pyod/models/base.py-<lambda>-279
+pyod.models.vae.VAE.decision_scores_
+            lambda x: np.count_nonzero(self.decision_scores_ <= x))
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/pyod/pyod/models/base.py-_process_decision_scores-449
+pyod.models.vae.VAE.decision_scores_
+            self.labels_ = (self.decision_scores_ > self.threshold_).astype(
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/pyod/pyod/models/base.py-predict_proba-236
+pyod.models.vae.VAE._mu
+            pre_erf_score = (test_scores - self._mu) / (
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict-171
+pyod.models.vae.VAE.threshold_
+            prediction = (pred_score > self.threshold_).astype('int').ravel()
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict_confidence-297
+pyod.models.vae.VAE.threshold_
+            prediction = (test_scores > self.threshold_).astype('int').ravel()
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-_process_decision_scores-449
+pyod.models.vae.VAE.threshold_
+            self.labels_ = (self.decision_scores_ > self.threshold_).astype(
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/vae.py-fit-333
+pyod.models.vae.VAE.n_features_
+        if np.min(self.encoder_neurons) > self.n_features_:
+{'missing', 'builtins.int'}
+ /home/user/pyod/pyod/models/vae.py-fit-324
+pyod.models.vae.VAE.scaler_
+            X_norm = self.scaler_.fit_transform(X)
+{'missing', 'sklearn.preprocessing._data.StandardScaler'}
+ /home/user/pyod/pyod/models/vae.py-decision_function-380
+pyod.models.vae.VAE.scaler_
+            X_norm = self.scaler_.transform(X)
+{'missing', 'sklearn.preprocessing._data.StandardScaler'}
+ /home/user/pyod/pyod/models/vae.py-fit-348
+pyod.models.vae.VAE.scaler_
+            X_norm = self.scaler_.transform(X)
+{'missing', 'sklearn.preprocessing._data.StandardScaler'}
+ /home/user/pyod/pyod/models/base.py-predict_proba-237
+pyod.models.vae.VAE._sigma
+                    self._sigma * np.sqrt(2))
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/vae.py-fit-339
+pyod.models.vae.VAE.model_
+        self.history_ = self.model_.fit(X_norm,
+{'missing', 'keras.engine.functional.Functional'}
+ /home/user/pyod/pyod/models/vae.py-decision_function-385
+pyod.models.vae.VAE.model_
+        pred_scores = self.model_.predict(X_norm)
+{'missing', 'keras.engine.functional.Functional'}
+ /home/user/pyod/pyod/models/vae.py-fit-352
+pyod.models.vae.VAE.model_
+        pred_scores = self.model_.predict(X_norm)
+{'missing', 'keras.engine.functional.Functional'}
+ /home/user/pyod/pyod/models/base.py-predict-171
+pyod.models.kpca.KPCA.threshold_
+            prediction = (pred_score > self.threshold_).astype('int').ravel()
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict_confidence-297
+pyod.models.kpca.KPCA.threshold_
+            prediction = (test_scores > self.threshold_).astype('int').ravel()
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-_process_decision_scores-449
+pyod.models.kpca.KPCA.threshold_
+            self.labels_ = (self.decision_scores_ > self.threshold_).astype(
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict_proba-237
+pyod.models.kpca.KPCA._sigma
+                    self._sigma * np.sqrt(2))
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-<lambda>-279
+pyod.models.kpca.KPCA.decision_scores_
+            lambda x: np.count_nonzero(self.decision_scores_ <= x))
+{'builtins.NoneType', 'numpy.numpy.ndarray'}
+ /home/user/pyod/pyod/models/base.py-_process_decision_scores-449
+pyod.models.kpca.KPCA.decision_scores_
+            self.labels_ = (self.decision_scores_ > self.threshold_).astype(
+{'builtins.NoneType', 'numpy.numpy.ndarray'}
+ /home/user/pyod/pyod/models/base.py-predict_proba-236
+pyod.models.kpca.KPCA._mu
+            pre_erf_score = (test_scores - self._mu) / (
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/kpca.py-decision_function-381
+pyod.models.kpca.KPCA.kpca
+            eigenvalues_ = self.kpca.eigenvalues_
+{'pyod.models.kpca.PyODKernelPCA'}
+ /home/user/pyod/pyod/models/kpca.py-fit-332
+pyod.models.kpca.KPCA.kpca
+            eigenvectors_ = self.kpca.eigenvectors_
+{'pyod.models.kpca.PyODKernelPCA'}
+ /home/user/pyod/pyod/models/kpca.py-fit-323
+pyod.models.kpca.KPCA.kpca
+        self.kpca.fit(X)
+{'pyod.models.kpca.PyODKernelPCA'}
+ /home/user/pyod/pyod/models/kpca.py-decision_function-382
+pyod.models.kpca.KPCA.kpca
+            eigenvectors_ = self.kpca.eigenvectors_
+{'pyod.models.kpca.PyODKernelPCA'}
+ /home/user/pyod/pyod/models/kpca.py-decision_function-374
+pyod.models.kpca.KPCA.kpca
+        gram_matrix = kernel(X, self.kpca.X_fit_)
+{'pyod.models.kpca.PyODKernelPCA'}
+ /home/user/pyod/pyod/models/kpca.py-fit-331
+pyod.models.kpca.KPCA.kpca
+            eigenvalues_ = self.kpca.eigenvalues_
+{'pyod.models.kpca.PyODKernelPCA'}
+ /home/user/pyod/pyod/models/base.py-predict_confidence-297
+pyod.models.knn.KNN.threshold_
+            prediction = (test_scores > self.threshold_).astype('int').ravel()
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-_process_decision_scores-449
+pyod.models.knn.KNN.threshold_
+            self.labels_ = (self.decision_scores_ > self.threshold_).astype(
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict-171
+pyod.models.knn.KNN.threshold_
+            prediction = (pred_score > self.threshold_).astype('int').ravel()
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict_proba-237
+pyod.models.knn.KNN._sigma
+                    self._sigma * np.sqrt(2))
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-<lambda>-279
+pyod.models.knn.KNN.decision_scores_
+            lambda x: np.count_nonzero(self.decision_scores_ <= x))
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/pyod/pyod/models/base.py-_process_decision_scores-449
+pyod.models.knn.KNN.decision_scores_
+            self.labels_ = (self.decision_scores_ > self.threshold_).astype(
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/pyod/pyod/models/knn.py-decision_function-250
+pyod.models.knn.KNN.tree_
+            dist_arr, _ = self.tree_.query(x_i, k=self.n_neighbors)
+{'missing', 'sklearn.neighbors._kd_tree.sklearn.neighbors._kd_tree.KDTree'}
+ /home/user/pyod/pyod/models/base.py-predict_proba-236
+pyod.models.knn.KNN._mu
+            pre_erf_score = (test_scores - self._mu) / (
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-<lambda>-279
+pyod.models.auto_encoder.AutoEncoder.decision_scores_
+            lambda x: np.count_nonzero(self.decision_scores_ <= x))
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/pyod/pyod/models/base.py-_process_decision_scores-449
+pyod.models.auto_encoder.AutoEncoder.decision_scores_
+            self.labels_ = (self.decision_scores_ > self.threshold_).astype(
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/pyod/pyod/models/base.py-predict_proba-236
+pyod.models.auto_encoder.AutoEncoder._mu
+            pre_erf_score = (test_scores - self._mu) / (
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict-171
+pyod.models.auto_encoder.AutoEncoder.threshold_
+            prediction = (pred_score > self.threshold_).astype('int').ravel()
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict_confidence-297
+pyod.models.auto_encoder.AutoEncoder.threshold_
+            prediction = (test_scores > self.threshold_).astype('int').ravel()
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-_process_decision_scores-449
+pyod.models.auto_encoder.AutoEncoder.threshold_
+            self.labels_ = (self.decision_scores_ > self.threshold_).astype(
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/auto_encoder.py-fit-234
+pyod.models.auto_encoder.AutoEncoder.n_features_
+        if np.min(self.hidden_neurons) > self.n_features_:
+{'missing', 'builtins.int'}
+ /home/user/pyod/pyod/models/auto_encoder.py-fit-241
+pyod.models.auto_encoder.AutoEncoder.n_features_
+        self.compression_rate_ = self.n_features_ // self.encoding_dim_
+{'missing', 'builtins.int'}
+ /home/user/pyod/pyod/models/auto_encoder.py-fit-256
+pyod.models.auto_encoder.AutoEncoder.scaler_
+            X_norm = self.scaler_.transform(X)
+{'missing', 'sklearn.preprocessing._data.StandardScaler'}
+ /home/user/pyod/pyod/models/auto_encoder.py-fit-225
+pyod.models.auto_encoder.AutoEncoder.scaler_
+            X_norm = self.scaler_.fit_transform(X)
+{'missing', 'sklearn.preprocessing._data.StandardScaler'}
+ /home/user/pyod/pyod/models/auto_encoder.py-decision_function-288
+pyod.models.auto_encoder.AutoEncoder.scaler_
+            X_norm = self.scaler_.transform(X)
+{'missing', 'sklearn.preprocessing._data.StandardScaler'}
+ /home/user/pyod/pyod/models/auto_encoder.py-fit-241
+pyod.models.auto_encoder.AutoEncoder.encoding_dim_
+        self.compression_rate_ = self.n_features_ // self.encoding_dim_
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict_proba-237
+pyod.models.auto_encoder.AutoEncoder._sigma
+                    self._sigma * np.sqrt(2))
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/auto_encoder.py-fit-245
+pyod.models.auto_encoder.AutoEncoder.model_
+        self.history_ = self.model_.fit(X_norm, X_norm,
+{'keras.engine.sequential.Sequential', 'missing'}
+ /home/user/pyod/pyod/models/auto_encoder.py-decision_function-293
+pyod.models.auto_encoder.AutoEncoder.model_
+        pred_scores = self.model_.predict(X_norm)
+{'keras.engine.sequential.Sequential', 'missing'}
+ /home/user/pyod/pyod/models/auto_encoder.py-fit-260
+pyod.models.auto_encoder.AutoEncoder.model_
+        pred_scores = self.model_.predict(X_norm)
+{'keras.engine.sequential.Sequential', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1146
+seaborn.categorical._CategoricalFacetPlotter.facets
+            return self.facets.axes_dict[row]
+{'seaborn.axisgrid.FacetGrid', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1150
+seaborn.categorical._CategoricalFacetPlotter.facets
+            return self.facets.ax
+{'seaborn.axisgrid.FacetGrid', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_log_scaled-1303
+seaborn.categorical._CategoricalFacetPlotter.facets
+            axes_list = self.facets.axes.flatten()
+{'seaborn.axisgrid.FacetGrid', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1148
+seaborn.categorical._CategoricalFacetPlotter.facets
+            return self.facets.axes_dict[col]
+{'seaborn.axisgrid.FacetGrid', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1144
+seaborn.categorical._CategoricalFacetPlotter.facets
+            return self.facets.axes_dict[(row, col)]
+{'seaborn.axisgrid.FacetGrid', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-iter_data-1043
+seaborn.categorical._CategoricalFacetPlotter.converters
+                        converter = self.converters[axis].iloc[0]
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_attach-1250
+seaborn.categorical._CategoricalFacetPlotter.converters
+            self.converters[var] = converter
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_attach-1253
+seaborn.categorical._CategoricalFacetPlotter.converters
+            grouped = self.plot_data[var].groupby(self.converters[var], sort=False)
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-comp_data-1116
+seaborn.categorical._CategoricalFacetPlotter.converters
+                grouped = self.plot_data[var].groupby(self.converters[var], sort=False)
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/axisgrid.py-map_dataframe-811
+seaborn.axisgrid.FacetGrid.hue_names
+                kwargs["label"] = self.hue_names[hue_k]
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/seaborn/seaborn/axisgrid.py-map-739
+seaborn.axisgrid.FacetGrid.hue_names
+                kwargs["label"] = utils.to_utf8(self.hue_names[hue_k])
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/seaborn/seaborn/axisgrid.py-add_legend-205
+seaborn.axisgrid.FacetGrid._space_needed
+            right = 1 - self._space_needed
+{'missing', 'numpy.numpy.float64'}
+ /home/user/seaborn/seaborn/_oldcore.py-_attach-1253
+seaborn.categorical._CategoricalAggPlotter.converters
+            grouped = self.plot_data[var].groupby(self.converters[var], sort=False)
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_attach-1250
+seaborn.categorical._CategoricalAggPlotter.converters
+            self.converters[var] = converter
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-comp_data-1116
+seaborn.categorical._CategoricalAggPlotter.converters
+                grouped = self.plot_data[var].groupby(self.converters[var], sort=False)
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_statistics.py-__call__-505
+seaborn._statistics.EstimateAggregator.error_level
+            half_interval = vals.sem() * self.error_level
+{'builtins.NoneType', 'builtins.int', 'builtins.float'}
+ /home/user/seaborn/seaborn/_statistics.py-__call__-502
+seaborn._statistics.EstimateAggregator.error_level
+            half_interval = vals.std() * self.error_level
+{'builtins.NoneType', 'builtins.int', 'builtins.float'}
+ /home/user/seaborn/seaborn/_oldcore.py-_attach-1253
+seaborn.categorical._CategoricalPlotterNew.converters
+            grouped = self.plot_data[var].groupby(self.converters[var], sort=False)
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_attach-1250
+seaborn.categorical._CategoricalPlotterNew.converters
+            self.converters[var] = converter
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-iter_data-1043
+seaborn.categorical._CategoricalPlotterNew.converters
+                        converter = self.converters[axis].iloc[0]
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-comp_data-1116
+seaborn.categorical._CategoricalPlotterNew.converters
+                grouped = self.plot_data[var].groupby(self.converters[var], sort=False)
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/categorical.py-draw_violins-1515
+seaborn.categorical._ViolinPlotter.inner
+                if self.inner.startswith("box"):
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/categorical.py-draw_violins-1527
+seaborn.categorical._ViolinPlotter.inner
+                elif self.inner.startswith("point"):
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/categorical.py-draw_violins-1604
+seaborn.categorical._ViolinPlotter.inner
+                        if self.inner.startswith("box"):
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/categorical.py-draw_violins-1630
+seaborn.categorical._ViolinPlotter.inner
+                        if self.inner.startswith("box"):
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/categorical.py-draw_violins-1640
+seaborn.categorical._ViolinPlotter.inner
+                        elif self.inner.startswith("stick"):
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/categorical.py-draw_violins-1646
+seaborn.categorical._ViolinPlotter.inner
+                        elif self.inner.startswith("point"):
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/categorical.py-draw_violins-1634
+seaborn.categorical._ViolinPlotter.inner
+                        elif self.inner.startswith("quart"):
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/categorical.py-draw_violins-1608
+seaborn.categorical._ViolinPlotter.inner
+                        elif self.inner.startswith("point"):
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/categorical.py-draw_violins-1519
+seaborn.categorical._ViolinPlotter.inner
+                elif self.inner.startswith("quart"):
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/categorical.py-draw_violins-1590
+seaborn.categorical._ViolinPlotter.inner
+                        elif self.inner.startswith("stick"):
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/categorical.py-draw_violins-1523
+seaborn.categorical._ViolinPlotter.inner
+                elif self.inner.startswith("stick"):
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/categorical.py-draw_violins-1584
+seaborn.categorical._ViolinPlotter.inner
+                        if self.inner.startswith("quart"):
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/_oldcore.py-_log_scaled-1303
+seaborn.categorical._CategoricalAggFacetPlotter.facets
+            axes_list = self.facets.axes.flatten()
+{'seaborn.axisgrid.FacetGrid', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1150
+seaborn.categorical._CategoricalAggFacetPlotter.facets
+            return self.facets.ax
+{'seaborn.axisgrid.FacetGrid', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1148
+seaborn.categorical._CategoricalAggFacetPlotter.facets
+            return self.facets.axes_dict[col]
+{'seaborn.axisgrid.FacetGrid', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_attach-1250
+seaborn.categorical._CategoricalAggFacetPlotter.converters
+            self.converters[var] = converter
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_attach-1253
+seaborn.categorical._CategoricalAggFacetPlotter.converters
+            grouped = self.plot_data[var].groupby(self.converters[var], sort=False)
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-comp_data-1116
+seaborn.categorical._CategoricalAggFacetPlotter.converters
+                grouped = self.plot_data[var].groupby(self.converters[var], sort=False)
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_attach-1253
+seaborn._oldcore.VectorPlotter.converters
+            grouped = self.plot_data[var].groupby(self.converters[var], sort=False)
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-comp_data-1116
+seaborn._oldcore.VectorPlotter.converters
+                grouped = self.plot_data[var].groupby(self.converters[var], sort=False)
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_attach-1250
+seaborn._oldcore.VectorPlotter.converters
+            self.converters[var] = converter
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1148
+seaborn._oldcore.VectorPlotter.facets
+            return self.facets.axes_dict[col]
+{'seaborn.axisgrid.FacetGrid', 'builtins.NoneType', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_attach-1246
+seaborn._oldcore.VectorPlotter.facets
+                        axis = getattr(self.facets.axes[idx], f"{var}axis")
+{'seaborn.axisgrid.FacetGrid', 'builtins.NoneType', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1144
+seaborn._oldcore.VectorPlotter.facets
+            return self.facets.axes_dict[(row, col)]
+{'seaborn.axisgrid.FacetGrid', 'builtins.NoneType', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_attach-1250
+seaborn.distributions._DistributionPlotter.converters
+            self.converters[var] = converter
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_attach-1253
+seaborn.distributions._DistributionPlotter.converters
+            grouped = self.plot_data[var].groupby(self.converters[var], sort=False)
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-comp_data-1116
+seaborn.distributions._DistributionPlotter.converters
+                grouped = self.plot_data[var].groupby(self.converters[var], sort=False)
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_attach-1250
+seaborn.distributions._DistributionFacetPlotter.converters
+            self.converters[var] = converter
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_attach-1253
+seaborn.distributions._DistributionFacetPlotter.converters
+            grouped = self.plot_data[var].groupby(self.converters[var], sort=False)
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-comp_data-1116
+seaborn.distributions._DistributionFacetPlotter.converters
+                grouped = self.plot_data[var].groupby(self.converters[var], sort=False)
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/distributions.py-plot_univariate_ecdf-1275
+seaborn.distributions._DistributionFacetPlotter.facets
+        ax = self.ax if self.ax is not None else self.facets.axes.flat[0]
+{'seaborn.axisgrid.FacetGrid', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1146
+seaborn.distributions._DistributionFacetPlotter.facets
+            return self.facets.axes_dict[row]
+{'seaborn.axisgrid.FacetGrid', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1150
+seaborn.distributions._DistributionFacetPlotter.facets
+            return self.facets.ax
+{'seaborn.axisgrid.FacetGrid', 'missing'}
+ /home/user/seaborn/seaborn/distributions.py-plot_univariate_histogram-724
+seaborn.distributions._DistributionFacetPlotter.facets
+        ax = self.ax if self.ax is not None else self.facets.axes.flat[0]
+{'seaborn.axisgrid.FacetGrid', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_log_scaled-1303
+seaborn.distributions._DistributionFacetPlotter.facets
+            axes_list = self.facets.axes.flatten()
+{'seaborn.axisgrid.FacetGrid', 'missing'}
+ /home/user/seaborn/seaborn/distributions.py-plot_univariate_density-1017
+seaborn.distributions._DistributionFacetPlotter.facets
+        ax = self.ax if self.ax is not None else self.facets.axes.flat[0]
+{'seaborn.axisgrid.FacetGrid', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1148
+seaborn.distributions._DistributionFacetPlotter.facets
+            return self.facets.axes_dict[col]
+{'seaborn.axisgrid.FacetGrid', 'missing'}
+ /home/user/seaborn/seaborn/distributions.py-plot_bivariate_histogram-886
+seaborn.distributions._DistributionFacetPlotter.facets
+        ax = self.ax if self.ax is not None else self.facets.axes.flat[0]
+{'seaborn.axisgrid.FacetGrid', 'missing'}
+ /home/user/seaborn/seaborn/matrix.py-_determine_cmap_params-236
+seaborn.matrix._HeatMapper.cmap
+            over_set = over != self.cmap(self.cmap.N - 1)
+{'matplotlib.colors.LinearSegmentedColormap', 'matplotlib.colors.ListedColormap'}
+ /home/user/seaborn/seaborn/matrix.py-_determine_cmap_params-247
+seaborn.matrix._HeatMapper.cmap
+                self.cmap.set_over(over)
+{'matplotlib.colors.LinearSegmentedColormap', 'matplotlib.colors.ListedColormap'}
+ /home/user/seaborn/seaborn/matrix.py-_determine_cmap_params-243
+seaborn.matrix._HeatMapper.cmap
+            self.cmap.set_bad(bad)
+{'matplotlib.colors.LinearSegmentedColormap', 'matplotlib.colors.ListedColormap'}
+ /home/user/seaborn/seaborn/matrix.py-_determine_cmap_params-245
+seaborn.matrix._HeatMapper.cmap
+                self.cmap.set_under(under)
+{'matplotlib.colors.LinearSegmentedColormap', 'matplotlib.colors.ListedColormap'}
+ /home/user/seaborn/seaborn/matrix.py-_annotate_heatmap-252
+seaborn.matrix._HeatMapper.annot_data
+        height, width = self.annot_data.shape
+{'numpy.ma.core.MaskedArray', 'builtins.NoneType', 'numpy.numpy.ndarray'}
+ /home/user/seaborn/seaborn/matrix.py-_annotate_heatmap-256
+seaborn.matrix._HeatMapper.annot_data
+                                       self.annot_data.flat):
+{'numpy.ma.core.MaskedArray', 'builtins.NoneType', 'numpy.numpy.ndarray'}
+ /home/user/seaborn/seaborn/matrix.py-plot-1137
+seaborn.matrix.ClusterGrid.dendrogram_row
+            yind = self.dendrogram_row.reordered_ind
+{'seaborn.matrix._DendrogramPlotter', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/matrix.py-plot_matrix-1114
+seaborn.matrix.ClusterGrid.ax_cbar
+            self.ax_cbar.set_axis_on()
+{'matplotlib.axes._subplots.AxesSubplot'}
+ /home/user/seaborn/seaborn/matrix.py-plot_matrix-1115
+seaborn.matrix.ClusterGrid.ax_cbar
+            self.ax_cbar.set_position(self.cbar_pos)
+{'matplotlib.axes._subplots.AxesSubplot'}
+ /home/user/seaborn/seaborn/matrix.py-plot_matrix-1112
+seaborn.matrix.ClusterGrid.ax_cbar
+            self.ax_cbar.set_axis_off()
+{'matplotlib.axes._subplots.AxesSubplot'}
+ /home/user/seaborn/seaborn/matrix.py-plot_colors-1055
+seaborn.matrix.ClusterGrid.ax_col_colors
+                self.ax_col_colors.yaxis.tick_right()
+{'builtins.NoneType', 'matplotlib.axes._subplots.AxesSubplot'}
+ /home/user/seaborn/seaborn/matrix.py-plot_colors-1056
+seaborn.matrix.ClusterGrid.ax_col_colors
+                plt.setp(self.ax_col_colors.get_yticklabels(), rotation=0)
+{'builtins.NoneType', 'matplotlib.axes._subplots.AxesSubplot'}
+ /home/user/seaborn/seaborn/matrix.py-plot-1133
+seaborn.matrix.ClusterGrid.dendrogram_col
+            xind = self.dendrogram_col.reordered_ind
+{'seaborn.matrix._DendrogramPlotter', 'builtins.NoneType'}
+ /home/user/seaborn/seaborn/matrix.py-plot_colors-1035
+seaborn.matrix.ClusterGrid.ax_row_colors
+                plt.setp(self.ax_row_colors.get_xticklabels(), rotation=90)
+{'builtins.NoneType', 'matplotlib.axes._subplots.AxesSubplot'}
+ /home/user/seaborn/seaborn/regression.py-plot-374
+seaborn.regression._RegressionPlotter.y
+            ax.set_ylabel(self.y.name)
+{'numpy.numpy.ndarray', 'pandas.core.series.Series'}
+ /home/user/seaborn/seaborn/regression.py-residplot-909
+seaborn.regression._RegressionPlotter.y
+    plotter.y = plotter.y - yhat
+{'numpy.numpy.ndarray', 'pandas.core.series.Series'}
+ /home/user/seaborn/seaborn/regression.py-plot-372
+seaborn.regression._RegressionPlotter.x
+            ax.set_xlabel(self.x.name)
+{'numpy.numpy.ndarray', 'pandas.core.series.Series'}
+ /home/user/seaborn/seaborn/regression.py-__init__-134
+seaborn.regression._RegressionPlotter.x
+            self.x_range = self.x.min(), self.x.max()
+{'numpy.numpy.ndarray', 'pandas.core.series.Series'}
+ /home/user/seaborn/seaborn/_oldcore.py-_attach-1250
+seaborn.relational._ScatterPlotter.converters
+            self.converters[var] = converter
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_attach-1253
+seaborn.relational._ScatterPlotter.converters
+            grouped = self.plot_data[var].groupby(self.converters[var], sort=False)
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_attach-1253
+seaborn.relational._LinePlotter.converters
+            grouped = self.plot_data[var].groupby(self.converters[var], sort=False)
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_attach-1250
+seaborn.relational._LinePlotter.converters
+            self.converters[var] = converter
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-comp_data-1116
+seaborn.relational._LinePlotter.converters
+                grouped = self.plot_data[var].groupby(self.converters[var], sort=False)
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_core/plot.py-save-988
+seaborn._core.plot.Plotter._figure
+        self._figure.savefig(loc, **kwargs)
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/seaborn/_core/plot.py-_make_legend-1741
+seaborn._core.plot.Plotter._figure
+                self._figure.legends.append(legend)
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/seaborn/_core/plot.py-_repr_png_-1029
+seaborn._core.plot.Plotter._figure
+            self._figure.savefig(buffer, dpi=dpi, format="png", bbox_inches="tight")
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/seaborn/_core/plot.py-_repr_svg_-1047
+seaborn._core.plot.Plotter._figure
+            self._figure.savefig(buffer, format="svg", bbox_inches="tight")
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/seaborn/_core/plot.py-_setup_scales-1342
+seaborn._core.plot.Plotter._subplots
+                share_state = self._subplots.subplot_spec[f"share{axis}"]
+{'missing', 'seaborn._core.subplots.Subplots'}
+ /home/user/seaborn/seaborn/_core/subplots.py-init_figure-259
+seaborn._core.subplots.Subplots._subplot_list
+            self._subplot_list.append(info)
+{'missing', 'builtins.list'}
+ /home/user/seaborn/seaborn/_core/scales.py-convert_units-983
+seaborn._core.scales.PseudoAxis.converter
+        return self.converter.convert(x, self.units, self)
+{'matplotlib.dates._SwitchableDateConverter', 'matplotlib.category.StrCategoryConverter'}
+ /home/user/seaborn/seaborn/_core/scales.py-update_units-963
+seaborn._core.scales.PseudoAxis.converter
+            self.converter.default_units(x, self)
+{'matplotlib.dates._SwitchableDateConverter', 'matplotlib.category.StrCategoryConverter'}
+ /home/user/seaborn/seaborn/_core/scales.py-update_units-965
+seaborn._core.scales.PseudoAxis.converter
+            info = self.converter.axisinfo(self.units, self)
+{'matplotlib.dates._SwitchableDateConverter', 'matplotlib.category.StrCategoryConverter'}
+ /home/user/altair/altair/utils/schemapi.py-__call__-856
+altair.utils.schemapi._PropertySetter.obj
+        obj = self.obj.copy()
+{'altair.vegalite.v5.schema.channels.Theta', 'altair.vegalite.v5.schema.channels.ThetaDatum', 'altair.vegalite.v5.schema.channels.Size', 'altair.vegalite.v5.schema.channels.Order', 'altair.vegalite.v5.schema.channels.Fill', 'altair.vegalite.v5.schema.channels.Angle', 'altair.vegalite.v5.schema.channels.Row', 'altair.vegalite.v5.schema.channels.Opacity', 'altair.vegalite.v5.schema.channels.Column', 'missing', 'altair.vegalite.v5.schema.channels.Color', 'altair.vegalite.v5.schema.channels.RadiusDatum', 'altair.vegalite.v5.schema.channels.Y', 'altair.vegalite.v5.schema.channels.Shape', 'altair.vegalite.v5.schema.channels.X', 'altair.vegalite.v5.schema.channels.Facet', 'altair.vegalite.v5.schema.channels.Radius'}
+ /home/user/altair/altair/vegalite/v5/api.py-check_fields_and_encodings-294
+altair.vegalite.v5.api.Parameter.param
+            if field_name in getattr(parameter.param.select, prop):
+{'missing', 'altair.vegalite.v5.schema.core.SelectionParameter', 'altair.vegalite.v5.schema.core.VariableParameter'}
+ /home/user/altair/altair/vegalite/v5/api.py-condition-753
+altair.vegalite.v5.api.Parameter.param
+        if predicate.param_type == "selection" or predicate.param.expr is Undefined:
+{'missing', 'altair.vegalite.v5.schema.core.SelectionParameter', 'altair.vegalite.v5.schema.core.VariableParameter'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_checkpoint_model-480
+snorkel.classification.training.trainer.Trainer.checkpointer
+            self.checkpointer.checkpoint(
+{'snorkel.classification.training.loggers.checkpointer.Checkpointer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_log_metrics-472
+snorkel.classification.training.trainer.Trainer.log_manager
+                    metric_name, metric_value, self.log_manager.point_total
+{'missing', 'snorkel.classification.training.loggers.log_manager.LogManager'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-fit-248
+snorkel.classification.training.trainer.Trainer.log_manager
+        model = self.log_manager.cleanup(model)
+{'missing', 'snorkel.classification.training.loggers.log_manager.LogManager'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_logging-443
+snorkel.classification.training.trainer.Trainer.log_manager
+        self.log_manager.update(batch_size)
+{'missing', 'snorkel.classification.training.loggers.log_manager.LogManager'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_logging-460
+snorkel.classification.training.trainer.Trainer.log_manager
+        if self.log_manager.trigger_checkpointing():
+{'missing', 'snorkel.classification.training.loggers.log_manager.LogManager'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_logging-450
+snorkel.classification.training.trainer.Trainer.log_manager
+        if self.log_manager.trigger_evaluation():
+{'missing', 'snorkel.classification.training.loggers.log_manager.LogManager'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_checkpoint_model-481
+snorkel.classification.training.trainer.Trainer.log_manager
+                self.log_manager.unit_total, model, metric_dict
+{'missing', 'snorkel.classification.training.loggers.log_manager.LogManager'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_update_lr_scheduler-408
+snorkel.classification.training.trainer.Trainer.warmup_scheduler
+            self.warmup_scheduler.step()  # type: ignore
+{'missing', 'torch.optim.lr_scheduler.LambdaLR'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_aggregate_losses-500
+snorkel.classification.training.trainer.Trainer.running_counts
+        total_count = sum(self.running_counts.values())
+{'missing', 'collections.collections.defaultdict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-fit-219
+snorkel.classification.training.trainer.Trainer.running_counts
+                    self.running_counts[task_name] += count_dict[task_name]
+{'missing', 'collections.collections.defaultdict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_aggregate_losses-493
+snorkel.classification.training.trainer.Trainer.running_counts
+            if self.running_counts[identifier] > 0:
+{'missing', 'collections.collections.defaultdict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-<lambda>-351
+snorkel.classification.training.trainer.Trainer.warmup_steps
+                total_steps - self.warmup_steps
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_update_lr_scheduler-407
+snorkel.classification.training.trainer.Trainer.warmup_steps
+        if self.warmup_scheduler and step < self.warmup_steps:
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-<lambda>-350
+snorkel.classification.training.trainer.Trainer.warmup_steps
+            linear_decay_func = lambda x: (total_steps - self.warmup_steps - x) / (
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_log_metrics-471
+snorkel.classification.training.trainer.Trainer.log_writer
+                self.log_writer.add_scalar(
+{'snorkel.classification.training.loggers.tensorboard_writer.TensorBoardWriter', 'snorkel.classification.training.loggers.log_writer.LogWriter', 'missing'}
+ /home/user/snorkel/test/classification/training/test_trainer.py-test_log_writer_json-161
+snorkel.classification.training.trainer.Trainer.log_writer
+            log_path = os.path.join(trainer.log_writer.log_dir, run_name)
+{'snorkel.classification.training.loggers.tensorboard_writer.TensorBoardWriter', 'snorkel.classification.training.loggers.log_writer.LogWriter', 'builtins.NoneType', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-save-531
+snorkel.classification.training.trainer.Trainer.optimizer
+                    "optimizer_state_dict": self.optimizer.state_dict(),
+{'missing', 'torch.optim.adam.Adam', 'torch.optim.sgd.SGD', 'torch.optim.adamax.Adamax'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-load-579
+snorkel.classification.training.trainer.Trainer.optimizer
+                self.optimizer.load_state_dict(saved_state["optimizer_state_dict"])
+{'missing', 'torch.optim.adam.Adam', 'torch.optim.sgd.SGD', 'torch.optim.adamax.Adamax'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-fit-201
+snorkel.classification.training.trainer.Trainer.optimizer
+                self.optimizer.zero_grad()
+{'missing', 'torch.optim.adam.Adam', 'torch.optim.sgd.SGD', 'torch.optim.adamax.Adamax'}
+ /home/user/snorkel/test/classification/training/test_trainer.py-test_save_load-235
+snorkel.classification.training.trainer.Trainer.optimizer
+            trainer1.optimizer.state_dict(), trainer2.optimizer.state_dict()
+{'missing', 'torch.optim.adam.Adam', 'torch.optim.sgd.SGD', 'torch.optim.adamax.Adamax'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_aggregate_losses-505
+snorkel.classification.training.trainer.Trainer.optimizer
+        metric_dict["model/all/train/lr"] = self.optimizer.param_groups[0]["lr"]
+{'missing', 'torch.optim.adam.Adam', 'torch.optim.sgd.SGD', 'torch.optim.adamax.Adamax'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-fit-238
+snorkel.classification.training.trainer.Trainer.optimizer
+                self.optimizer.step()
+{'missing', 'torch.optim.adam.Adam', 'torch.optim.sgd.SGD', 'torch.optim.adamax.Adamax'}
+ /home/user/snorkel/test/classification/training/test_trainer.py-test_scheduler_init-194
+snorkel.classification.training.trainer.Trainer.lr_scheduler
+        self.assertIsInstance(trainer.lr_scheduler, optim.lr_scheduler.ExponentialLR)
+{'torch.optim.lr_scheduler.StepLR', 'torch.optim.lr_scheduler.ExponentialLR', 'builtins.NoneType', 'missing', 'torch.optim.lr_scheduler.LambdaLR'}
+ /home/user/snorkel/test/classification/training/test_trainer.py-test_scheduler_init-198
+snorkel.classification.training.trainer.Trainer.lr_scheduler
+        self.assertIsInstance(trainer.lr_scheduler, optim.lr_scheduler.StepLR)
+{'torch.optim.lr_scheduler.StepLR', 'torch.optim.lr_scheduler.ExponentialLR', 'builtins.NoneType', 'missing', 'torch.optim.lr_scheduler.LambdaLR'}
+ /home/user/snorkel/test/classification/training/test_trainer.py-test_scheduler_init-190
+snorkel.classification.training.trainer.Trainer.lr_scheduler
+        self.assertIsInstance(trainer.lr_scheduler, optim.lr_scheduler.LambdaLR)
+{'torch.optim.lr_scheduler.StepLR', 'torch.optim.lr_scheduler.ExponentialLR', 'builtins.NoneType', 'missing', 'torch.optim.lr_scheduler.LambdaLR'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_update_lr_scheduler-410
+snorkel.classification.training.trainer.Trainer.lr_scheduler
+            self.lr_scheduler.step()  # type: ignore
+{'torch.optim.lr_scheduler.ExponentialLR', 'missing', 'torch.optim.lr_scheduler.LambdaLR', 'torch.optim.lr_scheduler.StepLR'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-fit-244
+snorkel.classification.training.trainer.Trainer.metrics
+                self.metrics.update(self._logging(model, dataloaders, batch_size))
+{'builtins.dict', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-fit-197
+snorkel.classification.training.trainer.Trainer.n_batches_per_epoch
+                total_batch_num = epoch_num * self.n_batches_per_epoch + batch_num
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_set_warmup_scheduler-393
+snorkel.classification.training.trainer.Trainer.n_batches_per_epoch
+                warmup_percentage * self.config.n_epochs * self.n_batches_per_epoch
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_set_warmup_scheduler-378
+snorkel.classification.training.trainer.Trainer.n_batches_per_epoch
+                self.warmup_steps = int(warmup_steps * self.n_batches_per_epoch)
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_set_lr_scheduler-349
+snorkel.classification.training.trainer.Trainer.n_batches_per_epoch
+            total_steps = self.n_batches_per_epoch * self.config.n_epochs
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-fit-189
+snorkel.classification.training.trainer.Trainer.batch_scheduler
+                enumerate(self.batch_scheduler.get_batches(train_dataloaders)),
+{'snorkel.classification.training.schedulers.shuffled_scheduler.ShuffledScheduler', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_aggregate_losses-499
+snorkel.classification.training.trainer.Trainer.running_losses
+        total_loss = sum(self.running_losses.values())
+{'missing', 'collections.collections.defaultdict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-fit-216
+snorkel.classification.training.trainer.Trainer.running_losses
+                    self.running_losses[identifier] += (
+{'missing', 'collections.collections.defaultdict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_aggregate_losses-492
+snorkel.classification.training.trainer.Trainer.running_losses
+        for identifier in self.running_losses.keys():
+{'missing', 'collections.collections.defaultdict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_update_lr_scheduler-735
+snorkel.labeling.model.label_model.LabelModel.warmup_scheduler
+            self.warmup_scheduler.step()  # type: ignore
+{'missing', 'torch.optim.lr_scheduler.LambdaLR'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_loss_mu-555
+snorkel.labeling.model.label_model.LabelModel.O
+        loss_1 = torch.norm((self.O - self.mu @ self.P @ self.mu.t())[self.mask]) ** 2
+{'missing', 'torch.Tensor'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_generate_O-148
+snorkel.labeling.model.label_model.LabelModel.O
+            label_model.O.cpu().detach().numpy(), true_O
+{'missing', 'torch.Tensor'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_generate_O-164
+snorkel.labeling.model.label_model.LabelModel.O
+            label_model.O.cpu().detach().numpy(), true_O
+{'missing', 'torch.Tensor'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_generate_O-171
+snorkel.labeling.model.label_model.LabelModel.O
+            label_model.O.cpu().detach().numpy(), true_O
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_create_L_ind-161
+snorkel.labeling.model.label_model.LabelModel.m
+        L_ind = np.zeros((self.n, self.m * self.cardinality))
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_constants-596
+snorkel.labeling.model.label_model.LabelModel.m
+        if self.m < 3:
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_break_col_permutation_symmetry-785
+snorkel.labeling.model.label_model.LabelModel.m
+        probs_sum = sum([mu[i : i + k] for i in range(0, self.m * k, k)]) @ P
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_build_mask-241
+snorkel.labeling.model.label_model.LabelModel.mask
+                    self.mask[si:ei, sj:ej] = 0
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_build_mask-242
+snorkel.labeling.model.label_model.LabelModel.mask
+                    self.mask[sj:ej, si:ei] = 0
+{'missing', 'torch.Tensor'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_build_mask-256
+snorkel.labeling.model.label_model.LabelModel.mask
+        mask = label_model.mask.numpy()
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_init_params-304
+snorkel.labeling.model.label_model.LabelModel._prec_init
+                mu_init = torch.clamp(lps[idx] * self._prec_init[i] / self.p[y], 0, 1)
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_init_params-292
+snorkel.labeling.model.label_model.LabelModel._prec_init
+        if self._prec_init.shape[0] != self.m:
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_update_lr_scheduler-734
+snorkel.labeling.model.label_model.LabelModel.warmup_steps
+        if self.warmup_scheduler and step < self.warmup_steps:
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-<lambda>-676
+snorkel.labeling.model.label_model.LabelModel.warmup_steps
+            linear_decay_func = lambda x: (total_steps - self.warmup_steps - x) / (
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-<lambda>-677
+snorkel.labeling.model.label_model.LabelModel.warmup_steps
+                total_steps - self.warmup_steps
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-fit-933
+snorkel.labeling.model.label_model.LabelModel.train_config
+            epochs = trange(start_iteration, self.train_config.n_epochs, unit="epoch")
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_init_params-290
+snorkel.labeling.model.label_model.LabelModel.train_config
+                f"prec_init is of type {type(self.train_config.prec_init)} which is not supported currently."
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_init_params-284
+snorkel.labeling.model.label_model.LabelModel.train_config
+        elif isinstance(self.train_config.prec_init, np.ndarray):
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_warmup_scheduler-702
+snorkel.labeling.model.label_model.LabelModel.train_config
+            warmup_unit = self.train_config.lr_scheduler_config.warmup_unit
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-fit-884
+snorkel.labeling.model.label_model.LabelModel.train_config
+        random.seed(self.train_config.seed)
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-fit-885
+snorkel.labeling.model.label_model.LabelModel.train_config
+        np.random.seed(self.train_config.seed)
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-fit-945
+snorkel.labeling.model.label_model.LabelModel.train_config
+            loss = self._loss_mu(l2=self.train_config.l2)
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_optimizer-640
+snorkel.labeling.model.label_model.LabelModel.train_config
+                lr=self.train_config.lr,
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_warmup_scheduler-699
+snorkel.labeling.model.label_model.LabelModel.train_config
+            warmup_steps = self.train_config.lr_scheduler_config.warmup_steps
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_init_params-288
+snorkel.labeling.model.label_model.LabelModel.train_config
+        elif not isinstance(self.train_config.prec_init, torch.Tensor):
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_warmup_scheduler-717
+snorkel.labeling.model.label_model.LabelModel.train_config
+        elif self.train_config.lr_scheduler_config.warmup_percentage:
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_optimizer-654
+snorkel.labeling.model.label_model.LabelModel.train_config
+                lr=self.train_config.lr,
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_warmup_scheduler-718
+snorkel.labeling.model.label_model.LabelModel.train_config
+            warmup_percentage = self.train_config.lr_scheduler_config.warmup_percentage
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_optimizer-647
+snorkel.labeling.model.label_model.LabelModel.train_config
+                lr=self.train_config.lr,
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_init_params-283
+snorkel.labeling.model.label_model.LabelModel.train_config
+            self._prec_init = self.train_config.prec_init * torch.ones(self.m)
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_lr_scheduler-675
+snorkel.labeling.model.label_model.LabelModel.train_config
+            total_steps = self.train_config.n_epochs
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_optimizer-648
+snorkel.labeling.model.label_model.LabelModel.train_config
+                weight_decay=self.train_config.l2,
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_init_params-282
+snorkel.labeling.model.label_model.LabelModel.train_config
+        if isinstance(self.train_config.prec_init, (int, float)):
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_clamp_params-757
+snorkel.labeling.model.label_model.LabelModel.train_config
+        if self.train_config.mu_eps is not None:
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_optimizer-634
+snorkel.labeling.model.label_model.LabelModel.train_config
+        optimizer_name = self.train_config.optimizer
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_optimizer-633
+snorkel.labeling.model.label_model.LabelModel.train_config
+        optimizer_config = self.train_config.optimizer_config
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_init_params-285
+snorkel.labeling.model.label_model.LabelModel.train_config
+            self._prec_init = torch.Tensor(self.train_config.prec_init)
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_update_lr_scheduler-738
+snorkel.labeling.model.label_model.LabelModel.train_config
+            min_lr = self.train_config.lr_scheduler_config.min_lr
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_lr_scheduler-669
+snorkel.labeling.model.label_model.LabelModel.train_config
+        lr_scheduler_config = self.train_config.lr_scheduler_config
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-fit-935
+snorkel.labeling.model.label_model.LabelModel.train_config
+            epochs = range(start_iteration, self.train_config.n_epochs)
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_init_params-287
+snorkel.labeling.model.label_model.LabelModel.train_config
+            self._prec_init = torch.Tensor(self.train_config.prec_init)
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-fit-886
+snorkel.labeling.model.label_model.LabelModel.train_config
+        torch.manual_seed(self.train_config.seed)
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_clamp_params-758
+snorkel.labeling.model.label_model.LabelModel.train_config
+            mu_eps = self.train_config.mu_eps
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_warmup_scheduler-719
+snorkel.labeling.model.label_model.LabelModel.train_config
+            self.warmup_steps = int(warmup_percentage * self.train_config.n_epochs)
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_logger-626
+snorkel.labeling.model.label_model.LabelModel.train_config
+        self.logger = Logger(self.train_config.log_freq)
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_optimizer-655
+snorkel.labeling.model.label_model.LabelModel.train_config
+                weight_decay=self.train_config.l2,
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_optimizer-641
+snorkel.labeling.model.label_model.LabelModel.train_config
+                weight_decay=self.train_config.l2,
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_warmup_scheduler-698
+snorkel.labeling.model.label_model.LabelModel.train_config
+        if self.train_config.lr_scheduler_config.warmup_steps:
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_init_params-286
+snorkel.labeling.model.label_model.LabelModel.train_config
+        elif isinstance(self.train_config.prec_init, list):
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_lr_scheduler-668
+snorkel.labeling.model.label_model.LabelModel.train_config
+        lr_scheduler_name = self.train_config.lr_scheduler
+{'missing', 'snorkel.labeling.model.label_model.TrainConfig'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-get_weights-386
+snorkel.labeling.model.label_model.LabelModel.P
+            accs[i] = np.diag(cprobs[i, 1:, :] @ self.P.cpu().detach().numpy()).sum()
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_break_col_permutation_symmetry-781
+snorkel.labeling.model.label_model.LabelModel.P
+        P = self.P.cpu().detach().numpy()
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_update_lr_scheduler-737
+snorkel.labeling.model.label_model.LabelModel.lr_scheduler
+            self.lr_scheduler.step()  # type: ignore
+{'torch.optim.lr_scheduler.ExponentialLR', 'missing', 'torch.optim.lr_scheduler.LambdaLR', 'torch.optim.lr_scheduler.StepLR'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_scheduler_init-444
+snorkel.labeling.model.label_model.LabelModel.lr_scheduler
+        self.assertIsInstance(label_model.lr_scheduler, optim.lr_scheduler.LambdaLR)
+{'torch.optim.lr_scheduler.StepLR', 'torch.optim.lr_scheduler.ExponentialLR', 'builtins.NoneType', 'missing', 'torch.optim.lr_scheduler.LambdaLR'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_scheduler_init-448
+snorkel.labeling.model.label_model.LabelModel.lr_scheduler
+            label_model.lr_scheduler, optim.lr_scheduler.ExponentialLR
+{'torch.optim.lr_scheduler.StepLR', 'torch.optim.lr_scheduler.ExponentialLR', 'builtins.NoneType', 'missing', 'torch.optim.lr_scheduler.LambdaLR'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_scheduler_init-452
+snorkel.labeling.model.label_model.LabelModel.lr_scheduler
+        self.assertIsInstance(label_model.lr_scheduler, optim.lr_scheduler.StepLR)
+{'torch.optim.lr_scheduler.StepLR', 'torch.optim.lr_scheduler.ExponentialLR', 'builtins.NoneType', 'missing', 'torch.optim.lr_scheduler.LambdaLR'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_loss-359
+snorkel.labeling.model.label_model.LabelModel.mu_init
+        label_model.mu = nn.Parameter(label_model.mu_init.clone() + 0.05)
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_loss_l2-539
+snorkel.labeling.model.label_model.LabelModel.mu_init
+        return torch.norm(D @ (self.mu - self.mu_init)) ** 2
+{'missing', 'torch.Tensor'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_predict_proba-288
+snorkel.labeling.model.label_model.LabelModel.mu_init
+        label_model.mu = nn.Parameter(label_model.mu_init.clone().clamp(0.01, 0.99))
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-fit-917
+snorkel.labeling.model.label_model.LabelModel.mu_init
+        self.mu_init = self.mu_init.to(self.config.device)
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_init_params-305
+snorkel.labeling.model.label_model.LabelModel.mu_init
+                self.mu_init[idx, y] += mu_init
+{'missing', 'torch.Tensor'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_init_params-266
+snorkel.labeling.model.label_model.LabelModel.mu_init
+        mu_init = label_model.mu_init.numpy()
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_init_params-309
+snorkel.labeling.model.label_model.LabelModel.mu_init
+            self.mu_init.clone() * np.random.random()
+{'missing', 'torch.Tensor'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_init_params-278
+snorkel.labeling.model.label_model.LabelModel.mu_init
+        mu_init = label_model.mu_init.numpy()
+{'missing', 'torch.Tensor'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_predict-307
+snorkel.labeling.model.label_model.LabelModel.mu_init
+        label_model.mu = nn.Parameter(label_model.mu_init.clone().clamp(0.01, 0.99))
+{'missing', 'torch.Tensor'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_score-332
+snorkel.labeling.model.label_model.LabelModel.mu_init
+        label_model.mu = nn.Parameter(label_model.mu_init.clone().clamp(0.01, 0.99))
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_init_params-304
+snorkel.labeling.model.label_model.LabelModel.p
+                mu_init = torch.clamp(lps[idx] * self._prec_init[i] / self.p[y], 0, 1)
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_execute_logging-614
+snorkel.labeling.model.label_model.LabelModel.logger
+        if self.logger.check():
+{'missing', 'snorkel.labeling.model.logger.Logger'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_execute_logging-616
+snorkel.labeling.model.label_model.LabelModel.logger
+                self.logger.log(metrics_dict)
+{'missing', 'snorkel.labeling.model.logger.Logger'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_build_mask-235
+snorkel.labeling.model.label_model.LabelModel.c_data
+            for cj in self.c_data.values():
+{'builtins.dict', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_build_mask-232
+snorkel.labeling.model.label_model.LabelModel.c_data
+        for ci in self.c_data.values():
+{'builtins.dict', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_get_augmented_label_matrix-194
+snorkel.labeling.model.label_model.LabelModel.c_data
+            self.c_data[i] = _CliqueData(
+{'builtins.dict', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_get_augmented_label_matrix-215
+snorkel.labeling.model.label_model.LabelModel.c_tree
+                    C = self.c_tree.nodes[item]
+{'networkx.classes.graph.Graph', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_get_augmented_label_matrix-200
+snorkel.labeling.model.label_model.LabelModel.c_tree
+                        for j in self.c_tree.nodes()
+{'networkx.classes.graph.Graph', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_get_augmented_label_matrix-213
+snorkel.labeling.model.label_model.LabelModel.c_tree
+            for item in chain(self.c_tree.nodes(), self.c_tree.edges()):
+{'networkx.classes.graph.Graph', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-<listcomp>-201
+snorkel.labeling.model.label_model.LabelModel.c_tree
+                        if i in self.c_tree.nodes[j]["members"]
+{'networkx.classes.graph.Graph', 'missing'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_augmented_L_construction-201
+snorkel.labeling.model.label_model.LabelModel.c_tree
+            node = lm.c_tree.nodes[i]
+{'networkx.classes.graph.Graph', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-fit-942
+snorkel.labeling.model.label_model.LabelModel.optimizer
+            self.optimizer.zero_grad()
+{'missing', 'torch.optim.adam.Adam', 'torch.optim.sgd.SGD', 'torch.optim.adamax.Adamax'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-fit-955
+snorkel.labeling.model.label_model.LabelModel.optimizer
+            self.optimizer.step()
+{'missing', 'torch.optim.adam.Adam', 'torch.optim.sgd.SGD', 'torch.optim.adamax.Adamax'}

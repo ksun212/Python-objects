@@ -1,0 +1,3 @@
+ /home/user/purepython/cpython-3.9/Lib/http/cookiejar.py-make_cookies-1602
+ /home/user/purepython/cpython-3.9/Lib/http/cookiejar.py-add_cookie_header-1363
+ /home/user/requests_tests/tests/test_requests.py-_patch_adapter_gzipped_redirect-1980

@@ -1,0 +1,31 @@
+black_blib2to3.pgen2.parse.Parser.rootnode
+{'black_blib2to3.pytree.Node', 'black_blib2to3.pytree.Leaf'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black_blib2to3/pgen2/parse.py-pop-393
+                self.rootnode.used_names = self.used_names
+black.lines.EmptyLineTracker.previous_line
+{'builtins.NoneType', 'black.lines.Line'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py-_maybe_empty_lines_for_class_or_def-626
+            and self.previous_line.depth == current_line.depth
+black.lines.EmptyLineTracker.previous_line
+{'black.lines.Line'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py-maybe_empty_lines-517
+                not self.previous_line.is_decorator
+black.lines.EmptyLineTracker.previous_line
+{'black.lines.Line'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py-maybe_empty_lines-519
+                and (not self.previous_line.is_comment or before)
+black.lines.EmptyLineTracker.previous_line
+{'builtins.NoneType', 'black.lines.Line'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py-_maybe_empty_lines_for_class_or_def-625
+            self.previous_line.is_comment
+black.lines.EmptyLineTracker.previous_line
+{'builtins.NoneType', 'black.lines.Line'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py-_maybe_empty_lines_for_class_or_def-611
+        if self.previous_line.is_decorator:
+black.lines.EmptyLineTracker.previous_line
+{'builtins.NoneType', 'black.lines.Line'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/black/lines.py-_maybe_empty_lines_for_class_or_def-618
+        if self.previous_line.depth < current_line.depth and (
+
+check: 2
+safe: 2

@@ -1,0 +1,36 @@
+// s: a|b
+// a: "1"|"1"a|"1"e|"0"a a
+// b: "0"|"0"b|"0"e|"0"b b
+// s: e s| s e| "1" | "0"
+// e: ("1"e"0"e|"0"e"1"e)?
+// s: n e| m e
+// n: "0"n"0"|"0"n"1"|"1"n"0"|"1"n"1"|"1" e
+// m: "0"m"0"|"0"m"1"|"1"m"0"|"1"m"1"|"0" e
+// e: ("0"e| e"1")?
+
+// s: (a s)?
+// a: "0" b
+// b: ("1" b)?
+
+// s: a| b
+// a: "0" aa| aa "0"
+// aa: "0" aa| aa "0" | e
+// b: "0" bb| bb "0"
+// bb: "0" bb| bb "0" | e
+
+
+// a: "0"a|"0"
+// b: "1"b|"1"
+// e: ("1"e"0"e|"0"e"1"e)?
+// s: a e|e a|a e a|b e|e b| b e b
+// s: ("0"s"1" | "1"s"0"|"01"|"10")?
+s: "1"s|s a|a
+a: ("0"a|"1")?
+DIGIT: "0".."9"
+LCASE_LETTER: "a".."z"
+UCASE_LETTER: "A".."Z"
+
+LETTER: UCASE_LETTER | LCASE_LETTER | "." | "[" | "]"
+WORD: LETTER+
+
+CNAME: ("_"|LETTER) ("_"|"/"|"-"|LETTER|DIGIT)*

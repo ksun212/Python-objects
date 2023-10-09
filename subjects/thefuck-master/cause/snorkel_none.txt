@@ -1,0 +1,484 @@
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_set_lr_scheduler-349
+snorkel.classification.training.trainer.Trainer.n_batches_per_epoch
+            total_steps = self.n_batches_per_epoch * self.config.n_epochs
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_set_warmup_scheduler-378
+snorkel.classification.training.trainer.Trainer.n_batches_per_epoch
+                self.warmup_steps = int(warmup_steps * self.n_batches_per_epoch)
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_set_warmup_scheduler-393
+snorkel.classification.training.trainer.Trainer.n_batches_per_epoch
+                warmup_percentage * self.config.n_epochs * self.n_batches_per_epoch
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-fit-197
+snorkel.classification.training.trainer.Trainer.n_batches_per_epoch
+                total_batch_num = epoch_num * self.n_batches_per_epoch + batch_num
+{'missing', 'builtins.int'}
+ /home/user/snorkel/test/classification/training/test_trainer.py-test_log_writer_json-161
+snorkel.classification.training.trainer.Trainer.log_writer
+            log_path = os.path.join(trainer.log_writer.log_dir, run_name)
+{'snorkel.classification.training.loggers.log_writer.LogWriter', 'missing', 'builtins.NoneType', 'snorkel.classification.training.loggers.tensorboard_writer.TensorBoardWriter'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_log_metrics-471
+snorkel.classification.training.trainer.Trainer.log_writer
+                self.log_writer.add_scalar(
+{'snorkel.classification.training.loggers.log_writer.LogWriter', 'missing', 'snorkel.classification.training.loggers.tensorboard_writer.TensorBoardWriter'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_checkpoint_model-480
+snorkel.classification.training.trainer.Trainer.checkpointer
+            self.checkpointer.checkpoint(
+{'missing', 'snorkel.classification.training.loggers.checkpointer.Checkpointer'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_log_metrics-472
+snorkel.classification.training.trainer.Trainer.log_manager
+                    metric_name, metric_value, self.log_manager.point_total
+{'snorkel.classification.training.loggers.log_manager.LogManager', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_checkpoint_model-481
+snorkel.classification.training.trainer.Trainer.log_manager
+                self.log_manager.unit_total, model, metric_dict
+{'snorkel.classification.training.loggers.log_manager.LogManager', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_logging-443
+snorkel.classification.training.trainer.Trainer.log_manager
+        self.log_manager.update(batch_size)
+{'snorkel.classification.training.loggers.log_manager.LogManager', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_logging-450
+snorkel.classification.training.trainer.Trainer.log_manager
+        if self.log_manager.trigger_evaluation():
+{'snorkel.classification.training.loggers.log_manager.LogManager', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_logging-460
+snorkel.classification.training.trainer.Trainer.log_manager
+        if self.log_manager.trigger_checkpointing():
+{'snorkel.classification.training.loggers.log_manager.LogManager', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-fit-248
+snorkel.classification.training.trainer.Trainer.log_manager
+        model = self.log_manager.cleanup(model)
+{'snorkel.classification.training.loggers.log_manager.LogManager', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_aggregate_losses-505
+snorkel.classification.training.trainer.Trainer.optimizer
+        metric_dict["model/all/train/lr"] = self.optimizer.param_groups[0]["lr"]
+{'missing', 'torch.optim.adamax.Adamax', 'torch.optim.sgd.SGD', 'torch.optim.adam.Adam'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-fit-238
+snorkel.classification.training.trainer.Trainer.optimizer
+                self.optimizer.step()
+{'missing', 'torch.optim.adamax.Adamax', 'torch.optim.sgd.SGD', 'torch.optim.adam.Adam'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-save-531
+snorkel.classification.training.trainer.Trainer.optimizer
+                    "optimizer_state_dict": self.optimizer.state_dict(),
+{'missing', 'torch.optim.adamax.Adamax', 'torch.optim.sgd.SGD', 'torch.optim.adam.Adam'}
+ /home/user/snorkel/test/classification/training/test_trainer.py-test_save_load-235
+snorkel.classification.training.trainer.Trainer.optimizer
+            trainer1.optimizer.state_dict(), trainer2.optimizer.state_dict()
+{'missing', 'torch.optim.adamax.Adamax', 'torch.optim.sgd.SGD', 'torch.optim.adam.Adam'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-fit-201
+snorkel.classification.training.trainer.Trainer.optimizer
+                self.optimizer.zero_grad()
+{'missing', 'torch.optim.adamax.Adamax', 'torch.optim.sgd.SGD', 'torch.optim.adam.Adam'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-load-579
+snorkel.classification.training.trainer.Trainer.optimizer
+                self.optimizer.load_state_dict(saved_state["optimizer_state_dict"])
+{'missing', 'torch.optim.adamax.Adamax', 'torch.optim.sgd.SGD', 'torch.optim.adam.Adam'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-<lambda>-385
+snorkel.classification.training.trainer.Trainer.warmup_steps
+            linear_warmup_func = lambda x: x / self.warmup_steps
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_update_lr_scheduler-407
+snorkel.classification.training.trainer.Trainer.warmup_steps
+        if self.warmup_scheduler and step < self.warmup_steps:
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-<lambda>-395
+snorkel.classification.training.trainer.Trainer.warmup_steps
+            linear_warmup_func = lambda x: x / self.warmup_steps
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-<lambda>-351
+snorkel.classification.training.trainer.Trainer.warmup_steps
+                total_steps - self.warmup_steps
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-<lambda>-350
+snorkel.classification.training.trainer.Trainer.warmup_steps
+            linear_decay_func = lambda x: (total_steps - self.warmup_steps - x) / (
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_update_lr_scheduler-408
+snorkel.classification.training.trainer.Trainer.warmup_scheduler
+            self.warmup_scheduler.step()  # type: ignore
+{'missing', 'torch.optim.lr_scheduler.LambdaLR'}
+ /home/user/snorkel/test/classification/training/test_trainer.py-test_scheduler_init-194
+snorkel.classification.training.trainer.Trainer.lr_scheduler
+        self.assertIsInstance(trainer.lr_scheduler, optim.lr_scheduler.ExponentialLR)
+{'torch.optim.lr_scheduler.ExponentialLR', 'torch.optim.lr_scheduler.LambdaLR', 'missing', 'torch.optim.lr_scheduler.StepLR', 'builtins.NoneType'}
+ /home/user/snorkel/test/classification/training/test_trainer.py-test_scheduler_init-198
+snorkel.classification.training.trainer.Trainer.lr_scheduler
+        self.assertIsInstance(trainer.lr_scheduler, optim.lr_scheduler.StepLR)
+{'torch.optim.lr_scheduler.ExponentialLR', 'torch.optim.lr_scheduler.LambdaLR', 'missing', 'torch.optim.lr_scheduler.StepLR', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_update_lr_scheduler-410
+snorkel.classification.training.trainer.Trainer.lr_scheduler
+            self.lr_scheduler.step()  # type: ignore
+{'torch.optim.lr_scheduler.ExponentialLR', 'missing', 'torch.optim.lr_scheduler.LambdaLR', 'torch.optim.lr_scheduler.StepLR'}
+ /home/user/snorkel/test/classification/training/test_trainer.py-test_scheduler_init-190
+snorkel.classification.training.trainer.Trainer.lr_scheduler
+        self.assertIsInstance(trainer.lr_scheduler, optim.lr_scheduler.LambdaLR)
+{'torch.optim.lr_scheduler.ExponentialLR', 'torch.optim.lr_scheduler.LambdaLR', 'missing', 'torch.optim.lr_scheduler.StepLR', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-fit-189
+snorkel.classification.training.trainer.Trainer.batch_scheduler
+                enumerate(self.batch_scheduler.get_batches(train_dataloaders)),
+{'missing', 'snorkel.classification.training.schedulers.shuffled_scheduler.ShuffledScheduler'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-fit-244
+snorkel.classification.training.trainer.Trainer.metrics
+                self.metrics.update(self._logging(model, dataloaders, batch_size))
+{'builtins.dict', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_aggregate_losses-492
+snorkel.classification.training.trainer.Trainer.running_losses
+        for identifier in self.running_losses.keys():
+{'missing', 'collections.collections.defaultdict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_aggregate_losses-499
+snorkel.classification.training.trainer.Trainer.running_losses
+        total_loss = sum(self.running_losses.values())
+{'missing', 'collections.collections.defaultdict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-fit-216
+snorkel.classification.training.trainer.Trainer.running_losses
+                    self.running_losses[identifier] += (
+{'missing', 'collections.collections.defaultdict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_aggregate_losses-500
+snorkel.classification.training.trainer.Trainer.running_counts
+        total_count = sum(self.running_counts.values())
+{'missing', 'collections.collections.defaultdict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-_aggregate_losses-493
+snorkel.classification.training.trainer.Trainer.running_counts
+            if self.running_counts[identifier] > 0:
+{'missing', 'collections.collections.defaultdict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/classification/training/trainer.py-fit-219
+snorkel.classification.training.trainer.Trainer.running_counts
+                    self.running_counts[task_name] += count_dict[task_name]
+{'missing', 'collections.collections.defaultdict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_lr_scheduler-675
+snorkel.labeling.model.label_model.LabelModel.train_config
+            total_steps = self.train_config.n_epochs
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_warmup_scheduler-698
+snorkel.labeling.model.label_model.LabelModel.train_config
+        if self.train_config.lr_scheduler_config.warmup_steps:
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_warmup_scheduler-702
+snorkel.labeling.model.label_model.LabelModel.train_config
+            warmup_unit = self.train_config.lr_scheduler_config.warmup_unit
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_init_params-283
+snorkel.labeling.model.label_model.LabelModel.train_config
+            self._prec_init = self.train_config.prec_init * torch.ones(self.m)
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_lr_scheduler-668
+snorkel.labeling.model.label_model.LabelModel.train_config
+        lr_scheduler_name = self.train_config.lr_scheduler
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_optimizer-648
+snorkel.labeling.model.label_model.LabelModel.train_config
+                weight_decay=self.train_config.l2,
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_optimizer-633
+snorkel.labeling.model.label_model.LabelModel.train_config
+        optimizer_config = self.train_config.optimizer_config
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_optimizer-647
+snorkel.labeling.model.label_model.LabelModel.train_config
+                lr=self.train_config.lr,
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_optimizer-640
+snorkel.labeling.model.label_model.LabelModel.train_config
+                lr=self.train_config.lr,
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_warmup_scheduler-699
+snorkel.labeling.model.label_model.LabelModel.train_config
+            warmup_steps = self.train_config.lr_scheduler_config.warmup_steps
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_optimizer-634
+snorkel.labeling.model.label_model.LabelModel.train_config
+        optimizer_name = self.train_config.optimizer
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-fit-885
+snorkel.labeling.model.label_model.LabelModel.train_config
+        np.random.seed(self.train_config.seed)
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_update_lr_scheduler-738
+snorkel.labeling.model.label_model.LabelModel.train_config
+            min_lr = self.train_config.lr_scheduler_config.min_lr
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_warmup_scheduler-719
+snorkel.labeling.model.label_model.LabelModel.train_config
+            self.warmup_steps = int(warmup_percentage * self.train_config.n_epochs)
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_init_params-282
+snorkel.labeling.model.label_model.LabelModel.train_config
+        if isinstance(self.train_config.prec_init, (int, float)):
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-fit-933
+snorkel.labeling.model.label_model.LabelModel.train_config
+            epochs = trange(start_iteration, self.train_config.n_epochs, unit="epoch")
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_warmup_scheduler-718
+snorkel.labeling.model.label_model.LabelModel.train_config
+            warmup_percentage = self.train_config.lr_scheduler_config.warmup_percentage
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-fit-935
+snorkel.labeling.model.label_model.LabelModel.train_config
+            epochs = range(start_iteration, self.train_config.n_epochs)
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_warmup_scheduler-717
+snorkel.labeling.model.label_model.LabelModel.train_config
+        elif self.train_config.lr_scheduler_config.warmup_percentage:
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-fit-945
+snorkel.labeling.model.label_model.LabelModel.train_config
+            loss = self._loss_mu(l2=self.train_config.l2)
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_optimizer-654
+snorkel.labeling.model.label_model.LabelModel.train_config
+                lr=self.train_config.lr,
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_optimizer-655
+snorkel.labeling.model.label_model.LabelModel.train_config
+                weight_decay=self.train_config.l2,
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_optimizer-641
+snorkel.labeling.model.label_model.LabelModel.train_config
+                weight_decay=self.train_config.l2,
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-fit-886
+snorkel.labeling.model.label_model.LabelModel.train_config
+        torch.manual_seed(self.train_config.seed)
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-fit-884
+snorkel.labeling.model.label_model.LabelModel.train_config
+        random.seed(self.train_config.seed)
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_clamp_params-758
+snorkel.labeling.model.label_model.LabelModel.train_config
+            mu_eps = self.train_config.mu_eps
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_logger-626
+snorkel.labeling.model.label_model.LabelModel.train_config
+        self.logger = Logger(self.train_config.log_freq)
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_clamp_params-757
+snorkel.labeling.model.label_model.LabelModel.train_config
+        if self.train_config.mu_eps is not None:
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_lr_scheduler-669
+snorkel.labeling.model.label_model.LabelModel.train_config
+        lr_scheduler_config = self.train_config.lr_scheduler_config
+{'snorkel.labeling.model.label_model.TrainConfig', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_execute_logging-616
+snorkel.labeling.model.label_model.LabelModel.logger
+                self.logger.log(metrics_dict)
+{'missing', 'snorkel.labeling.model.logger.Logger'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_execute_logging-614
+snorkel.labeling.model.label_model.LabelModel.logger
+        if self.logger.check():
+{'missing', 'snorkel.labeling.model.logger.Logger'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_generate_O-257
+snorkel.labeling.model.label_model.LabelModel.n
+            torch.from_numpy(L_aug.T @ L_aug / self.n).float().to(self.config.device)
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_break_col_permutation_symmetry-785
+snorkel.labeling.model.label_model.LabelModel.m
+        probs_sum = sum([mu[i : i + k] for i in range(0, self.m * k, k)]) @ P
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_create_L_ind-161
+snorkel.labeling.model.label_model.LabelModel.m
+        L_ind = np.zeros((self.n, self.m * self.cardinality))
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_constants-596
+snorkel.labeling.model.label_model.LabelModel.m
+        if self.m < 3:
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_init_params-304
+snorkel.labeling.model.label_model.LabelModel.p
+                mu_init = torch.clamp(lps[idx] * self._prec_init[i] / self.p[y], 0, 1)
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_class_balance-575
+snorkel.labeling.model.label_model.LabelModel.p
+                    f"class_balance has {len(self.p)} entries. Does not match LabelModel cardinality {self.cardinality}."
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_class_balance-581
+snorkel.labeling.model.label_model.LabelModel.p
+            if len(self.p) != self.cardinality:
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_class_balance-573
+snorkel.labeling.model.label_model.LabelModel.p
+            if len(self.p) != self.cardinality:
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_set_class_balance-583
+snorkel.labeling.model.label_model.LabelModel.p
+                    f"Y_dev has {len(self.p)} class(es). Does not match LabelModel cardinality {self.cardinality}."
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-get_weights-386
+snorkel.labeling.model.label_model.LabelModel.P
+            accs[i] = np.diag(cprobs[i, 1:, :] @ self.P.cpu().detach().numpy()).sum()
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_break_col_permutation_symmetry-781
+snorkel.labeling.model.label_model.LabelModel.P
+        P = self.P.cpu().detach().numpy()
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-<listcomp>-201
+snorkel.labeling.model.label_model.LabelModel.c_tree
+                        if i in self.c_tree.nodes[j]["members"]
+{'networkx.classes.graph.Graph', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_get_augmented_label_matrix-215
+snorkel.labeling.model.label_model.LabelModel.c_tree
+                    C = self.c_tree.nodes[item]
+{'networkx.classes.graph.Graph', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_get_augmented_label_matrix-213
+snorkel.labeling.model.label_model.LabelModel.c_tree
+            for item in chain(self.c_tree.nodes(), self.c_tree.edges()):
+{'networkx.classes.graph.Graph', 'missing'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_augmented_L_construction-201
+snorkel.labeling.model.label_model.LabelModel.c_tree
+            node = lm.c_tree.nodes[i]
+{'networkx.classes.graph.Graph', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_get_augmented_label_matrix-200
+snorkel.labeling.model.label_model.LabelModel.c_tree
+                        for j in self.c_tree.nodes()
+{'networkx.classes.graph.Graph', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-get_weights-387
+snorkel.labeling.model.label_model.LabelModel.coverage
+        return np.clip(accs / self.coverage, 1e-6, 1.0)
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_build_mask-235
+snorkel.labeling.model.label_model.LabelModel.c_data
+            for cj in self.c_data.values():
+{'builtins.dict', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_get_augmented_label_matrix-194
+snorkel.labeling.model.label_model.LabelModel.c_data
+            self.c_data[i] = _CliqueData(
+{'builtins.dict', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_build_mask-232
+snorkel.labeling.model.label_model.LabelModel.c_data
+        for ci in self.c_data.values():
+{'builtins.dict', 'missing'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_generate_O-148
+snorkel.labeling.model.label_model.LabelModel.O
+            label_model.O.cpu().detach().numpy(), true_O
+{'missing', 'torch.Tensor'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_generate_O-164
+snorkel.labeling.model.label_model.LabelModel.O
+            label_model.O.cpu().detach().numpy(), true_O
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_loss_mu-555
+snorkel.labeling.model.label_model.LabelModel.O
+        loss_1 = torch.norm((self.O - self.mu @ self.P @ self.mu.t())[self.mask]) ** 2
+{'missing', 'torch.Tensor'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_generate_O-171
+snorkel.labeling.model.label_model.LabelModel.O
+            label_model.O.cpu().detach().numpy(), true_O
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_init_params-292
+snorkel.labeling.model.label_model.LabelModel._prec_init
+        if self._prec_init.shape[0] != self.m:
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_init_params-304
+snorkel.labeling.model.label_model.LabelModel._prec_init
+                mu_init = torch.clamp(lps[idx] * self._prec_init[i] / self.p[y], 0, 1)
+{'missing', 'torch.Tensor'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_predict_proba-288
+snorkel.labeling.model.label_model.LabelModel.mu_init
+        label_model.mu = nn.Parameter(label_model.mu_init.clone().clamp(0.01, 0.99))
+{'missing', 'torch.Tensor'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_predict-307
+snorkel.labeling.model.label_model.LabelModel.mu_init
+        label_model.mu = nn.Parameter(label_model.mu_init.clone().clamp(0.01, 0.99))
+{'missing', 'torch.Tensor'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_init_params-278
+snorkel.labeling.model.label_model.LabelModel.mu_init
+        mu_init = label_model.mu_init.numpy()
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_loss_l2-539
+snorkel.labeling.model.label_model.LabelModel.mu_init
+        return torch.norm(D @ (self.mu - self.mu_init)) ** 2
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_init_params-309
+snorkel.labeling.model.label_model.LabelModel.mu_init
+            self.mu_init.clone() * np.random.random()
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_init_params-305
+snorkel.labeling.model.label_model.LabelModel.mu_init
+                self.mu_init[idx, y] += mu_init
+{'missing', 'torch.Tensor'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_init_params-266
+snorkel.labeling.model.label_model.LabelModel.mu_init
+        mu_init = label_model.mu_init.numpy()
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-fit-917
+snorkel.labeling.model.label_model.LabelModel.mu_init
+        self.mu_init = self.mu_init.to(self.config.device)
+{'missing', 'torch.Tensor'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_loss-359
+snorkel.labeling.model.label_model.LabelModel.mu_init
+        label_model.mu = nn.Parameter(label_model.mu_init.clone() + 0.05)
+{'missing', 'torch.Tensor'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_score-332
+snorkel.labeling.model.label_model.LabelModel.mu_init
+        label_model.mu = nn.Parameter(label_model.mu_init.clone().clamp(0.01, 0.99))
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_build_mask-242
+snorkel.labeling.model.label_model.LabelModel.mask
+                    self.mask[sj:ej, si:ei] = 0
+{'missing', 'torch.Tensor'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_build_mask-256
+snorkel.labeling.model.label_model.LabelModel.mask
+        mask = label_model.mask.numpy()
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_build_mask-241
+snorkel.labeling.model.label_model.LabelModel.mask
+                    self.mask[si:ei, sj:ej] = 0
+{'missing', 'torch.Tensor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-fit-942
+snorkel.labeling.model.label_model.LabelModel.optimizer
+            self.optimizer.zero_grad()
+{'missing', 'torch.optim.adamax.Adamax', 'torch.optim.sgd.SGD', 'torch.optim.adam.Adam'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-fit-955
+snorkel.labeling.model.label_model.LabelModel.optimizer
+            self.optimizer.step()
+{'missing', 'torch.optim.adamax.Adamax', 'torch.optim.sgd.SGD', 'torch.optim.adam.Adam'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-<lambda>-677
+snorkel.labeling.model.label_model.LabelModel.warmup_steps
+                total_steps - self.warmup_steps
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-<lambda>-710
+snorkel.labeling.model.label_model.LabelModel.warmup_steps
+            linear_warmup_func = lambda x: x / self.warmup_steps
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_update_lr_scheduler-734
+snorkel.labeling.model.label_model.LabelModel.warmup_steps
+        if self.warmup_scheduler and step < self.warmup_steps:
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-<lambda>-720
+snorkel.labeling.model.label_model.LabelModel.warmup_steps
+            linear_warmup_func = lambda x: x / self.warmup_steps
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-<lambda>-676
+snorkel.labeling.model.label_model.LabelModel.warmup_steps
+            linear_decay_func = lambda x: (total_steps - self.warmup_steps - x) / (
+{'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_update_lr_scheduler-735
+snorkel.labeling.model.label_model.LabelModel.warmup_scheduler
+            self.warmup_scheduler.step()  # type: ignore
+{'missing', 'torch.optim.lr_scheduler.LambdaLR'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_update_lr_scheduler-737
+snorkel.labeling.model.label_model.LabelModel.lr_scheduler
+            self.lr_scheduler.step()  # type: ignore
+{'torch.optim.lr_scheduler.ExponentialLR', 'missing', 'torch.optim.lr_scheduler.LambdaLR', 'torch.optim.lr_scheduler.StepLR'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_scheduler_init-452
+snorkel.labeling.model.label_model.LabelModel.lr_scheduler
+        self.assertIsInstance(label_model.lr_scheduler, optim.lr_scheduler.StepLR)
+{'torch.optim.lr_scheduler.ExponentialLR', 'torch.optim.lr_scheduler.LambdaLR', 'missing', 'torch.optim.lr_scheduler.StepLR', 'builtins.NoneType'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_scheduler_init-448
+snorkel.labeling.model.label_model.LabelModel.lr_scheduler
+            label_model.lr_scheduler, optim.lr_scheduler.ExponentialLR
+{'torch.optim.lr_scheduler.ExponentialLR', 'torch.optim.lr_scheduler.LambdaLR', 'missing', 'torch.optim.lr_scheduler.StepLR', 'builtins.NoneType'}
+ /home/user/snorkel/test/labeling/model/test_label_model.py-test_scheduler_init-444
+snorkel.labeling.model.label_model.LabelModel.lr_scheduler
+        self.assertIsInstance(label_model.lr_scheduler, optim.lr_scheduler.LambdaLR)
+{'torch.optim.lr_scheduler.ExponentialLR', 'torch.optim.lr_scheduler.LambdaLR', 'missing', 'torch.optim.lr_scheduler.StepLR', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_execute_logging-612
+snorkel.labeling.model.label_model.LabelModel.running_loss
+        metrics_dict = {"train/loss": self.running_loss / self.running_examples}
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/snorkel/labeling/model/label_model.py-_execute_logging-612
+snorkel.labeling.model.label_model.LabelModel.running_examples
+        metrics_dict = {"train/loss": self.running_loss / self.running_examples}
+{'missing', 'builtins.int'}

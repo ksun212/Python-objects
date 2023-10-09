@@ -1,0 +1,34 @@
+mypy.errors.Errors.scope
+{'mypy.scope.Scope', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/errors.py-report-392
+            type = self.scope.current_type_name()
+mypy.errors.Errors.scope
+{'mypy.scope.Scope', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/errors.py-report-395
+            function = self.scope.current_function_name()
+mypy.errors.Errors.scope
+{'mypy.scope.Scope', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/errors.py-current_target-344
+            return self.scope.current_target()
+mypy.errors.Errors.scope
+{'mypy.scope.Scope', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/errors.py-report-393
+            if self.scope.ignored > 0:
+mypy.tvar_scope.TypeVarLikeScope.parent
+{'mypy.tvar_scope.TypeVarLikeScope'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/tvar_scope.py-get_binding-136
+            return self.parent.get_binding(fullname)
+mypy.scope.Scope.function
+{'mypy.nodes.OverloadedFuncDef', 'mypy.nodes.FuncDef', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/scope.py-current_target-35
+            fullname = self.function.fullname
+mypy.build.State._type_checker
+{'mypy.checker.TypeChecker', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/build.py-free_state-2417
+            self._type_checker.reset()
+mypy.errors.ErrorWatcher._filtered
+{'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/errors.py-on_error-182
+            self._filtered.append(info)
+check: 5
+safe: 5

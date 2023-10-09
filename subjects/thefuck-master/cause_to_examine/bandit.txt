@@ -1,0 +1,4 @@
+bandit.core.metrics.Metrics.current
+{'missing', 'builtins.dict'}
+ /home/user/bandit/bandit/core/metrics.py-count_locs-75
+        self.current["loc"] += sum(proc(line) for line in lines)

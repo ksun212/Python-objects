@@ -1,0 +1,3 @@
+ /home/user/pyecharts/pyecharts/charts/composite_charts/page.py-_prepare_render-89 || add_after_necessary
+ /home/user/pyecharts/tests/test_page.py-test_page_jshost_custom-60 || overloading
+ /home/user/pyecharts/pyecharts/render/engine.py-generate_js_link-43 || add_after_computation

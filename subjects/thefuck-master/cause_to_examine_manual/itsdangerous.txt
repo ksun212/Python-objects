@@ -1,0 +1,19 @@
+itsdangerous.signer.Signer.algorithm
+{'test_itsdangerous.test_signer._ReverseAlgorithm', 'itsdangerous.signer.NoneAlgorithm', 'itsdangerous.signer.HMACAlgorithm'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/itsdangerous/signer.py-verify_signature-230
+            if self.algorithm.verify_signature(key, value, sig):
+itsdangerous.signer.Signer.algorithm
+{'test_itsdangerous.test_signer._ReverseAlgorithm', 'itsdangerous.signer.NoneAlgorithm', 'itsdangerous.signer.HMACAlgorithm'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/itsdangerous/signer.py-get_signature-210
+        sig = self.algorithm.get_signature(key, value)
+itsdangerous.timed.TimestampSigner.algorithm
+{'test_itsdangerous.test_signer._ReverseAlgorithm', 'itsdangerous.signer.NoneAlgorithm', 'itsdangerous.signer.HMACAlgorithm'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/itsdangerous/signer.py-verify_signature-230
+            if self.algorithm.verify_signature(key, value, sig):
+itsdangerous.timed.TimestampSigner.algorithm
+{'test_itsdangerous.test_signer._ReverseAlgorithm', 'itsdangerous.signer.NoneAlgorithm', 'itsdangerous.signer.HMACAlgorithm'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/itsdangerous/signer.py-get_signature-210
+        sig = self.algorithm.get_signature(key, value)
+
+check: 1
+safe: 1

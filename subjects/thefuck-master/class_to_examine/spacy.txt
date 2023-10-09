@@ -1,0 +1,9 @@
+spacy.lookups.Lookups
+spacy.training.alignment.Alignment
+spacy.lang.xx.MultiLanguage
+spacy.lang.bn.Bengali
+spacy.lang.el.Greek
+spacy.lang.fr.French
+spacy.lang.hu.Hungarian
+spacy.lang.pl.Polish
+spacy.lang.de.German

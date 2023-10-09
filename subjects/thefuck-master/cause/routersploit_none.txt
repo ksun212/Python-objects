@@ -1,0 +1,24 @@
+ /home/user/routersploit/routersploit/core/telnet/telnet_client.py-read_until-113
+routersploit.core.telnet.telnet_client.TelnetCli.telnet_client
+            response = self.telnet_client.read_until(data, 5)
+{'builtins.NoneType', 'telnetlib.Telnet'}
+ /home/user/routersploit/routersploit/modules/exploits/generic/heartbleed.py-establish_connect-199
+routersploit.modules.exploits.generic.heartbleed.Exploit.tcp_client
+        self.tcp_client.connect()
+{'routersploit.core.tcp.tcp_client.TCPCli', 'builtins.NoneType'}
+ /home/user/routersploit/routersploit/modules/exploits/generic/heartbleed.py-get_ssl_record-311
+routersploit.modules.exploits.generic.heartbleed.Exploit.tcp_client
+            data = self.tcp_client.recv_all(length)
+{'routersploit.core.tcp.tcp_client.TCPCli', 'builtins.NoneType'}
+ /home/user/routersploit/routersploit/modules/exploits/generic/heartbleed.py-get_ssl_record-307
+routersploit.modules.exploits.generic.heartbleed.Exploit.tcp_client
+        hdr = self.tcp_client.recv_all(self.SSL_RECORD_HEADER_SIZE)
+{'routersploit.core.tcp.tcp_client.TCPCli', 'builtins.NoneType'}
+ /home/user/routersploit/routersploit/modules/exploits/generic/heartbleed.py-establish_connect-203
+routersploit.modules.exploits.generic.heartbleed.Exploit.tcp_client
+        self.tcp_client.send(data)
+{'routersploit.core.tcp.tcp_client.TCPCli', 'builtins.NoneType'}
+ /home/user/routersploit/routersploit/modules/exploits/routers/mikrotik/routeros_jailbreak.py-check-54
+routersploit.modules.exploits.routers.mikrotik.routeros_jailbreak.Exploit.ssh_client
+        if self.ssh_client.login(self.username, self.password):
+{'builtins.NoneType', 'routersploit.core.ssh.ssh_client.SSHCli'}

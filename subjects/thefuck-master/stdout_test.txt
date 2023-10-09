@@ -1,0 +1,505 @@
+_pytest.config.ExitCode
+builtins.int
+logging.PercentStyle
+_pytest.logging.PercentStyleMultiline
+logging.PercentStyle
+_pytest.logging.PercentStyleMultiline
+_pytest.fixtures.FixtureRequest
+builtins.bool
+_pytest.main.Session._initial_parts
+_pytest.config.compat.PathAwareHookProxy.pytest_cmdline_preparse
+_pytest.config.compat.PathAwareHookProxy.pytest_runtest_setup
+unittest.mock._patch.target
+_pytest.config.Config._inipath
+flaky.flaky_pytest_plugin.FlakyPlugin.runner
+_pytest.terminal.TerminalReporter._sessionstarttime
+_pytest.config.compat.PathAwareHookProxy.pytest_runtest_logfinish
+_pytest.config.compat.PathAwareHookProxy.pytest_runtest_logreport
+_pytest.config.Config._tmp_path_factory
+_pytest.config.compat.PathAwareHookProxy.pytest_assertion_pass
+_pytest.config.compat.PathAwareHookProxy.pytest_load_initial_conftests
+_pytest.config.compat.PathAwareHookProxy.pytest_fixture_setup
+_pytest.config.Config.args_source
+_pytest.config.compat.PathAwareHookProxy.pytest_report_header
+flaky.flaky_pytest_plugin.FlakyPlugin.max_runs
+flaky.flaky_pytest_plugin.FlakyPlugin.force_flaky
+_pytest.config.compat.PathAwareHookProxy.pytest_fixture_post_finalizer
+_pytest.config.compat.PathAwareHookProxy.pytest_sessionstart
+unittest.mock._patch.is_local
+_pytest.config.compat.PathAwareHookProxy.pytest_collectstart
+_pytest.config.compat.PathAwareHookProxy.pytest_make_collect_report
+unittest.mock._patch.temp_original
+_pytest.config.Config.cache
+_pytest.config.Config.known_args_namespace
+_pytest.config.compat.PathAwareHookProxy.pytest_addhooks
+_pytest.reports.CollectReport.call
+_pytest.main.Session.items
+_pytest.config.compat.PathAwareHookProxy.pytest_addoption
+_pytest.config.compat.PathAwareHookProxy.pytest_report_teststatus
+_pytest.config.compat.PathAwareHookProxy.pytest_sessionfinish
+_pytest.config.compat.PathAwareHookProxy.pytest_collection_modifyitems
+_pytest.config.compat.PathAwareHookProxy.pytest_runtest_makereport
+_pytest.config.compat.PathAwareHookProxy.pytest_configure
+_pytest.config.compat.PathAwareHookProxy.pytest_pycollect_makemodule
+_pytest.config.compat.PathAwareHookProxy.pytest_generate_tests
+_pytest.reports.TestReport.extra
+_pytest.config.compat.PathAwareHookProxy.pytest_runtestloop
+_pytest.config.PytestPluginManager._using_pyargs
+_pytest.config.argparsing.Parser.after_preparse
+_pytest.config.argparsing.Parser.optparser
+unittest.mock._patch._exit_stack
+_pytest.config.compat.PathAwareHookProxy.pytest_pycollect_makeitem
+_pytest.config.compat.PathAwareHookProxy.pytest_runtest_logstart
+_pytest.python.Function.location
+_pytest.config.compat.PathAwareHookProxy.pytest_ignore_collect
+_pytest.config.compat.PathAwareHookProxy.pytest_collect_file
+_pytest.terminal.MoreQuietAction.container
+_pytest.config.compat.PathAwareHookProxy.pytest_runtest_protocol
+_pytest.config.compat.PathAwareHookProxy.pytest_runtest_teardown
+flaky.flaky_pytest_plugin.FlakyPlugin.flaky_report
+_pytest.config.compat.PathAwareHookProxy.pytest_cmdline_main
+_pytest.config.compat.PathAwareHookProxy.pytest_unconfigure
+flaky.flaky_pytest_plugin.FlakyPlugin.min_passes
+flaky.flaky_pytest_plugin.FlakyPlugin.config
+_pytest.config.compat.PathAwareHookProxy.pytest_collection
+_pytest.config.Config._rootpath
+_pytest.python.Module._obj
+_pytest.config.compat.PathAwareHookProxy.pytest_collection_finish
+_pytest.config.compat.PathAwareHookProxy.pytest_pyfunc_call
+_pytest.config.compat.PathAwareHookProxy.pytest_report_collectionfinish
+_pytest.main.Session._fixturemanager
+pytest_cov.plugin.StoreReport.container
+_pytest.main.Session._setupstate
+_pytest.config.compat.PathAwareHookProxy.pytest_terminal_summary
+_pytest.terminal.TerminalReporter._tests_ran
+_pytest.main.Session._notfound
+_pytest.capture.MultiCapture._state
+_pytest.config.Config._tmpdirhandler
+_pytest.helpconfig.HelpAction.container
+_pytest.config.compat.PathAwareHookProxy.pytest_itemcollected
+_pytest.config.Config.inicfg
+_pytest.main.Session.exitstatus
+_pytest.config.Config.args
+_pytest.config.compat.PathAwareHookProxy.pytest_runtest_call
+_pytest.config.compat.PathAwareHookProxy.pytest_collectreport
+_pytest.fixtures.FixtureRequest._fillfixtures
+_pytest.config.argparsing.Parser._config_source_hint
+2
+32
+3
+1
+2
+80
+17
+43
+_pytest.logging.ColoredLevelFormatter._style
+_pytest.logging._FileHandler.stream
+_pytest.config.PytestPluginManager.rewrite_hook
+_pytest.fixtures.FixtureDef.cached_result
+_pytest.logging.LogCaptureHandler.formatter
+_pytest.terminal.TerminalReporter.currentfspath
+_pytest.terminal.TerminalReporter._main_color
+_pytest.logging._LiveLoggingNullHandler.formatter
+_pytest.assertion.rewrite.AssertionRewritingHook.session
+_pytest.threadexception.catch_threading_exception._old_hook
+_pytest.logging._FileHandler.formatter
+_pytest.assertion.AssertionState.hook
+_pytest.terminal.TerminalReporter._session
+_pytest.unraisableexception.catch_unraisable_exception._old_hook
+_pytest.mark.structures.MarkGenerator._config
+_pytest.capture.CaptureManager._global_capturing
+_pytest.config.Config.known_args_namespace
+_pytest.terminal.TerminalReporter._known_types
+_pytest.fixtures.FixtureDef.cached_result
+_pytest.python.Function._request
+_pytest.python.Function.funcargs
+_pytest.main.Session.exitstatus
+1
+17
+3
+1
+_pytest.reports.CollectReport.call
+_pytest.main.Session._initial_parts
+unittest.mock._patch.target
+_pytest.main.Session.items
+_pytest.config.Config._inipath
+flaky.flaky_pytest_plugin.FlakyPlugin.runner
+flaky.flaky_pytest_plugin.FlakyPlugin.flaky_report
+_pytest.terminal.TerminalReporter._tests_ran
+_pytest.terminal.TerminalReporter._sessionstarttime
+_pytest.main.Session._notfound
+_pytest.capture.MultiCapture._state
+flaky.flaky_pytest_plugin.FlakyPlugin.min_passes
+flaky.flaky_pytest_plugin.FlakyPlugin.config
+_pytest.config.Config.args_source
+flaky.flaky_pytest_plugin.FlakyPlugin.max_runs
+_pytest.config.Config._rootpath
+_pytest.python.Module._obj
+_pytest.config.Config.inicfg
+_pytest.config.PytestPluginManager._using_pyargs
+flaky.flaky_pytest_plugin.FlakyPlugin.force_flaky
+_pytest.config.argparsing.Parser.after_preparse
+_pytest.config.argparsing.Parser.optparser
+_pytest.config.Config.args
+unittest.mock._patch._exit_stack
+unittest.mock._patch.is_local
+_pytest.fixtures.FixtureRequest._fillfixtures
+unittest.mock._patch.temp_original
+_pytest.config.argparsing.Parser._config_source_hint
+_pytest.config.Config.known_args_namespace
+_pytest.main.Session._setupstate
+_pytest.helpconfig.HelpAction.container
+_pytest.main.Session._fixturemanager
+_pytest.config.Config.cache
+pytest_cov.plugin.StoreReport.container
+_pytest.terminal.MoreQuietAction.container
+_pytest.config.compat.PathAwareHookProxy.pytest_terminal_summary
+_pytest.config.compat.PathAwareHookProxy.pytest_addhooks
+_pytest.config.compat.PathAwareHookProxy.pytest_cmdline_preparse
+_pytest.config.compat.PathAwareHookProxy.pytest_ignore_collect
+_pytest.config.compat.PathAwareHookProxy.pytest_collect_file
+_pytest.config.compat.PathAwareHookProxy.pytest_runtest_setup
+_pytest.config.compat.PathAwareHookProxy.pytest_addoption
+_pytest.config.compat.PathAwareHookProxy.pytest_runtest_protocol
+_pytest.config.compat.PathAwareHookProxy.pytest_runtest_teardown
+_pytest.config.compat.PathAwareHookProxy.pytest_report_teststatus
+_pytest.config.compat.PathAwareHookProxy.pytest_runtest_logfinish
+_pytest.config.compat.PathAwareHookProxy.pytest_runtest_logreport
+_pytest.config.compat.PathAwareHookProxy.pytest_cmdline_main
+_pytest.config.compat.PathAwareHookProxy.pytest_sessionfinish
+_pytest.config.compat.PathAwareHookProxy.pytest_unconfigure
+_pytest.config.Config._tmp_path_factory
+_pytest.config.compat.PathAwareHookProxy.pytest_collection_modifyitems
+_pytest.config.compat.PathAwareHookProxy.pytest_configure
+_pytest.config.Config._tmpdirhandler
+_pytest.config.compat.PathAwareHookProxy.pytest_runtest_makereport
+_pytest.config.compat.PathAwareHookProxy.pytest_collection
+_pytest.config.compat.PathAwareHookProxy.pytest_assertion_pass
+_pytest.config.compat.PathAwareHookProxy.pytest_load_initial_conftests
+_pytest.config.compat.PathAwareHookProxy.pytest_fixture_setup
+_pytest.config.compat.PathAwareHookProxy.pytest_report_header
+_pytest.config.compat.PathAwareHookProxy.pytest_pycollect_makemodule
+_pytest.config.compat.PathAwareHookProxy.pytest_generate_tests
+_pytest.config.compat.PathAwareHookProxy.pytest_itemcollected
+_pytest.config.compat.PathAwareHookProxy.pytest_collection_finish
+_pytest.config.compat.PathAwareHookProxy.pytest_runtestloop
+_pytest.reports.TestReport.extra
+_pytest.config.compat.PathAwareHookProxy.pytest_pyfunc_call
+_pytest.main.Session.exitstatus
+_pytest.config.compat.PathAwareHookProxy.pytest_runtest_call
+_pytest.config.compat.PathAwareHookProxy.pytest_fixture_post_finalizer
+_pytest.config.compat.PathAwareHookProxy.pytest_collectreport
+_pytest.config.compat.PathAwareHookProxy.pytest_report_collectionfinish
+_pytest.config.compat.PathAwareHookProxy.pytest_sessionstart
+_pytest.config.compat.PathAwareHookProxy.pytest_pycollect_makeitem
+_pytest.config.compat.PathAwareHookProxy.pytest_runtest_logstart
+_pytest.config.compat.PathAwareHookProxy.pytest_collectstart
+_pytest.config.compat.PathAwareHookProxy.pytest_make_collect_report
+_pytest.python.Function.location
+1
+28
+6
+43
+extend
+{' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/terminal.py-pytest_runtest_logreport-520', ' /home/user/purepython/cpython-3.9/Lib/unittest/mock.py-__enter__-1498', ' /home/user/purepython/cpython-3.9/Lib/unittest/mock.py-__enter__-1497', ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/config/__init__.py-_initini-1141', ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/fixtures.py-pytest_sessionstart-112', ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/main.py-wrap_session-262', ' /home/user/purepython/cpython-3.9/Lib/unittest/mock.py-__enter__-1388', ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/cacheprovider.py-pytest_configure-504', ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/config/__init__.py-_validate_args-1196', ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/main.py-perform_collect-627', ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/config/__init__.py-parse-1349', ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/config/__init__.py-parse-1368', ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/config/__init__.py-_preparse-1220', ' /home/user/purepython/cpython-3.9/Lib/argparse.py-_add_action-1459', ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/main.py-perform_collect-628', ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/main.py-perform_collect-629', ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/monkeypatch.py-setattr-253', ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/config/__init__.py-_set_initial_conftests-546', ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/config/__init__.py-_initini-1140', ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/config/__init__.py-_initini-1139', ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/config/argparsing.py-parse-113', ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pytest_html/plugin.py-pytest_runtest_makereport-99', ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/runner.py-pytest_sessionstart-102', ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/config/__init__.py-parse-1369', ' /home/user/purepython/cpython-3.9/Lib/unittest/mock.py-__enter__-1499', ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/python.py-obj-311', ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/terminal.py-pytest_sessionstart-699', ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/runner.py-pytest_make_collect_report-396', ' /home/user/purepython/cpython-3.9/Lib/typing.py-__call__-689'}
+0.19046666333216625
+0.003976391737107988
+0.8055569449307257
+0.028767979987492184
+0.03721075672295184
+0.0006253908692933083
+0.03283302063789869
+0.900562851782364
+0.3806949806949807
+0.016216216216216217
+0.6030888030888031
+0.06295399515738499
+0.08716707021791767
+0.004842615012106538
+0.07021791767554479
+0.774818401937046
+defaultdict(<class 'int'>, {'builtins.function': 3925, 'builtins.getset_descriptor': 796, 'builtins.wrapper_descriptor': 117, 'builtins.method_descriptor': 50, 'builtins.classmethod_descriptor': 20, 'builtins.property': 212, 'builtins.classmethod': 3, 'builtins.member_descriptor': 2492, 'functools.cached_property': 1, 'builtins.staticmethod': 0, 'functools.functools._lru_cache_wrapper': 0, 'others': 0})
+defaultdict(<class 'int'>, {'builtins.member_descriptor': 90, 'builtins.property': 2, 'builtins.getset_descriptor': 0, 'builtins.function': 0, 'builtins.classmethod': 0, 'builtins.method_descriptor': 0, 'builtins.wrapper_descriptor': 0, 'builtins.classmethod_descriptor': 0, 'builtins.staticmethod': 0, 'functools.cached_property': 0, 'functools.functools._lru_cache_wrapper': 0, 'others': 0})
+29
+0
+0.0
+from none: 0.5
+to none: 0.34210526315789475
+t1 == t2:  0.02631578947368421
+t1 <: t2:  0.0
+t2 <: t1:  0.0
+t2 ~~ t1:  0.0
+normal mutation: 0.10526315789473684
+from none class:  0.6666666666666666
+to none class:  0.42857142857142855
+t1 == t2 class:  0.047619047619047616
+t1 <: t2 class:  0.0
+t2 <: t1 class:  0.0
+t2 ~~ t1 class:  0.0
+nromal class:  0.14285714285714285
+dot syntax:  0.810212998361551
+hashmap syntax:  0.1428181321682141
+reflection:  0.04696886947023485
+??? syntax:  0.0
+dot syntax:  0.784663754224415
+hashmap syntax:  0.0062291723090328885
+reflection:  0.20532717873838655
+??? syntax:  0.0037798947281655147
+[]
+[]
+tra: 0
+non_tra: 0
+wp: 0
+no_wp: 0
+trival_not_wp: 0
+trival_wp: 0
+guarded: 0
+union_cover1: 0
+manual_check2: 0
+union_cover1: 0
+manual_check2: 0
+clauses: 0
+exact: 0
+comp_succ: 0
+comp_fail: 0
+call: 0
+unary: 0
+related_literal: 0
+functioning_literal: 0
+set-descr object: 0.05384615384615385
+set-descr class: 0.14102564102564102
+classes: 
+_pytest.python.Module
+_pytest.mark.structures.NodeKeywords
+_pytest.capture.CaptureResult
+_pytest._code.code.Code
+_pytest.python.Function
+_pytest.stash.Stash
+_pytest.fixtures.FuncFixtureInfo
+flaky.flaky_pytest_plugin.FlakyPlugin
+_pytest.main.Session
+_pytest.logging.catching_logs
+_pytest.python.FunctionDefinition
+extend object: 0.06461538461538462
+extend class: 0.21794871794871795
+classes: 
+_pytest.python.Module
+_pytest.config.Config
+_pytest.config.compat.PathAwareHookProxy
+unittest.mock._patch
+_pytest.terminal.MoreQuietAction
+_pytest.helpconfig.HelpAction
+_pytest.reports.CollectReport
+_pytest.python.Function
+_pytest.terminal.TerminalReporter
+flaky.flaky_pytest_plugin.FlakyPlugin
+_pytest.reports.TestReport
+_pytest.main.Session
+pytest_cov.plugin.StoreReport
+_pytest.fixtures.FixtureRequest
+_pytest.config.PytestPluginManager
+_pytest.config.argparsing.Parser
+_pytest.capture.MultiCapture
+override object: 0.006153846153846154
+override class: 0.05128205128205128
+classes: 
+flaky.flaky_pytest_plugin.FlakyPlugin
+_pytest.python.Function
+_pytest.capture.MultiCapture
+_pytest.fixtures.FixtureRequest
+update object: 0.033846153846153845
+update class: 0.20512820512820512
+classes: 
+_pytest.threadexception.catch_threading_exception
+_pytest.logging._LiveLoggingNullHandler
+_pytest.logging.LogCaptureHandler
+_pytest.fixtures.FixtureDef
+_pytest.unraisableexception.catch_unraisable_exception
+_pytest.config.Config
+_pytest.python.Function
+_pytest.logging._FileHandler
+_pytest.capture.CaptureManager
+_pytest.logging.ColoredLevelFormatter
+_pytest.terminal.TerminalReporter
+_pytest.mark.structures.MarkGenerator
+_pytest.main.Session
+_pytest.assertion.AssertionState
+_pytest.assertion.rewrite.AssertionRewritingHook
+_pytest.config.PytestPluginManager
+get-descr object: 0.31076923076923074
+get-descr class: 0.6025641025641025
+classes: 
+_pytest.python.Module
+_pytest.fixtures.FixtureDef
+_pytest.mark.structures.NodeKeywords
+_pytest.config.Config
+_pytest.config.compat.PathAwareHookProxy
+_pytest.runner.CallInfo
+_pytest._code.code.Code
+_pytest.unraisableexception.catch_unraisable_exception
+_pytest.stash.Stash
+_pytest.fixtures.FixtureManager
+_pytest.warning_types.UnformattedWarning
+_pytest.monkeypatch.MonkeyPatch
+_pytest.main.Session
+_pytest.fixtures.FixtureFunctionMarker
+_pytest.logging.catching_logs
+flaky.flaky_pytest_plugin.FlakyXdist
+_pytest.reports.CollectReport
+_pytest.python.FunctionDefinition
+_pytest.legacypath.TempdirFactory
+_pytest.fixtures.SubRequest
+_pytest.cacheprovider.NFPlugin
+_pytest.terminal.TerminalReporter
+_pytest.config.argparsing.MyOptionParser
+_pytest.config.InvocationParams
+_pytest.config.argparsing.Parser
+_pytest.capture.MultiCapture
+_pytest.tmpdir.TempPathFactory
+unittest.mock._ANY
+_pytest.python._EmptyClass
+_pytest.capture.CaptureResult
+_pytest.capture.CaptureManager
+_pytest.logging.ColoredLevelFormatter
+flaky.flaky_pytest_plugin.FlakyPlugin
+_pytest.cacheprovider.LFPlugin
+_pytest._io.terminalwriter.TerminalWriter
+_pytest.reports.TestReport
+doctest.DocTestParser
+_pytest.assertion.rewrite.AssertionRewritingHook
+_pytest.config.PytestPluginManager
+_pytest.mark.structures.MarkDecorator
+_pytest.logging.LoggingPlugin
+_pytest.threadexception.catch_threading_exception
+_pytest.fixtures.PseudoFixtureDef
+_pytest.python.Function
+_pytest.fixtures.FuncFixtureInfo
+_pytest.fixtures.FixtureRequest
+_pytest.config.argparsing.OptionGroup
+inherit object: 0.055384615384615386
+inherit class: 0.2564102564102564
+classes: 
+_pytest.python.Module
+_pytest.config.Config
+_pytest.fixtures.FixtureManager
+_pytest.main.Session
+flaky.flaky_pytest_plugin.FlakyXdist
+_pytest.cacheprovider.NFPlugin
+_pytest.terminal.TerminalReporter
+_pytest.config.argparsing.Parser
+_pytest.capture.MultiCapture
+unittest.mock._patch
+_pytest.capture.CaptureManager
+_pytest.logging.ColoredLevelFormatter
+flaky.flaky_pytest_plugin.FlakyPlugin
+_pytest.cacheprovider.LFPlugin
+_pytest._io.terminalwriter.TerminalWriter
+_pytest.assertion.rewrite.AssertionRewritingHook
+_pytest.config.PytestPluginManager
+_pytest.logging.LoggingPlugin
+_pytest.python.Function
+_pytest.cacheprovider.Cache
+del-descr object: 0.0
+del-descr class: 0.0
+classes: 
+
+remove object: 0.04153846153846154
+remove class: 0.08974358974358974
+classes: 
+_pytest.threadexception.catch_threading_exception
+_pytest.unraisableexception.catch_unraisable_exception
+_pytest.config.Config
+unittest.mock._patch
+_pytest.capture.SysCapture
+_pytest.reports.CollectReport
+_pytest.config.argparsing.Parser
+abnormal object: 0.09538461538461539
+abnormal class: 0.3717948717948718
+classes: 
+_pytest.python.Module
+_pytest.fixtures.FixtureDef
+_pytest.unraisableexception.catch_unraisable_exception
+_pytest.config.Config
+_pytest.config.compat.PathAwareHookProxy
+_pytest.capture.SysCapture
+_pytest.logging._FileHandler
+_pytest.main.Session
+pytest_cov.plugin.StoreReport
+_pytest.reports.CollectReport
+_pytest.logging.LogCaptureHandler
+_pytest.helpconfig.HelpAction
+_pytest.terminal.TerminalReporter
+_pytest.config.argparsing.Parser
+_pytest.capture.MultiCapture
+_pytest.logging._LiveLoggingNullHandler
+unittest.mock._patch
+_pytest.terminal.MoreQuietAction
+_pytest.capture.CaptureManager
+_pytest.logging.ColoredLevelFormatter
+_pytest.mark.structures.MarkGenerator
+flaky.flaky_pytest_plugin.FlakyPlugin
+_pytest.reports.TestReport
+_pytest.assertion.AssertionState
+_pytest.assertion.rewrite.AssertionRewritingHook
+_pytest.config.PytestPluginManager
+_pytest.threadexception.catch_threading_exception
+_pytest.python.Function
+_pytest.fixtures.FixtureRequest
+abmonotonic object: 0.05692307692307692
+abmonotonic class: 0.20512820512820512
+classes: 
+_pytest.threadexception.catch_threading_exception
+_pytest.fixtures.FixtureDef
+_pytest.unraisableexception.catch_unraisable_exception
+_pytest.config.Config
+unittest.mock._patch
+_pytest.python.Function
+_pytest.capture.SysCapture
+_pytest.capture.CaptureManager
+_pytest.logging.ColoredLevelFormatter
+_pytest.terminal.TerminalReporter
+_pytest.mark.structures.MarkGenerator
+_pytest.logging._FileHandler
+_pytest.main.Session
+_pytest.assertion.rewrite.AssertionRewritingHook
+_pytest.reports.CollectReport
+_pytest.config.argparsing.Parser
+(('builtins.NoneType', 'builtins.builtin_function_or_method'), 6)
+(('builtins.builtin_function_or_method', 'builtins.NoneType'), 6)
+(('builtins.NoneType', '_pytest.logging.ColoredLevelFormatter <*> {_style$$_pytest.logging.PercentStyleMultiline <*> {_fmt$$builtins.str,_auto_indent$$builtins.int,},_fmt$$builtins.str,datefmt$$builtins.str,_terminalwriter$$_pytest._io.terminalwriter.TerminalWriter <*> {_file$$_io._io.TextIOWrapper <*> {mode$$builtins.str,},hasmarkup$$builtins.bool,_current_line$$builtins.str,_terminal_width$$builtins.NoneType,code_highlight$$builtins.bool,},_original_fmt$$builtins.str,_level_to_fmt_mapping$$builtins.dict,}'), 3)
+(('builtins.NoneType', '_pytest.main.Session <*> {keywords$$_pytest.mark.structures.NodeKeywords <*> {},own_markers$$builtins.list,extra_keyword_matches$$builtins.set,stash$$_pytest.stash.Stash <*> {},testsfailed$$builtins.int,testscollected$$builtins.int,shouldstop$$builtins.bool,shouldfail$$builtins.bool,trace$$pluggy._tracing.TagTracerSub <*> {root$$pluggy._tracing.TagTracer <*> {_tags2proc$$builtins.dict,_writer$$builtins.NoneType,indent$$builtins.int,},tags$$builtins.tuple,},_initialpaths$$builtins.frozenset,_bestrelpathcache$$_pytest.main._bestrelpath_cache <*> {},exitstatus$$_pytest.config.ExitCode <*> {_value_$$builtins.int,_name_$$builtins.str,__objclass__$$enum.EnumMeta <*> {_generate_next_value_$$builtins.function,__module__$$builtins.str,__doc__$$builtins.str,_member_names_$$builtins.list,_member_map_$$builtins.dict,_member_type_$$builtins.type,_value2member_map_$$builtins.dict,OK$$_pytest.config.ExitCode rec-ref,TESTS_FAILED$$_pytest.config.ExitCode <*> {_value_$$builtins.int,_name_$$builtins.str,__objclass__$$enum.EnumMeta rec-ref,},INTERRUPTED$$_pytest.config.ExitCode <*> {_value_$$builtins.int,_name_$$builtins.str,__objclass__$$enum.EnumMeta rec-ref,},INTERNAL_ERROR$$_pytest.config.ExitCode <*> {_value_$$builtins.int,_name_$$builtins.str,__objclass__$$enum.EnumMeta rec-ref,},USAGE_ERROR$$_pytest.config.ExitCode <*> {_value_$$builtins.int,_name_$$builtins.str,__objclass__$$enum.EnumMeta rec-ref,},NO_TESTS_COLLECTED$$_pytest.config.ExitCode <*> {_value_$$builtins.int,_name_$$builtins.str,__objclass__$$enum.EnumMeta rec-ref,},__new__$$builtins.function,},},_setupstate$$_pytest.runner.SetupState <*> {stack$$builtins.dict,},}'), 2)
+(('logging.PercentStyle <*> {_fmt$$builtins.str,}', '_pytest.logging.PercentStyleMultiline <*> {_fmt$$builtins.str,_auto_indent$$builtins.int,}'), 2)
+(('builtins.NoneType', '_pytest.config.Config <*> {option$$argparse.Namespace <*> {keyword$$builtins.str,markexpr$$builtins.str,maxfail$$builtins.int,continue_on_collection_errors$$builtins.bool,confcutdir$$builtins.NoneType,noconftest$$builtins.bool,keepduplicates$$builtins.bool,collect_in_virtualenv$$builtins.bool,importmode$$builtins.str,basetemp$$builtins.NoneType,durations$$builtins.NoneType,durations_min$$builtins.float,version$$builtins.int,plugins$$builtins.list,traceconfig$$builtins.bool,showfixtures$$builtins.bool,show_fixtures_per_test$$builtins.bool,verbose$$builtins.int,no_header$$builtins.bool,no_summary$$builtins.bool,reportchars$$builtins.str,disable_warnings$$builtins.bool,showlocals$$builtins.bool,tbstyle$$builtins.str,showcapture$$builtins.str,fulltrace$$builtins.bool,color$$builtins.str,code_highlight$$builtins.str,capture$$builtins.str,runxfail$$builtins.bool,pastebin$$builtins.NoneType,assertmode$$builtins.str,xmlpath$$builtins.NoneType,junitprefix$$builtins.NoneType,doctestmodules$$builtins.bool,doctestreport$$builtins.str,doctestglob$$builtins.list,doctest_ignore_import_errors$$builtins.bool,doctest_continue_on_failure$$builtins.bool,last_failed_no_failures$$builtins.str,stepwise$$builtins.bool,stepwise_skip$$builtins.bool,hypothesis_show_statistics$$builtins.bool,hypothesis_explain$$builtins.bool,cov_source$$builtins.list,cov_report$$builtins.dict,cov_config$$builtins.str,no_cov_on_fail$$builtins.bool,no_cov$$builtins.bool,cov_append$$builtins.bool,cov_branch$$builtins.NoneType,htmlpath$$builtins.NoneType,css$$builtins.list,flaky_report$$builtins.bool,flaky_success_report$$builtins.bool,force_flaky$$builtins.bool,max_runs$$builtins.int,min_passes$$builtins.int,maxworkerrestart$$builtins.NoneType,dist$$builtins.str,tx$$builtins.list,distload$$builtins.bool,rsyncdir$$builtins.list,rsyncignore$$builtins.list,looponfail$$builtins.bool,markers$$builtins.bool,usepdb$$builtins.bool,usepdb_cls$$builtins.NoneType,trace$$builtins.bool,lf$$builtins.bool,failedfirst$$builtins.bool,newfirst$$builtins.bool,cacheshow$$builtins.NoneType,cacheclear$$builtins.bool,pylama$$builtins.bool,self_contained_html$$builtins.bool,pythonwarnings$$builtins.NoneType,strict_config$$builtins.bool,strict_markers$$builtins.bool,strict$$builtins.bool,inifilename$$builtins.NoneType,rootdir$$builtins.NoneType,collectonly$$builtins.bool,pyargs$$builtins.bool,ignore$$builtins.NoneType,ignore_glob$$builtins.NoneType,deselect$$builtins.NoneType,help$$builtins.bool,debug$$builtins.NoneType,override_ini$$builtins.NoneType,setuponly$$builtins.bool,setupshow$$builtins.bool,setupplan$$builtins.bool,log_level$$builtins.NoneType,log_format$$builtins.NoneType,log_date_format$$builtins.NoneType,log_cli_level$$builtins.NoneType,log_cli_format$$builtins.NoneType,log_cli_date_format$$builtins.NoneType,log_file$$builtins.NoneType,log_file_level$$builtins.NoneType,log_file_format$$builtins.NoneType,log_file_date_format$$builtins.NoneType,log_auto_indent$$builtins.NoneType,hypothesis_profile$$builtins.NoneType,hypothesis_verbosity$$builtins.NoneType,hypothesis_seed$$builtins.NoneType,cov_fail_under$$builtins.NoneType,cov_context$$builtins.NoneType,numprocesses$$builtins.NoneType,maxprocesses$$builtins.NoneType,testrunuid$$builtins.NoneType,maxschedchunk$$builtins.NoneType,file_or_dir$$builtins.list,},invocation_params$$_pytest.config.InvocationParams <*> {args$$builtins.tuple,plugins$$builtins.NoneType,dir$$pathlib.PosixPath <*> {},},_parser$$_pytest.config.argparsing.Parser <*> {_anonymous$$_pytest.config.argparsing.OptionGroup <*> {name$$builtins.str,description$$builtins.str,options$$builtins.list,parser$$_pytest.config.argparsing.Parser rec-ref,},_groups$$builtins.list,_processopt$$builtins.method,_usage$$builtins.str,_inidict$$builtins.dict,_ininames$$builtins.list,extra_info$$builtins.dict,after_preparse$$builtins.bool,optparser$$_pytest.config.argparsing.MyOptionParser <*> {_parser$$_pytest.config.argparsing.Parser rec-ref,description$$builtins.NoneType,argument_default$$builtins.NoneType,prefix_chars$$builtins.str,conflict_handler$$builtins.str,_registries$$builtins.dict,_actions$$builtins.list,_option_string_actions$$builtins.dict,_action_groups$$builtins.list,_mutually_exclusive_groups$$builtins.list,_defaults$$builtins.dict,_negative_number_matcher$$re.re.Pattern <*> {},_has_negative_number_optionals$$builtins.list,prog$$builtins.str,usage$$builtins.str,epilog$$builtins.NoneType,formatter_class$$builtins.type,fromfile_prefix_chars$$builtins.NoneType,add_help$$builtins.bool,allow_abbrev$$builtins.bool,exit_on_error$$builtins.bool,_positionals$$argparse._ArgumentGroup <*> {description$$builtins.NoneType,argument_default$$builtins.NoneType,prefix_chars$$builtins.str,conflict_handler$$builtins.str,_registries$$builtins.dict,_actions$$builtins.list,_option_string_actions$$builtins.dict,_action_groups$$builtins.list,_mutually_exclusive_groups$$builtins.list,_defaults$$builtins.dict,_negative_number_matcher$$re.re.Pattern rec-ref,_has_negative_number_optionals$$builtins.list,title$$builtins.str,_group_actions$$builtins.list,},_optionals$$argparse._ArgumentGroup <*> {description$$builtins.NoneType,argument_default$$builtins.NoneType,prefix_chars$$builtins.str,conflict_handler$$builtins.str,_registries$$builtins.dict,_actions$$builtins.list,_option_string_actions$$builtins.dict,_action_groups$$builtins.list,_mutually_exclusive_groups$$builtins.list,_defaults$$builtins.dict,_negative_number_matcher$$re.re.Pattern rec-ref,_has_negative_number_optionals$$builtins.list,title$$builtins.str,_group_actions$$builtins.list,},_subparsers$$builtins.NoneType,extra_info$$builtins.dict,},},pluginmanager$$_pytest.config.PytestPluginManager <*> {project_name$$builtins.str,_name2plugin$$builtins.dict,_plugin2hookcallers$$builtins.dict,_plugin_distinfo$$builtins.list,trace$$pluggy._tracing.TagTracerSub <*> {root$$pluggy._tracing.TagTracer <*> {_tags2proc$$builtins.dict,_writer$$builtins.NoneType,indent$$builtins.int,},tags$$builtins.tuple,},_inner_hookexec$$builtins.function,_conftest_plugins$$builtins.set,_dirpath2confmods$$builtins.dict,_confcutdir$$builtins.NoneType,_noconftest$$builtins.bool,_get_directory$$functools.functools._lru_cache_wrapper <*> {cache_parameters$$builtins.function,__module__$$builtins.str,__name__$$builtins.str,__qualname__$$builtins.str,__doc__$$builtins.str,__annotations__$$builtins.dict,__wrapped__$$builtins.function,},_duplicatepaths$$builtins.set,skipped_plugins$$builtins.list,rewrite_hook$$_pytest.assertion.rewrite.AssertionRewritingHook <*> {config$$_pytest.config.Config rec-ref,fnpats$$builtins.list,session$$builtins.NoneType,_rewritten_names$$builtins.dict,_must_rewrite$$builtins.set,_writing_pyc$$builtins.bool,_basenames_to_check_rewrite$$builtins.set,_marked_for_rewrite_cache$$builtins.dict,_session_paths_checked$$builtins.bool,},_configured$$builtins.bool,_using_pyargs$$builtins.bool,},stash$$_pytest.stash.Stash <*> {},_store$$_pytest.stash.Stash rec-ref,trace$$pluggy._tracing.TagTracerSub <*> {root$$pluggy._tracing.TagTracer rec-ref,tags$$builtins.tuple,},hook$$_pytest.config.compat.PathAwareHookProxy <*> {_PathAwareHookProxy__hook_caller$$pluggy._hooks._HookRelay rec-ref,pytest_addoption$$pluggy._hooks._HookCaller rec-ref,pytest_addhooks$$pluggy._hooks._HookCaller rec-ref,pytest_load_initial_conftests$$pluggy._hooks._HookCaller rec-ref,pytest_cmdline_preparse$$pluggy._hooks._HookCaller rec-ref,pytest_cmdline_main$$pluggy._hooks._HookCaller rec-ref,pytest_configure$$pluggy._hooks._HookCaller rec-ref,},_inicache$$builtins.dict,_override_ini$$builtins.tuple,_opt2dest$$builtins.dict,_cleanup$$builtins.list,_configured$$builtins.bool,_rootpath$$pathlib.PosixPath rec-ref,_inipath$$builtins.NoneType,inicfg$$builtins.dict,args$$builtins.list,cache$$_pytest.cacheprovider.Cache <*> {_cachedir$$pathlib.PosixPath <*> {},_config$$_pytest.config.Config rec-ref,},_tmpdirhandler$$_pytest.legacypath.TempdirFactory <*> {_tmppath_factory$$_pytest.tmpdir.TempPathFactory rec-ref,},}'), 1)
+(('_pytest.config.Config <*> {option$$argparse.Namespace <*> {keyword$$builtins.str,markexpr$$builtins.str,maxfail$$builtins.int,continue_on_collection_errors$$builtins.bool,confcutdir$$builtins.NoneType,noconftest$$builtins.bool,keepduplicates$$builtins.bool,collect_in_virtualenv$$builtins.bool,importmode$$builtins.str,basetemp$$builtins.NoneType,durations$$builtins.NoneType,durations_min$$builtins.float,version$$builtins.int,plugins$$builtins.list,traceconfig$$builtins.bool,showfixtures$$builtins.bool,show_fixtures_per_test$$builtins.bool,verbose$$builtins.int,no_header$$builtins.bool,no_summary$$builtins.bool,reportchars$$builtins.str,disable_warnings$$builtins.bool,showlocals$$builtins.bool,tbstyle$$builtins.str,showcapture$$builtins.str,fulltrace$$builtins.bool,color$$builtins.str,code_highlight$$builtins.str,capture$$builtins.str,runxfail$$builtins.bool,pastebin$$builtins.NoneType,assertmode$$builtins.str,xmlpath$$builtins.NoneType,junitprefix$$builtins.NoneType,doctestmodules$$builtins.bool,doctestreport$$builtins.str,doctestglob$$builtins.list,doctest_ignore_import_errors$$builtins.bool,doctest_continue_on_failure$$builtins.bool,last_failed_no_failures$$builtins.str,stepwise$$builtins.bool,stepwise_skip$$builtins.bool,hypothesis_show_statistics$$builtins.bool,hypothesis_explain$$builtins.bool,cov_source$$builtins.list,cov_report$$builtins.dict,cov_config$$builtins.str,no_cov_on_fail$$builtins.bool,no_cov$$builtins.bool,cov_append$$builtins.bool,cov_branch$$builtins.NoneType,htmlpath$$builtins.NoneType,css$$builtins.list,flaky_report$$builtins.bool,flaky_success_report$$builtins.bool,force_flaky$$builtins.bool,max_runs$$builtins.int,min_passes$$builtins.int,maxworkerrestart$$builtins.NoneType,dist$$builtins.str,tx$$builtins.list,distload$$builtins.bool,rsyncdir$$builtins.list,rsyncignore$$builtins.list,looponfail$$builtins.bool,markers$$builtins.bool,usepdb$$builtins.bool,usepdb_cls$$builtins.NoneType,trace$$builtins.bool,lf$$builtins.bool,failedfirst$$builtins.bool,newfirst$$builtins.bool,cacheshow$$builtins.NoneType,cacheclear$$builtins.bool,pylama$$builtins.bool,self_contained_html$$builtins.bool,pythonwarnings$$builtins.NoneType,strict_config$$builtins.bool,strict_markers$$builtins.bool,strict$$builtins.bool,inifilename$$builtins.NoneType,rootdir$$builtins.NoneType,collectonly$$builtins.bool,pyargs$$builtins.bool,ignore$$builtins.NoneType,ignore_glob$$builtins.NoneType,deselect$$builtins.NoneType,help$$builtins.bool,debug$$builtins.NoneType,override_ini$$builtins.NoneType,setuponly$$builtins.bool,setupshow$$builtins.bool,setupplan$$builtins.bool,log_level$$builtins.NoneType,log_format$$builtins.NoneType,log_date_format$$builtins.NoneType,log_cli_level$$builtins.NoneType,log_cli_format$$builtins.NoneType,log_cli_date_format$$builtins.NoneType,log_file$$builtins.NoneType,log_file_level$$builtins.NoneType,log_file_format$$builtins.NoneType,log_file_date_format$$builtins.NoneType,log_auto_indent$$builtins.NoneType,hypothesis_profile$$builtins.NoneType,hypothesis_verbosity$$builtins.NoneType,hypothesis_seed$$builtins.NoneType,cov_fail_under$$builtins.NoneType,cov_context$$builtins.NoneType,numprocesses$$builtins.NoneType,maxprocesses$$builtins.NoneType,testrunuid$$builtins.NoneType,maxschedchunk$$builtins.NoneType,file_or_dir$$builtins.list,},invocation_params$$_pytest.config.InvocationParams <*> {args$$builtins.tuple,plugins$$builtins.NoneType,dir$$pathlib.PosixPath <*> {},},_parser$$_pytest.config.argparsing.Parser <*> {_anonymous$$_pytest.config.argparsing.OptionGroup <*> {name$$builtins.str,description$$builtins.str,options$$builtins.list,parser$$_pytest.config.argparsing.Parser rec-ref,},_groups$$builtins.list,_processopt$$builtins.method,_usage$$builtins.str,_inidict$$builtins.dict,_ininames$$builtins.list,extra_info$$builtins.dict,after_preparse$$builtins.bool,optparser$$_pytest.config.argparsing.MyOptionParser <*> {_parser$$_pytest.config.argparsing.Parser rec-ref,description$$builtins.NoneType,argument_default$$builtins.NoneType,prefix_chars$$builtins.str,conflict_handler$$builtins.str,_registries$$builtins.dict,_actions$$builtins.list,_option_string_actions$$builtins.dict,_action_groups$$builtins.list,_mutually_exclusive_groups$$builtins.list,_defaults$$builtins.dict,_negative_number_matcher$$re.re.Pattern <*> {},_has_negative_number_optionals$$builtins.list,prog$$builtins.str,usage$$builtins.str,epilog$$builtins.NoneType,formatter_class$$builtins.type,fromfile_prefix_chars$$builtins.NoneType,add_help$$builtins.bool,allow_abbrev$$builtins.bool,exit_on_error$$builtins.bool,_positionals$$argparse._ArgumentGroup <*> {description$$builtins.NoneType,argument_default$$builtins.NoneType,prefix_chars$$builtins.str,conflict_handler$$builtins.str,_registries$$builtins.dict,_actions$$builtins.list,_option_string_actions$$builtins.dict,_action_groups$$builtins.list,_mutually_exclusive_groups$$builtins.list,_defaults$$builtins.dict,_negative_number_matcher$$re.re.Pattern rec-ref,_has_negative_number_optionals$$builtins.list,title$$builtins.str,_group_actions$$builtins.list,},_optionals$$argparse._ArgumentGroup <*> {description$$builtins.NoneType,argument_default$$builtins.NoneType,prefix_chars$$builtins.str,conflict_handler$$builtins.str,_registries$$builtins.dict,_actions$$builtins.list,_option_string_actions$$builtins.dict,_action_groups$$builtins.list,_mutually_exclusive_groups$$builtins.list,_defaults$$builtins.dict,_negative_number_matcher$$re.re.Pattern rec-ref,_has_negative_number_optionals$$builtins.list,title$$builtins.str,_group_actions$$builtins.list,},_subparsers$$builtins.NoneType,extra_info$$builtins.dict,},},pluginmanager$$_pytest.config.PytestPluginManager <*> {project_name$$builtins.str,_name2plugin$$builtins.dict,_plugin2hookcallers$$builtins.dict,_plugin_distinfo$$builtins.list,trace$$pluggy._tracing.TagTracerSub <*> {root$$pluggy._tracing.TagTracer <*> {_tags2proc$$builtins.dict,_writer$$builtins.NoneType,indent$$builtins.int,},tags$$builtins.tuple,},_inner_hookexec$$builtins.function,_conftest_plugins$$builtins.set,_dirpath2confmods$$builtins.dict,_confcutdir$$builtins.NoneType,_noconftest$$builtins.bool,_get_directory$$functools.functools._lru_cache_wrapper <*> {cache_parameters$$builtins.function,__module__$$builtins.str,__name__$$builtins.str,__qualname__$$builtins.str,__doc__$$builtins.str,__annotations__$$builtins.dict,__wrapped__$$builtins.function,},_duplicatepaths$$builtins.set,skipped_plugins$$builtins.list,rewrite_hook$$_pytest.assertion.rewrite.AssertionRewritingHook <*> {config$$_pytest.config.Config rec-ref,fnpats$$builtins.list,session$$builtins.NoneType,_rewritten_names$$builtins.dict,_must_rewrite$$builtins.set,_writing_pyc$$builtins.bool,_basenames_to_check_rewrite$$builtins.set,_marked_for_rewrite_cache$$builtins.dict,_session_paths_checked$$builtins.bool,},_configured$$builtins.bool,_using_pyargs$$builtins.bool,},stash$$_pytest.stash.Stash <*> {},_store$$_pytest.stash.Stash rec-ref,trace$$pluggy._tracing.TagTracerSub <*> {root$$pluggy._tracing.TagTracer rec-ref,tags$$builtins.tuple,},hook$$_pytest.config.compat.PathAwareHookProxy <*> {_PathAwareHookProxy__hook_caller$$pluggy._hooks._HookRelay rec-ref,pytest_addoption$$pluggy._hooks._HookCaller rec-ref,pytest_addhooks$$pluggy._hooks._HookCaller rec-ref,pytest_load_initial_conftests$$pluggy._hooks._HookCaller rec-ref,pytest_cmdline_preparse$$pluggy._hooks._HookCaller rec-ref,pytest_cmdline_main$$pluggy._hooks._HookCaller rec-ref,pytest_configure$$pluggy._hooks._HookCaller rec-ref,},_inicache$$builtins.dict,_override_ini$$builtins.tuple,_opt2dest$$builtins.dict,_cleanup$$builtins.list,_configured$$builtins.bool,_rootpath$$pathlib.PosixPath rec-ref,_inipath$$builtins.NoneType,inicfg$$builtins.dict,args$$builtins.list,cache$$_pytest.cacheprovider.Cache <*> {_cachedir$$pathlib.PosixPath <*> {},_config$$_pytest.config.Config rec-ref,},_tmpdirhandler$$_pytest.legacypath.TempdirFactory <*> {_tmppath_factory$$_pytest.tmpdir.TempPathFactory rec-ref,},}', 'builtins.NoneType'), 1)
+(('_pytest.assertion.DummyRewriteHook <*> {}', '_pytest.assertion.rewrite.AssertionRewritingHook <*> {config$$_pytest.config.Config <*> {option$$argparse.Namespace <*> {keyword$$builtins.str,markexpr$$builtins.str,maxfail$$builtins.int,continue_on_collection_errors$$builtins.bool,confcutdir$$builtins.NoneType,noconftest$$builtins.bool,keepduplicates$$builtins.bool,collect_in_virtualenv$$builtins.bool,importmode$$builtins.str,basetemp$$builtins.NoneType,durations$$builtins.NoneType,durations_min$$builtins.float,version$$builtins.int,plugins$$builtins.list,traceconfig$$builtins.bool,showfixtures$$builtins.bool,show_fixtures_per_test$$builtins.bool,verbose$$builtins.int,no_header$$builtins.bool,no_summary$$builtins.bool,reportchars$$builtins.str,disable_warnings$$builtins.bool,showlocals$$builtins.bool,tbstyle$$builtins.str,showcapture$$builtins.str,fulltrace$$builtins.bool,color$$builtins.str,code_highlight$$builtins.str,capture$$builtins.str,runxfail$$builtins.bool,pastebin$$builtins.NoneType,assertmode$$builtins.str,xmlpath$$builtins.NoneType,junitprefix$$builtins.NoneType,doctestmodules$$builtins.bool,doctestreport$$builtins.str,doctestglob$$builtins.list,doctest_ignore_import_errors$$builtins.bool,doctest_continue_on_failure$$builtins.bool,last_failed_no_failures$$builtins.str,stepwise$$builtins.bool,stepwise_skip$$builtins.bool,},invocation_params$$_pytest.config.InvocationParams <*> {args$$builtins.tuple,plugins$$builtins.NoneType,dir$$pathlib.PosixPath <*> {},},_parser$$_pytest.config.argparsing.Parser <*> {_anonymous$$_pytest.config.argparsing.OptionGroup <*> {name$$builtins.str,description$$builtins.str,options$$builtins.list,parser$$_pytest.config.argparsing.Parser rec-ref,},_groups$$builtins.list,_processopt$$builtins.method,_usage$$builtins.str,_inidict$$builtins.dict,_ininames$$builtins.list,extra_info$$builtins.dict,},pluginmanager$$_pytest.config.PytestPluginManager <*> {project_name$$builtins.str,_name2plugin$$builtins.dict,_plugin2hookcallers$$builtins.dict,_plugin_distinfo$$builtins.list,trace$$pluggy._tracing.TagTracerSub <*> {root$$pluggy._tracing.TagTracer <*> {_tags2proc$$builtins.dict,_writer$$builtins.NoneType,indent$$builtins.int,},tags$$builtins.tuple,},_inner_hookexec$$builtins.function,_conftest_plugins$$builtins.set,_dirpath2confmods$$builtins.dict,_confcutdir$$builtins.NoneType,_noconftest$$builtins.bool,_get_directory$$functools.functools._lru_cache_wrapper <*> {cache_parameters$$builtins.function,__module__$$builtins.str,__name__$$builtins.str,__qualname__$$builtins.str,__doc__$$builtins.str,__annotations__$$builtins.dict,__wrapped__$$builtins.function,},_duplicatepaths$$builtins.set,skipped_plugins$$builtins.list,rewrite_hook$$_pytest.assertion.DummyRewriteHook <*> {},_configured$$builtins.bool,},stash$$_pytest.stash.Stash <*> {},_store$$_pytest.stash.Stash rec-ref,trace$$pluggy._tracing.TagTracerSub <*> {root$$pluggy._tracing.TagTracer rec-ref,tags$$builtins.tuple,},hook$$_pytest.config.compat.PathAwareHookProxy <*> {_PathAwareHookProxy__hook_caller$$pluggy._hooks._HookRelay rec-ref,pytest_addoption$$pluggy._hooks._HookCaller rec-ref,pytest_addhooks$$pluggy._hooks._HookCaller rec-ref,},_inicache$$builtins.dict,_override_ini$$builtins.tuple,_opt2dest$$builtins.dict,_cleanup$$builtins.list,_configured$$builtins.bool,_rootpath$$pathlib.PosixPath rec-ref,_inipath$$builtins.NoneType,inicfg$$builtins.dict,known_args_namespace$$argparse.Namespace <*> {keyword$$builtins.str,markexpr$$builtins.str,maxfail$$builtins.int,continue_on_collection_errors$$builtins.bool,confcutdir$$builtins.NoneType,noconftest$$builtins.bool,keepduplicates$$builtins.bool,collect_in_virtualenv$$builtins.bool,importmode$$builtins.str,basetemp$$builtins.NoneType,durations$$builtins.NoneType,durations_min$$builtins.float,version$$builtins.int,plugins$$builtins.list,traceconfig$$builtins.bool,showfixtures$$builtins.bool,show_fixtures_per_test$$builtins.bool,verbose$$builtins.int,no_header$$builtins.bool,no_summary$$builtins.bool,reportchars$$builtins.str,disable_warnings$$builtins.bool,showlocals$$builtins.bool,tbstyle$$builtins.str,showcapture$$builtins.str,fulltrace$$builtins.bool,color$$builtins.str,code_highlight$$builtins.str,capture$$builtins.str,runxfail$$builtins.bool,pastebin$$builtins.NoneType,assertmode$$builtins.str,xmlpath$$builtins.NoneType,junitprefix$$builtins.NoneType,doctestmodules$$builtins.bool,doctestreport$$builtins.str,doctestglob$$builtins.list,doctest_ignore_import_errors$$builtins.bool,doctest_continue_on_failure$$builtins.bool,last_failed_no_failures$$builtins.str,stepwise$$builtins.bool,stepwise_skip$$builtins.bool,markers$$builtins.bool,usepdb$$builtins.bool,usepdb_cls$$builtins.NoneType,trace$$builtins.bool,lf$$builtins.bool,failedfirst$$builtins.bool,newfirst$$builtins.bool,cacheshow$$builtins.NoneType,cacheclear$$builtins.bool,pythonwarnings$$builtins.NoneType,strict_config$$builtins.bool,strict_markers$$builtins.bool,strict$$builtins.bool,inifilename$$builtins.NoneType,rootdir$$builtins.NoneType,collectonly$$builtins.bool,pyargs$$builtins.bool,ignore$$builtins.NoneType,ignore_glob$$builtins.NoneType,deselect$$builtins.NoneType,help$$builtins.bool,debug$$builtins.NoneType,override_ini$$builtins.NoneType,setuponly$$builtins.bool,setupshow$$builtins.bool,setupplan$$builtins.bool,log_level$$builtins.NoneType,log_format$$builtins.NoneType,log_date_format$$builtins.NoneType,log_cli_level$$builtins.NoneType,log_cli_format$$builtins.NoneType,log_cli_date_format$$builtins.NoneType,log_file$$builtins.NoneType,log_file_level$$builtins.NoneType,log_file_format$$builtins.NoneType,log_file_date_format$$builtins.NoneType,log_auto_indent$$builtins.NoneType,file_or_dir$$builtins.list,},},fnpats$$builtins.list,session$$builtins.NoneType,_rewritten_names$$builtins.dict,_must_rewrite$$builtins.set,_writing_pyc$$builtins.bool,_basenames_to_check_rewrite$$builtins.set,_marked_for_rewrite_cache$$builtins.dict,_session_paths_checked$$builtins.bool,}'), 1)
+(('argparse.Namespace <*> {keyword$$builtins.str,markexpr$$builtins.str,maxfail$$builtins.int,continue_on_collection_errors$$builtins.bool,confcutdir$$builtins.NoneType,noconftest$$builtins.bool,keepduplicates$$builtins.bool,collect_in_virtualenv$$builtins.bool,importmode$$builtins.str,basetemp$$builtins.NoneType,durations$$builtins.NoneType,durations_min$$builtins.float,version$$builtins.int,plugins$$builtins.list,traceconfig$$builtins.bool,showfixtures$$builtins.bool,show_fixtures_per_test$$builtins.bool,verbose$$builtins.int,no_header$$builtins.bool,no_summary$$builtins.bool,reportchars$$builtins.str,disable_warnings$$builtins.bool,showlocals$$builtins.bool,tbstyle$$builtins.str,showcapture$$builtins.str,fulltrace$$builtins.bool,color$$builtins.str,code_highlight$$builtins.str,capture$$builtins.str,runxfail$$builtins.bool,pastebin$$builtins.NoneType,assertmode$$builtins.str,xmlpath$$builtins.NoneType,junitprefix$$builtins.NoneType,doctestmodules$$builtins.bool,doctestreport$$builtins.str,doctestglob$$builtins.list,doctest_ignore_import_errors$$builtins.bool,doctest_continue_on_failure$$builtins.bool,last_failed_no_failures$$builtins.str,stepwise$$builtins.bool,stepwise_skip$$builtins.bool,markers$$builtins.bool,usepdb$$builtins.bool,usepdb_cls$$builtins.NoneType,trace$$builtins.bool,lf$$builtins.bool,failedfirst$$builtins.bool,newfirst$$builtins.bool,cacheshow$$builtins.NoneType,cacheclear$$builtins.bool,pythonwarnings$$builtins.NoneType,strict_config$$builtins.bool,strict_markers$$builtins.bool,strict$$builtins.bool,inifilename$$builtins.NoneType,rootdir$$builtins.NoneType,collectonly$$builtins.bool,pyargs$$builtins.bool,ignore$$builtins.NoneType,ignore_glob$$builtins.NoneType,deselect$$builtins.NoneType,help$$builtins.bool,debug$$builtins.NoneType,override_ini$$builtins.NoneType,setuponly$$builtins.bool,setupshow$$builtins.bool,setupplan$$builtins.bool,log_level$$builtins.NoneType,log_format$$builtins.NoneType,log_date_format$$builtins.NoneType,log_cli_level$$builtins.NoneType,log_cli_format$$builtins.NoneType,log_cli_date_format$$builtins.NoneType,log_file$$builtins.NoneType,log_file_level$$builtins.NoneType,log_file_format$$builtins.NoneType,log_file_date_format$$builtins.NoneType,log_auto_indent$$builtins.NoneType,file_or_dir$$builtins.list,}', 'argparse.Namespace <*> {keyword$$builtins.str,markexpr$$builtins.str,maxfail$$builtins.int,continue_on_collection_errors$$builtins.bool,confcutdir$$builtins.NoneType,noconftest$$builtins.bool,keepduplicates$$builtins.bool,collect_in_virtualenv$$builtins.bool,importmode$$builtins.str,basetemp$$builtins.NoneType,durations$$builtins.NoneType,durations_min$$builtins.float,version$$builtins.int,plugins$$builtins.list,traceconfig$$builtins.bool,showfixtures$$builtins.bool,show_fixtures_per_test$$builtins.bool,verbose$$builtins.int,no_header$$builtins.bool,no_summary$$builtins.bool,reportchars$$builtins.str,disable_warnings$$builtins.bool,showlocals$$builtins.bool,tbstyle$$builtins.str,showcapture$$builtins.str,fulltrace$$builtins.bool,color$$builtins.str,code_highlight$$builtins.str,capture$$builtins.str,runxfail$$builtins.bool,pastebin$$builtins.NoneType,assertmode$$builtins.str,xmlpath$$builtins.NoneType,junitprefix$$builtins.NoneType,doctestmodules$$builtins.bool,doctestreport$$builtins.str,doctestglob$$builtins.list,doctest_ignore_import_errors$$builtins.bool,doctest_continue_on_failure$$builtins.bool,last_failed_no_failures$$builtins.str,stepwise$$builtins.bool,stepwise_skip$$builtins.bool,markers$$builtins.bool,usepdb$$builtins.bool,usepdb_cls$$builtins.NoneType,trace$$builtins.bool,lf$$builtins.bool,failedfirst$$builtins.bool,newfirst$$builtins.bool,cacheshow$$builtins.NoneType,cacheclear$$builtins.bool,pythonwarnings$$builtins.NoneType,strict_config$$builtins.bool,strict_markers$$builtins.bool,strict$$builtins.bool,inifilename$$builtins.NoneType,rootdir$$builtins.NoneType,collectonly$$builtins.bool,pyargs$$builtins.bool,ignore$$builtins.NoneType,ignore_glob$$builtins.NoneType,deselect$$builtins.NoneType,help$$builtins.bool,debug$$builtins.NoneType,override_ini$$builtins.NoneType,setuponly$$builtins.bool,setupshow$$builtins.bool,setupplan$$builtins.bool,log_level$$builtins.NoneType,log_format$$builtins.NoneType,log_date_format$$builtins.NoneType,log_cli_level$$builtins.NoneType,log_cli_format$$builtins.NoneType,log_cli_date_format$$builtins.NoneType,log_file$$builtins.NoneType,log_file_level$$builtins.NoneType,log_file_format$$builtins.NoneType,log_file_date_format$$builtins.NoneType,log_auto_indent$$builtins.NoneType,file_or_dir$$builtins.list,pylama$$builtins.bool,htmlpath$$builtins.NoneType,self_contained_html$$builtins.bool,css$$builtins.list,hypothesis_profile$$builtins.NoneType,hypothesis_verbosity$$builtins.NoneType,hypothesis_show_statistics$$builtins.bool,hypothesis_seed$$builtins.NoneType,hypothesis_explain$$builtins.bool,cov_source$$builtins.list,cov_report$$builtins.dict,cov_config$$builtins.str,no_cov_on_fail$$builtins.bool,no_cov$$builtins.bool,cov_fail_under$$builtins.NoneType,cov_append$$builtins.bool,cov_branch$$builtins.NoneType,cov_context$$builtins.NoneType,force_flaky$$builtins.bool,max_runs$$builtins.int,min_passes$$builtins.int,numprocesses$$builtins.NoneType,maxprocesses$$builtins.NoneType,maxworkerrestart$$builtins.NoneType,dist$$builtins.str,tx$$builtins.list,distload$$builtins.bool,rsyncdir$$builtins.list,rsyncignore$$builtins.list,testrunuid$$builtins.NoneType,maxschedchunk$$builtins.NoneType,looponfail$$builtins.bool,flaky_report$$builtins.bool,flaky_success_report$$builtins.bool,}'), 1)
+(('builtins.NoneType', '_pytest.assertion.rewrite.AssertionRewritingHook <*> {config$$_pytest.config.Config <*> {option$$argparse.Namespace <*> {keyword$$builtins.str,markexpr$$builtins.str,maxfail$$builtins.int,continue_on_collection_errors$$builtins.bool,confcutdir$$builtins.NoneType,noconftest$$builtins.bool,keepduplicates$$builtins.bool,collect_in_virtualenv$$builtins.bool,importmode$$builtins.str,basetemp$$builtins.NoneType,durations$$builtins.NoneType,durations_min$$builtins.float,version$$builtins.int,plugins$$builtins.list,traceconfig$$builtins.bool,showfixtures$$builtins.bool,show_fixtures_per_test$$builtins.bool,verbose$$builtins.int,no_header$$builtins.bool,no_summary$$builtins.bool,reportchars$$builtins.str,disable_warnings$$builtins.bool,showlocals$$builtins.bool,tbstyle$$builtins.str,showcapture$$builtins.str,fulltrace$$builtins.bool,color$$builtins.str,code_highlight$$builtins.str,capture$$builtins.str,runxfail$$builtins.bool,pastebin$$builtins.NoneType,assertmode$$builtins.str,xmlpath$$builtins.NoneType,junitprefix$$builtins.NoneType,doctestmodules$$builtins.bool,doctestreport$$builtins.str,doctestglob$$builtins.list,doctest_ignore_import_errors$$builtins.bool,doctest_continue_on_failure$$builtins.bool,last_failed_no_failures$$builtins.str,stepwise$$builtins.bool,stepwise_skip$$builtins.bool,},invocation_params$$_pytest.config.InvocationParams <*> {args$$builtins.tuple,plugins$$builtins.NoneType,dir$$pathlib.PosixPath <*> {},},_parser$$_pytest.config.argparsing.Parser <*> {_anonymous$$_pytest.config.argparsing.OptionGroup <*> {name$$builtins.str,description$$builtins.str,options$$builtins.list,parser$$_pytest.config.argparsing.Parser rec-ref,},_groups$$builtins.list,_processopt$$builtins.method,_usage$$builtins.str,_inidict$$builtins.dict,_ininames$$builtins.list,extra_info$$builtins.dict,},pluginmanager$$_pytest.config.PytestPluginManager <*> {project_name$$builtins.str,_name2plugin$$builtins.dict,_plugin2hookcallers$$builtins.dict,_plugin_distinfo$$builtins.list,trace$$pluggy._tracing.TagTracerSub <*> {root$$pluggy._tracing.TagTracer <*> {_tags2proc$$builtins.dict,_writer$$builtins.NoneType,indent$$builtins.int,},tags$$builtins.tuple,},_inner_hookexec$$builtins.function,_conftest_plugins$$builtins.set,_dirpath2confmods$$builtins.dict,_confcutdir$$builtins.NoneType,_noconftest$$builtins.bool,_get_directory$$functools.functools._lru_cache_wrapper <*> {cache_parameters$$builtins.function,__module__$$builtins.str,__name__$$builtins.str,__qualname__$$builtins.str,__doc__$$builtins.str,__annotations__$$builtins.dict,__wrapped__$$builtins.function,},_duplicatepaths$$builtins.set,skipped_plugins$$builtins.list,rewrite_hook$$_pytest.assertion.DummyRewriteHook <*> {},_configured$$builtins.bool,},stash$$_pytest.stash.Stash <*> {},_store$$_pytest.stash.Stash rec-ref,trace$$pluggy._tracing.TagTracerSub <*> {root$$pluggy._tracing.TagTracer rec-ref,tags$$builtins.tuple,},hook$$_pytest.config.compat.PathAwareHookProxy <*> {_PathAwareHookProxy__hook_caller$$pluggy._hooks._HookRelay rec-ref,pytest_addoption$$pluggy._hooks._HookCaller rec-ref,pytest_addhooks$$pluggy._hooks._HookCaller rec-ref,},_inicache$$builtins.dict,_override_ini$$builtins.tuple,_opt2dest$$builtins.dict,_cleanup$$builtins.list,_configured$$builtins.bool,_rootpath$$pathlib.PosixPath rec-ref,_inipath$$builtins.NoneType,inicfg$$builtins.dict,known_args_namespace$$argparse.Namespace <*> {keyword$$builtins.str,markexpr$$builtins.str,maxfail$$builtins.int,continue_on_collection_errors$$builtins.bool,confcutdir$$builtins.NoneType,noconftest$$builtins.bool,keepduplicates$$builtins.bool,collect_in_virtualenv$$builtins.bool,importmode$$builtins.str,basetemp$$builtins.NoneType,durations$$builtins.NoneType,durations_min$$builtins.float,version$$builtins.int,plugins$$builtins.list,traceconfig$$builtins.bool,showfixtures$$builtins.bool,show_fixtures_per_test$$builtins.bool,verbose$$builtins.int,no_header$$builtins.bool,no_summary$$builtins.bool,reportchars$$builtins.str,disable_warnings$$builtins.bool,showlocals$$builtins.bool,tbstyle$$builtins.str,showcapture$$builtins.str,fulltrace$$builtins.bool,color$$builtins.str,code_highlight$$builtins.str,capture$$builtins.str,runxfail$$builtins.bool,pastebin$$builtins.NoneType,assertmode$$builtins.str,xmlpath$$builtins.NoneType,junitprefix$$builtins.NoneType,doctestmodules$$builtins.bool,doctestreport$$builtins.str,doctestglob$$builtins.list,doctest_ignore_import_errors$$builtins.bool,doctest_continue_on_failure$$builtins.bool,last_failed_no_failures$$builtins.str,stepwise$$builtins.bool,stepwise_skip$$builtins.bool,markers$$builtins.bool,usepdb$$builtins.bool,usepdb_cls$$builtins.NoneType,trace$$builtins.bool,lf$$builtins.bool,failedfirst$$builtins.bool,newfirst$$builtins.bool,cacheshow$$builtins.NoneType,cacheclear$$builtins.bool,pythonwarnings$$builtins.NoneType,strict_config$$builtins.bool,strict_markers$$builtins.bool,strict$$builtins.bool,inifilename$$builtins.NoneType,rootdir$$builtins.NoneType,collectonly$$builtins.bool,pyargs$$builtins.bool,ignore$$builtins.NoneType,ignore_glob$$builtins.NoneType,deselect$$builtins.NoneType,help$$builtins.bool,debug$$builtins.NoneType,override_ini$$builtins.NoneType,setuponly$$builtins.bool,setupshow$$builtins.bool,setupplan$$builtins.bool,log_level$$builtins.NoneType,log_format$$builtins.NoneType,log_date_format$$builtins.NoneType,log_cli_level$$builtins.NoneType,log_cli_format$$builtins.NoneType,log_cli_date_format$$builtins.NoneType,log_file$$builtins.NoneType,log_file_level$$builtins.NoneType,log_file_format$$builtins.NoneType,log_file_date_format$$builtins.NoneType,log_auto_indent$$builtins.NoneType,file_or_dir$$builtins.list,},},fnpats$$builtins.list,session$$builtins.NoneType,_rewritten_names$$builtins.dict,_must_rewrite$$builtins.set,_writing_pyc$$builtins.bool,_basenames_to_check_rewrite$$builtins.set,_marked_for_rewrite_cache$$builtins.dict,_session_paths_checked$$builtins.bool,}'), 1)
+(('_pytest.main.Session <*> {keywords$$_pytest.mark.structures.NodeKeywords <*> {},own_markers$$builtins.list,extra_keyword_matches$$builtins.set,stash$$_pytest.stash.Stash <*> {},testsfailed$$builtins.int,testscollected$$builtins.int,shouldstop$$builtins.bool,shouldfail$$builtins.bool,trace$$pluggy._tracing.TagTracerSub <*> {root$$pluggy._tracing.TagTracer <*> {_tags2proc$$builtins.dict,_writer$$builtins.NoneType,indent$$builtins.int,},tags$$builtins.tuple,},_initialpaths$$builtins.frozenset,_bestrelpathcache$$_pytest.main._bestrelpath_cache <*> {},exitstatus$$_pytest.config.ExitCode <*> {_value_$$builtins.int,_name_$$builtins.str,__objclass__$$enum.EnumMeta <*> {_generate_next_value_$$builtins.function,__module__$$builtins.str,__doc__$$builtins.str,_member_names_$$builtins.list,_member_map_$$builtins.dict,_member_type_$$builtins.type,_value2member_map_$$builtins.dict,OK$$_pytest.config.ExitCode rec-ref,TESTS_FAILED$$_pytest.config.ExitCode <*> {_value_$$builtins.int,_name_$$builtins.str,__objclass__$$enum.EnumMeta rec-ref,},INTERRUPTED$$_pytest.config.ExitCode <*> {_value_$$builtins.int,_name_$$builtins.str,__objclass__$$enum.EnumMeta rec-ref,},INTERNAL_ERROR$$_pytest.config.ExitCode <*> {_value_$$builtins.int,_name_$$builtins.str,__objclass__$$enum.EnumMeta rec-ref,},USAGE_ERROR$$_pytest.config.ExitCode <*> {_value_$$builtins.int,_name_$$builtins.str,__objclass__$$enum.EnumMeta rec-ref,},NO_TESTS_COLLECTED$$_pytest.config.ExitCode <*> {_value_$$builtins.int,_name_$$builtins.str,__objclass__$$enum.EnumMeta rec-ref,},__new__$$builtins.function,},},_setupstate$$_pytest.runner.SetupState <*> {stack$$builtins.dict,},}', 'builtins.NoneType'), 1)
+(('builtins.NoneType', '_pytest.capture.MultiCapture <*> {in_$$_pytest.capture.FDCapture <*> {targetfd$$builtins.int,targetfd_invalid$$builtins.NoneType,targetfd_save$$builtins.int,tmpfile$$_io._io.TextIOWrapper <*> {mode$$builtins.str,},syscapture$$_pytest.capture.SysCapture <*> {_old$$_io._io.TextIOWrapper <*> {mode$$builtins.str,},name$$builtins.str,tmpfile$$_pytest.capture.DontReadFromInput <*> {},_state$$builtins.str,},_state$$builtins.str,},out$$_pytest.capture.FDCapture <*> {targetfd$$builtins.int,targetfd_invalid$$builtins.NoneType,targetfd_save$$builtins.int,tmpfile$$_pytest.capture.EncodedFile <*> {},syscapture$$_pytest.capture.SysCapture <*> {_old$$_io._io.TextIOWrapper <*> {mode$$builtins.str,},name$$builtins.str,tmpfile$$_pytest.capture.EncodedFile rec-ref,_state$$builtins.str,},_state$$builtins.str,},err$$_pytest.capture.FDCapture <*> {targetfd$$builtins.int,targetfd_invalid$$builtins.NoneType,targetfd_save$$builtins.int,tmpfile$$_pytest.capture.EncodedFile <*> {},syscapture$$_pytest.capture.SysCapture <*> {_old$$_io._io.TextIOWrapper <*> {mode$$builtins.str,},name$$builtins.str,tmpfile$$_pytest.capture.EncodedFile rec-ref,_state$$builtins.str,},_state$$builtins.str,},}'), 1)
+(('_pytest.capture.MultiCapture <*> {in_$$_pytest.capture.FDCapture <*> {targetfd$$builtins.int,targetfd_invalid$$builtins.NoneType,targetfd_save$$builtins.int,tmpfile$$_io._io.TextIOWrapper <*> {mode$$builtins.str,},syscapture$$_pytest.capture.SysCapture <*> {_old$$_io._io.TextIOWrapper <*> {mode$$builtins.str,},name$$builtins.str,tmpfile$$_pytest.capture.DontReadFromInput <*> {},_state$$builtins.str,},_state$$builtins.str,},out$$_pytest.capture.FDCapture <*> {targetfd$$builtins.int,targetfd_invalid$$builtins.NoneType,targetfd_save$$builtins.int,tmpfile$$_pytest.capture.EncodedFile <*> {},syscapture$$_pytest.capture.SysCapture <*> {_old$$_io._io.TextIOWrapper <*> {mode$$builtins.str,},name$$builtins.str,tmpfile$$_pytest.capture.EncodedFile rec-ref,_state$$builtins.str,},_state$$builtins.str,},err$$_pytest.capture.FDCapture <*> {targetfd$$builtins.int,targetfd_invalid$$builtins.NoneType,targetfd_save$$builtins.int,tmpfile$$_pytest.capture.EncodedFile <*> {},syscapture$$_pytest.capture.SysCapture <*> {_old$$_io._io.TextIOWrapper <*> {mode$$builtins.str,},name$$builtins.str,tmpfile$$_pytest.capture.EncodedFile rec-ref,_state$$builtins.str,},_state$$builtins.str,},}', 'builtins.NoneType'), 1)
+(('_pytest.config.ExitCode <*> {_value_$$builtins.int,_name_$$builtins.str,__objclass__$$enum.EnumMeta <*> {_generate_next_value_$$builtins.function,__module__$$builtins.str,__doc__$$builtins.str,_member_names_$$builtins.list,_member_map_$$builtins.dict,_member_type_$$builtins.type,_value2member_map_$$builtins.dict,OK$$_pytest.config.ExitCode rec-ref,TESTS_FAILED$$_pytest.config.ExitCode <*> {_value_$$builtins.int,_name_$$builtins.str,__objclass__$$enum.EnumMeta rec-ref,},INTERRUPTED$$_pytest.config.ExitCode <*> {_value_$$builtins.int,_name_$$builtins.str,__objclass__$$enum.EnumMeta rec-ref,},INTERNAL_ERROR$$_pytest.config.ExitCode <*> {_value_$$builtins.int,_name_$$builtins.str,__objclass__$$enum.EnumMeta rec-ref,},USAGE_ERROR$$_pytest.config.ExitCode <*> {_value_$$builtins.int,_name_$$builtins.str,__objclass__$$enum.EnumMeta rec-ref,},NO_TESTS_COLLECTED$$_pytest.config.ExitCode <*> {_value_$$builtins.int,_name_$$builtins.str,__objclass__$$enum.EnumMeta rec-ref,},__new__$$builtins.function,},}', 'builtins.int'), 1)
+(('builtins.NoneType', 'pathlib.PosixPath <*> {}'), 1)
+(('builtins.NoneType', 'builtins.list'), 1)
+(('builtins.NoneType', 'builtins.str'), 1)
+(('pathlib.PosixPath <*> {}', 'builtins.NoneType'), 1)
+(('builtins.NoneType', 'logging.Formatter <*> {_style$$logging.PercentStyle <*> {_fmt$$builtins.str,},_fmt$$builtins.str,datefmt$$builtins.str,}'), 1)
+(('_io._io.TextIOWrapper <*> {mode$$builtins.str,}', 'builtins.NoneType'), 1)
+(('builtins.NoneType', 'builtins.tuple'), 1)
+multiple dict: 0
+single dict: 0
+polymorphic class: 0.0
+{'_pytest.main.Session.exitstatus', '_pytest.logging.ColoredLevelFormatter._style', '_pytest.python.Function._request'}
+9
+2
+69 7 2
+156 3 0
+1
+1
+107
+209
+44 26 8
+0
+0
+0
+0
+0

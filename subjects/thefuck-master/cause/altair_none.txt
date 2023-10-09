@@ -1,0 +1,48 @@
+ /home/user/altair/altair/utils/schemapi.py-__call__-856
+altair.utils.schemapi._PropertySetter.obj
+        obj = self.obj.copy()
+{'altair.vegalite.v5.schema.channels.Angle', 'altair.vegalite.v5.schema.channels.RadiusDatum', 'altair.vegalite.v5.schema.channels.ThetaDatum', 'altair.vegalite.v5.schema.channels.Y', 'altair.vegalite.v5.schema.channels.Color', 'altair.vegalite.v5.schema.channels.Order', 'altair.vegalite.v5.schema.channels.Facet', 'missing', 'altair.vegalite.v5.schema.channels.X', 'altair.vegalite.v5.schema.channels.Opacity', 'altair.vegalite.v5.schema.channels.Fill', 'altair.vegalite.v5.schema.channels.Radius', 'altair.vegalite.v5.schema.channels.Size', 'altair.vegalite.v5.schema.channels.Column', 'altair.vegalite.v5.schema.channels.Shape', 'altair.vegalite.v5.schema.channels.Row', 'altair.vegalite.v5.schema.channels.Theta'}
+ /home/user/altair/altair/vegalite/v5/api.py-check_fields_and_encodings-294
+altair.vegalite.v5.api.Parameter.param
+            if field_name in getattr(parameter.param.select, prop):
+{'missing', 'altair.vegalite.v5.schema.core.SelectionParameter', 'altair.vegalite.v5.schema.core.VariableParameter'}
+ /home/user/altair/tests/vegalite/v5/test_api.py-test_selection-470
+altair.vegalite.v5.api.Parameter.param
+    assert interval.param.select.type == "interval"
+{'missing', 'altair.vegalite.v5.schema.core.SelectionParameter', 'altair.vegalite.v5.schema.core.VariableParameter'}
+ /home/user/altair/altair/vegalite/v5/api.py-condition-753
+altair.vegalite.v5.api.Parameter.param
+        if predicate.param_type == "selection" or predicate.param.expr is Undefined:
+{'missing', 'altair.vegalite.v5.schema.core.SelectionParameter', 'altair.vegalite.v5.schema.core.VariableParameter'}
+ /home/user/altair/tests/vegalite/v5/test_api.py-test_selection-478
+altair.vegalite.v5.api.Parameter.param
+    assert multi.param.select.type == "point"
+{'missing', 'altair.vegalite.v5.schema.core.SelectionParameter', 'altair.vegalite.v5.schema.core.VariableParameter'}
+ /home/user/altair/tests/vegalite/v5/test_params.py-test_selection_condition-157
+altair.vegalite.v5.api.Parameter.param
+    param_name = sel.param.name
+{'missing', 'altair.vegalite.v5.schema.core.SelectionParameter', 'altair.vegalite.v5.schema.core.VariableParameter'}
+ /home/user/altair/tests/vegalite/v5/test_params.py-test_parameter_naming-105
+altair.vegalite.v5.api.Parameter.param
+    assert prm.param.name == "some_name"
+{'missing', 'altair.vegalite.v5.schema.core.SelectionParameter', 'altair.vegalite.v5.schema.core.VariableParameter'}
+ /home/user/altair/tests/vegalite/v5/test_api.py-test_selection-474
+altair.vegalite.v5.api.Parameter.param
+    assert single.param.select.type == "point"
+{'missing', 'altair.vegalite.v5.schema.core.SelectionParameter', 'altair.vegalite.v5.schema.core.VariableParameter'}
+ /home/user/altair/tests/vegalite/v5/test_params.py-test_parameter_naming-116
+altair.vegalite.v5.api.Parameter.param
+    assert prm2.param.name == f"param_{num+2}"
+{'missing', 'altair.vegalite.v5.schema.core.SelectionParameter', 'altair.vegalite.v5.schema.core.VariableParameter'}
+ /home/user/altair/tests/vegalite/v5/test_params.py-test_parameter_naming-110
+altair.vegalite.v5.api.Parameter.param
+    res = re.match("param_([0-9]+)", prm0.param.name)
+{'missing', 'altair.vegalite.v5.schema.core.SelectionParameter', 'altair.vegalite.v5.schema.core.VariableParameter'}
+ /home/user/altair/tests/vegalite/v5/test_params.py-test_parameter_naming-115
+altair.vegalite.v5.api.Parameter.param
+    assert prm1.param.name == f"param_{num+1}"
+{'missing', 'altair.vegalite.v5.schema.core.SelectionParameter', 'altair.vegalite.v5.schema.core.VariableParameter'}
+ /home/user/altair/tests/vegalite/v5/test_params.py-test_selection_expression-126
+altair.vegalite.v5.api.SelectionExpression.expr
+    assert isinstance(se.expr, alt.expr.core.Expression)
+{'altair.expr.core.BinaryExpression', 'altair.expr.core.GetAttrExpression'}

@@ -1,0 +1,125 @@
+0
+0
+3
+0
+0
+225
+0
+0
+
+
+ /home/user/impacket/impacket/IP6_Address.py-__from_bytes-77
+
+0
+0
+1
+0
+
+ /home/user/impacket/impacket/ImpactPacket.py-contains-227
+ /home/user/impacket/impacket/ImpactDecoder.py-decode-258
+ /home/user/impacket/impacket/ImpactDecoder.py-set_decoded_protocol-46
+ /home/user/impacket/impacket/ImpactPacket.py-set_parent-232
+ /home/user/impacket/impacket/ImpactDecoder.py-decode-285
+ /home/user/impacket/impacket/ImpactDecoder.py-decode-169
+ /home/user/impacket/impacket/ImpactDecoder.py-decode-176
+ /home/user/impacket/impacket/ImpactDecoder.py-decode-163
+ /home/user/impacket/impacket/ImpactDecoder.py-decode-179
+
+
+0
+9
+0
+0
+extend
+{' /home/user/impacket/impacket/ImpactDecoder.py-decode-258', ' /home/user/impacket/impacket/ImpactDecoder.py-decode-285', ' /home/user/impacket/impacket/ImpactDecoder.py-decode-169', ' /home/user/impacket/impacket/ImpactDecoder.py-decode-176', ' /home/user/impacket/impacket/ImpactDecoder.py-decode-163', ' /home/user/impacket/impacket/ImpactDecoder.py-decode-179'}
+0.011678257446529327
+0.4175305078073744
+0.5707912347460963
+0.0
+0.3123861566484517
+0.0
+0.015482695810564663
+0.6721311475409836
+0.11
+0.34
+0.55
+0.0
+0.3888888888888889
+0.0
+0.16666666666666666
+0.4444444444444444
+defaultdict(<class 'int'>, {'builtins.function': 31, 'builtins.getset_descriptor': 58, 'builtins.member_descriptor': 0, 'builtins.property': 0, 'builtins.classmethod': 0, 'builtins.method_descriptor': 0, 'builtins.wrapper_descriptor': 0, 'builtins.classmethod_descriptor': 0, 'builtins.staticmethod': 0, 'functools.cached_property': 0, 'functools.functools._lru_cache_wrapper': 0, 'others': 0})
+defaultdict(<class 'int'>, {'builtins.member_descriptor': 0, 'builtins.property': 0, 'builtins.getset_descriptor': 0, 'builtins.function': 0, 'builtins.classmethod': 0, 'builtins.method_descriptor': 0, 'builtins.wrapper_descriptor': 0, 'builtins.classmethod_descriptor': 0, 'builtins.staticmethod': 0, 'functools.cached_property': 0, 'functools.functools._lru_cache_wrapper': 0, 'others': 0})
+6
+0
+0.0
+from none: 0.0
+to none: 0.0
+t1 == t2:  0.0
+t1 <: t2:  0.0
+t2 <: t1:  0.0
+t2 ~~ t1:  0.0
+normal mutation: 0.0
+from none class:  0.0
+to none class:  0.0
+t1 == t2 class:  0.0
+t1 <: t2 class:  0.0
+t2 <: t1 class:  0.0
+t2 ~~ t1 class:  0.0
+nromal class:  0.0
+dot syntax:  1.0
+hashmap syntax:  0.0
+reflection:  0.0
+??? syntax:  0.0
+dot syntax:  1.0
+hashmap syntax:  0.0
+reflection:  0.0
+??? syntax:  0.0
+[]
+[]
+union_cover1: 0
+manual_check2: 0
+union_cover1: 0
+manual_check2: 0
+wp: 0
+no_wp: 0
+trival_not_wp: 0
+clauses: 0
+exact: 0
+comp_succ: 0
+comp_fail: 0
+call: 0
+unary: 0
+related_literal: 0
+functioning_literal: 0
+set-descr object: 0.0
+set-descr class: 0.0
+extend object: 0.034552845528455285
+extend class: 0.08571428571428572
+override object: 0.3699186991869919
+override class: 0.4
+update object: 0.006097560975609756
+update class: 0.02857142857142857
+get-descr object: 0.10975609756097561
+get-descr class: 0.34285714285714286
+inherit object: 0.3475609756097561
+inherit class: 0.2
+del-descr object: 0.0
+del-descr class: 0.0
+remove object: 0.0
+remove class: 0.0
+abnormal object: 0.04065040650406504
+abnormal class: 0.11428571428571428
+abmonotonic object: 0.0
+abmonotonic class: 0.0
+(('array.array.array', 'builtins.list'), 3)
+multiple dict: 0
+single dict: 0
+polymorphic class: 0.22857142857142856
+set()
+dot overloading: 0.00024449877750611245
+static classes: 0.0
+0
+0
+0
+0

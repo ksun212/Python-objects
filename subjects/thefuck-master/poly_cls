@@ -1,0 +1,499 @@
+loguru._logger.Core
+[]
+['activation_list', 'activation_none', 'enabled', 'extra', 'handlers', 'handlers_count', 'levels', 'levels_ansi_codes', 'levels_lookup', 'lock', 'min_level', 'patcher']
+loguru._logger.Logger
+['_core', '_options']
+[]
+loguru._error_interceptor.ErrorInterceptor
+[]
+['_handler_id', '_should_catch']
+loguru._simple_sinks.StreamSink
+['_completable', '_flushable', '_stoppable', '_stream']
+[]
+loguru._colorizer.ColoredFormat
+[]
+['_messages_color_tokens', '_tokens']
+loguru._better_exceptions.ExceptionFormatter
+[]
+['_backtrace', '_cap_char', '_catch_point_identifier', '_colorize', '_diagnose', '_encoding', '_hidden_frames_filename', '_lib_dirs', '_max_length', '_pipe_char', '_prefix', '_syntax_highlighter', '_theme']
+loguru._better_exceptions.SyntaxHighlighter
+[]
+['_style']
+loguru._handler.Handler
+['_colorize', '_confirmation_event', '_confirmation_lock', '_decolorized_format', '_enqueue', '_error_interceptor', '_exception_formatter', '_filter', '_formatter', '_id', '_is_formatter_dynamic', '_levelno', '_levels_ansi_codes', '_lock', '_lock_acquired', '_memoize_dynamic_format', '_name', '_owner_process_pid', '_precolorized_formats', '_queue', '_serialize', '_sink', '_stopped', '_thread']
+[]
+loguru._simple_sinks.CallableSink
+['_function']
+[]
+loguru._file_sink.FileSink
+['_compression_function', '_file', '_file_dev', '_file_ino', '_file_path', '_glob_patterns', '_kwargs', '_path', '_retention_function', '_rotation_function', '_watch', 'encoding']
+['_glob_patterns', '_kwargs', '_path', '_retention_function', '_rotation_function', 'encoding']
+['_glob_patterns', '_kwargs', '_path', 'encoding']
+['_glob_patterns', '_kwargs', '_path', '_rotation_function', 'encoding']
+[]
+loguru._file_sink.FileDateFormatter
+['datetime']
+loguru._simple_sinks.AsyncSink
+[]
+['_error_interceptor', '_function', '_loop', '_tasks']
+loguru._simple_sinks.StandardSink
+['_handler']
+[]
+loguru._file_sink.RotationTime
+['_limit', '_step_forward', '_time_init']
+[]
+rich.console.Console
+['_color_system', '_emoji', '_emoji_variant', '_file', '_force_terminal', '_height', '_highlight', '_is_alt_screen', '_live', '_lock', '_log_render', '_markup', '_record_buffer', '_record_buffer_lock', '_render_hooks', '_thread_locals', '_width', 'get_datetime', 'get_time', 'highlighter', 'is_interactive', 'is_jupyter', 'legacy_windows', 'no_color', 'quiet', 'record', 'safe_box', 'soft_wrap', 'stderr', 'style', 'tab_size']
+['_color_system', '_emoji', '_emoji_variant', '_environ', '_file', '_force_terminal', '_height', '_highlight', '_is_alt_screen', '_live', '_lock', '_log_render', '_markup', '_record_buffer', '_record_buffer_lock', '_render_hooks', '_thread_locals', '_width', 'get_datetime', 'get_time', 'highlighter', 'is_interactive', 'is_jupyter', 'legacy_windows', 'no_color', 'quiet', 'record', 'safe_box', 'soft_wrap', 'stderr', 'style', 'tab_size']
+rich._log_render.LogRender
+['_last_time', 'level_width', 'omit_repeated_times', 'show_level', 'show_path', 'show_time', 'time_format']
+rich.logging.RichHandler
+['_log_render', '_name', 'console', 'enable_link_path', 'filters', 'formatter', 'highlighter', 'keywords', 'level', 'locals_max_length', 'locals_max_string', 'lock', 'markup', 'rich_tracebacks', 'tracebacks_extra_lines', 'tracebacks_show_locals', 'tracebacks_suppress', 'tracebacks_theme', 'tracebacks_width', 'tracebacks_word_wrap']
+['_log_render', '_name', 'console', 'enable_link_path', 'filters', 'formatter', 'handleError', 'highlighter', 'keywords', 'level', 'locals_max_length', 'locals_max_string', 'lock', 'markup', 'rich_tracebacks', 'tracebacks_extra_lines', 'tracebacks_show_locals', 'tracebacks_suppress', 'tracebacks_theme', 'tracebacks_width', 'tracebacks_word_wrap']
+rich.panel.Panel
+['border_style', 'box', 'expand', 'height', 'highlight', 'padding', 'renderable', 'safe_box', 'style', 'subtitle', 'subtitle_align', 'title', 'title_align', 'width']
+rich.align.Align
+['align', 'height', 'pad', 'renderable', 'style', 'vertical', 'width']
+[]
+rich.console.ConsoleOptions
+['encoding', 'height', 'highlight', 'is_terminal', 'justify', 'legacy_windows', 'markup', 'max_height', 'max_width', 'min_width', 'no_wrap', 'overflow', 'size']
+rich.constrain.Constrain
+['renderable', 'width']
+rich.console.Capture
+['_console', '_result']
+rich.progress_bar.ProgressBar
+['_pulse_segments', 'animation_time', 'complete_style', 'completed', 'finished_style', 'pulse', 'pulse_style', 'style', 'total', 'width']
+rich.bar.Bar
+['begin', 'end', 'size', 'style', 'width']
+rich.table.Table
+['_expand', '_padding', 'border_style', 'box', 'caption', 'caption_justify', 'caption_style', 'collapse_padding', 'columns', 'footer_style', 'header_style', 'highlight', 'leading', 'min_width', 'pad_edge', 'row_styles', 'rows', 'safe_box', 'show_edge', 'show_footer', 'show_header', 'show_lines', 'style', 'title', 'title_justify', 'title_style', 'width']
+rich.table.Column
+['_cells', '_index', 'footer', 'footer_style', 'header', 'header_style', 'justify', 'max_width', 'min_width', 'no_wrap', 'overflow', 'ratio', 'style', 'vertical', 'width']
+rich.table.Row
+['end_section', 'style']
+rich.console.Group
+['_render', '_renderables', 'fit']
+rich.syntax.Syntax
+['_lexer', '_stylized_ranges', '_theme', 'background_color', 'background_style', 'code', 'code_width', 'dedent', 'highlight_lines', 'indent_guides', 'line_numbers', 'line_range', 'padding', 'start_line', 'tab_size', 'word_wrap']
+rich.syntax.PygmentsSyntaxTheme
+['_background_color', '_background_style', '_pygments_style_class', '_style_cache']
+rich.pretty.Pretty
+['_object', 'expand_all', 'highlighter', 'indent_guides', 'indent_size', 'insert_line', 'justify', 'margin', 'max_depth', 'max_length', 'max_string', 'no_wrap', 'overflow']
+rich.markdown.Markdown
+['code_theme', 'hyperlinks', 'inline_code_lexer', 'inline_code_theme', 'justify', 'markup', 'parsed', 'style']
+rich.padding.Padding
+['bottom', 'expand', 'left', 'renderable', 'right', 'style', 'top']
+rich.pretty.Node
+['children', 'close_brace', 'empty', 'is_namedtuple', 'is_tuple', 'key_repr', 'last', 'open_brace', 'separator', 'value_repr']
+['children', 'close_brace', 'empty', 'is_namedtuple', 'is_tuple', 'key_repr', 'key_separator', 'last', 'open_brace', 'separator', 'value_repr']
+rich.pretty._Line
+['expanded', 'is_root', 'last', 'node', 'parent', 'suffix', 'text', 'whitespace']
+rich.markdown.MarkdownContext
+['_syntax', 'console', 'options', 'stack', 'style_stack']
+rich.markdown.ListElement
+['items', 'list_start', 'list_type']
+rich.rule.Rule
+['align', 'characters', 'end', 'style', 'title']
+[]
+rich.columns.Columns
+['align', 'column_first', 'equal', 'expand', 'padding', 'renderables', 'right_to_left', 'title', 'width']
+rich.styled.Styled
+['renderable', 'style']
+rich.status.Status
+['_live', '_spinner', 'speed', 'spinner_style', 'status']
+rich.spinner.Spinner
+['_update_speed', 'frame_no_offset', 'frames', 'interval', 'speed', 'start_time', 'style', 'text']
+[]
+rich.live.Live
+['_alt_screen', '_get_renderable', '_live_render', '_lock', '_redirect_stderr', '_redirect_stdout', '_refresh_thread', '_renderable', '_restore_stderr', '_restore_stdout', '_screen', '_started', 'auto_refresh', 'console', 'ipy_widget', 'refresh_per_second', 'transient', 'vertical_overflow']
+rich.live_render.LiveRender
+['_shape', 'renderable', 'style', 'vertical_overflow']
+rich.live._RefreshThread
+['_args', '_daemonic', '_ident', '_initialized', '_invoke_excepthook', '_is_stopped', '_kwargs', '_name', '_native_id', '_started', '_stderr', '_target', '_tstate_lock', 'done', 'live', 'refresh_per_second']
+rich.console.ScreenContext
+['_changed', 'console', 'hide_cursor', 'screen']
+rich.screen.Screen
+['application_mode', 'renderable', 'style']
+rich._inspect.Inspect
+['docs', 'dunder', 'help', 'highlighter', 'methods', 'obj', 'private', 'sort', 'title', 'value']
+rich.layout.Layout
+['_children', '_lock', '_render_map', '_renderable', 'minimum_size', 'name', 'ratio', 'size', 'splitter', 'visible']
+rich.tree.Tree
+['children', 'expanded', 'guide_style', 'hide_root', 'highlight', 'label', 'style']
+rich.traceback.Stack
+['exc_type', 'exc_value', 'frames', 'is_cause', 'syntax_error']
+rich.traceback.Frame
+['filename', 'line', 'lineno', 'locals', 'name']
+rich.traceback.Traceback
+[]
+['extra_lines', 'indent_guides', 'locals_max_length', 'locals_max_string', 'max_frames', 'show_locals', 'suppress', 'theme', 'trace', 'width', 'word_wrap']
+rich.console.ThemeContext
+['console', 'inherit', 'theme']
+rich.progress.BarColumn
+['_renderable_cache', '_table_column', '_update_time', 'bar_width', 'complete_style', 'finished_style', 'pulse_style', 'style']
+rich.progress.Task
+['_get_time', '_lock', '_progress', 'completed', 'description', 'fields', 'finished_speed', 'finished_time', 'id', 'start_time', 'total', 'visible']
+['_get_time', '_lock', '_progress', 'completed', 'description', 'fields', 'finished_speed', 'finished_time', 'id', 'start_time', 'stop_time', 'total', 'visible']
+['_get_time', '_lock', '_progress', 'completed', 'description', 'fields', 'finished_speed', 'finished_time', 'id', 'total', 'visible']
+rich.progress.TextColumn
+['_renderable_cache', '_table_column', '_update_time', 'highlighter', 'justify', 'markup', 'max_refresh', 'style', 'text_format']
+['_renderable_cache', '_table_column', '_update_time', 'highlighter', 'justify', 'markup', 'style', 'text_format']
+rich.progress.Progress
+['_lock', '_task_index', '_tasks', 'columns', 'disable', 'expand', 'get_time', 'live', 'log', 'print', 'speed_estimate_period']
+rich.progress._TrackThread
+['_args', '_daemonic', '_ident', '_initialized', '_invoke_excepthook', '_is_stopped', '_kwargs', '_name', '_native_id', '_started', '_stderr', '_target', '_tstate_lock', 'completed', 'done', 'progress', 'task_id', 'update_period']
+rich.progress._ReadContext
+['progress', 'reader']
+rich.prompt.Prompt
+['console', 'password', 'prompt', 'show_choices', 'show_default']
+['choices', 'console', 'password', 'prompt', 'show_choices', 'show_default']
+thefuck.types.Command
+['_script_parts', 'output', 'script']
+['output', 'script']
+[]
+thefuck.shells.generic.Generic
+[]
+['_get_version']
+thefuck.const._GenConst
+[]
+['_name']
+thefuck.utils.Cache
+[]
+['_db']
+thefuck.types.CorrectedCommand
+['priority', 'script', 'side_effect']
+thefuck.ui.CommandSelector
+['_commands_gen']
+['_commands', '_commands_gen', '_index', '_realised']
+requests.structures.CaseInsensitiveDict
+[]
+['_store']
+tests.test_requests.TestRequests
+[]
+['_patched_response']
+requests.cookies.RequestsCookieJar
+[]
+['_cookies', '_cookies_lock', '_now', '_policy']
+['_cookies', '_cookies_lock', '_policy']
+requests.sessions.Session
+['adapters', 'auth', 'cert', 'cookies', 'headers', 'hooks', 'max_redirects', 'params', 'proxies', 'stream', 'trust_env', 'verify']
+[]
+requests.adapters.HTTPAdapter
+['_pool_block', '_pool_connections', '_pool_maxsize', 'build_response', 'config', 'max_retries', 'poolmanager', 'proxy_manager']
+['_pool_block', '_pool_connections', '_pool_maxsize', 'config', 'max_retries', 'poolmanager', 'proxy_manager']
+requests.models.Request
+['auth', 'cookies', 'data', 'files', 'headers', 'hooks', 'json', 'method', 'params', 'url']
+requests.models.PreparedRequest
+['_body_position', '_cookies', 'body', 'headers', 'hooks', 'method', 'url']
+[]
+requests.cookies.MockRequest
+['_new_headers', '_r', 'type']
+requests.models.Response
+['_content', '_content_consumed', '_next', 'connection', 'cookies', 'elapsed', 'encoding', 'headers', 'history', 'raw', 'reason', 'request', 'status_code', 'url']
+['_content', '_content_consumed', '_next', 'cookies', 'elapsed', 'encoding', 'headers', 'history', 'raw', 'reason', 'request', 'status_code', 'url']
+['_content', '_content_consumed', '_next', 'connection', 'cookies', 'elapsed', 'encoding', 'headers', 'history', 'hook_working', 'raw', 'reason', 'request', 'status_code', 'url']
+[]
+requests.auth.HTTPBasicAuth
+['password', 'username']
+flask.cli.FlaskGroup
+['_loaded_plugin_commands', '_result_callback', 'add_help_option', 'callback', 'chain', 'commands', 'context_settings', 'create_app', 'deprecated', 'epilog', 'help', 'hidden', 'invoke_without_command', 'load_dotenv', 'name', 'no_args_is_help', 'options_metavar', 'params', 'set_debug_flag', 'short_help', 'subcommand_metavar']
+['__doc__', '_loaded_plugin_commands', '_result_callback', 'add_help_option', 'callback', 'chain', 'commands', 'context_settings', 'create_app', 'deprecated', 'epilog', 'help', 'hidden', 'invoke_without_command', 'load_dotenv', 'name', 'no_args_is_help', 'options_metavar', 'params', 'set_debug_flag', 'short_help', 'subcommand_metavar']
+flask.config.ConfigAttribute
+['__name__', 'get_converter']
+flask.app.Flask
+['_static_folder', '_static_url_path', 'after_request_funcs', 'before_request_funcs', 'cli', 'error_handler_spec', 'import_name', 'root_path', 'teardown_request_funcs', 'template_context_processors', 'template_folder', 'url_default_functions', 'url_value_preprocessors', 'view_functions']
+['_before_request_lock', '_got_first_request', '_static_folder', '_static_url_path', 'after_request_funcs', 'before_first_request_funcs', 'before_request_funcs', 'blueprints', 'cli', 'config', 'error_handler_spec', 'extensions', 'import_name', 'instance_path', 'jinja_env', 'name', 'root_path', 'shell_context_processors', 'subdomain_matching', 'teardown_appcontext_funcs', 'teardown_request_funcs', 'template_context_processors', 'template_folder', 'url_build_error_handlers', 'url_default_functions', 'url_map', 'url_value_preprocessors', 'view_functions']
+['_before_request_lock', '_got_first_request', '_static_folder', '_static_url_path', 'after_request_funcs', 'before_first_request_funcs', 'before_request_funcs', 'blueprints', 'cli', 'config', 'error_handler_spec', 'extensions', 'import_name', 'instance_path', 'logger', 'name', 'root_path', 'shell_context_processors', 'subdomain_matching', 'teardown_appcontext_funcs', 'teardown_request_funcs', 'template_context_processors', 'template_folder', 'url_build_error_handlers', 'url_default_functions', 'url_map', 'url_value_preprocessors', 'view_functions']
+['_before_request_lock', '_got_first_request', '_static_folder', '_static_url_path', 'after_request_funcs', 'before_first_request_funcs', 'before_request_funcs', 'blueprints', 'cli', 'config', 'error_handler_spec', 'extensions', 'import_name', 'instance_path', 'root_path', 'shell_context_processors', 'subdomain_matching', 'teardown_appcontext_funcs', 'teardown_request_funcs', 'template_context_processors', 'template_folder', 'url_build_error_handlers', 'url_default_functions', 'url_map', 'url_value_preprocessors', 'view_functions']
+['_before_request_lock', '_got_first_request', '_static_folder', '_static_url_path', 'after_request_funcs', 'before_first_request_funcs', 'before_request_funcs', 'blueprints', 'cli', 'config', 'error_handler_spec', 'extensions', 'import_name', 'instance_path', 'name', 'root_path', 'shell_context_processors', 'subdomain_matching', 'teardown_appcontext_funcs', 'teardown_request_funcs', 'template_context_processors', 'template_folder', 'url_build_error_handlers', 'url_default_functions', 'url_map', 'url_value_preprocessors', 'view_functions']
+['_before_request_lock', '_got_first_request', '_static_folder', '_static_url_path', 'after_request_funcs', 'before_first_request_funcs', 'before_request_funcs', 'blueprints', 'cli', 'config', 'error_handler_spec', 'extensions', 'import_name', 'instance_path', 'jinja_env', 'jinja_loader', 'name', 'root_path', 'shell_context_processors', 'subdomain_matching', 'teardown_appcontext_funcs', 'teardown_request_funcs', 'template_context_processors', 'template_folder', 'url_build_error_handlers', 'url_default_functions', 'url_map', 'url_value_preprocessors', 'view_functions']
+['_before_request_lock', '_got_first_request', '_static_folder', '_static_url_path', 'after_request_funcs', 'before_first_request_funcs', 'before_request_funcs', 'blueprints', 'cli', 'config', 'error_handler_spec', 'extensions', 'import_name', 'instance_path', 'jinja_env', 'jinja_loader', 'logger', 'name', 'root_path', 'shell_context_processors', 'subdomain_matching', 'teardown_appcontext_funcs', 'teardown_request_funcs', 'template_context_processors', 'template_folder', 'url_build_error_handlers', 'url_default_functions', 'url_map', 'url_value_preprocessors', 'view_functions']
+['_before_request_lock', '_got_first_request', '_static_folder', '_static_url_path', 'after_request_funcs', 'before_first_request_funcs', 'before_request_funcs', 'blueprints', 'cli', 'config', 'error_handler_spec', 'extensions', 'import_name', 'instance_path', 'name', 'root_path', 'session_interface', 'shell_context_processors', 'subdomain_matching', 'teardown_appcontext_funcs', 'teardown_request_funcs', 'template_context_processors', 'template_folder', 'url_build_error_handlers', 'url_default_functions', 'url_map', 'url_value_preprocessors', 'view_functions']
+flask.cli.AppGroup
+['_result_callback', 'add_help_option', 'callback', 'chain', 'commands', 'context_settings', 'deprecated', 'epilog', 'help', 'hidden', 'invoke_without_command', 'name', 'no_args_is_help', 'options_metavar', 'params', 'short_help', 'subcommand_metavar']
+['__doc__', '_result_callback', 'add_help_option', 'callback', 'chain', 'commands', 'context_settings', 'deprecated', 'epilog', 'help', 'hidden', 'invoke_without_command', 'name', 'no_args_is_help', 'options_metavar', 'params', 'short_help', 'subcommand_metavar']
+flask.templating.Environment
+['app', 'auto_reload', 'autoescape', 'block_end_string', 'block_start_string', 'bytecode_cache', 'cache', 'comment_end_string', 'comment_start_string', 'extensions', 'filters', 'finalize', 'globals', 'is_async', 'keep_trailing_newline', 'line_comment_prefix', 'line_statement_prefix', 'loader', 'lstrip_blocks', 'newline_sequence', 'optimized', 'policies', 'tests', 'trim_blocks', 'undefined', 'variable_end_string', 'variable_start_string']
+flask.templating.DispatchingJinjaLoader
+['app']
+flask.ctx.AppContext
+['_refcnt', 'app', 'g', 'url_adapter']
+flask.testing.EnvironBuilder
+['_args', '_files', '_form', '_input_stream', '_query_string', 'app', 'charset', 'closed', 'environ_base', 'environ_overrides', 'errors_stream', 'headers', 'host', 'method', 'multiprocess', 'multithread', 'path', 'request_uri', 'run_once', 'script_root', 'url_scheme']
+[]
+flask.ctx.RequestContext
+['_after_request_functions', '_implicit_app_ctx_stack', '_preserved_exc', 'app', 'flashes', 'preserved', 'request', 'session', 'url_adapter']
+flask.wrappers.Request
+['environ', 'headers', 'host', 'method', 'path', 'query_string', 'remote_addr', 'root_path', 'scheme', 'server', 'shallow', 'url']
+['base_url', 'cookies', 'environ', 'headers', 'host', 'method', 'path', 'query_string', 'remote_addr', 'root_path', 'routing_exception', 'scheme', 'server', 'shallow', 'url']
+['cookies', 'environ', 'headers', 'method', 'path', 'query_string', 'remote_addr', 'root_path', 'scheme', 'server', 'shallow', 'url_rule', 'view_args']
+['_parsed_content_type', 'content_length', 'cookies', 'environ', 'files', 'form', 'headers', 'host', 'method', 'path', 'query_string', 'remote_addr', 'root_path', 'scheme', 'server', 'shallow', 'stream', 'url', 'url_rule', 'view_args']
+['_cached_data', '_parsed_content_type', 'cookies', 'environ', 'headers', 'method', 'path', 'query_string', 'remote_addr', 'root_path', 'scheme', 'server', 'shallow', 'stream', 'url_rule', 'view_args']
+['cookies', 'environ', 'files', 'form', 'headers', 'method', 'path', 'query_string', 'remote_addr', 'root_path', 'scheme', 'server', 'shallow', 'stream', 'url_rule', 'view_args']
+['environ', 'headers', 'method', 'path', 'query_string', 'remote_addr', 'root_path', 'scheme', 'server', 'shallow', 'url_rule', 'view_args']
+['cookies', 'environ', 'headers', 'host', 'method', 'path', 'query_string', 'remote_addr', 'root_path', 'scheme', 'server', 'shallow', 'url', 'url_rule', 'view_args']
+['environ', 'headers', 'method', 'path', 'query_string', 'remote_addr', 'root_path', 'routing_exception', 'scheme', 'server', 'shallow']
+['cookies', 'environ', 'headers', 'method', 'path', 'query_string', 'remote_addr', 'root_path', 'routing_exception', 'scheme', 'server', 'shallow']
+['args', 'cookies', 'environ', 'headers', 'method', 'path', 'query_string', 'remote_addr', 'root_path', 'scheme', 'server', 'shallow', 'url_rule', 'view_args']
+['_parsed_content_type', 'content_length', 'cookies', 'environ', 'headers', 'method', 'path', 'query_string', 'remote_addr', 'root_path', 'scheme', 'server', 'shallow', 'stream', 'url_rule', 'view_args']
+['_parsed_content_type', 'cookies', 'environ', 'files', 'form', 'headers', 'method', 'path', 'query_string', 'remote_addr', 'root_path', 'scheme', 'server', 'shallow', 'stream', 'url_rule', 'view_args']
+['_parsed_content_type', 'args', 'content_length', 'cookies', 'environ', 'files', 'form', 'headers', 'method', 'path', 'query_string', 'remote_addr', 'root_path', 'scheme', 'server', 'shallow', 'stream', 'url_rule', 'view_args']
+['environ', 'headers', 'host', 'method', 'path', 'query_string', 'remote_addr', 'root_path', 'scheme', 'server', 'shallow', 'url', 'url_rule', 'view_args']
+['_parsed_content_type', 'content_length', 'cookies', 'environ', 'files', 'form', 'headers', 'method', 'path', 'query_string', 'remote_addr', 'root_path', 'scheme', 'server', 'shallow', 'stream', 'url_rule', 'view_args']
+['environ', 'headers', 'method', 'path', 'query_string', 'remote_addr', 'root_path', 'scheme', 'server', 'shallow']
+['_cached_data', '_cached_json', '_parsed_content_type', 'cookies', 'environ', 'headers', 'method', 'path', 'query_string', 'remote_addr', 'root_path', 'scheme', 'server', 'shallow', 'stream', 'url_rule', 'view_args']
+flask.json.JSONEncoder
+['allow_nan', 'check_circular', 'ensure_ascii', 'indent', 'item_separator', 'key_separator', 'skipkeys', 'sort_keys']
+['allow_nan', 'check_circular', 'ensure_ascii', 'indent', 'skipkeys', 'sort_keys']
+flask.testing.FlaskClient
+['allow_subdomain_redirects', 'application', 'cookie_jar', 'environ_base', 'preserve_context', 'response_wrapper']
+['allow_subdomain_redirects', 'application', 'cookie_jar', 'environ_base', 'response_wrapper']
+flask.wrappers.Response
+['_on_close', '_status', '_status_code', 'direct_passthrough', 'headers', 'response']
+flask.blueprints.Blueprint
+['_blueprints', '_static_folder', '_static_url_path', 'after_request_funcs', 'before_request_funcs', 'cli', 'cli_group', 'deferred_functions', 'error_handler_spec', 'import_name', 'name', 'root_path', 'subdomain', 'teardown_request_funcs', 'template_context_processors', 'template_folder', 'url_default_functions', 'url_prefix', 'url_value_preprocessors', 'url_values_defaults', 'view_functions']
+['_blueprints', '_got_registered_once', '_static_folder', '_static_url_path', 'after_request_funcs', 'before_request_funcs', 'cli', 'cli_group', 'deferred_functions', 'error_handler_spec', 'import_name', 'name', 'root_path', 'subdomain', 'teardown_request_funcs', 'template_context_processors', 'template_folder', 'url_default_functions', 'url_prefix', 'url_value_preprocessors', 'url_values_defaults', 'view_functions']
+['_blueprints', '_got_registered_once', '_static_folder', '_static_url_path', 'after_request_funcs', 'before_request_funcs', 'cli', 'cli_group', 'deferred_functions', 'error_handler_spec', 'import_name', 'jinja_loader', 'name', 'root_path', 'subdomain', 'teardown_request_funcs', 'template_context_processors', 'template_folder', 'url_default_functions', 'url_prefix', 'url_value_preprocessors', 'url_values_defaults', 'view_functions']
+['_static_folder', '_static_url_path', 'after_request_funcs', 'before_request_funcs', 'cli', 'error_handler_spec', 'import_name', 'root_path', 'teardown_request_funcs', 'template_context_processors', 'template_folder', 'url_default_functions', 'url_value_preprocessors', 'view_functions']
+['_blueprints', '_got_registered_once', '_static_folder', '_static_url_path', 'after_request_funcs', 'before_request_funcs', 'cli', 'cli_group', 'deferred_functions', 'error_handler_spec', 'import_name', 'json_decoder', 'json_encoder', 'name', 'root_path', 'subdomain', 'teardown_request_funcs', 'template_context_processors', 'template_folder', 'url_default_functions', 'url_prefix', 'url_value_preprocessors', 'url_values_defaults', 'view_functions']
+flask.blueprints.BlueprintSetupState
+['app', 'blueprint', 'first_registration', 'name', 'name_prefix', 'options', 'subdomain', 'url_defaults', 'url_prefix']
+flask.cli.ScriptInfo
+['_loaded_app', 'app_import_path', 'create_app', 'data', 'set_debug_flag']
+cookiecutter.environment.StrictEnvironment
+['auto_reload', 'autoescape', 'block_end_string', 'block_start_string', 'bytecode_cache', 'cache', 'comment_end_string', 'comment_start_string', 'datetime_format', 'extensions', 'filters', 'finalize', 'globals', 'is_async', 'keep_trailing_newline', 'line_comment_prefix', 'line_statement_prefix', 'loader', 'lstrip_blocks', 'newline_sequence', 'optimized', 'policies', 'tests', 'trim_blocks', 'undefined', 'variable_end_string', 'variable_start_string']
+['auto_reload', 'autoescape', 'block_end_string', 'block_start_string', 'bytecode_cache', 'cache', 'comment_end_string', 'comment_start_string', 'datetime_format', 'filters', 'finalize', 'globals', 'keep_trailing_newline', 'line_comment_prefix', 'line_statement_prefix', 'loader', 'lstrip_blocks', 'newline_sequence', 'optimized', 'policies', 'tests', 'trim_blocks', 'undefined', 'variable_end_string', 'variable_start_string']
+cookiecutter.main._patch_import_path_for_repo
+['_path', '_repo_dir']
+pyecharts.options.global_options.InitOpts
+[]
+['renderer']
+pyecharts.charts.basic_charts.bar.Bar
+['_chart_type', '_is_geo_chart', '_xaxis_data', 'chart_id', 'colors', 'height', 'js_dependencies', 'js_functions', 'js_host', 'options', 'page_title', 'renderer', 'theme', 'width']
+['_chart_type', '_is_geo_chart', '_xaxis_data', 'chart_id', 'colors', 'height', 'js_dependencies', 'js_functions', 'js_host', 'json_contents', 'options', 'page_title', 'renderer', 'tab_name', 'theme', 'width']
+['_chart_type', '_is_geo_chart', '_xaxis_data', 'chart_id', 'colors', 'dependencies', 'height', 'js_dependencies', 'js_functions', 'js_host', 'json_contents', 'options', 'page_title', 'renderer', 'theme', 'width']
+['_chart_type', '_is_geo_chart', '_xaxis_data', 'chart_id', 'colors', 'height', 'js_dependencies', 'js_functions', 'js_host', 'json_contents', 'options', 'page_title', 'renderer', 'theme', 'width']
+['_chart_type', '_is_geo_chart', '_xaxis_data', 'chart_id', 'colors', 'height', 'js_dependencies', 'js_functions', 'js_host', 'options', 'page_title', 'renderer', 'tab_name', 'theme', 'width']
+pyecharts.charts.basic_charts.bmap.BMap
+['_chart_type', '_coordinate_system', '_coordinates', '_is_geo_chart', '_is_ignore_nonexistent_coord', '_zlevel', 'bmap_js_functions', 'chart_id', 'colors', 'height', 'js_dependencies', 'js_functions', 'js_host', 'options', 'page_title', 'renderer', 'theme', 'width']
+['_chart_type', '_coordinate_system', '_coordinates', '_is_geo_chart', '_is_ignore_nonexistent_coord', '_zlevel', 'bmap_js_functions', 'chart_id', 'colors', 'dependencies', 'height', 'js_dependencies', 'js_functions', 'js_host', 'json_contents', 'options', 'page_title', 'renderer', 'theme', 'width']
+pyecharts.charts.basic_charts.geo.Geo
+['_chart_type', '_coordinate_system', '_coordinates', '_is_geo_chart', '_is_ignore_nonexistent_coord', '_zlevel', 'chart_id', 'colors', 'dependencies', 'height', 'js_dependencies', 'js_functions', 'js_host', 'json_contents', 'options', 'page_title', 'renderer', 'theme', 'width']
+['_chart_type', '_coordinate_system', '_coordinates', '_is_geo_chart', '_is_ignore_nonexistent_coord', '_zlevel', 'chart_id', 'colors', 'height', 'js_dependencies', 'js_functions', 'js_host', 'options', 'page_title', 'renderer', 'theme', 'width']
+pyecharts.charts.basic_charts.line.Line
+['_chart_type', '_is_geo_chart', '_xaxis_data', 'chart_id', 'colors', 'height', 'js_dependencies', 'js_functions', 'js_host', 'options', 'page_title', 'renderer', 'theme', 'width']
+['_chart_type', '_is_geo_chart', '_xaxis_data', 'chart_id', 'colors', 'height', 'js_dependencies', 'js_functions', 'js_host', 'json_contents', 'options', 'page_title', 'renderer', 'tab_name', 'theme', 'width']
+['_chart_type', '_is_geo_chart', '_xaxis_data', 'chart_id', 'colors', 'dependencies', 'height', 'js_dependencies', 'js_functions', 'js_host', 'json_contents', 'options', 'page_title', 'renderer', 'theme', 'width']
+['_chart_type', '_is_geo_chart', '_xaxis_data', 'chart_id', 'colors', 'height', 'js_dependencies', 'js_functions', 'js_host', 'json_contents', 'options', 'page_title', 'renderer', 'theme', 'width']
+['_chart_type', '_is_geo_chart', '_xaxis_data', 'chart_id', 'colors', 'height', 'js_dependencies', 'js_functions', 'js_host', 'options', 'page_title', 'renderer', 'tab_name', 'theme', 'width']
+pyecharts.charts.composite_charts.grid.Grid
+['_axis_index', '_grow_grid_index', '_is_geo_chart', 'bg_color', 'chart_id', 'dependencies', 'height', 'js_dependencies', 'js_functions', 'js_host', 'json_contents', 'options', 'page_title', 'renderer', 'theme', 'width']
+['_axis_index', '_grow_grid_index', '_is_geo_chart', 'bg_color', 'chart_id', 'height', 'js_dependencies', 'js_functions', 'js_host', 'options', 'page_title', 'renderer', 'theme', 'width']
+pyecharts.components.image.Image
+['_component_type', 'chart_id', 'html_content', 'js_dependencies', 'js_host', 'page_title', 'title_opts']
+['_component_type', 'chart_id', 'dependencies', 'html_content', 'js_dependencies', 'js_host', 'page_title', 'title_opts']
+pyecharts.charts.basic_charts.liquid.Liquid
+['_chart_type', '_is_geo_chart', 'chart_id', 'colors', 'dependencies', 'height', 'js_dependencies', 'js_functions', 'js_host', 'json_contents', 'options', 'page_title', 'renderer', 'theme', 'width']
+['_chart_type', '_is_geo_chart', 'chart_id', 'colors', 'height', 'js_dependencies', 'js_functions', 'js_host', 'options', 'page_title', 'renderer', 'theme', 'width']
+pyecharts.charts.basic_charts.map.Map
+['_chart_type', '_is_geo_chart', 'chart_id', 'colors', 'dependencies', 'height', 'js_dependencies', 'js_functions', 'js_host', 'json_contents', 'options', 'page_title', 'renderer', 'theme', 'width']
+['_chart_type', '_is_geo_chart', 'chart_id', 'colors', 'height', 'js_dependencies', 'js_functions', 'js_host', 'options', 'page_title', 'renderer', 'theme', 'width']
+pyecharts.charts.three_axis_charts.map_globe.MapGlobe
+['_3d_chart_type', '_chart_type', '_is_geo_chart', 'chart_id', 'colors', 'dependencies', 'height', 'js_dependencies', 'js_functions', 'js_host', 'json_contents', 'options', 'page_title', 'renderer', 'theme', 'width']
+['_3d_chart_type', '_chart_type', '_is_geo_chart', 'chart_id', 'colors', 'height', 'js_dependencies', 'js_functions', 'js_host', 'json_contents', 'options', 'page_title', 'renderer', 'theme', 'width']
+pyecharts.charts.composite_charts.page.Page
+['_charts', 'dependencies', 'download_button', 'js_dependencies', 'js_functions', 'js_host', 'layout', 'page_interval', 'page_title']
+['_charts', 'css_libs', 'dependencies', 'download_button', 'js_dependencies', 'js_functions', 'js_host', 'layout', 'page_interval', 'page_title']
+['_charts', 'download_button', 'js_dependencies', 'js_functions', 'js_host', 'layout', 'page_interval', 'page_title']
+pyecharts.components.table.Table
+['_component_type', 'chart_id', 'html_content', 'js_dependencies', 'js_functions', 'js_host', 'page_title', 'title_opts']
+['_component_type', 'chart_id', 'html_content', 'js_dependencies', 'js_functions', 'js_host', 'page_title', 'tab_name', 'title_opts']
+['_component_type', 'chart_id', 'dependencies', 'html_content', 'js_dependencies', 'js_functions', 'js_host', 'page_title', 'title_opts']
+pyecharts.charts.composite_charts.tab.Tab
+['_charts', 'dependencies', 'download_button', 'js_dependencies', 'js_functions', 'js_host', 'page_title']
+['_charts', 'download_button', 'js_dependencies', 'js_functions', 'js_host', 'page_title']
+thefuck.types.Command
+['_script_parts', 'output', 'script']
+['output', 'script']
+[]
+thefuck.shells.generic.Generic
+[]
+['_get_version']
+thefuck.const._GenConst
+[]
+['_name']
+thefuck.utils.Cache
+[]
+['_db']
+thefuck.types.CorrectedCommand
+['priority', 'script', 'side_effect']
+thefuck.ui.CommandSelector
+['_commands_gen']
+['_commands', '_commands_gen', '_index', '_realised']
+networkx.classes.graph.Graph
+['_adj', '_node', 'adj', 'graph']
+['_adj', '_node', 'adj', 'graph', 'nodes']
+['_adj', '_node', 'adj', 'degree', 'edges', 'graph']
+['_EDGE_OK', '_NODE_OK', '_adj', '_graph', '_node', 'add_edge', 'add_edges_from', 'add_node', 'add_nodes_from', 'add_weighted_edges_from', 'adj', 'clear', 'clear_edges', 'edges', 'frozen', 'graph', 'remove_edge', 'remove_edges_from', 'remove_node', 'remove_nodes_from']
+['_adj', '_node', 'degree', 'graph', 'nodes']
+['_adj', '_node', 'adj', 'edges', 'graph']
+['_EDGE_OK', '_NODE_OK', '_adj', '_graph', '_node', 'add_edge', 'add_edges_from', 'add_node', 'add_nodes_from', 'add_weighted_edges_from', 'clear', 'clear_edges', 'frozen', 'graph', 'remove_edge', 'remove_edges_from', 'remove_node', 'remove_nodes_from']
+['_adj', '_node', 'edges', 'graph']
+['_adj', '_node', 'degree', 'edges', 'graph', 'nodes']
+['_adj', '_node', 'graph']
+['_adj', '_node', 'degree', 'edges', 'graph']
+['_adj', '_node', 'graph', 'nodes']
+['_adj', '_node', 'adj', 'degree', 'edges', 'graph', 'nodes']
+['_adj', '_node', 'adj', 'edges', 'graph', 'nodes']
+['_adj', '_node', 'adj', 'degree', 'graph', 'nodes']
+['_adj', '_node', 'edges', 'graph', 'nodes']
+['_adj', '_node', 'degree', 'graph']
+networkx.classes.digraph.DiGraph
+['_adj', '_node', '_pred', '_succ', 'adj', 'degree', 'edges', 'graph', 'succ']
+['_adj', '_node', '_pred', '_succ', 'adj', 'edges', 'graph', 'in_edges', 'nodes', 'pred', 'succ']
+['_adj', '_node', '_pred', '_succ', 'degree', 'edges', 'graph', 'nodes', 'succ']
+['_adj', '_node', '_pred', '_succ', 'adj', 'degree', 'graph', 'nodes', 'pred']
+['_EDGE_OK', '_NODE_OK', '_adj', '_graph', '_node', '_pred', '_succ', 'add_edge', 'add_edges_from', 'add_node', 'add_nodes_from', 'add_weighted_edges_from', 'clear', 'clear_edges', 'edges', 'frozen', 'graph', 'remove_edge', 'remove_edges_from', 'remove_node', 'remove_nodes_from', 'succ']
+['_adj', '_node', '_pred', '_succ', 'adj', 'graph', 'nodes']
+['_adj', '_node', '_pred', '_succ', 'adj', 'degree', 'edges', 'graph', 'nodes', 'pred', 'succ']
+['_adj', '_node', '_pred', '_succ', 'degree', 'edges', 'graph', 'succ']
+['_adj', '_node', '_pred', '_succ', 'graph']
+['_adj', '_node', '_pred', '_succ', 'edges', 'graph', 'nodes', 'succ']
+['_adj', '_node', '_pred', '_succ', 'adj', 'graph', 'in_degree']
+['_adj', '_node', '_pred', '_succ', 'adj', 'edges', 'graph', 'succ']
+['_adj', '_node', '_pred', '_succ', 'edges', 'graph', 'succ']
+['_adj', '_node', '_pred', '_succ', 'adj', 'edges', 'graph', 'nodes', 'succ']
+networkx.tests.test_convert_numpy.TestConvertNumpyArray
+[]
+['G1', 'G2', 'G3', 'G4']
+networkx.tests.test_convert_scipy.TestConvertScipy
+[]
+['G1', 'G2', 'G3', 'G4']
+networkx.classes.multigraph.MultiGraph
+['_adj', '_node', 'degree', 'edges', 'graph']
+['_adj', '_node', 'adj', 'edges', 'graph', 'nodes']
+['_adj', '_node', 'adj', 'degree', 'graph']
+['_adj', '_node', 'adj', 'graph']
+['_adj', '_node', 'adj', 'edges', 'graph']
+['_EDGE_OK', '_NODE_OK', '_adj', '_graph', '_node', 'add_edge', 'add_edges_from', 'add_node', 'add_nodes_from', 'add_weighted_edges_from', 'clear', 'clear_edges', 'frozen', 'graph', 'remove_edge', 'remove_edges_from', 'remove_node', 'remove_nodes_from']
+['_adj', '_node', 'adj', 'graph', 'nodes']
+['_adj', '_node', 'edges', 'graph', 'nodes']
+['_adj', '_node', 'graph']
+['_adj', '_node', 'degree', 'graph']
+['_adj', '_node', 'adj', 'degree', 'edges', 'graph']
+networkx.classes.multidigraph.MultiDiGraph
+['_adj', '_node', '_pred', '_succ', 'adj', 'graph']
+['_adj', '_node', '_pred', '_succ', 'degree', 'edges', 'graph', 'succ']
+['_adj', '_node', '_pred', '_succ', 'adj', 'graph', 'nodes']
+['_adj', '_node', '_pred', '_succ', 'adj', 'edges', 'graph', 'in_edges', 'nodes', 'pred', 'succ']
+['_adj', '_node', '_pred', '_succ', 'adj', 'edges', 'graph', 'nodes', 'succ']
+['_adj', '_node', '_pred', '_succ', 'adj', 'degree', 'graph']
+networkx.classes.reportviews.DegreeView
+['_graph', '_nodes', '_pred', '_succ', '_weight']
+networkx.classes.reportviews.DiDegreeView
+['_graph', '_nodes', '_pred', '_succ', '_weight']
+networkx.classes.coreviews.FilterAtlas
+['NODE_OK', '_atlas']
+networkx.classes.reportviews.MultiDegreeView
+['_graph', '_nodes', '_pred', '_succ', '_weight']
+networkx.classes.reportviews.DiMultiDegreeView
+['_graph', '_nodes', '_pred', '_succ', '_weight']
+networkx.algorithms.isomorphism.vf2userfunc.GraphMatcher
+['G1', 'G1_adj', 'G1_nodes', 'G2', 'G2_adj', 'G2_node_order', 'G2_nodes', 'core_1', 'core_2', 'edge_match', 'inout_1', 'inout_2', 'mapping', 'node_match', 'old_recursion_limit', 'state', 'test']
+networkx.algorithms.isomorphism.isomorphvf2.GMState
+['G1_node', 'G2_node', 'GM', 'depth']
+networkx.algorithms.isomorphism.vf2userfunc.DiGraphMatcher
+['G1', 'G1_adj', 'G1_nodes', 'G2', 'G2_adj', 'G2_node_order', 'G2_nodes', 'core_1', 'core_2', 'edge_match', 'in_1', 'in_2', 'mapping', 'node_match', 'old_recursion_limit', 'out_1', 'out_2', 'state', 'test']
+networkx.algorithms.isomorphism.isomorphvf2.DiGMState
+['G1_node', 'G2_node', 'GM', 'depth']
+click.core.Option
+['_custom_shell_complete', '_flag_needs_value', 'allow_from_autoenv', 'callback', 'confirmation_prompt', 'count', 'default', 'envvar', 'expose_value', 'flag_value', 'help', 'hidden', 'hide_input', 'is_bool_flag', 'is_eager', 'is_flag', 'metavar', 'multiple', 'name', 'nargs', 'opts', 'prompt', 'prompt_required', 'required', 'secondary_opts', 'show_choices', 'show_default', 'show_envvar', 'type']
+['_custom_shell_complete', 'callback', 'default', 'envvar', 'expose_value', 'is_eager', 'metavar', 'multiple', 'name', 'nargs', 'opts', 'required', 'secondary_opts', 'type']
+[]
+click.types.Path
+['allow_dash', 'dir_okay', 'executable', 'exists', 'file_okay', 'name', 'readable', 'resolve_path', 'type', 'writable']
+click.core.Command
+['__doc__', 'add_help_option', 'callback', 'context_settings', 'deprecated', 'epilog', 'help', 'hidden', 'name', 'no_args_is_help', 'options_metavar', 'params', 'short_help']
+['add_help_option', 'callback', 'context_settings', 'deprecated', 'epilog', 'help', 'hidden', 'name', 'no_args_is_help', 'options_metavar', 'params', 'short_help']
+click.types.Choice
+['case_sensitive', 'choices']
+click.core.Argument
+['_custom_shell_complete', 'callback', 'default', 'envvar', 'expose_value', 'is_eager', 'metavar', 'multiple', 'name', 'nargs', 'opts', 'required', 'secondary_opts', 'type']
+[]
+click.core.Group
+['_result_callback', 'add_help_option', 'callback', 'chain', 'context_settings', 'deprecated', 'epilog', 'help', 'hidden', 'invoke_without_command', 'name', 'no_args_is_help', 'options_metavar', 'params', 'short_help', 'subcommand_metavar']
+['__doc__', '_result_callback', 'add_help_option', 'callback', 'chain', 'commands', 'context_settings', 'deprecated', 'epilog', 'help', 'hidden', 'invoke_without_command', 'name', 'no_args_is_help', 'options_metavar', 'params', 'short_help', 'subcommand_metavar']
+['_result_callback', 'add_help_option', 'callback', 'chain', 'commands', 'context_settings', 'deprecated', 'epilog', 'help', 'hidden', 'invoke_without_command', 'name', 'no_args_is_help', 'options_metavar', 'params', 'short_help', 'subcommand_metavar']
+click.types.IntRange
+['clamp', 'max', 'max_open', 'min', 'min_open']
+click.types.FloatRange
+['clamp', 'max', 'max_open', 'min', 'min_open']
+click.types.File
+['atomic', 'encoding', 'errors', 'lazy', 'mode']
+click.core.Context
+['_close_callbacks', '_depth', '_exit_stack', '_meta', '_opt_prefixes', '_parameter_source', 'allow_extra_args', 'allow_interspersed_args', 'args', 'auto_envvar_prefix', 'color', 'command', 'default_map', 'help_option_names', 'ignore_unknown_options', 'info_name', 'invoked_subcommand', 'max_content_width', 'obj', 'params', 'parent', 'protected_args', 'resilient_parsing', 'show_default', 'terminal_width', 'token_normalize_func']
+click.parser.OptionParser
+['_args', '_long_opt', '_opt_prefixes', '_short_opt', 'allow_interspersed_args', 'ctx', 'ignore_unknown_options']
+click.parser.Argument
+['dest', 'nargs', 'obj']
+click.parser.Option
+['_long_opts', '_short_opts', 'action', 'const', 'dest', 'nargs', 'obj', 'prefixes']
+click.testing.Result
+['exc_info', 'exception', 'exit_code', 'return_value', 'runner', 'stderr_bytes', 'stdout_bytes']
+click.utils.LazyFile
+['_f', 'atomic', 'encoding', 'errors', 'mode', 'name', 'should_close']
+click._compat._AtomicFile
+['_f', '_real_filename', '_tmp_filename', 'closed']
+click.shell_completion.ShellComplete
+['cli', 'complete_var', 'ctx_args', 'prog_name']
+click.shell_completion.BashComplete
+['cli', 'complete_var', 'ctx_args', 'prog_name']
+click._termui_impl.ProgressBar
+['_completed_intervals', '_last_line', 'autowidth', 'avg', 'bar_template', 'color', 'current_item', 'empty_char', 'entered', 'eta_known', 'file', 'fill_char', 'finished', 'info_sep', 'is_hidden', 'item_show_func', 'iter', 'label', 'last_eta', 'length', 'max_width', 'pos', 'show_eta', 'show_percent', 'show_pos', 'start', 'update_min_steps', 'width']
+['_completed_intervals', 'autowidth', 'bar_template', 'color', 'empty_char', 'file', 'fill_char', 'info_sep', 'item_show_func', 'label', 'show_eta', 'show_percent', 'show_pos', 'update_min_steps', 'width']
+click.utils.KeepOpenFile
+['_file']
+loguru._logger.Core
+[]
+['activation_list', 'activation_none', 'enabled', 'extra', 'handlers', 'handlers_count', 'levels', 'levels_ansi_codes', 'levels_lookup', 'lock', 'min_level', 'patcher']
+loguru._logger.Logger
+['_core', '_options']
+[]
+loguru._error_interceptor.ErrorInterceptor
+[]
+['_handler_id', '_should_catch']
+loguru._simple_sinks.StreamSink
+['_completable', '_flushable', '_stoppable', '_stream']
+[]
+loguru._colorizer.ColoredFormat
+['_messages_color_tokens', '_tokens']
+[]
+loguru._better_exceptions.ExceptionFormatter
+[]
+['_backtrace', '_cap_char', '_catch_point_identifier', '_colorize', '_diagnose', '_encoding', '_hidden_frames_filename', '_lib_dirs', '_max_length', '_pipe_char', '_prefix', '_syntax_highlighter', '_theme']
+loguru._better_exceptions.SyntaxHighlighter
+[]
+['_style']
+loguru._handler.Handler
+['_colorize', '_confirmation_event', '_confirmation_lock', '_decolorized_format', '_enqueue', '_error_interceptor', '_exception_formatter', '_filter', '_formatter', '_id', '_is_formatter_dynamic', '_levelno', '_levels_ansi_codes', '_lock', '_lock_acquired', '_memoize_dynamic_format', '_name', '_owner_process_pid', '_precolorized_formats', '_queue', '_serialize', '_sink', '_stopped', '_thread']
+[]
+loguru._simple_sinks.CallableSink
+['_function']
+[]
+loguru._file_sink.FileSink
+['_compression_function', '_file', '_file_dev', '_file_ino', '_file_path', '_glob_patterns', '_kwargs', '_path', '_retention_function', '_rotation_function', '_watch', 'encoding']
+['_glob_patterns', '_kwargs', '_path', '_rotation_function', 'encoding']
+['_glob_patterns', '_kwargs', '_path', '_retention_function', '_rotation_function', 'encoding']
+['_glob_patterns', '_kwargs', '_path', 'encoding']
+[]
+loguru._file_sink.FileDateFormatter
+['datetime']
+loguru._simple_sinks.AsyncSink
+[]
+['_error_interceptor', '_function', '_loop', '_tasks']
+loguru._simple_sinks.StandardSink
+['_handler']
+[]
+loguru._file_sink.RotationTime
+['_limit', '_step_forward', '_time_init']
+[]

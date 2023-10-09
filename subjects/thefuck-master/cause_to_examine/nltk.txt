@@ -1,0 +1,4 @@
+nltk.toolbox.StandardFormat._file
+{'_io._io.TextIOWrapper', '_io._io.StringIO', 'missing'}
+ /home/user/nltk/nltk/toolbox.py-close-134
+        self._file.close()

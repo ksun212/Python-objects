@@ -1,0 +1,12 @@
+routersploit.modules.exploits.generic.heartbleed.Exploit.tcp_client
+{'routersploit.core.tcp.tcp_client.TCPCli'}
+ /home/user/routersploit/routersploit/modules/exploits/generic/heartbleed.py-establish_connect-203
+        self.tcp_client.send(data)
+routersploit.modules.exploits.generic.heartbleed.Exploit.tcp_client
+{'routersploit.core.tcp.tcp_client.TCPCli'}
+ /home/user/routersploit/routersploit/modules/exploits/generic/heartbleed.py-establish_connect-199
+        self.tcp_client.connect()
+
+
+check: 1
+safe: 1

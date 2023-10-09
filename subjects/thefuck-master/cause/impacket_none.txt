@@ -1,0 +1,24 @@
+ /home/user/impacket/impacket/ImpactDecoder.py-decode-259
+impacket.ImpactDecoder.ICMP6Decoder.data_decoder
+        child_packet = self.data_decoder.decode(buffer[start_pos:])
+{'missing', 'impacket.ImpactDecoder.DataDecoder'}
+ /home/user/impacket/impacket/ImpactDecoder.py-decode-164
+impacket.ImpactDecoder.IP6MultiProtocolDecoder.udp_decoder
+            packet = self.udp_decoder.decode(buffer)
+{'impacket.ImpactDecoder.UDPDecoder', 'missing'}
+ /home/user/impacket/impacket/ImpactDecoder.py-decode-177
+impacket.ImpactDecoder.IP6MultiProtocolDecoder.extension_header_decoder
+                packet = self.extension_header_decoder.decode(buffer)
+{'impacket.ImpactDecoder.HopByHopDecoder', 'impacket.ImpactDecoder.DestinationOptionsDecoder', 'impacket.ImpactDecoder.RoutingOptionsDecoder', 'missing'}
+ /home/user/impacket/impacket/ImpactDecoder.py-decode-170
+impacket.ImpactDecoder.IP6MultiProtocolDecoder.icmp6_decoder
+            packet = self.icmp6_decoder.decode(buffer)
+{'impacket.ImpactDecoder.ICMP6Decoder', 'missing'}
+ /home/user/impacket/impacket/ImpactDecoder.py-decode-180
+impacket.ImpactDecoder.IP6MultiProtocolDecoder.data_decoder
+                packet = self.data_decoder.decode(buffer)
+{'missing', 'impacket.ImpactDecoder.DataDecoder'}
+ /home/user/impacket/impacket/ImpactDecoder.py-decode-286
+impacket.ImpactDecoder.UDPDecoder.data_decoder
+        packet = self.data_decoder.decode(aBuffer[off:])
+{'missing', 'impacket.ImpactDecoder.DataDecoder'}

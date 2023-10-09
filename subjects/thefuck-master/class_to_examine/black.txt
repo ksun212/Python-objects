@@ -1,0 +1,9 @@
+black_blib2to3.pgen2.grammar.Grammar
+black_blib2to3.pygram._python_symbols
+black_blib2to3.pygram._pattern_symbols
+black.mode.Mode
+black.report.Report
+black_blib2to3.pgen2.driver.Driver
+black_blib2to3.pgen2.driver.TokenProxy
+black.comments.ProtoComment
+black.linegen.rhs

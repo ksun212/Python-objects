@@ -1,0 +1,11 @@
+sklearn._loss.link.Interval.low
+{'builtins.int', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/_loss/link.py-__post_init__-24
+        if self.low > self.high:
+sklearn._loss.link.Interval.high
+{'builtins.int', 'builtins.float'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/_loss/link.py-__post_init__-24
+        if self.low > self.high:
+
+check: 2
+safe: 2

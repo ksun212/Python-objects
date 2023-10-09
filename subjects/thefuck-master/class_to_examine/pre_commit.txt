@@ -1,0 +1,2 @@
+pre_commit.logging_handler.LoggingHandler
+pre_commit.commands.run.Classifier

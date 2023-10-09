@@ -1,0 +1,8 @@
+defaultdict(<class 'int'>, {0: 91440})
+[(0, 91440)]
+dang object 4: 0.0
+dang abnormal 4: 0.0
+dang object 5: 0.0
+dang abnormal 5: 0.0
+dang object 6: 0.0
+dang abnormal 6: 0.0

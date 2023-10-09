@@ -1,0 +1,44 @@
+loguru._logger.Core
+[]
+['activation_list', 'activation_none', 'enabled', 'extra', 'handlers', 'handlers_count', 'levels', 'levels_ansi_codes', 'levels_lookup', 'lock', 'min_level', 'patcher']
+loguru._logger.Logger
+[]
+['_core', '_options']
+loguru._error_interceptor.ErrorInterceptor
+[]
+['_handler_id', '_should_catch']
+loguru._simple_sinks.StreamSink
+['_completable', '_flushable', '_stoppable', '_stream']
+[]
+loguru._colorizer.ColoredFormat
+[]
+['_messages_color_tokens', '_tokens']
+loguru._better_exceptions.ExceptionFormatter
+[]
+['_backtrace', '_cap_char', '_catch_point_identifier', '_colorize', '_diagnose', '_encoding', '_hidden_frames_filename', '_lib_dirs', '_max_length', '_pipe_char', '_prefix', '_syntax_highlighter', '_theme']
+loguru._better_exceptions.SyntaxHighlighter
+[]
+['_style']
+loguru._handler.Handler
+['_colorize', '_confirmation_event', '_confirmation_lock', '_decolorized_format', '_enqueue', '_error_interceptor', '_exception_formatter', '_filter', '_formatter', '_id', '_is_formatter_dynamic', '_levelno', '_levels_ansi_codes', '_lock', '_lock_acquired', '_memoize_dynamic_format', '_name', '_owner_process_pid', '_precolorized_formats', '_queue', '_serialize', '_sink', '_stopped', '_thread']
+[]
+loguru._simple_sinks.CallableSink
+['_function']
+[]
+loguru._file_sink.FileSink
+['_compression_function', '_file', '_file_dev', '_file_ino', '_file_path', '_glob_patterns', '_kwargs', '_path', '_retention_function', '_rotation_function', '_watch', 'encoding']
+['_glob_patterns', '_kwargs', '_path', 'encoding']
+['_glob_patterns', '_kwargs', '_path', '_retention_function', '_rotation_function', 'encoding']
+['_glob_patterns', '_kwargs', '_path', '_rotation_function', 'encoding']
+[]
+loguru._file_sink.FileDateFormatter
+['datetime']
+loguru._simple_sinks.AsyncSink
+[]
+['_error_interceptor', '_function', '_loop', '_tasks']
+loguru._simple_sinks.StandardSink
+['_handler']
+[]
+loguru._file_sink.RotationTime
+['_limit', '_step_forward', '_time_init']
+[]

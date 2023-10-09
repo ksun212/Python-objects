@@ -1,0 +1,8 @@
+pypdf.generic._fit.Fit
+pypdf.pagerange.PageRange
+pypdf.filters.Decoder
+pypdf._encryption.CryptRC4
+pypdf._encryption.CryptAES
+pypdf.filters.FlateDecode
+pypdf._page.Transformation
+pypdf._utils.File

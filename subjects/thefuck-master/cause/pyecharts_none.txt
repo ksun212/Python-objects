@@ -1,0 +1,48 @@
+ /home/user/pyecharts/pyecharts/charts/composite_charts/grid.py-add-34
+pyecharts.charts.composite_charts.grid.Grid.options
+            self.options.update(grid=[], title=[])
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/composite_charts/grid.py-add-74
+pyecharts.charts.composite_charts.grid.Grid.options
+            self.options.get("legend").extend(chart.options.get("legend"))
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/composite_charts/grid.py-add-50
+pyecharts.charts.composite_charts.grid.Grid.options
+        self.options.get("title").extend(title)
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/composite_charts/grid.py-add-73
+pyecharts.charts.composite_charts.grid.Grid.options
+            self.options.get("series").extend(chart.options.get("series"))
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/base.py-__init__-41
+pyecharts.charts.composite_charts.grid.Grid.options
+        self.options.update(_opts.get("animationOpts", AnimationOpts()).opts)
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/composite_charts/grid.py-add-39
+pyecharts.charts.composite_charts.grid.Grid.options
+            self.options.update(backgroundColor=self.bg_color)
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/composite_charts/grid.py-add-79
+pyecharts.charts.composite_charts.grid.Grid.options
+        self.options.get("grid").append(grid_opts)
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/pyecharts/tests/test_grid.py-test_grid_do_not_control_axis_index-61
+pyecharts.charts.composite_charts.grid.Grid.options
+    for idx, series in enumerate(gc.options.get("series")):
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/base.py-__init__-40
+pyecharts.charts.composite_charts.grid.Grid.options
+        self.options.update(backgroundColor=_opts.get("bg_color"))
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/pyecharts/tests/test_grid.py-test_grid_control_axis_index-53
+pyecharts.charts.composite_charts.grid.Grid.options
+    for idx, series in enumerate(gc.options.get("series")):
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/composite_charts/grid.py-add-42
+pyecharts.charts.composite_charts.grid.Grid.options
+                for s in self.options.get("series"):
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/pyecharts/pyecharts/charts/basic_charts/scatter.py-_parse_data-24
+pyecharts.charts.basic_charts.scatter.Scatter._xaxis_data
+        elif len(self._xaxis_data) == 0:
+{'builtins.list', 'missing'}

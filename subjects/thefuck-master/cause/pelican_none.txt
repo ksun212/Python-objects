@@ -1,0 +1,104 @@
+ /home/user/pelican/pelican/generators.py-generate_context-680
+pelican.generators.ArticlesGenerator.dates
+        self.dates.sort(key=attrgetter('date'),
+{'builtins.list', 'builtins.dict'}
+ /home/user/pelican/pelican/generators.py-generate_context-687
+pelican.generators.ArticlesGenerator.categories
+        self.categories.sort(
+{'collections.collections.defaultdict', 'builtins.list'}
+ /home/user/pelican/pelican/generators.py-generate_context-686
+pelican.generators.ArticlesGenerator.categories
+        self.categories = list(self.categories.items())
+{'collections.collections.defaultdict', 'builtins.list'}
+ /home/user/pelican/pelican/generators.py-generate_context-691
+pelican.generators.ArticlesGenerator.authors
+        self.authors.sort()
+{'collections.collections.defaultdict', 'builtins.list'}
+ /home/user/pelican/pelican/generators.py-generate_context-690
+pelican.generators.ArticlesGenerator.authors
+        self.authors = list(self.authors.items())
+{'collections.collections.defaultdict', 'builtins.list'}
+ /home/user/pelican/pelican/readers.py-read-347
+pelican.readers.MarkdownReader._md
+            metadata = self._parse_metadata(self._md.Meta)
+{'markdown.core.Markdown', 'missing'}
+ /home/user/pelican/pelican/readers.py-_parse_metadata-320
+pelican.readers.MarkdownReader._md
+                self._md.reset()
+{'markdown.core.Markdown', 'missing'}
+ /home/user/pelican/pelican/readers.py-_parse_metadata-321
+pelican.readers.MarkdownReader._md
+                formatted = self._md.convert(formatted_values)
+{'markdown.core.Markdown', 'missing'}
+ /home/user/pelican/pelican/readers.py-_parse_metadata-311
+pelican.readers.MarkdownReader._md
+        self._md.preprocessors.deregister('meta')
+{'markdown.core.Markdown', 'missing'}
+ /home/user/pelican/pelican/readers.py-read-344
+pelican.readers.MarkdownReader._md
+            content = self._md.convert(text)
+{'markdown.core.Markdown', 'missing'}
+ /home/user/pelican/pelican/contents.py-url_format-211
+pelican.contents.Article.category
+            'category': self.category.slug if hasattr(self, 'category') else ''
+{'pelican.urlwrappers.Category', 'builtins.str'}
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-195
+pelican.contents.Article.category
+        return [[article.title, article.status, article.category.name,
+{'missing', 'pelican.urlwrappers.Category', 'builtins.str'}
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-486
+pelican.contents.Article.date
+            d.date.month == 1 and
+{'pelican.utils.SafeDatetime', 'datetime.datetime.datetime', 'missing'}
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-427
+pelican.contents.Article.date
+        dates = [d for d in generator.dates if d.date.year == 1970]
+{'pelican.utils.SafeDatetime', 'datetime.datetime.datetime', 'missing'}
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-479
+pelican.contents.Article.date
+            d.date.year == 1970 and
+{'pelican.utils.SafeDatetime', 'datetime.datetime.datetime', 'missing'}
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-454
+pelican.contents.Article.date
+                    if d.date.year == 1970 and d.date.month == 1]
+{'pelican.utils.SafeDatetime', 'datetime.datetime.datetime', 'missing'}
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-481
+pelican.contents.Article.date
+            d.date.day == 1
+{'pelican.utils.SafeDatetime', 'datetime.datetime.datetime', 'missing'}
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-452
+pelican.contents.Article.date
+                 if d.date.year == 1970 and d.date.month == 1]
+{'pelican.utils.SafeDatetime', 'datetime.datetime.datetime', 'missing'}
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-428
+pelican.contents.Article.date
+        articles = [d for d in generator.articles if d.date.year == 1970]
+{'pelican.utils.SafeDatetime', 'datetime.datetime.datetime', 'missing'}
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-487
+pelican.contents.Article.date
+            d.date.day == 1
+{'pelican.utils.SafeDatetime', 'datetime.datetime.datetime', 'missing'}
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-485
+pelican.contents.Article.date
+            d.date.year == 1970 and
+{'pelican.utils.SafeDatetime', 'datetime.datetime.datetime', 'missing'}
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-480
+pelican.contents.Article.date
+            d.date.month == 1 and
+{'pelican.utils.SafeDatetime', 'datetime.datetime.datetime', 'missing'}
+ /home/user/pelican/pelican/contents.py-url_format-210
+pelican.contents.Page.author
+            'author': self.author.slug if hasattr(self, 'author') else '',
+{'pelican.urlwrappers.Author', 'builtins.str'}
+ /home/user/pelican/pelican/tests/test_contents.py-test_multiple_authors-669
+pelican.contents.Page.authors
+        assert content.author == content.authors[0]
+{'missing', 'builtins.list'}
+ /home/user/pelican/pelican/writers.py-_create_new_feed-42
+pelican.writers.Writer.site_url
+            link=(self.site_url + '/'),
+{'missing', 'builtins.str'}
+ /home/user/pelican/pelican/generators.py-generate_context-837
+pelican.generators.StaticGenerator.staticfiles
+            self.staticfiles.append(static)
+{'missing', 'builtins.list'}

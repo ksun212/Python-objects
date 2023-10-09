@@ -1,0 +1,4 @@
+featuretools.synthesis.deep_feature_synthesis.DeepFeatureSynthesis.where_clauses
+{'collections.collections.defaultdict', 'missing'}
+ /home/user/featuretools/featuretools/synthesis/deep_feature_synthesis.py-_build_agg_features-855
+            wheres = list(self.where_clauses[child_dataframe.ww.name])

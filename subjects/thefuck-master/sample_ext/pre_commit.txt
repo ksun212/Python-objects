@@ -1,0 +1,1 @@
+ /home/user/pre-commit/tests/store_test.py-test_clone_shallow_failure_fallback_to_complete-132

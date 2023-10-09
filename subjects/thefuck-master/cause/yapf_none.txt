@@ -1,0 +1,68 @@
+ /home/user/yapf/tests/format_decision_state_test.py-testSimpleFunctionDefWithNoSplitting-57
+yapf.yapflib.format_decision_state.FormatDecisionState.next_token
+    self.assertEqual('a', state.next_token.value)
+{'builtins.NoneType', 'yapf.yapflib.format_token.FormatToken'}
+ /home/user/yapf/yapf/yapflib/reformatter.py-_EmitLineUnformatted-201
+yapf.yapflib.format_decision_state.FormatDecisionState.next_token
+      newline = state.next_token.lineno > previous_lineno
+{'builtins.NoneType', 'yapf.yapflib.format_token.FormatToken'}
+ /home/user/yapf/tests/format_decision_state_test.py-testSimpleFunctionDefWithSplitting-125
+yapf.yapflib.format_decision_state.FormatDecisionState.next_token
+    self.assertEqual(')', state.next_token.value)
+{'builtins.NoneType', 'yapf.yapflib.format_token.FormatToken'}
+ /home/user/yapf/tests/format_decision_state_test.py-testSimpleFunctionDefWithNoSplitting-46
+yapf.yapflib.format_decision_state.FormatDecisionState.next_token
+    self.assertEqual('f', state.next_token.value)
+{'builtins.NoneType', 'yapf.yapflib.format_token.FormatToken'}
+ /home/user/yapf/tests/format_decision_state_test.py-testSimpleFunctionDefWithNoSplitting-69
+yapf.yapflib.format_decision_state.FormatDecisionState.next_token
+    self.assertEqual('b', state.next_token.value)
+{'builtins.NoneType', 'yapf.yapflib.format_token.FormatToken'}
+ /home/user/yapf/tests/format_decision_state_test.py-testSimpleFunctionDefWithSplitting-130
+yapf.yapflib.format_decision_state.FormatDecisionState.next_token
+    self.assertEqual(':', state.next_token.value)
+{'builtins.NoneType', 'yapf.yapflib.format_token.FormatToken'}
+ /home/user/yapf/tests/format_decision_state_test.py-testSimpleFunctionDefWithSplitting-100
+yapf.yapflib.format_decision_state.FormatDecisionState.next_token
+    self.assertEqual('f', state.next_token.value)
+{'builtins.NoneType', 'yapf.yapflib.format_token.FormatToken'}
+ /home/user/yapf/tests/format_decision_state_test.py-testSimpleFunctionDefWithSplitting-115
+yapf.yapflib.format_decision_state.FormatDecisionState.next_token
+    self.assertEqual(',', state.next_token.value)
+{'builtins.NoneType', 'yapf.yapflib.format_token.FormatToken'}
+ /home/user/yapf/tests/format_decision_state_test.py-testSimpleFunctionDefWithSplitting-120
+yapf.yapflib.format_decision_state.FormatDecisionState.next_token
+    self.assertEqual('b', state.next_token.value)
+{'builtins.NoneType', 'yapf.yapflib.format_token.FormatToken'}
+ /home/user/yapf/tests/format_decision_state_test.py-testSimpleFunctionDefWithSplitting-105
+yapf.yapflib.format_decision_state.FormatDecisionState.next_token
+    self.assertEqual('(', state.next_token.value)
+{'builtins.NoneType', 'yapf.yapflib.format_token.FormatToken'}
+ /home/user/yapf/tests/format_decision_state_test.py-testSimpleFunctionDefWithSplitting-110
+yapf.yapflib.format_decision_state.FormatDecisionState.next_token
+    self.assertEqual('a', state.next_token.value)
+{'builtins.NoneType', 'yapf.yapflib.format_token.FormatToken'}
+ /home/user/yapf/tests/format_decision_state_test.py-testSimpleFunctionDefWithNoSplitting-51
+yapf.yapflib.format_decision_state.FormatDecisionState.next_token
+    self.assertEqual('(', state.next_token.value)
+{'builtins.NoneType', 'yapf.yapflib.format_token.FormatToken'}
+ /home/user/yapf/tests/format_decision_state_test.py-testSimpleFunctionDefWithNoSplitting-81
+yapf.yapflib.format_decision_state.FormatDecisionState.next_token
+    self.assertEqual(':', state.next_token.value)
+{'builtins.NoneType', 'yapf.yapflib.format_token.FormatToken'}
+ /home/user/yapf/yapf/yapflib/format_decision_state.py-MoveStateToNextToken-736
+yapf.yapflib.format_decision_state.FormatDecisionState.next_token
+    self.next_token = self.next_token.next_token
+{'builtins.NoneType', 'yapf.yapflib.format_token.FormatToken'}
+ /home/user/yapf/tests/format_decision_state_test.py-testSimpleFunctionDefWithNoSplitting-63
+yapf.yapflib.format_decision_state.FormatDecisionState.next_token
+    self.assertEqual(',', state.next_token.value)
+{'builtins.NoneType', 'yapf.yapflib.format_token.FormatToken'}
+ /home/user/yapf/yapf/yapflib/reformatter.py-_EmitLineUnformatted-192
+yapf.yapflib.format_decision_state.FormatDecisionState.next_token
+    previous_token = state.next_token.previous_token
+{'builtins.NoneType', 'yapf.yapflib.format_token.FormatToken'}
+ /home/user/yapf/tests/format_decision_state_test.py-testSimpleFunctionDefWithNoSplitting-75
+yapf.yapflib.format_decision_state.FormatDecisionState.next_token
+    self.assertEqual(')', state.next_token.value)
+{'builtins.NoneType', 'yapf.yapflib.format_token.FormatToken'}

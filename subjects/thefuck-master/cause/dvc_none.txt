@@ -1,0 +1,848 @@
+ /home/user/dvc/tests/func/test_state.py-test_remove_links-56
+dvc.repo.Repo.state
+    assert len(dvc.state.links) == 0
+{'dvc_data.hashfile.state.StateNoop', 'dvc_data.hashfile.state.State'}
+ /home/user/dvc/tests/func/test_state.py-test_remove_links-52
+dvc.repo.Repo.state
+    assert len(dvc.state.links) == 2
+{'dvc_data.hashfile.state.StateNoop', 'dvc_data.hashfile.state.State'}
+ /home/user/dvc/tests/unit/stage/test_cache.py-test_stage_cache_params-74
+dvc.repo.Repo.stage_cache
+        dvc.stage_cache.cache_dir,
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/tests/func/test_lockfile.py-test_params_dump-154
+dvc.repo.Repo.stage_cache
+    for item in [dvc.stage_cache.cache_dir, LOCK_FILE]:
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/tests/unit/stage/test_cache.py-test_stage_cache-28
+dvc.repo.Repo.stage_cache
+        dvc.stage_cache.cache_dir,
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/tests/unit/stage/test_cache.py-test_stage_cache_wdir-121
+dvc.repo.Repo.stage_cache
+        dvc.stage_cache.cache_dir,
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_outs_no_cache_deactivate_run_cache-87
+dvc.repo.Repo.stage_cache
+    assert os.path.isdir(dvc.stage_cache.cache_dir) == run_cache
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_memory_for_multiple_runs_of_same_stage-94
+dvc.repo.Repo.stage_cache
+    assert _recurse_count_files(dvc.stage_cache.cache_dir) == 1
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/dvc/repo/push.py-push-41
+dvc.repo.Repo.stage_cache
+    used_run_cache = self.stage_cache.push(remote, odb=odb) if run_cache else []
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/dvc/testing/remote_tests.py-test_stage_cache_push_pull-111
+dvc.repo.Repo.stage_cache
+        stage_cache_dir = tmp_dir / dvc.stage_cache.cache_dir
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_do_not_save_on_no_exec_and_dry-67
+dvc.repo.Repo.stage_cache
+    assert not dvc.stage_cache._load(stage)
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_memory_runs_of_multiple_stages-135
+dvc.repo.Repo.stage_cache
+    assert _recurse_count_files(dvc.stage_cache.cache_dir) == 2
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_memory_for_multiple_runs_of_same_stage-92
+dvc.repo.Repo.stage_cache
+    assert not os.path.exists(dvc.stage_cache.cache_dir)
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_memory_runs_of_multiple_stages-131
+dvc.repo.Repo.stage_cache
+    assert _recurse_count_files(dvc.stage_cache.cache_dir) == 1
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_memory_for_multiple_runs_of_same_stage-97
+dvc.repo.Repo.stage_cache
+    assert _recurse_count_files(dvc.stage_cache.cache_dir) == 2
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_do_not_save_on_no_exec_and_dry-62
+dvc.repo.Repo.stage_cache
+    assert not dvc.stage_cache._load(stage)
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/dvc/repo/fetch.py-fetch-65
+dvc.repo.Repo.stage_cache
+            self.stage_cache.pull(remote)
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/tests/func/test_gc.py-test_gc_not_collect_pipeline_tracked_files-242
+dvc.repo.Repo.stage_cache
+    shutil.rmtree(dvc.stage_cache.cache_dir)
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_do_not_save_on_no_exec_and_dry-55
+dvc.repo.Repo.stage_cache
+    run_cache_dir = dvc.stage_cache.cache_dir
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/tests/func/test_data_cloud.py-test_pipeline_file_target_ops-357
+dvc.repo.Repo.stage_cache
+    remove(dvc.stage_cache.cache_dir)
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_save-45
+dvc.repo.Repo.stage_cache
+    run_cache_dir = dvc.stage_cache.cache_dir
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_save-51
+dvc.repo.Repo.stage_cache
+    assert dvc.stage_cache._load(stage)
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/tests/unit/stage/test_cache.py-test_shared_stage_cache-162
+dvc.repo.Repo.stage_cache
+    parent_cache_dir = os.path.join(dvc.stage_cache.cache_dir, "fd")
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/tests/unit/stage/test_cache.py-test_shared_stage_cache-188
+dvc.repo.Repo.stage_cache
+    assert _mode(dvc.stage_cache.cache_dir) == dir_mode
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/dvc/repo/__init__.py-used_objs-503
+dvc.repo.Repo.stage_cache
+            for odb, objs in self.stage_cache.get_used_objs(
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/tests/func/test_run_cache.py-test_memory_runs_of_multiple_stages-128
+dvc.repo.Repo.stage_cache
+    assert not os.path.exists(dvc.stage_cache.cache_dir)
+{'missing', 'dvc.stage.cache.StageCache'}
+ /home/user/dvc/tests/func/test_external_repo.py-test_source_change-37
+dvc.repo.Repo.scm
+        old_rev = repo.scm.get_rev()
+{'scmrepo.noscm.NoSCM', 'scmrepo.git.Git'}
+ /home/user/dvc/dvc/repo/diff.py-diff-109
+dvc.repo.Repo.scm
+    if self.scm.no_commits:
+{'scmrepo.noscm.NoSCM', 'scmrepo.git.Git'}
+ /home/user/dvc/tests/func/test_external_repo.py-test_source_change-42
+dvc.repo.Repo.scm
+        new_rev = repo.scm.get_rev()
+{'scmrepo.noscm.NoSCM', 'scmrepo.git.Git'}
+ /home/user/dvc/tests/func/test_external_repo.py-test_known_sha-75
+dvc.repo.Repo.scm
+        rev = repo.scm.get_rev()
+{'scmrepo.noscm.NoSCM', 'scmrepo.git.Git'}
+ /home/user/dvc/tests/func/test_external_repo.py-test_known_sha-76
+dvc.repo.Repo.scm
+        prev_rev = repo.scm.resolve_rev("HEAD^")
+{'scmrepo.noscm.NoSCM', 'scmrepo.git.Git'}
+ /home/user/dvc/dvc/repo/experiments/branch.py-branch-52
+dvc.repo.Repo.scm
+    if repo.scm.get_ref(branch_ref):
+{'scmrepo.noscm.NoSCM', 'scmrepo.git.Git'}
+ /home/user/dvc/dvc/repo/experiments/branch.py-branch-56
+dvc.repo.Repo.scm
+    repo.scm.set_ref(
+{'scmrepo.noscm.NoSCM', 'scmrepo.git.Git'}
+ /home/user/dvc/dvc/repo/plots/diff.py-diff-15
+dvc.repo.Repo.scm
+    if repo.scm.no_commits:
+{'scmrepo.noscm.NoSCM', 'scmrepo.git.Git'}
+ /home/user/dvc/dvc/repo/experiments/executor/base.py-_repro_commit-575
+dvc.repo.Repo.scm
+        ref: Optional[str] = dvc.scm.get_ref(EXEC_BRANCH, follow=False)
+{'scmrepo.noscm.NoSCM', 'scmrepo.git.Git'}
+ /home/user/dvc/dvc/repo/experiments/branch.py-branch-55
+dvc.repo.Repo.scm
+    target = repo.scm.get_ref(str(ref_info))
+{'scmrepo.noscm.NoSCM', 'scmrepo.git.Git'}
+ /home/user/dvc/dvc/lock.py-unlock-129
+dvc.lock.Lock._lock
+        self._lock.close()
+{'builtins.NoneType', 'zc.lockfile.LockFile'}
+ /home/user/dvc/tests/func/test_odb.py-test_cache-39
+dvc.cachemgr.CacheManager.local
+    odb_cache1 = odb.local.oid_to_path(cache1_md5)
+{'builtins.NoneType', 'missing'}
+ /home/user/dvc/tests/func/test_odb.py-test_cache-40
+dvc.cachemgr.CacheManager.local
+    odb_cache2 = odb.local.oid_to_path(cache2_md5)
+{'builtins.NoneType', 'missing'}
+ /home/user/dvc/tests/func/test_odb.py-test_cache-34
+dvc.cachemgr.CacheManager.local
+    md5_list = list(odb.local.all())
+{'builtins.NoneType', 'missing'}
+ /home/user/dvc/tests/func/test_run_single_stage.py-test_run_commit-685
+dvc_data.hashfile.db.local.LocalHashFileDB.path
+    assert not os.path.exists(dvc.cache.local.path)
+{'builtins.str', 'dvc.config_schema.RelPath'}
+ /home/user/dvc/tests/func/test_add.py-test_add_commit-417
+dvc_data.hashfile.db.local.LocalHashFileDB.path
+    assert not os.path.exists(dvc.cache.local.path)
+{'builtins.str', 'dvc.config_schema.RelPath'}
+ /home/user/dvc/dvc/info.py-get_dvc_info-43
+dvc_data.hashfile.db.local.LocalHashFileDB.path
+            if os.path.exists(repo.cache.local.path):
+{'builtins.str', 'dvc.config_schema.RelPath'}
+ /home/user/dvc/tests/func/test_repro.py-test_repro_no_commit-844
+dvc_data.hashfile.db.local.LocalHashFileDB.path
+    assert not os.path.isdir(dvc.cache.local.path)
+{'builtins.str', 'dvc.config_schema.RelPath'}
+ /home/user/dvc/tests/unit/stage/test_cache.py-test_shared_stage_cache-158
+dvc_data.hashfile.db.local.LocalHashFileDB.path
+    assert not os.path.exists(dvc.cache.local.path)
+{'builtins.str', 'dvc.config_schema.RelPath'}
+ /home/user/dvc/tests/func/test_odb.py-test_external_cache_dir-66
+dvc_data.hashfile.db.local.LocalHashFileDB.path
+    assert not os.path.exists(dvc.cache.local.path)
+{'builtins.str', 'dvc.config_schema.RelPath'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_objects/db.py-_init-74
+dvc_data.hashfile.db.local.LocalHashFileDB._dirs
+        self._dirs.add(dname)
+{'builtins.NoneType', 'builtins.set'}
+ /home/user/dvc/tests/unit/repo/test_scm_context.py-test_scm_context_decorator-143
+dvc.repo.scm_context.SCMContext.scm
+    scm_context.scm.add.assert_called_once_with({"foo"})
+{'unittest.mock.MagicMock', 'scmrepo.noscm.NoSCM', 'scmrepo.git.Git'}
+ /home/user/dvc/tests/unit/repo/test_scm_context.py-test_scm_context_autostage_changed_files-76
+dvc.repo.scm_context.SCMContext.scm
+    scm_context.scm.add.assert_called_once_with({"foo"})
+{'unittest.mock.MagicMock', 'scmrepo.noscm.NoSCM', 'scmrepo.git.Git'}
+ /home/user/dvc/tests/unit/repo/test_scm_context.py-test_scm_track_changed_files-38
+dvc.repo.scm_context.SCMContext.scm
+    scm_context.scm.add.assert_not_called()
+{'unittest.mock.MagicMock', 'scmrepo.noscm.NoSCM', 'scmrepo.git.Git'}
+ /home/user/dvc/tests/unit/repo/test_scm_context.py-test_scm_context_on_no_files_to_track-99
+dvc.repo.scm_context.SCMContext.scm
+    scm_context.scm.assert_not_called()
+{'unittest.mock.MagicMock', 'scmrepo.noscm.NoSCM', 'scmrepo.git.Git'}
+ /home/user/dvc/dvc/repo/scm_context.py-ignore_remove-93
+dvc.repo.scm_context.SCMContext.scm
+            gitignore_file = self.scm.ignore_remove(path)
+{'unittest.mock.MagicMock', 'scmrepo.noscm.NoSCM', 'scmrepo.git.Git'}
+ /home/user/dvc/tests/unit/repo/test_scm_context.py-test_scm_track_changed_files-42
+dvc.repo.scm_context.SCMContext.scm
+    scm_context.scm.add.assert_called_once_with({"foo"})
+{'unittest.mock.MagicMock', 'scmrepo.noscm.NoSCM', 'scmrepo.git.Git'}
+ /home/user/dvc/tests/unit/repo/test_scm_context.py-test_ignore-48
+dvc.repo.scm_context.SCMContext.scm
+    scm_context.scm.ignore.assert_called_once_with("foo")
+{'unittest.mock.MagicMock', 'scmrepo.noscm.NoSCM', 'scmrepo.git.Git'}
+ /home/user/dvc/dvc/repo/init.py-init-88
+dvc.repo.scm_context.SCMContext.scm
+        ignore_file = context.scm.ignore_file
+{'unittest.mock.MagicMock', 'scmrepo.noscm.NoSCM', 'scmrepo.git.Git'}
+ /home/user/dvc/tests/unit/repo/test_scm_context.py-test_ignore_remove-55
+dvc.repo.scm_context.SCMContext.scm
+    scm_context.scm.ignore_remove.assert_called_once_with("foo")
+{'unittest.mock.MagicMock', 'scmrepo.noscm.NoSCM', 'scmrepo.git.Git'}
+ /home/user/dvc/dvc/repo/scm_context.py-add-53
+dvc.repo.scm_context.SCMContext.scm
+            return self.scm.add(paths)
+{'unittest.mock.MagicMock', 'scmrepo.noscm.NoSCM', 'scmrepo.git.Git'}
+ /home/user/dvc/dvc/repo/scm_context.py-ignore-77
+dvc.repo.scm_context.SCMContext.scm
+            gitignore_file = self.scm.ignore(path)
+{'unittest.mock.MagicMock', 'scmrepo.noscm.NoSCM', 'scmrepo.git.Git'}
+ /home/user/dvc/tests/unit/repo/test_scm_context.py-test_scm_context_clears_ignores_on_error-88
+dvc.repo.scm_context.SCMContext.scm
+    scm_context.scm.ignore_remove.assert_called_once_with("foo")
+{'unittest.mock.MagicMock', 'scmrepo.noscm.NoSCM', 'scmrepo.git.Git'}
+ /home/user/dvc/dvc/repo/scm_context.py-__exit__-144
+dvc.repo.scm_context.SCMContext._cm
+        self._cm.__exit__(*exc_args)  # pylint: disable=no-member
+{'missing', 'contextlib._GeneratorContextManager'}
+ /home/user/dvc/dvc/repo/scm_context.py-__enter__-140
+dvc.repo.scm_context.SCMContext._cm
+        return self._cm.__enter__()  # pylint: disable=no-member
+{'missing', 'contextlib._GeneratorContextManager'}
+ /home/user/dvc/dvc/progress.py-close-131
+dvc.progress.Tqdm.postfix
+        self.postfix["info"] = ""
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/dvc/dvc/progress.py-set_msg-108
+dvc.progress.Tqdm.postfix
+        self.postfix["info"] = f" {msg} |"
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/dvc/dvc/output.py-__init__-357
+dvc.stage.Stage.repo
+            and isinstance(stage.repo.fs, LocalFileSystem)
+{'builtins.NoneType', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/stage/decorators.py-rwlocked-21
+dvc.stage.Stage.repo
+    assert stage.repo.lock.is_locked
+{'builtins.NoneType', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/stage/run.py-run_stage-143
+dvc.stage.Stage.repo
+            stage.repo.stage_cache.restore(stage, dry=dry, **kwargs)
+{'builtins.NoneType', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/stage/decorators.py-rwlocked-41
+dvc.stage.Stage.repo
+        stage.repo.config["core"].get("hardlink_lock", False),
+{'builtins.NoneType', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/stage/decorators.py-wrapper-54
+dvc.stage.Stage.repo
+            stage.repo.lock.lock()
+{'builtins.NoneType', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/stage/imports.py-_update_import_on_remote-16
+dvc.stage.Stage.repo
+    odb = stage.repo.cloud.get_remote_odb(remote, "update")
+{'builtins.NoneType', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/stage/decorators.py-wrapper-49
+dvc.stage.Stage.repo
+        stage.repo.lock.unlock()
+{'builtins.NoneType', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/output.py-__init__-361
+dvc.stage.Stage.repo
+            self.fs = stage.repo.fs
+{'builtins.NoneType', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/stage/__init__.py-save-486
+dvc.stage.Stage.repo
+            self.repo.stage_cache.save(self)
+{'builtins.NoneType', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/stage/decorators.py-rwlocked-36
+dvc.stage.Stage.repo
+        stage.repo.tmp_dir,
+{'builtins.NoneType', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/stage/decorators.py-wrapper-50
+dvc.stage.Stage.repo
+        stage.repo._reset()  # pylint: disable=protected-access
+{'builtins.NoneType', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/stage/__init__.py-path_in_repo-235
+dvc.stage.Stage.repo
+        return relpath(self.path, self.repo.root_dir)
+{'builtins.NoneType', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/stage/decorators.py-rwlocked-37
+dvc.stage.Stage.repo
+        stage.repo.fs,
+{'builtins.NoneType', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/output.py-__init__-358
+dvc.stage.Stage.repo
+            and path_isin(path, stage.repo.root_dir)
+{'builtins.NoneType', 'dvc.repo.Repo'}
+ /home/user/dvc/tests/func/test_repro.py-test_repro_when_cmd_changes-1220
+dvc.stage.Stage.cmd
+    data["cmd"] = "  ".join(stage.cmd.split())  # change cmd spacing by two
+{'builtins.NoneType', 'builtins.list', 'builtins.str'}
+ /home/user/dvc/dvc/stage/__init__.py-dvcfile-192
+dvc.stage.Stage._dvcfile
+        if self.path and self._dvcfile and self.path == self._dvcfile.path:
+{'builtins.NoneType', 'dvc.dvcfile.SingleStageFile'}
+ /home/user/dvc/dvc/output.py-ignore-647
+dvc.output.Output.repo
+        self.repo.scm_context.ignore(self.fspath)
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/output.py-ignore_remove-653
+dvc.output.Output.repo
+        self.repo.scm_context.ignore_remove(self.fspath)
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/output.py-dvcignore-621
+dvc.output.Output.repo
+            return self.repo.dvcignore
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/output.py-get_used_objs-1117
+dvc.output.Output.repo
+            remote = self.repo.cloud.get_remote_odb(name=self.remote)
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/repo/index.py-_load_storage_from_out-149
+dvc.output.Output.repo
+        remote = out.repo.cloud.get_remote(out.remote)
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/output.py-__init__-370
+dvc.output.Output.repo
+            self.fs = self.repo.fs
+{'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/repo/collect.py-_filter_outs-50
+dvc.output.Output.repo
+        fs_path = out.repo.dvcfs.from_os_path(out.fs_path)
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/output.py-move-951
+dvc.output.Output.repo
+            self.repo.scm_context.ignore(self.fspath)
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/repo/metrics/show.py-_to_fs_paths-29
+dvc.output.Output.repo
+            result.append(out.repo.dvcfs.from_os_path(out.fs_path))
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/output.py-_get_hash_meta-531
+dvc.output.Output.repo
+            odb = self.repo.cache.local
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/output.py-commit-750
+dvc.output.Output.repo
+                    state=self.repo.state,
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/output.py-ignore-644
+dvc.output.Output.repo
+        if self.repo.scm.is_tracked(self.fspath):
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/output.py-get_dir_cache-1022
+dvc.output.Output.repo
+                self.repo.cloud.pull([obj.hash_info], **kwargs)
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/output.py-index_key-566
+dvc.output.Output.repo
+            key = self.repo.fs.path.relparts(self.fs_path, self.repo.root_dir)
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/output.py-checkout-920
+dvc.output.Output.repo
+                state=self.repo.state,
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/output.py-move-942
+dvc.output.Output.repo
+            self.repo.scm_context.ignore_remove(self.fspath)
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/output.py-save-682
+dvc.output.Output.repo
+                self.repo.cache.local,
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/output.py-cache-512
+dvc.output.Output.repo
+        odb = getattr(self.repo.cache, odb_name)
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/output.py-verify_metric-839
+dvc.output.Output.fs
+        if self.fs.protocol != "local":
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-__str__-477
+dvc.output.Output.fs
+        return self.fs.path.relpath(self.fs_path, self.repo.root_dir)
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/repo/__init__.py-func-527
+dvc.output.Output.fs
+            match = eq if strict else out.fs.path.isin_or_eq
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-is_in_repo-497
+dvc.output.Output.fs
+        return self.repo and self.fs.path.isin(
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-_commit_granular_dir-756
+dvc.output.Output.fs
+        prefix = self.fs.path.parts(self.fs.path.relpath(filter_info, self.fs_path))
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/repo/index.py-_data_prefixes-532
+dvc.output.Output.fs
+                key = key + out.fs.path.relparts(filter_info, out.fs_path)
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-__init__-368
+dvc.output.Output.fs
+            and not self.fs.path.isabs(self.def_path)
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-__init__-355
+dvc.output.Output.fs
+            self.fs.protocol == "local"
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-__str__-463
+dvc.output.Output.fs
+        if self.fs.protocol != "local":
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-isfile-636
+dvc.output.Output.fs
+        return self.fs.isfile(self.fs_path)
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-is_in_repo-498
+dvc.output.Output.fs
+            self.fs.path.realpath(self.fs_path),
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-exists-560
+dvc.output.Output.fs
+        return self.fs.exists(self.fs_path)
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-is_empty-626
+dvc.output.Output.fs
+        return self.fs.is_empty(self.fs_path)
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-remove-932
+dvc.output.Output.fs
+        self.fs.remove(self.fs_path, recursive=True)
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-_collect_used_dir_cache-1065
+dvc.output.Output.fs
+            prefix = self.fs.path.parts(self.fs.path.relpath(filter_info, self.fs_path))
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-__str__-474
+dvc.output.Output.fs
+        if self.fs.path.isin(cur_dir, self.repo.root_dir):
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-dvcignore-620
+dvc.output.Output.fs
+        if self.fs.protocol == "local":
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-__str__-475
+dvc.output.Output.fs
+            return self.fs.path.relpath(self.fs_path, cur_dir)
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-__str__-473
+dvc.output.Output.fs
+        cur_dir = self.fs.path.getcwd()
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-index_key-570
+dvc.output.Output.fs
+            key = self.fs.path.parts(no_drive)[1:]
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-dumpd-792
+dvc.output.Output.fs
+            path = self.fs.path.as_posix(relpath(self.fs_path, self.stage.wdir))
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-get_obj-876
+dvc.output.Output.fs
+        fs_path = self.fs.path
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/repo/index.py-data_keys-546
+dvc.output.Output.fs
+            if filter_info and out.fs.path.isin(filter_info, out.fs_path):
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/repo/index.py-data_keys-547
+dvc.output.Output.fs
+                key = key + out.fs.path.relparts(filter_info, out.fs_path)
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-__init__-367
+dvc.output.Output.fs
+            and self.fs.protocol == "local"
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-index_key-569
+dvc.output.Output.fs
+            no_drive = self.fs.path.flavour.splitdrive(self.fs_path)[1]
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-is_in_repo-494
+dvc.output.Output.fs
+        if self.fs.path.isabs(self.def_path):
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/repo/trie.py-build_outs_trie-12
+dvc.output.Output.fs
+            out_key = out.fs.path.parts(out.fs_path)
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-isdir-631
+dvc.output.Output.fs
+        return self.fs.isdir(self.fs_path)
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-_named_obj_ids-1129
+dvc.output.Output.fs
+                oid.obj_name = self.fs.sep.join([name, *key])
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-index_key-568
+dvc.output.Output.fs
+            workspace = self.fs.protocol
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-protocol-487
+dvc.output.Output.fs
+        return self.fs.protocol
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/repo/index.py-_data_prefixes-531
+dvc.output.Output.fs
+            if filter_info and out.fs.path.isin(filter_info, out.fs_path):
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/stage/__init__.py-_func-619
+dvc.output.Output.fs
+            return o.fs.path.isin_or_eq(fs_path, o.fs_path)
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-move-944
+dvc.output.Output.fs
+        self.fs.move(self.fs_path, out.fs_path)
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/output.py-cache-514
+dvc.output.Output.fs
+            raise RemoteCacheRequiredError(self.fs.protocol, self.fs_path)
+{'dvc_objects.fs.local.LocalFileSystem', 'dvc.fs.git.GitFileSystem', 'unittest.mock.MagicMock', 'dvc_s3.S3FileSystem'}
+ /home/user/dvc/dvc/repo/index.py-_load_storage_from_out-164
+dvc.output.Output.stage
+    if out.stage.is_import:
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.stage.PipelineStage', 'dvc.stage.Stage'}
+ /home/user/dvc/dvc/output.py-_parse_path-444
+dvc.output.Output.stage
+            and self.stage.repo.fs == fs
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.stage.PipelineStage', 'dvc.stage.Stage'}
+ /home/user/dvc/dvc/repo/imports.py-unpartial_imports-85
+dvc.output.Output.stage
+            out.stage.dump()
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.stage.PipelineStage', 'dvc.stage.Stage'}
+ /home/user/dvc/dvc/output.py-use_scm_ignore-507
+dvc.output.Output.stage
+        return self.use_cache or self.stage.is_repo_import
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.stage.PipelineStage', 'dvc.stage.Stage'}
+ /home/user/dvc/dvc/repo/imports.py-unpartial_imports-77
+dvc.output.Output.stage
+                dep = out.stage.deps[0]
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.stage.PipelineStage', 'dvc.stage.Stage'}
+ /home/user/dvc/dvc/repo/plots/__init__.py-_collect_output_plots-400
+dvc.output.Output.stage
+        dvcfile = plot.stage.dvcfile
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.stage.PipelineStage', 'dvc.stage.Stage'}
+ /home/user/dvc/dvc/repo/plots/__init__.py-_collect_output_plots-402
+dvc.output.Output.stage
+        wdir_relpath = _relpath(fs, plot.stage.wdir)
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.stage.PipelineStage', 'dvc.stage.Stage'}
+ /home/user/dvc/dvc/repo/trie.py-build_outs_trie-36
+dvc.output.Output.stage
+                    overlapping.stage.addressing,
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.stage.PipelineStage', 'dvc.stage.Stage'}
+ /home/user/dvc/dvc/repo/imports.py-unpartial_imports-76
+dvc.output.Output.stage
+            if out.stage.is_repo_import:
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.stage.PipelineStage', 'dvc.stage.Stage'}
+ /home/user/dvc/dvc/repo/index.py-_load_data_from_outs-131
+dvc.output.Output.stage
+            dep = out.stage.deps[0]
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.stage.PipelineStage', 'dvc.stage.Stage'}
+ /home/user/dvc/dvc/repo/index.py-_load_storage_from_out-165
+dvc.output.Output.stage
+        dep = out.stage.deps[0]
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.stage.PipelineStage', 'dvc.stage.Stage'}
+ /home/user/dvc/dvc/repo/imports.py-unpartial_imports-84
+dvc.output.Output.stage
+            out.stage.md5 = out.stage.compute_md5()
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.stage.PipelineStage', 'dvc.stage.Stage'}
+ /home/user/dvc/dvc/output.py-dumpd-792
+dvc.output.Output.stage
+            path = self.fs.path.as_posix(relpath(self.fs_path, self.stage.wdir))
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.stage.PipelineStage', 'dvc.stage.Stage'}
+ /home/user/dvc/dvc/repo/trie.py-build_outs_trie-34
+dvc.output.Output.stage
+                    parent.stage.addressing,
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.stage.PipelineStage', 'dvc.stage.Stage'}
+ /home/user/dvc/dvc/repo/plots/__init__.py-modify-264
+dvc.output.Output.stage
+        out.stage.dump(update_lock=False)
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.stage.PipelineStage', 'dvc.stage.Stage'}
+ /home/user/dvc/dvc/repo/imports.py-unpartial_imports-75
+dvc.output.Output.stage
+        if out.stage.is_partial_import:
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.stage.PipelineStage', 'dvc.stage.Stage'}
+ /home/user/dvc/dvc/repo/index.py-_load_data_from_outs-130
+dvc.output.Output.stage
+        if out.stage.is_import and not out.stage.is_repo_import:
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.stage.PipelineStage', 'dvc.stage.Stage'}
+ /home/user/dvc/dvc/output.py-get_used_external-1136
+dvc.output.Output.stage
+        if not self.use_cache or not self.stage.is_repo_import:
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.stage.PipelineStage', 'dvc.stage.Stage'}
+ /home/user/dvc/dvc/output.py-get_used_external-1139
+dvc.output.Output.stage
+        (dep,) = self.stage.deps
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.stage.PipelineStage', 'dvc.stage.Stage'}
+ /home/user/dvc/dvc/repo/index.py-_data_prefixes-533
+dvc.output.Output.stage
+            if out.meta.isdir or out.stage.is_import and out.stage.deps[0].meta.isdir:
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.stage.PipelineStage', 'dvc.stage.Stage'}
+ /home/user/dvc/dvc/output.py-get_used_objs-1078
+dvc.output.Output.stage
+        if self.stage.is_repo_import:
+{'builtins.NoneType', 'unittest.mock.MagicMock', 'dvc.stage.PipelineStage', 'dvc.stage.Stage'}
+ /home/user/dvc/dvc/repo/plots/__init__.py-modify-257
+dvc.output.Output.plot
+        out.plot.update(props)
+{'builtins.bool', 'builtins.dict'}
+ /home/user/dvc/dvc/repo/plots/__init__.py-_unset-229
+dvc.output.Output.plot
+        missing = list(set(props) - set(out.plot.keys()))
+{'builtins.bool', 'builtins.dict'}
+ /home/user/dvc/dvc/output.py-save-692
+dvc.output.Output.obj
+        self.hash_info = self.obj.hash_info
+{'builtins.NoneType', 'dvc_data.hashfile.tree.Tree', 'dvc_data.hashfile.obj.HashFile'}
+ /home/user/dvc/tests/func/test_remote.py-test_push_order-288
+dvc.output.Output.obj
+    bar_path = odb.oid_to_path(foo.obj._trie[("bar",)][1].value)
+{'builtins.NoneType', 'dvc_data.hashfile.tree.Tree', 'dvc_data.hashfile.obj.HashFile'}
+ /home/user/dvc/dvc/output.py-_compute_meta_hash_info_from_files-425
+dvc.output.Output.odb
+            self.odb.add(tree.path, tree.fs, tree.hash_info.value)
+{'builtins.NoneType', 'dvc_data.hashfile.db.HashFileDB'}
+ /home/user/dvc/dvc/dvcfile.py-_load-154
+dvc.dvcfile.SingleStageFile.repo
+        if not self.repo.fs.isfile(self.path):
+{'builtins.object', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/dvcfile.py-exists-125
+dvc.dvcfile.SingleStageFile.repo
+        is_ignored = self.repo.dvcignore.is_ignored_file(self.path)
+{'builtins.object', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/stage/loader.py-load_stage-208
+dvc.dvcfile.SingleStageFile.repo
+            dvcfile.repo.fs, dvcfile.path, d.get(Stage.PARAM_WDIR)
+{'builtins.object', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/dvcfile.py-_load_yaml-172
+dvc.dvcfile.SingleStageFile.repo
+            self.repo.fs,
+{'builtins.object', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/dvcfile.py-_load-150
+dvc.dvcfile.SingleStageFile.repo
+            dvc_ignored = self.repo.dvcignore.is_ignored_file(self.path)
+{'builtins.object', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/dvcfile.py-dump-215
+dvc.dvcfile.SingleStageFile.repo
+        self.repo.scm_context.track_file(self.relpath)
+{'builtins.object', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/dvcfile.py-exists-126
+dvc.dvcfile.SingleStageFile.repo
+        return self.repo.fs.exists(self.path) and not is_ignored
+{'builtins.object', 'dvc.repo.Repo'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_objects/_tqdm.py-close-119
+dvc_data.hashfile._progress.QueryingProgress.postfix
+        self.postfix["info"] = ""
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_objects/_tqdm.py-close-119
+dvc_objects._tqdm.Tqdm.postfix
+        self.postfix["info"] = ""
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/dvc/tests/func/test_cli.py-test_add-136
+dvc.commands.add.CmdAdd.repo
+    cmd.repo.close()
+{'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/commands/add.py-run-50
+dvc.commands.add.CmdAdd.repo
+            self.repo.add(
+{'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/cli/command.py-__init__-21
+dvc.commands.add.CmdAdd.repo
+        self.config: "Config" = self.repo.config
+{'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/output.py-save-692
+dvc.dependency.base.Dependency.obj
+        self.hash_info = self.obj.hash_info
+{'builtins.NoneType', 'dvc_data.hashfile.tree.Tree', 'dvc_data.hashfile.obj.HashFile'}
+ /home/user/dvc/tests/func/test_lockfile.py-test_cmd_changes_other_orders_are_preserved-98
+dvc.stage.PipelineStage.cmd
+    stage.cmd = "  ".join(stage.cmd.split())
+{'builtins.NoneType', 'builtins.list', 'builtins.str'}
+ /home/user/dvc/tests/func/test_status.py-test_status_on_pipeline_stages-74
+dvc.stage.PipelineStage.cmd
+    stage.cmd = "  ".join(stage.cmd.split())
+{'builtins.NoneType', 'builtins.list', 'builtins.str'}
+ /home/user/dvc/tests/func/test_repro_multistage.py-test_repro_when_cmd_changes-133
+dvc.stage.PipelineStage.cmd
+    stage.cmd = "  ".join(stage.cmd.split())  # change cmd spacing by two
+{'builtins.NoneType', 'builtins.list', 'builtins.str'}
+ /home/user/dvc/dvc/stage/__init__.py-dvcfile-192
+dvc.stage.PipelineStage._dvcfile
+        if self.path and self._dvcfile and self.path == self._dvcfile.path:
+{'builtins.NoneType', 'dvc.dvcfile.ProjectFile'}
+ /home/user/dvc/dvc/dvcfile.py-exists-125
+dvc.dvcfile.ProjectFile.repo
+        is_ignored = self.repo.dvcignore.is_ignored_file(self.path)
+{'builtins.object', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/dvcfile.py-_load-154
+dvc.dvcfile.ProjectFile.repo
+        if not self.repo.fs.isfile(self.path):
+{'builtins.object', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/dvcfile.py-_load_yaml-172
+dvc.dvcfile.ProjectFile.repo
+            self.repo.fs,
+{'builtins.object', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/dvcfile.py-_dump_pipeline_file-274
+dvc.dvcfile.ProjectFile.repo
+        with modify_yaml(self.path, fs=self.repo.fs) as data:
+{'builtins.object', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/dvcfile.py-_load-150
+dvc.dvcfile.ProjectFile.repo
+            dvc_ignored = self.repo.dvcignore.is_ignored_file(self.path)
+{'builtins.object', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/dvcfile.py-resolver-307
+dvc.dvcfile.ProjectFile.repo
+        wdir = self.repo.fs.path.parent(self.path)
+{'builtins.object', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/dvcfile.py-_dump_pipeline_file-289
+dvc.dvcfile.ProjectFile.repo
+        self.repo.scm_context.track_file(self.relpath)
+{'builtins.object', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/dvcfile.py-exists-126
+dvc.dvcfile.ProjectFile.repo
+        return self.repo.fs.exists(self.path) and not is_ignored
+{'builtins.object', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/stage/loader.py-load_stage-97
+dvc.dvcfile.ProjectFile.repo
+            dvcfile.repo.fs, dvcfile.path, stage_data.get(Stage.PARAM_WDIR)
+{'builtins.object', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/repo/index.py-build_data_index-621
+dvc_data.index.index.DataIndexEntry.key
+            entry.key = key + entry.key
+{'builtins.NoneType', 'builtins.tuple'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-get-199
+dvc_data.index.index.DataIndexEntry.key
+        path = self.fs.path.join(self.path, *entry.key[len(self.key) :])
+{'builtins.NoneType', 'builtins.tuple'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/save.py-build_tree-68
+dvc_data.index.index.DataIndexEntry.meta
+        tree_meta.size += entry.meta.size or 0
+{'builtins.NoneType', 'dvc_data.hashfile.meta.Meta'}
+ /home/user/dvc/dvc/repo/diff.py-_path-14
+dvc_data.index.index.DataIndexEntry.meta
+    if entry and entry.meta and entry.meta.isdir:
+{'builtins.NoneType', 'dvc_data.hashfile.meta.Meta'}
+ /home/user/dvc/dvc/repo/imports.py-<genexpr>-130
+dvc_data.index.index.DataIndexEntry.meta
+            and not entry.meta.isdir
+{'builtins.NoneType', 'dvc_data.hashfile.meta.Meta'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/index.py-_ensure_loaded-574
+dvc_data.index.index.DataIndexEntry.hash_info
+            and entry.hash_info.isdir
+{'builtins.NoneType', 'dvc_data.hashfile.hash_info.HashInfo'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/diff.py-_diff-196
+dvc_data.index.index.DataIndexEntry.hash_info
+                and old_entry.hash_info.isdir
+{'builtins.NoneType', 'dvc_data.hashfile.hash_info.HashInfo'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_data/index/view.py-_load_dir_keys-96
+dvc_data.index.index.DataIndexEntry.hash_info
+            and entry.hash_info.isdir
+{'builtins.NoneType', 'dvc_data.hashfile.hash_info.HashInfo'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_objects/db.py-_init-74
+dvc_data.hashfile.db.HashFileDB._dirs
+        self._dirs.add(dname)
+{'builtins.NoneType', 'builtins.set'}
+ /home/user/dvc/dvc/dependency/repo.py-download-94
+dvc.dependency.repo.RepoDependency.repo
+            state=self.repo.state,
+{'builtins.NoneType', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/dependency/repo.py-_get_used_and_obj-123
+dvc.dependency.repo.RepoDependency.repo
+        local_odb = self.repo.cache.local
+{'builtins.NoneType', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/dependency/repo.py-download-92
+dvc.dependency.repo.RepoDependency.repo
+            self.repo.cache.local,
+{'builtins.NoneType', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/dependency/repo.py-download-85
+dvc.dependency.repo.RepoDependency.repo
+            self.repo.cloud.pull(objs, jobs=jobs, odb=odb)
+{'builtins.NoneType', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/progress.py-close-131
+dvc.scm.TqdmGit.postfix
+        self.postfix["info"] = ""
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/dvc/dvc/commands/imp_url.py-run-15
+dvc.commands.imp_url.CmdImportUrl.repo
+            self.repo.imp_url(
+{'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/cli/command.py-__init__-21
+dvc.commands.imp_url.CmdImportUrl.repo
+        self.config: "Config" = self.repo.config
+{'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/repo/experiments/queue/remove.py-remove_tasks-26
+dvc.repo.experiments.queue.celery.LocalCeleryQueue.stash
+    stash_rev_all = celery_queue.stash.stash_revs
+{'unittest.mock.MagicMock', 'dvc.repo.experiments.stash.ExpStash'}
+ /home/user/dvc/dvc/repo/experiments/__init__.py-stash_revs-115
+dvc.repo.experiments.queue.celery.LocalCeleryQueue.stash
+            revs.update(queue.stash.stash_revs)
+{'unittest.mock.MagicMock', 'dvc.repo.experiments.stash.ExpStash'}
+ /home/user/dvc/dvc/repo/experiments/queue/remove.py-remove_tasks-46
+dvc.repo.experiments.queue.celery.LocalCeleryQueue.stash
+        celery_queue.stash.remove_revs(list(stash_revs.values()))
+{'unittest.mock.MagicMock', 'dvc.repo.experiments.stash.ExpStash'}
+ /home/user/dvc/dvc/repo/experiments/queue/base.py-_stash_exp-433
+dvc.repo.experiments.queue.celery.LocalCeleryQueue.stash
+                    stash_rev = self.stash.push(message=msg)
+{'unittest.mock.MagicMock', 'dvc.repo.experiments.stash.ExpStash'}
+ /home/user/dvc/dvc/repo/experiments/queue/remove.py-remove_tasks-63
+dvc.repo.experiments.queue.celery.LocalCeleryQueue.failed_stash
+            celery_queue.failed_stash.remove_revs(failed_stash_revs)
+{'unittest.mock.MagicMock', 'dvc.repo.experiments.stash.ExpStash'}
+ /home/user/dvc/dvc/repo/experiments/queue/remove.py-remove_tasks-29
+dvc.repo.experiments.queue.celery.LocalCeleryQueue.failed_stash
+        failed_rev_all = celery_queue.failed_stash.stash_revs
+{'unittest.mock.MagicMock', 'dvc.repo.experiments.stash.ExpStash'}
+ /home/user/dvc/dvc/cli/command.py-__init__-21
+dvc.commands.imp.CmdImport.repo
+        self.config: "Config" = self.repo.config
+{'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/dvc/dvc/commands/imp.py-run-17
+dvc.commands.imp.CmdImport.repo
+            self.repo.imp(
+{'unittest.mock.MagicMock', 'dvc.repo.Repo'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_task/contrib/kombu_filesystem.py-transport_options-214
+dvc_task.contrib.kombu_filesystem.FilesystemChannel.connection
+        return self.connection.client.transport_options
+{'kombu.transport.filesystem.Transport', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_task/proc/process.py-wait-197
+dvc_task.proc.process.ManagedProcess._proc
+            self._proc.wait(timeout=timeout)
+{'builtins.NoneType', 'subprocess.Popen'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dvc_task/proc/process.py-wait-202
+dvc_task.proc.process.ManagedProcess._proc
+        self.returncode = self._proc.returncode
+{'builtins.NoneType', 'subprocess.Popen'}

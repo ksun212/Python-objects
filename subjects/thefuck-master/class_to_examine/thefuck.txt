@@ -1,0 +1,9 @@
+thefuck.const._GenConst
+thefuck.shells.bash.Bash
+thefuck.argument_parser.Parser
+thefuck.types.Rule
+thefuck.ui.CommandSelector
+thefuck.shells.fish.Fish
+thefuck.shells.powershell.Powershell
+thefuck.shells.tcsh.Tcsh
+thefuck.shells.zsh.Zsh

@@ -1,0 +1,92 @@
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/environment.py-list_templates-914
+jinja2.environment.Environment.loader
+        names = self.loader.list_templates()
+{'jinja2.loaders.PackageLoader', 'jinja2.loaders.PrefixLoader', 'builtins.NoneType', 'jinja2.loaders.FileSystemLoader', 'jinja2.loaders.ChoiceLoader', 'test_loader.TestLoader', 'jinja2.loaders.DictLoader', 'jinja2.loaders.ModuleLoader', 'jinja2.loaders.FunctionLoader'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/environment.py-compile_templates-874
+jinja2.environment.Environment.loader
+                source, filename, _ = self.loader.get_source(self, name)
+{'jinja2.loaders.PackageLoader', 'jinja2.loaders.PrefixLoader', 'builtins.NoneType', 'jinja2.loaders.FileSystemLoader', 'jinja2.loaders.ChoiceLoader', 'test_loader.TestLoader', 'jinja2.loaders.DictLoader', 'jinja2.loaders.ModuleLoader', 'jinja2.loaders.FunctionLoader'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/ext.py-extract_from_ast-720
+jinja2.nodes.Call.node
+        yield node.lineno, node.node.name, out
+{'jinja2.nodes.ExtensionAttribute', 'jinja2.nodes.Getattr', 'jinja2.nodes.Filter', 'jinja2.nodes.Name'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-772
+jinja2.nodes.Filter.node
+        args.insert(0, self.node.as_const(eval_ctx))
+{'builtins.NoneType', 'jinja2.nodes.Dict', 'jinja2.nodes.Call', 'jinja2.nodes.Name', 'jinja2.nodes.Neg', 'jinja2.nodes.Filter', 'jinja2.nodes.Getattr', 'jinja2.nodes.List', 'jinja2.nodes.Const'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-parse_print-452
+jinja2.nodes.Output.nodes
+            node.nodes.append(self.parse_expression())
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visitor-88
+jinja2.compiler.CodeGenerator.environment
+            and op in self.environment.intercepted_unops  # type: ignore
+{'test_api.CustomEnvironment', 'jinja2.sandbox.ImmutableSandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.SandboxedEnvironment', 'test_regression.MyEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visitor-64
+jinja2.compiler.CodeGenerator.environment
+            and op in self.environment.intercepted_binops  # type: ignore
+{'test_api.CustomEnvironment', 'jinja2.sandbox.ImmutableSandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.SandboxedEnvironment', 'test_regression.MyEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-503
+jinja2.nodes.EvalContext.environment
+            and self.operator in eval_ctx.environment.intercepted_binops  # type: ignore
+{'test_api.CustomEnvironment', 'jinja2.sandbox.ImmutableSandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.SandboxedEnvironment', 'test_regression.MyEnvironment', 'jinja2.nativetypes.NativeEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/nodes.py-as_const-527
+jinja2.nodes.EvalContext.environment
+            and self.operator in eval_ctx.environment.intercepted_unops  # type: ignore
+{'test_api.CustomEnvironment', 'jinja2.sandbox.ImmutableSandboxedEnvironment', 'jinja2.environment.Environment', 'jinja2.sandbox.SandboxedEnvironment', 'test_regression.MyEnvironment', 'jinja2.nativetypes.NativeEnvironment'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Macro-1321
+jinja2.nodes.Macro.name
+            if not node.name.startswith("_"):
+{'builtins.str', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-641
+jinja2.nodes.Macro.args
+                    node.defaults[explicit_caller - len(node.args)]
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-674
+jinja2.nodes.Macro.args
+                default = node.defaults[idx - len(node.args)]
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-641
+jinja2.nodes.Macro.defaults
+                    node.defaults[explicit_caller - len(node.args)]
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-674
+jinja2.nodes.Macro.defaults
+                default = node.defaults[idx - len(node.args)]
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-parse_from-391
+jinja2.nodes.FromImport.names
+                    node.names.append((target.name, alias.name))
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-parse_from-393
+jinja2.nodes.FromImport.names
+                    node.names.append(target.name)
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Import-1104
+jinja2.nodes.Import.target
+        if frame.toplevel and not node.target.startswith("_"):
+{'builtins.str', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/runtime.py-length-438
+jinja2.runtime.LoopContext._iterable
+            self._length = len(self._iterable)  # type: ignore
+{'builtins.list_iterator', 'jinja2.runtime.Undefined', 'itertools.itertools.groupby', 'builtins.str', 'builtins.generator', 'builtins.list_reverseiterator', 'builtins.range', 'builtins.list', 'builtins.tuple'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-parse_block-321
+jinja2.nodes.Block.name
+        self.stream.skip_if("name:" + node.name)
+{'builtins.str', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/parser.py-parse_if-264
+jinja2.nodes.If.elif_
+                result.elif_.append(node)
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-674
+jinja2.nodes.CallBlock.args
+                default = node.defaults[idx - len(node.args)]
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-macro_body-674
+jinja2.nodes.CallBlock.defaults
+                default = node.defaults[idx - len(node.args)]
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/loaders.py-list_templates-395
+jinja2.loaders.PackageLoader._loader
+            for name in self._loader._files.keys():  # type: ignore
+{'zipimport.zipimporter', '_frozen_importlib_external.SourceFileLoader'}

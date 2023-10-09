@@ -1,0 +1,2 @@
+/home/user/thefuck-master/pre_run_biend.py:946: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim t_2$ & ' + ' & '.join(M6) + '\\\\ \\hline' +'\n')

@@ -1,0 +1,44 @@
+pyro.poutine.runtime._EnumAllocator.dim_to_id
+{'builtins.dict', 'missing'}
+ /home/user/pyro/pyro/poutine/enum_messenger.py-_pyro_sample-160
+        param_dims = _ENUM_ALLOCATOR.dim_to_id.copy()  # enum dim -> unique id
+pyro.poutine.runtime._EnumAllocator.dim_to_id
+{'builtins.dict', 'missing'}
+ /home/user/pyro/pyro/poutine/runtime.py-allocate-129
+            self.dim_to_id[dim] = id_
+pyro.poutine.enum_messenger.EnumMessenger._param_dims
+{'builtins.dict', 'missing'}
+ /home/user/pyro/pyro/poutine/enum_messenger.py-_pyro_sample-168
+        self._param_dims[msg["name"]] = param_dims
+pyro.poutine.enum_messenger.EnumMessenger._param_dims
+{'builtins.dict', 'missing'}
+ /home/user/pyro/pyro/poutine/enum_messenger.py-_pyro_post_sample-224
+        dim_to_id.update(self._param_dims.get(msg["name"], {}))
+pyro.poutine.enum_messenger.EnumMessenger._value_dims
+{'builtins.dict', 'missing'}
+ /home/user/pyro/pyro/poutine/enum_messenger.py-_pyro_post_sample-226
+            self._value_dims[msg["name"]] = {
+pyro.infer.autoguide.guides.AutoNormal._event_dims
+{'builtins.dict', 'missing'}
+ /home/user/pyro/pyro/infer/autoguide/guides.py-_setup_prototype-474
+            self._event_dims[name] = event_dim
+pyro.infer.autoguide.guides.AutoNormal._event_dims
+{'builtins.dict', 'missing'}
+ /home/user/pyro/pyro/infer/autoguide/guides.py-forward-528
+                    ).to_event(self._event_dims[name]),
+pyro.distributions.transforms.affine_autoregressive.AffineAutoregressive.arn
+{'functools.functools.partial', 'missing'}
+ /home/user/pyro/pyro/distributions/transforms/affine_autoregressive.py-_inverse_stable-222
+        perm = self.arn.permutation
+pyro.distributions.transforms.affine_autoregressive.AffineAutoregressive.arn
+{'functools.functools.partial', 'missing'}
+ /home/user/pyro/pyro/distributions/transforms/affine_autoregressive.py-_inverse-150
+        perm = self.arn.permutation
+pyro.distributions.transforms.spline_autoregressive.SplineAutoregressive._cache_log_detJ
+{'torch.Tensor', 'missing'}
+ /home/user/pyro/pyro/distributions/transforms/spline_autoregressive.py-log_abs_det_jacobian-130
+        return self._cache_log_detJ.sum(-1)
+pyro.distributions.transforms.spline_coupling.SplineCoupling._cache_log_detJ
+{'torch.Tensor', 'missing'}
+ /home/user/pyro/pyro/distributions/transforms/spline_coupling.py-log_abs_det_jacobian-165
+        return self._cache_log_detJ.sum(-1)

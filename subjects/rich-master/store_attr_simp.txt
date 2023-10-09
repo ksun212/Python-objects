@@ -1,0 +1,248 @@
+/home/user/rich/rich-master/rich/console.py: __init__: 713: 95, 19
+/home/user/rich/rich-master/rich/console.py: __init__: 19 from builtins.NoneType to builtins.bool
+----------/home/user/rich/rich-master/rich/console.py: __init__----------
+/home/user/rich/rich-master/rich/console.py: __init__: 718: 95, 19
+/home/user/rich/rich-master/rich/console.py: __init__: 19 from builtins.NoneType to builtins.bool
+----------/home/user/rich/rich-master/rich/console.py: __init__----------
+/home/user/rich/rich-master/rich/console.py: update: 196: 95, 8
+/home/user/rich/rich-master/rich/console.py: update: 8 from builtins.bool to builtins.NoneType
+----------/home/user/rich/rich-master/rich/console.py: update----------
+/home/user/rich/rich-master/rich/console.py: update: 196: 95, 8
+/home/user/rich/rich-master/rich/console.py: update: 8 from builtins.bool to builtins.NoneType
+/home/user/rich/rich-master/rich/console.py: update: 204: 95, 12
+/home/user/rich/rich-master/rich/console.py: update: 12 from builtins.NoneType to builtins.int
+----------/home/user/rich/rich-master/rich/console.py: update----------
+/home/user/rich/rich-master/rich/console.py: update: 204: 95, 12
+/home/user/rich/rich-master/rich/console.py: update: 12 from builtins.int to builtins.NoneType
+----------/home/user/rich/rich-master/rich/console.py: update----------
+/home/user/rich/rich-master/rich/console.py: update: 198: 95, 9
+/home/user/rich/rich-master/rich/console.py: update: 9 from builtins.NoneType to builtins.bool
+----------/home/user/rich/rich-master/rich/console.py: update----------
+/home/user/rich/rich-master/rich/console.py: update: 192: 95, 6
+/home/user/rich/rich-master/rich/console.py: update: 6 from builtins.NoneType to builtins.str
+----------/home/user/rich/rich-master/rich/console.py: update----------
+/home/user/rich/rich-master/rich/console.py: update: 192: 95, 6
+/home/user/rich/rich-master/rich/console.py: update: 6 from builtins.NoneType to builtins.str
+/home/user/rich/rich-master/rich/console.py: update: 194: 95, 7
+/home/user/rich/rich-master/rich/console.py: update: 7 from builtins.NoneType to builtins.str
+/home/user/rich/rich-master/rich/console.py: update: 196: 95, 8
+/home/user/rich/rich-master/rich/console.py: update: 8 from builtins.NoneType to builtins.bool
+----------/home/user/rich/rich-master/rich/console.py: update----------
+/home/user/rich/rich-master/rich/console.py: update: 194: 95, 7
+/home/user/rich/rich-master/rich/console.py: update: 7 from builtins.NoneType to builtins.str
+----------/home/user/rich/rich-master/rich/console.py: update----------
+/home/user/rich/rich-master/rich/console.py: update: 192: 95, 6
+/home/user/rich/rich-master/rich/console.py: update: 6 from builtins.NoneType to builtins.str
+/home/user/rich/rich-master/rich/console.py: update: 194: 95, 7
+/home/user/rich/rich-master/rich/console.py: update: 7 from builtins.NoneType to builtins.str
+----------/home/user/rich/rich-master/rich/console.py: update----------
+/home/user/rich/rich-master/rich/console.py: update: 196: 95, 8
+/home/user/rich/rich-master/rich/console.py: update: 8 from builtins.bool to builtins.NoneType
+/home/user/rich/rich-master/rich/console.py: update: 200: 95, 10
+/home/user/rich/rich-master/rich/console.py: update: 10 from builtins.NoneType to builtins.bool
+----------/home/user/rich/rich-master/rich/console.py: update----------
+/home/user/rich/rich-master/rich/console.py: update: 192: 95, 6
+/home/user/rich/rich-master/rich/console.py: update: 6 from builtins.NoneType to builtins.str
+/home/user/rich/rich-master/rich/console.py: update: 196: 95, 8
+/home/user/rich/rich-master/rich/console.py: update: 8 from builtins.bool to builtins.NoneType
+----------/home/user/rich/rich-master/rich/console.py: update----------
+/home/user/rich/rich-master/rich/console.py: update: 194: 95, 7
+/home/user/rich/rich-master/rich/console.py: update: 7 from builtins.NoneType to builtins.str
+/home/user/rich/rich-master/rich/console.py: update: 200: 95, 10
+/home/user/rich/rich-master/rich/console.py: update: 10 from builtins.NoneType to builtins.bool
+----------/home/user/rich/rich-master/rich/console.py: update----------
+/home/user/rich/rich-master/rich/console.py: update: 437: 95, 3
+/home/user/rich/rich-master/rich/console.py: update: 3 from rich.console.Group to builtins.str
+/home/user/rich/rich-master/rich/console.py: update: 196: 95, 8
+/home/user/rich/rich-master/rich/console.py: update: 8 from builtins.bool to builtins.NoneType
+----------/home/user/rich/rich-master/rich/console.py: update----------
+/home/user/rich/rich-master/rich/console.py: update: 204: 95, 12
+/home/user/rich/rich-master/rich/console.py: update: 12 from builtins.NoneType to builtins.int
+----------/home/user/rich/rich-master/rich/console.py: update----------
+/home/user/rich/rich-master/rich/console.py: update: 200: 95, 10
+/home/user/rich/rich-master/rich/console.py: update: 10 from builtins.NoneType to builtins.bool
+----------/home/user/rich/rich-master/rich/console.py: update----------
+/home/user/rich/rich-master/rich/console.py: update: 198: 95, 9
+/home/user/rich/rich-master/rich/console.py: update: 9 from builtins.NoneType to builtins.bool
+/home/user/rich/rich-master/rich/console.py: update: 204: 95, 12
+/home/user/rich/rich-master/rich/console.py: update: 12 from builtins.NoneType to builtins.int
+----------/home/user/rich/rich-master/rich/console.py: update----------
+/home/user/rich/rich-master/rich/console.py: update: 198: 95, 9
+/home/user/rich/rich-master/rich/console.py: update: 9 from builtins.NoneType to builtins.bool
+/home/user/rich/rich-master/rich/console.py: update: 204: 95, 12
+/home/user/rich/rich-master/rich/console.py: update: 12 from builtins.int to builtins.NoneType
+----------/home/user/rich/rich-master/rich/console.py: update----------
+/home/user/rich/rich-master/rich/console.py: update: 194: 95, 7
+/home/user/rich/rich-master/rich/console.py: update: 7 from builtins.NoneType to builtins.str
+/home/user/rich/rich-master/rich/console.py: update: 196: 95, 8
+/home/user/rich/rich-master/rich/console.py: update: 8 from builtins.NoneType to builtins.bool
+----------/home/user/rich/rich-master/rich/console.py: update----------
+/home/user/rich/rich-master/rich/console.py: reset_height: 240: 95, 1
+/home/user/rich/rich-master/rich/console.py: reset_height: 1 from builtins.int to builtins.NoneType
+----------/home/user/rich/rich-master/rich/console.py: reset_height----------
+/home/user/rich/rich-master/rich/console.py: __exit__: 344: 95, 2
+/home/user/rich/rich-master/rich/console.py: __exit__: 2 from builtins.NoneType to builtins.str
+----------/home/user/rich/rich-master/rich/console.py: __exit__----------
+/home/user/rich/rich-master/rich/progress_bar.py: update: 124: 95, 1
+/home/user/rich/rich-master/rich/progress_bar.py: update: 1 from builtins.float to builtins.int
+----------/home/user/rich/rich-master/rich/progress_bar.py: update----------
+/home/user/rich/rich-master/rich/__main__.py: make_test_card: 42: 95, 2
+/home/user/rich/rich-master/rich/__main__.py: make_test_card: 2 from builtins.NoneType to builtins.str
+----------/home/user/rich/rich-master/rich/__main__.py: make_test_card----------
+/home/user/rich/rich-master/rich/console.py: renderables: 478: 95, 0
+/home/user/rich/rich-master/rich/console.py: renderables: 0 from builtins.NoneType to builtins.list
+----------/home/user/rich/rich-master/rich/console.py: renderables----------
+/home/user/rich/rich-master/tests/test_columns.py: render: 56: 95, 12
+/home/user/rich/rich-master/tests/test_columns.py: render: 12 from builtins.NoneType to builtins.int
+----------/home/user/rich/rich-master/tests/test_columns.py: render----------
+/home/user/rich/rich-master/tests/test_columns_align.py: render: 19: 95, 11
+/home/user/rich/rich-master/tests/test_columns_align.py: render: 11 from builtins.NoneType to builtins.str
+----------/home/user/rich/rich-master/tests/test_columns_align.py: render----------
+/home/user/rich/rich-master/rich/console.py: update_height: 230: 95, 2
+/home/user/rich/rich-master/rich/console.py: update_height: 2 from builtins.NoneType to builtins.int
+----------/home/user/rich/rich-master/rich/console.py: update_height----------
+/home/user/rich/rich-master/rich/_log_render.py: __call__: 67: 95, 16
+/home/user/rich/rich-master/rich/_log_render.py: __call__: 16 from builtins.NoneType to rich.text.Text
+----------/home/user/rich/rich-master/rich/_log_render.py: __call__----------
+/home/user/rich/rich-master/rich/console.py: set_live: 841: 95, 1
+/home/user/rich/rich-master/rich/console.py: set_live: 1 from builtins.NoneType to rich.live.Live
+----------/home/user/rich/rich-master/rich/console.py: set_live----------
+/home/user/rich/rich-master/rich/live.py: start: 131: 95, 16
+/home/user/rich/rich-master/rich/live.py: start: 16 from builtins.NoneType to rich.live._RefreshThread
+----------/home/user/rich/rich-master/rich/live.py: start----------
+/home/user/rich/rich-master/rich/console.py: clear_live: 846: 95, 1
+/home/user/rich/rich-master/rich/console.py: clear_live: 1 from rich.live.Live to builtins.NoneType
+----------/home/user/rich/rich-master/rich/console.py: clear_live----------
+/home/user/rich/rich-master/rich/live.py: stop: 144: 95, 5
+/home/user/rich/rich-master/rich/live.py: stop: 5 from rich.live._RefreshThread to builtins.NoneType
+----------/home/user/rich/rich-master/rich/live.py: stop----------
+/home/user/rich/rich-master/rich/console.py: update_dimensions: 255: 95, 4
+/home/user/rich/rich-master/rich/console.py: update_dimensions: 4 from builtins.NoneType to builtins.int
+----------/home/user/rich/rich-master/rich/console.py: update_dimensions----------
+/home/user/rich/rich-master/tests/test_inspect.py: test_can_handle_special_characters_in_docstrings: 419: 95, 1
+/home/user/rich/rich-master/tests/test_inspect.py: test_can_handle_special_characters_in_docstrings: 1 from builtins.NoneType to builtins.str
+----------/home/user/rich/rich-master/tests/test_inspect.py: test_can_handle_special_characters_in_docstrings----------
+/home/user/rich/rich-master/rich/layout.py: update: 327: 95, 1
+/home/user/rich/rich-master/rich/layout.py: update: 1 from rich.layout._Placeholder to rich.panel.Panel
+----------/home/user/rich/rich-master/rich/layout.py: update----------
+/home/user/rich/rich-master/rich/layout.py: update: 327: 95, 1
+/home/user/rich/rich-master/rich/layout.py: update: 1 from rich.layout._Placeholder to builtins.str
+----------/home/user/rich/rich-master/rich/layout.py: update----------
+/home/user/rich/rich-master/rich/layout.py: split: 278: 95, 3
+/home/user/rich/rich-master/rich/layout.py: split: 3 from rich.layout.ColumnSplitter to rich.layout.RowSplitter
+----------/home/user/rich/rich-master/rich/layout.py: split----------
+/home/user/rich/rich-master/rich/live_render.py: __rich_console__: 107: 95, 13
+/home/user/rich/rich-master/rich/live_render.py: __rich_console__: 13 from builtins.NoneType to builtins.tuple
+----------/home/user/rich/rich-master/rich/live_render.py: __rich_console__----------
+/home/user/rich/rich-master/rich/live.py: _enable_redirect_io: 181: 95, 8
+/home/user/rich/rich-master/rich/live.py: _enable_redirect_io: 8 from builtins.NoneType to _pytest.capture.EncodedFile
+/home/user/rich/rich-master/rich/live.py: _enable_redirect_io: 182: 95, 6
+/home/user/rich/rich-master/rich/live.py: _enable_redirect_io: 6 from _pytest.capture.EncodedFile to rich.file_proxy.FileProxy
+/home/user/rich/rich-master/rich/live.py: _enable_redirect_io: 184: 95, 12
+/home/user/rich/rich-master/rich/live.py: _enable_redirect_io: 12 from builtins.NoneType to _pytest.capture.EncodedFile
+/home/user/rich/rich-master/rich/live.py: _enable_redirect_io: 185: 95, 11
+/home/user/rich/rich-master/rich/live.py: _enable_redirect_io: 11 from _pytest.capture.EncodedFile to rich.file_proxy.FileProxy
+----------/home/user/rich/rich-master/rich/live.py: _enable_redirect_io----------
+/home/user/rich/rich-master/rich/live.py: update: 214: 95, 1
+/home/user/rich/rich-master/rich/live.py: update: 1 from builtins.NoneType to builtins.str
+----------/home/user/rich/rich-master/rich/live.py: update----------
+/home/user/rich/rich-master/rich/live.py: _disable_redirect_io: 190: 95, 3
+/home/user/rich/rich-master/rich/live.py: _disable_redirect_io: 3 from rich.file_proxy.FileProxy to _pytest.capture.EncodedFile
+/home/user/rich/rich-master/rich/live.py: _disable_redirect_io: 191: 95, 0
+/home/user/rich/rich-master/rich/live.py: _disable_redirect_io: 0 from _pytest.capture.EncodedFile to builtins.NoneType
+/home/user/rich/rich-master/rich/live.py: _disable_redirect_io: 193: 95, 5
+/home/user/rich/rich-master/rich/live.py: _disable_redirect_io: 5 from rich.file_proxy.FileProxy to _pytest.capture.EncodedFile
+/home/user/rich/rich-master/rich/live.py: _disable_redirect_io: 194: 95, 4
+/home/user/rich/rich-master/rich/live.py: _disable_redirect_io: 4 from _pytest.capture.EncodedFile to builtins.NoneType
+----------/home/user/rich/rich-master/rich/live.py: _disable_redirect_io----------
+/home/user/rich/rich-master/rich/live_render.py: set_renderable: 45: 95, 0
+/home/user/rich/rich-master/rich/live_render.py: set_renderable: 0 from rich.text.Text to rich.screen.Screen
+----------/home/user/rich/rich-master/rich/live_render.py: set_renderable----------
+/home/user/rich/rich-master/tests/test_live_render.py: test_position_cursor: 21: 95, 10
+/home/user/rich/rich-master/tests/test_live_render.py: test_position_cursor: 10 from builtins.NoneType to builtins.tuple
+----------/home/user/rich/rich-master/tests/test_live_render.py: test_position_cursor----------
+/home/user/rich/rich-master/tests/test_live_render.py: test_restore_cursor: 27: 95, 10
+/home/user/rich/rich-master/tests/test_live_render.py: test_restore_cursor: 10 from builtins.NoneType to builtins.tuple
+----------/home/user/rich/rich-master/tests/test_live_render.py: test_restore_cursor----------
+/home/user/rich/rich-master/rich/logging.py: render_message: 192: 95, 5
+/home/user/rich/rich-master/rich/logging.py: render_message: 5 from builtins.NoneType to builtins.list
+----------/home/user/rich/rich-master/rich/logging.py: render_message----------
+/home/user/rich/rich-master/rich/markdown.py: __init__: 360: 95, 6
+/home/user/rich/rich-master/rich/markdown.py: __init__: 6 from builtins.NoneType to rich.syntax.Syntax
+----------/home/user/rich/rich-master/rich/markdown.py: __init__----------
+/home/user/rich/rich-master/rich/pretty.py: install: 276: 95, 10
+/home/user/rich/rich-master/rich/pretty.py: install: 10 from builtins.builtin_function_or_method to builtins.function
+----------/home/user/rich/rich-master/rich/pretty.py: install----------
+/home/user/rich/rich-master/rich/pretty.py: display_hook: 248: 95, 1
+/home/user/rich/rich-master/rich/pretty.py: display_hook: 1 from builtins.NoneType to builtins.str
+----------/home/user/rich/rich-master/rich/pretty.py: display_hook----------
+/home/user/rich/rich-master/rich/pretty.py: display_hook: 233: 95, 1
+/home/user/rich/rich-master/rich/pretty.py: display_hook: 1 from builtins.str to builtins.NoneType
+/home/user/rich/rich-master/rich/pretty.py: display_hook: 248: 95, 1
+/home/user/rich/rich-master/rich/pretty.py: display_hook: 1 from builtins.NoneType to builtins.dict
+----------/home/user/rich/rich-master/rich/pretty.py: display_hook----------
+/home/user/rich/rich-master/tests/test_pretty.py: test_pretty_dataclass: 197: 95, 12
+/home/user/rich/rich-master/tests/test_pretty.py: test_pretty_dataclass: 12 from builtins.str to tests.test_pretty.ExampleDataclass
+----------/home/user/rich/rich-master/tests/test_pretty.py: test_pretty_dataclass----------
+/home/user/rich/rich-master/tests/test_pretty.py: test_reference_cycle_dataclass: 360: 95, 1
+/home/user/rich/rich-master/tests/test_pretty.py: test_reference_cycle_dataclass: 1 from builtins.NoneType to tests.test_pretty.Example
+/home/user/rich/rich-master/tests/test_pretty.py: test_reference_cycle_dataclass: 365: 95, 1
+/home/user/rich/rich-master/tests/test_pretty.py: test_reference_cycle_dataclass: 1 from builtins.NoneType to tests.test_pretty.Example
+----------/home/user/rich/rich-master/tests/test_pretty.py: test_reference_cycle_dataclass----------
+/home/user/rich/rich-master/tests/test_pretty.py: test_reference_cycle_custom_repr: 410: 95, 0
+/home/user/rich/rich-master/tests/test_pretty.py: test_reference_cycle_custom_repr: 0 from builtins.NoneType to tests.test_pretty.Example
+/home/user/rich/rich-master/tests/test_pretty.py: test_reference_cycle_custom_repr: 415: 95, 0
+/home/user/rich/rich-master/tests/test_pretty.py: test_reference_cycle_custom_repr: 0 from builtins.NoneType to tests.test_pretty.Example
+----------/home/user/rich/rich-master/tests/test_pretty.py: test_reference_cycle_custom_repr----------
+/home/user/rich/rich-master/rich/pretty.py: _traverse: 716: 95, 25
+/home/user/rich/rich-master/rich/pretty.py: _traverse: 25 from builtins.str to builtins.NoneType
+----------/home/user/rich/rich-master/rich/pretty.py: _traverse----------
+/home/user/rich/rich-master/rich/spinner.py: render: 69: 95, 0
+/home/user/rich/rich-master/rich/spinner.py: render: 0 from builtins.NoneType to builtins.float
+----------/home/user/rich/rich-master/rich/spinner.py: render----------
+/home/user/rich/rich-master/rich/spinner.py: render: 69: 95, 0
+/home/user/rich/rich-master/rich/spinner.py: render: 0 from builtins.NoneType to builtins.int
+----------/home/user/rich/rich-master/rich/spinner.py: render----------
+/home/user/rich/rich-master/rich/progress.py: update: 1435: 95, 3
+/home/user/rich/rich-master/rich/progress.py: update: 3 from builtins.float to builtins.int
+/home/user/rich/rich-master/rich/progress.py: update: 1462: 95, 16
+/home/user/rich/rich-master/rich/progress.py: update: 16 from builtins.NoneType to builtins.float
+----------/home/user/rich/rich-master/rich/progress.py: update----------
+/home/user/rich/rich-master/rich/progress.py: update: 1462: 95, 16
+/home/user/rich/rich-master/rich/progress.py: update: 16 from builtins.NoneType to builtins.float
+----------/home/user/rich/rich-master/rich/progress.py: update----------
+/home/user/rich/rich-master/rich/progress.py: advance: 1533: 95, 12
+/home/user/rich/rich-master/rich/progress.py: advance: 12 from builtins.NoneType to builtins.float
+/home/user/rich/rich-master/rich/progress.py: advance: 1534: 95, 15
+/home/user/rich/rich-master/rich/progress.py: advance: 15 from builtins.NoneType to builtins.float
+----------/home/user/rich/rich-master/rich/progress.py: advance----------
+/home/user/rich/rich-master/rich/progress.py: advance: 1533: 95, 12
+/home/user/rich/rich-master/rich/progress.py: advance: 12 from builtins.NoneType to builtins.float
+----------/home/user/rich/rich-master/rich/progress.py: advance----------
+/home/user/rich/rich-master/rich/progress.py: reset: 1495: 95, 5
+/home/user/rich/rich-master/rich/progress.py: reset: 5 from builtins.float to builtins.int
+----------/home/user/rich/rich-master/rich/progress.py: reset----------
+/home/user/rich/rich-master/rich/console.py: file: 775: 95, 0
+/home/user/rich/rich-master/rich/console.py: file: 0 from builtins.NoneType to _io._io.StringIO
+----------/home/user/rich/rich-master/rich/console.py: file----------
+/home/user/rich/rich-master/rich/console.py: file: 775: 95, 0
+/home/user/rich/rich-master/rich/console.py: file: 0 from _io._io.StringIO to _pytest.capture.EncodedFile
+----------/home/user/rich/rich-master/rich/console.py: file----------
+/home/user/rich/rich-master/rich/console.py: file: 775: 95, 0
+/home/user/rich/rich-master/rich/console.py: file: 0 from _pytest.capture.EncodedFile to _io._io.StringIO
+----------/home/user/rich/rich-master/rich/console.py: file----------
+/home/user/rich/rich-master/rich/spinner.py: update: 108: 95, 4
+/home/user/rich/rich-master/rich/spinner.py: update: 4 from rich.text.Text to rich.rule.Rule
+----------/home/user/rich/rich-master/rich/spinner.py: update----------
+/home/user/rich/rich-master/tests/test_table.py: render_tables: 67: 95, 27
+/home/user/rich/rich-master/tests/test_table.py: render_tables: 27 from builtins.NoneType to builtins.int
+----------/home/user/rich/rich-master/tests/test_table.py: render_tables----------
+/home/user/rich/rich-master/rich/traceback.py: install: 140: 95, 9
+/home/user/rich/rich-master/rich/traceback.py: install: 9 from builtins.builtin_function_or_method to builtins.function
+----------/home/user/rich/rich-master/rich/traceback.py: install----------
+/home/user/rich/rich-master/tests/test_traceback.py: test_handler: 69: 95, 4
+/home/user/rich/rich-master/tests/test_traceback.py: test_handler: 4 from builtins.function to builtins.builtin_function_or_method
+----------/home/user/rich/rich-master/tests/test_traceback.py: test_handler----------
+/home/user/rich/rich-master/rich/traceback.py: extract: 354: 95, 14
+/home/user/rich/rich-master/rich/traceback.py: extract: 14 from builtins.NoneType to rich.traceback._SyntaxError
+----------/home/user/rich/rich-master/rich/traceback.py: extract----------

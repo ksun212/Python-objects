@@ -1,0 +1,352 @@
+ /home/user/requests_tests/tests/test_requests.py-test_set_cookie_on_301-374
+requests.sessions.Session.cookies
+        assert s.cookies["foo"] == "bar"
+{'requests.cookies.RequestsCookieJar', 'http.cookiejar.CookieJar'}
+ /home/user/requests_tests/tests/test_requests.py-test_cookie_removed_on_expire-385
+requests.sessions.Session.cookies
+        assert s.cookies["foo"] == "bar"
+{'requests.cookies.RequestsCookieJar', 'http.cookiejar.CookieJar'}
+ /home/user/requests_tests/tests/test_requests.py-test_cookie_quote_wrapped-395
+requests.sessions.Session.cookies
+        assert s.cookies["foo"] == '"bar:baz"'
+{'requests.cookies.RequestsCookieJar', 'http.cookiejar.CookieJar'}
+ /home/user/requests_tests/tests/test_requests.py-test_request_cookie_overrides_session_cookie-409
+requests.sessions.Session.cookies
+        assert s.cookies["foo"] == "bar"
+{'requests.cookies.RequestsCookieJar', 'http.cookiejar.CookieJar'}
+ /home/user/requests_tests/tests/test_requests.py-test_DIGEST_AUTH_SETS_SESSION_COOKIES-720
+requests.sessions.Session.cookies
+            assert s.cookies["fake"] == "fake_value"
+{'requests.cookies.RequestsCookieJar', 'http.cookiejar.CookieJar'}
+ /home/user/requests_tests/tests/test_requests.py-test_request_cookie_overrides_session_cookie-405
+requests.sessions.Session.cookies
+        s.cookies["foo"] = "bar"
+{'requests.cookies.RequestsCookieJar', 'http.cookiejar.CookieJar'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-prepare_request-485
+requests.models.Request.method
+            method=request.method.upper(),
+{'builtins.str', 'builtins.bytes', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare_cookies-629
+requests.models.PreparedRequest.headers
+            self.headers["Cookie"] = cookie_header
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-__call__-1162
+requests.models.PreparedRequest.headers
+                r.headers["Dummy-Auth-Test"] = "dummy-auth-test-ok"
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_no_body_content_length-126
+requests.models.PreparedRequest.headers
+        assert req.headers["Content-Length"] == "0"
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_can_send_file_object_with_non_string_filename-1766
+requests.models.PreparedRequest.headers
+        assert "multipart/form-data" in p.headers["Content-Type"]
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/adapters.py-send-518
+requests.models.PreparedRequest.headers
+                    for header, value in request.headers.items():
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare_content_length-587
+requests.models.PreparedRequest.headers
+            self.headers["Content-Length"] = "0"
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_can_send_objects_with_files-1758
+requests.models.PreparedRequest.headers
+        assert "multipart/form-data" in p.headers["Content-Type"]
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/auth.py-__call__-95
+requests.models.PreparedRequest.headers
+        r.headers["Authorization"] = _basic_auth_str(self.username, self.password)
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_set_basicauth-557
+requests.models.PreparedRequest.headers
+        assert p.headers["Authorization"] == _basic_auth_str(username, password)
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare_headers-493
+requests.models.PreparedRequest.headers
+                self.headers[to_native_string(name)] = value
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/auth.py-__call__-291
+requests.models.PreparedRequest.headers
+            r.headers["Authorization"] = self.build_digest_header(r.method, r.url)
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare_content_length-583
+requests.models.PreparedRequest.headers
+            and self.headers.get("Content-Length") is None
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare_body-550
+requests.models.PreparedRequest.headers
+                self.headers["Content-Length"] = builtin_str(length)
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-resolve_redirects-231
+requests.models.PreparedRequest.headers
+                    prepared_request.headers.pop(header, None)
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_headers_preserve_order-502
+requests.models.PreparedRequest.headers
+        items = list(prep.headers.items())
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_basicauth_encodes_byte_strings-567
+requests.models.PreparedRequest.headers
+        assert p.headers["Authorization"] == "Basic xa9zZXJuYW1lOnRlc3TGtg=="
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_header_keys_are_native-1683
+requests.models.PreparedRequest.headers
+        assert "byte" in p.headers.keys()
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare_body-552
+requests.models.PreparedRequest.headers
+                self.headers["Transfer-Encoding"] = "chunked"
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_header_keys_are_native-1682
+requests.models.PreparedRequest.headers
+        assert "unicode" in p.headers.keys()
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare_body-569
+requests.models.PreparedRequest.headers
+                self.headers["Content-Type"] = content_type
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/auth.py-handle_401-274
+requests.models.PreparedRequest.headers
+            prep.headers["Authorization"] = self.build_digest_header(
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_autoset_header_values_are_native-1774
+requests.models.PreparedRequest.headers
+        assert p.headers["Content-Length"] == length
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-prepare_content_length-580
+requests.models.PreparedRequest.headers
+                self.headers["Content-Length"] = builtin_str(length)
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_override_content_length-137
+requests.models.PreparedRequest.headers
+        assert r.headers["Content-Length"] == "not zero"
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_empty_content_length-131
+requests.models.PreparedRequest.headers
+        assert req.headers["Content-Length"] == "0"
+{'requests.structures.CaseInsensitiveDict', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_rewind_body-1889
+requests.models.PreparedRequest.body
+        assert prep.body.read() == b"the data"
+{'_io._io.BytesIO', 'builtins.bytes', 'builtins.generator', 'builtins.list_iterator', 'builtins.str', 'tests.test_requests.BadFileObj', 'tests.test_requests.TestStream', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_rewind_partially_read_body-1896
+requests.models.PreparedRequest.body
+        assert prep.body.read() == b"data"
+{'_io._io.BytesIO', 'builtins.bytes', 'builtins.generator', 'builtins.list_iterator', 'builtins.str', 'tests.test_requests.BadFileObj', 'tests.test_requests.TestStream', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/auth.py-__call__-293
+requests.models.PreparedRequest.body
+            self._thread_local.pos = r.body.tell()
+{'_io._io.BytesIO', 'builtins.bytes', 'builtins.generator', 'builtins.list_iterator', 'builtins.str', 'tests.test_requests.BadFileObj', 'tests.test_requests.TestStream', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_rewind_partially_read_body-1899
+requests.models.PreparedRequest.body
+        assert prep.body.read() == b""
+{'_io._io.BytesIO', 'builtins.bytes', 'builtins.generator', 'builtins.list_iterator', 'builtins.str', 'tests.test_requests.BadFileObj', 'tests.test_requests.TestStream', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_rewind_partially_read_body-1903
+requests.models.PreparedRequest.body
+        assert prep.body.read() == b"data"
+{'_io._io.BytesIO', 'builtins.bytes', 'builtins.generator', 'builtins.list_iterator', 'builtins.str', 'tests.test_requests.BadFileObj', 'tests.test_requests.TestStream', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_rewind_body-1882
+requests.models.PreparedRequest.body
+        assert prep.body.read() == b"the data"
+{'_io._io.BytesIO', 'builtins.bytes', 'builtins.generator', 'builtins.list_iterator', 'builtins.str', 'tests.test_requests.BadFileObj', 'tests.test_requests.TestStream', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_rewind_body-1885
+requests.models.PreparedRequest.body
+        assert prep.body.read() == b""
+{'_io._io.BytesIO', 'builtins.bytes', 'builtins.generator', 'builtins.list_iterator', 'builtins.str', 'tests.test_requests.BadFileObj', 'tests.test_requests.TestStream', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_DIGEST_STREAM-729
+requests.models.Response.raw
+            assert r.raw.read() != b""
+{'_io._io.BytesIO', 'unittest.mock.Mock', '_io._io.StringIO', 'urllib3.response.HTTPResponse', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_response_without_release_conn-2100
+requests.models.Response.raw
+        assert resp.raw.closed
+{'_io._io.BytesIO', 'unittest.mock.Mock', '_io._io.StringIO', 'urllib3.response.HTTPResponse', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-build_response-1976
+requests.models.Response.raw
+                resp.raw.headers["content-encoding"] = "gzip"
+{'_io._io.BytesIO', 'unittest.mock.Mock', '_io._io.StringIO', 'urllib3.response.HTTPResponse', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-generate-816
+requests.models.Response.raw
+                    yield from self.raw.stream(chunk_size, decode_content=True)
+{'_io._io.BytesIO', 'unittest.mock.Mock', '_io._io.StringIO', 'urllib3.response.HTTPResponse', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_iter_content_wraps_exceptions-1463
+requests.models.Response.raw
+        r.raw.stream.side_effect = exception(*args)
+{'_io._io.BytesIO', 'unittest.mock.Mock', '_io._io.StringIO', 'urllib3.response.HTTPResponse', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/adapters.py-build_response-317
+requests.models.Response.raw
+        response.reason = response.raw.reason
+{'_io._io.BytesIO', 'unittest.mock.Mock', '_io._io.StringIO', 'urllib3.response.HTTPResponse', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_response_without_release_conn-2098
+requests.models.Response.raw
+        assert not resp.raw.closed
+{'_io._io.BytesIO', 'unittest.mock.Mock', '_io._io.StringIO', 'urllib3.response.HTTPResponse', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-generate-828
+requests.models.Response.raw
+                    chunk = self.raw.read(chunk_size)
+{'_io._io.BytesIO', 'unittest.mock.Mock', '_io._io.StringIO', 'urllib3.response.HTTPResponse', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-resolve_redirects-188
+requests.models.Response.raw
+                resp.raw.read(decode_content=False)
+{'_io._io.BytesIO', 'unittest.mock.Mock', '_io._io.StringIO', 'urllib3.response.HTTPResponse', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_DIGEST_STREAM-732
+requests.models.Response.raw
+            assert r.raw.read() == b""
+{'_io._io.BytesIO', 'unittest.mock.Mock', '_io._io.StringIO', 'urllib3.response.HTTPResponse', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_unconsumed_session_response_closes_connection-2049
+requests.models.Response.raw
+        assert response.raw.closed
+{'_io._io.BytesIO', 'unittest.mock.Mock', '_io._io.StringIO', 'urllib3.response.HTTPResponse', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/models.py-close-1030
+requests.models.Response.raw
+            self.raw.close()
+{'_io._io.BytesIO', 'unittest.mock.Mock', '_io._io.StringIO', 'urllib3.response.HTTPResponse', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_response_context_manager-2040
+requests.models.Response.raw
+        assert response.raw.closed
+{'_io._io.BytesIO', 'unittest.mock.Mock', '_io._io.StringIO', 'urllib3.response.HTTPResponse', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_uppercase_scheme_redirect-1567
+requests.models.Response.url
+        assert r.url.lower() == url.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_cookielib_cookiejar_on_redirect-463
+requests.models.Response.request
+        for c in resp.request._cookies:
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_cookie_persists_via_api-400
+requests.models.Response.request
+        assert "foo" in r.request.headers["Cookie"]
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_auth_is_stripped_on_http_downgrade-1797
+requests.models.Response.request
+        assert "Authorization" not in r.request.headers
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_http_301_changes_post_to_get-266
+requests.models.Response.request
+        assert r.request.method == "GET"
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_request_and_response_are_pickleable-1478
+requests.models.Response.request
+        assert r.request.headers == pr.request.headers
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_transfer_enc_removal_on_redirect-344
+requests.models.Response.request
+            assert header not in next_resp.request.headers
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_header_remove_is_case_insensitive-1658
+requests.models.Response.request
+        assert "foo" not in r.request.headers
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_auth_is_retained_for_redirect_on_host-1802
+requests.models.Response.request
+        h2 = r.request.headers["Authorization"]
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_http_303_doesnt_change_head_to_get-302
+requests.models.Response.request
+        assert r.request.method == "HEAD"
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_lowlevel.py-test_digestauth_401_count_reset_on_redirect-186
+requests.models.Response.request
+        assert r.request.headers['Authorization'].startswith('Digest ')
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/sessions.py-rebuild_auth-292
+requests.models.Response.request
+            response.request.url, url
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_http_302_changes_post_to_get-281
+requests.models.Response.request
+        assert r.request.method == "GET"
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_http_303_changes_post_to_get-295
+requests.models.Response.request
+        assert r.request.method == "GET"
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_header_validation-1695
+requests.models.Response.request
+            valid_headers[key] == r.request.headers[key]
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_requests_are_updated_each_time-2504
+requests.models.Response.request
+    assert r0.request.method == "POST"
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_fixes_1329-1557
+requests.models.Response.request
+        headers = r.request.headers
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_header_and_body_removal_on_redirect-321
+requests.models.Response.request
+            assert header not in next_resp.request.headers
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_cookielib_cookiejar_on_redirect-459
+requests.models.Response.request
+        assert isinstance(resp.request._cookies, cookielib.CookieJar)
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_http_301_doesnt_change_head_to_get-274
+requests.models.Response.request
+        assert r.request.method == "HEAD"
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_header_and_body_removal_on_redirect-319
+requests.models.Response.request
+        assert next_resp.request.body is None
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_cookielib_cookiejar_on_redirect-460
+requests.models.Response.request
+        assert not isinstance(resp.request._cookies, requests.cookies.RequestsCookieJar)
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_json_param_post_content_type_works-2015
+requests.models.Response.request
+        assert "application/json" in r.request.headers["Content-Type"]
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_lowlevel.py-test_digestauth_401_count_reset_on_redirect-185
+requests.models.Response.request
+        assert 'Authorization' in r.request.headers
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_requests_are_updated_each_time-2516
+requests.models.Response.request
+        assert response.request.method == "GET"
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_custom_content_type-1106
+requests.models.Response.request
+        assert b"text/py-content-type" in r.request.body
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_DIGESTAUTH_QUOTES_QOP_VALUE-758
+requests.models.Response.request
+            assert '"auth"' in r.request.headers["Authorization"]
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-<listcomp>-471
+requests.models.Response.request
+        req_urls = [r.request.url for r in resp.history]
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/auth.py-handle_401-270
+requests.models.Response.request
+            prep = r.request.copy()
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_lowlevel.py-test_chunked_upload-36
+requests.models.Response.request
+    assert r.request.headers["Transfer-Encoding"] == "chunked"
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_http_302_doesnt_change_head_to_get-288
+requests.models.Response.request
+        assert r.request.method == "HEAD"
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_invalid_files_input-783
+requests.models.Response.request
+        assert b'name="random-file-2"' in post.request.body
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_invalid_files_input-782
+requests.models.Response.request
+        assert b'name="random-file-1"' not in post.request.body
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_request_and_response_are_pickleable-1477
+requests.models.Response.request
+        assert r.request.url == pr.request.url
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/requests_tests/tests/test_requests.py-test_transfer_enc_removal_on_redirect-342
+requests.models.Response.request
+        assert next_resp.request.body is None
+{'requests.models.PreparedRequest', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/requests/auth.py-handle_401-277
+requests.models.Response.connection
+            _r = r.connection.send(prep, **kwargs)
+{'missing', 'requests.adapters.HTTPAdapter'}

@@ -1,0 +1,65 @@
+flask.templating.DispatchingJinjaLoader.app
+{'conftest.Flask', 'flask.app.Flask', 'test_templating.CustomFlask'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/templating.py-_iter_loaders-100
+        loader = self.app.jinja_loader
+flask.templating.DispatchingJinjaLoader.app
+{'conftest.Flask', 'flask.app.Flask', 'test_templating.CustomFlask'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/templating.py-_iter_loaders-104
+        for blueprint in self.app.iter_blueprints():
+flask.templating.DispatchingJinjaLoader.app
+{'conftest.Flask', 'flask.app.Flask', 'test_templating.CustomFlask'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/templating.py-list_templates-111
+        loader = self.app.jinja_loader
+flask.templating.DispatchingJinjaLoader.app
+{'conftest.Flask', 'flask.app.Flask', 'test_templating.CustomFlask'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/templating.py-list_templates-115
+        for blueprint in self.app.iter_blueprints():
+flask.templating.DispatchingJinjaLoader.app
+{'conftest.Flask', 'flask.app.Flask', 'test_templating.CustomFlask'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/templating.py-get_source-57
+        if self.app.config["EXPLAIN_TEMPLATE_LOADING"]:
+flask.ctx.RequestContext.request
+{'test_json.ModifiedRequest', 'flask.wrappers.Request'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-copy-366
+            environ=self.request.environ,
+flask.ctx.RequestContext.request
+{'test_json.ModifiedRequest', 'flask.wrappers.Request'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/debughelpers.py-explain_template_loading_attempts-120
+    if reqctx is not None and reqctx.request.blueprint is not None:
+flask.ctx.RequestContext.request
+{'test_json.ModifiedRequest', 'flask.wrappers.Request'}
+ /home/user/flask_tests/tests/test_testing.py-test_environ_defaults-39
+    assert ctx.request.url == "http://localhost/"
+flask.ctx.RequestContext.request
+{'test_json.ModifiedRequest', 'flask.wrappers.Request'}
+ /home/user/flask_tests/tests/test_testing.py-test_blueprint_with_subdomain-137
+        assert ctx.request.blueprint == bp.name
+flask.ctx.RequestContext.request
+{'test_json.ModifiedRequest', 'flask.wrappers.Request'}
+ /home/user/flask_tests/tests/test_testing.py-test_environ_defaults_from_config-27
+    assert ctx.request.url == "http://example.com:1234/foo/"
+flask.ctx.RequestContext.request
+{'test_json.ModifiedRequest', 'flask.wrappers.Request'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/debughelpers.py-explain_template_loading_attempts-121
+        blueprint = reqctx.request.blueprint
+flask.ctx.RequestContext.request
+{'test_json.ModifiedRequest', 'flask.wrappers.Request'}
+ /home/user/flask_tests/tests/test_testing.py-test_blueprint_with_subdomain-134
+    assert ctx.request.url == "http://xxx.example.com:1234/foo/"
+flask.ctx.RequestContext.request
+{'test_json.ModifiedRequest', 'flask.wrappers.Request'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/testing.py-session_transaction-173
+            self.cookie_jar.extract_wsgi(c.request.environ, headers)
+flask.ctx.RequestContext.request
+{'test_json.ModifiedRequest', 'flask.wrappers.Request'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-auto_pop-463
+        if self.request.environ.get("flask._preserve_context") or (
+flask.ctx.RequestContext.request
+{'test_json.ModifiedRequest', 'flask.wrappers.Request'}
+ /home/user/flask_tests/tests/test_testing.py-test_specify_url_scheme-98
+    assert ctx.request.url == "https://localhost/"
+flask.ctx.RequestContext.request
+{'test_json.ModifiedRequest', 'flask.wrappers.Request'}
+
+check: 2
+safe: 2

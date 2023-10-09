@@ -1,0 +1,17 @@
+newspaper.utils.StringReplacement
+newspaper.utils.StringSplitter
+newspaper.mthreading.NewsPool
+newspaper.configuration.Configuration
+newspaper.extractors.ContentExtractor
+newspaper.utils.ParsingCandidate
+newspaper.cleaners.DocumentCleaner
+newspaper.utils.ReplaceSequence
+newspaper.text.StopWords
+newspaper.text.WordStats
+newspaper.videos.extractors.VideoExtractor
+newspaper.images.Scraper
+newspaper.source.Source
+newspaper.text.StopWordsArabic
+newspaper.text.StopWordsChinese
+newspaper.text.StopWordsJapanese
+newspaper.text.StopWordsThai

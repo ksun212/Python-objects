@@ -1,0 +1,3 @@
+ /home/user/routersploit/routersploit/modules/payloads/cmd/php_reverse_tcp.py-generate-17
+ /home/user/routersploit/routersploit/modules/payloads/cmd/python_reverse_udp.py-generate-17
+ /home/user/routersploit/routersploit/core/exploit/exploit.py-__new__-47

@@ -1,0 +1,120 @@
+pyod.models.vae.VAE.scaler_
+{'missing', 'sklearn.preprocessing._data.StandardScaler'}
+ /home/user/pyod/pyod/models/vae.py-decision_function-380
+            X_norm = self.scaler_.transform(X)
+pyod.models.vae.VAE.model_
+{'keras.engine.functional.Functional', 'missing'}
+ /home/user/pyod/pyod/models/vae.py-decision_function-385
+        pred_scores = self.model_.predict(X_norm)
+pyod.models.vae.VAE.decision_scores_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/pyod/pyod/models/base.py-<lambda>-279
+            lambda x: np.count_nonzero(self.decision_scores_ <= x))
+pyod.models.vae.VAE.decision_scores_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/pyod/pyod/models/base.py-_process_decision_scores-449
+            self.labels_ = (self.decision_scores_ > self.threshold_).astype(
+pyod.models.vae.VAE.decision_scores_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/pyod/pyod/models/base.py-predict_confidence-272
+        n = len(self.decision_scores_)
+pyod.models.vae.VAE.threshold_
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict_confidence-297
+            prediction = (test_scores > self.threshold_).astype('int').ravel()
+pyod.models.vae.VAE.threshold_
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict-171
+            prediction = (pred_score > self.threshold_).astype('int').ravel()
+pyod.models.vae.VAE._mu
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict_proba-236
+            pre_erf_score = (test_scores - self._mu) / (
+pyod.models.vae.VAE._sigma
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict_proba-237
+                    self._sigma * np.sqrt(2))
+pyod.models.kpca.KPCA.threshold_
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict_confidence-297
+            prediction = (test_scores > self.threshold_).astype('int').ravel()
+pyod.models.kpca.KPCA.threshold_
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict-171
+            prediction = (pred_score > self.threshold_).astype('int').ravel()
+pyod.models.kpca.KPCA._mu
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict_proba-236
+            pre_erf_score = (test_scores - self._mu) / (
+pyod.models.kpca.KPCA._sigma
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict_proba-237
+                    self._sigma * np.sqrt(2))
+pyod.models.knn.KNN.tree_
+{'missing', 'sklearn.neighbors._kd_tree.sklearn.neighbors._kd_tree.KDTree'}
+ /home/user/pyod/pyod/models/knn.py-decision_function-250
+            dist_arr, _ = self.tree_.query(x_i, k=self.n_neighbors)
+pyod.models.knn.KNN.decision_scores_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/pyod/pyod/models/base.py-<lambda>-279
+            lambda x: np.count_nonzero(self.decision_scores_ <= x))
+pyod.models.knn.KNN.decision_scores_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/pyod/pyod/models/base.py-predict_confidence-272
+        n = len(self.decision_scores_)
+pyod.models.knn.KNN.decision_scores_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/pyod/pyod/models/base.py-_process_decision_scores-449
+            self.labels_ = (self.decision_scores_ > self.threshold_).astype(
+pyod.models.knn.KNN.threshold_
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict_confidence-297
+            prediction = (test_scores > self.threshold_).astype('int').ravel()
+pyod.models.knn.KNN.threshold_
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict-171
+            prediction = (pred_score > self.threshold_).astype('int').ravel()
+pyod.models.knn.KNN._mu
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict_proba-236
+            pre_erf_score = (test_scores - self._mu) / (
+pyod.models.knn.KNN._sigma
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict_proba-237
+                    self._sigma * np.sqrt(2))
+pyod.models.auto_encoder.AutoEncoder.scaler_
+{'missing', 'sklearn.preprocessing._data.StandardScaler'}
+ /home/user/pyod/pyod/models/auto_encoder.py-decision_function-288
+            X_norm = self.scaler_.transform(X)
+pyod.models.auto_encoder.AutoEncoder.model_
+{'missing', 'keras.engine.sequential.Sequential'}
+ /home/user/pyod/pyod/models/auto_encoder.py-decision_function-293
+        pred_scores = self.model_.predict(X_norm)
+pyod.models.auto_encoder.AutoEncoder.decision_scores_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/pyod/pyod/models/base.py-<lambda>-279
+            lambda x: np.count_nonzero(self.decision_scores_ <= x))
+pyod.models.auto_encoder.AutoEncoder.decision_scores_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/pyod/pyod/models/base.py-predict_confidence-272
+        n = len(self.decision_scores_)
+pyod.models.auto_encoder.AutoEncoder.decision_scores_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/pyod/pyod/models/base.py-_process_decision_scores-449
+            self.labels_ = (self.decision_scores_ > self.threshold_).astype(
+pyod.models.auto_encoder.AutoEncoder.threshold_
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict_confidence-297
+            prediction = (test_scores > self.threshold_).astype('int').ravel()
+pyod.models.auto_encoder.AutoEncoder.threshold_
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict-171
+            prediction = (pred_score > self.threshold_).astype('int').ravel()
+pyod.models.auto_encoder.AutoEncoder._mu
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict_proba-236
+            pre_erf_score = (test_scores - self._mu) / (
+pyod.models.auto_encoder.AutoEncoder._sigma
+{'missing', 'numpy.numpy.float64'}
+ /home/user/pyod/pyod/models/base.py-predict_proba-237
+                    self._sigma * np.sqrt(2))

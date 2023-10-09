@@ -1,0 +1,3 @@
+ /home/user/pelican/pelican/tests/test_generators.py-setUp-26
+ /home/user/pelican/pelican/tests/test_settings.py-test_read_empty_settings-53
+ /home/user/pelican/pelican/tests/test_paginator.py-setUp-19

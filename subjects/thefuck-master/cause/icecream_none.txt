@@ -1,0 +1,8 @@
+ /home/user/icecream/tests/test_icecream.py-parseOutputIntoPairs-189
+icecream.icecream.IceCreamDebugger.prefix
+            dedented = line[len(ic.prefix) + len(prefix):]
+{'builtins.function', 'builtins.str'}
+ /home/user/icecream/tests/test_icecream.py-stripPrefix-110
+icecream.icecream.IceCreamDebugger.prefix
+        line = line.strip()[len(ic.prefix):]
+{'builtins.function', 'builtins.str'}

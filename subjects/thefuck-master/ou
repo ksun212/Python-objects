@@ -1,0 +1,21 @@
+nohup: ignoring input
+/home/user/thefuck-master/pre_run_biend.py:1081: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6) + '\\\\ \\hline' +'\n')
+ImportError while loading conftest '/home/user/thefuck-master/tests/conftest.py'.
+tests/conftest.py:3: in <module>
+    from thefuck import shells
+thefuck/shells/__init__.py:6: in <module>
+    from psutil import Process
+../purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/psutil/__init__.py:102: in <module>
+    from . import _pslinux as _psplatform
+../purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/psutil/_pslinux.py:26: in <module>
+    from . import _psutil_linux as cext
+E   ImportError: cannot import name '_psutil_linux' from partially initialized module 'psutil' (most likely due to a circular import) (/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/psutil/__init__.py)
+Traceback (most recent call last):
+  File "/home/user/thefuck-master/pre_run_biend.py", line 40, in <module>
+    import matplotlib.pyplot as plt
+  File "/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/matplotlib/__init__.py", line 113, in <module>
+    from . import _api, _version, cbook, _docstring, rcsetup
+  File "/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/matplotlib/cbook/__init__.py", line 30, in <module>
+    from matplotlib import _api, _c_internal_utils
+ImportError: cannot import name '_c_internal_utils' from partially initialized module 'matplotlib' (most likely due to a circular import) (/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/matplotlib/__init__.py)

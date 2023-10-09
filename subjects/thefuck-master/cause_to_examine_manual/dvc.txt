@@ -1,0 +1,63 @@
+dvc.repo.Repo._data_index
+{'dvc_data.index.index.DataIndex', 'builtins.NoneType'}
+ /home/user/dvc/dvc/repo/__init__.py-close-594
+            self._data_index.close()
+dvc.repo.Repo.state
+{'dvc_data.hashfile.state.State', 'dvc_data.hashfile.state.StateNoop'}
+ /home/user/dvc/tests/func/test_state.py-test_get_unused_links-63
+    assert set(dvc.state.get_unused_links([], dvc.fs)) == {"foo", "bar"}
+dvc.repo.Repo.state
+{'dvc_data.hashfile.state.State', 'dvc_data.hashfile.state.StateNoop'}
+ /home/user/dvc/tests/func/test_state.py-test_get_unused_links-64
+    assert set(dvc.state.get_unused_links(links[:1], dvc.fs)) == {"bar"}
+dvc.repo.Repo.state
+{'dvc_data.hashfile.state.State', 'dvc_data.hashfile.state.StateNoop'}
+ /home/user/dvc/dvc/repo/checkout.py-_remove_unused_links-27
+    unused = repo.state.get_unused_links(used, repo.fs)
+dvc.repo.Repo.state
+{'dvc_data.hashfile.state.State', 'dvc_data.hashfile.state.StateNoop'}
+ /home/user/dvc/dvc/repo/__init__.py-_reset-598
+        self.state.close()
+dvc.repo.Repo.state
+{'dvc_data.hashfile.state.State', 'dvc_data.hashfile.state.StateNoop'}
+ /home/user/dvc/tests/func/test_state.py-test_remove_links-54
+    dvc.state.remove_links(["foo", "bar"], dvc.fs)
+dvc.repo.Repo.state
+{'dvc_data.hashfile.state.State', 'dvc_data.hashfile.state.StateNoop'}
+ /home/user/dvc/dvc/repo/checkout.py-_remove_unused_links-29
+    repo.state.remove_links(unused, repo.fs)
+dvc.repo.Repo.state
+{'dvc_data.hashfile.state.State', 'dvc_data.hashfile.state.StateNoop'}
+ /home/user/dvc/tests/func/test_state.py-test_get_unused_links-65
+    assert set(dvc.state.get_unused_links(links, dvc.fs)) == set()
+dvc.repo.Repo.state
+{'dvc_data.hashfile.state.State', 'dvc_data.hashfile.state.StateNoop'}
+ /home/user/dvc/dvc/repo/__init__.py-close-592
+        self.state.close()
+dvc.dependency.param.ParamsDependency.stage
+{'dvc.stage.Stage', 'dvc.stage.PipelineStage'}
+ /home/user/dvc/dvc/output.py-_parse_path-453
+            fs_path = fs.path.join(self.stage.wdir, fs_path)
+dvc.dependency.param.ParamsDependency.stage
+{'dvc.stage.Stage', 'dvc.stage.PipelineStage'}
+ /home/user/dvc/dvc/output.py-_parse_path-444
+            and self.stage.repo.fs == fs
+dvc.dependency.param.ParamsDependency.stage
+{'dvc.stage.Stage', 'dvc.stage.PipelineStage'}
+ /home/user/dvc/dvc/output.py-dumpd-780
+            (not self.IS_DEPENDENCY or self.stage.is_import)
+dvc.dependency.param.ParamsDependency.stage
+{'dvc.stage.Stage', 'dvc.stage.PipelineStage'}
+ /home/user/dvc/dvc/output.py-dumpd-792
+            path = self.fs.path.as_posix(relpath(self.fs_path, self.stage.wdir))
+dvc.dependency.param.ParamsDependency.stage
+{'dvc.stage.Stage', 'dvc.stage.PipelineStage'}
+ /home/user/dvc/dvc/output.py-use_scm_ignore-507
+        return self.use_cache or self.stage.is_repo_import
+dvc.repo.experiments.executor.base.ExecutorInfo.status
+{'dvc.repo.experiments.executor.base.TaskStatus'}
+ /home/user/dvc/dvc/repo/experiments/executor/base.py-cleanup-326
+            if info.status < TaskStatus.FAILED:
+
+check: 4
+safe: 4

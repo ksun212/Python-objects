@@ -1,0 +1,24 @@
+pandas.core.indexes.base.Index.mine
+{'pandas.tests.test_register_accessor.MyAccessor', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/tests/test_register_accessor.py-test_register-66
+        assert o.mine.prop == "item"
+pandas.core.series.Series.mine
+{'pandas.tests.test_register_accessor.MyAccessor', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/tests/test_register_accessor.py-test_register-66
+        assert o.mine.prop == "item"
+pandas.core.series.Series.mine
+{'pandas.tests.test_register_accessor.MyAccessor', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/tests/test_register_accessor.py-test_accessor_works-79
+        assert s.mine.prop == "item"
+pandas.core.series.Series.mine
+{'pandas.tests.test_register_accessor.MyAccessor', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/tests/test_register_accessor.py-test_accessor_works-80
+        assert s.mine.method() == "item"
+pandas.core.series.Series.mine
+{'pandas.tests.test_register_accessor.MyAccessor', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/tests/test_register_accessor.py-test_accessor_works-77
+        assert s.mine.obj is s
+pandas.core.frame.DataFrame.mine
+{'pandas.tests.test_register_accessor.MyAccessor', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/tests/test_register_accessor.py-test_register-66
+        assert o.mine.prop == "item"

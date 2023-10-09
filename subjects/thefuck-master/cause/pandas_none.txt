@@ -1,0 +1,40 @@
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/tests/test_register_accessor.py-test_register-66
+pandas.core.indexes.base.Index.mine
+        assert o.mine.prop == "item"
+{'missing', 'pandas.tests.test_register_accessor.MyAccessor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/tests/test_register_accessor.py-test_accessor_works-79
+pandas.core.series.Series.mine
+        assert s.mine.prop == "item"
+{'missing', 'pandas.tests.test_register_accessor.MyAccessor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/tests/test_register_accessor.py-test_accessor_works-80
+pandas.core.series.Series.mine
+        assert s.mine.method() == "item"
+{'missing', 'pandas.tests.test_register_accessor.MyAccessor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/tests/test_register_accessor.py-test_accessor_works-77
+pandas.core.series.Series.mine
+        assert s.mine.obj is s
+{'missing', 'pandas.tests.test_register_accessor.MyAccessor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/tests/test_register_accessor.py-test_register-66
+pandas.core.series.Series.mine
+        assert o.mine.prop == "item"
+{'missing', 'pandas.tests.test_register_accessor.MyAccessor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/tests/test_register_accessor.py-test_register-66
+pandas.core.frame.DataFrame.mine
+        assert o.mine.prop == "item"
+{'missing', 'pandas.tests.test_register_accessor.MyAccessor'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/readers.py-_make_engine-1746
+pandas.io.parsers.readers.TextFileReader.handles
+            f = self.handles.handle
+{'builtins.NoneType', 'pandas.io.common.IOHandles'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py-__init__-124
+pandas.io.parsers.c_parser_wrapper.CParserWrapper.names
+        self.orig_names = self.names[:]  # type: ignore[has-type]
+{'builtins.NoneType', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/groupby/grouper.py-__init__-548
+pandas.core.groupby.grouper.Grouping.grouping_vector
+                and len(self.grouping_vector) == len(index)
+{'builtins.NoneType', 'builtins.function'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/pandas/core/base.py-_reset_cache-133
+pandas.core.groupby.generic.DataFrameGroupBy._cache
+            self._cache.pop(key, None)
+{'missing', 'builtins.dict'}

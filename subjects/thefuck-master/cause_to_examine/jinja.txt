@@ -1,0 +1,8 @@
+jinja2.nodes.Macro.name
+{'builtins.str', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Macro-1321
+            if not node.name.startswith("_"):
+jinja2.nodes.Import.target
+{'builtins.str', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/jinja2/compiler.py-visit_Import-1104
+        if frame.toplevel and not node.target.startswith("_"):

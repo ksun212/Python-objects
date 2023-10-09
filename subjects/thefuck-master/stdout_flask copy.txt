@@ -1,0 +1,172 @@
+0
+0
+1531
+0
+0
+8
+1053
+0
+0
+
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/cli.py-_flush_bg_loading_exception-346
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/cli.py-load_app-428
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/helpers.py-get_flashed_messages-432
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-auto_pop-467
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/blueprints.py-register-381
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-push-413
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/blueprints.py-register-378
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-__init__-318
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/response.py-make_sequence-387
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/test.py-input_stream-653
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-push-416
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/app.py-__init__-520
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-pop-437
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/cli.py-_load_app-336
+
+
+0
+14
+0
+0
+ /home/user/flask_tests/tests/test_session_interface.py-test_open_session_with_endpoint-20
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/decorators.py-decorator-220
+ /home/user/flask_tests/tests/test_json.py-test_blueprint_json_customization-286
+ /home/user/flask_tests/tests/test_json.py-test_blueprint_json_customization-285
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-match_request-379
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/testing.py-__enter__-244
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-__init__-320
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/request.py-get_data-426
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/request.py-get_json-602
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/blueprints.py-register-325
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-match_request-377
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/sansio/request.py-_parse_content_type-347
+
+
+4
+8
+0
+0
+extend
+{' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/decorators.py-decorator-220', 
+' /home/user/flask_tests/tests/test_json.py-test_blueprint_json_customization-286', 
+' /home/user/flask_tests/tests/test_json.py-test_blueprint_json_customization-285', 
+' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-match_request-379', 
+' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/testing.py-__enter__-244', 
+' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-__init__-320', 
+' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/request.py-get_data-426', 
+' /home/user/flask_tests/tests/test_session_interface.py-test_open_session_with_endpoint-20', 
+' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/wrappers/request.py-get_json-602',
+ ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/blueprints.py-register-325', 
+ ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/flask/ctx.py-match_request-377', 
+ ' /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/werkzeug/sansio/request.py-_parse_content_type-347'}
+0.20033981266286358
+0.1147792098035073
+0.6848809775336291
+0.05536725169029831
+0.0624478713776153
+0.027009281113023725
+0.0004436478500825185
+0.8547319479689801
+0.4397003745318352
+0.06292134831460675
+0.49737827715355803
+0.13229571984435798
+0.08560311284046693
+0.023346303501945526
+0.04669260700389105
+0.7120622568093385
+defaultdict(<class 'int'>, {'builtins.getset_descriptor': 2051, 'builtins.function': 4040, 'builtins.member_descriptor': 1246, 'builtins.staticmethod': 463, 'flask.helpers.locked_cached_property': 222, 'builtins.property': 14096, 'werkzeug.utils.cached_property': 512, 'flask.config.ConfigAttribute': 125, 'builtins.method_descriptor': 2, 'builtins.classmethod': 0, 'builtins.wrapper_descriptor': 0, 'builtins.classmethod_descriptor': 0, 'functools.cached_property': 0, 'functools.functools._lru_cache_wrapper': 0, 'others': 0})
+defaultdict(<class 'int'>, {'builtins.member_descriptor': 141, 'builtins.property': 2919, 'flask.config.ConfigAttribute': 13, 'werkzeug.utils.header_property': 47, 'builtins.getset_descriptor': 0, 'builtins.function': 0, 'builtins.classmethod': 0, 'builtins.method_descriptor': 0, 'builtins.wrapper_descriptor': 0, 'builtins.classmethod_descriptor': 0, 'builtins.staticmethod': 0, 'functools.cached_property': 0, 'functools.functools._lru_cache_wrapper': 0, 'others': 0})
+2
+0
+0.0
+from none: 0.9931102362204725
+to none: 0.005905511811023622
+t1 == t2:  0.0
+t1 <: t2:  0.0
+t2 <: t1:  0.0
+t2 ~~ t1:  0.0
+normal mutation: 0.0
+from none class:  0.8
+to none class:  0.13333333333333333
+t1 == t2 class:  0.0
+t1 <: t2 class:  0.0
+t2 <: t1 class:  0.0
+t2 ~~ t1 class:  0.0
+nromal class:  0.0
+dot syntax:  0.9789189378792662
+hashmap syntax:  0.01229436318355607
+reflection:  0.008786698937177734
+??? syntax:  0.0
+dot syntax:  0.9546105434810304
+hashmap syntax:  0.02027670904782531
+reflection:  0.02504650036945499
+??? syntax:  6.62471016893011e-05
+[]
+[]
+union_cover1: 0
+manual_check2: 0
+union_cover1: 0
+manual_check2: 0
+wp: 0
+no_wp: 0
+trival_not_wp: 0
+clauses: 0
+exact: 0
+comp_succ: 0
+comp_fail: 0
+call: 0
+unary: 0
+related_literal: 0
+functioning_literal: 0
+set-descr object: 0.2440697902372084
+set-descr class: 0.4375
+extend object: 0.003136639874534405
+extend class: 0.03125
+override object: 0.1250735149970594
+override class: 0.15625
+update object: 0.29347186826112526
+update class: 0.1875
+get-descr object: 0.5087237796510489
+get-descr class: 0.75
+inherit object: 0.40148990394040385
+inherit class: 0.6875
+del-descr object: 0.0
+del-descr class: 0.0
+remove object: 0.00019603999215840032
+remove class: 0.03125
+abnormal object: 0.2968045481278181
+abnormal class: 0.25
+abmonotonic object: 0.002548519898059204
+abmonotonic class: 0.09375
+(('builtins.NoneType', 'werkzeug.routing.MapAdapter'), 507)
+(('builtins.NoneType', 'werkzeug.datastructures.FileMultiDict'), 495)
+(('builtins.NoneType', 'builtins.str'), 456)
+(('builtins.NoneType', 'flask.sessions.SecureCookieSession <*> {on_update$$builtins.function,}'), 418)
+(('builtins.NoneType', 'flask.sessions.NullSession <*> {on_update$$builtins.function,}'), 84)
+(('builtins.NoneType', 'flask.app.Flask <*> {import_name$$builtins.str,_static_folder$$builtins.str,_static_url_path$$builtins.NoneType,template_folder$$builtins.str,root_path$$builtins.str,cli$$flask.cli.AppGroup <*> {name$$builtins.str,context_settings$$builtins.dict,callback$$builtins.NoneType,params$$builtins.list,help$$builtins.NoneType,epilog$$builtins.NoneType,options_metavar$$builtins.str,short_help$$builtins.NoneType,add_help_option$$builtins.bool,no_args_is_help$$builtins.bool,hidden$$builtins.bool,deprecated$$builtins.bool,invoke_without_command$$builtins.bool,subcommand_metavar$$builtins.str,chain$$builtins.bool,_result_callback$$builtins.NoneType,commands$$builtins.dict,},view_functions$$builtins.dict,error_handler_spec$$collections.collections.defaultdict,before_request_funcs$$collections.collections.defaultdict,after_request_funcs$$collections.collections.defaultdict,teardown_request_funcs$$collections.collections.defaultdict,template_context_processors$$collections.collections.defaultdict,url_value_preprocessors$$collections.collections.defaultdict,url_default_functions$$collections.collections.defaultdict,instance_path$$builtins.str,config$$flask.config.Config <*> {root_path$$builtins.str,},url_build_error_handlers$$builtins.list,before_first_request_funcs$$builtins.list,teardown_appcontext_funcs$$builtins.list,shell_context_processors$$builtins.list,blueprints$$builtins.dict,extensions$$builtins.dict,url_map$$werkzeug.routing.Map,subdomain_matching$$builtins.bool,_got_first_request$$builtins.bool,_before_request_lock$$_thread._thread.lock,name$$builtins.str,jinja_env$$flask.templating.Environment <*> {block_start_string$$builtins.str,block_end_string$$builtins.str,variable_start_string$$builtins.str,variable_end_string$$builtins.str,comment_start_string$$builtins.str,comment_end_string$$builtins.str,line_statement_prefix$$builtins.NoneType,line_comment_prefix$$builtins.NoneType,trim_blocks$$builtins.bool,lstrip_blocks$$builtins.bool,newline_sequence$$builtins.str,keep_trailing_newline$$builtins.bool,undefined$$builtins.type,optimized$$builtins.bool,finalize$$builtins.NoneType,autoescape$$builtins.method,filters$$builtins.dict,tests$$builtins.dict,globals$$builtins.dict,loader$$flask.templating.DispatchingJinjaLoader <*> {app$$flask.app.Flask rec-ref,},cache$$jinja2.utils.LRUCache,bytecode_cache$$builtins.NoneType,auto_reload$$builtins.bool,policies$$builtins.dict,extensions$$builtins.dict,is_async$$builtins.bool,app$$flask.app.Flask rec-ref,},}'), 19)
+(('builtins.NoneType', '_io._io.BytesIO'), 8)
+(('builtins.NoneType', 'conftest.Flask'), 7)
+(('builtins.NoneType', 'werkzeug.datastructures.MultiDict'), 6)
+(('builtins.NoneType', 'builtins.ZeroDivisionError'), 6)
+(('builtins.ZeroDivisionError', 'builtins.NoneType'), 6)
+(('builtins.NoneType', 'builtins.list'), 5)
+(('werkzeug.wsgi.FileWrapper', 'builtins.list'), 2)
+(('builtins.NoneType', 'werkzeug.exceptions.BadRequestKeyError'), 1)
+(('werkzeug.exceptions.BadRequestKeyError', 'builtins.NoneType'), 1)
+(('builtins.NoneType', 'flask.debughelpers.DebugFilesKeyError <*> {msg$$builtins.str,}'), 1)
+(('flask.debughelpers.DebugFilesKeyError <*> {msg$$builtins.str,}', 'builtins.NoneType'), 1)
+(('builtins.NoneType', 'flask.debughelpers.FormDataRoutingRedirect <*> {}'), 1)
+(('flask.debughelpers.FormDataRoutingRedirect <*> {}', 'builtins.NoneType'), 1)
+(('builtins.NoneType', 'test_cli.BadExc'), 1)
+(('test_cli.BadExc', 'builtins.NoneType'), 1)
+multiple dict: 0
+single dict: 0
+polymorphic class: 0.53125
+set()
+dot overloading: 0.02
+static classes: 0.2
+0
+0
+0
+0

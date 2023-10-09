@@ -1,0 +1,23 @@
+click.core.Option.name
+{'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-__init__-2501
+            prompt_text: t.Optional[str] = self.name.replace("_", " ").capitalize()
+click.core.Option.name
+{'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-resolve_envvar_value-2863
+            envvar = f"{ctx.auto_envvar_prefix}_{self.name.upper()}"
+click.core.Option.name
+{'builtins.str'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-get_help_record-2726
+                    envvar = f"{ctx.auto_envvar_prefix}_{self.name.upper()}"
+click.core.Context.parent
+{'builtins.NoneType', 'click.core.Context'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-command_path-606
+            if isinstance(self.parent.command, Command):
+click.core.Context.parent
+{'builtins.NoneType', 'click.core.Context'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/core.py-command_path-607
+                for param in self.parent.command.get_params(self):
+
+check: 2
+safe: 2

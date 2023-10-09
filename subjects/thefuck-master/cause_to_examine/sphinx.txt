@@ -1,0 +1,636 @@
+sphinx.roles.XRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-create_xref_node-140
+        return self.result_nodes(self.inliner.document, self.env, refnode, is_ref=True)
+sphinx.roles.XRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-get_source_info-507
+        return self.inliner.reporter.get_source_and_line(lineno)  # type: ignore
+sphinx.roles.XRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-497
+        return self.inliner.document.settings.env
+sphinx.roles.XRefRole.name
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-run-100
+            self.refdomain, self.reftype = self.name.split(':', 1)
+sphinx.roles.AnyXRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-create_xref_node-140
+        return self.result_nodes(self.inliner.document, self.env, refnode, is_ref=True)
+sphinx.roles.AnyXRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-get_source_info-507
+        return self.inliner.reporter.get_source_and_line(lineno)  # type: ignore
+sphinx.roles.AnyXRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-497
+        return self.inliner.document.settings.env
+sphinx.roles.PEP.target
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-build_uri-200
+        ret = self.target.split('#', 1)
+sphinx.roles.PEP.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-run-180
+        self.inliner.document.note_explicit_target(target)
+sphinx.roles.PEP.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-build_uri-199
+        base_url = self.inliner.document.settings.pep_base_url
+sphinx.roles.PEP.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-497
+        return self.inliner.document.settings.env
+sphinx.roles.RFC.target
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-build_uri-234
+        ret = self.target.split('#', 1)
+sphinx.roles.RFC.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-build_uri-233
+        base_url = self.inliner.document.settings.rfc_base_url
+sphinx.roles.RFC.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-run-214
+        self.inliner.document.note_explicit_target(target)
+sphinx.roles.RFC.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-build_uri-238
+            return base_url + self.inliner.rfc_url % int(ret[0])
+sphinx.roles.RFC.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-497
+        return self.inliner.document.settings.env
+sphinx.domains.std.OptionXRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-create_xref_node-140
+        return self.result_nodes(self.inliner.document, self.env, refnode, is_ref=True)
+sphinx.domains.std.OptionXRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-get_source_info-507
+        return self.inliner.reporter.get_source_and_line(lineno)  # type: ignore
+sphinx.domains.std.OptionXRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-497
+        return self.inliner.document.settings.env
+sphinx.domains.std.OptionXRefRole.name
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-run-100
+            self.refdomain, self.reftype = self.name.split(':', 1)
+sphinx.domains.std.EnvVarXRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-create_xref_node-140
+        return self.result_nodes(self.inliner.document, self.env, refnode, is_ref=True)
+sphinx.domains.std.EnvVarXRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-get_source_info-507
+        return self.inliner.reporter.get_source_and_line(lineno)  # type: ignore
+sphinx.domains.std.EnvVarXRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-497
+        return self.inliner.document.settings.env
+sphinx.domains.std.EnvVarXRefRole.name
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-run-100
+            self.refdomain, self.reftype = self.name.split(':', 1)
+sphinx.domains.std.TokenXRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-create_xref_node-140
+        return self.result_nodes(self.inliner.document, self.env, refnode, is_ref=True)
+sphinx.domains.std.TokenXRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-get_source_info-507
+        return self.inliner.reporter.get_source_and_line(lineno)  # type: ignore
+sphinx.domains.std.TokenXRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-497
+        return self.inliner.document.settings.env
+sphinx.domains.std.TokenXRefRole.name
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-run-100
+            self.refdomain, self.reftype = self.name.split(':', 1)
+sphinx.domains.python.PyXRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-create_xref_node-140
+        return self.result_nodes(self.inliner.document, self.env, refnode, is_ref=True)
+sphinx.domains.python.PyXRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-get_source_info-507
+        return self.inliner.reporter.get_source_and_line(lineno)  # type: ignore
+sphinx.domains.python.PyXRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-497
+        return self.inliner.document.settings.env
+sphinx.domains.python.PyXRefRole.name
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-run-100
+            self.refdomain, self.reftype = self.name.split(':', 1)
+sphinx.config.Config.project
+{'builtins.str', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sphinxcontrib/applehelp/__init__.py-<lambda>-257
+    app.add_config_value('applehelp_title', lambda self: self.project + ' Help', 'applehelp')
+sphinx.config.Config.latex_elements
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/tests/test_config.py-test_core_config-28
+    assert cfg.latex_elements['maketitle'] == 'blah blah blah'
+sphinx.config.Config.html_static_path
+{'builtins.list', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-validate_html_static_path-1285
+    for entry in config.html_static_path[:]:
+sphinx.config.Config.html_extra_path
+{'builtins.list', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-validate_html_extra_path-1272
+    for entry in config.html_extra_path[:]:
+sphinx.config.Config.language
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-default_latex_engine-474
+    if config.language.startswith('zh'):
+sphinx.domains.math.MathReferenceRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-create_xref_node-140
+        return self.result_nodes(self.inliner.document, self.env, refnode, is_ref=True)
+sphinx.domains.math.MathReferenceRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-get_source_info-507
+        return self.inliner.reporter.get_source_and_line(lineno)  # type: ignore
+sphinx.domains.math.MathReferenceRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-497
+        return self.inliner.document.settings.env
+sphinx.domains.c.CXRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-create_xref_node-140
+        return self.result_nodes(self.inliner.document, self.env, refnode, is_ref=True)
+sphinx.domains.c.CXRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-get_source_info-507
+        return self.inliner.reporter.get_source_and_line(lineno)  # type: ignore
+sphinx.domains.c.CXRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-497
+        return self.inliner.document.settings.env
+sphinx.domains.c.CXRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-create_non_xref_node-115
+        return self.result_nodes(self.inliner.document, self.env, node, is_ref=False)
+sphinx.domains.c.CXRefRole.name
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-run-100
+            self.refdomain, self.reftype = self.name.split(':', 1)
+sphinx.domains.cpp.CPPExprRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-get_source_info-507
+        return self.inliner.reporter.get_source_and_line(lineno)  # type: ignore
+sphinx.domains.cpp.CPPExprRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-497
+        return self.inliner.document.settings.env
+sphinx.domains.index.IndexRole.target
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/domains/index.py-run-98
+            if self.target.startswith('!'):
+sphinx.domains.index.IndexRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-get_source_info-507
+        return self.inliner.reporter.get_source_and_line(lineno)  # type: ignore
+sphinx.domains.index.IndexRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-497
+        return self.inliner.document.settings.env
+sphinx.domains.javascript.JSXRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-create_xref_node-140
+        return self.result_nodes(self.inliner.document, self.env, refnode, is_ref=True)
+sphinx.domains.javascript.JSXRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-get_source_info-507
+        return self.inliner.reporter.get_source_and_line(lineno)  # type: ignore
+sphinx.domains.javascript.JSXRefRole.inliner
+{'docutils.parsers.rst.states.Inliner', 'missing'}
+ /home/user/sphinx-master/sphinx/util/docutils.py-env-497
+        return self.inliner.document.settings.env
+sphinx.domains.javascript.JSXRefRole.name
+{'builtins.str', 'missing'}
+ /home/user/sphinx-master/sphinx/roles.py-run-100
+            self.refdomain, self.reftype = self.name.split(':', 1)
+sphinx.builders.html.StandaloneHTMLBuilder.theme
+{'missing', 'sphinx.theming.Theme'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-add_sidebars-980
+        if self.theme.name == 'alabaster':
+sphinx.builders.html.StandaloneHTMLBuilder.theme
+{'missing', 'sphinx.theming.Theme'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-cleanup-901
+            self.theme.cleanup()
+sphinx.builders.html.StandaloneHTMLBuilder.templates
+{'missing', 'sphinx.jinja2glue.BuiltinTemplateLoader'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-init_templates-307
+        self.templates.init(self, self.theme)
+sphinx.builders.html.StandaloneHTMLBuilder.templates
+{'missing', 'sphinx.jinja2glue.BuiltinTemplateLoader'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-get_outdated_docs-418
+            template_mtime = self.templates.newest_template_mtime()
+sphinx.builders.html.StandaloneHTMLBuilder.highlighter
+{'sphinx.highlighting.PygmentsBridge', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-create_pygments_style_file-803
+            f.write(self.highlighter.get_stylesheet())
+sphinx.builders.html.StandaloneHTMLBuilder.indexer
+{'missing', 'sphinx.search.IndexBuilder', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-index_page-958
+                self.indexer.feed(pagename, filename, title, doctree)
+sphinx.builders.html.StandaloneHTMLBuilder.indexer
+{'missing', 'sphinx.search.IndexBuilder', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-copy_stemmer_js-820
+                for jsfile in self.indexer.get_js_stemmer_rawcodes():
+sphinx.builders.html.StandaloneHTMLBuilder.docwriter
+{'sphinx.writers.html.HTMLWriter', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-write_doc-666
+        self.docwriter.write(doctree, destination)
+sphinx.builders.html.StandaloneHTMLBuilder.docwriter
+{'sphinx.writers.html.HTMLWriter', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-write_doc-669
+        metatags = self.docwriter.clean_meta
+sphinx.builders.html.StandaloneHTMLBuilder.docwriter
+{'sphinx.writers.html.HTMLWriter', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-write_doc-668
+        body = self.docwriter.parts['fragment']
+sphinx.builders.html.StandaloneHTMLBuilder.docwriter
+{'sphinx.writers.html.HTMLWriter', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-write_doc-667
+        self.docwriter.assemble_parts()
+sphinx.builders.html.StandaloneHTMLBuilder.relations
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-get_doc_context-583
+        related = self.relations.get(docname)
+sphinx.builders.html.StandaloneHTMLBuilder.relations
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-get_doc_context-612
+            related = self.relations.get(related[0])
+sphinx.builders.html.StandaloneHTMLBuilder.globalcontext
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-handle_page-1028
+        ctx = self.globalcontext.copy()
+sphinx.builders.html.StandaloneHTMLBuilder.globalcontext
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-get_doc_context-582
+        rellinks = self.globalcontext['rellinks'][:]
+sphinx.jinja2glue.BuiltinTemplateLoader.environment
+{'missing', 'jinja2.sandbox.SandboxedEnvironment'}
+ /home/user/sphinx-master/sphinx/jinja2glue.py-render-196
+        return self.environment.get_template(template).render(context)
+sphinx.jinja2glue.BuiltinTemplateLoader.environment
+{'missing', 'jinja2.sandbox.SandboxedEnvironment'}
+ /home/user/sphinx-master/sphinx/jinja2glue.py-render_string-199
+        return self.environment.from_string(source).render(context)
+sphinx.builders.singlehtml.SingleFileHTMLBuilder.theme
+{'missing', 'sphinx.theming.Theme'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-cleanup-901
+            self.theme.cleanup()
+sphinx.builders.singlehtml.SingleFileHTMLBuilder.theme
+{'missing', 'sphinx.theming.Theme'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-add_sidebars-980
+        if self.theme.name == 'alabaster':
+sphinx.builders.singlehtml.SingleFileHTMLBuilder.templates
+{'missing', 'sphinx.jinja2glue.BuiltinTemplateLoader'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-init_templates-307
+        self.templates.init(self, self.theme)
+sphinx.builders.singlehtml.SingleFileHTMLBuilder.highlighter
+{'sphinx.highlighting.PygmentsBridge', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-create_pygments_style_file-803
+            f.write(self.highlighter.get_stylesheet())
+sphinx.builders.singlehtml.SingleFileHTMLBuilder.indexer
+{'missing', 'sphinx.search.IndexBuilder', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-index_page-958
+                self.indexer.feed(pagename, filename, title, doctree)
+sphinx.builders.singlehtml.SingleFileHTMLBuilder.indexer
+{'missing', 'sphinx.search.IndexBuilder', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-copy_stemmer_js-820
+                for jsfile in self.indexer.get_js_stemmer_rawcodes():
+sphinx.builders.singlehtml.SingleFileHTMLBuilder.docwriter
+{'sphinx.writers.html.HTMLWriter', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-write_doc-666
+        self.docwriter.write(doctree, destination)
+sphinx.builders.singlehtml.SingleFileHTMLBuilder.docwriter
+{'sphinx.writers.html.HTMLWriter', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-write_doc-669
+        metatags = self.docwriter.clean_meta
+sphinx.builders.singlehtml.SingleFileHTMLBuilder.docwriter
+{'sphinx.writers.html.HTMLWriter', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-write_doc-668
+        body = self.docwriter.parts['fragment']
+sphinx.builders.singlehtml.SingleFileHTMLBuilder.docwriter
+{'sphinx.writers.html.HTMLWriter', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-write_doc-667
+        self.docwriter.assemble_parts()
+sphinx.builders.singlehtml.SingleFileHTMLBuilder.globalcontext
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-handle_page-1028
+        ctx = self.globalcontext.copy()
+sphinx.builders.latex.LaTeXBuilder.context
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-init_multilingual-220
+            if 'LGR' in self.context['fontenc']:
+sphinx.builders.latex.LaTeXBuilder.context
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-init_multilingual-223
+                self.context['textgreek'] = ''
+sphinx.builders.latex.LaTeXBuilder.context
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-init_multilingual-210
+        if self.context['latex_engine'] == 'pdflatex':
+sphinx.builders.latex.LaTeXBuilder.context
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-init_multilingual-225
+                self.context['fontsubstitution'] = ''
+sphinx.builders.latex.LaTeXBuilder.context
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-init_multilingual-212
+                if 'X2' in self.context['fontenc']:
+sphinx.builders.latex.LaTeXBuilder.context
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-init_multilingual-232
+            self.context['shorthandoff'] = SHORTHANDOFF
+sphinx.builders.latex.LaTeXBuilder.context
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-init_multilingual-224
+            if self.context['substitutefont'] == '':
+sphinx.builders.latex.LaTeXBuilder.context
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-init_multilingual-228
+        if self.context['babel']:
+sphinx.builders.latex.LaTeXBuilder.context
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-init_multilingual-216
+                elif 'T2A' in self.context['fontenc']:
+sphinx.builders.latex.LaTeXBuilder.context
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-init_multilingual-229
+            self.context['classoptions'] += ',' + self.babel.get_language()
+sphinx.builders.latex.LaTeXBuilder.context
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/latex/__init__.py-init_babel-202
+        self.babel = ExtBabel(self.config.language, not self.context['babel'])
+sphinx.builders.texinfo.TexinfoBuilder.document_data
+{'builtins.list', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/texinfo.py-init_document_data-81
+            self.document_data.append(entry)  # type: ignore
+sphinx.builders.text.TextBuilder.writer
+{'sphinx.writers.text.TextWriter', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/text.py-write_doc-64
+        self.writer.write(doctree, destination)
+sphinx.builders.xml.XMLBuilder.writer
+{'missing', 'sphinx.writers.xml.XMLWriter'}
+ /home/user/sphinx-master/sphinx/builders/xml.py-write_doc-81
+        self.writer.write(doctree, destination)
+sphinx.builders.xml.PseudoXMLBuilder.writer
+{'sphinx.writers.xml.PseudoXMLWriter', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/xml.py-write_doc-81
+        self.writer.write(doctree, destination)
+sphinx.builders.dirhtml.DirectoryHTMLBuilder.theme
+{'missing', 'sphinx.theming.Theme'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-add_sidebars-980
+        if self.theme.name == 'alabaster':
+sphinx.builders.dirhtml.DirectoryHTMLBuilder.theme
+{'missing', 'sphinx.theming.Theme'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-cleanup-901
+            self.theme.cleanup()
+sphinx.builders.dirhtml.DirectoryHTMLBuilder.templates
+{'missing', 'sphinx.jinja2glue.BuiltinTemplateLoader'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-init_templates-307
+        self.templates.init(self, self.theme)
+sphinx.builders.dirhtml.DirectoryHTMLBuilder.templates
+{'missing', 'sphinx.jinja2glue.BuiltinTemplateLoader'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-get_outdated_docs-418
+            template_mtime = self.templates.newest_template_mtime()
+sphinx.builders.dirhtml.DirectoryHTMLBuilder.highlighter
+{'sphinx.highlighting.PygmentsBridge', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-create_pygments_style_file-803
+            f.write(self.highlighter.get_stylesheet())
+sphinx.builders.dirhtml.DirectoryHTMLBuilder.indexer
+{'missing', 'sphinx.search.IndexBuilder', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-index_page-958
+                self.indexer.feed(pagename, filename, title, doctree)
+sphinx.builders.dirhtml.DirectoryHTMLBuilder.indexer
+{'missing', 'sphinx.search.IndexBuilder', 'builtins.NoneType'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-copy_stemmer_js-820
+                for jsfile in self.indexer.get_js_stemmer_rawcodes():
+sphinx.builders.dirhtml.DirectoryHTMLBuilder.docwriter
+{'sphinx.writers.html.HTMLWriter', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-write_doc-666
+        self.docwriter.write(doctree, destination)
+sphinx.builders.dirhtml.DirectoryHTMLBuilder.docwriter
+{'sphinx.writers.html.HTMLWriter', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-write_doc-669
+        metatags = self.docwriter.clean_meta
+sphinx.builders.dirhtml.DirectoryHTMLBuilder.docwriter
+{'sphinx.writers.html.HTMLWriter', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-write_doc-668
+        body = self.docwriter.parts['fragment']
+sphinx.builders.dirhtml.DirectoryHTMLBuilder.docwriter
+{'sphinx.writers.html.HTMLWriter', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-write_doc-667
+        self.docwriter.assemble_parts()
+sphinx.builders.dirhtml.DirectoryHTMLBuilder.relations
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-get_doc_context-583
+        related = self.relations.get(docname)
+sphinx.builders.dirhtml.DirectoryHTMLBuilder.relations
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-get_doc_context-612
+            related = self.relations.get(related[0])
+sphinx.builders.dirhtml.DirectoryHTMLBuilder.globalcontext
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-handle_page-1028
+        ctx = self.globalcontext.copy()
+sphinx.builders.dirhtml.DirectoryHTMLBuilder.globalcontext
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-get_doc_context-582
+        rellinks = self.globalcontext['rellinks'][:]
+sphinx.io.SphinxStandaloneReader.settings
+{'missing', 'docutils.frontend.Values'}
+ /home/user/sphinx-master/sphinx/io.py-new_document-84
+        document.transformer.set_environment(self.settings.env)
+sphinx.parsers.RSTParser.config
+{'missing', 'sphinx.config.Config'}
+ /home/user/sphinx-master/sphinx/parsers.py-decorate-85
+        prepend_prolog(content, self.config.rst_prolog)
+sphinx.parsers.RSTParser.config
+{'missing', 'sphinx.config.Config'}
+ /home/user/sphinx-master/sphinx/parsers.py-decorate-86
+        append_epilog(content, self.config.rst_epilog)
+sphinx.domains.DirectiveAdapter.indexnode
+{'sphinx.addnodes.index', 'missing'}
+ /home/user/sphinx-master/sphinx/domains/javascript.py-add_target_and_index-139
+                self.indexnode['entries'].append(('single', indextext, node_id, '', None))
+sphinx.domains.DirectiveAdapter.indexnode
+{'sphinx.addnodes.index', 'missing'}
+ /home/user/sphinx-master/sphinx/domains/c.py-add_target_and_index-3225
+            self.indexnode['entries'].append(('single', indexText, newestId, '', None))
+sphinx.domains.DirectiveAdapter.indexnode
+{'sphinx.addnodes.index', 'missing'}
+ /home/user/sphinx-master/sphinx/domains/python.py-add_target_and_index-729
+                self.indexnode['entries'].append(('pair', text, node_id, '', None))
+sphinx.domains.DirectiveAdapter.indexnode
+{'sphinx.addnodes.index', 'missing'}
+ /home/user/sphinx-master/sphinx/domains/cpp.py-add_target_and_index-7277
+            self.indexnode['entries'].append(('single', indexText, newestId, '', None))
+sphinx.domains.DirectiveAdapter.indexnode
+{'sphinx.addnodes.index', 'missing'}
+ /home/user/sphinx-master/sphinx/domains/std.py-add_target_and_index-250
+            self.indexnode['entries'].append(('pair', entry, signode['ids'][0], '', None))
+sphinx.domains.DirectiveAdapter.indexnode
+{'sphinx.addnodes.index', 'missing'}
+ /home/user/sphinx-master/sphinx/domains/python.py-add_target_and_index-726
+                self.indexnode['entries'].append(('single', text, node_id, '', None))
+sphinx.domains.DirectiveAdapter.indexnode
+{'sphinx.addnodes.index', 'missing'}
+ /home/user/sphinx-master/sphinx/domains/python.py-add_target_and_index-618
+                self.indexnode['entries'].append(('single', indextext, node_id, '', None))
+sphinx.domains.DirectiveAdapter.indexnode
+{'sphinx.addnodes.index', 'missing'}
+ /home/user/sphinx-master/sphinx/domains/std.py-add_target_and_index-70
+            self.indexnode['entries'].append((indextype, indexentry, node_id, '', None))
+sphinx.domains.DirectiveAdapter.names
+{'builtins.list', 'missing'}
+ /home/user/sphinx-master/sphinx/domains/python.py-before_content-638
+            (fullname, name_prefix) = self.names[-1]
+sphinx.domains.DirectiveAdapter.names
+{'builtins.list', 'missing'}
+ /home/user/sphinx-master/sphinx/domains/javascript.py-before_content-181
+            (obj_name, obj_name_prefix) = self.names.pop()
+sphinx.builders.linkcheck.CheckExternalLinksBuilder.txt_outfile
+{'missing', '_io._io.TextIOWrapper'}
+ /home/user/sphinx-master/sphinx/builders/linkcheck.py-write_entry-180
+        self.txt_outfile.write(f"{filename}:{line}: [{what}] {uri}\n")
+sphinx.builders.linkcheck.CheckExternalLinksBuilder.json_outfile
+{'missing', '_io._io.TextIOWrapper'}
+ /home/user/sphinx-master/sphinx/builders/linkcheck.py-write_linkstat-184
+        self.json_outfile.write('\n')
+sphinx.builders.linkcheck.CheckExternalLinksBuilder.json_outfile
+{'missing', '_io._io.TextIOWrapper'}
+ /home/user/sphinx-master/sphinx/builders/linkcheck.py-write_linkstat-183
+        self.json_outfile.write(json.dumps(data))
+sphinx.builders.changes.ChangesBuilder.templates
+{'missing', 'sphinx.jinja2glue.BuiltinTemplateLoader'}
+ /home/user/sphinx-master/sphinx/builders/changes.py-write-133
+                f.write(self.templates.render('changes/rstsource.html', ctx))
+sphinx.builders.changes.ChangesBuilder.templates
+{'missing', 'sphinx.jinja2glue.BuiltinTemplateLoader'}
+ /home/user/sphinx-master/sphinx/builders/changes.py-init-34
+        self.templates.init(self, self.theme)
+sphinx.builders.changes.ChangesBuilder.templates
+{'missing', 'sphinx.jinja2glue.BuiltinTemplateLoader'}
+ /home/user/sphinx-master/sphinx/builders/changes.py-write-102
+            f.write(self.templates.render('changes/versionchanges.html', ctx))
+sphinx.builders.changes.ChangesBuilder.templates
+{'missing', 'sphinx.jinja2glue.BuiltinTemplateLoader'}
+ /home/user/sphinx-master/sphinx/builders/changes.py-write-100
+            f.write(self.templates.render('changes/frameset.html', ctx))
+sphinx.builders.changes.ChangesBuilder.theme
+{'missing', 'sphinx.theming.Theme'}
+ /home/user/sphinx-master/sphinx/builders/changes.py-write-135
+                    self.theme.get_options({}).items()}
+sphinx.builders.epub3.Epub3Builder.theme
+{'missing', 'sphinx.theming.Theme'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-add_sidebars-980
+        if self.theme.name == 'alabaster':
+sphinx.builders.epub3.Epub3Builder.theme
+{'missing', 'sphinx.theming.Theme'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-cleanup-901
+            self.theme.cleanup()
+sphinx.builders.epub3.Epub3Builder.templates
+{'missing', 'sphinx.jinja2glue.BuiltinTemplateLoader'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-get_outdated_docs-418
+            template_mtime = self.templates.newest_template_mtime()
+sphinx.builders.epub3.Epub3Builder.templates
+{'missing', 'sphinx.jinja2glue.BuiltinTemplateLoader'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-init_templates-307
+        self.templates.init(self, self.theme)
+sphinx.builders.epub3.Epub3Builder.highlighter
+{'sphinx.highlighting.PygmentsBridge', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-create_pygments_style_file-803
+            f.write(self.highlighter.get_stylesheet())
+sphinx.builders.epub3.Epub3Builder.id_cache
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/_epub_base.py-make_id-182
+            self.id_cache[name] = id
+sphinx.builders.epub3.Epub3Builder.id_cache
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/_epub_base.py-make_id-179
+        id = self.id_cache.get(name)
+sphinx.builders.epub3.Epub3Builder.refnodes
+{'builtins.list', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/_epub_base.py-build_content-603
+                                            html.escape(self.refnodes[0]['refuri'])))
+sphinx.builders.epub3.Epub3Builder.docwriter
+{'sphinx.writers.html.HTMLWriter', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-write_doc-666
+        self.docwriter.write(doctree, destination)
+sphinx.builders.epub3.Epub3Builder.docwriter
+{'sphinx.writers.html.HTMLWriter', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-write_doc-669
+        metatags = self.docwriter.clean_meta
+sphinx.builders.epub3.Epub3Builder.docwriter
+{'sphinx.writers.html.HTMLWriter', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-write_doc-668
+        body = self.docwriter.parts['fragment']
+sphinx.builders.epub3.Epub3Builder.docwriter
+{'sphinx.writers.html.HTMLWriter', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-write_doc-667
+        self.docwriter.assemble_parts()
+sphinx.builders.epub3.Epub3Builder.relations
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-get_doc_context-583
+        related = self.relations.get(docname)
+sphinx.builders.epub3.Epub3Builder.relations
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-get_doc_context-612
+            related = self.relations.get(related[0])
+sphinx.builders.epub3.Epub3Builder.globalcontext
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-handle_page-1028
+        ctx = self.globalcontext.copy()
+sphinx.builders.epub3.Epub3Builder.globalcontext
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/epub3.py-prepare_writing-116
+        self.globalcontext['theme_writing_mode'] = THEME_WRITING_MODES.get(writing_mode)
+sphinx.builders.epub3.Epub3Builder.globalcontext
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/epub3.py-prepare_writing-117
+        self.globalcontext['html_tag'] = self.html_tag
+sphinx.builders.epub3.Epub3Builder.globalcontext
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/html/__init__.py-get_doc_context-582
+        rellinks = self.globalcontext['rellinks'][:]
+sphinx.builders.epub3.Epub3Builder.globalcontext
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/epub3.py-prepare_writing-119
+        self.globalcontext['skip_ua_compatible'] = True
+sphinx.builders.epub3.Epub3Builder.globalcontext
+{'builtins.dict', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/epub3.py-prepare_writing-118
+        self.globalcontext['use_meta_charset'] = self.use_meta_charset
+sphinx.builders.epub3.Epub3Builder.files
+{'builtins.list', 'missing'}
+ /home/user/sphinx-master/sphinx/builders/epub3.py-build_navigation_doc-192
+            self.files.append('nav.xhtml')
+sphinx.builders.gettext.MessageCatalogBuilder.catalogs
+{'missing', 'collections.collections.defaultdict'}
+ /home/user/sphinx-master/sphinx/builders/gettext.py-finish-279
+                                                   "darkgreen", len(self.catalogs),
+sphinx.builders.gettext.MessageCatalogBuilder.catalogs
+{'missing', 'collections.collections.defaultdict'}
+ /home/user/sphinx-master/sphinx/builders/gettext.py-write_doc-147
+        catalog = self.catalogs[docname_to_domain(docname, self.config.gettext_compact)]
+sphinx.builders.gettext.MessageCatalogBuilder.catalogs
+{'missing', 'collections.collections.defaultdict'}
+ /home/user/sphinx-master/sphinx/builders/gettext.py-finish-277
+        for textdomain, catalog in status_iterator(self.catalogs.items(),
+sphinx.builders.gettext.MessageCatalogBuilder.templates
+{'missing', 'sphinx.jinja2glue.BuiltinTemplateLoader'}
+ /home/user/sphinx-master/sphinx/builders/gettext.py-_extract_from_template-246
+        extract_translations = self.templates.environment.extract_translations
+sphinx.builders.gettext.MessageCatalogBuilder.templates
+{'missing', 'sphinx.jinja2glue.BuiltinTemplateLoader'}
+ /home/user/sphinx-master/sphinx/builders/gettext.py-init-227
+        self.templates.init(self)

@@ -1,0 +1,2 @@
+22: error: Unsupported operand types for + ("int" and "str")  [operator]
+23: error: Unsupported operand types for + ("int" and "str")  [operator]

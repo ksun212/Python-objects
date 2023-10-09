@@ -1,0 +1,5 @@
+cookiecutter.extensions.JsonifyExtension
+cookiecutter.extensions.RandomStringExtension
+cookiecutter.extensions.SlugifyExtension
+cookiecutter.extensions.UUIDExtension
+cookiecutter.utils.simplefilterextension

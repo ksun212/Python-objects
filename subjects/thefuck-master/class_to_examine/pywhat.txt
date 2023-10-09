@@ -1,0 +1,4 @@
+pywhat.helper.AvailableTags
+pywhat.regex_identifier.RegexIdentifier
+pywhat.what.What_Object
+pywhat.printer.Printing

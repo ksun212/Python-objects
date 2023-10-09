@@ -1,0 +1,48 @@
+pelican.readers.MarkdownReader._md
+{'markdown.core.Markdown', 'missing'}
+ /home/user/pelican/pelican/readers.py-_parse_metadata-311
+        self._md.preprocessors.deregister('meta')
+pelican.readers.MarkdownReader._md
+{'markdown.core.Markdown', 'missing'}
+ /home/user/pelican/pelican/readers.py-_parse_metadata-320
+                self._md.reset()
+pelican.readers.MarkdownReader._md
+{'markdown.core.Markdown', 'missing'}
+ /home/user/pelican/pelican/readers.py-_parse_metadata-321
+                formatted = self._md.convert(formatted_values)
+pelican.contents.Article.date
+{'pelican.utils.SafeDatetime', 'missing', 'datetime.datetime.datetime'}
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-485
+            d.date.year == 1970 and
+pelican.contents.Article.date
+{'pelican.utils.SafeDatetime', 'missing', 'datetime.datetime.datetime'}
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-428
+        articles = [d for d in generator.articles if d.date.year == 1970]
+pelican.contents.Article.date
+{'pelican.utils.SafeDatetime', 'missing', 'datetime.datetime.datetime'}
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-479
+            d.date.year == 1970 and
+pelican.contents.Article.date
+{'pelican.utils.SafeDatetime', 'missing', 'datetime.datetime.datetime'}
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-480
+            d.date.month == 1 and
+pelican.contents.Article.date
+{'pelican.utils.SafeDatetime', 'missing', 'datetime.datetime.datetime'}
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-487
+            d.date.day == 1
+pelican.contents.Article.date
+{'pelican.utils.SafeDatetime', 'missing', 'datetime.datetime.datetime'}
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-481
+            d.date.day == 1
+pelican.contents.Article.date
+{'pelican.utils.SafeDatetime', 'missing', 'datetime.datetime.datetime'}
+ /home/user/pelican/pelican/tests/test_generators.py-<listcomp>-486
+            d.date.month == 1 and
+pelican.contents.Page.authors
+{'missing', 'builtins.list'}
+ /home/user/pelican/pelican/tests/test_contents.py-test_multiple_authors-669
+        assert content.author == content.authors[0]
+pelican.writers.Writer.site_url
+{'missing', 'builtins.str'}
+ /home/user/pelican/pelican/writers.py-_create_new_feed-42
+            link=(self.site_url + '/'),

@@ -1,0 +1,23 @@
+pyecharts.charts.composite_charts.grid.Grid.options
+{'builtins.dict'}
+ /home/user/pyecharts/pyecharts/charts/composite_charts/grid.py-add-50
+        self.options.get("title").extend(title)
+pyecharts.charts.composite_charts.grid.Grid.options
+{'builtins.dict'}
+ /home/user/pyecharts/pyecharts/charts/composite_charts/grid.py-add-39
+            self.options.update(backgroundColor=self.bg_color)
+pyecharts.charts.composite_charts.grid.Grid.options
+{'builtins.dict'}
+ /home/user/pyecharts/pyecharts/charts/composite_charts/grid.py-add-42
+                for s in self.options.get("series"):
+pyecharts.charts.composite_charts.grid.Grid.options
+{'builtins.dict'}
+ /home/user/pyecharts/pyecharts/charts/composite_charts/grid.py-add-34
+            self.options.update(grid=[], title=[])
+pyecharts.charts.composite_charts.grid.Grid.options
+{'builtins.dict'}
+ /home/user/pyecharts/pyecharts/charts/composite_charts/grid.py-add-79
+        self.options.get("grid").append(grid_opts)
+
+check: 1
+safe: 1

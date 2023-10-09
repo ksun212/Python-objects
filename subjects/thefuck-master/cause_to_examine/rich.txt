@@ -1,0 +1,4 @@
+rich.markdown.Paragraph.text
+{'rich.text.Text', 'missing'}
+ /home/user/rich/rich-master/rich/markdown.py-__rich_console__-120
+        self.text.justify = self.justify

@@ -1,0 +1,3 @@
+ /home/user/rich/rich-master/rich/markdown.py-on_enter-94 || add_after_computation
+ /home/user/rich/rich-master/tests/test_console.py-test_pager-642 || mock overloading
+ /home/user/rich/rich-master/rich/pretty.py-_traverse-717 || add_after_computation

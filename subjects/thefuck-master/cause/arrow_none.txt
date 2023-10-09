@@ -1,0 +1,48 @@
+ /home/user/arrow/arrow/locales.py-month_number-236
+arrow.locales.EnglishLocale._month_name_to_ordinal
+        return self._month_name_to_ordinal.get(name)
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/arrow/arrow/locales.py-month_number-232
+arrow.locales.EnglishLocale._month_name_to_ordinal
+            self._month_name_to_ordinal.update(
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/arrow/arrow/locales.py-month_number-236
+arrow.locales.FrenchLocale._month_name_to_ordinal
+        return self._month_name_to_ordinal.get(name)
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/arrow/arrow/locales.py-month_number-232
+arrow.locales.FrenchLocale._month_name_to_ordinal
+            self._month_name_to_ordinal.update(
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/arrow/arrow/locales.py-month_number-236
+arrow.locales.ItalianLocale._month_name_to_ordinal
+        return self._month_name_to_ordinal.get(name)
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/arrow/arrow/locales.py-month_number-232
+arrow.locales.ItalianLocale._month_name_to_ordinal
+            self._month_name_to_ordinal.update(
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/arrow/arrow/locales.py-month_number-236
+arrow.locales.SpanishLocale._month_name_to_ordinal
+        return self._month_name_to_ordinal.get(name)
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/arrow/arrow/locales.py-month_number-232
+arrow.locales.SpanishLocale._month_name_to_ordinal
+            self._month_name_to_ordinal.update(
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/arrow/arrow/locales.py-month_number-236
+arrow.locales.SwedishLocale._month_name_to_ordinal
+        return self._month_name_to_ordinal.get(name)
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/arrow/arrow/locales.py-month_number-232
+arrow.locales.SwedishLocale._month_name_to_ordinal
+            self._month_name_to_ordinal.update(
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/arrow/arrow/locales.py-month_number-236
+arrow.locales.GermanLocale._month_name_to_ordinal
+        return self._month_name_to_ordinal.get(name)
+{'builtins.NoneType', 'builtins.dict'}
+ /home/user/arrow/arrow/locales.py-month_number-232
+arrow.locales.GermanLocale._month_name_to_ordinal
+            self._month_name_to_ordinal.update(
+{'builtins.NoneType', 'builtins.dict'}

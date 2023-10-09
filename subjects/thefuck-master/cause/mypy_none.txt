@@ -1,0 +1,132 @@
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-is_global_or_nonlocal-6030
+mypy.semanal.SemanticAnalyzer.global_decls
+            name in self.global_decls[-1] or name in self.nonlocal_decls[-1]
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-lookup-5234
+mypy.semanal.SemanticAnalyzer.global_decls
+        if name in self.global_decls[-1]:
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-enter-5962
+mypy.semanal.SemanticAnalyzer.global_decls
+        self.global_decls.append(set())
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-enter-5972
+mypy.semanal.SemanticAnalyzer.global_decls
+            self.global_decls.pop()
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-is_global_or_nonlocal-6030
+mypy.semanal.SemanticAnalyzer.nonlocal_decls
+            name in self.global_decls[-1] or name in self.nonlocal_decls[-1]
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-enter-5973
+mypy.semanal.SemanticAnalyzer.nonlocal_decls
+            self.nonlocal_decls.pop()
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-lookup-5241
+mypy.semanal.SemanticAnalyzer.nonlocal_decls
+        if name in self.nonlocal_decls[-1]:
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-enter-5963
+mypy.semanal.SemanticAnalyzer.nonlocal_decls
+        self.nonlocal_decls.append(set())
+{'missing', 'builtins.list'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-is_alias_for_final_name-3665
+mypy.semanal.SemanticAnalyzer.globals
+            existing = self.globals.get(orig_name)
+{'missing', 'mypy.nodes.SymbolTable'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-lookup_current_scope-5561
+mypy.semanal.SemanticAnalyzer.globals
+            return self.globals.get(name)
+{'missing', 'mypy.nodes.SymbolTable'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-lookup-5264
+mypy.semanal.SemanticAnalyzer.globals
+            return self.globals[name]
+{'missing', 'mypy.nodes.SymbolTable'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-make_empty_type_info-1999
+mypy.semanal.SemanticAnalyzer.globals
+            info = self.globals[defn.name].node
+{'missing', 'mypy.nodes.SymbolTable'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-lookup-5266
+mypy.semanal.SemanticAnalyzer.globals
+        b = self.globals.get("__builtins__", None)
+{'missing', 'mypy.nodes.SymbolTable'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-analyze_type_application-4962
+mypy.semanal.SemanticAnalyzer.options
+                and n.fullname in get_nongen_builtins(self.options.python_version)
+{'mypy.options.Options', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-visit_import_from-2393
+mypy.semanal.SemanticAnalyzer.options
+            use_implicit_reexport = not self.is_stub_file and self.options.implicit_reexport
+{'mypy.options.Options', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-add_builtin_aliases-675
+mypy.semanal.SemanticAnalyzer.options
+            if type_aliases_source_versions[alias] > self.options.python_version:
+{'mypy.options.Options', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-configure_base_classes-2097
+mypy.semanal.SemanticAnalyzer.options
+            if self.options.disallow_any_unimported and has_any_from_unimported_type(base):
+{'mypy.options.Options', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-in_checked_function-6127
+mypy.semanal.SemanticAnalyzer.options
+        if self.options.check_untyped_defs or not self.function_stack:
+{'mypy.options.Options', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-create_alias-714
+mypy.semanal.SemanticAnalyzer.options
+                fix_instance_types(target, self.fail, self.note, self.options.python_version)
+{'mypy.options.Options', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-visit_import-2329
+mypy.semanal.SemanticAnalyzer.options
+            use_implicit_reexport = not self.is_stub_file and self.options.implicit_reexport
+{'mypy.options.Options', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-process__deletable__-4303
+mypy.semanal.SemanticAnalyzer.options
+        if not self.options.mypyc:
+{'mypy.options.Options', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-process_typevar_declaration-3883
+mypy.semanal.SemanticAnalyzer.options
+        if self.options.disallow_any_unimported:
+{'mypy.options.Options', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-correct_relative_import-2592
+mypy.semanal.SemanticAnalyzer.cur_mod_node
+            self.cur_mod_id, node.relative, node.id, self.cur_mod_node.is_package_init_file()
+{'missing', 'mypy.nodes.MypyFile'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-add_type_alias_deps-6363
+mypy.semanal.SemanticAnalyzer.cur_mod_node
+        self.cur_mod_node.alias_deps[target].update(aliases_used)
+{'missing', 'mypy.nodes.MypyFile'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-analyze_namedtuple_assign-2945
+mypy.semanal.SemanticAnalyzer.named_tuple_analyzer
+            internal_name, info, tvar_defs = self.named_tuple_analyzer.check_namedtuple(
+{'mypy.semanal_namedtuple.NamedTupleAnalyzer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-analyze_namedtuple_classdef-1674
+mypy.semanal.SemanticAnalyzer.named_tuple_analyzer
+            is_named_tuple, info = self.named_tuple_analyzer.analyze_namedtuple_classdef(
+{'mypy.semanal_namedtuple.NamedTupleAnalyzer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-analyze_typeddict_classdef-1645
+mypy.semanal.SemanticAnalyzer.typed_dict_analyzer
+        is_typeddict, info = self.typed_dict_analyzer.analyze_typeddict_classdef(defn)
+{'mypy.semanal_typeddict.TypedDictAnalyzer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-analyze_typeddict_assign-2984
+mypy.semanal.SemanticAnalyzer.typed_dict_analyzer
+            is_typed_dict, info, tvar_defs = self.typed_dict_analyzer.check_typeddict(
+{'mypy.semanal_typeddict.TypedDictAnalyzer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-analyze_enum_assign-2930
+mypy.semanal.SemanticAnalyzer.enum_call_analyzer
+        return self.enum_call_analyzer.process_enum_call(s, self.is_func_scope())
+{'mypy.semanal_enum.EnumCallAnalyzer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-visit_assignment_stmt-2684
+mypy.semanal.SemanticAnalyzer.newtype_analyzer
+        elif self.newtype_analyzer.process_newtype_declaration(s):
+{'mypy.semanal_newtype.NewTypeAnalyzer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-mark_incomplete-5907
+mypy.semanal.SemanticAnalyzer.statement
+                fullname, node, self.statement.line, becomes_typeinfo=becomes_typeinfo
+{'mypy.nodes.FuncDef', 'mypy.nodes.ForStmt', 'builtins.NoneType', 'mypy.nodes.AssignmentStmt', 'mypy.nodes.OverloadedFuncDef', 'mypy.nodes.ClassDef', 'mypy.nodes.ImportFrom', 'mypy.nodes.Import', 'mypy.nodes.Decorator', 'mypy.nodes.ExpressionStmt', 'mypy.nodes.IfStmt', 'mypy.nodes.ReturnStmt'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/semanal.py-is_textually_before_statement-5322
+mypy.semanal.SemanticAnalyzer.statement
+        line_diff = self.statement.line - node.line
+{'mypy.nodes.FuncDef', 'mypy.nodes.ForStmt', 'builtins.NoneType', 'mypy.nodes.AssignmentStmt', 'mypy.nodes.OverloadedFuncDef', 'mypy.nodes.ClassDef', 'mypy.nodes.ImportFrom', 'mypy.nodes.Import', 'mypy.nodes.Decorator', 'mypy.nodes.ExpressionStmt', 'mypy.nodes.IfStmt', 'mypy.nodes.ReturnStmt'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/mypy/join.py-visit_instance-333
+mypy.join.TypeJoinVisitor.instance_joiner
+            nominal = self.instance_joiner.join_instances(t, self.s)
+{'builtins.NoneType', 'mypy.join.InstanceJoiner'}

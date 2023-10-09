@@ -1,0 +1,2 @@
+ /home/user/thefuck-master/thefuck/types.py-script_parts-40
+ /home/user/thefuck-master/tests/shells/test_generic.py-test_info-53

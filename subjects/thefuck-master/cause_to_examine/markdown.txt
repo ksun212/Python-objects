@@ -1,0 +1,56 @@
+markdown.treeprocessors.InlineProcessor.stashed_nodes
+{'missing', 'builtins.dict'}
+ /home/user/markdown/markdown/treeprocessors.py-__stashNode-107
+        self.stashed_nodes[id] = node
+markdown.treeprocessors.InlineProcessor.stashed_nodes
+{'missing', 'builtins.dict'}
+ /home/user/markdown/markdown/treeprocessors.py-__makePlaceholder-82
+        id = "%04d" % len(self.stashed_nodes)
+markdown.treeprocessors.InlineProcessor.stashed_nodes
+{'missing', 'builtins.dict'}
+ /home/user/markdown/markdown/treeprocessors.py-__processPlaceholders-203
+                    node = self.stashed_nodes.get(id)
+markdown.treeprocessors.InlineProcessor.parent_map
+{'missing', 'builtins.dict'}
+ /home/user/markdown/markdown/treeprocessors.py-__build_ancestors-321
+            parent = self.parent_map.get(parent)
+markdown.extensions.footnotes.FootnoteExtension.parser
+{'missing', 'markdown.blockparser.BlockParser'}
+ /home/user/markdown/markdown/extensions/footnotes.py-makeFootnotesDiv-186
+            self.parser.parseChunk(surrogate_parent, self.footnotes[id])
+markdown.extensions.meta.MetaExtension.md
+{'markdown.core.Markdown', 'missing'}
+ /home/user/markdown/markdown/extensions/meta.py-reset-42
+        self.md.Meta = {}
+markdown.extensions.toc.TocExtension.md
+{'markdown.core.Markdown', 'missing'}
+ /home/user/markdown/markdown/extensions/toc.py-reset-379
+        self.md.toc = ''
+markdown.extensions.toc.TocExtension.md
+{'markdown.core.Markdown', 'missing'}
+ /home/user/markdown/markdown/extensions/toc.py-reset-380
+        self.md.toc_tokens = []
+markdown.extensions.smarty.SmartyExtension.inlinePatterns
+{'missing', 'markdown.util.Registry'}
+ /home/user/markdown/markdown/extensions/smarty.py-educateAngledQuotes-212
+        self.inlinePatterns.register(rightAngledQuotePattern, 'smarty-right-angle-quotes', 35)
+markdown.extensions.smarty.SmartyExtension.inlinePatterns
+{'missing', 'markdown.util.Registry'}
+ /home/user/markdown/markdown/extensions/smarty.py-_addPatterns-186
+            self.inlinePatterns.register(pattern, name, priority-ind)
+markdown.extensions.smarty.SmartyExtension.inlinePatterns
+{'missing', 'markdown.util.Registry'}
+ /home/user/markdown/markdown/extensions/smarty.py-educateDashes-195
+        self.inlinePatterns.register(emDashesPattern, 'smarty-em-dashes', 50)
+markdown.extensions.smarty.SmartyExtension.inlinePatterns
+{'missing', 'markdown.util.Registry'}
+ /home/user/markdown/markdown/extensions/smarty.py-educateDashes-196
+        self.inlinePatterns.register(enDashesPattern, 'smarty-en-dashes', 45)
+markdown.extensions.smarty.SmartyExtension.inlinePatterns
+{'missing', 'markdown.util.Registry'}
+ /home/user/markdown/markdown/extensions/smarty.py-educateAngledQuotes-211
+        self.inlinePatterns.register(leftAngledQuotePattern, 'smarty-left-angle-quotes', 40)
+markdown.extensions.smarty.SmartyExtension.inlinePatterns
+{'missing', 'markdown.util.Registry'}
+ /home/user/markdown/markdown/extensions/smarty.py-educateEllipses-202
+        self.inlinePatterns.register(ellipsesPattern, 'smarty-ellipses', 10)

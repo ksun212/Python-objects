@@ -1,0 +1,764 @@
+seaborn.categorical._CategoricalFacetPlotter.facets
+{'seaborn.axisgrid.FacetGrid', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1144
+            return self.facets.axes_dict[(row, col)]
+seaborn.categorical._CategoricalFacetPlotter.facets
+{'seaborn.axisgrid.FacetGrid', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1148
+            return self.facets.axes_dict[col]
+seaborn.categorical._CategoricalFacetPlotter.facets
+{'seaborn.axisgrid.FacetGrid', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1150
+            return self.facets.ax
+seaborn.categorical._CategoricalFacetPlotter.facets
+{'seaborn.axisgrid.FacetGrid', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1146
+            return self.facets.axes_dict[row]
+seaborn.categorical._CategoricalFacetPlotter.converters
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-iter_data-1043
+                        converter = self.converters[axis].iloc[0]
+seaborn.categorical._CategoricalPlotterNew.converters
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-iter_data-1043
+                        converter = self.converters[axis].iloc[0]
+seaborn.categorical._CategoricalPlotter.plot_data
+{'missing', 'builtins.list'}
+ /home/user/seaborn/tests/test_categorical.py-test_2d_input_data-206
+        assert len(p.plot_data) == 1
+seaborn.categorical._CategoricalPlotter.plot_data
+{'missing', 'builtins.list'}
+ /home/user/seaborn/tests/test_categorical.py-test_1d_input_data-167
+        assert len(p.plot_data) == 1
+seaborn.categorical._CategoricalPlotter.plot_data
+{'missing', 'builtins.list'}
+ /home/user/seaborn/tests/test_categorical.py-test_1d_input_data-187
+        assert len(p.plot_data[1]) == self.n_total / 2
+seaborn.categorical._CategoricalPlotter.plot_data
+{'missing', 'builtins.list'}
+ /home/user/seaborn/tests/test_categorical.py-test_1d_input_data-168
+        assert len(p.plot_data[0]) == self.n_total
+seaborn.categorical._CategoricalPlotter.plot_data
+{'missing', 'builtins.list'}
+ /home/user/seaborn/tests/test_categorical.py-test_2d_input_data-200
+        assert len(p.plot_data[0]) == self.x.shape[0]
+seaborn.categorical._CategoricalPlotter.plot_data
+{'missing', 'builtins.list'}
+ /home/user/seaborn/tests/test_categorical.py-test_list_of_array_input_data-227
+        assert len(p.plot_data) == 3
+seaborn.categorical._CategoricalPlotter.plot_data
+{'missing', 'builtins.list'}
+ /home/user/seaborn/seaborn/categorical.py-establish_colors-1109
+            n_colors = len(self.plot_data)
+seaborn.categorical._CategoricalPlotter.plot_data
+{'missing', 'builtins.list'}
+ /home/user/seaborn/tests/test_categorical.py-test_1d_input_data-175
+        assert len(p.plot_data) == 1
+seaborn.categorical._CategoricalPlotter.plot_data
+{'missing', 'builtins.list'}
+ /home/user/seaborn/tests/test_categorical.py-test_longform_groupby-302
+        assert len(p.plot_data) == 3
+seaborn.categorical._CategoricalPlotter.plot_data
+{'missing', 'builtins.list'}
+ /home/user/seaborn/tests/test_categorical.py-test_1d_input_data-176
+        assert len(p.plot_data[0]) == self.n_total
+seaborn.categorical._CategoricalPlotter.plot_data
+{'missing', 'builtins.list'}
+ /home/user/seaborn/tests/test_categorical.py-test_1d_input_data-185
+        assert len(p.plot_data) == 2
+seaborn.categorical._CategoricalPlotter.plot_data
+{'missing', 'builtins.list'}
+ /home/user/seaborn/tests/test_categorical.py-test_1d_input_data-186
+        assert len(p.plot_data[0]) == self.n_total
+seaborn.categorical._CategoricalPlotter.plot_data
+{'missing', 'builtins.list'}
+ /home/user/seaborn/tests/test_categorical.py-test_longform_groupby-335
+        assert len(p.plot_data) == 3
+seaborn.categorical._CategoricalPlotter.plot_data
+{'missing', 'builtins.list'}
+ /home/user/seaborn/tests/test_categorical.py-test_2d_input_data-207
+        assert len(p.plot_data[0]) == self.x.shape[0]
+seaborn.categorical._CategoricalPlotter.plot_data
+{'missing', 'builtins.list'}
+ /home/user/seaborn/tests/test_categorical.py-test_2d_input_data-199
+        assert len(p.plot_data) == 1
+seaborn.categorical._CategoricalPlotter.plot_data
+{'missing', 'builtins.list'}
+ /home/user/seaborn/tests/test_categorical.py-test_single_long_direct_inputs-276
+        assert len(p.plot_data[0]) == 4
+seaborn.categorical._CategoricalPlotter.hue_names
+{'builtins.NoneType', 'missing', 'builtins.list'}
+ /home/user/seaborn/seaborn/categorical.py-establish_colors-1111
+            n_colors = len(self.hue_names)
+seaborn.categorical._CategoricalAggFacetPlotter.facets
+{'seaborn.axisgrid.FacetGrid', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1148
+            return self.facets.axes_dict[col]
+seaborn.categorical._CategoricalAggFacetPlotter.facets
+{'seaborn.axisgrid.FacetGrid', 'missing'}
+ /home/user/seaborn/seaborn/_oldcore.py-_get_axes-1150
+            return self.facets.ax
+seaborn._oldcore.VectorPlotter.converters
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/tests/test_core.py-test_attach_shared_axes-1176
+        assert p.converters["x"].groupby(p.plot_data["col"]).nunique().max() == 1
+seaborn._oldcore.VectorPlotter.converters
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/tests/test_core.py-test_attach_shared_axes-1199
+        assert p.converters["x"].nunique() == len(g.axes.flat)
+seaborn._oldcore.VectorPlotter.converters
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/tests/test_core.py-test_attach_shared_axes-1175
+        assert p.converters["x"].nunique() == p.plot_data["col"].nunique()
+seaborn._oldcore.VectorPlotter.converters
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/tests/test_core.py-test_attach_shared_axes-1191
+        assert p.converters["x"].nunique() == 1
+seaborn._oldcore.VectorPlotter.converters
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/tests/test_core.py-test_attach_shared_axes-1183
+        assert p.converters["x"].groupby(p.plot_data["col"]).nunique().max() == 1
+seaborn._oldcore.VectorPlotter.converters
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/tests/test_core.py-test_attach_shared_axes-1200
+        assert p.converters["y"].nunique() == 1
+seaborn._oldcore.VectorPlotter.converters
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/tests/test_core.py-test_attach_shared_axes-1207
+        assert p.converters["x"].nunique() == p.plot_data["col"].nunique()
+seaborn._oldcore.VectorPlotter.converters
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/tests/test_core.py-test_attach_shared_axes-1209
+        assert p.converters["y"].nunique() == 1
+seaborn._oldcore.VectorPlotter.converters
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/tests/test_core.py-test_attach_shared_axes-1192
+        assert p.converters["y"].nunique() == 1
+seaborn._oldcore.VectorPlotter.converters
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/tests/test_core.py-test_attach_shared_axes-1169
+        assert p.converters["x"].nunique() == 1
+seaborn._oldcore.VectorPlotter.converters
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/tests/test_core.py-test_attach_shared_axes-1218
+        assert p.converters["y"].groupby(p.plot_data["row"]).nunique().max() == 1
+seaborn._oldcore.VectorPlotter.converters
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/tests/test_core.py-test_attach_shared_axes-1208
+        assert p.converters["x"].groupby(p.plot_data["col"]).nunique().max() == 1
+seaborn._oldcore.VectorPlotter.converters
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/tests/test_core.py-test_attach_shared_axes-1164
+        assert p.converters["x"].nunique() == 1
+seaborn._oldcore.VectorPlotter.converters
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/tests/test_core.py-test_attach_shared_axes-1216
+        assert p.converters["x"].nunique() == 1
+seaborn._oldcore.VectorPlotter.converters
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/tests/test_core.py-test_attach_shared_axes-1217
+        assert p.converters["y"].nunique() == p.plot_data["row"].nunique()
+seaborn._oldcore.VectorPlotter.converters
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/tests/test_core.py-test_attach_shared_axes-1182
+        assert p.converters["x"].nunique() == p.plot_data["col"].nunique()
+seaborn._oldcore.VectorPlotter.converters
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/tests/test_core.py-test_attach_shared_axes-1184
+        assert p.converters["y"].nunique() == 1
+seaborn._oldcore.VectorPlotter.converters
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/tests/test_core.py-test_attach_shared_axes-1177
+        assert p.converters["y"].nunique() == 1
+seaborn._oldcore.VectorPlotter.converters
+{'builtins.dict', 'missing'}
+ /home/user/seaborn/tests/test_core.py-test_attach_shared_axes-1170
+        assert p.converters["y"].nunique() == 1
+seaborn._core.plot.Plotter._subplots
+{'seaborn._core.subplots.Subplots', 'missing'}
+ /home/user/seaborn/seaborn/_core/plot.py-_setup_scales-1342
+                share_state = self._subplots.subplot_spec[f"share{axis}"]
+seaborn._core.plot.Plotter._subplots
+{'seaborn._core.subplots.Subplots', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-check_facet_results_2d-1368
+        assert len(p._subplots) == len(list(levels))
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_y_wrapping-1664
+        for i, ax in enumerate(p._figure.axes):
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_color_and_alpha-92
+        line, = p._figure.axes[0].get_lines()
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_labels_legend-1229
+        assert p._figure.legends[0].get_title().get_text() == label
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_three_layers-2082
+        texts = p._figure.legends[0].get_texts()
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_axis_sharing-1423
+        root, *other = p1._figure.axes
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_update-2156
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_theme_params-917
+        assert mpl.colors.same_color(p._figure.axes[0].get_facecolor(), color)
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_on_layout_algo_spec-1156
+        layout_engine = p._figure.get_layout_engine()
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_setitem-2148
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_non_cross-1534
+        root, *other = p._figure.axes
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_area.py-test_single_defaults-17
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_xy_data-240
+        lines, = p._figure.axes[0].collections
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_legendless_mark-2110
+        assert not p._figure.legends
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_limits-1730
+        ax1 = p._figure.axes[1]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_dot.py-test_filled_unfilled_mix-56
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_pair_categories-557
+        ax1, ax2 = p._figure.axes
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_axis_sharing-1599
+        axes_matrix = np.reshape(p1._figure.axes, shape)
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_inferred_categorical_converter-357
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_bar.py-test_positions-131
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/seaborn/_core/plot.py-save-988
+        self._figure.savefig(loc, **kwargs)
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_dot.py-test_fill-134
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_x_wrapping-1644
+        assert_gridspec_shape(p._figure.axes[0], len(x_vars) // wrap + 1, wrap)
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_row_wrapping-1479
+        assert_gridspec_shape(p._figure.axes[0], wrap, len(rows) // wrap + 1)
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_mapped_properties-372
+        lines, = p._figure.axes[0].collections
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_text.py-test_offset_valign-109
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_set_properties-180
+        lines, = p._figure.axes[0].collections
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_dot.py-test_set_color-109
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_single_orient_value-255
+        lines, = p._figure.axes[0].collections
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_shared_colors_mapped-56
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_dot.py-test_map_color-121
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_dot.py-test_pointsize-147
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_dot.py-test_simple-40
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_capstyle-127
+        line, = p._figure.axes[0].get_lines()
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_col_wrapping-1469
+        assert_gridspec_shape(p._figure.axes[0], len(cols) // wrap + 1, wrap)
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_bar.py-test_zero_height_skipped-104
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_dot.py-test_filled_unfilled_mix-172
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_limits-1198
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_axis_sharing-1439
+        axes_matrix = np.reshape(p3._figure.axes, shape)
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_layer_specific_facet_disabling-842
+        assert len(p._figure.axes) == len(col_levels)
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_row_wrapping-1480
+        assert len(p._figure.axes) == 4
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_xy_data-149
+        line1, line2 = p._figure.axes[0].get_lines()
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_dot.py-test_missing_semantic_data-84
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_shared_colors_direct-34
+        line, = p._figure.axes[0].get_lines()
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_auto_range-283
+        lines, = p._figure.axes[0].collections
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_pair_categories_shared-574
+        for ax in p._figure.axes:
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_area.py-test_unfilled-96
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_non_cross_wrapping-1682
+        assert len(p._figure.axes) == len(x_vars)
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_log_scale_name-395
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_computed_var_transform-472
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_capstyle-224
+            lines = p._figure.axes[0].collections[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_labels_legend-1233
+        assert p._figure.legends[0].get_title().get_text() == label
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_xy_data-165
+        lines, = p._figure.axes[0].collections
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_set_properties-357
+        lines, = p._figure.axes[0].collections
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/seaborn/_core/plot.py-_repr_svg_-1047
+            self._figure.savefig(buffer, format="svg", bbox_inches="tight")
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_text.py-test_set_properties-47
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_text.py-test_mapped_alignment-76
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_faceted_log_scale-377
+        for ax in p._figure.axes:
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_bar.py-test_positions_horizontal-144
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-check_facet_results_1d-1331
+        assert len(p._figure.axes) == len(order)
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_text.py-test_offset_centered-98
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_xy_data_grouped-342
+        lines, = p._figure.axes[0].collections
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_col_wrapping-1468
+        assert len(p._figure.axes) == 4
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_text.py-test_identity_fontsize-89
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_labels_facets-1239
+        axs = np.reshape(p._figure.axes, (2, 2))
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_multi_layer_different_artists-2060
+        legend, = p._figure.legends
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_dot.py-test_simple-96
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_capstyle-228
+            lines = p._figure.axes[0].collections[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_paired_single_log_scale-385
+        ax_lin, ax_log = p._figure.axes
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_bar.py-test_mapped_edgewidth-177
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_dot.py-test_stroke-158
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_bar.py-test_mapped_properties-94
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_facet_categories-501
+        ax1, ax2 = p._figure.axes
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/seaborn/_core/plot.py-_repr_png_-1029
+            self._figure.savefig(buffer, dpi=dpi, format="png", bbox_inches="tight")
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_non_cross_wrapping-1681
+        assert_gridspec_shape(p._figure.axes[0], len(x_vars) // wrap + 1, wrap)
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_anonymous_title-2100
+        legend, = p._figure.legends
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_text.py-test_mapped_properties-62
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_text.py-test_offset_halign-123
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_bar.py-test_auto_edgewidth-189
+        lw0 = p0._figure.axes[0].collections[0].get_linewidths()
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_x_wrapping-1645
+        assert len(p._figure.axes) == len(x_vars)
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_bar.py-test_mapped_color_direct_alpha-168
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_axis_sharing-1429
+        root, *other = p2._figure.axes
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_area.py-test_mapped_properties-72
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_limits-1203
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_list_of_vectors-1544
+        for ax, x_i in zip(p._figure.axes, x_vars):
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_bar.py-plot_bars-18
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_layout_algo-1410
+        bb21, bb22 = [ax.get_position() for ax in p2._figure.axes]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_separate_colors_mapped-70
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_color_with_alpha-202
+        lines, = p._figure.axes[0].collections
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_capstyle-131
+        line, = p._figure.axes[0].get_lines()
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_x_wrapping-1646
+        for ax, var in zip(p._figure.axes, x_vars):
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_title_facet_function-1254
+        for i, ax in enumerate(p._figure.axes):
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_axis_sharing_with_facets-1624
+        axes_matrix = np.reshape(p._figure.axes, shape)
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_facet_categories_single_dim_shared-541
+        axs = p._figure.axes
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_y_wrapping-1658
+        assert_gridspec_shape(p._figure.axes[0], n_row, n_col)
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_mapped_properties-191
+        lines, = p._figure.axes[0].collections
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_title_single-1248
+        assert p._figure.axes[0].get_title() == label
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_y_wrapping-1659
+        assert len(p._figure.axes) == len(y_vars)
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_axis_sharing-1614
+        root, *other = p2._figure.axes
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_labels-1737
+        ax1 = p._figure.axes[1]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_color_with_alpha-82
+        line, = p._figure.axes[0].get_lines()
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_area.py-test_auto_range-121
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_facet_categories_unshared-517
+        ax1, ax2 = p._figure.axes
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_capstyle-220
+            lines = p._figure.axes[0].collections[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_dot.py-test_missing_coordinate_data-72
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_layout_size-1077
+        assert tuple(p._figure.get_size_inches()) == size
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_facets_no_subgroups-803
+        assert m.passed_axes == list(p._figure.axes)
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_computed_var_ticks-461
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_capstyle-135
+        line, = p._figure.axes[0].get_lines()
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_width-387
+        lines, = p._figure.axes[0].collections
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_bar.py-test_width-157
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_limits-1208
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/seaborn/_core/plot.py-_make_legend-1741
+                self._figure.legends.append(legend)
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_area.py-test_set_properties-49
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_bar.py-test_set_properties-79
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_text.py-test_simple-27
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_title_facet_function-1259
+        for i, ax in enumerate(p._figure.axes):
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_mapped_color-296
+        lines, = p._figure.axes[0].collections
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_legend_has_no_offset-2116
+        legend = p._figure.legends[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_separate_colors_direct-45
+        line, = p._figure.axes[0].get_lines()
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_default-2139
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_color_and_alpha-210
+        lines, = p._figure.axes[0].collections
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_direct_properties-313
+        lines, = p._figure.axes[0].collections
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_xy_data-270
+        lines, = p._figure.axes[0].collections
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_bar.py-test_unfilled-197
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_explicit_categorical_converter-363
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_other_props_direct-102
+        line, = p._figure.axes[0].get_lines()
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_labels_axis-1215
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_list_of_vectors-1543
+        assert len(p._figure.axes) == len(x_vars)
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_layout_algo-1409
+        bb11, bb12 = [ax.get_position() for ax in p1._figure.axes]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_with_no_variables-1550
+        assert len(p._figure.axes) == 1
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_bar.py-test_artist_kws_clip-110
+        patch = p._figure.axes[0].patches[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_dodge-401
+        lines, = p._figure.axes[0].collections
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_xy_data-21
+        line1, line2 = p._figure.axes[0].get_lines()
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_labels_axis-1220
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_theme_default-911
+        assert mpl.colors.same_color(p._figure.axes[0].get_facecolor(), "#EAEAF2")
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_other_props_mapped-115
+        line1, line2 = p._figure.axes[0].get_lines()
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_line.py-test_xy_data-328
+        lines, = p._figure.axes[0].collections
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_area.py-test_range-107
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_reset-2165
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_bar.py-test_auto_edgewidth-190
+        lw1 = p1._figure.axes[0].collections[0].get_linewidths()
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_on_layout_algo_default-1145
+        layout_engine = p._figure.get_layout_engine()
+seaborn._core.plot.Plotter._figure
+{'matplotlib.figure.Figure', 'missing'}
+ /home/user/seaborn/tests/_marks/test_bar.py-test_log_scale-208
+        ax = p._figure.axes[0]
+seaborn._core.plot.Plotter._data
+{'missing', 'seaborn._core.data.PlotData'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_single_split_single_layer-698
+        for col in p._data.frame:
+seaborn._core.plot.Plotter._data
+{'missing', 'seaborn._core.data.PlotData'}
+ /home/user/seaborn/tests/_core/test_plot.py-test_without_data-192
+        assert_frame_equal(p._data.frame, layer["data"].frame, check_dtype=False)
+seaborn._core.subplots.Subplots._subplot_list
+{'missing', 'builtins.list'}
+ /home/user/seaborn/seaborn/_core/subplots.py-__len__-269
+        return len(self._subplot_list)

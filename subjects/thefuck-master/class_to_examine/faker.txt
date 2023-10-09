@@ -1,0 +1,8 @@
+faker.typing.Country
+faker.providers.credit_card.CreditCard
+faker.proxy.UniqueProxy
+faker.cli.Command
+faker.documentor.Documentor
+faker.providers.color.color.RandomColor
+faker.providers.isbn.isbn.ISBN10
+faker.providers.isbn.isbn.ISBN13

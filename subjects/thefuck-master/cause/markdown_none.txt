@@ -1,0 +1,96 @@
+ /home/user/markdown/markdown/treeprocessors.py-__makePlaceholder-82
+markdown.treeprocessors.InlineProcessor.stashed_nodes
+        id = "%04d" % len(self.stashed_nodes)
+{'builtins.dict', 'missing'}
+ /home/user/markdown/markdown/treeprocessors.py-__stashNode-107
+markdown.treeprocessors.InlineProcessor.stashed_nodes
+        self.stashed_nodes[id] = node
+{'builtins.dict', 'missing'}
+ /home/user/markdown/markdown/treeprocessors.py-__processPlaceholders-203
+markdown.treeprocessors.InlineProcessor.stashed_nodes
+                    node = self.stashed_nodes.get(id)
+{'builtins.dict', 'missing'}
+ /home/user/markdown/markdown/treeprocessors.py-__build_ancestors-321
+markdown.treeprocessors.InlineProcessor.parent_map
+            parent = self.parent_map.get(parent)
+{'builtins.dict', 'missing'}
+ /home/user/markdown/markdown/treeprocessors.py-run-387
+markdown.treeprocessors.InlineProcessor.parent_map
+                    self.parent_map[child] = currElement
+{'builtins.dict', 'missing'}
+ /home/user/markdown/markdown/treeprocessors.py-run-370
+markdown.treeprocessors.InlineProcessor.parent_map
+                        self.parent_map[item[0]] = child
+{'builtins.dict', 'missing'}
+ /home/user/markdown/markdown/treeprocessors.py-run-384
+markdown.treeprocessors.InlineProcessor.parent_map
+                        self.parent_map[newChild[0]] = currElement
+{'builtins.dict', 'missing'}
+ /home/user/markdown/markdown/extensions/footnotes.py-makeFootnotesDiv-186
+markdown.extensions.footnotes.FootnoteExtension.parser
+            self.parser.parseChunk(surrogate_parent, self.footnotes[id])
+{'markdown.blockparser.BlockParser', 'missing'}
+ /home/user/markdown/markdown/extensions/meta.py-reset-42
+markdown.extensions.meta.MetaExtension.md
+        self.md.Meta = {}
+{'markdown.core.Markdown', 'missing'}
+ /home/user/markdown/markdown/extensions/wikilinks.py-_getMeta-77
+markdown.extensions.wikilinks.WikiLinksInlineProcessor.md
+            if 'wiki_base_url' in self.md.Meta:
+{'markdown.core.Markdown', 'builtins.NoneType'}
+ /home/user/markdown/markdown/extensions/wikilinks.py-_getMeta-78
+markdown.extensions.wikilinks.WikiLinksInlineProcessor.md
+                base_url = self.md.Meta['wiki_base_url'][0]
+{'markdown.core.Markdown', 'builtins.NoneType'}
+ /home/user/markdown/markdown/extensions/wikilinks.py-_getMeta-80
+markdown.extensions.wikilinks.WikiLinksInlineProcessor.md
+                end_url = self.md.Meta['wiki_end_url'][0]
+{'markdown.core.Markdown', 'builtins.NoneType'}
+ /home/user/markdown/markdown/extensions/wikilinks.py-_getMeta-82
+markdown.extensions.wikilinks.WikiLinksInlineProcessor.md
+                html_class = self.md.Meta['wiki_html_class'][0]
+{'markdown.core.Markdown', 'builtins.NoneType'}
+ /home/user/markdown/markdown/extensions/wikilinks.py-_getMeta-79
+markdown.extensions.wikilinks.WikiLinksInlineProcessor.md
+            if 'wiki_end_url' in self.md.Meta:
+{'markdown.core.Markdown', 'builtins.NoneType'}
+ /home/user/markdown/markdown/extensions/wikilinks.py-_getMeta-81
+markdown.extensions.wikilinks.WikiLinksInlineProcessor.md
+            if 'wiki_html_class' in self.md.Meta:
+{'markdown.core.Markdown', 'builtins.NoneType'}
+ /home/user/markdown/markdown/extensions/toc.py-reset-380
+markdown.extensions.toc.TocExtension.md
+        self.md.toc_tokens = []
+{'markdown.core.Markdown', 'missing'}
+ /home/user/markdown/markdown/extensions/toc.py-reset-379
+markdown.extensions.toc.TocExtension.md
+        self.md.toc = ''
+{'markdown.core.Markdown', 'missing'}
+ /home/user/markdown/markdown/extensions/smarty.py-educateAngledQuotes-212
+markdown.extensions.smarty.SmartyExtension.inlinePatterns
+        self.inlinePatterns.register(rightAngledQuotePattern, 'smarty-right-angle-quotes', 35)
+{'markdown.util.Registry', 'missing'}
+ /home/user/markdown/markdown/extensions/smarty.py-educateEllipses-202
+markdown.extensions.smarty.SmartyExtension.inlinePatterns
+        self.inlinePatterns.register(ellipsesPattern, 'smarty-ellipses', 10)
+{'markdown.util.Registry', 'missing'}
+ /home/user/markdown/markdown/extensions/smarty.py-_addPatterns-186
+markdown.extensions.smarty.SmartyExtension.inlinePatterns
+            self.inlinePatterns.register(pattern, name, priority-ind)
+{'markdown.util.Registry', 'missing'}
+ /home/user/markdown/markdown/extensions/smarty.py-educateDashes-195
+markdown.extensions.smarty.SmartyExtension.inlinePatterns
+        self.inlinePatterns.register(emDashesPattern, 'smarty-em-dashes', 50)
+{'markdown.util.Registry', 'missing'}
+ /home/user/markdown/markdown/extensions/smarty.py-educateAngledQuotes-211
+markdown.extensions.smarty.SmartyExtension.inlinePatterns
+        self.inlinePatterns.register(leftAngledQuotePattern, 'smarty-left-angle-quotes', 40)
+{'markdown.util.Registry', 'missing'}
+ /home/user/markdown/markdown/extensions/smarty.py-educateDashes-196
+markdown.extensions.smarty.SmartyExtension.inlinePatterns
+        self.inlinePatterns.register(enDashesPattern, 'smarty-en-dashes', 45)
+{'markdown.util.Registry', 'missing'}
+ /home/user/markdown/markdown/extensions/smarty.py-handleMatch-164
+markdown.extensions.smarty.SubstituteTextPattern.md
+                result += self.md.htmlStash.store(part)
+{'markdown.core.Markdown', 'builtins.NoneType'}

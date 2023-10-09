@@ -1,0 +1,10 @@
+jedi.inference.InferenceState.environment
+{'jedi.api.environment.InterpreterEnvironment', 'jedi.api.environment.SameEnvironment', 'jedi.api.environment.Environment'}
+ /home/user/jedi/jedi/api/project.py-_get_base_sys_path-187
+        sys_path = list(inference_state.environment.get_sys_path())
+jedi.inference.InferenceState.environment
+{'jedi.api.environment.InterpreterEnvironment', 'jedi.api.environment.SameEnvironment', 'jedi.api.environment.Environment'}
+ /home/user/jedi/jedi/inference/syntax_tree.py-_infer_comparison_part-638
+                        inference_state.environment.version_info,
+check: 1
+safe: 1

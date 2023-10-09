@@ -1,0 +1,2624 @@
+sklearn.tree._classes.DecisionTreeClassifier.classes_
+{'builtins.list', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_bagging.py-_parallel_predict_log_proba-186
+        if n_classes == len(estimator.classes_):
+sklearn.tree._classes.DecisionTreeClassifier.classes_
+{'builtins.list', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tree/_classes.py-predict-518
+                    predictions[:, k] = self.classes_[k].take(
+sklearn.tree._classes.DecisionTreeClassifier.classes_
+{'builtins.list', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/metrics/_plot/base.py-_get_response-103
+        pos_label = estimator.classes_[class_idx]
+sklearn.tree._classes.DecisionTreeClassifier.classes_
+{'builtins.list', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tree/_classes.py-predict-515
+                class_type = self.classes_[0].dtype
+sklearn.tree._classes.DecisionTreeClassifier.n_classes_
+{'builtins.list', 'numpy.numpy.int64', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tree/_classes.py-predict_proba-1017
+                proba_k = proba[:, k, : self.n_classes_[k]]
+sklearn.tree._classes.DecisionTreeClassifier.tree_
+{'missing', 'sklearn.tree._tree.sklearn.tree._tree.Tree'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tree/_classes.py-predict-506
+        proba = self.tree_.predict(X)
+sklearn.tree._classes.DecisionTreeClassifier.tree_
+{'missing', 'sklearn.tree._tree.sklearn.tree._tree.Tree'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tree/_classes.py-predict_proba-1003
+        proba = self.tree_.predict(X)
+sklearn.tree._classes.DecisionTreeRegressor.tree_
+{'missing', 'sklearn.tree._tree.sklearn.tree._tree.Tree'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tree/_classes.py-predict-506
+        proba = self.tree_.predict(X)
+sklearn.svm._classes.LinearSVC.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-predict-452
+        return self.classes_[indices]
+sklearn.svm._classes.LinearSVC.intercept_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-decision_function-430
+        scores = safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._logistic.LogisticRegression.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-predict-452
+        return self.classes_[indices]
+sklearn.linear_model._logistic.LogisticRegression.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py-predict_proba-1308
+            and (self.classes_.size <= 2 or self.solver == "liblinear")
+sklearn.linear_model._logistic.LogisticRegression.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/metrics/_plot/base.py-_get_response-103
+        pos_label = estimator.classes_[class_idx]
+sklearn.linear_model._logistic.LogisticRegression.intercept_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-decision_function-430
+        scores = safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._bayes.ARDRegression.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._bayes.ARDRegression.intercept_
+{'numpy.numpy.float64', 'numpy.numpy.float32', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.ensemble._weight_boosting.AdaBoostClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_base.py-_make_estimator-189
+            self.estimators_.append(estimator)
+sklearn.ensemble._weight_boosting.AdaBoostClassifier.estimator_weights_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_weight_boosting.py-decision_function-776
+        pred /= self.estimator_weights_.sum()
+sklearn.ensemble._weight_boosting.AdaBoostClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_weight_boosting.py-predict-704
+        return self.classes_.take(np.argmax(pred, axis=1), axis=0)
+sklearn.ensemble._weight_boosting.AdaBoostClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_weight_boosting.py-decision_function-763
+        classes = self.classes_[:, np.newaxis]
+sklearn.ensemble._weight_boosting.AdaBoostClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_weight_boosting.py-predict-702
+            return self.classes_.take(pred > 0, axis=0)
+sklearn.ensemble._weight_boosting.AdaBoostRegressor.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_weight_boosting.py-_get_median_predict-1196
+        predictions = np.array([est.predict(X) for est in self.estimators_[:limit]]).T
+sklearn.ensemble._weight_boosting.AdaBoostRegressor.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_weight_boosting.py-predict-1231
+        return self._get_median_predict(X, len(self.estimators_))
+sklearn.ensemble._weight_boosting.AdaBoostRegressor.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_base.py-_make_estimator-189
+            self.estimators_.append(estimator)
+sklearn.ensemble._weight_boosting.AdaBoostRegressor.estimator_weights_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_weight_boosting.py-_get_median_predict-1202
+        weight_cdf = stable_cumsum(self.estimator_weights_[sorted_idx], axis=1)
+sklearn.kernel_approximation.AdditiveChi2Sampler.sample_interval_
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-_transform_sparse-734
+            factor_nz = np.sqrt(step_nz / np.cosh(np.pi * j * self.sample_interval_))
+sklearn.kernel_approximation.AdditiveChi2Sampler.sample_interval_
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-_transform_dense-705
+        step_nz = 2 * X_nz * self.sample_interval_
+sklearn.kernel_approximation.AdditiveChi2Sampler.sample_interval_
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-_transform_dense-700
+        X_step[non_zero] = np.sqrt(X_nz * self.sample_interval_)
+sklearn.kernel_approximation.AdditiveChi2Sampler.sample_interval_
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-_transform_dense-704
+        log_step_nz = self.sample_interval_ * np.log(X_nz)
+sklearn.kernel_approximation.AdditiveChi2Sampler.sample_interval_
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-_transform_sparse-724
+        data_step = np.sqrt(X.data * self.sample_interval_)
+sklearn.kernel_approximation.AdditiveChi2Sampler.sample_interval_
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-_transform_sparse-731
+        step_nz = 2 * X.data * self.sample_interval_
+sklearn.kernel_approximation.AdditiveChi2Sampler.sample_interval_
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-_transform_sparse-730
+        log_step_nz = self.sample_interval_ * np.log(X.data)
+sklearn.kernel_approximation.AdditiveChi2Sampler.sample_interval_
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-_transform_dense-708
+            factor_nz = np.sqrt(step_nz / np.cosh(np.pi * j * self.sample_interval_))
+sklearn.ensemble._bagging.BaggingClassifier.n_features_in_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_bagging.py-_fit-377
+            max_features = self.max_features * self.n_features_in_
+sklearn.ensemble._bagging.BaggingClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_bagging.py-predict-786
+        return self.classes_.take((np.argmax(predicted_probabilitiy, axis=1)), axis=0)
+sklearn.ensemble._bagging.BaggingClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_bagging.py-<genexpr>-936
+                self.estimators_[starts[i] : starts[i + 1]],
+sklearn.ensemble._bagging.BaggingClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_bagging.py-<genexpr>-829
+                self.estimators_[starts[i] : starts[i + 1]],
+sklearn.ensemble._bagging.BaggingClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_bagging.py-<genexpr>-879
+                    self.estimators_[starts[i] : starts[i + 1]],
+sklearn.ensemble._bagging.BaggingClassifier.estimators_features_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_bagging.py-<genexpr>-830
+                self.estimators_features_[starts[i] : starts[i + 1]],
+sklearn.ensemble._bagging.BaggingClassifier.estimators_features_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_bagging.py-<genexpr>-880
+                    self.estimators_features_[starts[i] : starts[i + 1]],
+sklearn.ensemble._bagging.BaggingClassifier.estimators_features_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_bagging.py-<genexpr>-937
+                self.estimators_features_[starts[i] : starts[i + 1]],
+sklearn.ensemble._bagging.BaggingRegressor.n_features_in_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_bagging.py-_fit-377
+            max_features = self.max_features * self.n_features_in_
+sklearn.ensemble._bagging.BaggingRegressor.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_bagging.py-<genexpr>-1172
+                self.estimators_[starts[i] : starts[i + 1]],
+sklearn.ensemble._bagging.BaggingRegressor.estimators_features_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_bagging.py-<genexpr>-1173
+                self.estimators_features_[starts[i] : starts[i + 1]],
+sklearn.mixture._bayesian_mixture.BayesianGaussianMixture.weight_concentration_prior_
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/mixture/_bayesian_mixture.py-_estimate_weights-557
+                    self.weight_concentration_prior_
+sklearn.mixture._bayesian_mixture.BayesianGaussianMixture.mean_precision_prior_
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/mixture/_bayesian_mixture.py-_estimate_wishart_full-634
+                * self.mean_precision_prior_
+sklearn.mixture._bayesian_mixture.BayesianGaussianMixture.mean_precision_prior_
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/mixture/_bayesian_mixture.py-_estimate_means-574
+        self.mean_precision_ = self.mean_precision_prior_ + nk
+sklearn.mixture._bayesian_mixture.BayesianGaussianMixture.mean_precision_prior_
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/mixture/_bayesian_mixture.py-_estimate_means-576
+            self.mean_precision_prior_ * self.mean_prior_ + nk[:, np.newaxis] * xk
+sklearn.mixture._bayesian_mixture.BayesianGaussianMixture.mean_prior_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/mixture/_bayesian_mixture.py-_compute_lower_bound-817
+        (n_features,) = self.mean_prior_.shape
+sklearn.mixture._bayesian_mixture.BayesianGaussianMixture.mean_prior_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/mixture/_bayesian_mixture.py-_estimate_wishart_full-629
+            diff = xk[k] - self.mean_prior_
+sklearn.mixture._bayesian_mixture.BayesianGaussianMixture.mean_prior_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/mixture/_bayesian_mixture.py-_estimate_means-576
+            self.mean_precision_prior_ * self.mean_prior_ + nk[:, np.newaxis] * xk
+sklearn.mixture._bayesian_mixture.BayesianGaussianMixture.degrees_of_freedom_prior_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/mixture/_bayesian_mixture.py-_estimate_wishart_full-624
+        self.degrees_of_freedom_ = self.degrees_of_freedom_prior_ + nk
+sklearn.mixture._bayesian_mixture.BayesianGaussianMixture.covariance_prior_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/mixture/_bayesian_mixture.py-_estimate_wishart_full-631
+                self.covariance_prior_
+sklearn.mixture._bayesian_mixture.BayesianGaussianMixture.weight_concentration_
+{'builtins.tuple', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/mixture/_bayesian_mixture.py-_estimate_log_weights-762
+            digamma_a = digamma(self.weight_concentration_[0])
+sklearn.mixture._bayesian_mixture.BayesianGaussianMixture.weight_concentration_
+{'builtins.tuple', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/mixture/_bayesian_mixture.py-_estimate_log_weights-763
+            digamma_b = digamma(self.weight_concentration_[1])
+sklearn.mixture._bayesian_mixture.BayesianGaussianMixture.mean_precision_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/mixture/_bayesian_mixture.py-_estimate_wishart_full-635
+                / self.mean_precision_[k]
+sklearn.mixture._bayesian_mixture.BayesianGaussianMixture.mean_precision_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/mixture/_bayesian_mixture.py-_estimate_log_prob-791
+        return log_gauss + 0.5 * (log_lambda - n_features / self.mean_precision_)
+sklearn.mixture._bayesian_mixture.BayesianGaussianMixture.degrees_of_freedom_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/mixture/_bayesian_mixture.py-_estimate_log_prob-786
+                * (self.degrees_of_freedom_ - np.arange(0, n_features)[:, np.newaxis])
+sklearn.linear_model._bayes.BayesianRidge.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._bayes.BayesianRidge.intercept_
+{'numpy.numpy.float64', 'numpy.numpy.float32', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.naive_bayes.BernoulliNB.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-partial_fit-647
+            if len(self.classes_) == 2:
+sklearn.naive_bayes.BernoulliNB.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-predict-82
+        return self.classes_[np.argmax(jll, axis=1)]
+sklearn.naive_bayes.BernoulliNB.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_update_class_log_prior-562
+        n_classes = len(self.classes_)
+sklearn.naive_bayes.BernoulliNB.class_count_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_update_class_log_prior-575
+            self.class_log_prior_ = log_class_count - np.log(self.class_count_.sum())
+sklearn.naive_bayes.BernoulliNB.class_count_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_update_feature_log_prob-1130
+        smoothed_cc = self.class_count_ + alpha * 2
+sklearn.naive_bayes.BernoulliNB.class_count_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_naive_bayes.py-test_bnb_feature_log_prob-601
+    denom = np.tile(np.log(clf.class_count_ + 2.0), (X.shape[1], 1)).T
+sklearn.naive_bayes.BernoulliNB.feature_count_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_naive_bayes.py-test_bnb_feature_log_prob-600
+    num = np.log(clf.feature_count_ + 1.0)
+sklearn.naive_bayes.BernoulliNB.feature_count_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_update_feature_log_prob-1129
+        smoothed_fc = self.feature_count_ + alpha
+sklearn.naive_bayes.BernoulliNB.feature_log_prob_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_joint_log_likelihood-1138
+        n_features = self.feature_log_prob_.shape[1]
+sklearn.naive_bayes.BernoulliNB.feature_log_prob_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_joint_log_likelihood-1149
+        jll = safe_sparse_dot(X, (self.feature_log_prob_ - neg_prob).T)
+sklearn.naive_bayes.BernoulliNB.class_log_prior_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_joint_log_likelihood-1150
+        jll += self.class_log_prior_ + neg_prob.sum(axis=1)
+sklearn.neural_network._rbm.BernoulliRBM.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_rbm.py-_free_energy-237
+            0, safe_sparse_dot(v, self.components_.T) + self.intercept_hidden_
+sklearn.neural_network._rbm.BernoulliRBM.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_rbm.py-_mean_hiddens-179
+        p = safe_sparse_dot(v, self.components_.T)
+sklearn.neural_network._rbm.BernoulliRBM.intercept_hidden_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_rbm.py-_free_energy-237
+            0, safe_sparse_dot(v, self.components_.T) + self.intercept_hidden_
+sklearn.cluster._birch.Birch.dummy_leaf_
+{'sklearn.cluster._birch._CFNode', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/cluster/_birch.py-_get_leaves-628
+        leaf_ptr = self.dummy_leaf_.next_leaf_
+sklearn.cluster._birch.Birch.subcluster_labels_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/cluster/_birch.py-_predict-702
+        return self.subcluster_labels_[argmin]
+sklearn.cross_decomposition._pls.CCA._coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/cross_decomposition/_pls.py-predict-476
+        Ypred = X @ self._coef_.T
+sklearn.cross_decomposition._pls.CCA.intercept_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/cross_decomposition/_pls.py-predict-477
+        return Ypred + self.intercept_
+sklearn.calibration.CalibratedClassifierCV.calibrated_classifiers_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_calibration.py-test_calibration_cv_splitter-165
+    assert len(calib_clf.calibrated_classifiers_) == expected_n_clf
+sklearn.calibration.CalibratedClassifierCV.calibrated_classifiers_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/calibration.py-predict_proba-436
+        mean_proba /= len(self.calibrated_classifiers_)
+sklearn.calibration.CalibratedClassifierCV.calibrated_classifiers_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_calibration.py-test_calibration_default_estimator-148
+    base_est = calib_clf.calibrated_classifiers_[0].base_estimator
+sklearn.calibration.CalibratedClassifierCV.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/calibration.py-predict_proba-431
+        mean_proba = np.zeros((_num_samples(X), len(self.classes_)))
+sklearn.calibration.CalibratedClassifierCV.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/calibration.py-predict-457
+        return self.classes_[np.argmax(self.predict_proba(X), axis=1)]
+sklearn.naive_bayes.CategoricalNB.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-partial_fit-647
+            if len(self.classes_) == 2:
+sklearn.naive_bayes.CategoricalNB.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-predict-82
+        return self.classes_[np.argmax(jll, axis=1)]
+sklearn.naive_bayes.CategoricalNB.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_update_class_log_prior-562
+        n_classes = len(self.classes_)
+sklearn.naive_bayes.CategoricalNB.class_count_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_update_class_log_prior-575
+            self.class_log_prior_ = log_class_count - np.log(self.class_count_.sum())
+sklearn.naive_bayes.CategoricalNB.class_count_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_joint_log_likelihood-1422
+        jll = np.zeros((X.shape[0], self.class_count_.shape[0]))
+sklearn.naive_bayes.CategoricalNB.category_count_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_naive_bayes.py-test_discretenb_partial_fit-255
+                np.sum(clf3.category_count_[i], axis=1),
+sklearn.naive_bayes.CategoricalNB.category_count_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_count-1407
+                X_feature, Y, self.category_count_[i], self.class_count_.shape[0]
+sklearn.naive_bayes.CategoricalNB.category_count_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_naive_bayes.py-test_discretenb_partial_fit-270
+        assert_array_equal(clf1.category_count_[1][1], np.array([1, 1]))
+sklearn.naive_bayes.CategoricalNB.category_count_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_naive_bayes.py-test_discretenb_partial_fit-234
+        for i in range(len(clf1.category_count_)):
+sklearn.naive_bayes.CategoricalNB.category_count_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_naive_bayes.py-test_discretenb_partial_fit-267
+        assert_array_equal(clf1.category_count_[1][0], np.array([0, 1]))
+sklearn.naive_bayes.CategoricalNB.category_count_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_count-1404
+                self.category_count_[i], self.n_categories_[i] - 1
+sklearn.naive_bayes.CategoricalNB.category_count_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_naive_bayes.py-test_discretenb_partial_fit-263
+        assert_array_equal(clf1.category_count_[0][1], np.array([0, 2]))
+sklearn.naive_bayes.CategoricalNB.category_count_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_naive_bayes.py-test_discretenb_partial_fit-254
+                np.sum(clf1.category_count_[i], axis=1),
+sklearn.naive_bayes.CategoricalNB.category_count_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_naive_bayes.py-test_categoricalnb-711
+    assert len(clf.category_count_) == X3.shape[1]
+sklearn.naive_bayes.CategoricalNB.category_count_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_naive_bayes.py-test_discretenb_partial_fit-260
+        assert_array_equal(clf1.category_count_[0][0], np.array([1, 0]))
+sklearn.naive_bayes.CategoricalNB.category_count_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_update_feature_log_prob-1413
+            smoothed_cat_count = self.category_count_[i] + alpha
+sklearn.naive_bayes.CategoricalNB.category_count_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_naive_bayes.py-test_discretenb_partial_fit-249
+        for i in range(len(clf1.category_count_)):
+sklearn.naive_bayes.CategoricalNB.category_count_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_count-1403
+            self.category_count_[i] = _update_cat_count_dims(
+sklearn.naive_bayes.CategoricalNB.feature_log_prob_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_joint_log_likelihood-1425
+            jll += self.feature_log_prob_[i][:, indices].T
+sklearn.naive_bayes.CategoricalNB.class_log_prior_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_joint_log_likelihood-1426
+        total_ll = jll + self.class_log_prior_
+sklearn.multioutput.ClassifierChain.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multioutput.py-predict_proba-790
+        Y_pred_chain = np.zeros((X.shape[0], len(self.estimators_)))
+sklearn.multioutput.ClassifierChain.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multioutput.py-decision_function-821
+        Y_decision_chain = np.zeros((X.shape[0], len(self.estimators_)))
+sklearn.multioutput.ClassifierChain.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multioutput.py-decision_function-822
+        Y_pred_chain = np.zeros((X.shape[0], len(self.estimators_)))
+sklearn.multioutput.ClassifierChain.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multioutput.py-predict_proba-789
+        Y_prob_chain = np.zeros((X.shape[0], len(self.estimators_)))
+sklearn.multioutput.ClassifierChain.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multioutput.py-predict-622
+        Y_pred_chain = np.zeros((X.shape[0], len(self.estimators_)))
+sklearn.multioutput.ClassifierChain.classes_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multioutput.py-test_multi_output_classes_-601
+    assert len(estimator.classes_) == n_outputs
+sklearn.naive_bayes.ComplementNB.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-partial_fit-647
+            if len(self.classes_) == 2:
+sklearn.naive_bayes.ComplementNB.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-predict-82
+        return self.classes_[np.argmax(jll, axis=1)]
+sklearn.naive_bayes.ComplementNB.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_update_class_log_prior-562
+        n_classes = len(self.classes_)
+sklearn.naive_bayes.ComplementNB.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_joint_log_likelihood-998
+        if len(self.classes_) == 1:
+sklearn.naive_bayes.ComplementNB.class_count_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_update_class_log_prior-575
+            self.class_log_prior_ = log_class_count - np.log(self.class_count_.sum())
+sklearn.naive_bayes.ComplementNB.feature_count_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_update_feature_log_prob-985
+        comp_count = self.feature_all_ + alpha - self.feature_count_
+sklearn.naive_bayes.ComplementNB.feature_all_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_update_feature_log_prob-985
+        comp_count = self.feature_all_ + alpha - self.feature_count_
+sklearn.naive_bayes.ComplementNB.feature_log_prob_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_joint_log_likelihood-997
+        jll = safe_sparse_dot(X, self.feature_log_prob_.T)
+sklearn.feature_extraction.text.CountVectorizer.vocabulary_
+{'builtins.dict', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_extraction/text.py-get_feature_names-1439
+        return [t for t, i in sorted(self.vocabulary_.items(), key=itemgetter(1))]
+sklearn.feature_extraction.text.CountVectorizer.vocabulary_
+{'builtins.dict', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_extraction/text.py-get_feature_names_out-1456
+            [t for t, i in sorted(self.vocabulary_.items(), key=itemgetter(1))],
+sklearn.decomposition._dict_learning.DictionaryLearning.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_dict_learning.py-_n_features_out-1723
+        return self.components_.shape[0]
+sklearn.linear_model._coordinate_descent.ElasticNet.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py-_decision_function-1125
+            return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._coordinate_descent.ElasticNet.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._coordinate_descent.ElasticNet.intercept_
+{'numpy.numpy.float64', 'numpy.numpy.float32', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._coordinate_descent.ElasticNet.intercept_
+{'numpy.numpy.float64', 'numpy.numpy.float32', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py-_decision_function-1125
+            return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.covariance._elliptic_envelope.EllipticEnvelope.raw_covariance_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/covariance/_robust_covariance.py-correct_covariance-805
+        covariance_corrected = self.raw_covariance_ * correction
+sklearn.covariance._elliptic_envelope.EllipticEnvelope.location_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/covariance/_empirical_covariance.py-mahalanobis-339
+                X, self.location_[np.newaxis, :], metric="mahalanobis", VI=precision
+sklearn.covariance._elliptic_envelope.EllipticEnvelope.dist_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/covariance/_robust_covariance.py-reweight_covariance-844
+        mask = self.dist_ < chi2(n_features).isf(0.025)
+sklearn.covariance._elliptic_envelope.EllipticEnvelope.dist_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/covariance/_robust_covariance.py-correct_covariance-797
+        n_samples = len(self.dist_)
+sklearn.covariance._elliptic_envelope.EllipticEnvelope.offset_
+{'numpy.numpy.float64', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_outliers_train-2323
+    y_dec = scores - estimator.offset_
+sklearn.covariance._elliptic_envelope.EllipticEnvelope.offset_
+{'numpy.numpy.float64', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/covariance/_elliptic_envelope.py-decision_function-202
+        return negative_mahal_dist - self.offset_
+sklearn.covariance._empirical_covariance.EmpiricalCovariance.location_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/covariance/_empirical_covariance.py-score-261
+        test_cov = empirical_covariance(X_test - self.location_, assume_centered=True)
+sklearn.tree._classes.ExtraTreeClassifier.classes_
+{'builtins.list', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tree/_classes.py-predict-518
+                    predictions[:, k] = self.classes_[k].take(
+sklearn.tree._classes.ExtraTreeClassifier.classes_
+{'builtins.list', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tree/_classes.py-predict-515
+                class_type = self.classes_[0].dtype
+sklearn.tree._classes.ExtraTreeClassifier.n_classes_
+{'builtins.list', 'numpy.numpy.int64', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tree/_classes.py-predict_proba-1017
+                proba_k = proba[:, k, : self.n_classes_[k]]
+sklearn.tree._classes.ExtraTreeClassifier.tree_
+{'missing', 'sklearn.tree._tree.sklearn.tree._tree.Tree'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tree/_classes.py-predict_proba-1003
+        proba = self.tree_.predict(X)
+sklearn.tree._classes.ExtraTreeClassifier.tree_
+{'missing', 'sklearn.tree._tree.sklearn.tree._tree.Tree'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tree/_classes.py-predict-506
+        proba = self.tree_.predict(X)
+sklearn.tree._classes.ExtraTreeRegressor.tree_
+{'missing', 'sklearn.tree._tree.sklearn.tree._tree.Tree'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tree/_classes.py-apply-558
+        return self.tree_.apply(X)
+sklearn.tree._classes.ExtraTreeRegressor.tree_
+{'missing', 'sklearn.tree._tree.sklearn.tree._tree.Tree'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tree/_classes.py-decision_path-583
+        return self.tree_.decision_path(X)
+sklearn.tree._classes.ExtraTreeRegressor.tree_
+{'missing', 'sklearn.tree._tree.sklearn.tree._tree.Tree'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_iforest.py-_compute_score_samples-470
+            n_samples_leaf = tree.tree_.n_node_samples[leaves_index]
+sklearn.tree._classes.ExtraTreeRegressor.tree_
+{'missing', 'sklearn.tree._tree.sklearn.tree._tree.Tree'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tree/_classes.py-predict-506
+        proba = self.tree_.predict(X)
+sklearn.ensemble._forest.ExtraTreesClassifier.classes_
+{'builtins.list', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_forest.py-predict-840
+            class_type = self.classes_[0].dtype
+sklearn.ensemble._forest.ExtraTreesClassifier.classes_
+{'builtins.list', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_forest.py-predict-844
+                predictions[:, k] = self.classes_[k].take(
+sklearn.ensemble._forest.ExtraTreesClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_forest.py-predict_proba-891
+            proba /= len(self.estimators_)
+sklearn.ensemble._forest.ExtraTreesRegressor.n_outputs_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_forest.py-predict-997
+        if self.n_outputs_ > 1:
+sklearn.ensemble._forest.ExtraTreesRegressor.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_forest.py-predict-1009
+        y_hat /= len(self.estimators_)
+sklearn.decomposition._factor_analysis.FactorAnalysis.mean_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_factor_analysis.py-transform-326
+        X_transformed = X - self.mean_
+sklearn.decomposition._factor_analysis.FactorAnalysis.mean_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_factor_analysis.py-score_samples-394
+        Xr = X - self.mean_
+sklearn.decomposition._factor_analysis.FactorAnalysis.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_factor_analysis.py-get_precision-361
+        n_features = self.components_.shape[1]
+sklearn.decomposition._factor_analysis.FactorAnalysis.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_factor_analysis.py-transform-328
+        Wpsi = self.components_ / self.noise_variance_
+sklearn.decomposition._factor_analysis.FactorAnalysis.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_factor_analysis.py-transform-324
+        Ih = np.eye(len(self.components_))
+sklearn.decomposition._factor_analysis.FactorAnalysis.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_factor_analysis.py-_n_features_out-434
+        return self.components_.shape[0]
+sklearn.decomposition._factor_analysis.FactorAnalysis.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_factor_analysis.py-transform-329
+        cov_z = linalg.inv(Ih + np.dot(Wpsi, self.components_.T))
+sklearn.decomposition._factor_analysis.FactorAnalysis.noise_variance_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_factor_analysis.py-get_precision-376
+        precision.flat[:: len(precision) + 1] += 1.0 / self.noise_variance_
+sklearn.decomposition._factor_analysis.FactorAnalysis.noise_variance_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_factor_analysis.py-transform-328
+        Wpsi = self.components_ / self.noise_variance_
+sklearn.decomposition._factor_analysis.FactorAnalysis.noise_variance_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_factor_analysis.py-get_precision-374
+        precision /= self.noise_variance_[:, np.newaxis]
+sklearn.decomposition._factor_analysis.FactorAnalysis.noise_variance_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_factor_analysis.py-get_precision-375
+        precision /= -self.noise_variance_[np.newaxis, :]
+sklearn.decomposition._factor_analysis.FactorAnalysis.noise_variance_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_factor_analysis.py-get_precision-371
+        precision = np.dot(components_ / self.noise_variance_, components_.T)
+sklearn.decomposition._fastica.FastICA.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_fastica.py-transform-708
+        return np.dot(X, self.components_.T)
+sklearn.decomposition._fastica.FastICA.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_fastica.py-_n_features_out-738
+        return self.components_.shape[0]
+sklearn.linear_model._glm.glm.GammaRegressor._base_loss
+{'sklearn._loss.loss.HalfGammaLoss', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_glm/glm.py-predict-348
+        y_pred = self._base_loss.link.inverse(raw_prediction)
+sklearn.linear_model._glm.glm.GammaRegressor.intercept_
+{'numpy.numpy.float64', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_glm/glm.py-_linear_predictor-331
+        return X @ self.coef_ + self.intercept_
+sklearn.naive_bayes.GaussianNB.theta_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_joint_log_likelihood-488
+            n_ij -= 0.5 * np.sum(((X - self.theta_[i, :]) ** 2) / (self.var_[i, :]), 1)
+sklearn.naive_bayes.GaussianNB.var_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_joint_log_likelihood-487
+            n_ij = -0.5 * np.sum(np.log(2.0 * np.pi * self.var_[i, :]))
+sklearn.naive_bayes.GaussianNB.var_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_joint_log_likelihood-488
+            n_ij -= 0.5 * np.sum(((X - self.theta_[i, :]) ** 2) / (self.var_[i, :]), 1)
+sklearn.naive_bayes.GaussianNB.class_prior_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_joint_log_likelihood-486
+            jointi = np.log(self.class_prior_[i])
+sklearn.naive_bayes.GaussianNB.class_prior_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_naive_bayes.py-test_gnb_prior-77
+    assert_array_almost_equal(clf.class_prior_.sum(), 1)
+sklearn.gaussian_process._gpc.GaussianProcessClassifier.base_estimator_
+{'sklearn.multiclass.OneVsRestClassifier', 'missing', 'sklearn.gaussian_process._gpc._BinaryGaussianProcessClassifierLaplace'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/gaussian_process/_gpc.py-predict_proba-785
+        return self.base_estimator_.predict_proba(X)
+sklearn.gaussian_process._gpc.GaussianProcessClassifier.base_estimator_
+{'sklearn.multiclass.OneVsRestClassifier', 'missing', 'sklearn.gaussian_process._gpc._BinaryGaussianProcessClassifierLaplace'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/gaussian_process/_gpc.py-predict-755
+        return self.base_estimator_.predict(X)
+sklearn.gaussian_process._gpc.GaussianProcessClassifier.n_classes_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/gaussian_process/_gpc.py-predict_proba-773
+        if self.n_classes_ > 2 and self.multi_class == "one_vs_one":
+sklearn.random_projection.GaussianRandomProjection.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_random_projection.py-test_correct_RandomProjection_dimensions_embedding-307
+        assert rp.components_.shape == (110, n_features)
+sklearn.random_projection.GaussianRandomProjection.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_random_projection.py-test_random_projection_dtype_match-451
+    assert rp.components_.dtype == expected_dtype
+sklearn.random_projection.GaussianRandomProjection.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/random_projection.py-transform-591
+        return X @ self.components_.T
+sklearn.random_projection.GaussianRandomProjection.inverse_components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/random_projection.py-inverse_transform-442
+            return X @ self.inverse_components_.T
+sklearn.ensemble._gb.GradientBoostingClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-_check_params-324
+                if len(self.classes_) > 2
+sklearn.ensemble._gb.GradientBoostingClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-predict-1454
+        return self.classes_.take(encoded_labels, axis=0)
+sklearn.ensemble._gb.GradientBoostingClassifier._loss
+{'sklearn.ensemble._gb_losses.BinomialDeviance', 'sklearn.ensemble._gb_losses.MultinomialDeviance', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-_init_state-444
+        self.estimators_ = np.empty((self.n_estimators, self._loss.K), dtype=object)
+sklearn.ensemble._gb.GradientBoostingClassifier._loss
+{'sklearn.ensemble._gb_losses.BinomialDeviance', 'sklearn.ensemble._gb_losses.MultinomialDeviance', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-_init_state-442
+            self.init_ = self._loss.init_estimator()
+sklearn.ensemble._gb.GradientBoostingClassifier._loss
+{'sklearn.ensemble._gb_losses.BinomialDeviance', 'sklearn.ensemble._gb_losses.MultinomialDeviance', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-fit-637
+                raw_predictions = self._loss.get_init_raw_predictions(X, self.init_)
+sklearn.ensemble._gb.GradientBoostingClassifier._loss
+{'sklearn.ensemble._gb_losses.BinomialDeviance', 'sklearn.ensemble._gb_losses.MultinomialDeviance', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-predict-1453
+        encoded_labels = self._loss._raw_prediction_to_decision(raw_predictions)
+sklearn.ensemble._gb.GradientBoostingClassifier._loss
+{'sklearn.ensemble._gb_losses.BinomialDeviance', 'sklearn.ensemble._gb_losses.MultinomialDeviance', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-_raw_predict_init-810
+            raw_predictions = self._loss.get_init_raw_predictions(X, self.init_).astype(
+sklearn.ensemble._gb.GradientBoostingClassifier.init_
+{'sklearn.dummy.DummyClassifier', 'builtins.NoneType', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-fit-619
+                        "weights.".format(self.init_.__class__.__name__)
+sklearn.ensemble._gb.GradientBoostingClassifier.estimators_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-fit-682
+        if n_stages != self.estimators_.shape[0]:
+sklearn.ensemble._gb.GradientBoostingClassifier.estimators_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-_fit_stage-263
+            self.estimators_[i, k] = tree
+sklearn.ensemble._gb.GradientBoostingClassifier.estimators_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-_raw_predict_init-804
+        X = self.estimators_[0, 0]._validate_X_predict(X, check_input=True)
+sklearn.ensemble._gb.GradientBoostingClassifier.estimators_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-_staged_raw_predict-850
+        for i in range(self.estimators_.shape[0]):
+sklearn.ensemble._gb.GradientBoostingClassifier.train_score_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-_fit_stages-771
+                self.train_score_[i] = loss_(y, raw_predictions, sample_weight)
+sklearn.ensemble._gb.GradientBoostingRegressor._loss
+{'sklearn.ensemble._gb_losses.LeastSquaresError', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-_init_state-444
+        self.estimators_ = np.empty((self.n_estimators, self._loss.K), dtype=object)
+sklearn.ensemble._gb.GradientBoostingRegressor._loss
+{'sklearn.ensemble._gb_losses.LeastSquaresError', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-_init_state-442
+            self.init_ = self._loss.init_estimator()
+sklearn.ensemble._gb.GradientBoostingRegressor._loss
+{'sklearn.ensemble._gb_losses.LeastSquaresError', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-fit-637
+                raw_predictions = self._loss.get_init_raw_predictions(X, self.init_)
+sklearn.ensemble._gb.GradientBoostingRegressor._loss
+{'sklearn.ensemble._gb_losses.LeastSquaresError', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-_raw_predict_init-810
+            raw_predictions = self._loss.get_init_raw_predictions(X, self.init_).astype(
+sklearn.ensemble._gb.GradientBoostingRegressor.init_
+{'sklearn.dummy.DummyRegressor', 'missing', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-fit-619
+                        "weights.".format(self.init_.__class__.__name__)
+sklearn.ensemble._gb.GradientBoostingRegressor.estimators_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-_fit_stage-263
+            self.estimators_[i, k] = tree
+sklearn.ensemble._gb.GradientBoostingRegressor.estimators_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-fit-682
+        if n_stages != self.estimators_.shape[0]:
+sklearn.ensemble._gb.GradientBoostingRegressor.estimators_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-_raw_predict_init-804
+        X = self.estimators_[0, 0]._validate_X_predict(X, check_input=True)
+sklearn.ensemble._gb.GradientBoostingRegressor.estimators_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-_staged_raw_predict-850
+        for i in range(self.estimators_.shape[0]):
+sklearn.ensemble._gb.GradientBoostingRegressor.train_score_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_gb.py-_fit_stages-771
+                self.train_score_[i] = loss_(y, raw_predictions, sample_weight)
+sklearn.covariance._graph_lasso.GraphicalLasso.location_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/covariance/_empirical_covariance.py-score-261
+        test_cov = empirical_covariance(X_test - self.location_, assume_centered=True)
+sklearn.covariance._graph_lasso.GraphicalLassoCV.location_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/covariance/_empirical_covariance.py-score-261
+        test_cov = empirical_covariance(X_test - self.location_, assume_centered=True)
+sklearn.linear_model._huber.HuberRegressor.intercept_
+{'numpy.numpy.float64', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._huber.HuberRegressor.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.decomposition._incremental_pca.IncrementalPCA.mean_
+{'builtins.float', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_base.py-transform-122
+            X = X - self.mean_
+sklearn.ensemble._iforest.IsolationForest.n_features_in_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_bagging.py-_fit-377
+            max_features = self.max_features * self.n_features_in_
+sklearn.ensemble._iforest.IsolationForest.base_estimator_
+{'sklearn.tree._classes.ExtraTreeRegressor', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_bagging.py-_fit-359
+            self.base_estimator_.max_depth = max_depth
+sklearn.ensemble._iforest.IsolationForest._max_features
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_iforest.py-_compute_chunked_score_samples-437
+            row_bytes=16 * self._max_features, max_n_rows=n_samples
+sklearn.ensemble._iforest.IsolationForest.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_iforest.py-_compute_score_samples-477
+        denominator = len(self.estimators_) * _average_path_length([self.max_samples_])
+sklearn.ensemble._iforest.IsolationForest.offset_
+{'numpy.numpy.float64', 'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_outliers_train-2323
+    y_dec = scores - estimator.offset_
+sklearn.ensemble._iforest.IsolationForest.offset_
+{'numpy.numpy.float64', 'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_iforest.py-decision_function-379
+        return self.score_samples(X) - self.offset_
+sklearn.manifold._isomap.Isomap.nbrs_
+{'missing', 'sklearn.neighbors._unsupervised.NearestNeighbors'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/manifold/_isomap.py-transform-376
+            distances, indices = self.nbrs_.kneighbors(X, return_distance=True)
+sklearn.manifold._isomap.Isomap.nbrs_
+{'missing', 'sklearn.neighbors._unsupervised.NearestNeighbors'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/manifold/_isomap.py-transform-385
+        n_samples_fit = self.nbrs_.n_samples_fit_
+sklearn.manifold._isomap.Isomap.kernel_pca_
+{'sklearn.decomposition._kernel_pca.KernelPCA', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/manifold/_isomap.py-transform-394
+        return self.kernel_pca_.transform(G_X)
+sklearn.manifold._isomap.Isomap.dist_matrix_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/manifold/_isomap.py-transform-389
+            G_X[i] = np.min(self.dist_matrix_[indices[i]] + distances[i][:, None], 0)
+sklearn.impute._iterative.IterativeImputer.imputation_sequence_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/impute/_iterative.py-transform-745
+        imputations_per_round = len(self.imputation_sequence_) // self.n_iter_
+sklearn.impute._iterative.IterativeImputer._min_value
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/impute/_iterative.py-_impute_one_feature-365
+                imputed_values, self._min_value[feat_idx], self._max_value[feat_idx]
+sklearn.impute._iterative.IterativeImputer._max_value
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/impute/_iterative.py-_impute_one_feature-365
+                imputed_values, self._min_value[feat_idx], self._max_value[feat_idx]
+sklearn.impute._iterative.IterativeImputer.n_iter_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/impute/_iterative.py-transform-745
+        imputations_per_round = len(self.imputation_sequence_) // self.n_iter_
+sklearn.preprocessing._discretization.KBinsDiscretizer._encoder
+{'sklearn.preprocessing._encoders.OneHotEncoder', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py-transform-383
+            self._encoder.dtype = Xt.dtype
+sklearn.preprocessing._discretization.KBinsDiscretizer._encoder
+{'sklearn.preprocessing._encoders.OneHotEncoder', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_discretization.py-transform-382
+            dtype_init = self._encoder.dtype
+sklearn.impute._knn.KNNImputer._fit_X
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/impute/_knn.py-process_chunk-324
+                    self._fit_X[potential_donors_idx, col],
+sklearn.neighbors._regression.KNeighborsRegressor._y
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_regression.py-predict-250
+        if self._y.ndim == 1:
+sklearn.preprocessing._data.KernelCenterer.K_fit_rows_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_data.py-transform-2257
+        K_pred_cols = (np.sum(K, axis=1) / self.K_fit_rows_.shape[0])[:, np.newaxis]
+sklearn.neighbors._kde.KernelDensity.tree_
+{'sklearn.neighbors._kd_tree.sklearn.neighbors._kd_tree.KDTree', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_kde.py-score_samples-239
+        log_density = self.tree_.kernel_density(
+sklearn.neighbors._kde.KernelDensity.tree_
+{'sklearn.neighbors._kd_tree.sklearn.neighbors._kd_tree.KDTree', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_kde.py-score_samples-235
+            N = self.tree_.data.shape[0]
+sklearn.neighbors._kde.KernelDensity.tree_
+{'sklearn.neighbors._kd_tree.sklearn.neighbors._kd_tree.KDTree', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_kde.py-score_samples-234
+        if self.tree_.sample_weight is None:
+sklearn.decomposition._kernel_pca.KernelPCA._centerer
+{'missing', 'sklearn.preprocessing._data.KernelCenterer'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-transform-484
+        K = self._centerer.transform(self._get_kernel(X, self.X_fit_))
+sklearn.decomposition._kernel_pca.KernelPCA._centerer
+{'missing', 'sklearn.preprocessing._data.KernelCenterer'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-_fit_transform-310
+        K = self._centerer.fit_transform(K)
+sklearn.decomposition._kernel_pca.KernelPCA.eigenvalues_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-transform-490
+            self.eigenvalues_[non_zeros]
+sklearn.decomposition._kernel_pca.KernelPCA.eigenvalues_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-_n_features_out-556
+        return self.eigenvalues_.shape[0]
+sklearn.decomposition._kernel_pca.KernelPCA.eigenvectors_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-transform-489
+        scaled_alphas[:, non_zeros] = self.eigenvectors_[:, non_zeros] / np.sqrt(
+sklearn.decomposition._kernel_pca.KernelPCA.eigenvectors_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_kernel_pca.py-fit_transform-459
+        X_transformed = self.eigenvectors_ * np.sqrt(self.eigenvalues_)
+sklearn.preprocessing._label.LabelBinarizer.y_type_
+{'builtins.str', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_label.py-transform-350
+        if y_is_multilabel and not self.y_type_.startswith("multilabel"):
+sklearn.preprocessing._label.LabelEncoder.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/class_weight.py-compute_class_weight-54
+        recip_freq = len(y) / (len(le.classes_) * np.bincount(y_ind).astype(np.float64))
+sklearn.preprocessing._label.LabelEncoder.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_label.py-inverse_transform-159
+        diff = np.setdiff1d(y, np.arange(len(self.classes_)))
+sklearn.preprocessing._label.LabelEncoder.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_label.py-inverse_transform-163
+        return self.classes_[y]
+sklearn.semi_supervised._label_propagation.LabelPropagation.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/semi_supervised/_label_propagation.py-predict-183
+        return self.classes_[np.argmax(probas, axis=1)].ravel()
+sklearn.semi_supervised._label_propagation.LabelSpreading.X_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/semi_supervised/_label_propagation.py-_build_graph-604
+        n_samples = self.X_.shape[0]
+sklearn.semi_supervised._label_propagation.LabelSpreading.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/semi_supervised/_label_propagation.py-predict-183
+        return self.classes_[np.argmax(probas, axis=1)].ravel()
+sklearn.linear_model._least_angle.Lars.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._least_angle.Lars.intercept_
+{'numpy.numpy.float64', 'numpy.numpy.float32', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._least_angle.LarsCV.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._least_angle.LarsCV.intercept_
+{'numpy.numpy.float64', 'numpy.numpy.float32', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._coordinate_descent.Lasso.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py-_decision_function-1125
+            return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._coordinate_descent.Lasso.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._coordinate_descent.Lasso.intercept_
+{'numpy.numpy.float64', 'numpy.numpy.float32', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._coordinate_descent.Lasso.intercept_
+{'numpy.numpy.float64', 'numpy.numpy.float32', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_coordinate_descent.py-_decision_function-1125
+            return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._least_angle.LassoLars.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._least_angle.LassoLars.intercept_
+{'builtins.float', 'numpy.numpy.float64', 'numpy.numpy.float32', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._least_angle.LassoLarsCV.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._least_angle.LassoLarsCV.intercept_
+{'numpy.numpy.float64', 'numpy.numpy.float32', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._least_angle.LassoLarsIC.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._least_angle.LassoLarsIC.intercept_
+{'numpy.numpy.float64', 'numpy.numpy.float32', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.decomposition._lda.LatentDirichletAllocation.n_batch_iter_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_lda.py-_em_step-514
+                self.learning_offset + self.n_batch_iter_, -self.learning_decay
+sklearn.decomposition._lda.LatentDirichletAllocation.topic_word_prior_
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_lda.py-_em_step-509
+            self.components_ = self.topic_word_prior_ + suff_stats
+sklearn.decomposition._lda.LatentDirichletAllocation.topic_word_prior_
+{'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_lda.py-_em_step-519
+                self.topic_word_prior_ + doc_ratio * suff_stats
+sklearn.decomposition._lda.LatentDirichletAllocation.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_lda.py-_e_step-466
+            suff_stats = np.zeros(self.components_.shape)
+sklearn.decomposition._lda.LatentDirichletAllocation.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_lda.py-partial_fit-574
+        if n_features != self.components_.shape[1]:
+sklearn.decomposition._lda.LatentDirichletAllocation.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_lda.py-_n_features_out-896
+        return self.components_.shape[0]
+sklearn.decomposition._lda.LatentDirichletAllocation.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_lda.py-_approx_bound-752
+        n_features = self.components_.shape[1]
+sklearn.covariance._shrunk_covariance.LedoitWolf.location_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/covariance/_empirical_covariance.py-score-261
+        test_cov = empirical_covariance(X_test - self.location_, assume_centered=True)
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/discriminant_analysis.py-predict_proba-671
+        if self.classes_.size == 2:
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-predict-452
+        return self.classes_[indices]
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/discriminant_analysis.py-_solve_svd-469
+        n_classes = len(self.classes_)
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis.priors_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/discriminant_analysis.py-_solve_svd-504
+                (np.sqrt((n_samples * self.priors_) * fac))
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis.xbar_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/discriminant_analysis.py-transform-649
+            X_new = np.dot(X - self.xbar_, self.scalings_)
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis.explained_variance_ratio_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_discriminant_analysis.py-test_lda_explained_variance_ratio-333
+    assert_almost_equal(clf_lda_svd.explained_variance_ratio_.sum(), 1.0, 3)
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis.explained_variance_ratio_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_discriminant_analysis.py-test_lda_explained_variance_ratio-334
+    assert clf_lda_svd.explained_variance_ratio_.shape == (
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis.explained_variance_ratio_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_discriminant_analysis.py-test_get_feature_names_out-664
+            for i in range(est.explained_variance_ratio_.shape[0])
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis.explained_variance_ratio_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_discriminant_analysis.py-test_lda_explained_variance_ratio-327
+    assert clf_lda_eigen.explained_variance_ratio_.shape == (
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis.explained_variance_ratio_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_discriminant_analysis.py-test_lda_explained_variance_ratio-326
+    assert_almost_equal(clf_lda_eigen.explained_variance_ratio_.sum(), 1.0, 3)
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis.scalings_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_nca.py-_initialize-475
+                    transformation = lda.scalings_.T[:n_components]
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis.intercept_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-decision_function-430
+        scores = safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_discriminant_analysis.py-test_lda_dtype_match-520
+        assert clf.coef_.dtype == expected_type
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-decision_function-430
+        scores = safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._base.LinearRegression.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._base.LinearRegression.intercept_
+{'numpy.numpy.float64', 'numpy.numpy.float32', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.svm._classes.LinearSVR.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.svm._classes.LinearSVR.intercept_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.neighbors._lof.LocalOutlierFactor.n_neighbors_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_lof.py-_local_reachability_density-485
+        dist_k = self._distances_fit_X_[neighbors_indices, self.n_neighbors_ - 1]
+sklearn.neighbors._lof.LocalOutlierFactor._distances_fit_X_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_lof.py-_local_reachability_density-485
+        dist_k = self._distances_fit_X_[neighbors_indices, self.n_neighbors_ - 1]
+sklearn.neighbors._lof.LocalOutlierFactor.negative_outlier_factor_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_lof.py-_predict-366
+            is_inlier[self.negative_outlier_factor_ < self.offset_] = -1
+sklearn.neighbors._lof.LocalOutlierFactor.offset_
+{'numpy.numpy.float64', 'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_lof.py-_predict-366
+            is_inlier[self.negative_outlier_factor_ < self.offset_] = -1
+sklearn.manifold._locally_linear.LocallyLinearEmbedding.nbrs_
+{'missing', 'sklearn.neighbors._unsupervised.NearestNeighbors'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/manifold/_locally_linear.py-transform-806
+        weights = barycenter_weights(X, self.nbrs_._fit_X, ind, reg=self.reg)
+sklearn.manifold._locally_linear.LocallyLinearEmbedding.nbrs_
+{'missing', 'sklearn.neighbors._unsupervised.NearestNeighbors'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/manifold/_locally_linear.py-transform-803
+        ind = self.nbrs_.kneighbors(
+sklearn.manifold._locally_linear.LocallyLinearEmbedding.embedding_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/manifold/_locally_linear.py-transform-809
+            X_new[i] = np.dot(self.embedding_[ind[i]].T, weights[i])
+sklearn.linear_model._logistic.LogisticRegressionCV.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-predict-452
+        return self.classes_[indices]
+sklearn.linear_model._logistic.LogisticRegressionCV.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_logistic.py-predict_proba-1308
+            and (self.classes_.size <= 2 or self.solver == "liblinear")
+sklearn.linear_model._logistic.LogisticRegressionCV.intercept_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-decision_function-430
+        scores = safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.neural_network._multilayer_perceptron.MLPClassifier._label_binarizer
+{'sklearn.preprocessing._label.LabelBinarizer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_initialize-334
+        elif self._label_binarizer.y_type_ == "multiclass":
+sklearn.neural_network._multilayer_perceptron.MLPClassifier._label_binarizer
+{'sklearn.preprocessing._label.LabelBinarizer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-predict-1181
+        return self._label_binarizer.inverse_transform(y_pred)
+sklearn.neural_network._multilayer_perceptron.MLPClassifier._label_binarizer
+{'sklearn.preprocessing._label.LabelBinarizer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_fit_stochastic-609
+                y_val = self._label_binarizer.inverse_transform(y_val)
+sklearn.neural_network._multilayer_perceptron.MLPClassifier._random_state
+{'missing', 'numpy.random.mtrand.numpy.random.mtrand.RandomState'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_init_coef-369
+        coef_init = self._random_state.uniform(
+sklearn.neural_network._multilayer_perceptron.MLPClassifier._random_state
+{'missing', 'numpy.random.mtrand.numpy.random.mtrand.RandomState'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_init_coef-372
+        intercept_init = self._random_state.uniform(-init_bound, init_bound, fan_out)
+sklearn.neural_network._multilayer_perceptron.MLPClassifier.n_layers_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_forward_pass-135
+            if (i + 1) != (self.n_layers_ - 1):
+sklearn.neural_network._multilayer_perceptron.MLPClassifier.n_layers_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_backprop-310
+        for i in range(self.n_layers_ - 2, 0, -1):
+sklearn.neural_network._multilayer_perceptron.MLPClassifier.n_layers_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_forward_pass_fast-167
+        for i in range(self.n_layers_ - 1):
+sklearn.neural_network._multilayer_perceptron.MLPClassifier.n_layers_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_backprop-295
+        last = self.n_layers_ - 2
+sklearn.neural_network._multilayer_perceptron.MLPClassifier.n_layers_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_forward_pass-130
+        for i in range(self.n_layers_ - 1):
+sklearn.neural_network._multilayer_perceptron.MLPClassifier.n_layers_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_forward_pass_fast-170
+            if i != self.n_layers_ - 2:
+sklearn.neural_network._multilayer_perceptron.MLPClassifier.coefs_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_compute_loss_grad-186
+        coef_grads[layer] += self.alpha * self.coefs_[layer]
+sklearn.neural_network._multilayer_perceptron.MLPClassifier.coefs_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_fit_stochastic-575
+        params = self.coefs_ + self.intercepts_
+sklearn.neural_network._multilayer_perceptron.MLPClassifier.coefs_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_forward_pass_fast-168
+            activation = safe_sparse_dot(activation, self.coefs_[i])
+sklearn.neural_network._multilayer_perceptron.MLPClassifier.coefs_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_forward_pass-131
+            activations[i + 1] = safe_sparse_dot(activations[i], self.coefs_[i])
+sklearn.neural_network._multilayer_perceptron.MLPClassifier.coefs_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_backprop-311
+            deltas[i - 1] = safe_sparse_dot(deltas[i], self.coefs_[i].T)
+sklearn.neural_network._multilayer_perceptron.MLPClassifier.intercepts_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_fit_stochastic-575
+        params = self.coefs_ + self.intercepts_
+sklearn.neural_network._multilayer_perceptron.MLPClassifier.intercepts_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_forward_pass-132
+            activations[i + 1] += self.intercepts_[i]
+sklearn.neural_network._multilayer_perceptron.MLPClassifier.intercepts_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_forward_pass_fast-169
+            activation += self.intercepts_[i]
+sklearn.neural_network._multilayer_perceptron.MLPClassifier.loss_curve_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_update_no_improvement_count-738
+            if self.loss_curve_[-1] > self.best_loss_ - self.tol:
+sklearn.neural_network._multilayer_perceptron.MLPClassifier.loss_curve_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_update_no_improvement_count-742
+            if self.loss_curve_[-1] < self.best_loss_:
+sklearn.neural_network._multilayer_perceptron.MLPClassifier.loss_curve_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_update_no_improvement_count-743
+                self.best_loss_ = self.loss_curve_[-1]
+sklearn.neural_network._multilayer_perceptron.MLPClassifier.best_loss_
+{'numpy.numpy.float64', 'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_update_no_improvement_count-738
+            if self.loss_curve_[-1] > self.best_loss_ - self.tol:
+sklearn.neural_network._multilayer_perceptron.MLPClassifier.best_loss_
+{'numpy.numpy.float64', 'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_update_no_improvement_count-742
+            if self.loss_curve_[-1] < self.best_loss_:
+sklearn.neural_network._multilayer_perceptron.MLPClassifier.validation_scores_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_update_no_improvement_count-719
+            self.validation_scores_.append(self.score(X_val, y_val))
+sklearn.neural_network._multilayer_perceptron.MLPRegressor._random_state
+{'missing', 'numpy.random.mtrand.numpy.random.mtrand.RandomState'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_init_coef-369
+        coef_init = self._random_state.uniform(
+sklearn.neural_network._multilayer_perceptron.MLPRegressor._random_state
+{'missing', 'numpy.random.mtrand.numpy.random.mtrand.RandomState'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_init_coef-372
+        intercept_init = self._random_state.uniform(-init_bound, init_bound, fan_out)
+sklearn.neural_network._multilayer_perceptron.MLPRegressor.n_layers_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_forward_pass-135
+            if (i + 1) != (self.n_layers_ - 1):
+sklearn.neural_network._multilayer_perceptron.MLPRegressor.n_layers_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_backprop-310
+        for i in range(self.n_layers_ - 2, 0, -1):
+sklearn.neural_network._multilayer_perceptron.MLPRegressor.n_layers_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_forward_pass_fast-167
+        for i in range(self.n_layers_ - 1):
+sklearn.neural_network._multilayer_perceptron.MLPRegressor.n_layers_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_backprop-295
+        last = self.n_layers_ - 2
+sklearn.neural_network._multilayer_perceptron.MLPRegressor.n_layers_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_forward_pass-130
+        for i in range(self.n_layers_ - 1):
+sklearn.neural_network._multilayer_perceptron.MLPRegressor.n_layers_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_forward_pass_fast-170
+            if i != self.n_layers_ - 2:
+sklearn.neural_network._multilayer_perceptron.MLPRegressor.coefs_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_compute_loss_grad-186
+        coef_grads[layer] += self.alpha * self.coefs_[layer]
+sklearn.neural_network._multilayer_perceptron.MLPRegressor.coefs_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_forward_pass_fast-168
+            activation = safe_sparse_dot(activation, self.coefs_[i])
+sklearn.neural_network._multilayer_perceptron.MLPRegressor.coefs_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_fit_stochastic-575
+        params = self.coefs_ + self.intercepts_
+sklearn.neural_network._multilayer_perceptron.MLPRegressor.coefs_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_forward_pass-131
+            activations[i + 1] = safe_sparse_dot(activations[i], self.coefs_[i])
+sklearn.neural_network._multilayer_perceptron.MLPRegressor.coefs_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_backprop-311
+            deltas[i - 1] = safe_sparse_dot(deltas[i], self.coefs_[i].T)
+sklearn.neural_network._multilayer_perceptron.MLPRegressor.intercepts_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_fit_stochastic-575
+        params = self.coefs_ + self.intercepts_
+sklearn.neural_network._multilayer_perceptron.MLPRegressor.intercepts_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_forward_pass-132
+            activations[i + 1] += self.intercepts_[i]
+sklearn.neural_network._multilayer_perceptron.MLPRegressor.intercepts_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_forward_pass_fast-169
+            activation += self.intercepts_[i]
+sklearn.neural_network._multilayer_perceptron.MLPRegressor.loss_curve_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_update_no_improvement_count-738
+            if self.loss_curve_[-1] > self.best_loss_ - self.tol:
+sklearn.neural_network._multilayer_perceptron.MLPRegressor.loss_curve_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_update_no_improvement_count-742
+            if self.loss_curve_[-1] < self.best_loss_:
+sklearn.neural_network._multilayer_perceptron.MLPRegressor.loss_curve_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_update_no_improvement_count-743
+                self.best_loss_ = self.loss_curve_[-1]
+sklearn.neural_network._multilayer_perceptron.MLPRegressor.best_loss_
+{'numpy.numpy.float64', 'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_update_no_improvement_count-738
+            if self.loss_curve_[-1] > self.best_loss_ - self.tol:
+sklearn.neural_network._multilayer_perceptron.MLPRegressor.best_loss_
+{'numpy.numpy.float64', 'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_update_no_improvement_count-742
+            if self.loss_curve_[-1] < self.best_loss_:
+sklearn.neural_network._multilayer_perceptron.MLPRegressor.validation_scores_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neural_network/_multilayer_perceptron.py-_update_no_improvement_count-719
+            self.validation_scores_.append(self.score(X_val, y_val))
+sklearn.covariance._robust_covariance.MinCovDet.raw_covariance_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/covariance/_robust_covariance.py-correct_covariance-805
+        covariance_corrected = self.raw_covariance_ * correction
+sklearn.covariance._robust_covariance.MinCovDet.location_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/covariance/_empirical_covariance.py-score-261
+        test_cov = empirical_covariance(X_test - self.location_, assume_centered=True)
+sklearn.covariance._robust_covariance.MinCovDet.dist_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/covariance/_robust_covariance.py-correct_covariance-797
+        n_samples = len(self.dist_)
+sklearn.covariance._robust_covariance.MinCovDet.dist_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/covariance/_robust_covariance.py-reweight_covariance-844
+        mask = self.dist_ < chi2(n_features).isf(0.025)
+sklearn.decomposition._dict_learning.MiniBatchDictionaryLearning._n_components
+{'builtins.NoneType', 'missing', 'builtins.int'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_dict_learning.py-_initialize_dict-2084
+        if self._n_components <= len(dictionary):
+sklearn.decomposition._dict_learning.MiniBatchDictionaryLearning.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_dict_learning.py-_n_features_out-2409
+        return self.components_.shape[0]
+sklearn.decomposition._nmf.MiniBatchNMF._beta_loss
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_nmf.py-_fit_transform-2263
+        if X.min() == 0 and self._beta_loss <= 0:
+sklearn.decomposition._nmf.MiniBatchNMF._beta_loss
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_nmf.py-_minibatch_step-2118
+            if self._beta_loss <= 1:
+sklearn.decomposition._nmf.MiniBatchNMF._beta_loss
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_nmf.py-_minibatch_step-2091
+        if self._beta_loss < 1:
+sklearn.decomposition._nmf.MiniBatchNMF._batch_size
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_nmf.py-_fit_transform-2287
+        n_steps_per_iter = int(np.ceil(n_samples / self._batch_size))
+sklearn.decomposition._nmf.MiniBatchNMF.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_nmf.py-_n_features_out-1770
+        return self.components_.shape[0]
+sklearn.decomposition._sparse_pca.MiniBatchSparsePCA.mean_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_sparse_pca.py-transform-233
+        X = X - self.mean_
+sklearn.decomposition._sparse_pca.MiniBatchSparsePCA.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_sparse_pca.py-_n_features_out-244
+        return self.components_.shape[0]
+sklearn.decomposition._sparse_pca.MiniBatchSparsePCA.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_sparse_pca.py-transform-236
+            self.components_.T, X.T, self.ridge_alpha, solver="cholesky"
+sklearn.impute._base.MissingIndicator._n_features
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/impute/_base.py-transform-977
+            if self.features_.size < self._n_features:
+sklearn.impute._base.MissingIndicator._n_features
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/impute/_base.py-fit_transform-1002
+        if self.features_.size < self._n_features:
+sklearn.impute._base.MissingIndicator.features_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/impute/_base.py-fit_transform-1002
+        if self.features_.size < self._n_features:
+sklearn.impute._base.MissingIndicator.features_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/impute/_base.py-transform-977
+            if self.features_.size < self._n_features:
+sklearn.multioutput.MultiOutputClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multioutput.py-<genexpr>-136
+                self.estimators_[i] if not first_time else self.estimator,
+sklearn.multioutput.MultiOutputClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multioutput.py-score-495
+        n_outputs_ = len(self.estimators_)
+sklearn.multioutput.MultiOutputClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multioutput.py-test_multi_output_classification_partial_fit_parallelism-176
+    est2 = mor.estimators_[0]
+sklearn.multioutput.MultiOutputClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multioutput.py-test_multi_output_classification_partial_fit_parallelism-174
+    est1 = mor.estimators_[0]
+sklearn.multioutput.MultiOutputClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multioutput.py-predict-231
+        if not hasattr(self.estimators_[0], "predict"):
+sklearn.multioutput.MultiOutputClassifier.classes_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multioutput.py-test_multi_output_classes_-601
+    assert len(estimator.classes_) == n_outputs
+sklearn.linear_model._ridge.Ridge.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multioutput.py-<listcomp>-525
+        assert [c.coef_.size for c in chain.estimators_] == list(
+sklearn.linear_model._ridge.Ridge.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._ridge.Ridge.intercept_
+{'builtins.float', 'numpy.numpy.float64', 'numpy.numpy.float32', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.multioutput.MultiOutputRegressor.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multioutput.py-<genexpr>-136
+                self.estimators_[i] if not first_time else self.estimator,
+sklearn.multioutput.MultiOutputRegressor.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multioutput.py-predict-231
+        if not hasattr(self.estimators_[0], "predict"):
+sklearn.linear_model._coordinate_descent.MultiTaskElasticNet.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._coordinate_descent.MultiTaskElasticNet.intercept_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._coordinate_descent.MultiTaskLasso.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._coordinate_descent.MultiTaskLasso.intercept_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.naive_bayes.MultinomialNB.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-partial_fit-647
+            if len(self.classes_) == 2:
+sklearn.naive_bayes.MultinomialNB.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-predict-82
+        return self.classes_[np.argmax(jll, axis=1)]
+sklearn.naive_bayes.MultinomialNB.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_update_class_log_prior-562
+        n_classes = len(self.classes_)
+sklearn.naive_bayes.MultinomialNB.class_count_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_update_class_log_prior-575
+            self.class_log_prior_ = log_class_count - np.log(self.class_count_.sum())
+sklearn.naive_bayes.MultinomialNB.feature_count_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_update_feature_log_prob-857
+        smoothed_fc = self.feature_count_ + alpha
+sklearn.naive_bayes.MultinomialNB.feature_log_prob_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_joint_log_likelihood-866
+        return safe_sparse_dot(X, self.feature_log_prob_.T) + self.class_log_prior_
+sklearn.naive_bayes.MultinomialNB.class_log_prior_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/naive_bayes.py-_joint_log_likelihood-866
+        return safe_sparse_dot(X, self.feature_log_prob_.T) + self.class_log_prior_
+sklearn.decomposition._nmf.NMF._beta_loss
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_nmf.py-_fit_transform-1644
+        if X.min() == 0 and self._beta_loss <= 0:
+sklearn.decomposition._nmf.NMF.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_nmf.py-_n_features_out-1770
+        return self.components_.shape[0]
+sklearn.neighbors._nearest_centroid.NearestCentroid.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_nearest_centroid.py-predict-225
+        return self.classes_[
+sklearn.neighbors._nca.NeighborhoodComponentsAnalysis.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_nca.py-transform-295
+        return np.dot(X, self.components_.T)
+sklearn.svm._classes.NuSVC.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-decision_function-776
+        if self.decision_function_shape == "ovr" and len(self.classes_) > 2:
+sklearn.svm._classes.NuSVC.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-decision_function-777
+            return _ovr_decision_function(dec < 0, -dec, len(self.classes_))
+sklearn.svm._classes.NuSVC.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-_decision_function-543
+        if self._impl in ["c_svc", "nu_svc"] and len(self.classes_) == 2:
+sklearn.svm._classes.NuSVC.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-predict-811
+        return self.classes_.take(np.asarray(y, dtype=np.intp))
+sklearn.svm._classes.NuSVC.support_vectors_
+{'scipy.sparse._csr.csr_matrix', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-_sparse_predict-485
+            self.support_vectors_.data,
+sklearn.svm._classes.NuSVC._dual_coef_
+{'scipy.sparse._csr.csr_matrix', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-_sparse_predict-488
+            self._dual_coef_.data,
+sklearn.svm._classes.NuSVR.support_vectors_
+{'scipy.sparse._csr.csr_matrix', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-_sparse_predict-485
+            self.support_vectors_.data,
+sklearn.svm._classes.NuSVR._n_support
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-n_support_-687
+            return np.array([self._n_support[0]])
+sklearn.svm._classes.NuSVR._dual_coef_
+{'scipy.sparse._csr.csr_matrix', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-_sparse_predict-488
+            self._dual_coef_.data,
+sklearn.kernel_approximation.Nystroem.normalization_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-transform-979
+        return np.dot(embedded, self.normalization_.T)
+sklearn.kernel_approximation.Nystroem.component_indices_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_kernel_approximation.py-test_nystroem_component_indices-348
+    assert feature_map_nystroem.component_indices_.shape == (10,)
+sklearn.covariance._shrunk_covariance.OAS.location_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/covariance/_empirical_covariance.py-score-261
+        test_cov = empirical_covariance(X_test - self.location_, assume_centered=True)
+sklearn.svm._classes.OneClassSVM.support_vectors_
+{'scipy.sparse._csr.csr_matrix', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-_sparse_predict-485
+            self.support_vectors_.data,
+sklearn.svm._classes.OneClassSVM._n_support
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-n_support_-687
+            return np.array([self._n_support[0]])
+sklearn.svm._classes.OneClassSVM._dual_coef_
+{'scipy.sparse._csr.csr_matrix', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-_sparse_predict-488
+            self._dual_coef_.data,
+sklearn.svm._classes.OneClassSVM.offset_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/estimator_checks.py-check_outliers_train-2323
+    y_dec = scores - estimator.offset_
+sklearn.svm._classes.OneClassSVM.offset_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_classes.py-score_samples-1701
+        return self.decision_function(X) + self.offset_
+sklearn.preprocessing._encoders.OneHotEncoder.categories_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py-_compute_transformed_categories-756
+        cats = self.categories_[i]
+sklearn.preprocessing._encoders.OneHotEncoder.categories_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py-_fit-130
+            self.categories_.append(cats)
+sklearn.preprocessing._encoders.OneHotEncoder.categories_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py-_transform-186
+            X_int[:, i] = _encode(Xi, uniques=self.categories_[i], check_unknown=False)
+sklearn.preprocessing._encoders.OneHotEncoder.categories_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py-_transform-152
+            diff, valid_mask = _check_unknown(Xi, self.categories_[i], return_mask=True)
+sklearn.preprocessing._encoders.OneHotEncoder._n_features_outs
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py-transform-908
+        feature_indices = np.cumsum([0] + self._n_features_outs)
+sklearn.multiclass.OneVsOneClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-predict-778
+            return self.classes_[(Y > thresh).astype(int)]
+sklearn.multiclass.OneVsOneClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-n_classes_-831
+        return len(self.classes_)
+sklearn.multiclass.OneVsOneClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-decision_function-823
+        Y = _ovr_decision_function(predictions, confidences, len(self.classes_))
+sklearn.multiclass.OneVsOneClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-predict-779
+        return self.classes_[Y.argmax(axis=1)]
+sklearn.multiclass.OneVsOneClassifier.estimators_
+{'builtins.list', 'builtins.tuple', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multiclass.py-test_ovo_decision_function-583
+            pred = ovo_clf.estimators_[k].predict(iris.data)
+sklearn.multiclass.OneVsOneClassifier.estimators_
+{'builtins.list', 'builtins.tuple', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multiclass.py-test_ovo_partial_fit_predict-532
+    assert len(ovo1.estimators_) == len(np.unique(y))
+sklearn.multiclass.OneVsOneClassifier.estimators_
+{'builtins.list', 'builtins.tuple', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-decision_function-813
+            Xs = [X] * len(self.estimators_)
+sklearn.multiclass.OneVsOneClassifier.estimators_
+{'builtins.list', 'builtins.tuple', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multiclass.py-test_pairwise_n_features_in-837
+    assert ovo_precomputed.estimators_[1].n_features_in_ == 99  # class 0 vs class 2
+sklearn.multiclass.OneVsOneClassifier.estimators_
+{'builtins.list', 'builtins.tuple', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multiclass.py-test_pairwise_indices-763
+    n_estimators = len(ovr_false.estimators_)
+sklearn.multiclass.OneVsOneClassifier.estimators_
+{'builtins.list', 'builtins.tuple', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-predict-777
+            thresh = _threshold_for_binary_predict(self.estimators_[0])
+sklearn.multiclass.OneVsOneClassifier.estimators_
+{'builtins.list', 'builtins.tuple', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multiclass.py-test_ovr_ovo_regressor-157
+    assert len(ovr.estimators_) == n_classes * (n_classes - 1) / 2
+sklearn.multiclass.OneVsOneClassifier.estimators_
+{'builtins.list', 'builtins.tuple', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multiclass.py-test_ovo_partial_fit_predict-519
+    assert len(ovo1.estimators_) == n_classes * (n_classes - 1) / 2
+sklearn.multiclass.OneVsOneClassifier.estimators_
+{'builtins.list', 'builtins.tuple', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multiclass.py-test_pairwise_n_features_in-804
+    assert len(ovo_notprecomputed.estimators_) == 3
+sklearn.multiclass.OneVsOneClassifier.estimators_
+{'builtins.list', 'builtins.tuple', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multiclass.py-test_ovo_fit_predict-505
+    assert len(ovo.estimators_) == n_classes * (n_classes - 1) / 2
+sklearn.multiclass.OneVsOneClassifier.estimators_
+{'builtins.list', 'builtins.tuple', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multiclass.py-test_pairwise_n_features_in-838
+    assert ovo_precomputed.estimators_[2].n_features_in_ == 100  # class 1 vs class 2
+sklearn.multiclass.OneVsOneClassifier.estimators_
+{'builtins.list', 'builtins.tuple', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multiclass.py-test_ovo_fit_predict-500
+    assert len(ovo.estimators_) == n_classes * (n_classes - 1) / 2
+sklearn.multiclass.OneVsOneClassifier.estimators_
+{'builtins.list', 'builtins.tuple', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multiclass.py-test_pairwise_n_features_in-836
+    assert ovo_precomputed.estimators_[0].n_features_in_ == 99  # class 0 vs class 1
+sklearn.multiclass.OneVsRestClassifier.label_binarizer_
+{'sklearn.preprocessing._label.LabelBinarizer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-<genexpr>-334
+                    self.label_binarizer_.classes_[i],
+sklearn.multiclass.OneVsRestClassifier.label_binarizer_
+{'sklearn.preprocessing._label.LabelBinarizer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-multilabel_-523
+        return self.label_binarizer_.y_type_.startswith("multilabel")
+sklearn.multiclass.OneVsRestClassifier.label_binarizer_
+{'sklearn.preprocessing._label.LabelBinarizer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-<genexpr>-333
+                    "not %s" % self.label_binarizer_.classes_[i],
+sklearn.multiclass.OneVsRestClassifier.label_binarizer_
+{'sklearn.preprocessing._label.LabelBinarizer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-predict-428
+        if self.label_binarizer_.y_type_ == "multiclass":
+sklearn.multiclass.OneVsRestClassifier.label_binarizer_
+{'sklearn.preprocessing._label.LabelBinarizer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-predict-448
+            return self.label_binarizer_.inverse_transform(indicator)
+sklearn.multiclass.OneVsRestClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-predict-436
+            return self.classes_[argmaxima]
+sklearn.multiclass.OneVsRestClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-n_classes_-528
+        return len(self.classes_)
+sklearn.multiclass.OneVsRestClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multiclass.py-conduct_test-294
+            assert clf.classes_[np.argmax(probabilities, axis=1)] == clf.predict(X_test)
+sklearn.multiclass.OneVsRestClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multiclass.py-test_pairwise_n_features_in-819
+    assert len(ovr_precomputed.estimators_) == 3
+sklearn.multiclass.OneVsRestClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-predict_proba-480
+        if len(self.estimators_) == 1:
+sklearn.multiclass.OneVsRestClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-decision_function-515
+            return self.estimators_[0].decision_function(X)
+sklearn.multiclass.OneVsRestClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-predict-438
+            thresh = _threshold_for_binary_predict(self.estimators_[0])
+sklearn.multiclass.OneVsRestClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-decision_function-514
+        if len(self.estimators_) == 1:
+sklearn.multiclass.OneVsRestClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multiclass.py-test_pairwise_n_features_in-835
+    assert len(ovr_precomputed.estimators_) == 3
+sklearn.multiclass.OneVsRestClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multiclass.py-test_ovr_partial_fit-107
+    assert len(ovr.estimators_) == len(np.unique(y))
+sklearn.multiclass.OneVsRestClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-predict-446
+                (data, indices, indptr), shape=(n_samples, len(self.estimators_))
+sklearn.multiclass.OneVsRestClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multiclass.py-test_ovr_ovo_regressor-150
+    assert len(ovr.estimators_) == n_classes
+sklearn.multiclass.OneVsRestClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multiclass.py-test_ovr_fit_predict_svc-335
+    assert len(ovr.estimators_) == 3
+sklearn.multiclass.OneVsRestClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multiclass.py-test_ovr_fit_predict-84
+    assert len(ovr.estimators_) == n_classes
+sklearn.preprocessing._encoders.OrdinalEncoder.categories_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py-_transform-186
+            X_int[:, i] = _encode(Xi, uniques=self.categories_[i], check_unknown=False)
+sklearn.preprocessing._encoders.OrdinalEncoder.categories_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py-_transform-152
+            diff, valid_mask = _check_unknown(Xi, self.categories_[i], return_mask=True)
+sklearn.preprocessing._encoders.OrdinalEncoder.categories_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py-_fit-130
+            self.categories_.append(cats)
+sklearn.preprocessing._encoders.OrdinalEncoder._missing_indices
+{'builtins.dict', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_encoders.py-transform-1368
+        for cat_idx, missing_idx in self._missing_indices.items():
+sklearn.linear_model._omp.OrthogonalMatchingPursuit.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._omp.OrthogonalMatchingPursuit.intercept_
+{'numpy.numpy.float64', 'numpy.numpy.float32', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._omp.OrthogonalMatchingPursuitCV.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._omp.OrthogonalMatchingPursuitCV.intercept_
+{'numpy.numpy.float64', 'numpy.numpy.float32', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.multiclass.OutputCodeClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-predict-1023
+        return self.classes_[pred]
+sklearn.multiclass.OutputCodeClassifier.code_book_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-<listcomp>-992
+            [self.code_book_[classes_index[y[i]]] for i in range(_num_samples(y))],
+sklearn.multiclass.OutputCodeClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multiclass.py-test_ecoc_fit_predict-701
+    assert len(ecoc.estimators_) == n_classes * 2
+sklearn.multiclass.OutputCodeClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-fit-1001
+            self.n_features_in_ = self.estimators_[0].n_features_in_
+sklearn.multiclass.OutputCodeClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-fit-1000
+        if hasattr(self.estimators_[0], "n_features_in_"):
+sklearn.multiclass.OutputCodeClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multiclass.py-test_ecoc_fit_predict-696
+    assert len(ecoc.estimators_) == n_classes * 2
+sklearn.multiclass.OutputCodeClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multiclass.py-test_ecoc_delegate_sparse_base_estimator-752
+    assert len(ecoc.estimators_) == 4
+sklearn.multiclass.OutputCodeClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-fit-1003
+            self.feature_names_in_ = self.estimators_[0].feature_names_in_
+sklearn.multiclass.OutputCodeClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multiclass.py-fit-1002
+        if hasattr(self.estimators_[0], "feature_names_in_"):
+sklearn.decomposition._pca.PCA.mean_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_base.py-transform-122
+            X = X - self.mean_
+sklearn.decomposition._pca.PCA.mean_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_pca.py-score_samples-661
+        Xr = X - self.mean_
+sklearn.decomposition._pca.PCA.mean_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_base.py-inverse_transform-159
+            return np.dot(X, self.components_) + self.mean_
+sklearn.decomposition._pca.PCA.noise_variance_
+{'numpy.numpy.float64', 'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_base.py-get_precision-74
+        exp_var_diff = np.maximum(exp_var - self.noise_variance_, 0.0)
+sklearn.decomposition._pca.PCA.noise_variance_
+{'numpy.numpy.float64', 'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_base.py-get_precision-79
+        precision.flat[:: len(precision) + 1] += 1.0 / self.noise_variance_
+sklearn.decomposition._pca.PCA.noise_variance_
+{'numpy.numpy.float64', 'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_base.py-get_covariance-44
+        exp_var_diff = np.maximum(exp_var - self.noise_variance_, 0.0)
+sklearn.decomposition._pca.PCA.noise_variance_
+{'numpy.numpy.float64', 'builtins.float', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_base.py-get_precision-75
+        precision = np.dot(components_, components_.T) / self.noise_variance_
+sklearn.decomposition._pca.PCA.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_base.py-transform-123
+        X_transformed = np.dot(X, self.components_.T)
+sklearn.decomposition._pca.PCA.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_base.py-get_precision-60
+        n_features = self.components_.shape[1]
+sklearn.decomposition._pca.PCA.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_base.py-_n_features_out-164
+        return self.components_.shape[0]
+sklearn.cross_decomposition._pls.PLSCanonical._coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/cross_decomposition/_pls.py-predict-476
+        Ypred = X @ self._coef_.T
+sklearn.cross_decomposition._pls.PLSCanonical.intercept_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/cross_decomposition/_pls.py-predict-477
+        return Ypred + self.intercept_
+sklearn.cross_decomposition._pls.PLSRegression._coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/cross_decomposition/_pls.py-predict-476
+        Ypred = X @ self._coef_.T
+sklearn.cross_decomposition._pls.PLSRegression.intercept_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/cross_decomposition/_pls.py-predict-477
+        return Ypred + self.intercept_
+sklearn.cross_decomposition._pls.PLSSVD._x_mean
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/cross_decomposition/_pls.py-transform-1046
+        Xr = (X - self._x_mean) / self._x_std
+sklearn.cross_decomposition._pls.PLSSVD._y_mean
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/cross_decomposition/_pls.py-transform-1052
+            Yr = (Y - self._y_mean) / self._y_std
+sklearn.cross_decomposition._pls.PLSSVD._x_std
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/cross_decomposition/_pls.py-transform-1046
+        Xr = (X - self._x_mean) / self._x_std
+sklearn.cross_decomposition._pls.PLSSVD._y_std
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/cross_decomposition/_pls.py-transform-1052
+            Yr = (Y - self._y_mean) / self._y_std
+sklearn.linear_model._passive_aggressive.PassiveAggressiveClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-predict-452
+        return self.classes_[indices]
+sklearn.linear_model._passive_aggressive.PassiveAggressiveClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_fit_multiclass-762
+        seeds = random_state.randint(MAX_INT, size=len(self.classes_))
+sklearn.linear_model._passive_aggressive.PassiveAggressiveClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_partial_fit-595
+        n_classes = self.classes_.shape[0]
+sklearn.linear_model._passive_aggressive.PassiveAggressiveClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_prepare_fit_binary-341
+    if len(est.classes_) == 2:
+sklearn.linear_model._passive_aggressive.PassiveAggressiveClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_prepare_fit_binary-337
+    y_i[y != est.classes_[i]] = -1.0
+sklearn.linear_model._passive_aggressive.PassiveAggressiveClassifier._expanded_class_weight
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_fit_binary-724
+            self._expanded_class_weight[1],
+sklearn.linear_model._passive_aggressive.PassiveAggressiveClassifier._expanded_class_weight
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-<genexpr>-775
+                self._expanded_class_weight[i],
+sklearn.linear_model._passive_aggressive.PassiveAggressiveClassifier._expanded_class_weight
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_fit_binary-725
+            self._expanded_class_weight[0],
+sklearn.linear_model._perceptron.Perceptron.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-predict-452
+        return self.classes_[indices]
+sklearn.linear_model._perceptron.Perceptron.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_fit_multiclass-762
+        seeds = random_state.randint(MAX_INT, size=len(self.classes_))
+sklearn.linear_model._perceptron.Perceptron.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_partial_fit-595
+        n_classes = self.classes_.shape[0]
+sklearn.linear_model._perceptron.Perceptron.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_prepare_fit_binary-341
+    if len(est.classes_) == 2:
+sklearn.linear_model._perceptron.Perceptron.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_prepare_fit_binary-337
+    y_i[y != est.classes_[i]] = -1.0
+sklearn.linear_model._perceptron.Perceptron._expanded_class_weight
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_fit_binary-724
+            self._expanded_class_weight[1],
+sklearn.linear_model._perceptron.Perceptron._expanded_class_weight
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-<genexpr>-775
+                self._expanded_class_weight[i],
+sklearn.linear_model._perceptron.Perceptron._expanded_class_weight
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_fit_binary-725
+            self._expanded_class_weight[0],
+sklearn.linear_model._glm.glm.PoissonRegressor._base_loss
+{'sklearn._loss.loss.HalfPoissonLoss', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_glm/glm.py-predict-348
+        y_pred = self._base_loss.link.inverse(raw_prediction)
+sklearn.linear_model._glm.glm.PoissonRegressor.intercept_
+{'numpy.numpy.float64', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_glm/glm.py-_linear_predictor-331
+        return X @ self.coef_ + self.intercept_
+sklearn.kernel_approximation.PolynomialCountSketch.indexHash_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-transform-199
+        if X_gamma.shape[1] != self.indexHash_.shape[1]:
+sklearn.kernel_approximation.PolynomialCountSketch.indexHash_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-transform-210
+                    iHashIndex = self.indexHash_[d, j]
+sklearn.kernel_approximation.PolynomialCountSketch.indexHash_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-transform-219
+                    iHashIndex = self.indexHash_[d, j]
+sklearn.kernel_approximation.PolynomialCountSketch.bitHash_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-transform-220
+                    iHashBit = self.bitHash_[d, j]
+sklearn.kernel_approximation.PolynomialCountSketch.bitHash_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/kernel_approximation.py-transform-211
+                    iHashBit = self.bitHash_[d, j]
+sklearn.preprocessing._polynomial.PolynomialFeatures._min_degree
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_polynomial.py-transform-490
+            if self._min_degree > 1:
+sklearn.preprocessing._polynomial.PolynomialFeatures._max_degree
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_polynomial.py-transform-466
+            for _ in range(2, self._max_degree + 1):
+sklearn.preprocessing._data.PowerTransformer.lambdas_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_data.py-_check_input-3304
+        if check_shape and not X.shape[1] == len(self.lambdas_):
+sklearn.preprocessing._data.PowerTransformer._scaler
+{'sklearn.preprocessing._data.StandardScaler', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_data.py-transform-3116
+            X = self._scaler.transform(X)
+sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/discriminant_analysis.py-predict-961
+        y_pred = self.classes_.take(d.argmax(1))
+sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/discriminant_analysis.py-decision_function-940
+        if len(self.classes_) == 2:
+sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/discriminant_analysis.py-_decision_function-908
+        for i in range(len(self.classes_)):
+sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis.means_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/discriminant_analysis.py-_decision_function-911
+            Xm = X - self.means_[i]
+sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis.scalings_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/discriminant_analysis.py-_decision_function-910
+            S = self.scalings_[i]
+sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis.rotations_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/discriminant_analysis.py-_decision_function-909
+            R = self.rotations_[i]
+sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis.covariance_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_discriminant_analysis.py-test_qda_store_covariance-584
+    assert_array_almost_equal(clf.covariance_[0], np.array([[0.7, 0.45], [0.45, 0.7]]))
+sklearn.discriminant_analysis.QuadraticDiscriminantAnalysis.covariance_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_discriminant_analysis.py-test_qda_store_covariance-587
+        clf.covariance_[1],
+sklearn.linear_model._quantile.QuantileRegressor.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._quantile.QuantileRegressor.intercept_
+{'numpy.numpy.float64', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.preprocessing._data.QuantileTransformer.references_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_data.py-_sparse_fit-2505
+        references = self.references_ * 100
+sklearn.preprocessing._data.QuantileTransformer.references_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_data.py-_dense_fit-2477
+        references = self.references_ * 100
+sklearn.preprocessing._data.QuantileTransformer.references_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_data.py-_transform_col-2643
+                - np.interp(-X_col_finite, -quantiles[::-1], -self.references_[::-1])
+sklearn.preprocessing._data.QuantileTransformer.quantiles_
+{'builtins.list', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_data.py-_transform-2723
+                    X[:, feature_idx], self.quantiles_[:, feature_idx], inverse
+sklearn.linear_model._ransac.RANSACRegressor.estimator_
+{'sklearn.linear_model._base.LinearRegression', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_ransac.py-predict-596
+        return self.estimator_.predict(X)
+sklearn.linear_model._ransac.RANSACRegressor.estimator_
+{'sklearn.linear_model._base.LinearRegression', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_ransac.py-score-623
+        return self.estimator_.score(X, y)
+sklearn.feature_selection._rfe.RFE.estimator_
+{'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.tests.test_metaestimators.SubEstimator', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_selection/_rfe.py-predict-349
+        return self.estimator_.predict(self.transform(X))
+sklearn.feature_selection._rfe.RFE.estimator_
+{'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.tests.test_metaestimators.SubEstimator', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_selection/_rfe.py-score-376
+        return self.estimator_.score(self.transform(X), y, **fit_params)
+sklearn.feature_selection._rfe.RFE.estimator_
+{'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.tests.test_metaestimators.SubEstimator', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_selection/_rfe.py-predict_proba-422
+        return self.estimator_.predict_proba(self.transform(X))
+sklearn.feature_selection._rfe.RFE.estimator_
+{'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.tests.test_metaestimators.SubEstimator', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_selection/_rfe.py-decision_function-402
+        return self.estimator_.decision_function(self.transform(X))
+sklearn.feature_selection._rfe.RFE.estimator_
+{'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.tests.test_metaestimators.SubEstimator', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_selection/_rfe.py-predict_log_proba-440
+        return self.estimator_.predict_log_proba(self.transform(X))
+sklearn.feature_selection._rfe.RFECV.estimator_
+{'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.tests.test_metaestimators.SubEstimator', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_selection/_rfe.py-predict-349
+        return self.estimator_.predict(self.transform(X))
+sklearn.feature_selection._rfe.RFECV.estimator_
+{'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.tests.test_metaestimators.SubEstimator', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_selection/_rfe.py-score-376
+        return self.estimator_.score(self.transform(X), y, **fit_params)
+sklearn.feature_selection._rfe.RFECV.estimator_
+{'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.tests.test_metaestimators.SubEstimator', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_selection/_rfe.py-predict_proba-422
+        return self.estimator_.predict_proba(self.transform(X))
+sklearn.feature_selection._rfe.RFECV.estimator_
+{'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.tests.test_metaestimators.SubEstimator', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_selection/_rfe.py-decision_function-402
+        return self.estimator_.decision_function(self.transform(X))
+sklearn.feature_selection._rfe.RFECV.estimator_
+{'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.tests.test_metaestimators.SubEstimator', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_selection/_rfe.py-predict_log_proba-440
+        return self.estimator_.predict_log_proba(self.transform(X))
+sklearn.neighbors._regression.RadiusNeighborsRegressor._y
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/neighbors/_regression.py-predict-484
+        if self._y.ndim == 1:
+sklearn.ensemble._forest.RandomForestClassifier.classes_
+{'builtins.list', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_forest.py-predict-840
+            class_type = self.classes_[0].dtype
+sklearn.ensemble._forest.RandomForestClassifier.classes_
+{'builtins.list', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_forest.py-predict-844
+                predictions[:, k] = self.classes_[k].take(
+sklearn.ensemble._forest.RandomForestClassifier.classes_
+{'builtins.list', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_multioutput.py-test_multi_output_classes_-601
+    assert len(estimator.classes_) == n_outputs
+sklearn.ensemble._forest.RandomForestClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_forest.py-predict_proba-891
+            proba /= len(self.estimators_)
+sklearn.ensemble._forest.RandomForestRegressor.n_outputs_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_forest.py-predict-997
+        if self.n_outputs_ > 1:
+sklearn.ensemble._forest.RandomForestRegressor.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_forest.py-predict-1009
+        y_hat /= len(self.estimators_)
+sklearn.ensemble._forest.RandomTreesEmbedding.one_hot_encoder_
+{'sklearn.preprocessing._encoders.OneHotEncoder', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_forest.py-transform-2759
+        return self.one_hot_encoder_.transform(self.apply(X))
+sklearn.ensemble._forest.RandomTreesEmbedding.one_hot_encoder_
+{'sklearn.preprocessing._encoders.OneHotEncoder', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_forest.py-<listcomp>-2738
+            for leaf in self.one_hot_encoder_.categories_[tree]
+sklearn.multioutput.RegressorChain.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/multioutput.py-predict-622
+        Y_pred_chain = np.zeros((X.shape[0], len(self.estimators_)))
+sklearn.linear_model._ridge.RidgeCV.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._ridge.RidgeCV.intercept_
+{'numpy.numpy.float64', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._ridge.RidgeClassifier._label_binarizer
+{'sklearn.preprocessing._label.LabelBinarizer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_ridge.py-classes_-1213
+        return self._label_binarizer.classes_
+sklearn.linear_model._ridge.RidgeClassifier._label_binarizer
+{'sklearn.preprocessing._label.LabelBinarizer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_ridge.py-predict-1207
+            return self._label_binarizer.inverse_transform(scores)
+sklearn.linear_model._ridge.RidgeClassifier._label_binarizer
+{'sklearn.preprocessing._label.LabelBinarizer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_ridge.py-predict-1202
+        if self._label_binarizer.y_type_.startswith("multilabel"):
+sklearn.linear_model._ridge.RidgeClassifier.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-decision_function-430
+        scores = safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._ridge.RidgeClassifier.intercept_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-decision_function-430
+        scores = safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._ridge.RidgeClassifierCV._label_binarizer
+{'sklearn.preprocessing._label.LabelBinarizer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_ridge.py-classes_-1213
+        return self._label_binarizer.classes_
+sklearn.linear_model._ridge.RidgeClassifierCV._label_binarizer
+{'sklearn.preprocessing._label.LabelBinarizer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_ridge.py-predict-1202
+        if self._label_binarizer.y_type_.startswith("multilabel"):
+sklearn.linear_model._ridge.RidgeClassifierCV._label_binarizer
+{'sklearn.preprocessing._label.LabelBinarizer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_ridge.py-predict-1207
+            return self._label_binarizer.inverse_transform(scores)
+sklearn.linear_model._ridge.RidgeClassifierCV.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-decision_function-430
+        scores = safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._ridge.RidgeClassifierCV.intercept_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-decision_function-430
+        scores = safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._stochastic_gradient.SGDClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-predict-452
+        return self.classes_[indices]
+sklearn.linear_model._stochastic_gradient.SGDClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_fit_multiclass-762
+        seeds = random_state.randint(MAX_INT, size=len(self.classes_))
+sklearn.linear_model._stochastic_gradient.SGDClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_partial_fit-595
+        n_classes = self.classes_.shape[0]
+sklearn.linear_model._stochastic_gradient.SGDClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_prepare_fit_binary-341
+    if len(est.classes_) == 2:
+sklearn.linear_model._stochastic_gradient.SGDClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_prepare_fit_binary-337
+    y_i[y != est.classes_[i]] = -1.0
+sklearn.linear_model._stochastic_gradient.SGDClassifier._expanded_class_weight
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_fit_binary-724
+            self._expanded_class_weight[1],
+sklearn.linear_model._stochastic_gradient.SGDClassifier._expanded_class_weight
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-<genexpr>-775
+                self._expanded_class_weight[i],
+sklearn.linear_model._stochastic_gradient.SGDClassifier._expanded_class_weight
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_stochastic_gradient.py-_fit_binary-725
+            self._expanded_class_weight[0],
+sklearn.svm._classes.SVC.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-decision_function-776
+        if self.decision_function_shape == "ovr" and len(self.classes_) > 2:
+sklearn.svm._classes.SVC.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-decision_function-777
+            return _ovr_decision_function(dec < 0, -dec, len(self.classes_))
+sklearn.svm._classes.SVC.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-_decision_function-543
+        if self._impl in ["c_svc", "nu_svc"] and len(self.classes_) == 2:
+sklearn.svm._classes.SVC.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-predict-811
+        return self.classes_.take(np.asarray(y, dtype=np.intp))
+sklearn.svm._classes.SVC.support_vectors_
+{'scipy.sparse._csr.csr_matrix', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-_sparse_predict-485
+            self.support_vectors_.data,
+sklearn.svm._classes.SVC.shape_fit_
+{'builtins.tuple', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-_validate_for_predict-632
+            if X.shape[1] != self.shape_fit_[0]:
+sklearn.svm._classes.SVC._dual_coef_
+{'scipy.sparse._csr.csr_matrix', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-_sparse_predict-488
+            self._dual_coef_.data,
+sklearn.svm._classes.SVR.support_vectors_
+{'scipy.sparse._csr.csr_matrix', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-_sparse_predict-485
+            self.support_vectors_.data,
+sklearn.svm._classes.SVR._n_support
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-n_support_-687
+            return np.array([self._n_support[0]])
+sklearn.svm._classes.SVR._dual_coef_
+{'scipy.sparse._csr.csr_matrix', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/svm/_base.py-_sparse_predict-488
+            self._dual_coef_.data,
+sklearn.feature_selection._univariate_selection.SelectFdr.pvalues_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_selection/_univariate_selection.py-_get_support_mask-848
+        return self.pvalues_ <= selected.max()
+sklearn.feature_selection._univariate_selection.SelectFdr.pvalues_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_selection/_univariate_selection.py-_get_support_mask-841
+        n_features = len(self.pvalues_)
+sklearn.feature_selection._univariate_selection.SelectFpr.pvalues_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_selection/_univariate_selection.py-_get_support_mask-762
+        return self.pvalues_ < self.alpha
+sklearn.feature_selection._from_model.SelectFromModel.estimator_
+{'sklearn.pipeline.Pipeline', 'sklearn.linear_model._stochastic_gradient.SGDRegressor', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_selection/_from_model.py-n_features_in_-436
+        return self.estimator_.n_features_in_
+sklearn.semi_supervised._self_training.SelfTrainingClassifier.base_estimator_
+{'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.tests.test_metaestimators.SubEstimator', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/semi_supervised/_self_training.py-score-400
+        return self.base_estimator_.score(X, y)
+sklearn.semi_supervised._self_training.SelfTrainingClassifier.base_estimator_
+{'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.tests.test_metaestimators.SubEstimator', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/semi_supervised/_self_training.py-predict-305
+        return self.base_estimator_.predict(X)
+sklearn.semi_supervised._self_training.SelfTrainingClassifier.base_estimator_
+{'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.tests.test_metaestimators.SubEstimator', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/semi_supervised/_self_training.py-predict_proba-328
+        return self.base_estimator_.predict_proba(X)
+sklearn.semi_supervised._self_training.SelfTrainingClassifier.base_estimator_
+{'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.tests.test_metaestimators.SubEstimator', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/semi_supervised/_self_training.py-predict_log_proba-374
+        return self.base_estimator_.predict_log_proba(X)
+sklearn.semi_supervised._self_training.SelfTrainingClassifier.base_estimator_
+{'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.tests.test_metaestimators.SubEstimator', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/semi_supervised/_self_training.py-decision_function-351
+        return self.base_estimator_.decision_function(X)
+sklearn.covariance._shrunk_covariance.ShrunkCovariance.location_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/covariance/_empirical_covariance.py-score-261
+        test_cov = empirical_covariance(X_test - self.location_, assume_centered=True)
+sklearn.impute._base.SimpleImputer._fit_dtype
+{'numpy.numpy.dtype[float64]', 'numpy.numpy.dtype[float32]', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/impute/_base.py-_validate_input-292
+        if not in_fit and self._fit_dtype.kind == "O":
+sklearn.decomposition._sparse_pca.SparsePCA.mean_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_sparse_pca.py-transform-233
+        X = X - self.mean_
+sklearn.decomposition._sparse_pca.SparsePCA.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_sparse_pca.py-_n_features_out-244
+        return self.components_.shape[0]
+sklearn.decomposition._sparse_pca.SparsePCA.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_sparse_pca.py-transform-236
+            self.components_.T, X.T, self.ridge_alpha, solver="cholesky"
+sklearn.random_projection.SparseRandomProjection.components_
+{'scipy.sparse._csr.csr_matrix', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_random_projection.py-test_correct_RandomProjection_dimensions_embedding-331
+            assert rp.components_.shape == (100, n_features)
+sklearn.random_projection.SparseRandomProjection.components_
+{'scipy.sparse._csr.csr_matrix', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_random_projection.py-test_correct_RandomProjection_dimensions_embedding-307
+        assert rp.components_.shape == (110, n_features)
+sklearn.random_projection.SparseRandomProjection.components_
+{'scipy.sparse._csr.csr_matrix', 'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_random_projection.py-test_random_projection_dtype_match-451
+    assert rp.components_.dtype == expected_dtype
+sklearn.random_projection.SparseRandomProjection.inverse_components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/random_projection.py-inverse_transform-442
+            return X @ self.inverse_components_.T
+sklearn.preprocessing._polynomial.SplineTransformer.bsplines_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_polynomial.py-transform-923
+        n_splines = self.bsplines_[0].c.shape[1]
+sklearn.preprocessing._polynomial.SplineTransformer.bsplines_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_polynomial.py-get_feature_names_out-741
+        n_splines = self.bsplines_[0].c.shape[0]
+sklearn.preprocessing._polynomial.SplineTransformer.bsplines_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_polynomial.py-transform-936
+            spl = self.bsplines_[i]
+sklearn.preprocessing._polynomial.SplineTransformer.n_features_out_
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/preprocessing/_polynomial.py-transform-928
+        n_out = self.n_features_out_ + n_features * (1 - self.include_bias)
+sklearn.ensemble._stacking.StackingClassifier._le
+{'missing', 'sklearn.preprocessing._label.LabelEncoder'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_stacking.py-predict-608
+        return self._le.inverse_transform(y_pred)
+sklearn.ensemble._stacking.StackingClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_stacking.py-_concatenate_predictions-103
+                    and len(self.classes_) == 2
+sklearn.ensemble._stacking.StackingClassifier.final_estimator_
+{'sklearn.linear_model._logistic.LogisticRegression', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_stacking.py-predict-351
+        return self.final_estimator_.predict(self.transform(X), **predict_params)
+sklearn.ensemble._stacking.StackingClassifier.final_estimator_
+{'sklearn.linear_model._logistic.LogisticRegression', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_stacking.py-decision_function-646
+        return self.final_estimator_.decision_function(self.transform(X))
+sklearn.ensemble._stacking.StackingClassifier.final_estimator_
+{'sklearn.linear_model._logistic.LogisticRegression', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_stacking.py-predict_proba-627
+        return self.final_estimator_.predict_proba(self.transform(X))
+sklearn.ensemble._stacking.StackingClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_stacking.py-n_features_in_-271
+        return self.estimators_[0].n_features_in_
+sklearn.ensemble._stacking.StackingClassifier.stack_method_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_stacking.py-_concatenate_predictions-102
+                    self.stack_method_[est_idx] == "predict_proba"
+sklearn.ensemble._stacking.StackingRegressor.final_estimator_
+{'sklearn.linear_model._ridge.RidgeCV', 'sklearn.linear_model._ridge.Ridge', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_stacking.py-predict-351
+        return self.final_estimator_.predict(self.transform(X), **predict_params)
+sklearn.ensemble._stacking.StackingRegressor.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_stacking.py-n_features_in_-271
+        return self.estimators_[0].n_features_in_
+sklearn.feature_extraction.text.TfidfTransformer._idf_diag
+{'scipy.sparse._csr.csr_matrix', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_extraction/text.py-idf_-1703
+        return np.ravel(self._idf_diag.sum(axis=0))
+sklearn.feature_extraction.text.TfidfTransformer._idf_diag
+{'scipy.sparse._csr.csr_matrix', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_extraction/text.py-transform-1686
+            X = X * self._idf_diag
+sklearn.feature_extraction.text.TfidfVectorizer._tfidf
+{'missing', 'sklearn.feature_extraction.text.TfidfTransformer'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_extraction/text.py-transform-2104
+        return self._tfidf.transform(X, copy=False)
+sklearn.linear_model._theil_sen.TheilSenRegressor._max_subpopulation
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_theil_sen.py-fit-424
+        if np.rint(binom(n_samples, n_subsamples)) <= self._max_subpopulation:
+sklearn.linear_model._theil_sen.TheilSenRegressor.intercept_
+{'numpy.numpy.float64', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.linear_model._theil_sen.TheilSenRegressor.coef_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_base.py-_decision_function-370
+        return safe_sparse_dot(X, self.coef_.T, dense_output=True) + self.intercept_
+sklearn.compose._target.TransformedTargetRegressor.transformer_
+{'sklearn.preprocessing._function_transformer.FunctionTransformer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/compose/_target.py-fit-238
+        y_trans = self.transformer_.transform(y_2d)
+sklearn.compose._target.TransformedTargetRegressor.transformer_
+{'sklearn.preprocessing._function_transformer.FunctionTransformer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/compose/_target.py-predict-282
+            pred_trans = self.transformer_.inverse_transform(pred.reshape(-1, 1))
+sklearn.compose._target.TransformedTargetRegressor.transformer_
+{'sklearn.preprocessing._function_transformer.FunctionTransformer', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/compose/_target.py-predict-284
+            pred_trans = self.transformer_.inverse_transform(pred)
+sklearn.compose._target.TransformedTargetRegressor.regressor_
+{'sklearn.linear_model._base.LinearRegression', 'sklearn.pipeline.Pipeline', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/compose/_target.py-n_features_in_-320
+        return self.regressor_.n_features_in_
+sklearn.compose._target.TransformedTargetRegressor.regressor_
+{'sklearn.linear_model._base.LinearRegression', 'sklearn.pipeline.Pipeline', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/compose/_target.py-predict-280
+        pred = self.regressor_.predict(X, **predict_params)
+sklearn.decomposition._truncated_svd.TruncatedSVD.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_truncated_svd.py-_n_features_out-314
+        return self.components_.shape[0]
+sklearn.decomposition._truncated_svd.TruncatedSVD.components_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/decomposition/_truncated_svd.py-transform-288
+        return safe_sparse_dot(X, self.components_.T)
+sklearn.linear_model._glm.glm.TweedieRegressor._base_loss
+{'missing', 'sklearn._loss.loss.HalfTweedieLossIdentity'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_glm/glm.py-predict-348
+        y_pred = self._base_loss.link.inverse(raw_prediction)
+sklearn.linear_model._glm.glm.TweedieRegressor.intercept_
+{'numpy.numpy.float64', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/linear_model/_glm/glm.py-_linear_predictor-331
+        return X @ self.coef_ + self.intercept_
+sklearn.feature_selection._variance_threshold.VarianceThreshold.variances_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/feature_selection/_variance_threshold.py-_get_support_mask-127
+        return self.variances_ > self.threshold
+sklearn.ensemble._voting.VotingClassifier.le_
+{'missing', 'sklearn.preprocessing._label.LabelEncoder'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_voting.py-predict-378
+        maj = self.le_.inverse_transform(maj)
+sklearn.ensemble._voting.VotingClassifier.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_voting.py-n_features_in_-147
+        return self.estimators_[0].n_features_in_
+sklearn.ensemble._voting.VotingClassifier.named_estimators_
+{'sklearn.utils._bunch.Bunch', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_voting.py-fit-102
+            self.named_estimators_[name] = current_est
+sklearn.ensemble._voting.VotingRegressor.estimators_
+{'builtins.list', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_voting.py-n_features_in_-147
+        return self.estimators_[0].n_features_in_
+sklearn.ensemble._voting.VotingRegressor.named_estimators_
+{'sklearn.utils._bunch.Bunch', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_voting.py-fit-102
+            self.named_estimators_[name] = current_est
+sklearn.model_selection._search.GridSearchCV.best_estimator_
+{'sklearn.pipeline.Pipeline', 'sklearn.linear_model._ridge.Ridge', 'sklearn.multiclass.OneVsRestClassifier', 'sklearn.linear_model._ridge.RidgeClassifier', 'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.tests.test_metaestimators.SubEstimator', 'sklearn.linear_model._stochastic_gradient.SGDClassifier', 'sklearn.multiclass.OneVsOneClassifier', 'sklearn.multiclass.OutputCodeClassifier', 'sklearn.svm._classes.SVC', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-predict-500
+        return self.best_estimator_.predict(X)
+sklearn.model_selection._search_successive_halving.HalvingGridSearchCV._checked_cv_orig
+{'sklearn.model_selection._split.StratifiedKFold', 'sklearn.model_selection._split.KFold', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search_successive_halving.py-_check_input_parameters-168
+                n_splits = self._checked_cv_orig.get_n_splits(X, y, groups)
+sklearn.model_selection._search_successive_halving.HalvingGridSearchCV._n_samples_orig
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search_successive_halving.py-_run_search-348
+                    fraction=n_resources / self._n_samples_orig,
+sklearn.model_selection._search_successive_halving.HalvingGridSearchCV.best_estimator_
+{'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.pipeline.Pipeline', 'sklearn.linear_model._ridge.Ridge', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-n_features_in_-632
+        return self.best_estimator_.n_features_in_
+sklearn.model_selection._search_successive_halving.HalvingGridSearchCV.best_estimator_
+{'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.pipeline.Pipeline', 'sklearn.linear_model._ridge.Ridge', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-predict-500
+        return self.best_estimator_.predict(X)
+sklearn.model_selection._search_successive_halving.HalvingGridSearchCV.cv_results_
+{'builtins.dict', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search_successive_halving.py-fit-264
+        self.best_score_ = self.cv_results_["mean_test_score"][self.best_index_]
+sklearn.model_selection._search.RandomizedSearchCV.best_estimator_
+{'sklearn.pipeline.Pipeline', 'sklearn.linear_model._ridge.Ridge', 'sklearn.linear_model._logistic.LogisticRegression', 'sklearn.tests.test_metaestimators.SubEstimator', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-predict-500
+        return self.best_estimator_.predict(X)
+sklearn.model_selection._search_successive_halving.HalvingRandomSearchCV._checked_cv_orig
+{'sklearn.model_selection._split.StratifiedKFold', 'sklearn.model_selection._split.KFold', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search_successive_halving.py-_check_input_parameters-168
+                n_splits = self._checked_cv_orig.get_n_splits(X, y, groups)
+sklearn.model_selection._search_successive_halving.HalvingRandomSearchCV.min_resources_
+{'builtins.str', 'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search_successive_halving.py-_run_search-330
+            n_resources = int(self.factor**power * self.min_resources_)
+sklearn.model_selection._search_successive_halving.HalvingRandomSearchCV._n_samples_orig
+{'builtins.int', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search_successive_halving.py-_run_search-348
+                    fraction=n_resources / self._n_samples_orig,
+sklearn.model_selection._search_successive_halving.HalvingRandomSearchCV.best_estimator_
+{'sklearn.pipeline.Pipeline', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-predict_log_proba-546
+        return self.best_estimator_.predict_log_proba(X)
+sklearn.model_selection._search_successive_halving.HalvingRandomSearchCV.best_estimator_
+{'sklearn.pipeline.Pipeline', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-predict_proba-523
+        return self.best_estimator_.predict_proba(X)
+sklearn.model_selection._search_successive_halving.HalvingRandomSearchCV.best_estimator_
+{'sklearn.pipeline.Pipeline', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-n_features_in_-632
+        return self.best_estimator_.n_features_in_
+sklearn.model_selection._search_successive_halving.HalvingRandomSearchCV.best_estimator_
+{'sklearn.pipeline.Pipeline', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-decision_function-569
+        return self.best_estimator_.decision_function(X)
+sklearn.model_selection._search_successive_halving.HalvingRandomSearchCV.best_estimator_
+{'sklearn.pipeline.Pipeline', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-classes_-641
+        return self.best_estimator_.classes_
+sklearn.model_selection._search_successive_halving.HalvingRandomSearchCV.best_estimator_
+{'sklearn.pipeline.Pipeline', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search.py-predict-500
+        return self.best_estimator_.predict(X)
+sklearn.model_selection._search_successive_halving.HalvingRandomSearchCV.cv_results_
+{'builtins.dict', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/model_selection/_search_successive_halving.py-fit-264
+        self.best_score_ = self.cv_results_["mean_test_score"][self.best_index_]
+sklearn.calibration._SigmoidCalibration.a_
+{'numpy.numpy.float64', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/calibration.py-predict-870
+        return expit(-(self.a_ * T + self.b_))
+sklearn.calibration._SigmoidCalibration.b_
+{'numpy.numpy.float64', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/calibration.py-predict-870
+        return expit(-(self.a_ * T + self.b_))
+sklearn.calibration.CalibrationDisplay.line_
+{'matplotlib.lines.Line2D', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_calibration.py-test_calibration_display_compute-708
+    assert viz.line_.get_alpha() == 0.8
+sklearn.calibration.CalibrationDisplay.ax_
+{'matplotlib.axes._subplots.AxesSubplot', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_calibration.py-test_calibration_display_compute-716
+    legend_labels = viz.ax_.get_legend().get_texts()
+sklearn.calibration.CalibrationDisplay.ax_
+{'matplotlib.axes._subplots.AxesSubplot', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_calibration.py-test_calibration_display_ref_line-819
+    labels = viz2.ax_.get_legend_handles_labels()[1]
+sklearn.calibration.CalibrationDisplay.ax_
+{'matplotlib.axes._subplots.AxesSubplot', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_calibration.py-test_calibration_display_compute-712
+    assert viz.ax_.get_xlabel() == "Mean predicted probability (Positive class: 1)"
+sklearn.calibration.CalibrationDisplay.ax_
+{'matplotlib.axes._subplots.AxesSubplot', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_calibration.py-test_calibration_display_default_labels-749
+    legend_labels = viz.ax_.get_legend().get_texts()
+sklearn.calibration.CalibrationDisplay.ax_
+{'matplotlib.axes._subplots.AxesSubplot', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_calibration.py-test_calibration_display_label_class_plot-769
+    legend_labels = viz.ax_.get_legend().get_texts()
+sklearn.calibration.CalibrationDisplay.ax_
+{'matplotlib.axes._subplots.AxesSubplot', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_calibration.py-test_calibration_display_name_multiple_calls-797
+    legend_labels = viz.ax_.get_legend().get_texts()
+sklearn.calibration.CalibrationDisplay.ax_
+{'matplotlib.axes._subplots.AxesSubplot', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_calibration.py-test_plot_calibration_curve_pipeline-730
+    legend_labels = viz.ax_.get_legend().get_texts()
+sklearn.calibration.CalibrationDisplay.ax_
+{'matplotlib.axes._subplots.AxesSubplot', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_calibration.py-test_calibration_display_pos_label-887
+    legend_labels = viz.ax_.get_legend().get_texts()
+sklearn.calibration.CalibrationDisplay.ax_
+{'matplotlib.axes._subplots.AxesSubplot', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/tests/test_calibration.py-test_calibration_display_compute-713
+    assert viz.ax_.get_ylabel() == "Fraction of positives (Positive class: 1)"
+sklearn.utils._mocking.CheckingClassifier.classes_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/utils/_mocking.py-decision_function-284
+        if len(self.classes_) == 2:
+sklearn.gaussian_process._gpc._BinaryGaussianProcessClassifierLaplace.kernel_
+{'sklearn.gaussian_process.kernels.Product', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/gaussian_process/_gpc.py-log_marginal_likelihood-368
+            kernel = self.kernel_.clone_with_theta(theta)
+sklearn.gaussian_process._gpc._BinaryGaussianProcessClassifierLaplace.kernel_
+{'sklearn.gaussian_process.kernels.Product', 'missing'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/gaussian_process/_gpc.py-predict_proba-310
+        var_f_star = self.kernel_.diag(X) - np.einsum("ij,ij->j", v, v)
+sklearn.gaussian_process._gpc._BinaryGaussianProcessClassifierLaplace.y_train_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/gaussian_process/_gpc.py-_posterior_mode-451
+                - np.log1p(np.exp(-(self.y_train_ * 2 - 1) * f)).sum()
+sklearn.gaussian_process._gpc._BinaryGaussianProcessClassifierLaplace.y_train_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/gaussian_process/_gpc.py-predict-284
+        f_star = K_star.T.dot(self.y_train_ - self.pi_)  # Algorithm 3.2,Line 4
+sklearn.gaussian_process._gpc._BinaryGaussianProcessClassifierLaplace.y_train_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/gaussian_process/_gpc.py-_posterior_mode-441
+            b = W * f + (self.y_train_ - pi)
+sklearn.gaussian_process._gpc._BinaryGaussianProcessClassifierLaplace.y_train_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/gaussian_process/_gpc.py-predict_proba-307
+        f_star = K_star.T.dot(self.y_train_ - self.pi_)  # Line 4
+sklearn.gaussian_process._gpc._BinaryGaussianProcessClassifierLaplace.pi_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/gaussian_process/_gpc.py-predict-284
+        f_star = K_star.T.dot(self.y_train_ - self.pi_)  # Algorithm 3.2,Line 4
+sklearn.gaussian_process._gpc._BinaryGaussianProcessClassifierLaplace.pi_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/gaussian_process/_gpc.py-predict_proba-307
+        f_star = K_star.T.dot(self.y_train_ - self.pi_)  # Line 4
+sklearn.gaussian_process._gpc._BinaryGaussianProcessClassifierLaplace.W_sr_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/gaussian_process/_gpc.py-predict_proba-308
+        v = solve(self.L_, self.W_sr_[:, np.newaxis] * K_star)  # Line 5
+sklearn.ensemble._hist_gradient_boosting.binning._BinMapper.is_categorical_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_hist_gradient_boosting/binning.py-make_known_categories_bitsets-296
+        n_features = self.is_categorical_.size
+sklearn.ensemble._hist_gradient_boosting.binning._BinMapper.n_bins_non_missing_
+{'missing', 'numpy.numpy.ndarray'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/sklearn/ensemble/_hist_gradient_boosting/binning.py-transform-269
+        if X.shape[1] != self.n_bins_non_missing_.shape[0]:

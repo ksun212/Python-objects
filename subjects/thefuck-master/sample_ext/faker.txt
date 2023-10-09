@@ -1,0 +1,3 @@
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/faker/providers/person/es_CL/__init__.py-first_names-1061
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/faker/factory.py-create-60
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/faker/generator.py-seed_instance-77

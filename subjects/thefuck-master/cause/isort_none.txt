@@ -1,0 +1,12 @@
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/settings.py-known_patterns-670
+isort.settings.Config._known_patterns
+                self._known_patterns.append((re.compile(regexp), placement))
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/isort-main/tests/unit/test_deprecated_finders.py-test_requirements_finder-136
+isort.deprecated.finders.RequirementsFinder.mapping
+        assert len(finder.mapping) > 100  # type: ignore
+{'builtins.dict', 'builtins.NoneType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/isort/setuptools_commands.py-finalize_options-29
+isort.setuptools_commands.ISortCommand.arguments
+        self.arguments["settings_path"] = os.getcwd()
+{'missing', 'builtins.dict'}

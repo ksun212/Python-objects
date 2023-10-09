@@ -1,0 +1,3 @@
+ /home/user/impacket/impacket/ImpactDecoder.py-decode-163
+ /home/user/impacket/impacket/ImpactDecoder.py-decode-285
+ /home/user/impacket/impacket/ImpactDecoder.py-decode-258

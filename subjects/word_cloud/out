@@ -1,0 +1,221 @@
+/home/user/thefuck-master/pre_run_biend.py:3772: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3782: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(O6C) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3806: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ set$ & ' + ' & '.join(EXT_SET) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3807: DeprecationWarning: invalid escape sequence \ 
+  f.write('$extenion\ event$ & ' + ' & '.join(EXT_EVENT) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3934: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/thefuck-master/pre_run_biend.py:3945: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3955: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3967: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[:10]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:3979: DeprecationWarning: invalid escape sequence \s
+  f.write('$t1 \sim_n t_2$ & ' + ' & '.join(M6ov[10:]) + '\\\\ \\hline' +'\n')
+/home/user/thefuck-master/pre_run_biend.py:4101: DeprecationWarning: invalid escape sequence \_
+  d_ = d.replace('_', '\_')
+/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/dash/testing/plugin.py:92: PytestDeprecationWarning: The hookimpl pytest_addhooks uses old-style configuration options (marks or attributes).
+Please use the pytest.hookimpl(tryfirst=True) decorator instead
+ to configure the hooks.
+ See https://docs.pytest.org/en/latest/deprecations.html#configuring-hook-specs-impls-using-markers
+  @pytest.mark.tryfirst
+============================= test session starts ==============================
+platform linux -- Python 3.9.15+, pytest-7.2.0, pluggy-1.0.0 -- /home/user/purepython/cpython-3.9/my_purepy/bin/python
+cachedir: .pytest_cache
+hypothesis profile 'default' -> database=DirectoryBasedExampleDatabase('/home/user/word_cloud/.hypothesis/examples')
+rootdir: /home/user/word_cloud, configfile: setup.cfg
+plugins: mock-3.10.0, hypothesis-6.56.4, httpbin-1.0.2, cov-4.0.0, time-machine-2.9.0, html-3.2.0, Faker-15.3.4, anyio-3.6.2, flaky-3.7.0, hydra-core-1.3.2, xdist-3.2.1, test-utils-0.0.8, lazy-fixture-0.6.3, docker-1.0.1, xonsh-0.13.4, pylama-8.4.1, dash-2.9.1
+collecting ... collected 76 items
+
+test/test_wordcloud.py::test_collocations PASSED                         [  1%]
+test/test_wordcloud.py::test_collocation_stopwords PASSED                [  2%]
+test/test_wordcloud.py::test_collocation_stopwords_uppercase PASSED      [  3%]
+test/test_wordcloud.py::test_plurals_numbers PASSED                      [  5%]
+test/test_wordcloud.py::test_multiple_s PASSED                           [  6%]
+test/test_wordcloud.py::test_empty_text PASSED                           [  7%]
+test/test_wordcloud.py::test_default PASSED                              [  9%]
+test/test_wordcloud.py::test_stopwords_lowercasing PASSED                [ 10%]
+test/test_wordcloud.py::test_writing_to_file PASSED                      [ 11%]
+test/test_wordcloud.py::test_check_errors PASSED                         [ 13%]
+test/test_wordcloud.py::test_svg_syntax PASSED                           [ 14%]
+test/test_wordcloud.py::test_recolor PASSED                              [ 15%]
+test/test_wordcloud.py::test_random_state PASSED                         [ 17%]
+test/test_wordcloud.py::test_mask PASSED                                 [ 18%]
+test/test_wordcloud.py::test_mask_contour PASSED                         [ 19%]
+test/test_wordcloud.py::test_single_color_func PASSED                    [ 21%]
+test/test_wordcloud.py::test_single_color_func_grey PASSED               [ 22%]
+test/test_wordcloud.py::test_process_text PASSED                         [ 23%]
+test/test_wordcloud.py::test_process_text_default_patterns PASSED        [ 25%]
+test/test_wordcloud.py::test_process_text_regexp_parameter PASSED        [ 26%]
+test/test_wordcloud.py::test_generate_from_frequencies PASSED            [ 27%]
+test/test_wordcloud.py::test_relative_scaling_zero PASSED                [ 28%]
+test/test_wordcloud.py::test_unicode_stopwords PASSED                    [ 30%]
+test/test_wordcloud.py::test_include_numbers PASSED                      [ 31%]
+test/test_wordcloud.py::test_min_word_length PASSED                      [ 32%]
+test/test_wordcloud.py::test_recolor_too_small PASSED                    [ 34%]
+test/test_wordcloud.py::test_recolor_too_small_set_default PASSED        [ 35%]
+test/test_wordcloud.py::test_small_canvas PASSED                         [ 36%]
+test/test_wordcloud.py::test_tiny_canvas PASSED                          [ 38%]
+test/test_wordcloud.py::test_coloring_black_works PASSED                 [ 39%]
+test/test_wordcloud.py::test_repeat PASSED                               [ 40%]
+test/test_wordcloud.py::test_zero_frequencies PASSED                     [ 42%]
+test/test_wordcloud.py::test_plural_stopwords PASSED                     [ 43%]
+test/test_wordcloud.py::test_max_font_size_as_mask_height PASSED         [ 44%]
+test/test_wordcloud_cli.py::test_main_passes_arguments_through PASSED    [ 46%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option0] PASSED [ 47%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option1] PASSED [ 48%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option2] PASSED [ 50%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option3] PASSED [ 51%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option4] PASSED [ 52%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option5] PASSED [ 53%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option6] PASSED [ 55%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option7] PASSED [ 56%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option8] PASSED [ 57%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option9] PASSED [ 59%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option10] PASSED [ 60%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option11] PASSED [ 61%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option12] PASSED [ 63%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option13] PASSED [ 64%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option14] PASSED [ 65%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option15] PASSED [ 67%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option16] PASSED [ 68%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option17] PASSED [ 69%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option18] PASSED [ 71%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option19] PASSED [ 72%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option20] PASSED [ 73%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option21] PASSED [ 75%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option22] PASSED [ 76%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option23] PASSED [ 77%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option24] PASSED [ 78%]
+test/test_wordcloud_cli.py::test_parse_args_are_passed_along[option25] PASSED [ 80%]
+test/test_wordcloud_cli.py::test_parse_arg_types[option0] PASSED         [ 81%]
+test/test_wordcloud_cli.py::test_parse_arg_types[option1] PASSED         [ 82%]
+test/test_wordcloud_cli.py::test_parse_arg_types[option2] PASSED         [ 84%]
+test/test_wordcloud_cli.py::test_parse_arg_types[option3] PASSED         [ 85%]
+test/test_wordcloud_cli.py::test_check_duplicate_color_error PASSED      [ 86%]
+test/test_wordcloud_cli.py::test_parse_args_defaults_to_random_color PASSED [ 88%]
+test/test_wordcloud_cli.py::test_unicode_text_file PASSED                [ 89%]
+test/test_wordcloud_cli.py::test_unicode_with_stopwords PASSED           [ 90%]
+test/test_wordcloud_cli.py::test_cli_writes_to_imagefile PASSED          [ 92%]
+test/test_wordcloud_cli.py::test_cli_writes_to_stdout PASSED             [ 93%]
+test/test_wordcloud_cli.py::test_cli_regexp PASSED                       [ 94%]
+test/test_wordcloud_cli.py::test_cli_regexp_invalid PASSED               [ 96%]
+test/test_wordcloud_cli.py::test_cli_as_executable[wordcloud_cli --help-usage: wordcloud_cli-0] PASSED [ 97%]
+test/test_wordcloud_cli.py::test_cli_as_executable[/home/user/purepython/cpython-3.9/my_purepy/bin/python -m wordcloud --help-usage: __main__-0] PASSED [ 98%]
+test/test_wordcloud_cli.py::test_cli_as_executable[/home/user/purepython/cpython-3.9/my_purepy/bin/python /home/user/word_cloud/test/../wordcloud/wordcloud_cli.py --help-To execute the CLI-1] PASSED [100%]/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/coverage/control.py:801: CoverageWarning: No data was collected. (no-data-collected)
+  self._warn("No data was collected.", slug="no-data-collected")
+
+
+=============================== warnings summary ===============================
+../purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py:35
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py:35: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/stopwords' mode='r' encoding='UTF-8'>
+    STOPWORDS = set(map(str.strip, open(os.path.join(FILE, 'stopwords')).readlines()))
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+test/test_wordcloud.py: 46 warnings
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py:106: PendingDeprecationWarning: The get_cmap function will be deprecated in a future version. Use ``matplotlib.colormaps[name]`` or ``matplotlib.colormaps.get_cmap(obj)`` instead.
+    self.colormap = plt.cm.get_cmap(colormap)
+
+test/test_wordcloud.py: 6222 warnings
+test/test_wordcloud_cli.py: 74 warnings
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py:508: DeprecationWarning: textsize is deprecated and will be removed in Pillow 10 (2023-07-01). Use textbbox or textlength instead.
+    box_size = draw.textsize(word, font=transposed_font)
+
+test/test_wordcloud.py: 339 warnings
+test/test_wordcloud_cli.py: 2 warnings
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py:519: DeprecationWarning: ROTATE_90 is deprecated and will be removed in Pillow 10 (2023-07-01). Use Transpose.ROTATE_90 instead.
+    orientation = (Image.ROTATE_90 if orientation is None else
+
+test/test_wordcloud.py: 145 warnings
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py:499: DeprecationWarning: ROTATE_90 is deprecated and will be removed in Pillow 10 (2023-07-01). Use Transpose.ROTATE_90 instead.
+    orientation = Image.ROTATE_90
+
+test/test_wordcloud.py: 32 warnings
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py:520: DeprecationWarning: ROTATE_90 is deprecated and will be removed in Pillow 10 (2023-07-01). Use Transpose.ROTATE_90 instead.
+    Image.ROTATE_90)
+
+test/test_wordcloud.py::test_writing_to_file
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/_pytest/python.py:195: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/pytest-of-user/pytest-372/test_writing_to_file0/word_cloud.png'>
+    result = testfunction(**testargs)
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+test/test_wordcloud.py: 60 warnings
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/wordcloud.py:964: DeprecationWarning: ROTATE_90 is deprecated and will be removed in Pillow 10 (2023-07-01). Use Transpose.ROTATE_90 instead.
+    if orientation == Image.ROTATE_90:
+
+test/test_wordcloud.py::test_mask
+  /home/user/word_cloud/test/test_wordcloud.py:242: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+  Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+    mask = np.zeros(np.array(wc).shape[:2], dtype=np.int)
+
+test/test_wordcloud.py::test_mask
+  /home/user/word_cloud/test/test_wordcloud.py:248: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+  Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+    mask = np.zeros((234, 456), dtype=np.int)
+
+test/test_wordcloud.py::test_mask_contour
+  /home/user/word_cloud/test/test_wordcloud.py:262: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+  Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+    mask = np.zeros((234, 456), dtype=np.int)
+
+test/test_wordcloud.py: 62 warnings
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/wordcloud/color_from_image.py:41: DeprecationWarning: getsize is deprecated and will be removed in Pillow 10 (2023-07-01). Use getbbox or getlength instead.
+    box_size = transposed_font.getsize(word)
+
+test/test_wordcloud.py::test_max_font_size_as_mask_height
+  /home/user/word_cloud/test/test_wordcloud.py:494: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+  Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+    mask = np.zeros(size, dtype=np.int)
+
+test/test_wordcloud_cli.py::test_parse_arg_types[option2]
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/coverage/pytracer.py:104: ResourceWarning: unclosed file <_io.FileIO name='/tmp/pytest-of-user/pytest-372/data27/empty.txt' mode='rb' closefd=True>
+    def _trace(self, frame, event, arg_unused):
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+test/test_wordcloud_cli.py::test_check_duplicate_color_error
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/coverage/pytracer.py:104: ResourceWarning: unclosed file <_io.FileIO name='/tmp/pytest-of-user/pytest-372/data28/empty.txt' mode='rb' closefd=True>
+    def _trace(self, frame, event, arg_unused):
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+test/test_wordcloud_cli.py::test_check_duplicate_color_error
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/coverage/pytracer.py:104: ResourceWarning: unclosed file <_io.FileIO name='/tmp/pytest-of-user/pytest-372/data29/empty.txt' mode='rb' closefd=True>
+    def _trace(self, frame, event, arg_unused):
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+test/test_wordcloud_cli.py::test_check_duplicate_color_error
+  /home/user/word_cloud/test/test_wordcloud_cli.py:122: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/pytest-of-user/pytest-372/data30/empty.txt' mode='r' encoding='UTF-8'>
+    cli.parse_args(['--color', 'red', '--colormask', str(color_mask_file), '--text', str(tmp_text_file)])
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+test/test_wordcloud_cli.py::test_check_duplicate_color_error
+  /home/user/word_cloud/test/test_wordcloud_cli.py:122: ResourceWarning: unclosed file <_io.BufferedReader name='/tmp/pytest-of-user/pytest-372/test_check_duplicate_color_err0/input_color_mask.png'>
+    cli.parse_args(['--color', 'red', '--colormask', str(color_mask_file), '--text', str(tmp_text_file)])
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+test/test_wordcloud_cli.py::test_unicode_text_file
+  /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/coverage/pytracer.py:104: ResourceWarning: unclosed file <_io.TextIOWrapper name='/tmp/pytest-of-user/pytest-372/data26/empty.txt' mode='r' encoding='UTF-8'>
+    def _trace(self, frame, event, arg_unused):
+  Enable tracemalloc to get traceback where the object was allocated.
+  See https://docs.pytest.org/en/stable/how-to/capture-warnings.html#resource-warnings for more info.
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+
+---------- coverage: platform linux, python 3.9.15-final-0 -----------
+Coverage XML written to file test/coverage.xml
+
+================ 76 passed, 6994 warnings in 2321.88s (0:38:41) ================
+Traceback (most recent call last):
+  File "/home/user/thefuck-master/pre_run_biend.py", line 102, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'

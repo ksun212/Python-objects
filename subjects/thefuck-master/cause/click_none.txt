@@ -1,0 +1,28 @@
+ /home/user/click/tests/test_options.py-test_multiple_default_composite_type-254
+click.core.Option.type
+    assert opt.type.types == [click.INT, click.STRING]
+{'click.types.BoolParamType', 'click.types.DateTime', 'click.types.IntRange', 'flask.cli.SeparatedPathType', 'click.types.FloatParamType', 'flask.cli.CertParamType', 'click.types.File', 'click.types.IntParamType', 'click.types.StringParamType', 'click.types.Choice', 'click.types.Tuple', 'click.types.Path', 'click.types.UUIDParameterType'}
+ /home/user/purepython/cpython-3.9/my_purepy/lib/python3.9/site-packages/click/shell_completion.py-_resolve_incomplete-564
+click.core.Context.command
+    params = ctx.command.get_params(ctx)
+{'click.core.Command', 'click.core.Group', 'test_commands.AliasedGroup', 'test_commands.OptParseCommand'}
+ /home/user/click/tests/test_context.py-cli-43
+click.core.Context.obj
+        ctx.obj.title = "test"
+{'builtins.dict', 'builtins.str', 'test_context.Foo', 'builtins.NoneType'}
+ /home/user/click/tests/test_shell_completion.py-complete-326
+click.core.Context.obj
+        return ctx.obj["choices"]
+{'builtins.dict', 'builtins.str', 'test_context.Foo', 'builtins.NoneType'}
+ /home/user/click/tests/test_commands.py-sync-242
+click.core.Context.obj
+            click.echo(f"Debug is {'on' if ctx.obj['DEBUG'] else 'off'}")
+{'builtins.dict', 'builtins.str', 'test_context.Foo', 'builtins.NoneType'}
+ /home/user/click/tests/test_context.py-cli-66
+click.core.Context.obj
+        ctx.obj.title = "test"
+{'builtins.dict', 'builtins.str', 'test_context.Foo', 'builtins.NoneType'}
+ /home/user/click/tests/test_commands.py-cli-237
+click.core.Context.obj
+            ctx.obj["DEBUG"] = debug
+{'builtins.dict', 'builtins.str', 'test_context.Foo', 'builtins.NoneType'}

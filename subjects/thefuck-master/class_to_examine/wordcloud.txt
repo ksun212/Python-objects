@@ -1,0 +1,3 @@
+test_wordcloud_cli.PassFile
+wordcloud.wordcloud.IntegralOccupancyMap
+wordcloud.wordcloud_cli.FileType

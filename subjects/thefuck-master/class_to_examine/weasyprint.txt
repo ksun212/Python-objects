@@ -1,0 +1,11 @@
+weasyprint.pdf.PDFFormatter
+weasyprint.fonts.FontConfiguration
+weasyprint.css.targets.TargetCollector
+weasyprint.css.StyleFor
+weasyprint.images.RasterImage
+weasyprint.document.Page
+weasyprint.document.Document
+weasyprint.pdf.PDFFile
+weasyprint.css.validation.expanders.AutoFakeToken
+weasyprint.text.FontMetrics
+weasyprint.images.ScaledSVGSurface

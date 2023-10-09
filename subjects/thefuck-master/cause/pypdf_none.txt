@@ -1,0 +1,52 @@
+ /home/user/pypdf/pypdf/_reader.py-_get_num_pages-453
+pypdf._reader.PdfReader.flattened_pages
+            return len(self.flattened_pages)  # type: ignore
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/pypdf/pypdf/_reader.py-_flatten-1213
+pypdf._reader.PdfReader.flattened_pages
+            self.flattened_pages.append(page_obj)  # type: ignore
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/pypdf/pypdf/_reader.py-_get_page-499
+pypdf._reader.PdfReader.flattened_pages
+        return self.flattened_pages[page_number]
+{'builtins.list', 'builtins.NoneType'}
+ /home/user/pypdf/pypdf/_reader.py-get_object-1367
+pypdf._reader.PdfReader.stream
+                buf = bytes(self.stream.getbuffer())  # type: ignore
+{'_io._io.BytesIO', '_io._io.FileIO', '_io._io.BufferedReader'}
+ /home/user/pypdf/pypdf/_reader.py-__init__-342
+pypdf._reader.PdfReader._encryption
+                self._encryption.verify(pwd) == PasswordType.NOT_DECRYPTED
+{'pypdf._encryption.Encryption', 'builtins.NoneType'}
+ /home/user/pypdf/pypdf/_reader.py-_build_outline_item-1027
+pypdf._reader.PdfReader._namedDests
+                    title, self._namedDests[dest].dest_array
+{'missing', 'builtins.dict'}
+ /home/user/pypdf/pypdf/_writer.py-merge-2698
+pypdf._reader.PdfReader._namedDests
+        for dest in reader._namedDests.values():
+{'missing', 'builtins.dict'}
+ /home/user/pypdf/pypdf/_writer.py-_flatten-953
+pypdf._writer.PdfWriter.flattened_pages
+            self.flattened_pages.append(indirect_reference)
+{'missing', 'pypdf.generic._data_structures.ArrayObject'}
+ /home/user/pypdf/pypdf/_writer.py-_write_header-1174
+pypdf._writer.PdfWriter._encrypt
+                if hasattr(self, "_encrypt") and idnum != self._encrypt.idnum:
+{'pypdf.generic._base.IndirectObject', 'missing'}
+ /home/user/pypdf/pypdf/_writer.py-_write_header-1180
+pypdf._writer.PdfWriter._encrypt_key
+                    key = md5_hash[: min(16, len(self._encrypt_key) + 5)]
+{'builtins.bytes', 'missing'}
+ /home/user/pypdf/pypdf/_writer.py-_write_header-1178
+pypdf._writer.PdfWriter._encrypt_key
+                    assert len(key) == (len(self._encrypt_key) + 5)
+{'builtins.bytes', 'missing'}
+ /home/user/pypdf/pypdf/_writer.py-_write_header-1177
+pypdf._writer.PdfWriter._encrypt_key
+                    key = self._encrypt_key + pack1 + pack2
+{'builtins.bytes', 'missing'}
+ /home/user/pypdf/pypdf/xmp.py-custom_properties-492
+pypdf.xmp.XmpInformation._custom_properties
+                self._custom_properties[key] = value
+{'missing', 'builtins.dict'}

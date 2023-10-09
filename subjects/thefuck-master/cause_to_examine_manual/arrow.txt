@@ -1,0 +1,89 @@
+arrow.locales.EnglishLocale._month_name_to_ordinal
+{'builtins.dict'}
+ /home/user/arrow/arrow/locales.py-month_number-236
+        return self._month_name_to_ordinal.get(name)
+arrow.locales.EnglishLocale._month_name_to_ordinal
+{'builtins.dict'}
+ /home/user/arrow/arrow/locales.py-month_number-232
+            self._month_name_to_ordinal.update(
+arrow.locales.FrenchLocale._month_name_to_ordinal
+{'builtins.dict'}
+ /home/user/arrow/arrow/locales.py-month_number-236
+        return self._month_name_to_ordinal.get(name)
+arrow.locales.FrenchLocale._month_name_to_ordinal
+{'builtins.dict'}
+ /home/user/arrow/arrow/locales.py-month_number-232
+            self._month_name_to_ordinal.update(
+arrow.locales.ItalianLocale._month_name_to_ordinal
+{'builtins.dict'}
+ /home/user/arrow/arrow/locales.py-month_number-236
+        return self._month_name_to_ordinal.get(name)
+arrow.locales.ItalianLocale._month_name_to_ordinal
+{'builtins.dict'}
+ /home/user/arrow/arrow/locales.py-month_number-232
+            self._month_name_to_ordinal.update(
+arrow.locales.SpanishLocale._month_name_to_ordinal
+{'builtins.dict'}
+ /home/user/arrow/arrow/locales.py-month_number-236
+        return self._month_name_to_ordinal.get(name)
+arrow.locales.SpanishLocale._month_name_to_ordinal
+{'builtins.dict'}
+ /home/user/arrow/arrow/locales.py-month_number-232
+            self._month_name_to_ordinal.update(
+arrow.locales.SwedishLocale._month_name_to_ordinal
+{'builtins.dict'}
+ /home/user/arrow/arrow/locales.py-month_number-236
+        return self._month_name_to_ordinal.get(name)
+arrow.locales.SwedishLocale._month_name_to_ordinal
+{'builtins.dict'}
+ /home/user/arrow/arrow/locales.py-month_number-232
+            self._month_name_to_ordinal.update(
+arrow.locales.GermanLocale._month_name_to_ordinal
+{'builtins.dict'}
+ /home/user/arrow/arrow/locales.py-month_number-236
+        return self._month_name_to_ordinal.get(name)
+arrow.locales.GermanLocale._month_name_to_ordinal
+{'builtins.dict'}
+ /home/user/arrow/arrow/locales.py-month_number-232
+            self._month_name_to_ordinal.update(
+arrow.parser.DateTimeParser.locale
+{'arrow.locales.SpanishLocale', 'arrow.locales.FrenchLocale', 'arrow.locales.SwedishLocale', 'arrow.locales.GermanLocale', 'arrow.locales.JapaneseLocale', 'arrow.locales.ItalianLocale', 'arrow.locales.HungarianLocale', 'arrow.locales.EnglishLocale'}
+ /home/user/arrow/arrow/parser.py-_parse_token-527
+            day_of_week = [x.lower() for x in self.locale.day_names].index(
+arrow.parser.DateTimeParser.locale
+{'arrow.locales.SpanishLocale', 'arrow.locales.FrenchLocale', 'arrow.locales.SwedishLocale', 'arrow.locales.GermanLocale', 'arrow.locales.JapaneseLocale', 'arrow.locales.ItalianLocale', 'arrow.locales.HungarianLocale', 'arrow.locales.EnglishLocale'}
+ /home/user/arrow/arrow/parser.py-__init__-178
+                    self.locale.day_abbreviations[1:], re.IGNORECASE
+arrow.parser.DateTimeParser.locale
+{'arrow.locales.SpanishLocale', 'arrow.locales.FrenchLocale', 'arrow.locales.SwedishLocale', 'arrow.locales.GermanLocale', 'arrow.locales.JapaneseLocale', 'arrow.locales.ItalianLocale', 'arrow.locales.HungarianLocale', 'arrow.locales.EnglishLocale'}
+ /home/user/arrow/arrow/parser.py-_parse_token-534
+            day_of_week = [x.lower() for x in self.locale.day_abbreviations].index(
+arrow.parser.DateTimeParser.locale
+{'arrow.locales.SpanishLocale', 'arrow.locales.FrenchLocale', 'arrow.locales.SwedishLocale', 'arrow.locales.GermanLocale', 'arrow.locales.JapaneseLocale', 'arrow.locales.ItalianLocale', 'arrow.locales.HungarianLocale', 'arrow.locales.EnglishLocale'}
+ /home/user/arrow/arrow/parser.py-__init__-186
+                "A": self._generate_choice_re(self.locale.meridians.values()),
+arrow.parser.DateTimeParser.locale
+{'arrow.locales.SpanishLocale', 'arrow.locales.FrenchLocale', 'arrow.locales.SwedishLocale', 'arrow.locales.GermanLocale', 'arrow.locales.JapaneseLocale', 'arrow.locales.ItalianLocale', 'arrow.locales.HungarianLocale', 'arrow.locales.EnglishLocale'}
+ /home/user/arrow/arrow/parser.py-_parse_token-511
+            parts["month"] = self.locale.month_number(value.lower())  # type: ignore[typeddict-item]
+arrow.parser.DateTimeParser.locale
+{'arrow.locales.SpanishLocale', 'arrow.locales.FrenchLocale', 'arrow.locales.SwedishLocale', 'arrow.locales.GermanLocale', 'arrow.locales.JapaneseLocale', 'arrow.locales.ItalianLocale', 'arrow.locales.HungarianLocale', 'arrow.locales.EnglishLocale'}
+ /home/user/arrow/arrow/parser.py-__init__-171
+                    self.locale.month_abbreviations[1:], re.IGNORECASE
+arrow.parser.DateTimeParser.locale
+{'arrow.locales.SpanishLocale', 'arrow.locales.FrenchLocale', 'arrow.locales.SwedishLocale', 'arrow.locales.GermanLocale', 'arrow.locales.JapaneseLocale', 'arrow.locales.ItalianLocale', 'arrow.locales.HungarianLocale', 'arrow.locales.EnglishLocale'}
+ /home/user/arrow/arrow/parser.py-__init__-173
+                "Do": re.compile(self.locale.ordinal_day_re),
+arrow.parser.DateTimeParser.locale
+{'arrow.locales.SpanishLocale', 'arrow.locales.FrenchLocale', 'arrow.locales.SwedishLocale', 'arrow.locales.GermanLocale', 'arrow.locales.JapaneseLocale', 'arrow.locales.ItalianLocale', 'arrow.locales.HungarianLocale', 'arrow.locales.EnglishLocale'}
+ /home/user/arrow/arrow/parser.py-__init__-175
+                    self.locale.day_names[1:], re.IGNORECASE
+arrow.parser.DateTimeParser.locale
+{'arrow.locales.SpanishLocale', 'arrow.locales.FrenchLocale', 'arrow.locales.SwedishLocale', 'arrow.locales.GermanLocale', 'arrow.locales.JapaneseLocale', 'arrow.locales.ItalianLocale', 'arrow.locales.HungarianLocale', 'arrow.locales.EnglishLocale'}
+ /home/user/arrow/arrow/parser.py-__init__-168
+                    self.locale.month_names[1:], re.IGNORECASE
+
+
+
+check: 2
+safe: 2

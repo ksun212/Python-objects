@@ -1,0 +1,1421 @@
+self._db.get(key,{}).get('etag') == etag
+self._db.get(key,{}).get('etag') =/= etag
+'this module is not yet installed' In command.output.lower()
+NOT(command.script.startswith('cd '))
+command.script_parts and command.script_parts[0] =/= 'sudo'
+'rm' NotIn command.script
+'No such file or directory' In command.output
+NOT(command.script.startswith('cd '))
+NOT(is_app(command,'adb'))
+NOT(command.script.startswith('man'))
+'install' NotIn command.script_parts
+('No such file or directory' In command.output or NOT(command.output.startswith('cp: directory')))
+is_arg_url(command)
+(is_arg_url(command) or NOT(command.output.strip().startswith('The file ')))
+(('did you mean this?' In command.output.lower() or 'did you mean one of these?' In command.output.lower()) or 'install' NotIn command.script_parts)
+command.script_parts and '&&' NotIn command.script_parts and command.script_parts[0] == 'sudo'
+NOT(command.script.startswith('cd '))
+NOT(command.script.startswith('cd '))
+('Usage:' NotIn command.output or len(command.script_parts) <= 1)
+command.script =/= 'apt list --upgradable'
+NOT(command.script.startswith('cd '))
+('3' In command.script or '2' In command.script)
+NOT(command.script.startswith('cd '))
+'did you mean this?' In command.output.lower() and ('did you mean this?' NotIn command.output.lower() or 'did you mean this?' In command.output.lower()) and ('did you mean one of these?' NotIn command.output.lower() or 'did you mean this?' In command.output.lower())
+algorithm IsNot None
+algorithm IsNot None
+(self.options IsNot None or is_control_axis_index)
+self._axis_index <= 0
+self.options IsNot None
+self._axis_index <= 0
+self.options IsNot None
+self.options.get('dataset') IsNot None
+(len(frequencies) <= 0 or self.mask Is None)
+(len(frequencies) <= 0 or self.mask Is None)
+self.mask Is None
+self.mask Is None
+self._db.get(key,{}).get('etag') =/= etag
+self._db.get(key,{}).get('etag') == etag
+(len(pairs[0]) =/= 1 or NOT(line.startswith(' ')))
+NOT(line.startswith(ic.prefix))
+NOT(self.preprocessing)
+(np.min(self.encoder_neurons) > self.n_features_ or NOT(self.preprocessing))
+NOT(self.preprocessing)
+np.min(self.encoder_neurons) > self.n_features_
+np.min(self.encoder_neurons) > self.n_features_
+self.protocol_id =/= ImpactPacket.UDP.protocol
+(self.protocol_id == ImpactPacket.UDP.protocol or (self.protocol_id == ImpactPacket.TCP.protocol or (self.protocol_id == ICMP6.ICMP6.protocol or (NOT(buffer) or self.protocol_id NotIn extension_headers))))
+(self.protocol_id == ImpactPacket.UDP.protocol or (self.protocol_id == ImpactPacket.TCP.protocol or self.protocol_id =/= ICMP6.ICMP6.protocol))
+NOT(isinstance(self.contamination,[float,int]))
+(self.protocol_id == ImpactPacket.UDP.protocol or (self.protocol_id == ImpactPacket.TCP.protocol or (self.protocol_id == ICMP6.ICMP6.protocol or buffer))) and (self.protocol_id == ImpactPacket.UDP.protocol or (self.protocol_id == ImpactPacket.TCP.protocol or (self.protocol_id == ICMP6.ICMP6.protocol or self.protocol_id In extension_headers)))
+self._month_name_to_ordinal IsNot None
+self._month_name_to_ordinal IsNot None
+NOT(command.script.startswith('man'))
+'No such file or directory' In command.output
+'did you mean this?' In command.output.lower() and ('did you mean this?' NotIn command.output.lower() or 'did you mean this?' In command.output.lower()) and ('did you mean one of these?' NotIn command.output.lower() or 'did you mean this?' In command.output.lower())
+NOT(command.script.startswith('cd '))
+NOT(command.script.startswith('cd '))
+(('did you mean this?' In command.output.lower() or 'did you mean one of these?' In command.output.lower()) or 'install' NotIn command.script_parts)
+NOT(command.script.startswith('cd '))
+command.script =/= 'apt list --upgradable'
+('3' In command.script or '2' In command.script)
+NOT(command.script.startswith('cd '))
+'install' NotIn command.script_parts
+(is_arg_url(command) or NOT(command.output.strip().startswith('The file ')))
+('Usage:' NotIn command.output or len(command.script_parts) <= 1)
+command.script_parts and command.script_parts[0] =/= 'sudo'
+command.script_parts and '&&' NotIn command.script_parts and command.script_parts[0] == 'sudo'
+NOT(command.script.startswith('cd '))
+NOT(isinstance(self.contamination,[float,int]))
+NOT(command.script.startswith('cd '))
+NOT(isinstance(self.contamination,[float,int]))
+'rm' NotIn command.script
+NOT(isinstance(self.contamination,[float,int]))
+NOT(is_app(command,'adb'))
+is_arg_url(command)
+'this module is not yet installed' In command.output.lower()
+('No such file or directory' In command.output or NOT(command.output.startswith('cp: directory')))
+(method == 'linear' or method =/= 'unify')
+self._month_name_to_ordinal IsNot None
+(method == 'linear' or method =/= 'unify')
+self._month_name_to_ordinal IsNot None
+NOT(isinstance(self.contamination,[float,int]))
+self._month_name_to_ordinal IsNot None
+'call' NotIn self._context
+'call' NotIn self._context
+('imports' NotIn self._context or module In imp)
+('call' NotIn self._context or NOT(hasattr(self._context['call'],'keywords')))
+(('node' NotIn self._context or NOT(hasattr(self._context['node'],'args'))) or NOT(hasattr(self._context['node'].args,'defaults')))
+NOT(isinstance(self.contamination,[float,int]))
+(NOT(max_args) or position_num >= max_args)
+NOT(isinstance(self.contamination,[float,int]))
+'call' NotIn self._context
+NOT(isinstance(self.contamination,[float,int]))
+(('node' NotIn self._context or NOT(hasattr(self._context['node'],'args'))) or NOT(hasattr(self._context['node'].args,'defaults')))
+('call' NotIn self._context or NOT(hasattr(self._context['call'],'args')))
+('call' NotIn self._context or NOT(hasattr(self._context['call'],'args')))
+(method == 'linear' or method =/= 'unify')
+(method == 'linear' or method =/= 'unify')
+self._month_name_to_ordinal IsNot None
+NOT(isinstance(self.contamination,[float,int]))
+NOT(isinstance(self.contamination,[float,int]))
+NOT(hdr)
+NOT(isinstance(self.contamination,[float,int]))
+NOT(isinstance(self.contamination,[float,int]))
+(method == 'linear' or method =/= 'unify')
+(method == 'linear' or method =/= 'unify')
+np.min(self.hidden_neurons) > self.n_features_
+(np.min(self.hidden_neurons) > self.n_features_ or NOT(self.preprocessing))
+NOT(self.preprocessing)
+NOT(self.preprocessing)
+np.min(self.hidden_neurons) > self.n_features_
+np.min(self.hidden_neurons) > self.n_features_
+np.min(self.hidden_neurons) > self.n_features_
+NOT(isinstance(self.contamination,[float,int]))
+NOT(isinstance(self.contamination,[float,int]))
+NOT(isinstance(self.contamination,[float,int]))
+NOT(isinstance(self.contamination,[float,int]))
+top Is None
+(appctx Is None or (reqctx Is None or scheme IsNot None)) and (appctx Is None or (reqctx Is None or NOT(external))) and (appctx Is None or (reqctx IsNot None or (url_adapter Is None or scheme IsNot None))) and (appctx Is None or (reqctx IsNot None or (url_adapter Is None or NOT(external))))
+self._refcnt > 0
+(appctx Is None or reqctx Is None) and (appctx Is None or url_adapter Is None)
+(method == 'linear' or method =/= 'unify')
+(method == 'linear' or method =/= 'unify')
+(token == 'YYYY' or (token == 'YY' or (token In ['MMMM','MMM'] or (token In ['MM','M'] or (token In ['DDDD','DDD'] or (token In ['DD','D'] or (token == 'Do' or token =/= 'dddd')))))))
+self.session IsNot None
+app_ctx IsNot None and app_ctx.app == self.app
+self._implicit_app_ctx_stack
+(self.request.environ.get('flask._preserve_context') or exc Is None)
+(token == 'YYYY' or (token == 'YY' or (token In ['MMMM','MMM'] or (token In ['MM','M'] or (token In ['DDDD','DDD'] or (token In ['DD','D'] or (token == 'Do' or (token == 'dddd' or (token == 'ddd' or (token.upper() In ['HH','H'] or (token In ['mm','m'] or (token In ['ss','s'] or (token == 'S' or (token == 'X' or (token == 'x' or (token In ['ZZZ','ZZ','Z'] or (token NotIn ['a','A'] or value In [self.locale.meridians['am'],self.locale.meridians['AM']])))))))))))))))))
+(token == 'YYYY' or (token == 'YY' or token NotIn ['MMMM','MMM']))
+(token == 'YYYY' or (token == 'YY' or (token In ['MMMM','MMM'] or (token In ['MM','M'] or (token In ['DDDD','DDD'] or (token In ['DD','D'] or (token == 'Do' or (token == 'dddd' or (token == 'ddd' or (token.upper() In ['HH','H'] or (token In ['mm','m'] or (token In ['ss','s'] or (token == 'S' or (token == 'X' or (token == 'x' or (token In ['ZZZ','ZZ','Z'] or token NotIn ['a','A']))))))))))))))))
+(token == 'YYYY' or (token == 'YY' or (token In ['MMMM','MMM'] or (token In ['MM','M'] or (token In ['DDDD','DDD'] or (token In ['DD','D'] or (token == 'Do' or (token == 'dddd' or token =/= 'ddd'))))))))
+(u In self._node or u Is None)
+(node_for_adding In self._node or node_for_adding Is None)
+as_view Is True
+node_for_adding NotIn self._node
+(NOT(newnode) or n Is None)
+(v In self._node or v Is None)
+(u In self._node or (u Is None or (v In self._node or v Is None))) and (u NotIn self._node or (v In self._node or v Is None))
+(v In self._node or (v Is None or (u In self._node or u Is None))) and (v NotIn self._node or (u In self._node or u Is None))
+(reqctx Is None or reqctx.request.blueprint Is None)
+(self.cookie_jar Is None or sess Is None)
+(self.cookie_jar Is None or sess Is None)
+NOT(clear_request)
+reqctx Is None
+(prompt IsNot True or self.name Is None)
+(self.hidden or (NOT(self.show_envvar) or (envvar IsNot None or ((NOT(self.allow_from_autoenv) or ctx.auto_envvar_prefix Is None) or self.name Is None))))
+(rv IsNot None or ((NOT(self.allow_from_autoenv) or ctx.auto_envvar_prefix Is None) or self.name Is None))
+(node_for_adding In self._node or node_for_adding Is None)
+(u In self._node or (u Is None or v NotIn self._node)) and (u In self._node or (u Is None or v Is None)) and (u NotIn self._node or v NotIn self._node) and (u NotIn self._node or v Is None)
+(NOT(newnode) or n Is None)
+(v In self._node or v Is None)
+u Is None
+(u In self._node or (u Is None or (v In self._node or v Is None))) and (u NotIn self._node or (v In self._node or v Is None))
+as_view Is True
+(u In self._node or u Is None)
+(v In self._node or (v Is None or (u In self._node or u Is None))) and (v NotIn self._node or (u In self._node or u Is None))
+(u In self._node or (u Is None or v NotIn self._node)) and (u In self._node or (u Is None or v Is None)) and (u NotIn self._node or v NotIn self._node) and (u NotIn self._node or v Is None)
+(u In self._node or (u Is None or v NotIn self._node)) and (u In self._node or (u Is None or v Is None)) and (u NotIn self._node or v NotIn self._node) and (u NotIn self._node or v Is None)
+(self._width Is None or self._height Is None)
+(NOT(isinstance(predicate,Parameter)) or predicate.param_type == 'selection')
+url_prefix IsNot None
+subdomain IsNot None
+(self.url_prefix Is None or NOT(rule))
+(name NotIn app.blueprints or (app.blueprints[name] IsNot self or (state.url_prefix Is None or bp_url_prefix Is None))) and (name In app.blueprints or (state.url_prefix Is None or bp_url_prefix Is None))
+NOT(hasattr(self._md,'Meta'))
+name NotIn formatted_fields
+name NotIn formatted_fields
+(NOT(newnode) or n Is None)
+(v In self._succ or v Is None)
+(u In self._succ or u Is None)
+(node_for_adding In self._succ or node_for_adding Is None)
+as_view Is True
+(v In self._succ or (v Is None or (u In self._succ or u Is None))) and (v NotIn self._succ or (u In self._succ or u Is None))
+(u In self._succ or (u Is None or (v In self._succ or v Is None))) and (u NotIn self._succ or (v In self._succ or v Is None))
+(as_view Is True or reciprocal Is True)
+(u In self._succ or (u Is None or v NotIn self._succ)) and (u In self._succ or (u Is None or v Is None)) and (u NotIn self._succ or v NotIn self._succ) and (u NotIn self._succ or v Is None)
+u Is None
+url.lower().startswith(prefix.lower())
+NOT(hasattr(self,'category'))
+(u In self._succ or (u Is None or v NotIn self._succ)) and (u In self._succ or (u Is None or v Is None)) and (u NotIn self._succ or v NotIn self._succ) and (u NotIn self._succ or v Is None)
+(u NotIn self._succ or v NotIn self._succ[u])
+(NOT(newnode) or n Is None)
+(u In self._succ or u Is None)
+(node_for_adding In self._succ or node_for_adding Is None)
+(v In self._succ or (v Is None or (u In self._succ or u Is None))) and (v NotIn self._succ or (u In self._succ or u Is None))
+(u In self._succ or (u Is None or (v In self._succ or v Is None))) and (u NotIn self._succ or (v In self._succ or v Is None))
+u NotIn self._succ
+(v In self._succ or v Is None)
+(node_for_adding In self._succ or node_for_adding Is None)
+(u In self._succ or (u Is None or v NotIn self._succ)) and (u In self._succ or (u Is None or v Is None)) and (u NotIn self._succ or v NotIn self._succ) and (u NotIn self._succ or v Is None)
+(u In self._succ or (u Is None or (v In self._succ or v Is None))) and (u NotIn self._succ or (v In self._succ or v Is None))
+(u NotIn self._succ or v NotIn self._succ[u])
+(u In self._succ or u Is None)
+(v In self._succ or (v Is None or (u In self._succ or u Is None))) and (v NotIn self._succ or (u In self._succ or u Is None))
+(NOT(newnode) or n Is None)
+(v In self._succ or v Is None)
+self.metavar IsNot None
+nargs IsNot None
+(NOT(__debug__) or NOT(self.type.is_composite))
+(rv Is None or value_depth <= 0)
+as_view Is True
+(value Is None or self.nargs == 1)
+(node_for_adding In self._node or node_for_adding Is None)
+self._custom_shell_complete IsNot None
+(self.metavar IsNot None or metavar IsNot None)
+node_for_adding NotIn self._node
+(nargs IsNot None or NOT(self.type.is_composite))
+(u In self._adj or (u Is None or (v In self._adj or v Is None))) and (u NotIn self._adj or (v In self._adj or v Is None))
+(self.hidden or (NOT(isinstance(self.type,types._NumberRangeBase)) or self.count)) and (self.hidden or (NOT(isinstance(self.type,types._NumberRangeBase)) or self.type.min == 0)) and (self.hidden or (NOT(isinstance(self.type,types._NumberRangeBase)) or self.type.max Is None))
+(NOT(newnode) or n Is None)
+(self.hidden or NOT(isinstance(self.type,types._NumberRangeBase)))
+(u In self._adj or u Is None)
+d.date.year =/= 1970
+NOT(hasattr(self,'date'))
+d.date.year =/= 1970
+(u In self._adj or u Is None)
+(node_for_adding In self._node or node_for_adding Is None)
+as_view Is True
+(u In self._adj or (u Is None or (v In self._adj or (v Is None or v NotIn self._adj[u])))) and (u In self._adj or (u Is None or (v NotIn self._adj or v NotIn self._adj[u]))) and (u NotIn self._adj or (v In self._adj or (v Is None or v NotIn self._adj[u]))) and (u NotIn self._adj or (v NotIn self._adj or v NotIn self._adj[u]))
+(NOT(newnode) or n Is None)
+(u In self._adj or (u Is None or (v In self._adj or (v Is None or v In self._adj[u])))) and (u In self._adj or (u Is None or (v NotIn self._adj or v In self._adj[u]))) and (u NotIn self._adj or (v In self._adj or (v Is None or v In self._adj[u]))) and (u NotIn self._adj or (v NotIn self._adj or v In self._adj[u]))
+(u In self._adj or (u Is None or (v In self._adj or v Is None))) and (u NotIn self._adj or (v In self._adj or v Is None))
+(u In self._adj or (u Is None or v NotIn self._adj)) and (u In self._adj or (u Is None or v Is None)) and (u NotIn self._adj or v NotIn self._adj) and (u NotIn self._adj or v Is None)
+(u In self._adj or (u Is None or (v In self._adj or (v Is None or v In self._adj[u])))) and (u In self._adj or (u Is None or (v NotIn self._adj or v In self._adj[u]))) and (u NotIn self._adj or (v In self._adj or (v Is None or v In self._adj[u]))) and (u NotIn self._adj or (v NotIn self._adj or v In self._adj[u]))
+NOT(hasattr(self,'author'))
+(hasattr(self,'author') or NOT(hasattr(self,'authors')))
+NOT(hasattr(self,'modified'))
+NOT(node_ok_shorter)
+self._gaps
+(NOT(self._gaps) or NOT(self._discard_empty))
+self._gaps
+(NOT(self._gaps) or NOT(self._discard_empty))
+self.method Is None
+self.formatter Is None
+(NOT(self.title) or isinstance(self.title,str))
+NOT(hasattr(self,'category'))
+NOT(hasattr(self,'date'))
+(should_pulse or (NOT(self.total) or completed Is None))
+self.total Is None
+(should_pulse or self.total Is None)
+NOT(hasattr(self,'author'))
+normed_value In normed_choices
+(hasattr(self,'author') or NOT(hasattr(self,'authors')))
+NOT(hasattr(self,'modified'))
+NOT(hasattr(self,'category'))
+NOT(hasattr(self,'date'))
+NOT(hasattr(self,'author'))
+((table_width >= max_width or NOT(self.expand)) or self.min_width Is None) and ((self.min_width Is None or table_width >= self.min_width-extra_width) or self.min_width Is None)
+(table_width < max_width or self.min_width Is None) and (self.expand or self.min_width Is None)
+NOT(self.box)
+self._custom_shell_complete IsNot None
+nargs IsNot None
+self.metavar IsNot None
+(NOT(__debug__) or NOT(self.type.is_composite))
+(value Is None or self.nargs == 1)
+(nargs IsNot None or NOT(self.type.is_composite))
+(rv Is None or self.nargs == 1)
+(max_width < 1 or column.width Is None)
+self._index IsNot None and url Is None and time.time()-self._index_timestamp <= self.INDEX_TIMEOUT
+self._index IsNot None and url Is None and time.time()-self._index_timestamp <= self.INDEX_TIMEOUT
+(other.is_var() or NOT(other.is_function()))
+self.code_width Is None
+(other.is_var() or (NOT(other.is_function()) or (sa Is None or sd Is None)))
+(left_edge.end() =/= right_edge.start() or NOT(self._combinator.can_combine(left_edge.categ(),right_edge.categ())))
+left_edge.end() =/= right_edge.start()
+self._stream Is None
+((self.line_numbers or self.word_wrap) or self.line_range)
+(background_style.transparent_background or console.color_system NotIn ['256','truecolor'])
+NOT(self.padding)
+(NOT(self.line_numbers) or (NOT(self.indent_guides) or options.ascii_only)) and (NOT(self.word_wrap) or (NOT(self.indent_guides) or options.ascii_only)) and (NOT(self.line_range) or (NOT(self.indent_guides) or options.ascii_only))
+(background_style.transparent_background or console.color_system NotIn ['256','truecolor'])
+(self.value_repr or (self.children Is None or (NOT(self.children) or ((NOT(self.is_tuple) or self.is_namedtuple) or len(self.children) =/= 1))))
+NOT(node.is_tuple)
+(self.value_repr or (self.children Is None or NOT(self.children)))
+self.node Is None
+(node_type NotIn 'code' or self._syntax Is None)
+(NOT(renderables) or self.width Is None)
+(self._started or (refresh or NOT(self.auto_refresh)))
+(NOT(self._started) or (NOT(self.auto_refresh) or self._refresh_thread Is None))
+self.parent Is None
+self.parent Is None
+(self.parent Is None or NOT(isinstance(self.parent.command,Command)))
+(body IsNot None or self.method In ['GET','HEAD'])
+((400 > r.status_code or r.status_code >= 500) or ('digest' NotIn s_auth.lower() or self._thread_local.num_401_calls >= 2))
+resp.status_code In [codes.temporary_redirect,codes.permanent_redirect]
+(body IsNot None or (self.method In ['GET','HEAD'] or self.headers.get('Content-Length') IsNot None))
+NOT(headers)
+(NOT(data) or (NOT(is_stream) or (files or length))) and (json IsNot None or (NOT(is_stream) or (files or length)))
+self.headers Is None
+(NOT(data) or (is_stream or (NOT(content_type) or 'content-type' In self.headers))) and (json IsNot None or (is_stream or (NOT(content_type) or 'content-type' In self.headers)))
+(body Is None or NOT(length))
+cookie_header Is None
+(NOT(data) or (NOT(is_stream) or (files or NOT(length)))) and (json IsNot None or (NOT(is_stream) or (files or NOT(length))))
+NOT(self._thread_local.last_nonce)
+NOT(children)
+stack.syntax_error Is None
+'--' NotIn args and _start_of_option(ctx,incomplete)
+(ctx.protected_args or (self.invoke_without_command or self.chain)) and (NOT(ctx.protected_args) or self.chain)
+NOT(isinstance(ctx.command,MultiCommand))
+(ctx.protected_args or (self.invoke_without_command or NOT(self.chain))) and (NOT(ctx.protected_args) or NOT(self.chain))
+(auto_envvar_prefix IsNot None or ((parent Is None or parent.auto_envvar_prefix Is None) or self.info_name Is None))
+self.total Is None
+NOT(self.total)
+(self.start_time Is None or self.stop_time Is None)
+(self.start_time Is None or self.stop_time IsNot None)
+(self.start_time Is None or self.stop_time Is None)
+(((default_map IsNot None or info_name Is None) or parent Is None) or parent.default_map Is None)
+self.default_map Is None
+NOT(self.highlighter)
+len(state.rargs) >= nargs
+(len(state.rargs) < nargs or nargs =/= 1)
+self._f Is None
+self.closed
+(self.is_hidden or line == self._last_line)
+self.is_hidden
+self.is_hidden
+(self.is_hidden or self.max_width Is None)
+self.linebuffer Is None
+self.linebuffer Is None
+(len(chars) > offset or len(chars) =/= offset)
+NOT(bom_info)
+(len(chars) > offset or len(chars) == offset)
+(size == 0 or ((size Is None or chars) or len(new_bytes) <= 0))
+NOT(bom_info)
+(size == 0 or (NOT(self._bom) or self.stream.tell() =/= 0))
+whence == 1
+(self.linebuffer Is None or NOT(self.DEBUG))
+self.linebuffer IsNot None
+self.linebuffer Is None
+self.linebuffer and len(self.linebuffer) > 1
+whence == 1
+(size == 0 or size IsNot None)
+(size == 0 or size Is None)
+self.linebuffer Is None
+(self.linebuffer Is None or NOT(self.DEBUG))
+(size == 0 or NOT(self._bom))
+(self.linebuffer or NOT(self.linebuffer)) and (len(self.linebuffer) > 1 or NOT(self.linebuffer))
+(NOT(self.linebuffer) or len(self.linebuffer) <= 1)
+NOT(self.linebuffer)
+self.linebuffer Is None
+NOT(resp.is_redirect)
+(400 > r.status_code or r.status_code >= 500)
+NOT(resp.is_redirect)
+resp.is_redirect
+NOT(resolution)
+hasattr(self.raw,'stream')
+self._patched_response
+self._content_consumed
+len(resp.history) >= self.max_redirects
+self._known_patterns IsNot None
+NOT(isinstance(self.reason,bytes))
+NOT(isinstance(self.reason,bytes))
+NOT(isinstance(self.function.type,ComplexType))
+NOT(isinstance(self.function,ConstantExpression))
+isinstance(self.function,AbstractVariableExpression)
+isinstance(self.function,ConstantExpression)
+NOT(isinstance(function,LambdaExpression))
+(NOT(isinstance(function,LambdaExpression)) or NOT(isinstance(function.term,ApplicationExpression)))
+variable == self.variable
+(NOT(isinstance(self,other.__class__)) or self.variable == other.variable) and (NOT(isinstance(other,self.__class__)) or self.variable == other.variable)
+self.variable == variable
+(self.variable =/= variable or NOT(replace_bound))
+NOT(resolution)
+(write_to_stdout or (output IsNot None or (NOT(changed) or (show_diff or ask_to_apply)))) and (write_to_stdout or (output IsNot None or (NOT(changed) or (show_diff or ask_to_apply)))) and (write_to_stdout or (output IsNot None or (NOT(changed) or (show_diff or NOT(ask_whether_to_apply_changes_to_file(str(source_file.path)))))))
+(write_to_stdout or (output Is None or (NOT(changed) or NOT(show_diff))))
+(write_to_stdout or (output IsNot None or (NOT(changed) or NOT(show_diff)))) and (write_to_stdout or (output IsNot None or (NOT(changed) or NOT(ask_to_apply))))
+(write_to_stdout or output Is None)
+(write_to_stdout or (output Is None or (NOT(changed) or NOT(show_diff))))
+(write_to_stdout or (output IsNot None or (NOT(changed) or NOT(show_diff)))) and (write_to_stdout or (output IsNot None or (NOT(changed) or NOT(ask_to_apply))))
+NOT(self.mapping)
+NOT(other_type.matches(TRUTH_TYPE))
+variable == self.variable
+(NOT(isinstance(self,other.__class__)) or self.variable == other.variable) and (NOT(isinstance(other,self.__class__)) or self.variable == other.variable)
+self.variable == variable
+(self.variable =/= variable or NOT(replace_bound))
+NOT(other_type.matches(TRUTH_TYPE))
+NOT(other_type.matches(TRUTH_TYPE))
+hasattr(self,'_most_informative_features')
+self._decisions Is None
+(self._fname Is None or fval NotIn self._decisions)
+self._fname Is None
+(len(labeled_featuresets) <= support_cutoff or (self._fname Is None or (depth_cutoff <= 0 or entropy(MLEProbDist(label_freqs)) <= entropy_cutoff)))
+((400 > r.status_code or r.status_code >= 500) or ('digest' NotIn s_auth.lower() or self._thread_local.num_401_calls >= 2))
+'Authorization' NotIn headers
+((400 > r.status_code or r.status_code >= 500) or ('digest' NotIn s_auth.lower() or self._thread_local.num_401_calls >= 2))
+(NOT(self._alwayson) or label NotIn self._alwayson)
+(set(mapping.values()) =/= set(range(len(mapping))) or NOT(alwayson_features))
+(NOT(self._alwayson) or label NotIn self._alwayson)
+(set(mapping.values()) =/= set(range(len(mapping))) or NOT(alwayson_features))
+NOT(line.strip())
+NOT(tokens)
+self._stream Is None
+(self._open_piece Is piece or self._open_piece Is None)
+self._stream Is None
+NOT(recursive)
+isinstance(self.function,ConstantExpression)
+isinstance(self.function,AbstractVariableExpression)
+NOT(isinstance(self.function,ConstantExpression))
+NOT(recursive)
+(NOT(isinstance(expression,ApplicationExpression)) or NOT(expression.is_pronoun_function()))
+NOT(self.consequent)
+(NOT(self.consequent) or NOT(accum))
+NOT(drs.consequent)
+(NOT(recursive) or NOT(self.consequent))
+(variable NotIn self.refs or (NOT(replace_bound) or NOT(self.consequent)))
+(variable In self.refs or NOT(self.consequent))
+NOT(self.consequent)
+(NOT(accessible_vars) or NOT(bv_available))
+self.variable == variable
+(NOT(isinstance(self,other.__class__)) or self.variable == other.variable) and (NOT(isinstance(other,self.__class__)) or self.variable == other.variable)
+NOT(accessible_vars)
+NOT(isinstance(function,LambdaExpression))
+self.variable == variable
+NOT(recursive)
+(((NOT(isinstance(cond,EqualityExpression)) or NOT(isinstance(cond.first,AbstractVariableExpression))) or NOT(isinstance(cond.second,AbstractVariableExpression))) or cond.second.variable == cond.first.variable)
+((NOT(isinstance(cond,EqualityExpression)) or NOT(isinstance(cond.first,AbstractVariableExpression))) or NOT(isinstance(cond.second,AbstractVariableExpression)))
+((NOT(isinstance(cond,EqualityExpression)) or NOT(isinstance(cond.first,AbstractVariableExpression))) or NOT(isinstance(cond.second,AbstractVariableExpression)))
+NOT(other_type.matches(TRUTH_TYPE))
+NOT(other_type.matches(TRUTH_TYPE))
+NOT(other_type.matches(TRUTH_TYPE))
+(isinstance(a,NegatedExpression) or (isinstance(a,ApplicationExpression) or (isinstance(a,EqualityExpression) or NOT(isinstance(b,EqualityExpression))))) and (isinstance(a,NegatedExpression) or (isinstance(b,NegatedExpression) or (isinstance(a,EqualityExpression) or NOT(isinstance(b,EqualityExpression))))) and (isinstance(b,ApplicationExpression) or (isinstance(a,ApplicationExpression) or (isinstance(a,EqualityExpression) or NOT(isinstance(b,EqualityExpression))))) and (isinstance(b,ApplicationExpression) or (isinstance(b,NegatedExpression) or (isinstance(a,EqualityExpression) or NOT(isinstance(b,EqualityExpression)))))
+NOT(other_type.matches(TRUTH_TYPE))
+NOT(other_type.matches(TRUTH_TYPE))
+self == ANY_TYPE
+self == ANY_TYPE
+self._chart Is None
+(self._chart Is None or self._trace <= 0)
+language NotIn self.languages
+language NotIn self.languages
+NOT(line.strip())
+(i == 0 or (NOT(alignment_info.is_head_word(j)) or previous_cept Is None))
+(probability < MIN_PROB or (probability < MIN_PROB or (probability < MIN_PROB or probability < MIN_PROB)))
+(probability < MIN_PROB or (probability < MIN_PROB or probability < MIN_PROB))
+(tablet_length == 0 or (value < MIN_PROB or value < MIN_PROB))
+(probability < MIN_PROB or (probability < MIN_PROB or (probability < MIN_PROB or probability < MIN_PROB)))
+tablet_length == 0
+i Is None
+tablet_position == 0
+(i == 0 or (NOT(alignment_info.is_head_word(j)) or previous_cept Is None))
+(i == 0 or NOT(alignment_info.is_head_word(j)))
+(i == 0 or alignment_info.is_head_word(j))
+tablet_length == 0
+(tablet_length == 0 or (value < MIN_PROB or value < MIN_PROB))
+j == j_pegged
+phrase NotIn self.phrase_table
+phrase NotIn self.phrase_table
+environment.line_statement_prefix Is None
+environment.line_comment_prefix Is None
+NOT(ignore_errors)
+(self.loader Is None or self.cache IsNot None) and (self.loader Is None or template IsNot None) and (self.loader Is None or (NOT(self.auto_reload) or template.is_up_to_date))
+(self.loader Is None or self.cache Is None)
+(self.loader Is None or (self.cache Is None or (template IsNot None or self.cache Is None))) and (self.loader Is None or (self.cache Is None or ((NOT(self.auto_reload) or template.is_up_to_date) or self.cache Is None))) and (self.loader Is None or (self.cache IsNot None or self.cache Is None))
+NOT(isinstance(node.node,nodes.Name))
+(eval_ctx.volatile or ((func Is None or pass_arg Is _PassArg.context) or eval_ctx.environment.is_async)) and (eval_ctx.volatile or ((func Is None or pass_arg Is _PassArg.context) or (getattr(func,'jinja_async_variant',False) Is True or inspect.iscoroutinefunction(func))))
+algorithm IsNot None
+itsdangerousitsdangerous.signer.Signer.algorithm
+algorithm IsNot None
+itsdangerousitsdangerous.timed.TimestampSigner.algorithm
+NOT(self.preprocessing)
+pyodpyod.models.vae.VAE.scaler_
+(np.min(self.encoder_neurons) > self.n_features_ or NOT(self.preprocessing))
+pyodpyod.models.vae.VAE.scaler_
+NOT(self.preprocessing)
+pyodpyod.models.vae.VAE.scaler_
+np.min(self.encoder_neurons) > self.n_features_
+pyodpyod.models.vae.VAE.model_
+np.min(self.encoder_neurons) > self.n_features_
+pyodpyod.models.vae.VAE.model_
+self.protocol_id =/= ImpactPacket.UDP.protocol
+impacketimpacket.ImpactDecoder.IP6MultiProtocolDecoder.udp_decoder
+self._db.get(key,{}).get('etag') == etag
+thefuckthefuck.utils.Cache._db
+self._db.get(key,{}).get('etag') =/= etag
+thefuckthefuck.utils.Cache._db
+(self.protocol_id == ImpactPacket.UDP.protocol or (self.protocol_id == ImpactPacket.TCP.protocol or (self.protocol_id == ICMP6.ICMP6.protocol or (NOT(buffer) or self.protocol_id NotIn extension_headers))))
+impacketimpacket.ImpactDecoder.IP6MultiProtocolDecoder.extension_header_decoder
+NOT(isinstance(self.contamination,[float,int]))
+pyodpyod.models.vae.VAE.decision_scores_
+(self.protocol_id == ImpactPacket.UDP.protocol or (self.protocol_id == ImpactPacket.TCP.protocol or self.protocol_id =/= ICMP6.ICMP6.protocol))
+impacketimpacket.ImpactDecoder.IP6MultiProtocolDecoder.icmp6_decoder
+(self.protocol_id == ImpactPacket.UDP.protocol or (self.protocol_id == ImpactPacket.TCP.protocol or (self.protocol_id == ICMP6.ICMP6.protocol or buffer))) and (self.protocol_id == ImpactPacket.UDP.protocol or (self.protocol_id == ImpactPacket.TCP.protocol or (self.protocol_id == ICMP6.ICMP6.protocol or self.protocol_id In extension_headers)))
+impacketimpacket.ImpactDecoder.IP6MultiProtocolDecoder.data_decoder
+(len(pairs[0]) =/= 1 or NOT(line.startswith(' ')))
+icecreamicecream.icecream.IceCreamDebugger.prefix
+NOT(line.startswith(ic.prefix))
+icecreamicecream.icecream.IceCreamDebugger.prefix
+NOT(isinstance(self.contamination,[float,int]))
+pyodpyod.models.vae.VAE.threshold_
+NOT(isinstance(self.contamination,[float,int]))
+pyodpyod.models.vae.VAE.threshold_
+NOT(isinstance(self.contamination,[float,int]))
+pyodpyod.models.vae.VAE.threshold_
+(method == 'linear' or method =/= 'unify')
+pyodpyod.models.vae.VAE._mu
+(len(frequencies) <= 0 or self.mask Is None)
+wordcloudwordcloud.wordcloud.WordCloud.mask
+(len(frequencies) <= 0 or self.mask Is None)
+wordcloudwordcloud.wordcloud.WordCloud.mask
+self.mask Is None
+wordcloudwordcloud.wordcloud.WordCloud.mask
+self.mask Is None
+wordcloudwordcloud.wordcloud.WordCloud.mask
+(method == 'linear' or method =/= 'unify')
+pyodpyod.models.vae.VAE._sigma
+NOT(isinstance(self.contamination,[float,int]))
+pyodpyod.models.kpca.KPCA.decision_scores_
+self._axis_index <= 0
+pyechartspyecharts.charts.composite_charts.grid.Grid.options
+self.options IsNot None
+pyechartspyecharts.charts.composite_charts.grid.Grid.options
+self._axis_index <= 0
+pyechartspyecharts.charts.composite_charts.grid.Grid.options
+(self.options IsNot None or is_control_axis_index)
+pyechartspyecharts.charts.composite_charts.grid.Grid.options
+self.options IsNot None
+pyechartspyecharts.charts.composite_charts.grid.Grid.options
+(('node' NotIn self._context or NOT(hasattr(self._context['node'],'args'))) or NOT(hasattr(self._context['node'].args,'defaults')))
+banditbandit.core.context.Context._context
+('call' NotIn self._context or NOT(hasattr(self._context['call'],'args')))
+banditbandit.core.context.Context._context
+'call' NotIn self._context
+banditbandit.core.context.Context._context
+'call' NotIn self._context
+banditbandit.core.context.Context._context
+('call' NotIn self._context or NOT(hasattr(self._context['call'],'keywords')))
+banditbandit.core.context.Context._context
+('call' NotIn self._context or NOT(hasattr(self._context['call'],'args')))
+banditbandit.core.context.Context._context
+'call' NotIn self._context
+banditbandit.core.context.Context._context
+('imports' NotIn self._context or module In imp)
+banditbandit.core.context.Context._context
+(NOT(max_args) or position_num >= max_args)
+banditbandit.core.context.Context._context
+(('node' NotIn self._context or NOT(hasattr(self._context['node'],'args'))) or NOT(hasattr(self._context['node'].args,'defaults')))
+banditbandit.core.context.Context._context
+NOT(isinstance(self.contamination,[float,int]))
+pyodpyod.models.kpca.KPCA.threshold_
+NOT(isinstance(self.contamination,[float,int]))
+pyodpyod.models.kpca.KPCA.threshold_
+NOT(isinstance(self.contamination,[float,int]))
+pyodpyod.models.kpca.KPCA.threshold_
+(method == 'linear' or method =/= 'unify')
+pyodpyod.models.kpca.KPCA._mu
+(method == 'linear' or method =/= 'unify')
+pyodpyod.models.kpca.KPCA._sigma
+self.options.get('dataset') IsNot None
+pyechartspyecharts.charts.basic_charts.scatter.Scatter._xaxis_data
+NOT(isinstance(self.contamination,[float,int]))
+pyodpyod.models.knn.KNN.decision_scores_
+NOT(isinstance(self.contamination,[float,int]))
+pyodpyod.models.knn.KNN.threshold_
+NOT(isinstance(self.contamination,[float,int]))
+pyodpyod.models.knn.KNN.threshold_
+NOT(isinstance(self.contamination,[float,int]))
+pyodpyod.models.knn.KNN.threshold_
+(method == 'linear' or method =/= 'unify')
+pyodpyod.models.knn.KNN._mu
+(method == 'linear' or method =/= 'unify')
+pyodpyod.models.knn.KNN._sigma
+NOT(command.script.startswith('man'))
+thefuckthefuck.types.Command.output
+NOT(is_app(command,'adb'))
+thefuckthefuck.types.Command.output
+'this module is not yet installed' In command.output.lower()
+thefuckthefuck.types.Command.output
+NOT(command.script.startswith('cd '))
+thefuckthefuck.types.Command.output
+NOT(command.script.startswith('cd '))
+thefuckthefuck.types.Command.output
+command.script_parts and '&&' NotIn command.script_parts and command.script_parts[0] == 'sudo'
+thefuckthefuck.types.Command.output
+('No such file or directory' In command.output or NOT(command.output.startswith('cp: directory')))
+thefuckthefuck.types.Command.output
+(('did you mean this?' In command.output.lower() or 'did you mean one of these?' In command.output.lower()) or 'install' NotIn command.script_parts)
+thefuckthefuck.types.Command.output
+command.script_parts and command.script_parts[0] =/= 'sudo'
+thefuckthefuck.types.Command.output
+'rm' NotIn command.script
+thefuckthefuck.types.Command.output
+'did you mean this?' In command.output.lower() and ('did you mean this?' NotIn command.output.lower() or 'did you mean this?' In command.output.lower()) and ('did you mean one of these?' NotIn command.output.lower() or 'did you mean this?' In command.output.lower())
+thefuckthefuck.types.Command.output
+is_arg_url(command)
+thefuckthefuck.types.Command.output
+NOT(command.script.startswith('cd '))
+thefuckthefuck.types.Command.output
+'No such file or directory' In command.output
+thefuckthefuck.types.Command.output
+'install' NotIn command.script_parts
+thefuckthefuck.types.Command.output
+NOT(command.script.startswith('cd '))
+thefuckthefuck.types.Command.output
+command.script =/= 'apt list --upgradable'
+thefuckthefuck.types.Command.output
+('3' In command.script or '2' In command.script)
+thefuckthefuck.types.Command.output
+NOT(command.script.startswith('cd '))
+thefuckthefuck.types.Command.output
+(is_arg_url(command) or NOT(command.output.strip().startswith('The file ')))
+thefuckthefuck.types.Command.output
+NOT(command.script.startswith('cd '))
+thefuckthefuck.types.Command.output
+('Usage:' NotIn command.output or len(command.script_parts) <= 1)
+thefuckthefuck.types.Command.output
+np.min(self.hidden_neurons) > self.n_features_
+pyodpyod.models.auto_encoder.AutoEncoder.n_features_
+NOT(self.preprocessing)
+pyodpyod.models.auto_encoder.AutoEncoder.scaler_
+(np.min(self.hidden_neurons) > self.n_features_ or NOT(self.preprocessing))
+pyodpyod.models.auto_encoder.AutoEncoder.scaler_
+NOT(self.preprocessing)
+pyodpyod.models.auto_encoder.AutoEncoder.scaler_
+np.min(self.hidden_neurons) > self.n_features_
+pyodpyod.models.auto_encoder.AutoEncoder.encoding_dim_
+self._month_name_to_ordinal IsNot None
+arrowarrow.locales.EnglishLocale._month_name_to_ordinal
+np.min(self.hidden_neurons) > self.n_features_
+pyodpyod.models.auto_encoder.AutoEncoder.model_
+np.min(self.hidden_neurons) > self.n_features_
+pyodpyod.models.auto_encoder.AutoEncoder.model_
+NOT(isinstance(self.contamination,[float,int]))
+pyodpyod.models.auto_encoder.AutoEncoder.decision_scores_
+NOT(isinstance(self.contamination,[float,int]))
+pyodpyod.models.auto_encoder.AutoEncoder.threshold_
+NOT(isinstance(self.contamination,[float,int]))
+pyodpyod.models.auto_encoder.AutoEncoder.threshold_
+NOT(isinstance(self.contamination,[float,int]))
+pyodpyod.models.auto_encoder.AutoEncoder.threshold_
+self._month_name_to_ordinal IsNot None
+arrowarrow.locales.FrenchLocale._month_name_to_ordinal
+self._month_name_to_ordinal IsNot None
+arrowarrow.locales.ItalianLocale._month_name_to_ordinal
+self._month_name_to_ordinal IsNot None
+arrowarrow.locales.SpanishLocale._month_name_to_ordinal
+(method == 'linear' or method =/= 'unify')
+pyodpyod.models.auto_encoder.AutoEncoder._mu
+(method == 'linear' or method =/= 'unify')
+pyodpyod.models.auto_encoder.AutoEncoder._sigma
+self._month_name_to_ordinal IsNot None
+arrowarrow.locales.SwedishLocale._month_name_to_ordinal
+self._month_name_to_ordinal IsNot None
+arrowarrow.locales.GermanLocale._month_name_to_ordinal
+top Is None
+flaskflask.ctx.AppContext.app
+self._refcnt > 0
+flaskflask.ctx.AppContext.app
+(appctx Is None or reqctx Is None) and (appctx Is None or url_adapter Is None)
+flaskflask.ctx.AppContext.app
+(appctx Is None or (reqctx Is None or scheme IsNot None)) and (appctx Is None or (reqctx Is None or NOT(external))) and (appctx Is None or (reqctx IsNot None or (url_adapter Is None or scheme IsNot None))) and (appctx Is None or (reqctx IsNot None or (url_adapter Is None or NOT(external))))
+flaskflask.ctx.AppContext.app
+self.session IsNot None
+flaskflask.ctx.RequestContext.app
+(self.request.environ.get('flask._preserve_context') or exc Is None)
+flaskflask.ctx.RequestContext.app
+app_ctx IsNot None and app_ctx.app == self.app
+flaskflask.ctx.RequestContext.app
+self._implicit_app_ctx_stack
+flaskflask.ctx.RequestContext.app
+(token == 'YYYY' or (token == 'YY' or token NotIn ['MMMM','MMM']))
+arrowarrow.parser.DateTimeParser.locale
+(token == 'YYYY' or (token == 'YY' or (token In ['MMMM','MMM'] or (token In ['MM','M'] or (token In ['DDDD','DDD'] or (token In ['DD','D'] or (token == 'Do' or (token == 'dddd' or (token == 'ddd' or (token.upper() In ['HH','H'] or (token In ['mm','m'] or (token In ['ss','s'] or (token == 'S' or (token == 'X' or (token == 'x' or (token In ['ZZZ','ZZ','Z'] or (token NotIn ['a','A'] or value In [self.locale.meridians['am'],self.locale.meridians['AM']])))))))))))))))))
+arrowarrow.parser.DateTimeParser.locale
+(token == 'YYYY' or (token == 'YY' or (token In ['MMMM','MMM'] or (token In ['MM','M'] or (token In ['DDDD','DDD'] or (token In ['DD','D'] or (token == 'Do' or token =/= 'dddd')))))))
+arrowarrow.parser.DateTimeParser.locale
+(token == 'YYYY' or (token == 'YY' or (token In ['MMMM','MMM'] or (token In ['MM','M'] or (token In ['DDDD','DDD'] or (token In ['DD','D'] or (token == 'Do' or (token == 'dddd' or token =/= 'ddd'))))))))
+arrowarrow.parser.DateTimeParser.locale
+(token == 'YYYY' or (token == 'YY' or (token In ['MMMM','MMM'] or (token In ['MM','M'] or (token In ['DDDD','DDD'] or (token In ['DD','D'] or (token == 'Do' or (token == 'dddd' or (token == 'ddd' or (token.upper() In ['HH','H'] or (token In ['mm','m'] or (token In ['ss','s'] or (token == 'S' or (token == 'X' or (token == 'x' or (token In ['ZZZ','ZZ','Z'] or token NotIn ['a','A']))))))))))))))))
+arrowarrow.parser.DateTimeParser.locale
+node_for_adding NotIn self._node
+networkxnetworkx.classes.graph.Graph._node
+(NOT(newnode) or n Is None)
+networkxnetworkx.classes.graph.Graph._node
+(node_for_adding In self._node or node_for_adding Is None)
+networkxnetworkx.classes.graph.Graph._node
+(v In self._node or v Is None)
+networkxnetworkx.classes.graph.Graph._node
+as_view Is True
+networkxnetworkx.classes.graph.Graph._node
+(u In self._node or u Is None)
+networkxnetworkx.classes.graph.Graph._node
+(v In self._node or (v Is None or (u In self._node or u Is None))) and (v NotIn self._node or (u In self._node or u Is None))
+networkxnetworkx.classes.graph.Graph._node
+(u In self._node or (u Is None or (v In self._node or v Is None))) and (u NotIn self._node or (v In self._node or v Is None))
+networkxnetworkx.classes.graph.Graph._node
+NOT(hdr)
+routersploitroutersploit.modules.exploits.generic.heartbleed.Exploit.tcp_client
+reqctx Is None
+flaskflask.ctx.RequestContext.request
+NOT(clear_request)
+flaskflask.ctx.RequestContext.request
+(self.cookie_jar Is None or sess Is None)
+flaskflask.ctx.RequestContext.request
+(self.cookie_jar Is None or sess Is None)
+flaskflask.ctx.RequestContext.request
+(reqctx Is None or reqctx.request.blueprint Is None)
+flaskflask.ctx.RequestContext.request
+(NOT(isinstance(predicate,Parameter)) or predicate.param_type == 'selection')
+altairaltair.vegalite.v5.api.Parameter.param
+(u In self._node or (u Is None or (v In self._node or v Is None))) and (u NotIn self._node or (v In self._node or v Is None))
+networkxnetworkx.classes.graph.Graph._adj
+(u In self._node or u Is None)
+networkxnetworkx.classes.graph.Graph._adj
+(u In self._node or (u Is None or v NotIn self._node)) and (u In self._node or (u Is None or v Is None)) and (u NotIn self._node or v NotIn self._node) and (u NotIn self._node or v Is None)
+networkxnetworkx.classes.graph.Graph._adj
+(v In self._node or v Is None)
+networkxnetworkx.classes.graph.Graph._adj
+as_view Is True
+networkxnetworkx.classes.graph.Graph._adj
+(v In self._node or (v Is None or (u In self._node or u Is None))) and (v NotIn self._node or (u In self._node or u Is None))
+networkxnetworkx.classes.graph.Graph._adj
+(NOT(newnode) or n Is None)
+networkxnetworkx.classes.graph.Graph._adj
+(u In self._node or (u Is None or v NotIn self._node)) and (u In self._node or (u Is None or v Is None)) and (u NotIn self._node or v NotIn self._node) and (u NotIn self._node or v Is None)
+networkxnetworkx.classes.graph.Graph._adj
+(node_for_adding In self._node or node_for_adding Is None)
+networkxnetworkx.classes.graph.Graph._adj
+u Is None
+networkxnetworkx.classes.graph.Graph._adj
+(u In self._node or (u Is None or v NotIn self._node)) and (u In self._node or (u Is None or v Is None)) and (u NotIn self._node or v NotIn self._node) and (u NotIn self._node or v Is None)
+networkxnetworkx.classes.graph.Graph._adj
+(self._width Is None or self._height Is None)
+richrich.console.Console._width
+name NotIn formatted_fields
+pelicanpelican.readers.MarkdownReader._md
+NOT(hasattr(self._md,'Meta'))
+pelicanpelican.readers.MarkdownReader._md
+name NotIn formatted_fields
+pelicanpelican.readers.MarkdownReader._md
+subdomain IsNot None
+flaskflask.blueprints.BlueprintSetupState.blueprint
+url_prefix IsNot None
+flaskflask.blueprints.BlueprintSetupState.blueprint
+(self.url_prefix Is None or NOT(rule))
+flaskflask.blueprints.BlueprintSetupState.url_prefix
+(name NotIn app.blueprints or (app.blueprints[name] IsNot self or (state.url_prefix Is None or bp_url_prefix Is None))) and (name In app.blueprints or (state.url_prefix Is None or bp_url_prefix Is None))
+flaskflask.blueprints.BlueprintSetupState.url_prefix
+(rv IsNot None or ((NOT(self.allow_from_autoenv) or ctx.auto_envvar_prefix Is None) or self.name Is None))
+clickclick.core.Option.name
+(self.hidden or (NOT(self.show_envvar) or (envvar IsNot None or ((NOT(self.allow_from_autoenv) or ctx.auto_envvar_prefix Is None) or self.name Is None))))
+clickclick.core.Option.name
+(prompt IsNot True or self.name Is None)
+clickclick.core.Option.name
+NOT(hasattr(self,'category'))
+pelicanpelican.contents.Article.category
+(NOT(newnode) or n Is None)
+networkxnetworkx.classes.digraph.DiGraph._node
+(u In self._succ or (u Is None or (v In self._succ or v Is None))) and (u NotIn self._succ or (v In self._succ or v Is None))
+networkxnetworkx.classes.digraph.DiGraph._node
+(u In self._succ or u Is None)
+networkxnetworkx.classes.digraph.DiGraph._node
+(v In self._succ or (v Is None or (u In self._succ or u Is None))) and (v NotIn self._succ or (u In self._succ or u Is None))
+networkxnetworkx.classes.digraph.DiGraph._node
+(v In self._succ or v Is None)
+networkxnetworkx.classes.digraph.DiGraph._node
+as_view Is True
+networkxnetworkx.classes.digraph.DiGraph._node
+(node_for_adding In self._succ or node_for_adding Is None)
+networkxnetworkx.classes.digraph.DiGraph._node
+(u In self._succ or (u Is None or v NotIn self._succ)) and (u In self._succ or (u Is None or v Is None)) and (u NotIn self._succ or v NotIn self._succ) and (u NotIn self._succ or v Is None)
+networkxnetworkx.classes.digraph.DiGraph._adj
+u Is None
+networkxnetworkx.classes.digraph.DiGraph._adj
+(as_view Is True or reciprocal Is True)
+networkxnetworkx.classes.digraph.DiGraph._adj
+(v In self._succ or (v Is None or (u In self._succ or u Is None))) and (v NotIn self._succ or (u In self._succ or u Is None))
+networkxnetworkx.classes.digraph.DiGraph._succ
+(u In self._succ or u Is None)
+networkxnetworkx.classes.digraph.DiGraph._succ
+(u In self._succ or (u Is None or v NotIn self._succ)) and (u In self._succ or (u Is None or v Is None)) and (u NotIn self._succ or v NotIn self._succ) and (u NotIn self._succ or v Is None)
+networkxnetworkx.classes.digraph.DiGraph._succ
+(node_for_adding In self._succ or node_for_adding Is None)
+networkxnetworkx.classes.digraph.DiGraph._succ
+u NotIn self._succ
+networkxnetworkx.classes.digraph.DiGraph._succ
+(NOT(newnode) or n Is None)
+networkxnetworkx.classes.digraph.DiGraph._succ
+(u In self._succ or (u Is None or (v In self._succ or v Is None))) and (u NotIn self._succ or (v In self._succ or v Is None))
+networkxnetworkx.classes.digraph.DiGraph._succ
+(v In self._succ or v Is None)
+networkxnetworkx.classes.digraph.DiGraph._succ
+(u NotIn self._succ or v NotIn self._succ[u])
+networkxnetworkx.classes.digraph.DiGraph._succ
+url.lower().startswith(prefix.lower())
+requestsrequests.sessions.Session.adapters
+d.date.year =/= 1970
+pelicanpelican.contents.Article.date
+NOT(hasattr(self,'date'))
+pelicanpelican.contents.Article.date
+d.date.year =/= 1970
+pelicanpelican.contents.Article.date
+(u In self._succ or u Is None)
+networkxnetworkx.classes.digraph.DiGraph._pred
+(u In self._succ or (u Is None or (v In self._succ or v Is None))) and (u NotIn self._succ or (v In self._succ or v Is None))
+networkxnetworkx.classes.digraph.DiGraph._pred
+(v In self._succ or v Is None)
+networkxnetworkx.classes.digraph.DiGraph._pred
+(node_for_adding In self._succ or node_for_adding Is None)
+networkxnetworkx.classes.digraph.DiGraph._pred
+(NOT(newnode) or n Is None)
+networkxnetworkx.classes.digraph.DiGraph._pred
+(u In self._succ or (u Is None or v NotIn self._succ)) and (u In self._succ or (u Is None or v Is None)) and (u NotIn self._succ or v NotIn self._succ) and (u NotIn self._succ or v Is None)
+networkxnetworkx.classes.digraph.DiGraph._pred
+(v In self._succ or (v Is None or (u In self._succ or u Is None))) and (v NotIn self._succ or (u In self._succ or u Is None))
+networkxnetworkx.classes.digraph.DiGraph._pred
+(u NotIn self._succ or v NotIn self._succ[u])
+networkxnetworkx.classes.digraph.DiGraph._pred
+NOT(hasattr(self,'author'))
+pelicanpelican.contents.Article.author
+(hasattr(self,'author') or NOT(hasattr(self,'authors')))
+pelicanpelican.contents.Article.authors
+NOT(hasattr(self,'modified'))
+pelicanpelican.contents.Article.modified
+node_for_adding NotIn self._node
+networkxnetworkx.classes.multigraph.MultiGraph._node
+(node_for_adding In self._node or node_for_adding Is None)
+networkxnetworkx.classes.multigraph.MultiGraph._node
+(u In self._adj or (u Is None or (v In self._adj or v Is None))) and (u NotIn self._adj or (v In self._adj or v Is None))
+networkxnetworkx.classes.multigraph.MultiGraph._node
+(u In self._adj or u Is None)
+networkxnetworkx.classes.multigraph.MultiGraph._node
+as_view Is True
+networkxnetworkx.classes.multigraph.MultiGraph._node
+(NOT(newnode) or n Is None)
+networkxnetworkx.classes.multigraph.MultiGraph._node
+self._gaps
+nltknltk.tokenize.regexp.WordPunctTokenizer._regexp
+(NOT(self._gaps) or NOT(self._discard_empty))
+nltknltk.tokenize.regexp.WhitespaceTokenizer._regexp
+(NOT(self._gaps) or NOT(self._discard_empty))
+nltknltk.tokenize.regexp.RegexpTokenizer._regexp
+self._gaps
+nltknltk.tokenize.regexp.RegexpTokenizer._regexp
+(u In self._adj or (u Is None or (v In self._adj or (v Is None or v NotIn self._adj[u])))) and (u In self._adj or (u Is None or (v NotIn self._adj or v NotIn self._adj[u]))) and (u NotIn self._adj or (v In self._adj or (v Is None or v NotIn self._adj[u]))) and (u NotIn self._adj or (v NotIn self._adj or v NotIn self._adj[u]))
+networkxnetworkx.classes.multigraph.MultiGraph._adj
+(u In self._adj or (u Is None or (v In self._adj or v Is None))) and (u NotIn self._adj or (v In self._adj or v Is None))
+networkxnetworkx.classes.multigraph.MultiGraph._adj
+as_view Is True
+networkxnetworkx.classes.multigraph.MultiGraph._adj
+(u In self._adj or u Is None)
+networkxnetworkx.classes.multigraph.MultiGraph._adj
+(u In self._adj or (u Is None or (v In self._adj or (v Is None or v In self._adj[u])))) and (u In self._adj or (u Is None or (v NotIn self._adj or v In self._adj[u]))) and (u NotIn self._adj or (v In self._adj or (v Is None or v In self._adj[u]))) and (u NotIn self._adj or (v NotIn self._adj or v In self._adj[u]))
+networkxnetworkx.classes.multigraph.MultiGraph._adj
+(NOT(newnode) or n Is None)
+networkxnetworkx.classes.multigraph.MultiGraph._adj
+(node_for_adding In self._node or node_for_adding Is None)
+networkxnetworkx.classes.multigraph.MultiGraph._adj
+(u In self._adj or (u Is None or v NotIn self._adj)) and (u In self._adj or (u Is None or v Is None)) and (u NotIn self._adj or v NotIn self._adj) and (u NotIn self._adj or v Is None)
+networkxnetworkx.classes.multigraph.MultiGraph._adj
+(u In self._adj or (u Is None or (v In self._adj or (v Is None or v In self._adj[u])))) and (u In self._adj or (u Is None or (v NotIn self._adj or v In self._adj[u]))) and (u NotIn self._adj or (v In self._adj or (v Is None or v In self._adj[u]))) and (u NotIn self._adj or (v NotIn self._adj or v In self._adj[u]))
+networkxnetworkx.classes.multigraph.MultiGraph._adj
+NOT(node_ok_shorter)
+networkxnetworkx.classes.coreviews.FilterAtlas.NODE_OK
+(self.hidden or (NOT(isinstance(self.type,types._NumberRangeBase)) or self.count)) and (self.hidden or (NOT(isinstance(self.type,types._NumberRangeBase)) or self.type.min == 0)) and (self.hidden or (NOT(isinstance(self.type,types._NumberRangeBase)) or self.type.max Is None))
+clickclick.core.Option.type
+nargs IsNot None
+clickclick.core.Option.type
+(rv Is None or value_depth <= 0)
+clickclick.core.Option.type
+self.metavar IsNot None
+clickclick.core.Option.type
+(NOT(__debug__) or NOT(self.type.is_composite))
+clickclick.core.Option.type
+self._custom_shell_complete IsNot None
+clickclick.core.Option.type
+(self.metavar IsNot None or metavar IsNot None)
+clickclick.core.Option.type
+(nargs IsNot None or NOT(self.type.is_composite))
+clickclick.core.Option.type
+(value Is None or self.nargs == 1)
+clickclick.core.Option.type
+(self.hidden or NOT(isinstance(self.type,types._NumberRangeBase)))
+clickclick.core.Option.type
+self.method Is None
+requestsrequests.models.PreparedRequest.method
+self.formatter Is None
+richrich.logging.RichHandler.formatter
+(NOT(self.title) or isinstance(self.title,str))
+richrich.panel.Panel.title
+NOT(hasattr(self,'category'))
+pelicanpelican.contents.Page.category
+NOT(hasattr(self,'date'))
+pelicanpelican.contents.Page.date
+NOT(hasattr(self,'author'))
+pelicanpelican.contents.Page.author
+(should_pulse or self.total Is None)
+richrich.progress_bar.ProgressBar.total
+(should_pulse or (NOT(self.total) or completed Is None))
+richrich.progress_bar.ProgressBar.total
+self.total Is None
+richrich.progress_bar.ProgressBar.total
+(hasattr(self,'author') or NOT(hasattr(self,'authors')))
+pelicanpelican.contents.Page.authors
+NOT(hasattr(self,'modified'))
+pelicanpelican.contents.Page.modified
+NOT(hasattr(self,'category'))
+pelicanpelican.contents.Static.category
+NOT(hasattr(self,'date'))
+pelicanpelican.contents.Static.date
+NOT(hasattr(self,'author'))
+pelicanpelican.contents.Static.author
+((table_width >= max_width or NOT(self.expand)) or self.min_width Is None) and ((self.min_width Is None or table_width >= self.min_width-extra_width) or self.min_width Is None)
+richrich.table.Table.min_width
+(table_width < max_width or self.min_width Is None) and (self.expand or self.min_width Is None)
+richrich.table.Table.min_width
+NOT(self.box)
+richrich.table.Table.box
+(max_width < 1 or column.width Is None)
+richrich.table.Column.width
+self._index IsNot None and url Is None and time.time()-self._index_timestamp <= self.INDEX_TIMEOUT
+nltknltk.downloader.Downloader._index
+self._index IsNot None and url Is None and time.time()-self._index_timestamp <= self.INDEX_TIMEOUT
+nltknltk.downloader.Downloader._index
+(other.is_var() or NOT(other.is_function()))
+nltknltk.ccg.api.FunctionalCategory._res
+(other.is_var() or (NOT(other.is_function()) or (sa Is None or sd Is None)))
+nltknltk.ccg.api.FunctionalCategory._arg
+self.code_width Is None
+richrich.syntax.Syntax.code_width
+(left_edge.end() =/= right_edge.start() or NOT(self._combinator.can_combine(left_edge.categ(),right_edge.categ())))
+nltknltk.ccg.chart.BinaryCombinatorRule._combinator
+left_edge.end() =/= right_edge.start()
+nltknltk.ccg.chart.BinaryCombinatorRule._combinator
+normed_value In normed_choices
+clickclick.types.Choice.choices
+self._stream Is None
+nltknltk.corpus.reader.bnc.BNCWordView._stream
+(background_style.transparent_background or console.color_system NotIn ['256','truecolor'])
+richrich.syntax.Syntax._theme
+(background_style.transparent_background or console.color_system NotIn ['256','truecolor'])
+richrich.syntax.Syntax._theme
+((self.line_numbers or self.word_wrap) or self.line_range)
+richrich.syntax.Syntax._theme
+(NOT(self.line_numbers) or (NOT(self.indent_guides) or options.ascii_only)) and (NOT(self.word_wrap) or (NOT(self.indent_guides) or options.ascii_only)) and (NOT(self.line_range) or (NOT(self.indent_guides) or options.ascii_only))
+richrich.syntax.Syntax._theme
+NOT(self.padding)
+richrich.syntax.Syntax._theme
+(NOT(__debug__) or NOT(self.type.is_composite))
+clickclick.core.Argument.type
+nargs IsNot None
+clickclick.core.Argument.type
+(nargs IsNot None or NOT(self.type.is_composite))
+clickclick.core.Argument.type
+(value Is None or self.nargs == 1)
+clickclick.core.Argument.type
+(rv Is None or self.nargs == 1)
+clickclick.core.Argument.type
+self._custom_shell_complete IsNot None
+clickclick.core.Argument.type
+self.metavar IsNot None
+clickclick.core.Argument.type
+NOT(node.is_tuple)
+richrich.pretty.Node.children
+(self.value_repr or (self.children Is None or NOT(self.children)))
+richrich.pretty.Node.children
+(self.value_repr or (self.children Is None or (NOT(self.children) or ((NOT(self.is_tuple) or self.is_namedtuple) or len(self.children) =/= 1))))
+richrich.pretty.Node.children
+self.node Is None
+richrich.pretty._Line.node
+(node_type NotIn 'code' or self._syntax Is None)
+richrich.markdown.MarkdownContext._syntax
+(NOT(renderables) or self.width Is None)
+richrich.columns.Columns.width
+(self._started or (refresh or NOT(self.auto_refresh)))
+richrich.live.Live._refresh_thread
+(NOT(self._started) or (NOT(self.auto_refresh) or self._refresh_thread Is None))
+richrich.live.Live._refresh_thread
+NOT(children)
+richrich.layout.Layout.splitter
+stack.syntax_error Is None
+richrich.traceback.Stack.syntax_error
+NOT(self._thread_local.last_nonce)
+requestsrequests.models.PreparedRequest.headers
+resp.status_code In [codes.temporary_redirect,codes.permanent_redirect]
+requestsrequests.models.PreparedRequest.headers
+(NOT(data) or (NOT(is_stream) or (files or NOT(length)))) and (json IsNot None or (NOT(is_stream) or (files or NOT(length))))
+requestsrequests.models.PreparedRequest.headers
+(body IsNot None or self.method In ['GET','HEAD'])
+requestsrequests.models.PreparedRequest.headers
+NOT(headers)
+requestsrequests.models.PreparedRequest.headers
+self.headers Is None
+requestsrequests.models.PreparedRequest.headers
+(body IsNot None or (self.method In ['GET','HEAD'] or self.headers.get('Content-Length') IsNot None))
+requestsrequests.models.PreparedRequest.headers
+(body Is None or NOT(length))
+requestsrequests.models.PreparedRequest.headers
+cookie_header Is None
+requestsrequests.models.PreparedRequest.headers
+(NOT(data) or (is_stream or (NOT(content_type) or 'content-type' In self.headers))) and (json IsNot None or (is_stream or (NOT(content_type) or 'content-type' In self.headers)))
+requestsrequests.models.PreparedRequest.headers
+(NOT(data) or (NOT(is_stream) or (files or length))) and (json IsNot None or (NOT(is_stream) or (files or length)))
+requestsrequests.models.PreparedRequest.headers
+((400 > r.status_code or r.status_code >= 500) or ('digest' NotIn s_auth.lower() or self._thread_local.num_401_calls >= 2))
+requestsrequests.models.PreparedRequest.headers
+self.total Is None
+richrich.progress.Task.total
+NOT(self.total)
+richrich.progress.Task.total
+(self.start_time Is None or self.stop_time IsNot None)
+richrich.progress.Task.start_time
+(self.start_time Is None or self.stop_time Is None)
+richrich.progress.Task.start_time
+(self.parent Is None or NOT(isinstance(self.parent.command,Command)))
+clickclick.core.Context.parent
+self.parent Is None
+clickclick.core.Context.parent
+self.parent Is None
+clickclick.core.Context.parent
+(self.start_time Is None or self.stop_time Is None)
+richrich.progress.Task.stop_time
+NOT(self.highlighter)
+richrich.progress.TextColumn.highlighter
+(ctx.protected_args or (self.invoke_without_command or NOT(self.chain))) and (NOT(ctx.protected_args) or NOT(self.chain))
+clickclick.core.Context.command
+(ctx.protected_args or (self.invoke_without_command or self.chain)) and (NOT(ctx.protected_args) or self.chain)
+clickclick.core.Context.command
+NOT(isinstance(ctx.command,MultiCommand))
+clickclick.core.Context.command
+'--' NotIn args and _start_of_option(ctx,incomplete)
+clickclick.core.Context.command
+(auto_envvar_prefix IsNot None or ((parent Is None or parent.auto_envvar_prefix Is None) or self.info_name Is None))
+clickclick.core.Context.info_name
+self.default_map Is None
+clickclick.core.Context.default_map
+(((default_map IsNot None or info_name Is None) or parent Is None) or parent.default_map Is None)
+clickclick.core.Context.default_map
+(len(state.rargs) < nargs or nargs =/= 1)
+clickclick.parser.Option.obj
+len(state.rargs) >= nargs
+clickclick.parser.Option.obj
+self._f Is None
+clickclick.utils.LazyFile._f
+self.closed
+clickclick._compat._AtomicFile._f
+self.is_hidden
+clickclick._termui_impl.ProgressBar.file
+self.is_hidden
+clickclick._termui_impl.ProgressBar.file
+(self.is_hidden or line == self._last_line)
+clickclick._termui_impl.ProgressBar.file
+(self.is_hidden or self.max_width Is None)
+clickclick._termui_impl.ProgressBar.max_width
+self.linebuffer Is None
+nltknltk.data.SeekableUnicodeStreamReader.stream
+(size == 0 or (NOT(self._bom) or self.stream.tell() =/= 0))
+nltknltk.data.SeekableUnicodeStreamReader.stream
+self.linebuffer Is None
+nltknltk.data.SeekableUnicodeStreamReader.stream
+(self.linebuffer Is None or NOT(self.DEBUG))
+nltknltk.data.SeekableUnicodeStreamReader.stream
+NOT(bom_info)
+nltknltk.data.SeekableUnicodeStreamReader.stream
+self.linebuffer Is None
+nltknltk.data.SeekableUnicodeStreamReader.stream
+self.linebuffer Is None
+nltknltk.data.SeekableUnicodeStreamReader.stream
+(self.linebuffer Is None or NOT(self.DEBUG))
+nltknltk.data.SeekableUnicodeStreamReader.stream
+(size == 0 or ((size Is None or chars) or len(new_bytes) <= 0))
+nltknltk.data.SeekableUnicodeStreamReader.stream
+whence == 1
+nltknltk.data.SeekableUnicodeStreamReader.stream
+(size == 0 or size Is None)
+nltknltk.data.SeekableUnicodeStreamReader.stream
+(size == 0 or NOT(self._bom))
+nltknltk.data.SeekableUnicodeStreamReader.stream
+self.linebuffer and len(self.linebuffer) > 1
+nltknltk.data.SeekableUnicodeStreamReader.stream
+(len(chars) > offset or len(chars) =/= offset)
+nltknltk.data.SeekableUnicodeStreamReader.stream
+NOT(bom_info)
+nltknltk.data.SeekableUnicodeStreamReader.stream
+whence == 1
+nltknltk.data.SeekableUnicodeStreamReader.stream
+(len(chars) > offset or len(chars) == offset)
+nltknltk.data.SeekableUnicodeStreamReader.stream
+(size == 0 or size IsNot None)
+nltknltk.data.SeekableUnicodeStreamReader.stream
+self.linebuffer IsNot None
+nltknltk.data.SeekableUnicodeStreamReader.stream
+(NOT(self.linebuffer) or len(self.linebuffer) <= 1)
+nltknltk.data.SeekableUnicodeStreamReader.linebuffer
+(self.linebuffer or NOT(self.linebuffer)) and (len(self.linebuffer) > 1 or NOT(self.linebuffer))
+nltknltk.data.SeekableUnicodeStreamReader.linebuffer
+NOT(self.linebuffer)
+nltknltk.data.SeekableUnicodeStreamReader.linebuffer
+self.linebuffer Is None
+nltknltk.data.SeekableUnicodeStreamReader._rewind_numchars
+NOT(resp.is_redirect)
+requestsrequests.models.Response.headers
+NOT(resp.is_redirect)
+requestsrequests.models.Response.headers
+(400 > r.status_code or r.status_code >= 500)
+requestsrequests.models.Response.headers
+resp.is_redirect
+requestsrequests.models.Response.headers
+self._known_patterns IsNot None
+isortisort.settings.Config._known_patterns
+NOT(resolution)
+nltknltk.sem.logic.ConstantExpression.type
+hasattr(self.raw,'stream')
+requestsrequests.models.Response.raw
+self._patched_response
+requestsrequests.models.Response.raw
+self._content_consumed
+requestsrequests.models.Response.raw
+len(resp.history) >= self.max_redirects
+requestsrequests.models.Response.raw
+isinstance(self.function,ConstantExpression)
+nltknltk.sem.logic.ApplicationExpression.function
+isinstance(self.function,AbstractVariableExpression)
+nltknltk.sem.logic.ApplicationExpression.function
+NOT(isinstance(self.function,ConstantExpression))
+nltknltk.sem.logic.ApplicationExpression.function
+NOT(isinstance(self.function.type,ComplexType))
+nltknltk.sem.logic.ApplicationExpression.function
+NOT(isinstance(self.reason,bytes))
+requestsrequests.models.Response.reason
+NOT(isinstance(self.reason,bytes))
+requestsrequests.models.Response.reason
+(write_to_stdout or (output IsNot None or (NOT(changed) or (show_diff or ask_to_apply)))) and (write_to_stdout or (output IsNot None or (NOT(changed) or (show_diff or ask_to_apply)))) and (write_to_stdout or (output IsNot None or (NOT(changed) or (show_diff or NOT(ask_whether_to_apply_changes_to_file(str(source_file.path)))))))
+isortisort.io.File.stream
+(write_to_stdout or (output Is None or (NOT(changed) or NOT(show_diff))))
+isortisort.io.File.stream
+(write_to_stdout or output Is None)
+isortisort.io.File.stream
+(write_to_stdout or (output IsNot None or (NOT(changed) or NOT(show_diff)))) and (write_to_stdout or (output IsNot None or (NOT(changed) or NOT(ask_to_apply))))
+isortisort.io.File.stream
+(write_to_stdout or (output IsNot None or (NOT(changed) or NOT(show_diff)))) and (write_to_stdout or (output IsNot None or (NOT(changed) or NOT(ask_to_apply))))
+isortisort.io.File.stream
+(write_to_stdout or (output Is None or (NOT(changed) or NOT(show_diff))))
+isortisort.io.File.stream
+NOT(self.mapping)
+isortisort.deprecated.finders.RequirementsFinder.mapping
+(NOT(isinstance(function,LambdaExpression)) or NOT(isinstance(function.term,ApplicationExpression)))
+nltknltk.sem.logic.LambdaExpression.term
+self.variable == variable
+nltknltk.sem.logic.LambdaExpression.term
+(NOT(isinstance(self,other.__class__)) or self.variable == other.variable) and (NOT(isinstance(other,self.__class__)) or self.variable == other.variable)
+nltknltk.sem.logic.LambdaExpression.term
+(self.variable =/= variable or NOT(replace_bound))
+nltknltk.sem.logic.LambdaExpression.term
+NOT(isinstance(function,LambdaExpression))
+nltknltk.sem.logic.LambdaExpression.term
+variable == self.variable
+nltknltk.sem.logic.LambdaExpression.term
+NOT(resolution)
+nltknltk.sem.logic.FunctionVariableExpression.type
+NOT(other_type.matches(TRUTH_TYPE))
+nltknltk.sem.logic.ExistsExpression.term
+self.variable == variable
+nltknltk.sem.logic.ExistsExpression.term
+(NOT(isinstance(self,other.__class__)) or self.variable == other.variable) and (NOT(isinstance(other,self.__class__)) or self.variable == other.variable)
+nltknltk.sem.logic.ExistsExpression.term
+(self.variable =/= variable or NOT(replace_bound))
+nltknltk.sem.logic.ExistsExpression.term
+variable == self.variable
+nltknltk.sem.logic.ExistsExpression.term
+NOT(other_type.matches(TRUTH_TYPE))
+nltknltk.sem.logic.AndExpression.first
+NOT(other_type.matches(TRUTH_TYPE))
+nltknltk.sem.logic.AndExpression.second
+hasattr(self,'_most_informative_features')
+nltknltk.classify.naivebayes.NaiveBayesClassifier._most_informative_features
+self._fname Is None
+nltknltk.classify.decisiontree.DecisionTreeClassifier._decisions
+(len(labeled_featuresets) <= support_cutoff or (self._fname Is None or (depth_cutoff <= 0 or entropy(MLEProbDist(label_freqs)) <= entropy_cutoff)))
+nltknltk.classify.decisiontree.DecisionTreeClassifier._decisions
+(self._fname Is None or fval NotIn self._decisions)
+nltknltk.classify.decisiontree.DecisionTreeClassifier._decisions
+self._decisions Is None
+nltknltk.classify.decisiontree.DecisionTreeClassifier._decisions
+(set(mapping.values()) =/= set(range(len(mapping))) or NOT(alwayson_features))
+nltknltk.classify.maxent.BinaryMaxentFeatureEncoding._alwayson
+(NOT(self._alwayson) or label NotIn self._alwayson)
+nltknltk.classify.maxent.BinaryMaxentFeatureEncoding._alwayson
+(NOT(self._alwayson) or label NotIn self._alwayson)
+nltknltk.classify.maxent.TypedMaxentFeatureEncoding._alwayson
+(set(mapping.values()) =/= set(range(len(mapping))) or NOT(alwayson_features))
+nltknltk.classify.maxent.TypedMaxentFeatureEncoding._alwayson
+NOT(line.strip())
+nltknltk.tokenize.punkt.PunktSentenceTokenizer._lang_vars
+NOT(tokens)
+nltknltk.tokenize.punkt.PunktSentenceTokenizer._lang_vars
+self._stream Is None
+nltknltk.corpus.reader.util.StreamBackedCorpusView._stream
+((400 > r.status_code or r.status_code >= 500) or ('digest' NotIn s_auth.lower() or self._thread_local.num_401_calls >= 2))
+requestsrequests.models.Response.request
+'Authorization' NotIn headers
+requestsrequests.models.Response.request
+(self._open_piece Is piece or self._open_piece Is None)
+nltknltk.corpus.reader.util.ConcatenatedCorpusView._open_piece
+((400 > r.status_code or r.status_code >= 500) or ('digest' NotIn s_auth.lower() or self._thread_local.num_401_calls >= 2))
+requestsrequests.models.Response.connection
+self._stream Is None
+nltknltk.corpus.reader.tagged.TaggedCorpusView._stream
+isinstance(self.function,ConstantExpression)
+nltknltk.sem.drt.DrtApplicationExpression.function
+NOT(recursive)
+nltknltk.sem.drt.DrtApplicationExpression.function
+isinstance(self.function,AbstractVariableExpression)
+nltknltk.sem.drt.DrtApplicationExpression.function
+NOT(isinstance(self.function,ConstantExpression))
+nltknltk.sem.drt.DrtApplicationExpression.function
+NOT(recursive)
+nltknltk.sem.drt.DrtApplicationExpression.argument
+(NOT(isinstance(expression,ApplicationExpression)) or NOT(expression.is_pronoun_function()))
+nltknltk.sem.drt.DrtApplicationExpression.argument
+environment.line_statement_prefix Is None
+jinjajinja2.environment.Environment.line_statement_prefix
+environment.line_comment_prefix Is None
+jinjajinja2.environment.Environment.line_comment_prefix
+NOT(self.consequent)
+nltknltk.sem.drt.DRS.consequent
+(NOT(recursive) or NOT(self.consequent))
+nltknltk.sem.drt.DRS.consequent
+NOT(self.consequent)
+nltknltk.sem.drt.DRS.consequent
+(variable In self.refs or NOT(self.consequent))
+nltknltk.sem.drt.DRS.consequent
+(NOT(self.consequent) or NOT(accum))
+nltknltk.sem.drt.DRS.consequent
+NOT(drs.consequent)
+nltknltk.sem.drt.DRS.consequent
+(variable NotIn self.refs or (NOT(replace_bound) or NOT(self.consequent)))
+nltknltk.sem.drt.DRS.consequent
+(self.loader Is None or self.cache IsNot None) and (self.loader Is None or template IsNot None) and (self.loader Is None or (NOT(self.auto_reload) or template.is_up_to_date))
+jinjajinja2.environment.Environment.loader
+NOT(ignore_errors)
+jinjajinja2.environment.Environment.loader
+(self.loader Is None or self.cache Is None)
+jinjajinja2.environment.Environment.cache
+(self.loader Is None or (self.cache Is None or (template IsNot None or self.cache Is None))) and (self.loader Is None or (self.cache Is None or ((NOT(self.auto_reload) or template.is_up_to_date) or self.cache Is None))) and (self.loader Is None or (self.cache IsNot None or self.cache Is None))
+jinjajinja2.environment.Environment.cache
+(NOT(accessible_vars) or NOT(bv_available))
+nltknltk.sem.logic.AllExpression.term
+(NOT(isinstance(self,other.__class__)) or self.variable == other.variable) and (NOT(isinstance(other,self.__class__)) or self.variable == other.variable)
+nltknltk.sem.logic.AllExpression.term
+self.variable == variable
+nltknltk.sem.logic.AllExpression.term
+NOT(accessible_vars)
+nltknltk.sem.logic.AllExpression._used_vars
+NOT(isinstance(function,LambdaExpression))
+nltknltk.sem.drt.DrtLambdaExpression.term
+self.variable == variable
+nltknltk.sem.drt.DrtLambdaExpression.term
+((NOT(isinstance(cond,EqualityExpression)) or NOT(isinstance(cond.first,AbstractVariableExpression))) or NOT(isinstance(cond.second,AbstractVariableExpression)))
+nltknltk.sem.drt.DrtEqualityExpression.second
+((NOT(isinstance(cond,EqualityExpression)) or NOT(isinstance(cond.first,AbstractVariableExpression))) or NOT(isinstance(cond.second,AbstractVariableExpression)))
+nltknltk.sem.drt.DrtEqualityExpression.second
+(((NOT(isinstance(cond,EqualityExpression)) or NOT(isinstance(cond.first,AbstractVariableExpression))) or NOT(isinstance(cond.second,AbstractVariableExpression))) or cond.second.variable == cond.first.variable)
+nltknltk.sem.drt.DrtEqualityExpression.second
+NOT(recursive)
+nltknltk.sem.drt.DrtEqualityExpression.second
+NOT(isinstance(node.node,nodes.Name))
+jinjajinja2.nodes.Call.node
+(eval_ctx.volatile or ((func Is None or pass_arg Is _PassArg.context) or eval_ctx.environment.is_async)) and (eval_ctx.volatile or ((func Is None or pass_arg Is _PassArg.context) or (getattr(func,'jinja_async_variant',False) Is True or inspect.iscoroutinefunction(func))))
+jinjajinja2.nodes.Filter.node
+NOT(other_type.matches(TRUTH_TYPE))
+nltknltk.sem.logic.NegatedExpression.term
+NOT(other_type.matches(TRUTH_TYPE))
+nltknltk.sem.logic.IffExpression.first
+NOT(other_type.matches(TRUTH_TYPE))
+nltknltk.sem.logic.IffExpression.second
+(isinstance(a,NegatedExpression) or (isinstance(a,ApplicationExpression) or (isinstance(a,EqualityExpression) or NOT(isinstance(b,EqualityExpression))))) and (isinstance(a,NegatedExpression) or (isinstance(b,NegatedExpression) or (isinstance(a,EqualityExpression) or NOT(isinstance(b,EqualityExpression))))) and (isinstance(b,ApplicationExpression) or (isinstance(a,ApplicationExpression) or (isinstance(a,EqualityExpression) or NOT(isinstance(b,EqualityExpression))))) and (isinstance(b,ApplicationExpression) or (isinstance(b,NegatedExpression) or (isinstance(a,EqualityExpression) or NOT(isinstance(b,EqualityExpression)))))
+nltknltk.sem.logic.EqualityExpression.first
+NOT(other_type.matches(TRUTH_TYPE))
+nltknltk.sem.logic.EqualityExpression.first
+NOT(other_type.matches(TRUTH_TYPE))
+nltknltk.sem.logic.EqualityExpression.second
+self == ANY_TYPE
+nltknltk.sem.logic.ComplexType.first
+self == ANY_TYPE
+nltknltk.sem.logic.ComplexType.second
+(self._chart Is None or self._trace <= 0)
+nltknltk.parse.chart.SteppingChartParser._chart
+self._chart Is None
+nltknltk.parse.chart.SteppingChartParser._chart
+language NotIn self.languages
+nltknltk.stem.snowball.SnowballStemmer.stemmer
+language NotIn self.languages
+nltknltk.stem.snowball.SnowballStemmer.stemmer
+NOT(line.strip())
+nltknltk.tokenize.punkt.PunktBaseClass._lang_vars
+(i == 0 or (NOT(alignment_info.is_head_word(j)) or previous_cept Is None))
+nltknltk.translate.ibm_model.AlignmentInfo.src_sentence
+(probability < MIN_PROB or (probability < MIN_PROB or (probability < MIN_PROB or probability < MIN_PROB)))
+nltknltk.translate.ibm_model.AlignmentInfo.src_sentence
+tablet_length == 0
+nltknltk.translate.ibm_model.AlignmentInfo.trg_sentence
+(tablet_length == 0 or (value < MIN_PROB or value < MIN_PROB))
+nltknltk.translate.ibm_model.AlignmentInfo.trg_sentence
+(probability < MIN_PROB or (probability < MIN_PROB or (probability < MIN_PROB or probability < MIN_PROB)))
+nltknltk.translate.ibm_model.AlignmentInfo.trg_sentence
+(probability < MIN_PROB or (probability < MIN_PROB or probability < MIN_PROB))
+nltknltk.translate.ibm_model.AlignmentInfo.trg_sentence
+tablet_position == 0
+nltknltk.translate.ibm_model.AlignmentInfo.cepts
+i Is None
+nltknltk.translate.ibm_model.AlignmentInfo.cepts
+(i == 0 or (NOT(alignment_info.is_head_word(j)) or previous_cept Is None))
+nltknltk.translate.ibm4.IBMModel4.src_classes
+(i == 0 or alignment_info.is_head_word(j))
+nltknltk.translate.ibm4.IBMModel4.trg_classes
+(i == 0 or NOT(alignment_info.is_head_word(j)))
+nltknltk.translate.ibm4.IBMModel4.trg_classes
+(tablet_length == 0 or (value < MIN_PROB or value < MIN_PROB))
+nltknltk.translate.ibm5.IBMModel5.trg_classes
+tablet_length == 0
+nltknltk.translate.ibm5.IBMModel5.trg_classes
+j == j_pegged
+nltknltk.translate.ibm_model.IBMModel.translation_table
+phrase NotIn self.phrase_table
+nltknltk.translate.stack_decoder.StackDecoder.phrase_table
+phrase NotIn self.phrase_table
+nltknltk.translate.stack_decoder.StackDecoder.language_model
+frame.toplevel and self.has_known_extends
+jinjajinja2.compiler.CodeGenerator.environment
+self._finalize IsNot None
+jinjajinja2.compiler.CodeGenerator.environment
+NOT(self.environment.sandboxed)
+jinjajinja2.compiler.CodeGenerator.environment
+NOT(self.environment.sandboxed)
+jinjajinja2.compiler.CodeGenerator.environment
+node.recursive
+jinjajinja2.compiler.CodeGenerator.environment
+isinstance(node.arg,nodes.Slice)
+jinjajinja2.compiler.CodeGenerator.environment
+NOT(is_filter)
+jinjajinja2.compiler.CodeGenerator.environment
+NOT(node.recursive)
+jinjajinja2.compiler.CodeGenerator.environment
+NOT(have_extends)
+jinjajinja2.compiler.CodeGenerator.environment
+is_filter
+jinjajinja2.compiler.CodeGenerator.environment
+node.with_context
+jinjajinja2.compiler.CodeGenerator.environment
+isinstance(node.arg,nodes.Slice)
+jinjajinja2.compiler.CodeGenerator.environment
+(self._finalize IsNot None or NOT(self.environment.finalize))
+jinjajinja2.compiler.CodeGenerator.environment
+node.recursive
+jinjajinja2.compiler.CodeGenerator.environment
+NOT(node.recursive)
+jinjajinja2.compiler.CodeGenerator.environment
+(self.optimizer Is None or frame.eval_ctx.volatile)
+jinjajinja2.compiler.CodeGenerator.optimizer
+name NotIn formatted_fields
+pelicanpelican.readers.MarkdownReader._md
+(eval_ctx.volatile or NOT(self._is_filter))
+jinjajinja2.nodes.EvalContext.environment
+NOT(eval_ctx.environment.sandboxed)
+jinjajinja2.nodes.EvalContext.environment
+(eval_ctx.volatile or (func Is None or pass_arg Is _PassArg.context))
+jinjajinja2.nodes.EvalContext.environment
+NOT(eval_ctx.environment.sandboxed)
+jinjajinja2.nodes.EvalContext.environment
+(eval_ctx.volatile or self._is_filter)
+jinjajinja2.nodes.EvalContext.environment
+(name In self.refs or self.parent Is None)
+jinjajinja2.idtracking.Symbols.parent
+(name In self.refs or self.parent Is None)
+jinjajinja2.idtracking.Symbols.parent
+self.parent Is None
+jinjajinja2.idtracking.Symbols.parent
+(target In self.loads or self.parent Is None)
+jinjajinja2.idtracking.Symbols.parent
+body_stream IsNot None
+jinjajinja2.runtime.Context.environment
+(self.optimizer Is None or frame.eval_ctx.volatile)
+jinjajinja2.meta.TrackingCodeGenerator.optimizer
+NOT(frame.toplevel)
+jinjajinja2.nodes.Macro.name
+('caller' NotIn undeclared or explicit_caller Is None)
+jinjajinja2.nodes.Macro.args
+('caller' NotIn undeclared or explicit_caller Is None)
+jinjajinja2.nodes.Macro.defaults
+NOT(isinstance(node.template,nodes.Const))
+jinjajinja2.nodes.Include.template
+(self.stream.current.type =/= 'name' or NOT(self.stream.skip_if('name:as')))
+jinjajinja2.nodes.FromImport.names
+(self.stream.current.type =/= 'name' or self.stream.skip_if('name:as'))
+jinjajinja2.nodes.FromImport.names
+NOT(frame.toplevel)
+jinjajinja2.nodes.Import.target
+self._length IsNot None
+jinjajinja2.runtime.LoopContext._iterable
+(eval_ctx.volatile or ((func Is None or pass_arg Is _PassArg.context) or eval_ctx.environment.is_async)) and (eval_ctx.volatile or ((func Is None or pass_arg Is _PassArg.context) or (getattr(func,'jinja_async_variant',False) Is True or inspect.iscoroutinefunction(func))))
+jinjajinja2.nodes.Test.node
+NOT(self.test.as_const(eval_ctx))
+jinjajinja2.nodes.CondExpr.expr1
+((NOT(self.caller) or found_caller) or caller IsNot None)
+jinjajinja2.runtime.Macro._environment
+NOT(token.test('name:elif'))
+jinjajinja2.nodes.If.elif_
+(self.optimizer Is None or frame.eval_ctx.volatile)
+jinjajinja2.nativetypes.NativeCodeGenerator.optimizer
+(self._archive Is None or NOT(hasattr(self._loader,'_files')))
+jinjajinja2.loaders.PackageLoader._loader
+(self._archive Is None or NOT(hasattr(self._loader,'_files')))
+jinjajinja2.loaders.PackageLoader._archive
+NOT(self.left.as_const(eval_ctx))
+jinjajinja2.nodes.And.right
+self.left.as_const(eval_ctx)
+jinjajinja2.nodes.Or.right
+NOT(hasattr(self._md,'Meta'))
+pelicanpelican.readers.MarkdownReader._md
+name NotIn formatted_fields
+pelicanpelican.readers.MarkdownReader._md
+NOT(hasattr(self,'category'))
+pelicanpelican.contents.Article.category
+NOT(hasattr(self._md,'Meta'))
+pelicanpelican.readers.MarkdownReader._md
+name NotIn formatted_fields
+pelicanpelican.readers.MarkdownReader._md
+name NotIn formatted_fields
+pelicanpelican.readers.MarkdownReader._md
+NOT(hasattr(self,'category'))
+pelicanpelican.contents.Article.category

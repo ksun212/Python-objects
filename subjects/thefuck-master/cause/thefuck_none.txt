@@ -1,0 +1,192 @@
+ /home/user/thefuck-master/thefuck/utils.py-get_value-260
+thefuck.utils.Cache._db
+        if self._db.get(key, {}).get('etag') == etag:
+{'tests.test_utils._Shelve', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/utils.py-get_value-261
+thefuck.utils.Cache._db
+            return self._db[key]['value']
+{'tests.test_utils._Shelve', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/utils.py-_setup_db-224
+thefuck.utils.Cache._db
+        atexit.register(self._db.close)
+{'tests.test_utils._Shelve', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/utils.py-get_value-264
+thefuck.utils.Cache._db
+            self._db[key] = {'etag': etag, 'value': value}
+{'tests.test_utils._Shelve', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/terraform_init.py-match-8
+thefuck.types.Command.output
+            'initialization required' in command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/apt_invalid_operation.py-get_new_command-56
+thefuck.types.Command.output
+    invalid_operation = command.output.split()[-1]
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/vagrant_up.py-match-7
+thefuck.types.Command.output
+    return 'run `vagrant up`' in command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/git_rebase_merge_dir.py-get_new_command-15
+thefuck.types.Command.output
+    rm_cmd = command.output.split('\n')[-4]
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/terraform_init.py-match-7
+thefuck.types.Command.output
+    return ('this module is not yet installed' in command.output.lower() or
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/git_two_dashes.py-get_new_command-13
+thefuck.types.Command.output
+    to = command.output.split('`')[1]
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/cat_dir.py-match-8
+thefuck.types.Command.output
+        command.output.startswith('cat: ') and
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/man.py-get_new_command-20
+thefuck.types.Command.output
+    if command.output.strip() == 'No manual entry for ' + last_arg:
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/ln_no_hard_link.py-match-17
+thefuck.types.Command.output
+    return (command.output.endswith("hard link not allowed for directory") and
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/open.py-match-28
+thefuck.types.Command.output
+            command.output.strip().startswith('The file ') and
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/composer_not_command.py-get_new_command-14
+thefuck.types.Command.output
+    if "install" in command.script_parts and "composer require" in command.output.lower():
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/composer_not_command.py-match-9
+thefuck.types.Command.output
+        "install" in command.script_parts and "composer require" in command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/cd_mkdir.py-match-12
+thefuck.types.Command.output
+            'no such file or directory' in command.output.lower(),
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/open.py-match-29
+thefuck.types.Command.output
+            command.output.strip().endswith(' does not exist.'))
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/pacman_invalid_option.py-match-10
+thefuck.types.Command.output
+    return command.output.startswith("error: invalid option '-") and any(
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/fix_alt_space.py-match-9
+thefuck.types.Command.output
+    return ('command not found' in command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/cd_mkdir.py-match-14
+thefuck.types.Command.output
+            'does not exist' in command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/git_pull.py-get_new_command-12
+thefuck.types.Command.output
+    line = command.output.split('\n')[-3].strip()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/git_help_aliased.py-get_new_command-11
+thefuck.types.Command.output
+    aliased = command.output.split('`', 2)[2].split("'", 1)[0].split(' ', 1)[0]
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/cp_omitting_directory.py-match-9
+thefuck.types.Command.output
+    output = command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/adb_unknown_command.py-match-45
+thefuck.types.Command.output
+            and command.output.startswith('Android Debug Bridge version'))
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/apt_upgrade.py-match-11
+thefuck.types.Command.output
+    return command.script == "apt list --upgradable" and len(command.output.strip().split('\n')) > 1
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/ag_literal.py-match-6
+thefuck.types.Command.output
+    return command.output.endswith('run ag with -Q\n')
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/grep_recursive.py-match-6
+thefuck.types.Command.output
+    return 'is a directory' in command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/rm_dir.py-match-8
+thefuck.types.Command.output
+            and 'is a directory' in command.output.lower())
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/unsudo.py-match-9
+thefuck.types.Command.output
+        if pattern in command.output.lower():
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/ls_all.py-match-6
+thefuck.types.Command.output
+    return command.output.strip() == ''
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/cd_mkdir.py-match-13
+thefuck.types.Command.output
+            'cd: can\'t cd to' in command.output.lower(),
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/cp_create_destination.py-match-10
+thefuck.types.Command.output
+        and command.output.rstrip().endswith("does not exist")
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/composer_not_command.py-match-7
+thefuck.types.Command.output
+    return (('did you mean this?' in command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/docker_image_being_used_by_container.py-get_new_command-19
+thefuck.types.Command.output
+    container_id = command.output.strip().split(' ')
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/cd_correction.py-match-26
+thefuck.types.Command.output
+            'cd: can\'t cd to' in command.output.lower(),
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/sudo.py-match-36
+thefuck.types.Command.output
+        if pattern in command.output.lower():
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/cargo_no_command.py-match-7
+thefuck.types.Command.output
+    return ('no such subcommand' in command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/dnf_no_such_command.py-match-14
+thefuck.types.Command.output
+    return 'no such command' in command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/cd_correction.py-match-25
+thefuck.types.Command.output
+            'no such file or directory' in command.output.lower(),
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/cd_correction.py-match-27
+thefuck.types.Command.output
+            'does not exist' in command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/open.py-get_new_command-34
+thefuck.types.Command.output
+    output = command.output.strip()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/man_no_space.py-match-3
+thefuck.types.Command.output
+            and u'command not found' in command.output.lower())
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/ifconfig_device_not_found.py-get_new_command-21
+thefuck.types.Command.output
+    interface = command.output.split(' ')[0][:-1]
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/cp_create_destination.py-match-9
+thefuck.types.Command.output
+        or command.output.startswith("cp: directory")
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/chmod_x.py-match-7
+thefuck.types.Command.output
+            and 'permission denied' in command.output.lower()
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/docker_not_command.py-get_new_command-44
+thefuck.types.Command.output
+        management_subcommands = _parse_commands(command.output.split('\n'), 'Commands:')
+{'builtins.str', 'builtins.NoneType'}
+ /home/user/thefuck-master/thefuck/rules/composer_not_command.py-match-8
+thefuck.types.Command.output
+             or 'did you mean one of these?' in command.output.lower())) or (
+{'builtins.str', 'builtins.NoneType'}
